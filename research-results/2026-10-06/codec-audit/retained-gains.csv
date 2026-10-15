@@ -1,0 +1,4 @@
+file,original_bytes,previous_best_ivo_bytes,integrated_ivo_bytes,additional_gain_percent
+av-poc0-24000.mp4,58028,56153,50867,9.413566505796663
+speech-22050.mp4,96397,91889,87874,4.3694022135402495
+speech-24000.mp4,96330,91673,88007,3.9989964329737218

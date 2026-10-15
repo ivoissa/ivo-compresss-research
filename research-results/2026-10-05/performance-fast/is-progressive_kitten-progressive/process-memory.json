@@ -1,0 +1,10 @@
+{
+  "sampled_process_rss_peak_bytes": 595144704,
+  "sampling_interval_ms": 200,
+  "scope": "actual JVM host PID identified by comm and exact benchmark arguments",
+  "elapsed_seconds": 44.65682267200009,
+  "partial_start": false,
+  "observations": 221,
+  "host_pid": 2383,
+  "valid_jvm_identification": true
+}

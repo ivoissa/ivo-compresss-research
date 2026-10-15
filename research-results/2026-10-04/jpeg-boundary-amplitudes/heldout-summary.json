@@ -1,0 +1,114 @@
+[
+  {
+    "source": "Canon_40D_photoshop_import.jpg",
+    "previous_v15_bytes": 9759,
+    "best_trial_bytes": 9911,
+    "retained_bytes": 9759,
+    "gain_bytes": 0,
+    "mode": 5
+  },
+  {
+    "source": "Canon_PowerShot_S40.jpg",
+    "previous_v15_bytes": 31768,
+    "best_trial_bytes": 31740,
+    "retained_bytes": 31740,
+    "gain_bytes": 28,
+    "mode": 5
+  },
+  {
+    "source": "Fujifilm_FinePix6900ZOOM.jpg",
+    "previous_v15_bytes": 4242,
+    "best_trial_bytes": 4545,
+    "retained_bytes": 4242,
+    "gain_bytes": 0,
+    "mode": 5
+  },
+  {
+    "source": "Fujifilm_FinePix_E500.jpg",
+    "previous_v15_bytes": 1954,
+    "best_trial_bytes": 2226,
+    "retained_bytes": 1954,
+    "gain_bytes": 0,
+    "mode": 5
+  },
+  {
+    "source": "Kodak_CX7530.jpg",
+    "previous_v15_bytes": 6017,
+    "best_trial_bytes": 6368,
+    "retained_bytes": 6017,
+    "gain_bytes": 0,
+    "mode": 5
+  },
+  {
+    "source": "Konica_Minolta_DiMAGE_Z3.jpg",
+    "previous_v15_bytes": 11057,
+    "best_trial_bytes": 11356,
+    "retained_bytes": 11057,
+    "gain_bytes": 0,
+    "mode": 5
+  },
+  {
+    "source": "Nikon_COOLPIX_P1.jpg",
+    "previous_v15_bytes": 5969,
+    "best_trial_bytes": 6279,
+    "retained_bytes": 5969,
+    "gain_bytes": 0,
+    "mode": 5
+  },
+  {
+    "source": "Olympus_C8080WZ.jpg",
+    "previous_v15_bytes": 3041,
+    "best_trial_bytes": 3353,
+    "retained_bytes": 3041,
+    "gain_bytes": 0,
+    "mode": 5
+  },
+  {
+    "source": "PaintTool_sample.jpg",
+    "previous_v15_bytes": 5801,
+    "best_trial_bytes": 6178,
+    "retained_bytes": 5801,
+    "gain_bytes": 0,
+    "mode": 5
+  },
+  {
+    "source": "Panasonic_DMC-FZ30.jpg",
+    "previous_v15_bytes": 8614,
+    "best_trial_bytes": 8847,
+    "retained_bytes": 8614,
+    "gain_bytes": 0,
+    "mode": 5
+  },
+  {
+    "source": "gps_DSCN0010.jpg",
+    "previous_v15_bytes": 142293,
+    "best_trial_bytes": 142224,
+    "retained_bytes": 142224,
+    "gain_bytes": 69,
+    "mode": 5
+  },
+  {
+    "source": "gps_DSCN0012.jpg",
+    "previous_v15_bytes": 143797,
+    "best_trial_bytes": 143724,
+    "retained_bytes": 143724,
+    "gain_bytes": 73,
+    "mode": 5
+  },
+  {
+    "source": "mobile_HMD_Nokia_8.3_5G.jpg",
+    "previous_v15_bytes": 1792138,
+    "best_trial_bytes": 1789947,
+    "retained_bytes": 1789947,
+    "gain_bytes": 2191,
+    "mode": 5
+  },
+  {
+    "source": "mobile_HMD_Nokia_8.3_5G_hdr.jpg",
+    "previous_v15_bytes": 4229822,
+    "best_trial_bytes": 4224993,
+    "retained_bytes": 4224993,
+    "gain_bytes": 4829,
+    "mode": 5
+  }
+]

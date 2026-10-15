@@ -1,0 +1,9 @@
+java=17.0.20+8-1-24.04-Ubuntu
+flags=[-Xms64m, -Xmx2g, -XX:+UseG1GC]
+archive=research-results/2026-10-05/performance-fast/whatsapp/fast.ivo
+original=/workspace/scratch/9c62166e5fd0/integration-inputs/VID-20260930-WA0003.mp4
+old_classes=/tmp/ivo-v28-reference-classes
+new_classes=target/classes
+new_mode=default
+warmups=1
+repetitions=3

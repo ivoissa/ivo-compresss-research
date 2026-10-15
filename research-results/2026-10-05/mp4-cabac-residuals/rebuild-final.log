@@ -1,0 +1,10 @@
+make: Entering directory '/tmp/ivo-residual23/ffmpeg-6.1.1'
+CC	libavcodec/h264_cabac.o
+libavcodec/h264_cabac.c: In function ‘ff_h264_decode_mb_cabac’:
+libavcodec/h264_cabac.c:1936:5: warning: ISO C90 forbids mixed declarations and code [-Wdeclaration-after-statement]
+ 1936 |     const SPS *sps = h->ps.sps;
+      |     ^~~~~
+AR	libavcodec/libavcodec.a
+LD	ffmpeg_g
+STRIP	ffmpeg
+make: Leaving directory '/tmp/ivo-residual23/ffmpeg-6.1.1'

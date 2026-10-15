@@ -1,0 +1,118 @@
+FILE MEANDR_PHASE0.mp3
+RESULT scheme=0 original=4001280 ivo=3795012 exact=true sha=55d7dd3b6cbdb82e5eae523e23f155040a13ce0be159140e93de590efdce7b0c ms=1605
+SPECTRAL Stats[parts=16672, pairs=4792599, quads=1737, scalefactorBits=263381, residualBits=0, unusedBits=23043, bigHash=-1871879981512468986, quadHash=1449933250031930564]
+RESULT scheme=1 original=4001280 ivo=3801341 exact=true sha=55d7dd3b6cbdb82e5eae523e23f155040a13ce0be159140e93de590efdce7b0c ms=1410
+SPECTRAL Stats[parts=16672, pairs=4792599, quads=1737, scalefactorBits=263381, residualBits=0, unusedBits=23043, bigHash=-1871879981512468986, quadHash=1449933250031930564]
+RESULT scheme=2 original=4001280 ivo=3804968 exact=true sha=55d7dd3b6cbdb82e5eae523e23f155040a13ce0be159140e93de590efdce7b0c ms=1702
+SPECTRAL Stats[parts=16672, pairs=4792599, quads=1737, scalefactorBits=263381, residualBits=0, unusedBits=23043, bigHash=-1871879981512468986, quadHash=1449933250031930564]
+RESULT scheme=3 original=4001280 ivo=3807939 exact=true sha=55d7dd3b6cbdb82e5eae523e23f155040a13ce0be159140e93de590efdce7b0c ms=1347
+SPECTRAL Stats[parts=16672, pairs=4792599, quads=1737, scalefactorBits=263381, residualBits=0, unusedBits=23043, bigHash=-1871879981512468986, quadHash=1449933250031930564]
+FILE MIPSTest.mp3
+RESULT scheme=0 original=328320 ivo=314563 exact=true sha=197265fa09d1b6777b71269d986055035f3e9e1f4d74e4cbaa0e55034447a9ca ms=112
+SPECTRAL Stats[parts=1368, pairs=393296, quads=153, scalefactorBits=21907, residualBits=0, unusedBits=5455, bigHash=121488091691856870, quadHash=-3467438108158253616]
+RESULT scheme=1 original=328320 ivo=315779 exact=true sha=197265fa09d1b6777b71269d986055035f3e9e1f4d74e4cbaa0e55034447a9ca ms=109
+SPECTRAL Stats[parts=1368, pairs=393296, quads=153, scalefactorBits=21907, residualBits=0, unusedBits=5455, bigHash=121488091691856870, quadHash=-3467438108158253616]
+RESULT scheme=2 original=328320 ivo=317414 exact=true sha=197265fa09d1b6777b71269d986055035f3e9e1f4d74e4cbaa0e55034447a9ca ms=111
+SPECTRAL Stats[parts=1368, pairs=393296, quads=153, scalefactorBits=21907, residualBits=0, unusedBits=5455, bigHash=121488091691856870, quadHash=-3467438108158253616]
+RESULT scheme=3 original=328320 ivo=316925 exact=true sha=197265fa09d1b6777b71269d986055035f3e9e1f4d74e4cbaa0e55034447a9ca ms=105
+SPECTRAL Stats[parts=1368, pairs=393296, quads=153, scalefactorBits=21907, residualBits=0, unusedBits=5455, bigHash=121488091691856870, quadHash=-3467438108158253616]
+FILE generated-22050-1.mp3
+RESULT scheme=0 original=16762 ivo=8677 exact=true sha=9813703e0df7dceb1910175fba04c748bb05aa3dc6d6a9a40cb52617fcec5646 ms=3
+SPECTRAL Stats[parts=80, pairs=4435, quads=6787, scalefactorBits=930, residualBits=0, unusedBits=60134, bigHash=-3551310600186668328, quadHash=8424795978452262236]
+RESULT scheme=1 original=16762 ivo=8701 exact=true sha=9813703e0df7dceb1910175fba04c748bb05aa3dc6d6a9a40cb52617fcec5646 ms=2
+SPECTRAL Stats[parts=80, pairs=4435, quads=6787, scalefactorBits=930, residualBits=0, unusedBits=60134, bigHash=-3551310600186668328, quadHash=8424795978452262236]
+RESULT scheme=2 original=16762 ivo=8862 exact=true sha=9813703e0df7dceb1910175fba04c748bb05aa3dc6d6a9a40cb52617fcec5646 ms=2
+SPECTRAL Stats[parts=80, pairs=4435, quads=6787, scalefactorBits=930, residualBits=0, unusedBits=60134, bigHash=-3551310600186668328, quadHash=8424795978452262236]
+RESULT scheme=3 original=16762 ivo=8749 exact=true sha=9813703e0df7dceb1910175fba04c748bb05aa3dc6d6a9a40cb52617fcec5646 ms=2
+SPECTRAL Stats[parts=80, pairs=4435, quads=6787, scalefactorBits=930, residualBits=0, unusedBits=60134, bigHash=-3551310600186668328, quadHash=8424795978452262236]
+FILE generated-22050-2.mp3
+RESULT scheme=0 original=16762 ivo=7680 exact=true sha=c3f400dc8b3483f22ac3284912274bee16e42b51f103930eb79d85e897198c19 ms=2
+SPECTRAL Stats[parts=160, pairs=3856, quads=6869, scalefactorBits=1158, residualBits=0, unusedBits=66497, bigHash=7388016832237615661, quadHash=2530136472902440170]
+RESULT scheme=1 original=16762 ivo=7704 exact=true sha=c3f400dc8b3483f22ac3284912274bee16e42b51f103930eb79d85e897198c19 ms=2
+SPECTRAL Stats[parts=160, pairs=3856, quads=6869, scalefactorBits=1158, residualBits=0, unusedBits=66497, bigHash=7388016832237615661, quadHash=2530136472902440170]
+RESULT scheme=2 original=16762 ivo=7813 exact=true sha=c3f400dc8b3483f22ac3284912274bee16e42b51f103930eb79d85e897198c19 ms=2
+SPECTRAL Stats[parts=160, pairs=3856, quads=6869, scalefactorBits=1158, residualBits=0, unusedBits=66497, bigHash=7388016832237615661, quadHash=2530136472902440170]
+RESULT scheme=3 original=16762 ivo=7752 exact=true sha=c3f400dc8b3483f22ac3284912274bee16e42b51f103930eb79d85e897198c19 ms=3
+SPECTRAL Stats[parts=160, pairs=3856, quads=6869, scalefactorBits=1158, residualBits=0, unusedBits=66497, bigHash=7388016832237615661, quadHash=2530136472902440170]
+FILE generated-44100-1.mp3
+RESULT scheme=0 original=33062 ivo=13474 exact=true sha=d4f398cbd10b9aee9d760b536f484686cda8782a139aa15c86be7304d6879d3d ms=3
+SPECTRAL Stats[parts=158, pairs=10738, quads=7910, scalefactorBits=666, residualBits=0, unusedBits=143447, bigHash=4397708503354904676, quadHash=5805590168798025040]
+RESULT scheme=1 original=33062 ivo=13498 exact=true sha=d4f398cbd10b9aee9d760b536f484686cda8782a139aa15c86be7304d6879d3d ms=2
+SPECTRAL Stats[parts=158, pairs=10738, quads=7910, scalefactorBits=666, residualBits=0, unusedBits=143447, bigHash=4397708503354904676, quadHash=5805590168798025040]
+RESULT scheme=2 original=33062 ivo=13515 exact=true sha=d4f398cbd10b9aee9d760b536f484686cda8782a139aa15c86be7304d6879d3d ms=2
+SPECTRAL Stats[parts=158, pairs=10738, quads=7910, scalefactorBits=666, residualBits=0, unusedBits=143447, bigHash=4397708503354904676, quadHash=5805590168798025040]
+RESULT scheme=3 original=33062 ivo=13916 exact=true sha=d4f398cbd10b9aee9d760b536f484686cda8782a139aa15c86be7304d6879d3d ms=2
+SPECTRAL Stats[parts=158, pairs=10738, quads=7910, scalefactorBits=666, residualBits=0, unusedBits=143447, bigHash=4397708503354904676, quadHash=5805590168798025040]
+FILE generated-44100-2.mp3
+RESULT scheme=0 original=33062 ivo=12323 exact=true sha=855df8a0bf6b3676b44c2e84fd12243bebb06edd256c7052eedc67c9de069184 ms=2
+SPECTRAL Stats[parts=316, pairs=9852, quads=6505, scalefactorBits=1307, residualBits=0, unusedBits=148776, bigHash=-847951357609807153, quadHash=8544103060276969891]
+RESULT scheme=1 original=33062 ivo=12347 exact=true sha=855df8a0bf6b3676b44c2e84fd12243bebb06edd256c7052eedc67c9de069184 ms=3
+SPECTRAL Stats[parts=316, pairs=9852, quads=6505, scalefactorBits=1307, residualBits=0, unusedBits=148776, bigHash=-847951357609807153, quadHash=8544103060276969891]
+RESULT scheme=2 original=33062 ivo=12406 exact=true sha=855df8a0bf6b3676b44c2e84fd12243bebb06edd256c7052eedc67c9de069184 ms=3
+SPECTRAL Stats[parts=316, pairs=9852, quads=6505, scalefactorBits=1307, residualBits=0, unusedBits=148776, bigHash=-847951357609807153, quadHash=8544103060276969891]
+RESULT scheme=3 original=33062 ivo=12732 exact=true sha=855df8a0bf6b3676b44c2e84fd12243bebb06edd256c7052eedc67c9de069184 ms=3
+SPECTRAL Stats[parts=316, pairs=9852, quads=6505, scalefactorBits=1307, residualBits=0, unusedBits=148776, bigHash=-847951357609807153, quadHash=8544103060276969891]
+FILE generated-8000-1.mp3
+RESULT scheme=0 original=6741 ivo=6351 exact=true sha=4ae7e5dc38211876e2492f2ebaea36dd6a42bf38610a93a7e41643a2e63ed169 ms=1
+SPECTRAL Stats[parts=31, pairs=3748, quads=1900, scalefactorBits=747, residualBits=0, unusedBits=3881, bigHash=-1096349419454542537, quadHash=-262841287313834376]
+RESULT scheme=1 original=6741 ivo=6375 exact=true sha=4ae7e5dc38211876e2492f2ebaea36dd6a42bf38610a93a7e41643a2e63ed169 ms=1
+SPECTRAL Stats[parts=31, pairs=3748, quads=1900, scalefactorBits=747, residualBits=0, unusedBits=3881, bigHash=-1096349419454542537, quadHash=-262841287313834376]
+RESULT scheme=2 original=6741 ivo=6592 exact=true sha=4ae7e5dc38211876e2492f2ebaea36dd6a42bf38610a93a7e41643a2e63ed169 ms=1
+SPECTRAL Stats[parts=31, pairs=3748, quads=1900, scalefactorBits=747, residualBits=0, unusedBits=3881, bigHash=-1096349419454542537, quadHash=-262841287313834376]
+RESULT scheme=3 original=6741 ivo=6423 exact=true sha=4ae7e5dc38211876e2492f2ebaea36dd6a42bf38610a93a7e41643a2e63ed169 ms=1
+SPECTRAL Stats[parts=31, pairs=3748, quads=1900, scalefactorBits=747, residualBits=0, unusedBits=3881, bigHash=-1096349419454542537, quadHash=-262841287313834376]
+FILE generated-8000-2.mp3
+RESULT scheme=0 original=6741 ivo=5692 exact=true sha=ee10bdd6713f72be090909b558e47e30c0b003009d5a8a1670537a28c25aa270 ms=1
+SPECTRAL Stats[parts=62, pairs=3536, quads=1775, scalefactorBits=928, residualBits=0, unusedBits=11148, bigHash=6791413760684242076, quadHash=-9187750346300627965]
+RESULT scheme=1 original=6741 ivo=5716 exact=true sha=ee10bdd6713f72be090909b558e47e30c0b003009d5a8a1670537a28c25aa270 ms=1
+SPECTRAL Stats[parts=62, pairs=3536, quads=1775, scalefactorBits=928, residualBits=0, unusedBits=11148, bigHash=6791413760684242076, quadHash=-9187750346300627965]
+RESULT scheme=2 original=6741 ivo=5909 exact=true sha=ee10bdd6713f72be090909b558e47e30c0b003009d5a8a1670537a28c25aa270 ms=1
+SPECTRAL Stats[parts=62, pairs=3536, quads=1775, scalefactorBits=928, residualBits=0, unusedBits=11148, bigHash=6791413760684242076, quadHash=-9187750346300627965]
+RESULT scheme=3 original=6741 ivo=5764 exact=true sha=ee10bdd6713f72be090909b558e47e30c0b003009d5a8a1670537a28c25aa270 ms=1
+SPECTRAL Stats[parts=62, pairs=3536, quads=1775, scalefactorBits=928, residualBits=0, unusedBits=11148, bigHash=6791413760684242076, quadHash=-9187750346300627965]
+FILE l3-compl-cut.mp3
+RESULT scheme=0 original=192 ivo=432 exact=true sha=9f5b4baaefc5403c2b55ad5a52c8d7e812ba9e25638f8b674a0d01df6008a7c7 ms=0
+SPECTRAL Stats[parts=2, pairs=91, quads=87, scalefactorBits=63, residualBits=0, unusedBits=64, bigHash=8161455100111065787, quadHash=-1508343438124204571]
+RESULT scheme=1 original=192 ivo=456 exact=true sha=9f5b4baaefc5403c2b55ad5a52c8d7e812ba9e25638f8b674a0d01df6008a7c7 ms=0
+SPECTRAL Stats[parts=2, pairs=91, quads=87, scalefactorBits=63, residualBits=0, unusedBits=64, bigHash=8161455100111065787, quadHash=-1508343438124204571]
+RESULT scheme=2 original=192 ivo=537 exact=true sha=9f5b4baaefc5403c2b55ad5a52c8d7e812ba9e25638f8b674a0d01df6008a7c7 ms=0
+SPECTRAL Stats[parts=2, pairs=91, quads=87, scalefactorBits=63, residualBits=0, unusedBits=64, bigHash=8161455100111065787, quadHash=-1508343438124204571]
+RESULT scheme=3 original=192 ivo=513 exact=true sha=9f5b4baaefc5403c2b55ad5a52c8d7e812ba9e25638f8b674a0d01df6008a7c7 ms=0
+SPECTRAL Stats[parts=2, pairs=91, quads=87, scalefactorBits=63, residualBits=0, unusedBits=64, bigHash=8161455100111065787, quadHash=-1508343438124204571]
+FILE l3-test45.bit
+RESULT scheme=0 original=391105 ivo=325370 exact=true sha=384ccca2d558a3505bb2e7c2860e12aa3b651473ace655cda3a2c8cfb1b2fc53 ms=217
+SPECTRAL Stats[parts=1644, pairs=252320, quads=3141, scalefactorBits=126961, residualBits=168816, unusedBits=6419, bigHash=3528351053876419162, quadHash=-2665366271962508319]
+RESULT scheme=1 original=391105 ivo=325829 exact=true sha=384ccca2d558a3505bb2e7c2860e12aa3b651473ace655cda3a2c8cfb1b2fc53 ms=149
+SPECTRAL Stats[parts=1644, pairs=252320, quads=3141, scalefactorBits=126961, residualBits=168816, unusedBits=6419, bigHash=3528351053876419162, quadHash=-2665366271962508319]
+RESULT scheme=2 original=391105 ivo=330575 exact=true sha=384ccca2d558a3505bb2e7c2860e12aa3b651473ace655cda3a2c8cfb1b2fc53 ms=159
+SPECTRAL Stats[parts=1644, pairs=252320, quads=3141, scalefactorBits=126961, residualBits=168816, unusedBits=6419, bigHash=3528351053876419162, quadHash=-2665366271962508319]
+RESULT scheme=3 original=391105 ivo=325877 exact=true sha=384ccca2d558a3505bb2e7c2860e12aa3b651473ace655cda3a2c8cfb1b2fc53 ms=137
+SPECTRAL Stats[parts=1644, pairs=252320, quads=3141, scalefactorBits=126961, residualBits=168816, unusedBits=6419, bigHash=3528351053876419162, quadHash=-2665366271962508319]
+FILE l3-test46.bit
+RESULT scheme=0 original=130613 ivo=109287 exact=true sha=c44f835c6efbfad67359aa327d78f0feaf22c443e191d68f80e6d2fefd6d8af5 ms=28
+SPECTRAL Stats[parts=500, pairs=93064, quads=1744, scalefactorBits=38231, residualBits=38684, unusedBits=4768, bigHash=-7011005329894985673, quadHash=-8272761559008468716]
+RESULT scheme=1 original=130613 ivo=122735 exact=true sha=c44f835c6efbfad67359aa327d78f0feaf22c443e191d68f80e6d2fefd6d8af5 ms=35
+SPECTRAL Stats[parts=500, pairs=93064, quads=1744, scalefactorBits=38231, residualBits=38684, unusedBits=4768, bigHash=-7011005329894985673, quadHash=-8272761559008468716]
+RESULT scheme=2 original=130613 ivo=123627 exact=true sha=c44f835c6efbfad67359aa327d78f0feaf22c443e191d68f80e6d2fefd6d8af5 ms=32
+SPECTRAL Stats[parts=500, pairs=93064, quads=1744, scalefactorBits=38231, residualBits=38684, unusedBits=4768, bigHash=-7011005329894985673, quadHash=-8272761559008468716]
+RESULT scheme=3 original=130613 ivo=122783 exact=true sha=c44f835c6efbfad67359aa327d78f0feaf22c443e191d68f80e6d2fefd6d8af5 ms=34
+SPECTRAL Stats[parts=500, pairs=93064, quads=1744, scalefactorBits=38231, residualBits=38684, unusedBits=4768, bigHash=-7011005329894985673, quadHash=-8272761559008468716]
+FILE noise_meandr.mp3
+RESULT scheme=0 original=401280 ivo=392987 exact=true sha=423a97ef5b01c8253940d04bf93ee0d9508b77ef17608c69a1b3c09ae8667c0d ms=144
+SPECTRAL Stats[parts=1672, pairs=476180, quads=1154, scalefactorBits=51669, residualBits=0, unusedBits=5531, bigHash=-402031695079846748, quadHash=6191110630525509385]
+RESULT scheme=1 original=401280 ivo=395756 exact=true sha=423a97ef5b01c8253940d04bf93ee0d9508b77ef17608c69a1b3c09ae8667c0d ms=147
+SPECTRAL Stats[parts=1672, pairs=476180, quads=1154, scalefactorBits=51669, residualBits=0, unusedBits=5531, bigHash=-402031695079846748, quadHash=6191110630525509385]
+RESULT scheme=2 original=401280 ivo=399908 exact=true sha=423a97ef5b01c8253940d04bf93ee0d9508b77ef17608c69a1b3c09ae8667c0d ms=146
+SPECTRAL Stats[parts=1672, pairs=476180, quads=1154, scalefactorBits=51669, residualBits=0, unusedBits=5531, bigHash=-402031695079846748, quadHash=6191110630525509385]
+RESULT scheme=3 original=401280 ivo=398591 exact=true sha=423a97ef5b01c8253940d04bf93ee0d9508b77ef17608c69a1b3c09ae8667c0d ms=136
+SPECTRAL Stats[parts=1672, pairs=476180, quads=1154, scalefactorBits=51669, residualBits=0, unusedBits=5531, bigHash=-402031695079846748, quadHash=6191110630525509385]
+FILE Tao
+RESULT scheme=0 original=95634889 ivo=86402411 exact=true sha=c6e361e833559e842390da8541480ce47096baf61b405da64d9ef10188a2f40c ms=29081
+SPECTRAL Stats[parts=918684, pairs=85717785, quads=7771895, scalefactorBits=34249308, residualBits=0, unusedBits=3963279, bigHash=-3933596068788499615, quadHash=-841840283139987648]
+RESULT scheme=1 original=95634889 ivo=86030518 exact=true sha=c6e361e833559e842390da8541480ce47096baf61b405da64d9ef10188a2f40c ms=28975
+SPECTRAL Stats[parts=918684, pairs=85717785, quads=7771895, scalefactorBits=34249308, residualBits=0, unusedBits=3963279, bigHash=-3933596068788499615, quadHash=-841840283139987648]
+RESULT scheme=2 original=95634889 ivo=83508548 exact=true sha=c6e361e833559e842390da8541480ce47096baf61b405da64d9ef10188a2f40c ms=29035
+SPECTRAL Stats[parts=918684, pairs=85717785, quads=7771895, scalefactorBits=34249308, residualBits=0, unusedBits=3963279, bigHash=-3933596068788499615, quadHash=-841840283139987648]
+RESULT scheme=3 original=95634889 ivo=86306235 exact=true sha=c6e361e833559e842390da8541480ce47096baf61b405da64d9ef10188a2f40c ms=29559
+SPECTRAL Stats[parts=918684, pairs=85717785, quads=7771895, scalefactorBits=34249308, residualBits=0, unusedBits=3963279, bigHash=-3933596068788499615, quadHash=-841840283139987648]
+PASS final_archives=52 byte_exact=true fresh_process=true

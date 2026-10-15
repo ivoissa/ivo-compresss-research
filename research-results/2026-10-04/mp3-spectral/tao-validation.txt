@@ -1,0 +1,2 @@
+RESULT input=mp3-spectral-work/downloads/Tao-te-king-livre-de-la-voie-et-de-la-vertu(2).mp3 original=95634889 ivo=99286946 exact=true sha=c6e361e833559e842390da8541480ce47096baf61b405da64d9ef10188a2f40c ms=74615
+SPECTRAL Stats[parts=609748, pairs=85717785, quads=7771895, scalefactorBits=34249308, residualBits=0, unusedBits=3963279, bigHash=-3933596068788499615]

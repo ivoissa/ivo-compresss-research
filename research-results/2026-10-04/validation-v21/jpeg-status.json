@@ -1,0 +1,62 @@
+[
+  {
+    "name": "image-rs_tower_progressive.jpg",
+    "exit_code": 0,
+    "log": "/tmp/ivo-v21-jpeg-results/image-rs_tower_progressive.jpg.log"
+  },
+  {
+    "name": "image-rs_jpg-progressive.jpg",
+    "exit_code": 0,
+    "log": "/tmp/ivo-v21-jpeg-results/image-rs_jpg-progressive.jpg.log"
+  },
+  {
+    "name": "image-rs_non-interleaved-mcu.jpg",
+    "exit_code": 0,
+    "log": "/tmp/ivo-v21-jpeg-results/image-rs_non-interleaved-mcu.jpg.log"
+  },
+  {
+    "name": "image-rs_partial_progressive.jpg",
+    "exit_code": 1,
+    "log": "/tmp/ivo-v21-jpeg-results/image-rs_partial_progressive.jpg.log"
+  },
+  {
+    "name": "image-rs_progressive3.jpg",
+    "exit_code": 0,
+    "log": "/tmp/ivo-v21-jpeg-results/image-rs_progressive3.jpg.log"
+  },
+  {
+    "name": "image-rs_progressive-missing-ac.jpg",
+    "exit_code": 0,
+    "log": "/tmp/ivo-v21-jpeg-results/image-rs_progressive-missing-ac.jpg.log"
+  },
+  {
+    "name": "image-rs_progressive-missing-dc.jpg",
+    "exit_code": 0,
+    "log": "/tmp/ivo-v21-jpeg-results/image-rs_progressive-missing-dc.jpg.log"
+  },
+  {
+    "name": "is-progressive_kitten-progressive.jpg",
+    "exit_code": 0,
+    "log": "/tmp/ivo-v21-jpeg-results/is-progressive_kitten-progressive.jpg.log"
+  },
+  {
+    "name": "is-progressive_progressive.jpg",
+    "exit_code": 0,
+    "log": "/tmp/ivo-v21-jpeg-results/is-progressive_progressive.jpg.log"
+  },
+  {
+    "name": "libjxl_new_flower_small.q85_420_partially_interleaved.jpg",
+    "exit_code": 0,
+    "log": "/tmp/ivo-v21-jpeg-results/libjxl_new_flower_small.q85_420_partially_interleaved.jpg.log"
+  },
+  {
+    "name": "libjxl_new_flower_small.q85_444_non_interleaved.jpg",
+    "exit_code": 0,
+    "log": "/tmp/ivo-v21-jpeg-results/libjxl_new_flower_small.q85_444_non_interleaved.jpg.log"
+  },
+  {
+    "name": "libjxl_new_flower_small.q85_444_partially_interleaved.jpg",
+    "exit_code": 0,
+    "log": "/tmp/ivo-v21-jpeg-results/libjxl_new_flower_small.q85_444_partially_interleaved.jpg.log"
+  }
+]

@@ -1,0 +1,9 @@
+/tmp/ivo-jpeg-neighbour-fixtures/fixture-0.jpg: 353 -> 409 bytes (115.86%), engine=STORE
+Engine                         valid   payload       IVO       ms  note
+STORE                          true          353       409        1  verbatim
+N&C contextuel                 true          498       554       10  PPM-like sparse contexts, order<=4
+REF + N&C                      true          503       559       11  REF minMatch=8 then N&C; REF size=358
+JPEG oracle exact (structure/scans) true          384       440       20  JPEG exact; segments=8; scans=1; progressive=false; meta=330; entropy=23; modes=[0, 0, 0]
+JPEG frozen portfolio (ABC, spatial, directional, similarity) true          434       490       52  DCT coefficients + exact entropy patch
+JPEG boundary portfolio (physical + presence control) true          407       463       14  Causal AC category/presence; mode=9; exact entropy patch
+Written: /tmp/ivo-jpeg-integration-results/fixture-0.jpg/automatic.ivo

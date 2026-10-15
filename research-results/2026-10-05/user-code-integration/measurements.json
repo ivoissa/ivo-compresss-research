@@ -1,0 +1,29 @@
+[
+  {
+    "name": "tao",
+    "kind": "MP3",
+    "original_bytes": 357362,
+    "ivo_bytes": 320146,
+    "archive_sha256": "e54373b292aeaeef9a582a85362653f4cb3da1fe700a8de7c8534ed7df43db1f",
+    "source_sha256": "d7968356ef193ef8ae9ddd93d1b3e27a27819925f858e849d1221cf2dc264b97",
+    "fresh_cli_exact": true
+  },
+  {
+    "name": "kitten",
+    "kind": "WEBP",
+    "original_bytes": 51064,
+    "ivo_bytes": 47848,
+    "archive_sha256": "ebe4eb7e0e3f93f9cba531f0ec874a1aeec7912de345ebd515edc249edf63d05",
+    "source_sha256": "9e5069443756e374041696793fb41bb651f2ec597d80068523e647a0735fbe00",
+    "fresh_cli_exact": true
+  },
+  {
+    "name": "whatsapp",
+    "kind": "MP4",
+    "original_bytes": 5427643,
+    "ivo_bytes": 4777717,
+    "archive_sha256": "54b8cba7bb63d566009b6a52f24bdc3e373525640c6fa6226ad279302686bbba",
+    "source_sha256": "604f5646ea19d34261f0942f922399ecc90787fa244e719515e81103180998c8",
+    "fresh_cli_exact": true
+  }
+]

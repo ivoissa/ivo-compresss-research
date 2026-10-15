@@ -1,0 +1,3 @@
+CSV file,mode,original,baseline,candidate,retained,scans,progressive_scans,blocks,symbols,correction_bits,coefficient_hash,exact
+CSV libjxl_new_flower_small.q85_420_partially_interleaved.jpg,0,50018,50120,47043,47043,2,0,6464,73250,0,2e85c65a267ac0b2,true
+CSV libjxl_new_flower_small.q85_420_partially_interleaved.jpg,1,50018,50120,47022,47022,2,0,6464,73250,0,2e85c65a267ac0b2,true

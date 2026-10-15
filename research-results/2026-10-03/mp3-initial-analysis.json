@@ -1,0 +1,23 @@
+{
+  "original": 95634889,
+  "duration_seconds": 5512.08,
+  "sample_rate": 48000,
+  "channels": 2,
+  "frames": 229671,
+  "prefix": 190369,
+  "headers": 918684,
+  "crc": 0,
+  "side_info": 7349472,
+  "main_data": 87176364,
+  "trailing": 0,
+  "reservoir_frames": 229669,
+  "structural_join_exact": true,
+  "side_transpose_exact": true,
+  "side_transpose_nc_measured": {
+    "order3_contexts2000": 3449943,
+    "order5_contexts5000": 3452375,
+    "order7_contexts5000": 3445225,
+    "order4_contexts50000": 3498405
+  },
+  "full_ivo_size_measured": false
+}

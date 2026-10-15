@@ -1,0 +1,7 @@
+INPUT /tmp/ivo-sample-15s-vbr-v2.mp3 bytes=220560 sha=7bac5e0d7a57e6bb3bfb4a99e24e87c65de6c64e7f017360acd0d0aa6c4cbf9b store=220630
+SIDE_PORTFOLIO direct=9535 transposed=8793 selected=true
+BASE v1=208759 v3=208018 exact=true
+MAIN_SPLIT mode=1 used_raw=199074 unused_raw=669 coded=199058
+RESULT mode=1 ivo=208361 delta_vs_v3=343 exact=true
+MAIN_SPLIT mode=2 used_raw=198816 unused_raw=927 coded=198814
+RESULT mode=2 ivo=208117 delta_vs_v3=99 exact=true

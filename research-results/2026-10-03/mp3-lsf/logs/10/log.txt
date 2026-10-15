@@ -1,0 +1,7 @@
+INPUT /tmp/ivo-musical-corpus/samples/mp3/ted_val/sample-0.mp3 bytes=82125 sha=07647268ad09fb8bdb22df5046de772d7043183362be75a2e976fa98ba91e0e9 store=82182
+SIDE_PORTFOLIO direct=1538 transposed=1471 selected=true
+BASE v1=79360 v3=79294 exact=true
+MAIN_SPLIT mode=1 used_raw=78336 unused_raw=1274 coded=77669
+RESULT mode=1 ivo=79290 delta_vs_v3=-4 exact=true
+MAIN_SPLIT mode=2 used_raw=78255 unused_raw=1356 coded=77702
+RESULT mode=2 ivo=79323 delta_vs_v3=29 exact=true

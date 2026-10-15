@@ -1,0 +1,1 @@
+trials/mp3-side/inputs/24/l3-test45.bit bytes=391105 sha=384ccca2d558a3505bb2e7c2860e12aa3b651473ace655cda3a2c8cfb1b2fc53

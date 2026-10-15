@@ -1,0 +1,290 @@
+[
+  {
+    "source": "01-25060.jpg",
+    "mode": 2,
+    "original_bytes": 204196,
+    "previous_v14_bytes": 171403,
+    "candidate_bytes": 169955,
+    "gain_bytes": 1448,
+    "milliseconds": 1094
+  },
+  {
+    "source": "01-25060.jpg",
+    "mode": 3,
+    "original_bytes": 204196,
+    "previous_v14_bytes": 171403,
+    "candidate_bytes": 169983,
+    "gain_bytes": 1420,
+    "milliseconds": 950
+  },
+  {
+    "source": "01-25066.jpg",
+    "mode": 2,
+    "original_bytes": 119935,
+    "previous_v14_bytes": 94696,
+    "candidate_bytes": 94356,
+    "gain_bytes": 340,
+    "milliseconds": 617
+  },
+  {
+    "source": "01-25066.jpg",
+    "mode": 3,
+    "original_bytes": 119935,
+    "previous_v14_bytes": 94696,
+    "candidate_bytes": 94361,
+    "gain_bytes": 335,
+    "milliseconds": 563
+  },
+  {
+    "source": "Canon_40D.jpg",
+    "mode": 2,
+    "original_bytes": 7958,
+    "previous_v14_bytes": 8014,
+    "candidate_bytes": 8370,
+    "gain_bytes": -356,
+    "milliseconds": 52
+  },
+  {
+    "source": "Canon_40D.jpg",
+    "mode": 3,
+    "original_bytes": 7958,
+    "previous_v14_bytes": 8014,
+    "candidate_bytes": 8371,
+    "gain_bytes": -357,
+    "milliseconds": 42
+  },
+  {
+    "source": "Canon_DIGITAL_IXUS_400.jpg",
+    "mode": 2,
+    "original_bytes": 9198,
+    "previous_v14_bytes": 7755,
+    "candidate_bytes": 8071,
+    "gain_bytes": -316,
+    "milliseconds": 64
+  },
+  {
+    "source": "Canon_DIGITAL_IXUS_400.jpg",
+    "mode": 3,
+    "original_bytes": 9198,
+    "previous_v14_bytes": 7755,
+    "candidate_bytes": 8072,
+    "gain_bytes": -317,
+    "milliseconds": 47
+  },
+  {
+    "source": "Nikon_D70.jpg",
+    "mode": 2,
+    "original_bytes": 14034,
+    "previous_v14_bytes": 12284,
+    "candidate_bytes": 12513,
+    "gain_bytes": -229,
+    "milliseconds": 71
+  },
+  {
+    "source": "Nikon_D70.jpg",
+    "mode": 3,
+    "original_bytes": 14034,
+    "previous_v14_bytes": 12284,
+    "candidate_bytes": 12516,
+    "gain_bytes": -232,
+    "milliseconds": 67
+  },
+  {
+    "source": "Pentax_K10D.jpg",
+    "mode": 2,
+    "original_bytes": 12077,
+    "previous_v14_bytes": 10194,
+    "candidate_bytes": 10500,
+    "gain_bytes": -306,
+    "milliseconds": 58
+  },
+  {
+    "source": "Pentax_K10D.jpg",
+    "mode": 3,
+    "original_bytes": 12077,
+    "previous_v14_bytes": 10194,
+    "candidate_bytes": 10502,
+    "gain_bytes": -308,
+    "milliseconds": 62
+  },
+  {
+    "source": "Reconyx_HC500_Hyperfire.jpg",
+    "mode": 2,
+    "original_bytes": 425890,
+    "previous_v14_bytes": 378957,
+    "candidate_bytes": 367074,
+    "gain_bytes": 11883,
+    "milliseconds": 2430
+  },
+  {
+    "source": "Reconyx_HC500_Hyperfire.jpg",
+    "mode": 3,
+    "original_bytes": 425890,
+    "previous_v14_bytes": 378957,
+    "candidate_bytes": 366697,
+    "gain_bytes": 12260,
+    "milliseconds": 2353
+  },
+  {
+    "source": "Samsung_Digimax_i50_MP3.jpg",
+    "mode": 2,
+    "original_bytes": 45286,
+    "previous_v14_bytes": 43628,
+    "candidate_bytes": 43903,
+    "gain_bytes": -275,
+    "milliseconds": 183
+  },
+  {
+    "source": "Samsung_Digimax_i50_MP3.jpg",
+    "mode": 3,
+    "original_bytes": 45286,
+    "previous_v14_bytes": 43628,
+    "candidate_bytes": 43902,
+    "gain_bytes": -274,
+    "milliseconds": 126
+  },
+  {
+    "source": "fixture-0.jpg",
+    "mode": 2,
+    "original_bytes": 353,
+    "previous_v14_bytes": 409,
+    "candidate_bytes": 490,
+    "gain_bytes": -81,
+    "milliseconds": 15
+  },
+  {
+    "source": "fixture-0.jpg",
+    "mode": 3,
+    "original_bytes": 353,
+    "previous_v14_bytes": 409,
+    "candidate_bytes": 490,
+    "gain_bytes": -81,
+    "milliseconds": 6
+  },
+  {
+    "source": "fixture-1.jpg",
+    "mode": 2,
+    "original_bytes": 371,
+    "previous_v14_bytes": 427,
+    "candidate_bytes": 509,
+    "gain_bytes": -82,
+    "milliseconds": 12
+  },
+  {
+    "source": "fixture-1.jpg",
+    "mode": 3,
+    "original_bytes": 371,
+    "previous_v14_bytes": 427,
+    "candidate_bytes": 509,
+    "gain_bytes": -82,
+    "milliseconds": 5
+  },
+  {
+    "source": "fixture-2.jpg",
+    "mode": 2,
+    "original_bytes": 970,
+    "previous_v14_bytes": 938,
+    "candidate_bytes": 941,
+    "gain_bytes": -3,
+    "milliseconds": 20
+  },
+  {
+    "source": "fixture-2.jpg",
+    "mode": 3,
+    "original_bytes": 970,
+    "previous_v14_bytes": 938,
+    "candidate_bytes": 941,
+    "gain_bytes": -3,
+    "milliseconds": 12
+  },
+  {
+    "source": "fixture-3.jpg",
+    "mode": 2,
+    "original_bytes": 3075,
+    "previous_v14_bytes": 3131,
+    "candidate_bytes": 3233,
+    "gain_bytes": -102,
+    "milliseconds": 49
+  },
+  {
+    "source": "fixture-3.jpg",
+    "mode": 3,
+    "original_bytes": 3075,
+    "previous_v14_bytes": 3131,
+    "candidate_bytes": 3233,
+    "gain_bytes": -102,
+    "milliseconds": 32
+  },
+  {
+    "source": "hdr_canon_hdr_NO.jpg",
+    "mode": 2,
+    "original_bytes": 784371,
+    "previous_v14_bytes": 675615,
+    "candidate_bytes": 666870,
+    "gain_bytes": 8745,
+    "milliseconds": 3964
+  },
+  {
+    "source": "hdr_canon_hdr_NO.jpg",
+    "mode": 3,
+    "original_bytes": 784371,
+    "previous_v14_bytes": 675615,
+    "candidate_bytes": 665479,
+    "gain_bytes": 10136,
+    "milliseconds": 3696
+  },
+  {
+    "source": "hdr_iphone_hdr_NO.jpg",
+    "mode": 2,
+    "original_bytes": 1957448,
+    "previous_v14_bytes": 1652706,
+    "candidate_bytes": 1582156,
+    "gain_bytes": 70550,
+    "milliseconds": 8824
+  },
+  {
+    "source": "hdr_iphone_hdr_NO.jpg",
+    "mode": 3,
+    "original_bytes": 1957448,
+    "previous_v14_bytes": 1652706,
+    "candidate_bytes": 1578126,
+    "gain_bytes": 74580,
+    "milliseconds": 9052
+  },
+  {
+    "source": "hdr_iphone_hdr_YES.jpg",
+    "mode": 2,
+    "original_bytes": 1976579,
+    "previous_v14_bytes": 1670996,
+    "candidate_bytes": 1601408,
+    "gain_bytes": 69588,
+    "milliseconds": 9485
+  },
+  {
+    "source": "hdr_iphone_hdr_YES.jpg",
+    "mode": 3,
+    "original_bytes": 1976579,
+    "previous_v14_bytes": 1670996,
+    "candidate_bytes": 1597608,
+    "gain_bytes": 73388,
+    "milliseconds": 8515
+  },
+  {
+    "source": "mobile_jolla.jpg",
+    "mode": 2,
+    "original_bytes": 811904,
+    "previous_v14_bytes": 681165,
+    "candidate_bytes": 653517,
+    "gain_bytes": 27648,
+    "milliseconds": 4811
+  },
+  {
+    "source": "mobile_jolla.jpg",
+    "mode": 3,
+    "original_bytes": 811904,
+    "previous_v14_bytes": 681165,
+    "candidate_bytes": 651569,
+    "gain_bytes": 29596,
+    "milliseconds": 5115
+  }
+]

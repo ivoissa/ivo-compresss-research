@@ -1,0 +1,161 @@
+#!/usr/bin/env python3
+"""Reproducible lossless benchmark: IVO versus five mainstream codecs."""
+
+from __future__ import annotations
+
+import bz2
+import csv
+import gzip
+import json
+import lzma
+import os
+import pathlib
+import random
+import statistics
+import subprocess
+import tempfile
+import time
+import zlib
+
+import ctypes
+import ctypes.util
+
+# System codec fallback: no pip/network dependency on Linux.
+class Brotli:
+    def __init__(self):
+        self.enc = ctypes.CDLL(ctypes.util.find_library("brotlienc"))
+        self.dec = ctypes.CDLL(ctypes.util.find_library("brotlidec"))
+        self.enc.BrotliEncoderMaxCompressedSize.argtypes = [ctypes.c_size_t]
+        self.enc.BrotliEncoderMaxCompressedSize.restype = ctypes.c_size_t
+        self.enc.BrotliEncoderCompress.argtypes = [ctypes.c_int, ctypes.c_int, ctypes.c_int, ctypes.c_size_t, ctypes.c_void_p, ctypes.POINTER(ctypes.c_size_t), ctypes.c_void_p]
+        self.dec.BrotliDecoderDecompress.argtypes = [ctypes.c_size_t, ctypes.c_void_p, ctypes.POINTER(ctypes.c_size_t), ctypes.c_void_p]
+    def compress(self, data, quality=11):
+        size = ctypes.c_size_t(self.enc.BrotliEncoderMaxCompressedSize(len(data)))
+        out = ctypes.create_string_buffer(size.value)
+        if not self.enc.BrotliEncoderCompress(quality, 22, 0, len(data), data, ctypes.byref(size), out):
+            raise RuntimeError("Brotli encode failed")
+        return out.raw[:size.value]
+    def decompress(self, data):
+        # Benchmark knows the original size; avoid unbounded allocation.
+        size = ctypes.c_size_t(self.expected_size)
+        out = ctypes.create_string_buffer(max(1, size.value))
+        if self.dec.BrotliDecoderDecompress(len(data), data, ctypes.byref(size), out) != 1:
+            raise RuntimeError("Brotli decode failed")
+        return out.raw[:size.value]
+brotli = Brotli()
+
+def zstd_encode(data):
+    return subprocess.run(["zstd", "-19", "-q", "-c"], input=data, capture_output=True, check=True).stdout
+
+def zstd_decode(data):
+    return subprocess.run(["zstd", "-d", "-q", "-c"], input=data, capture_output=True, check=True).stdout
+
+ROOT = pathlib.Path(__file__).resolve().parents[1]
+JAR = ROOT / "target/ivo-0.7.0-SNAPSHOT.jar"
+CORPUS = ROOT / "bench-corpus"
+REPEATS = int(os.environ.get("IVO_BENCH_REPEATS", "3"))
+
+
+def generated_cases() -> dict[str, bytes]:
+    text = ("Nuage & Corde sépare les structures afin que chaque modèle apprenne une série homogène.\n" * 600).encode()
+    rows = [{"id": i, "name": f"person-{i % 97}", "active": i % 3 != 0,
+             "amount": round((i * 17.31) % 10000, 2), "group": i % 12} for i in range(600)]
+    structured = json.dumps(rows, ensure_ascii=False, separators=(",", ":")).encode()
+    java = b"\n".join(p.read_bytes() for p in sorted((ROOT / "src/main/java").rglob("*.java")))
+    rnd = random.Random(42)
+    random_bytes = rnd.randbytes(16_384)
+    precompressed = zlib.compress(text, 9)
+    return {
+        "raw.deflate": zlib.compress(text, 9)[2:-4],
+        "gzip.gz": gzip.compress(text, mtime=0),
+        "texte_repetitif": text,
+        "json_structure": structured,
+        "sources_java": java,
+        "zlib_deja_compresse": precompressed,
+        "binaire_aleatoire": random_bytes,
+    }
+
+
+def timed(fn):
+    samples, result = [], None
+    for _ in range(REPEATS):
+        start = time.perf_counter_ns()
+        result = fn()
+        samples.append((time.perf_counter_ns() - start) / 1_000_000)
+    return result, statistics.median(samples)
+
+
+def ivo(data: bytes, name: str):
+    with tempfile.TemporaryDirectory() as d:
+        d = pathlib.Path(d)
+        source, packed, restored = d / name, d / (name + ".ivo"), d / (name + ".out")
+        source.write_bytes(data)
+        def compress():
+            subprocess.run(["java", "-jar", str(JAR), "compress", str(source), str(packed)],
+                           check=True, stdout=subprocess.DEVNULL, stderr=subprocess.DEVNULL)
+            return packed.read_bytes()
+        encoded, c_ms = timed(compress)
+        packed.write_bytes(encoded)
+        def decompress():
+            subprocess.run(["java", "-jar", str(JAR), "decompress", str(packed), str(restored)],
+                           check=True, stdout=subprocess.DEVNULL, stderr=subprocess.DEVNULL)
+            return restored.read_bytes()
+        decoded, d_ms = timed(decompress)
+        return encoded, decoded, c_ms, d_ms
+
+
+def memory_codec(data, encode, decode):
+    encoded, c_ms = timed(lambda: encode(data))
+    decoded, d_ms = timed(lambda: decode(encoded))
+    return encoded, decoded, c_ms, d_ms
+
+
+def main():
+    cases = generated_cases()
+    for path in sorted(CORPUS.glob("*")):
+        if path.is_file():
+            cases[path.name] = path.read_bytes()
+
+    codecs = {
+        "IVO DEFLATE reprise": lambda d, n: ivo(d, n),
+        "gzip-9": lambda d, n: memory_codec(d, lambda x: gzip.compress(x, compresslevel=9, mtime=0), gzip.decompress),
+        "brotli-11": lambda d, n: memory_codec(d, lambda x: brotli.compress(x, quality=11), brotli.decompress),
+        "zstd-19": lambda d, n: memory_codec(d, zstd_encode, zstd_decode),
+        "xz-9": lambda d, n: memory_codec(d, lambda x: lzma.compress(x, preset=9), lzma.decompress),
+        "bzip2-9": lambda d, n: memory_codec(d, lambda x: bz2.compress(x, compresslevel=9), bz2.decompress),
+    }
+
+    rows = []
+    for case, data in cases.items():
+        brotli.expected_size = len(data)
+        for codec, action in codecs.items():
+            encoded, decoded, c_ms, d_ms = action(data, case)
+            if decoded != data:
+                raise RuntimeError(f"Round-trip failed: {case}/{codec}")
+            rows.append({"case": case, "codec": codec, "original_bytes": len(data),
+                         "compressed_bytes": len(encoded), "ratio_percent": len(encoded) * 100 / len(data),
+                         "compress_ms": c_ms, "decompress_ms": d_ms})
+
+    out_csv = ROOT / "benchmark_codecs.csv"
+    with out_csv.open("w", newline="", encoding="utf-8") as f:
+        w = csv.DictWriter(f, fieldnames=rows[0].keys())
+        w.writeheader(); w.writerows(rows)
+
+    by_case = {}
+    for r in rows: by_case.setdefault(r["case"], []).append(r)
+    lines = ["# Benchmark IVO face à cinq codecs", "",
+             f"Mesures : médiane de {REPEATS} exécutions ; round-trip exact obligatoire. "
+             "IVO inclut son conteneur complet et son SHA-256.", ""]
+    for case, values in by_case.items():
+        values.sort(key=lambda x: x["compressed_bytes"])
+        lines += [f"## {case}", "", "| Codec | Original | Compressé | Ratio | Comp. ms | Décomp. ms |",
+                  "|---|---:|---:|---:|---:|---:|"]
+        for r in values:
+            lines.append(f"| {r['codec']} | {r['original_bytes']:,} | {r['compressed_bytes']:,} | "
+                         f"{r['ratio_percent']:.2f}% | {r['compress_ms']:.2f} | {r['decompress_ms']:.2f} |")
+        lines.append("")
+    (ROOT / "BENCHMARK_CODECS.md").write_text("\n".join(lines), encoding="utf-8")
+
+
+if __name__ == "__main__":
+    main()

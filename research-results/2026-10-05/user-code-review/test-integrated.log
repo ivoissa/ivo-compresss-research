@@ -1,0 +1,9 @@
+RESULT kind=WEBP original=3932 payload=3604 ivo=3656 whole_file_exact=true elapsed_ms=255
+  zero/EOB(nd0): 423 bytes
+  nd1: 635 bytes
+  nd2: 502 bytes
+  nd3-5: 494 bytes
+  nd6-15: 349 bytes
+  sign: 582 bytes
+  modes: 290 bytes
+meta(deflated)=55 payload=3544

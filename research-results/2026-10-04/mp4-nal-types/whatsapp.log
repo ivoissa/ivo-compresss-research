@@ -1,0 +1,8 @@
+RESULT h=1 profile=0 original=5427643 ivo=5416581 exact=true
+RESULT h=1 profile=1 original=5427643 ivo=5416581 exact=true
+RESULT h=1 profile=2 original=5427643 ivo=5416614 exact=true
+RESULT h=1 profile=3 original=5427643 ivo=5416614 exact=true
+RESULT h=2 profile=0 original=5427643 ivo=5415434 exact=true
+RESULT h=2 profile=1 original=5427643 ivo=5415434 exact=true
+RESULT h=2 profile=2 original=5427643 ivo=5415467 exact=true
+RESULT h=2 profile=3 original=5427643 ivo=5415467 exact=true

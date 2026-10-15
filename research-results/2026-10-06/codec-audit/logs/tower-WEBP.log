@@ -1,0 +1,27 @@
+RESULT kind=WEBP file=tower.webp raw=24970 candidate_payload=23888 candidate_container_size=23941 exact=true baseline_payload=23888 same_payload=true reference_best=23943 winner=USER_WEBP_RESEARCH new_ms=653 old_ms=499 error= old_error=
+
+STDERR
+  zero/EOB(nd0): 2244 bytes
+  nd1: 6283 bytes
+  nd2: 4172 bytes
+  nd3-5: 3224 bytes
+  nd6-15: 875 bytes
+  sign: 4983 bytes
+  modes: 1778 bytes
+meta(deflated)=56 payload=23827
+  zero/EOB(nd0): 2244 bytes
+  nd1: 6283 bytes
+  nd2: 4172 bytes
+  nd3-5: 3224 bytes
+  nd6-15: 875 bytes
+  sign: 4983 bytes
+  modes: 1778 bytes
+meta(deflated)=56 payload=23827
+  zero/EOB(nd0): 2244 bytes
+  nd1: 6283 bytes
+  nd2: 4172 bytes
+  nd3-5: 3224 bytes
+  nd6-15: 875 bytes
+  sign: 4983 bytes
+  modes: 1778 bytes
+meta(deflated)=56 payload=23827

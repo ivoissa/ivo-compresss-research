@@ -1,0 +1,8 @@
+java=17.0.20+8-1-24.04-Ubuntu
+flags=[-Xms64m, -Xmx2g, -XX:+UseG1GC]
+archive=research-results/2026-10-05/performance-fast/business-synthetic/fast.ivo
+original=research-results/2026-10-05/performance-fast/inputs/business-synthetic.json
+old_classes=/tmp/ivo-v28-reference-classes
+new_classes=target/classes
+warmups=1
+repetitions=3

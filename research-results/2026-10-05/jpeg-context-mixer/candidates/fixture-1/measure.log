@@ -1,0 +1,3 @@
+REFERENCE original=371 ivo=427 engine=STORE sha256=8656dca5cdd5db601750bc91ad9ea45af32905e69b95d57ccbd26b09848860cb
+RESULT mode=11 original=371 ivo=480 gain_reference=-53 exact=true ms=23
+RESULT mode=12 original=371 ivo=481 gain_reference=-54 exact=true ms=9

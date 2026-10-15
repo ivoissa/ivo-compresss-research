@@ -1,0 +1,212 @@
+[
+  {
+    "file": "ljt-testimgint.jpg",
+    "exit": 0,
+    "log": "ljt-testimgint.jpg,5756,5817,STORE,exact=true\n"
+  },
+  {
+    "file": "ljt-testorig.jpg",
+    "exit": 0,
+    "log": "ljt-testorig.jpg,5770,5829,STORE,exact=true\n"
+  },
+  {
+    "file": "pillow-exif-72dpi-int.jpg",
+    "exit": 0,
+    "log": "pillow-exif-72dpi-int.jpg,71056,66928,JPEG_V61,exact=true\n"
+  },
+  {
+    "file": "pillow-flower.jpg",
+    "exit": 0,
+    "log": "pillow-flower.jpg,32764,32503,JPEG_V61,exact=true\n"
+  },
+  {
+    "file": "pillow-flower2.jpg",
+    "exit": 0,
+    "log": "pillow-flower2.jpg,86491,74472,JPEG_V61,exact=true\n"
+  },
+  {
+    "file": "pillow-hopper.jpg",
+    "exit": 0,
+    "log": "pillow-hopper.jpg,6412,6472,STORE,exact=true\n"
+  },
+  {
+    "file": "pillow-hopper_gray.jpg",
+    "exit": 0,
+    "log": "pillow-hopper_gray.jpg,5353,5369,JPEG_V61,exact=true\n"
+  },
+  {
+    "file": "pillow-pil_sample_cmyk.jpg",
+    "exit": 0,
+    "log": "pillow-pil_sample_cmyk.jpg,29364,16412,JPEG_V61,exact=true\n"
+  },
+  {
+    "file": "pillow-pil_sample_rgb.jpg",
+    "exit": 0,
+    "log": "pillow-pil_sample_rgb.jpg,29342,17373,JPEG_V61,exact=true\n"
+  },
+  {
+    "file": "pillow-rgb.jpg",
+    "exit": 0,
+    "log": "pillow-rgb.jpg,20230,15020,JPEG_V61,exact=true\n"
+  },
+  {
+    "file": "IMG_1D0E181E-3C8C-494B-B434-F2387E7B01B9.jpeg",
+    "exit": 0,
+    "log": "IMG_1D0E181E-3C8C-494B-B434-F2387E7B01B9.jpeg,460668,397776,JPEG_V61,exact=true\n"
+  },
+  {
+    "file": "IMG_2D68B7EC-28E1-44EE-9668-9525D1306D5E.jpeg",
+    "exit": 0,
+    "log": "IMG_2D68B7EC-28E1-44EE-9668-9525D1306D5E.jpeg,444156,385450,JPEG_V61,exact=true\n"
+  },
+  {
+    "file": "IMG_98563F37-EBFF-4177-A1C2-2EB8F4B93244.jpeg",
+    "exit": 0,
+    "log": "IMG_98563F37-EBFF-4177-A1C2-2EB8F4B93244.jpeg,566118,487577,JPEG_V61,exact=true\n"
+  },
+  {
+    "file": "01-799312a6-ad22-4d15-857d-391fa92de050-1_all_31190.jpg",
+    "exit": 0,
+    "log": "01-799312a6-ad22-4d15-857d-391fa92de050-1_all_31190.jpg,494703,448957,JPEG_V61,exact=true\n"
+  },
+  {
+    "file": "02-19414.jpg",
+    "exit": 0,
+    "log": "02-19414.jpg,198464,176760,JPEG_V61,exact=true\n"
+  },
+  {
+    "file": "01-22626.jpg",
+    "exit": 0,
+    "log": "01-22626.jpg,579569,521443,JPEG_V61,exact=true\n"
+  },
+  {
+    "file": "Canon_40D.jpg",
+    "exit": 0,
+    "log": "Canon_40D.jpg,7958,8014,STORE,exact=true\n"
+  },
+  {
+    "file": "Canon_40D_photoshop_import.jpg",
+    "exit": 0,
+    "log": "Canon_40D_photoshop_import.jpg,9686,9759,STORE,exact=true\n"
+  },
+  {
+    "file": "Canon_DIGITAL_IXUS_400.jpg",
+    "exit": 0,
+    "log": "Canon_DIGITAL_IXUS_400.jpg,9198,8094,JPEG_V61,exact=true\n"
+  },
+  {
+    "file": "Fujifilm_FinePix6900ZOOM.jpg",
+    "exit": 0,
+    "log": "Fujifilm_FinePix6900ZOOM.jpg,4278,4349,STORE,exact=true\n"
+  },
+  {
+    "file": "Fujifilm_FinePix_E500.jpg",
+    "exit": 0,
+    "log": "Fujifilm_FinePix_E500.jpg,2241,2246,JPEG_V61,exact=true\n"
+  },
+  {
+    "file": "Kodak_CX7530.jpg",
+    "exit": 0,
+    "log": "Kodak_CX7530.jpg,5958,6017,STORE,exact=true\n"
+  },
+  {
+    "file": "Konica_Minolta_DiMAGE_Z3.jpg",
+    "exit": 0,
+    "log": "Konica_Minolta_DiMAGE_Z3.jpg,36971,11366,JPEG_V61,exact=true\n"
+  },
+  {
+    "file": "Nikon_COOLPIX_P1.jpg",
+    "exit": 0,
+    "log": "Nikon_COOLPIX_P1.jpg,7068,6300,JPEG_V61,exact=true\n"
+  },
+  {
+    "file": "Nikon_D70.jpg",
+    "exit": 0,
+    "log": "Nikon_D70.jpg,14034,12549,JPEG_V61,exact=true\n"
+  },
+  {
+    "file": "Olympus_C8080WZ.jpg",
+    "exit": 0,
+    "log": "Olympus_C8080WZ.jpg,3224,3286,STORE,exact=true\n"
+  },
+  {
+    "file": "PaintTool_sample.jpg",
+    "exit": 0,
+    "log": "PaintTool_sample.jpg,5738,5801,STORE,exact=true\n"
+  },
+  {
+    "file": "Panasonic_DMC-FZ30.jpg",
+    "exit": 0,
+    "log": "Panasonic_DMC-FZ30.jpg,10769,8859,JPEG_V61,exact=true\n"
+  },
+  {
+    "file": "Pentax_K10D.jpg",
+    "exit": 0,
+    "log": "Pentax_K10D.jpg,12077,10516,JPEG_V61,exact=true\n"
+  },
+  {
+    "file": "Reconyx_HC500_Hyperfire.jpg",
+    "exit": 0,
+    "log": "Reconyx_HC500_Hyperfire.jpg,425890,379231,JPEG_V61,exact=true\n"
+  },
+  {
+    "file": "Ricoh_Caplio_RR330.jpg",
+    "exit": 0,
+    "log": "Ricoh_Caplio_RR330.jpg,3662,3727,STORE,exact=true\n"
+  },
+  {
+    "file": "Samsung_Digimax_i50_MP3.jpg",
+    "exit": 0,
+    "log": "Samsung_Digimax_i50_MP3.jpg,45286,43919,JPEG_V61,exact=true\n"
+  },
+  {
+    "file": "Sony_HDR-HC3.jpg",
+    "exit": 0,
+    "log": "Sony_HDR-HC3.jpg,3565,3624,STORE,exact=true\n"
+  },
+  {
+    "file": "WWL_(Polaroid)_ION230.jpg",
+    "exit": 0,
+    "log": "WWL_(Polaroid)_ION230.jpg,3998,4066,STORE,exact=true\n"
+  },
+  {
+    "file": "long_description.jpg",
+    "exit": 0,
+    "log": "long_description.jpg,7585,5911,JPEG_V61,exact=true\n"
+  },
+  {
+    "file": "canon_hdr_NO.jpg",
+    "exit": 0,
+    "log": "canon_hdr_NO.jpg,784371,675755,JPEG_V61,exact=true\n"
+  },
+  {
+    "file": "canon_hdr_YES.jpg",
+    "exit": 0,
+    "log": "canon_hdr_YES.jpg,722875,615916,JPEG_V61,exact=true\n"
+  },
+  {
+    "file": "iphone_hdr_NO.jpg",
+    "exit": 0,
+    "log": "iphone_hdr_NO.jpg,1957448,1652925,JPEG_V61,exact=true\n"
+  },
+  {
+    "file": "iphone_hdr_YES.jpg",
+    "exit": 0,
+    "log": "iphone_hdr_YES.jpg,1976579,1671153,JPEG_V61,exact=true\n"
+  },
+  {
+    "file": "HMD_Nokia_8.3_5G.jpg",
+    "exit": 0,
+    "log": "HMD_Nokia_8.3_5G.jpg,2190194,1840415,JPEG_V61,exact=true\n"
+  },
+  {
+    "file": "HMD_Nokia_8.3_5G_hdr.jpg",
+    "exit": 0,
+    "log": "HMD_Nokia_8.3_5G_hdr.jpg,5168013,4328688,JPEG_V61,exact=true\n"
+  },
+  {
+    "file": "jolla.jpg",
+    "exit": 0,
+    "log": "jolla.jpg,811904,681247,JPEG_V61,exact=true\n"
+  }
+]

@@ -1,0 +1,17 @@
+[
+  {
+    "mutation": "nonzero_level",
+    "rejected": true,
+    "diagnostic": "Exception in thread \"main\" java.lang.AssertionError: Coefficient differs at Coefficient[mb=Mb[frame=1, x=0, y=0], category=2, block=9, position=0]: Java=25 reference=24"
+  },
+  {
+    "mutation": "zero_level",
+    "rejected": true,
+    "diagnostic": "Exception in thread \"main\" java.lang.AssertionError: Coefficient differs at Coefficient[mb=Mb[frame=1, x=0, y=0], category=2, block=8, position=0]: Java=1 reference=null"
+  },
+  {
+    "mutation": "cbp",
+    "rejected": true,
+    "diagnostic": "Exception in thread \"main\" java.lang.AssertionError: Residual summary differs at Mb[frame=1, x=0, y=0]"
+  }
+]

@@ -1,0 +1,9 @@
+/tmp/ivo-jpeg-external-inputs/libjxl_flower_small.q85_420_non_interleaved.jpg: 50,031 -> 50,116 bytes (100.17%), engine=JPEG_IR
+Engine                         valid   payload       IVO       ms  note
+STORE                          true       50,031    50,123        2  verbatim
+N&C contextuel                 true       72,514    72,606      176  PPM-like sparse contexts, order<=4
+REF + N&C                      true       72,511    72,603      132  REF minMatch=8 then N&C; REF size=49898
+JPEG oracle exact (structure/scans) true       50,024    50,116      123  JPEG exact; segments=13; scans=3; progressive=false; meta=641; entropy=49390; modes=[1, 1, 0]
+JPEG frozen portfolio (ABC, spatial, directional, similarity) false           -         -        8  IllegalArgumentException: V0/V1 expects one interleaved scan
+JPEG boundary portfolio (physical + presence control) false           -         -        4  IllegalArgumentException: No supported exact JPEG boundary candidate
+Written: /tmp/ivo-jpeg-integration-results/libjxl_flower_small.q85_420_non_interleaved.jpg/automatic.ivo

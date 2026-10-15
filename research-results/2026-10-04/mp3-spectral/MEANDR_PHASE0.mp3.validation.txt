@@ -1,0 +1,2 @@
+RESULT input=mp3-spectral-work/corpus/MEANDR_PHASE0.mp3 original=4001280 ivo=4455935 exact=true sha=55d7dd3b6cbdb82e5eae523e23f155040a13ce0be159140e93de590efdce7b0c ms=4598
+SPECTRAL Stats[parts=16672, pairs=4792599, quads=1737, scalefactorBits=263381, residualBits=0, unusedBits=23043, bigHash=-1871879981512468986, quadHash=1449933250031930564]

@@ -1,0 +1,37 @@
+[
+  {
+    "name": "MEANDR_PHASE0.mp3",
+    "values": 9603072,
+    "java_hash": "512c878a01f1c079",
+    "minimp3_hash": "512c878a01f1c079",
+    "matched": true
+  },
+  {
+    "name": "MIPSTest.mp3",
+    "values": 787968,
+    "java_hash": "f31b1fd7ac7eef1d",
+    "minimp3_hash": "f31b1fd7ac7eef1d",
+    "matched": true
+  },
+  {
+    "name": "generated-44100-1.mp3",
+    "values": 91008,
+    "java_hash": "ad013fff4981fc1d",
+    "minimp3_hash": "ad013fff4981fc1d",
+    "matched": true
+  },
+  {
+    "name": "l3-test45.bit",
+    "values": 946944,
+    "java_hash": "741e16179cb556c1",
+    "minimp3_hash": "741e16179cb556c1",
+    "matched": true
+  },
+  {
+    "name": "l3-test46.bit",
+    "values": 288000,
+    "java_hash": "c4ff3c117ff25221",
+    "minimp3_hash": "c4ff3c117ff25221",
+    "matched": true
+  }
+]

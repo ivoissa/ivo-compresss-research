@@ -1,0 +1,7 @@
+INPUT /tmp/ivo-minimp3/vectors/fuzz/l3-compl-cut.mp3 bytes=192 sha=9f5b4baaefc5403c2b55ad5a52c8d7e812ba9e25638f8b674a0d01df6008a7c7 store=251
+SIDE_PORTFOLIO direct=19 transposed=19 selected=false
+BASE v1=283 v3=284 exact=true
+MAIN_SPLIT mode=1 used_raw=163 unused_raw=8 coded=177
+RESULT mode=1 ivo=287 delta_vs_v3=3 exact=true
+MAIN_SPLIT mode=2 used_raw=163 unused_raw=8 coded=177
+RESULT mode=2 ivo=287 delta_vs_v3=3 exact=true

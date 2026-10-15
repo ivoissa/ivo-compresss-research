@@ -1,0 +1,12 @@
+/workspace/scratch/9c62166e5fd0/recap/ivo-java-complet-2026-10-04/research-results/2026-10-04/validation-v21/jpeg-inputs/image-rs_progressive3.jpg: 91,072 -> 84,911 bytes (93.24%), engine=JPEG_SCAN_RESEARCH
+Engine                         valid   payload       IVO       ms  note
+STORE                          true       91,072    91,142        3  verbatim
+N&C contextuel                 true      128,902   128,972      215  PPM-like sparse contexts, order<=4
+REF + N&C                      true      128,927   128,997      189  REF minMatch=8 then N&C; REF size=91038
+JPEG oracle exact (structure/scans) true       90,980    91,050      145  JPEG exact; segments=28; scans=11; progressive=true; meta=792; entropy=90280; modes=[0, 1, 0]
+JPEG frozen portfolio (ABC, spatial, directional, similarity) false           -         -        3  IllegalArgumentException: Progressive JPEG excluded from V0/V1
+JPEG boundary + mixed-context trials false           -         -        1  IllegalArgumentException: No supported exact JPEG boundary candidate
+JPEG progressive/multiscan syntax research true       84,841    84,911     2640  exact scan syntax; mixed refinement/symbol trials; mode=4
+Written: /workspace/scratch/9c62166e5fd0/recap/ivo-java-complet-2026-10-04/research-results/2026-10-05/compact-mixer/encodings/image-rs_progressive3/compact.ivo
+Restored 91,072 bytes with SHA-256 verification: /tmp/ivo-v29-image-rs_progressive3-v28
+Restored 91,072 bytes with SHA-256 verification: /tmp/ivo-v29-image-rs_progressive3-compact

@@ -1,0 +1,562 @@
+[
+  {
+    "source": "01-25060.jpg",
+    "cohort": "jpeg-structure",
+    "original_bytes": 204196,
+    "automatic_bytes": 169080,
+    "published_retained_bytes": 169080,
+    "engine": "JPEG_NEIGHBOUR_RESEARCH",
+    "sha256": "5d0b5cb9ea9069ae14c2a92951ed86c0ae56c3e2598bb10ef5e3300b785f5668",
+    "fresh_cli_exact": true
+  },
+  {
+    "source": "01-25066.jpg",
+    "cohort": "jpeg-structure",
+    "original_bytes": 119935,
+    "automatic_bytes": 93714,
+    "published_retained_bytes": 93714,
+    "engine": "JPEG_NEIGHBOUR_RESEARCH",
+    "sha256": "b2b17bc5f4aaa5760688efa0d739ea5198771f3ab76c1949263146edb58abe2a",
+    "fresh_cli_exact": true
+  },
+  {
+    "source": "Canon_40D.jpg",
+    "cohort": "jpeg-structure",
+    "original_bytes": 7958,
+    "automatic_bytes": 8014,
+    "published_retained_bytes": 8014,
+    "engine": "STORE",
+    "sha256": "6bfdabd4fc33d112283c147acccc574e770bbe6fbdbc3d4da968ba7b606ecc2f",
+    "fresh_cli_exact": true
+  },
+  {
+    "source": "Canon_DIGITAL_IXUS_400.jpg",
+    "cohort": "jpeg-structure",
+    "original_bytes": 9198,
+    "automatic_bytes": 7755,
+    "published_retained_bytes": 7755,
+    "engine": "JPEG_IR",
+    "sha256": "23c1ec51c075d6864862412d07b9d0f07e84237af68972c1d1293e4c28f73e4f",
+    "fresh_cli_exact": true
+  },
+  {
+    "source": "Nikon_D70.jpg",
+    "cohort": "jpeg-structure",
+    "original_bytes": 14034,
+    "automatic_bytes": 12248,
+    "published_retained_bytes": 12248,
+    "engine": "JPEG_NEIGHBOUR_RESEARCH",
+    "sha256": "8e2a627b96ca71c20129161f46bda3d338407da99bd11b1055adb27af27d7ef5",
+    "fresh_cli_exact": true
+  },
+  {
+    "source": "Pentax_K10D.jpg",
+    "cohort": "jpeg-structure",
+    "original_bytes": 12077,
+    "automatic_bytes": 10194,
+    "published_retained_bytes": 10194,
+    "engine": "JPEG_IR",
+    "sha256": "146601c9d406410abdaa832508ee4ccddbc7ad54530e81d57962c1b7728e2e6d",
+    "fresh_cli_exact": true
+  },
+  {
+    "source": "Reconyx_HC500_Hyperfire.jpg",
+    "cohort": "jpeg-structure",
+    "original_bytes": 425890,
+    "automatic_bytes": 356364,
+    "published_retained_bytes": 356364,
+    "engine": "JPEG_NEIGHBOUR_RESEARCH",
+    "sha256": "d7ba6bc532a225c955411cb96c733a45ee39403fa973312bded7732e6f8e4b3c",
+    "fresh_cli_exact": true
+  },
+  {
+    "source": "Samsung_Digimax_i50_MP3.jpg",
+    "cohort": "jpeg-structure",
+    "original_bytes": 45286,
+    "automatic_bytes": 43628,
+    "published_retained_bytes": 43628,
+    "engine": "JPEG_IR",
+    "sha256": "e61da5ee8d7ba1726bd0a887216ed5ae7ca38c97fcf7aac11b808e1c269e1722",
+    "fresh_cli_exact": true
+  },
+  {
+    "source": "fixture-0.jpg",
+    "cohort": "jpeg-structure",
+    "original_bytes": 353,
+    "automatic_bytes": 409,
+    "published_retained_bytes": 409,
+    "engine": "STORE",
+    "sha256": "fd4168c059bccb6371ed9b64f96f90601bb8169709b93dae0a3e941e73861789",
+    "fresh_cli_exact": true
+  },
+  {
+    "source": "fixture-1.jpg",
+    "cohort": "jpeg-structure",
+    "original_bytes": 371,
+    "automatic_bytes": 427,
+    "published_retained_bytes": 427,
+    "engine": "STORE",
+    "sha256": "8656dca5cdd5db601750bc91ad9ea45af32905e69b95d57ccbd26b09848860cb",
+    "fresh_cli_exact": true
+  },
+  {
+    "source": "fixture-2.jpg",
+    "cohort": "jpeg-structure",
+    "original_bytes": 970,
+    "automatic_bytes": 869,
+    "published_retained_bytes": 869,
+    "engine": "JPEG_NEIGHBOUR_RESEARCH",
+    "sha256": "2bceac200fa29db746eca48baf107bcd70a6e9567a1787fe570200797caca53b",
+    "fresh_cli_exact": true
+  },
+  {
+    "source": "fixture-3.jpg",
+    "cohort": "jpeg-structure",
+    "original_bytes": 3075,
+    "automatic_bytes": 2996,
+    "published_retained_bytes": 2996,
+    "engine": "JPEG_NEIGHBOUR_RESEARCH",
+    "sha256": "d993d8c7092b7dae859ffce117484c5afa6676a13f8dfffb275f885c1435eae5",
+    "fresh_cli_exact": true
+  },
+  {
+    "source": "hdr_canon_hdr_NO.jpg",
+    "cohort": "jpeg-structure",
+    "original_bytes": 784371,
+    "automatic_bytes": 650070,
+    "published_retained_bytes": 650070,
+    "engine": "JPEG_NEIGHBOUR_RESEARCH",
+    "sha256": "fa2127ebab1b3930c998ab262795044262f41dda7eaf0f7a21a773cff48c8696",
+    "fresh_cli_exact": true
+  },
+  {
+    "source": "hdr_iphone_hdr_NO.jpg",
+    "cohort": "jpeg-structure",
+    "original_bytes": 1957448,
+    "automatic_bytes": 1520247,
+    "published_retained_bytes": 1520247,
+    "engine": "JPEG_NEIGHBOUR_RESEARCH",
+    "sha256": "eb81d33a9b1d1bea5d133483f918c2cc927161c0dda44c9fedfa4da87c8b1cc3",
+    "fresh_cli_exact": true
+  },
+  {
+    "source": "hdr_iphone_hdr_YES.jpg",
+    "cohort": "jpeg-structure",
+    "original_bytes": 1976579,
+    "automatic_bytes": 1539895,
+    "published_retained_bytes": 1539895,
+    "engine": "JPEG_NEIGHBOUR_RESEARCH",
+    "sha256": "5125870f6f4a94a2329bc9f53482680772d3277399aed71c2f0636cb07870533",
+    "fresh_cli_exact": true
+  },
+  {
+    "source": "mobile_jolla.jpg",
+    "cohort": "jpeg-structure",
+    "original_bytes": 811904,
+    "automatic_bytes": 629435,
+    "published_retained_bytes": 629435,
+    "engine": "JPEG_NEIGHBOUR_RESEARCH",
+    "sha256": "ee6bc1200cf8b1b26f5b60d8294d9617e8099f6dfdd7a4757a424f332360f5e3",
+    "fresh_cli_exact": true
+  },
+  {
+    "source": "Canon_40D_photoshop_import.jpg",
+    "cohort": "jpeg-structure",
+    "original_bytes": 9686,
+    "automatic_bytes": 9635,
+    "published_retained_bytes": 9635,
+    "engine": "JPEG_NEIGHBOUR_RESEARCH",
+    "sha256": "40a7aa2cc28d8544b31408e6d54c568e6b749a8faf239c7a6234b315e953b9d5",
+    "fresh_cli_exact": true
+  },
+  {
+    "source": "Canon_PowerShot_S40.jpg",
+    "cohort": "jpeg-structure",
+    "original_bytes": 32764,
+    "automatic_bytes": 30783,
+    "published_retained_bytes": 30783,
+    "engine": "JPEG_NEIGHBOUR_RESEARCH",
+    "sha256": "8a9d04b92d0de5836c59ede8ae421235488e4031e893e07b1fe7e4b78f6a9901",
+    "fresh_cli_exact": true
+  },
+  {
+    "source": "Fujifilm_FinePix6900ZOOM.jpg",
+    "cohort": "jpeg-structure",
+    "original_bytes": 4278,
+    "automatic_bytes": 4242,
+    "published_retained_bytes": 4242,
+    "engine": "JPEG_IR",
+    "sha256": "40afc753b4e83d72cfa1080ae7a10310e0fcbb9e4f6ebdf32c7b2f1553c83fe3",
+    "fresh_cli_exact": true
+  },
+  {
+    "source": "Fujifilm_FinePix_E500.jpg",
+    "cohort": "jpeg-structure",
+    "original_bytes": 2241,
+    "automatic_bytes": 1954,
+    "published_retained_bytes": 1954,
+    "engine": "JPEG_IR",
+    "sha256": "ffbee7b07bf267dc0fb52817f8866df647758f7d48ac93e7a73d1914fb4c74da",
+    "fresh_cli_exact": true
+  },
+  {
+    "source": "Kodak_CX7530.jpg",
+    "cohort": "jpeg-structure",
+    "original_bytes": 5958,
+    "automatic_bytes": 6017,
+    "published_retained_bytes": 6017,
+    "engine": "STORE",
+    "sha256": "ac759931999a215ef78469a82bdfc382ccba96eb8d039ec9e81e53a9a419d35e",
+    "fresh_cli_exact": true
+  },
+  {
+    "source": "Konica_Minolta_DiMAGE_Z3.jpg",
+    "cohort": "jpeg-structure",
+    "original_bytes": 36971,
+    "automatic_bytes": 11057,
+    "published_retained_bytes": 11057,
+    "engine": "JPEG_IR",
+    "sha256": "b1b914f47528384e6252fa7caabb489f123b88c81ebd62ecb8eacdf64c46fd5e",
+    "fresh_cli_exact": true
+  },
+  {
+    "source": "Nikon_COOLPIX_P1.jpg",
+    "cohort": "jpeg-structure",
+    "original_bytes": 7068,
+    "automatic_bytes": 5969,
+    "published_retained_bytes": 5969,
+    "engine": "JPEG_IR",
+    "sha256": "896b47424dc1c87154a50b40394ae887a0b0d7d830f38a9d969295995f27ef43",
+    "fresh_cli_exact": true
+  },
+  {
+    "source": "Olympus_C8080WZ.jpg",
+    "cohort": "jpeg-structure",
+    "original_bytes": 3224,
+    "automatic_bytes": 3041,
+    "published_retained_bytes": 3041,
+    "engine": "JPEG_IR",
+    "sha256": "3495de26279d8d1e442177ba43cef855438e3b321481b9ee2ff513decb13ed9c",
+    "fresh_cli_exact": true
+  },
+  {
+    "source": "PaintTool_sample.jpg",
+    "cohort": "jpeg-structure",
+    "original_bytes": 5738,
+    "automatic_bytes": 5801,
+    "published_retained_bytes": 5801,
+    "engine": "STORE",
+    "sha256": "45e3aa44357a4b05d78b3fc51d0732be0ddf5a544b732b0134778b146380291a",
+    "fresh_cli_exact": true
+  },
+  {
+    "source": "Panasonic_DMC-FZ30.jpg",
+    "cohort": "jpeg-structure",
+    "original_bytes": 10769,
+    "automatic_bytes": 8614,
+    "published_retained_bytes": 8614,
+    "engine": "JPEG_IR",
+    "sha256": "c092a4ade7ae7b63ac13d50c3dc9da51ce2fb465caf7d1b6193d4c53f59e8ad8",
+    "fresh_cli_exact": true
+  },
+  {
+    "source": "gps_DSCN0010.jpg",
+    "cohort": "jpeg-structure",
+    "original_bytes": 161713,
+    "automatic_bytes": 140533,
+    "published_retained_bytes": 140533,
+    "engine": "JPEG_NEIGHBOUR_RESEARCH",
+    "sha256": "17307b1207eb6487d7908e9d154890b46e3d2e0192369cfd3f4c33d5a5af4035",
+    "fresh_cli_exact": true
+  },
+  {
+    "source": "gps_DSCN0012.jpg",
+    "cohort": "jpeg-structure",
+    "original_bytes": 159137,
+    "automatic_bytes": 142371,
+    "published_retained_bytes": 142371,
+    "engine": "JPEG_NEIGHBOUR_RESEARCH",
+    "sha256": "84d60184ac4098b7967e2ef6dae6b03fc0d98b24624d2b57412dbcd7cb864680",
+    "fresh_cli_exact": true
+  },
+  {
+    "source": "mobile_HMD_Nokia_8.3_5G.jpg",
+    "cohort": "jpeg-structure",
+    "original_bytes": 2190194,
+    "automatic_bytes": 1757227,
+    "published_retained_bytes": 1757227,
+    "engine": "JPEG_NEIGHBOUR_RESEARCH",
+    "sha256": "9be023624ccd5846beeb5b02d9b571251ef5bd8ed820389a430d114029f58eda",
+    "fresh_cli_exact": true
+  },
+  {
+    "source": "mobile_HMD_Nokia_8.3_5G_hdr.jpg",
+    "cohort": "jpeg-structure",
+    "original_bytes": 5168013,
+    "automatic_bytes": 4150179,
+    "published_retained_bytes": 4150179,
+    "engine": "JPEG_NEIGHBOUR_RESEARCH",
+    "sha256": "b150f64e631b0df0f70cdbb88ddcbb73c5536fcb840ace8d0e71f8d58d997bc1",
+    "fresh_cli_exact": true
+  },
+  {
+    "source": "libjxl_flower.png.im_q85_420.jpg",
+    "cohort": "jpeg-external",
+    "original_bytes": 546797,
+    "automatic_bytes": 448739,
+    "published_retained_bytes": 448739,
+    "engine": "JPEG_NEIGHBOUR_RESEARCH",
+    "sha256": "6ad9a79e9f26d2723ef954a0dca774429606655ab7184f8ab400016f228ca2ce",
+    "fresh_cli_exact": true
+  },
+  {
+    "source": "libjxl_flower.png.im_q85_420_progr.jpg",
+    "cohort": "jpeg-external",
+    "original_bytes": 522057,
+    "automatic_bytes": 522052,
+    "published_retained_bytes": 522052,
+    "engine": "JPEG_IR",
+    "sha256": "376ea09db11fad472ea164e5920c1c31746136b0e9db46bc3d527ee192b855e9",
+    "fresh_cli_exact": true
+  },
+  {
+    "source": "libjxl_flower.png.im_q85_444.jpg",
+    "cohort": "jpeg-external",
+    "original_bytes": 696659,
+    "automatic_bytes": 555644,
+    "published_retained_bytes": 555644,
+    "engine": "JPEG_NEIGHBOUR_RESEARCH",
+    "sha256": "ad991336879e89dcae910b87df6fe7442198782208b1636c1b794c2893c783fe",
+    "fresh_cli_exact": true
+  },
+  {
+    "source": "libjxl_flower.png.im_q85_gray.jpg",
+    "cohort": "jpeg-external",
+    "original_bytes": 461331,
+    "automatic_bytes": 377572,
+    "published_retained_bytes": 377572,
+    "engine": "JPEG_NEIGHBOUR_RESEARCH",
+    "sha256": "ea2c2b44bb52b75e20b79e86e5c1d24063f12074930bd898f7d819569ee3717c",
+    "fresh_cli_exact": true
+  },
+  {
+    "source": "libjxl_flower_small.cmyk.jpg",
+    "cohort": "jpeg-external",
+    "original_bytes": 148026,
+    "automatic_bytes": 127368,
+    "published_retained_bytes": 127368,
+    "engine": "JPEG_NEIGHBOUR_RESEARCH",
+    "sha256": "41eb9f4c37c84a25fbec520dca7ddf2279852b4928ed71bdb45f27216dede399",
+    "fresh_cli_exact": true
+  },
+  {
+    "source": "libjxl_flower_small.q85_420_non_interleaved.jpg",
+    "cohort": "jpeg-external",
+    "original_bytes": 50031,
+    "automatic_bytes": 50116,
+    "published_retained_bytes": 50116,
+    "engine": "JPEG_IR",
+    "sha256": "9d58a21221df433e4e5d373b3178bb1bb073e810e5fe5988891bf6fbf580c493",
+    "fresh_cli_exact": true
+  },
+  {
+    "source": "libjxl_bicycles_restarts.jpg",
+    "cohort": "jpeg-external",
+    "original_bytes": 87478,
+    "automatic_bytes": 77314,
+    "published_retained_bytes": 77314,
+    "engine": "JPEG_NEIGHBOUR_RESEARCH",
+    "sha256": "43aa279236a46c735f5eca9c5264274523f8ca11c202c8d8b277eb11157ac1d4",
+    "fresh_cli_exact": true
+  },
+  {
+    "source": "libjxl_sideways_bench.jpg",
+    "cohort": "jpeg-external",
+    "original_bytes": 15252,
+    "automatic_bytes": 14959,
+    "published_retained_bytes": 14959,
+    "engine": "JPEG_NEIGHBOUR_RESEARCH",
+    "sha256": "d1479d4643be8e857e5b91f70834aa6b37fa1594dced15933025babc0c7431cf",
+    "fresh_cli_exact": true
+  },
+  {
+    "source": "libjpeg-turbo_monkey12.jpg",
+    "cohort": "jpeg-external",
+    "original_bytes": 32831,
+    "automatic_bytes": 32902,
+    "published_retained_bytes": 32902,
+    "engine": "STORE",
+    "sha256": "a3cb218412cecfa877a4adee520aa3d58ac0d6d0f36a7a2541e598324ce481e3",
+    "fresh_cli_exact": true
+  },
+  {
+    "source": "libjpeg-turbo_testimgari.jpg",
+    "cohort": "jpeg-external",
+    "original_bytes": 5126,
+    "automatic_bytes": 5197,
+    "published_retained_bytes": 5197,
+    "engine": "STORE",
+    "sha256": "4672c7f08864cd0a8c73a4fa4b66ca32b635d38464551c1ecf06564ae8c89b38",
+    "fresh_cli_exact": true
+  },
+  {
+    "source": "libjpeg-turbo_testimgint.jpg",
+    "cohort": "jpeg-external",
+    "original_bytes": 5756,
+    "automatic_bytes": 5656,
+    "published_retained_bytes": 5656,
+    "engine": "JPEG_NEIGHBOUR_RESEARCH",
+    "sha256": "491679b8057739b3c8e5bacd1e918efb1691d271cbbd69820ff8d480dcb90963",
+    "fresh_cli_exact": true
+  },
+  {
+    "source": "libjpeg-turbo_testorig.jpg",
+    "cohort": "jpeg-external",
+    "original_bytes": 5770,
+    "automatic_bytes": 5672,
+    "published_retained_bytes": 5672,
+    "engine": "JPEG_NEIGHBOUR_RESEARCH",
+    "sha256": "acc6ec555d41d15b368320edaa3b20958ee6fa97cb6e4a18d1213d5ae8bec73b",
+    "fresh_cli_exact": true
+  },
+  {
+    "source": "python-pillow_flower2.jpg",
+    "cohort": "jpeg-external",
+    "original_bytes": 86491,
+    "automatic_bytes": 71482,
+    "published_retained_bytes": 71482,
+    "engine": "JPEG_NEIGHBOUR_RESEARCH",
+    "sha256": "4462d640037c4040c39695b6fbd8203d539ad371e30ec35b663801b8d6621dc2",
+    "fresh_cli_exact": true
+  },
+  {
+    "source": "python-pillow_hopper.jpg",
+    "cohort": "jpeg-external",
+    "original_bytes": 6412,
+    "automatic_bytes": 6199,
+    "published_retained_bytes": 6199,
+    "engine": "JPEG_NEIGHBOUR_RESEARCH",
+    "sha256": "ffe89a0ab0e94114e10777e7313d7fa83d634e34ebc2ea7479085cffa504c920",
+    "fresh_cli_exact": true
+  },
+  {
+    "source": "python-pillow_hopper_gray.jpg",
+    "cohort": "jpeg-external",
+    "original_bytes": 5353,
+    "automatic_bytes": 5118,
+    "published_retained_bytes": 5118,
+    "engine": "JPEG_NEIGHBOUR_RESEARCH",
+    "sha256": "4cfdb8492e03e6040bcb25b1bf8e8c7b4147ee1ca3cf9e12223157acaaa101f0",
+    "fresh_cli_exact": true
+  },
+  {
+    "source": "python-pillow_pil_sample_cmyk.jpg",
+    "cohort": "jpeg-external",
+    "original_bytes": 29364,
+    "automatic_bytes": 15980,
+    "published_retained_bytes": 15980,
+    "engine": "JPEG_NEIGHBOUR_RESEARCH",
+    "sha256": "1086f923d60bb5d6c4f2d3f7f56ba5d315d98e6f19ee8c8797dabac630c8ae80",
+    "fresh_cli_exact": true
+  },
+  {
+    "source": "python-pillow_pil_sample_rgb.jpg",
+    "cohort": "jpeg-external",
+    "original_bytes": 29342,
+    "automatic_bytes": 17008,
+    "published_retained_bytes": 17008,
+    "engine": "JPEG_NEIGHBOUR_RESEARCH",
+    "sha256": "d9d59e2c2304818ee421dddc7ac52d5830d37458cc18185ba3b2920dd6363fd4",
+    "fresh_cli_exact": true
+  },
+  {
+    "source": "python-pillow_rgb.jpg",
+    "cohort": "jpeg-external",
+    "original_bytes": 20230,
+    "automatic_bytes": 14531,
+    "published_retained_bytes": 14531,
+    "engine": "JPEG_NEIGHBOUR_RESEARCH",
+    "sha256": "5bfb9390be297169d3f7507ffc23cbf0bd2418ffa58c819bc108c6ac05967e49",
+    "fresh_cli_exact": true
+  },
+  {
+    "source": "python-pillow_xmp_test.jpg",
+    "cohort": "jpeg-external",
+    "original_bytes": 1798984,
+    "automatic_bytes": 1544426,
+    "published_retained_bytes": 1544426,
+    "engine": "JPEG_NEIGHBOUR_RESEARCH",
+    "sha256": "b024c2d84839f63249b220e42480a2150d9540a7daf464cbd8f459ea575ff0e9",
+    "fresh_cli_exact": true
+  },
+  {
+    "source": "pytorch_astronaut.jpg",
+    "cohort": "jpeg-external",
+    "original_bytes": 40344,
+    "automatic_bytes": 35944,
+    "published_retained_bytes": 35944,
+    "engine": "JPEG_NEIGHBOUR_RESEARCH",
+    "sha256": "874dba0332a5a9a6a9268e732745f57c7ba21bc733867463daaae4a766f0a03f",
+    "fresh_cli_exact": true
+  },
+  {
+    "source": "pytorch_dog1.jpg",
+    "cohort": "jpeg-external",
+    "original_bytes": 97422,
+    "automatic_bytes": 97483,
+    "published_retained_bytes": 97483,
+    "engine": "STORE",
+    "sha256": "828986ba0cdd909e3f6029d357938efba67d236350f724224b2e45cf0af0841f",
+    "fresh_cli_exact": true
+  },
+  {
+    "source": "pytorch_dog2.jpg",
+    "cohort": "jpeg-external",
+    "original_bytes": 90796,
+    "automatic_bytes": 90857,
+    "published_retained_bytes": 90857,
+    "engine": "STORE",
+    "sha256": "91c383f13fe7baf1c5306def5f50cc5bb0241e64065c081ad57671d33c503891",
+    "fresh_cli_exact": true
+  },
+  {
+    "source": "pytorch_leaning_tower.jpg",
+    "cohort": "jpeg-external",
+    "original_bytes": 1307589,
+    "automatic_bytes": 1307295,
+    "published_retained_bytes": 1307295,
+    "engine": "JPEG_IR",
+    "sha256": "6c4f164de83969d75acc2dd9231d2793131125f9fcb9034bbb45660e40cd2ffc",
+    "fresh_cli_exact": true
+  },
+  {
+    "source": "pytorch_person1.jpg",
+    "cohort": "jpeg-external",
+    "original_bytes": 70126,
+    "automatic_bytes": 62507,
+    "published_retained_bytes": 62507,
+    "engine": "JPEG_NEIGHBOUR_RESEARCH",
+    "sha256": "a5fff88c6b4a378657cd763c788053ca084f093d9a67d05c93172536881d4de5",
+    "fresh_cli_exact": true
+  },
+  {
+    "source": "pytorch_pottery.jpg",
+    "cohort": "jpeg-external",
+    "original_bytes": 91964,
+    "automatic_bytes": 77472,
+    "published_retained_bytes": 77472,
+    "engine": "JPEG_NEIGHBOUR_RESEARCH",
+    "sha256": "fafc9f88fad9d96bd5eaba1238eb40861e550d03169f22c616797df0910e548e",
+    "fresh_cli_exact": true
+  },
+  {
+    "source": "pytorch_dog.jpg",
+    "cohort": "jpeg-external",
+    "original_bytes": 661378,
+    "automatic_bytes": 561192,
+    "published_retained_bytes": 561192,
+    "engine": "JPEG_NEIGHBOUR_RESEARCH",
+    "sha256": "f3f87bb8ab3c26c7ecfd3ac60421d7f32b0503d1d6c5baf8bac42ed93d86351a",
+    "fresh_cli_exact": true
+  }
+]

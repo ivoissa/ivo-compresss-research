@@ -1,0 +1,5 @@
+REFERENCE original=10371 ivo=6057 scans=3 progressive=0 sha256=020643fccb9f4c5b9eaf8e2439e1a2c4e2a06b45214e7057ce918d3ba047195e
+RESULT mode=2 ivo=6121 gain_reference=-64 correction_bits=0 coefficient_hash=1297e20bdea5bd4d exact=true ms=144
+RESULT mode=3 ivo=6121 gain_reference=-64 correction_bits=0 coefficient_hash=1297e20bdea5bd4d exact=true ms=86
+RESULT mode=4 ivo=5846 gain_reference=211 correction_bits=0 coefficient_hash=1297e20bdea5bd4d exact=true ms=96
+RESULT mode=5 ivo=5883 gain_reference=174 correction_bits=0 coefficient_hash=1297e20bdea5bd4d exact=true ms=70

@@ -1,0 +1,6 @@
+RESULT kind=MP3 original=33062 payload=23321 ivo=23387 whole_file_exact=true elapsed_ms=578
+frames=79 granules=316 modeled=155 explicit=161
+gaps=79 nonZeroGaps=79 nzBytes=5146
+meta(deflated)=615 (raw 5592, prefix 45) payload=22700
+cost bytes: mags=12542 esc=3476 quads=341 sf=37 signs=5819 sideinfo=445 quadflags=40
+side bytes by field: f0=6 f1=2 f2=0 f3=35 f4=10 f5=43 f6=1 f7=1 f8=1 f9=23 f10=13 f11=6 f12=3 f13=22 f14=17 f15=45 f16=114 f17=10 f18=2 f19=3 f20=73 f21=0 f22=15

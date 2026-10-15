@@ -1,0 +1,1 @@
+PASS: 20 MPEG-1 archives byte-identical before/after extension

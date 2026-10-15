@@ -1,0 +1,9 @@
+/tmp/ivo-mp4-corpus/smooth-h264.mp4: 2,143 -> 1,318 bytes (61.50%), engine=MP4_V1
+Engine                         valid   payload       IVO       ms  note
+STORE                          true        2,143     2,201        1  verbatim
+N&C contextuel                 true        1,496     1,554       12  PPM-like sparse contexts, order<=4
+REF + N&C                      true        1,577     1,635       23  REF minMatch=8 then N&C; REF size=1781
+MP4 V1 (boîtes + cordes exactes) true        1,260     1,318       47  top-level ISO-BMFF layout + four exact cords
+MP4 V2 (échantillons + cordes exactes) true        1,271     1,329       32  sample map + video/audio/other/gap exact cords
+MP4 V3 (échantillons + NAL exacts) true        1,271     1,329       19  sample map + reversible NAL length/header/payload cords
+Written: /tmp/smooth-h264.ivo

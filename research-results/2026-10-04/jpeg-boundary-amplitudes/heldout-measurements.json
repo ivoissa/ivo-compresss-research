@@ -1,0 +1,254 @@
+[
+  {
+    "source": "Canon_40D_photoshop_import.jpg",
+    "mode": 5,
+    "original_bytes": 9686,
+    "previous_v15_bytes": 9759,
+    "candidate_bytes": 9911,
+    "gain_bytes": -152,
+    "milliseconds": 47
+  },
+  {
+    "source": "Canon_40D_photoshop_import.jpg",
+    "mode": 6,
+    "original_bytes": 9686,
+    "previous_v15_bytes": 9759,
+    "candidate_bytes": 9911,
+    "gain_bytes": -152,
+    "milliseconds": 50
+  },
+  {
+    "source": "Canon_PowerShot_S40.jpg",
+    "mode": 5,
+    "original_bytes": 32764,
+    "previous_v15_bytes": 31768,
+    "candidate_bytes": 31740,
+    "gain_bytes": 28,
+    "milliseconds": 191
+  },
+  {
+    "source": "Canon_PowerShot_S40.jpg",
+    "mode": 6,
+    "original_bytes": 32764,
+    "previous_v15_bytes": 31768,
+    "candidate_bytes": 31765,
+    "gain_bytes": 3,
+    "milliseconds": 177
+  },
+  {
+    "source": "Fujifilm_FinePix6900ZOOM.jpg",
+    "mode": 5,
+    "original_bytes": 4278,
+    "previous_v15_bytes": 4242,
+    "candidate_bytes": 4545,
+    "gain_bytes": -303,
+    "milliseconds": 29
+  },
+  {
+    "source": "Fujifilm_FinePix6900ZOOM.jpg",
+    "mode": 6,
+    "original_bytes": 4278,
+    "previous_v15_bytes": 4242,
+    "candidate_bytes": 4547,
+    "gain_bytes": -305,
+    "milliseconds": 23
+  },
+  {
+    "source": "Fujifilm_FinePix_E500.jpg",
+    "mode": 5,
+    "original_bytes": 2241,
+    "previous_v15_bytes": 1954,
+    "candidate_bytes": 2226,
+    "gain_bytes": -272,
+    "milliseconds": 24
+  },
+  {
+    "source": "Fujifilm_FinePix_E500.jpg",
+    "mode": 6,
+    "original_bytes": 2241,
+    "previous_v15_bytes": 1954,
+    "candidate_bytes": 2226,
+    "gain_bytes": -272,
+    "milliseconds": 16
+  },
+  {
+    "source": "Kodak_CX7530.jpg",
+    "mode": 5,
+    "original_bytes": 5958,
+    "previous_v15_bytes": 6017,
+    "candidate_bytes": 6368,
+    "gain_bytes": -351,
+    "milliseconds": 35
+  },
+  {
+    "source": "Kodak_CX7530.jpg",
+    "mode": 6,
+    "original_bytes": 5958,
+    "previous_v15_bytes": 6017,
+    "candidate_bytes": 6369,
+    "gain_bytes": -352,
+    "milliseconds": 31
+  },
+  {
+    "source": "Konica_Minolta_DiMAGE_Z3.jpg",
+    "mode": 5,
+    "original_bytes": 36971,
+    "previous_v15_bytes": 11057,
+    "candidate_bytes": 11356,
+    "gain_bytes": -299,
+    "milliseconds": 42
+  },
+  {
+    "source": "Konica_Minolta_DiMAGE_Z3.jpg",
+    "mode": 6,
+    "original_bytes": 36971,
+    "previous_v15_bytes": 11057,
+    "candidate_bytes": 11357,
+    "gain_bytes": -300,
+    "milliseconds": 42
+  },
+  {
+    "source": "Nikon_COOLPIX_P1.jpg",
+    "mode": 5,
+    "original_bytes": 7068,
+    "previous_v15_bytes": 5969,
+    "candidate_bytes": 6279,
+    "gain_bytes": -310,
+    "milliseconds": 33
+  },
+  {
+    "source": "Nikon_COOLPIX_P1.jpg",
+    "mode": 6,
+    "original_bytes": 7068,
+    "previous_v15_bytes": 5969,
+    "candidate_bytes": 6279,
+    "gain_bytes": -310,
+    "milliseconds": 27
+  },
+  {
+    "source": "Olympus_C8080WZ.jpg",
+    "mode": 5,
+    "original_bytes": 3224,
+    "previous_v15_bytes": 3041,
+    "candidate_bytes": 3353,
+    "gain_bytes": -312,
+    "milliseconds": 23
+  },
+  {
+    "source": "Olympus_C8080WZ.jpg",
+    "mode": 6,
+    "original_bytes": 3224,
+    "previous_v15_bytes": 3041,
+    "candidate_bytes": 3353,
+    "gain_bytes": -312,
+    "milliseconds": 20
+  },
+  {
+    "source": "PaintTool_sample.jpg",
+    "mode": 5,
+    "original_bytes": 5738,
+    "previous_v15_bytes": 5801,
+    "candidate_bytes": 6178,
+    "gain_bytes": -377,
+    "milliseconds": 37
+  },
+  {
+    "source": "PaintTool_sample.jpg",
+    "mode": 6,
+    "original_bytes": 5738,
+    "previous_v15_bytes": 5801,
+    "candidate_bytes": 6180,
+    "gain_bytes": -379,
+    "milliseconds": 32
+  },
+  {
+    "source": "Panasonic_DMC-FZ30.jpg",
+    "mode": 5,
+    "original_bytes": 10769,
+    "previous_v15_bytes": 8614,
+    "candidate_bytes": 8847,
+    "gain_bytes": -233,
+    "milliseconds": 44
+  },
+  {
+    "source": "Panasonic_DMC-FZ30.jpg",
+    "mode": 6,
+    "original_bytes": 10769,
+    "previous_v15_bytes": 8614,
+    "candidate_bytes": 8847,
+    "gain_bytes": -233,
+    "milliseconds": 47
+  },
+  {
+    "source": "gps_DSCN0010.jpg",
+    "mode": 5,
+    "original_bytes": 161713,
+    "previous_v15_bytes": 142293,
+    "candidate_bytes": 142224,
+    "gain_bytes": 69,
+    "milliseconds": 755
+  },
+  {
+    "source": "gps_DSCN0010.jpg",
+    "mode": 6,
+    "original_bytes": 161713,
+    "previous_v15_bytes": 142293,
+    "candidate_bytes": 142283,
+    "gain_bytes": 10,
+    "milliseconds": 783
+  },
+  {
+    "source": "gps_DSCN0012.jpg",
+    "mode": 5,
+    "original_bytes": 159137,
+    "previous_v15_bytes": 143797,
+    "candidate_bytes": 143724,
+    "gain_bytes": 73,
+    "milliseconds": 833
+  },
+  {
+    "source": "gps_DSCN0012.jpg",
+    "mode": 6,
+    "original_bytes": 159137,
+    "previous_v15_bytes": 143797,
+    "candidate_bytes": 143799,
+    "gain_bytes": -2,
+    "milliseconds": 874
+  },
+  {
+    "source": "mobile_HMD_Nokia_8.3_5G.jpg",
+    "mode": 5,
+    "original_bytes": 2190194,
+    "previous_v15_bytes": 1792138,
+    "candidate_bytes": 1789947,
+    "gain_bytes": 2191,
+    "milliseconds": 10168
+  },
+  {
+    "source": "mobile_HMD_Nokia_8.3_5G.jpg",
+    "mode": 6,
+    "original_bytes": 2190194,
+    "previous_v15_bytes": 1792138,
+    "candidate_bytes": 1792120,
+    "gain_bytes": 18,
+    "milliseconds": 10864
+  },
+  {
+    "source": "mobile_HMD_Nokia_8.3_5G_hdr.jpg",
+    "mode": 5,
+    "original_bytes": 5168013,
+    "previous_v15_bytes": 4229822,
+    "candidate_bytes": 4224993,
+    "gain_bytes": 4829,
+    "milliseconds": 25316
+  },
+  {
+    "source": "mobile_HMD_Nokia_8.3_5G_hdr.jpg",
+    "mode": 6,
+    "original_bytes": 5168013,
+    "previous_v15_bytes": 4229822,
+    "candidate_bytes": 4230081,
+    "gain_bytes": -259,
+    "milliseconds": 23810
+  }
+]

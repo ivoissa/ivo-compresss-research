@@ -1,0 +1,57 @@
+[
+  {
+    "name": "image-rs_tower_progressive.jpg",
+    "independent_pixel_exact": true,
+    "log": "/tmp/ivo-v21-jpeg-results/image-rs_tower_progressive.jpg.oracle.log"
+  },
+  {
+    "name": "image-rs_jpg-progressive.jpg",
+    "independent_pixel_exact": true,
+    "log": "/tmp/ivo-v21-jpeg-results/image-rs_jpg-progressive.jpg.oracle.log"
+  },
+  {
+    "name": "image-rs_non-interleaved-mcu.jpg",
+    "independent_pixel_exact": true,
+    "log": "/tmp/ivo-v21-jpeg-results/image-rs_non-interleaved-mcu.jpg.oracle.log"
+  },
+  {
+    "name": "image-rs_progressive3.jpg",
+    "independent_pixel_exact": true,
+    "log": "/tmp/ivo-v21-jpeg-results/image-rs_progressive3.jpg.oracle.log"
+  },
+  {
+    "name": "image-rs_progressive-missing-ac.jpg",
+    "independent_pixel_exact": true,
+    "log": "/tmp/ivo-v21-jpeg-results/image-rs_progressive-missing-ac.jpg.oracle.log"
+  },
+  {
+    "name": "image-rs_progressive-missing-dc.jpg",
+    "independent_pixel_exact": true,
+    "log": "/tmp/ivo-v21-jpeg-results/image-rs_progressive-missing-dc.jpg.oracle.log"
+  },
+  {
+    "name": "is-progressive_kitten-progressive.jpg",
+    "independent_pixel_exact": true,
+    "log": "/tmp/ivo-v21-jpeg-results/is-progressive_kitten-progressive.jpg.oracle.log"
+  },
+  {
+    "name": "is-progressive_progressive.jpg",
+    "independent_pixel_exact": true,
+    "log": "/tmp/ivo-v21-jpeg-results/is-progressive_progressive.jpg.oracle.log"
+  },
+  {
+    "name": "libjxl_new_flower_small.q85_420_partially_interleaved.jpg",
+    "independent_pixel_exact": true,
+    "log": "/tmp/ivo-v21-jpeg-results/libjxl_new_flower_small.q85_420_partially_interleaved.jpg.oracle.log"
+  },
+  {
+    "name": "libjxl_new_flower_small.q85_444_non_interleaved.jpg",
+    "independent_pixel_exact": true,
+    "log": "/tmp/ivo-v21-jpeg-results/libjxl_new_flower_small.q85_444_non_interleaved.jpg.oracle.log"
+  },
+  {
+    "name": "libjxl_new_flower_small.q85_444_partially_interleaved.jpg",
+    "independent_pixel_exact": true,
+    "log": "/tmp/ivo-v21-jpeg-results/libjxl_new_flower_small.q85_444_partially_interleaved.jpg.oracle.log"
+  }
+]

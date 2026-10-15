@@ -1,0 +1,7 @@
+slice fallback: escape length
+slice fallback: escape length
+slice fallback: escape length
+slices modeled=137 raw=572 | modeled NAL bytes=913676 header bytes=397 tail bytes=130 | skeleton=4513967
+model bytes by group: skip=5127 mbtype=17029 mvd=38983 ref=0 intra/chroma/t8=13163 cbp=33798 qpdelta=10392 cbf=83772 sig=246548 last=98441 abs=118004 bypass=161698 term=8
+meta(deflated)=4510299 (raw 4515253) payload=826962
+original=5427643 compressed=5337269 delta=-1.67% GAIN | identical=true | comp 6541 ms, decomp 4242 ms

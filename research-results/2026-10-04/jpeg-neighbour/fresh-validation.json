@@ -1,0 +1,674 @@
+[
+  {
+    "source": "01-25060.jpg",
+    "archive": "neighbour-b0-m0.ivo",
+    "bytes": 171872,
+    "original_sha256": "5d0b5cb9ea9069ae14c2a92951ed86c0ae56c3e2598bb10ef5e3300b785f5668",
+    "fresh_cli_exact": true
+  },
+  {
+    "source": "01-25060.jpg",
+    "archive": "neighbour-b0-m1.ivo",
+    "bytes": 171771,
+    "original_sha256": "5d0b5cb9ea9069ae14c2a92951ed86c0ae56c3e2598bb10ef5e3300b785f5668",
+    "fresh_cli_exact": true
+  },
+  {
+    "source": "01-25066.jpg",
+    "archive": "neighbour-b0-m0.ivo",
+    "bytes": 94968,
+    "original_sha256": "b2b17bc5f4aaa5760688efa0d739ea5198771f3ab76c1949263146edb58abe2a",
+    "fresh_cli_exact": true
+  },
+  {
+    "source": "01-25066.jpg",
+    "archive": "neighbour-b0-m1.ivo",
+    "bytes": 94870,
+    "original_sha256": "b2b17bc5f4aaa5760688efa0d739ea5198771f3ab76c1949263146edb58abe2a",
+    "fresh_cli_exact": true
+  },
+  {
+    "source": "Canon_40D.jpg",
+    "archive": "neighbour-b1-m0.ivo",
+    "bytes": 8391,
+    "original_sha256": "6bfdabd4fc33d112283c147acccc574e770bbe6fbdbc3d4da968ba7b606ecc2f",
+    "fresh_cli_exact": true
+  },
+  {
+    "source": "Canon_40D.jpg",
+    "archive": "neighbour-b1-m1.ivo",
+    "bytes": 8390,
+    "original_sha256": "6bfdabd4fc33d112283c147acccc574e770bbe6fbdbc3d4da968ba7b606ecc2f",
+    "fresh_cli_exact": true
+  },
+  {
+    "source": "Canon_40D.jpg",
+    "archive": "neighbour-b2-m0.ivo",
+    "bytes": 8389,
+    "original_sha256": "6bfdabd4fc33d112283c147acccc574e770bbe6fbdbc3d4da968ba7b606ecc2f",
+    "fresh_cli_exact": true
+  },
+  {
+    "source": "Canon_40D.jpg",
+    "archive": "neighbour-b2-m1.ivo",
+    "bytes": 8388,
+    "original_sha256": "6bfdabd4fc33d112283c147acccc574e770bbe6fbdbc3d4da968ba7b606ecc2f",
+    "fresh_cli_exact": true
+  },
+  {
+    "source": "Canon_40D.jpg",
+    "archive": "neighbour-m0.ivo",
+    "bytes": 8389,
+    "original_sha256": "6bfdabd4fc33d112283c147acccc574e770bbe6fbdbc3d4da968ba7b606ecc2f",
+    "fresh_cli_exact": true
+  },
+  {
+    "source": "Canon_40D.jpg",
+    "archive": "neighbour-m1.ivo",
+    "bytes": 8388,
+    "original_sha256": "6bfdabd4fc33d112283c147acccc574e770bbe6fbdbc3d4da968ba7b606ecc2f",
+    "fresh_cli_exact": true
+  },
+  {
+    "source": "Canon_DIGITAL_IXUS_400.jpg",
+    "archive": "neighbour-b1-m0.ivo",
+    "bytes": 8097,
+    "original_sha256": "23c1ec51c075d6864862412d07b9d0f07e84237af68972c1d1293e4c28f73e4f",
+    "fresh_cli_exact": true
+  },
+  {
+    "source": "Canon_DIGITAL_IXUS_400.jpg",
+    "archive": "neighbour-b1-m1.ivo",
+    "bytes": 8096,
+    "original_sha256": "23c1ec51c075d6864862412d07b9d0f07e84237af68972c1d1293e4c28f73e4f",
+    "fresh_cli_exact": true
+  },
+  {
+    "source": "Canon_DIGITAL_IXUS_400.jpg",
+    "archive": "neighbour-b2-m0.ivo",
+    "bytes": 8097,
+    "original_sha256": "23c1ec51c075d6864862412d07b9d0f07e84237af68972c1d1293e4c28f73e4f",
+    "fresh_cli_exact": true
+  },
+  {
+    "source": "Canon_DIGITAL_IXUS_400.jpg",
+    "archive": "neighbour-b2-m1.ivo",
+    "bytes": 8096,
+    "original_sha256": "23c1ec51c075d6864862412d07b9d0f07e84237af68972c1d1293e4c28f73e4f",
+    "fresh_cli_exact": true
+  },
+  {
+    "source": "Canon_DIGITAL_IXUS_400.jpg",
+    "archive": "neighbour-m0.ivo",
+    "bytes": 8095,
+    "original_sha256": "23c1ec51c075d6864862412d07b9d0f07e84237af68972c1d1293e4c28f73e4f",
+    "fresh_cli_exact": true
+  },
+  {
+    "source": "Canon_DIGITAL_IXUS_400.jpg",
+    "archive": "neighbour-m1.ivo",
+    "bytes": 8094,
+    "original_sha256": "23c1ec51c075d6864862412d07b9d0f07e84237af68972c1d1293e4c28f73e4f",
+    "fresh_cli_exact": true
+  },
+  {
+    "source": "Nikon_D70.jpg",
+    "archive": "neighbour-b1-m0.ivo",
+    "bytes": 12551,
+    "original_sha256": "8e2a627b96ca71c20129161f46bda3d338407da99bd11b1055adb27af27d7ef5",
+    "fresh_cli_exact": true
+  },
+  {
+    "source": "Nikon_D70.jpg",
+    "archive": "neighbour-b1-m1.ivo",
+    "bytes": 12551,
+    "original_sha256": "8e2a627b96ca71c20129161f46bda3d338407da99bd11b1055adb27af27d7ef5",
+    "fresh_cli_exact": true
+  },
+  {
+    "source": "Nikon_D70.jpg",
+    "archive": "neighbour-b2-m0.ivo",
+    "bytes": 12551,
+    "original_sha256": "8e2a627b96ca71c20129161f46bda3d338407da99bd11b1055adb27af27d7ef5",
+    "fresh_cli_exact": true
+  },
+  {
+    "source": "Nikon_D70.jpg",
+    "archive": "neighbour-b2-m1.ivo",
+    "bytes": 12551,
+    "original_sha256": "8e2a627b96ca71c20129161f46bda3d338407da99bd11b1055adb27af27d7ef5",
+    "fresh_cli_exact": true
+  },
+  {
+    "source": "Nikon_D70.jpg",
+    "archive": "neighbour-m0.ivo",
+    "bytes": 12550,
+    "original_sha256": "8e2a627b96ca71c20129161f46bda3d338407da99bd11b1055adb27af27d7ef5",
+    "fresh_cli_exact": true
+  },
+  {
+    "source": "Nikon_D70.jpg",
+    "archive": "neighbour-m1.ivo",
+    "bytes": 12550,
+    "original_sha256": "8e2a627b96ca71c20129161f46bda3d338407da99bd11b1055adb27af27d7ef5",
+    "fresh_cli_exact": true
+  },
+  {
+    "source": "Pentax_K10D.jpg",
+    "archive": "neighbour-b1-m0.ivo",
+    "bytes": 10520,
+    "original_sha256": "146601c9d406410abdaa832508ee4ccddbc7ad54530e81d57962c1b7728e2e6d",
+    "fresh_cli_exact": true
+  },
+  {
+    "source": "Pentax_K10D.jpg",
+    "archive": "neighbour-b1-m1.ivo",
+    "bytes": 10520,
+    "original_sha256": "146601c9d406410abdaa832508ee4ccddbc7ad54530e81d57962c1b7728e2e6d",
+    "fresh_cli_exact": true
+  },
+  {
+    "source": "Pentax_K10D.jpg",
+    "archive": "neighbour-b2-m0.ivo",
+    "bytes": 10518,
+    "original_sha256": "146601c9d406410abdaa832508ee4ccddbc7ad54530e81d57962c1b7728e2e6d",
+    "fresh_cli_exact": true
+  },
+  {
+    "source": "Pentax_K10D.jpg",
+    "archive": "neighbour-b2-m1.ivo",
+    "bytes": 10518,
+    "original_sha256": "146601c9d406410abdaa832508ee4ccddbc7ad54530e81d57962c1b7728e2e6d",
+    "fresh_cli_exact": true
+  },
+  {
+    "source": "Pentax_K10D.jpg",
+    "archive": "neighbour-m0.ivo",
+    "bytes": 10520,
+    "original_sha256": "146601c9d406410abdaa832508ee4ccddbc7ad54530e81d57962c1b7728e2e6d",
+    "fresh_cli_exact": true
+  },
+  {
+    "source": "Pentax_K10D.jpg",
+    "archive": "neighbour-m1.ivo",
+    "bytes": 10520,
+    "original_sha256": "146601c9d406410abdaa832508ee4ccddbc7ad54530e81d57962c1b7728e2e6d",
+    "fresh_cli_exact": true
+  },
+  {
+    "source": "Reconyx_HC500_Hyperfire.jpg",
+    "archive": "neighbour-b1-m0.ivo",
+    "bytes": 380383,
+    "original_sha256": "d7ba6bc532a225c955411cb96c733a45ee39403fa973312bded7732e6f8e4b3c",
+    "fresh_cli_exact": true
+  },
+  {
+    "source": "Reconyx_HC500_Hyperfire.jpg",
+    "archive": "neighbour-b1-m1.ivo",
+    "bytes": 380179,
+    "original_sha256": "d7ba6bc532a225c955411cb96c733a45ee39403fa973312bded7732e6f8e4b3c",
+    "fresh_cli_exact": true
+  },
+  {
+    "source": "Reconyx_HC500_Hyperfire.jpg",
+    "archive": "neighbour-b2-m0.ivo",
+    "bytes": 379161,
+    "original_sha256": "d7ba6bc532a225c955411cb96c733a45ee39403fa973312bded7732e6f8e4b3c",
+    "fresh_cli_exact": true
+  },
+  {
+    "source": "Reconyx_HC500_Hyperfire.jpg",
+    "archive": "neighbour-b2-m1.ivo",
+    "bytes": 378957,
+    "original_sha256": "d7ba6bc532a225c955411cb96c733a45ee39403fa973312bded7732e6f8e4b3c",
+    "fresh_cli_exact": true
+  },
+  {
+    "source": "Reconyx_HC500_Hyperfire.jpg",
+    "archive": "neighbour-m0.ivo",
+    "bytes": 380963,
+    "original_sha256": "d7ba6bc532a225c955411cb96c733a45ee39403fa973312bded7732e6f8e4b3c",
+    "fresh_cli_exact": true
+  },
+  {
+    "source": "Reconyx_HC500_Hyperfire.jpg",
+    "archive": "neighbour-m1.ivo",
+    "bytes": 380759,
+    "original_sha256": "d7ba6bc532a225c955411cb96c733a45ee39403fa973312bded7732e6f8e4b3c",
+    "fresh_cli_exact": true
+  },
+  {
+    "source": "Samsung_Digimax_i50_MP3.jpg",
+    "archive": "neighbour-b1-m0.ivo",
+    "bytes": 43921,
+    "original_sha256": "e61da5ee8d7ba1726bd0a887216ed5ae7ca38c97fcf7aac11b808e1c269e1722",
+    "fresh_cli_exact": true
+  },
+  {
+    "source": "Samsung_Digimax_i50_MP3.jpg",
+    "archive": "neighbour-b1-m1.ivo",
+    "bytes": 43920,
+    "original_sha256": "e61da5ee8d7ba1726bd0a887216ed5ae7ca38c97fcf7aac11b808e1c269e1722",
+    "fresh_cli_exact": true
+  },
+  {
+    "source": "Samsung_Digimax_i50_MP3.jpg",
+    "archive": "neighbour-b2-m0.ivo",
+    "bytes": 43923,
+    "original_sha256": "e61da5ee8d7ba1726bd0a887216ed5ae7ca38c97fcf7aac11b808e1c269e1722",
+    "fresh_cli_exact": true
+  },
+  {
+    "source": "Samsung_Digimax_i50_MP3.jpg",
+    "archive": "neighbour-b2-m1.ivo",
+    "bytes": 43922,
+    "original_sha256": "e61da5ee8d7ba1726bd0a887216ed5ae7ca38c97fcf7aac11b808e1c269e1722",
+    "fresh_cli_exact": true
+  },
+  {
+    "source": "Samsung_Digimax_i50_MP3.jpg",
+    "archive": "neighbour-m0.ivo",
+    "bytes": 43920,
+    "original_sha256": "e61da5ee8d7ba1726bd0a887216ed5ae7ca38c97fcf7aac11b808e1c269e1722",
+    "fresh_cli_exact": true
+  },
+  {
+    "source": "Samsung_Digimax_i50_MP3.jpg",
+    "archive": "neighbour-m1.ivo",
+    "bytes": 43919,
+    "original_sha256": "e61da5ee8d7ba1726bd0a887216ed5ae7ca38c97fcf7aac11b808e1c269e1722",
+    "fresh_cli_exact": true
+  },
+  {
+    "source": "fixture-0.jpg",
+    "archive": "neighbour-b0-m0.ivo",
+    "bytes": 490,
+    "original_sha256": "fd4168c059bccb6371ed9b64f96f90601bb8169709b93dae0a3e941e73861789",
+    "fresh_cli_exact": true
+  },
+  {
+    "source": "fixture-0.jpg",
+    "archive": "neighbour-b0-m1.ivo",
+    "bytes": 490,
+    "original_sha256": "fd4168c059bccb6371ed9b64f96f90601bb8169709b93dae0a3e941e73861789",
+    "fresh_cli_exact": true
+  },
+  {
+    "source": "fixture-0.jpg",
+    "archive": "neighbour-b1-m0.ivo",
+    "bytes": 490,
+    "original_sha256": "fd4168c059bccb6371ed9b64f96f90601bb8169709b93dae0a3e941e73861789",
+    "fresh_cli_exact": true
+  },
+  {
+    "source": "fixture-0.jpg",
+    "archive": "neighbour-b1-m1.ivo",
+    "bytes": 490,
+    "original_sha256": "fd4168c059bccb6371ed9b64f96f90601bb8169709b93dae0a3e941e73861789",
+    "fresh_cli_exact": true
+  },
+  {
+    "source": "fixture-0.jpg",
+    "archive": "neighbour-b2-m0.ivo",
+    "bytes": 490,
+    "original_sha256": "fd4168c059bccb6371ed9b64f96f90601bb8169709b93dae0a3e941e73861789",
+    "fresh_cli_exact": true
+  },
+  {
+    "source": "fixture-0.jpg",
+    "archive": "neighbour-b2-m1.ivo",
+    "bytes": 490,
+    "original_sha256": "fd4168c059bccb6371ed9b64f96f90601bb8169709b93dae0a3e941e73861789",
+    "fresh_cli_exact": true
+  },
+  {
+    "source": "fixture-1.jpg",
+    "archive": "neighbour-b0-m0.ivo",
+    "bytes": 507,
+    "original_sha256": "8656dca5cdd5db601750bc91ad9ea45af32905e69b95d57ccbd26b09848860cb",
+    "fresh_cli_exact": true
+  },
+  {
+    "source": "fixture-1.jpg",
+    "archive": "neighbour-b0-m1.ivo",
+    "bytes": 507,
+    "original_sha256": "8656dca5cdd5db601750bc91ad9ea45af32905e69b95d57ccbd26b09848860cb",
+    "fresh_cli_exact": true
+  },
+  {
+    "source": "fixture-1.jpg",
+    "archive": "neighbour-b1-m0.ivo",
+    "bytes": 508,
+    "original_sha256": "8656dca5cdd5db601750bc91ad9ea45af32905e69b95d57ccbd26b09848860cb",
+    "fresh_cli_exact": true
+  },
+  {
+    "source": "fixture-1.jpg",
+    "archive": "neighbour-b1-m1.ivo",
+    "bytes": 508,
+    "original_sha256": "8656dca5cdd5db601750bc91ad9ea45af32905e69b95d57ccbd26b09848860cb",
+    "fresh_cli_exact": true
+  },
+  {
+    "source": "fixture-1.jpg",
+    "archive": "neighbour-b2-m0.ivo",
+    "bytes": 508,
+    "original_sha256": "8656dca5cdd5db601750bc91ad9ea45af32905e69b95d57ccbd26b09848860cb",
+    "fresh_cli_exact": true
+  },
+  {
+    "source": "fixture-1.jpg",
+    "archive": "neighbour-b2-m1.ivo",
+    "bytes": 508,
+    "original_sha256": "8656dca5cdd5db601750bc91ad9ea45af32905e69b95d57ccbd26b09848860cb",
+    "fresh_cli_exact": true
+  },
+  {
+    "source": "fixture-2.jpg",
+    "archive": "neighbour-b0-m0.ivo",
+    "bytes": 941,
+    "original_sha256": "2bceac200fa29db746eca48baf107bcd70a6e9567a1787fe570200797caca53b",
+    "fresh_cli_exact": true
+  },
+  {
+    "source": "fixture-2.jpg",
+    "archive": "neighbour-b0-m1.ivo",
+    "bytes": 938,
+    "original_sha256": "2bceac200fa29db746eca48baf107bcd70a6e9567a1787fe570200797caca53b",
+    "fresh_cli_exact": true
+  },
+  {
+    "source": "fixture-2.jpg",
+    "archive": "neighbour-b1-m0.ivo",
+    "bytes": 943,
+    "original_sha256": "2bceac200fa29db746eca48baf107bcd70a6e9567a1787fe570200797caca53b",
+    "fresh_cli_exact": true
+  },
+  {
+    "source": "fixture-2.jpg",
+    "archive": "neighbour-b1-m1.ivo",
+    "bytes": 940,
+    "original_sha256": "2bceac200fa29db746eca48baf107bcd70a6e9567a1787fe570200797caca53b",
+    "fresh_cli_exact": true
+  },
+  {
+    "source": "fixture-2.jpg",
+    "archive": "neighbour-b2-m0.ivo",
+    "bytes": 943,
+    "original_sha256": "2bceac200fa29db746eca48baf107bcd70a6e9567a1787fe570200797caca53b",
+    "fresh_cli_exact": true
+  },
+  {
+    "source": "fixture-2.jpg",
+    "archive": "neighbour-b2-m1.ivo",
+    "bytes": 940,
+    "original_sha256": "2bceac200fa29db746eca48baf107bcd70a6e9567a1787fe570200797caca53b",
+    "fresh_cli_exact": true
+  },
+  {
+    "source": "fixture-3.jpg",
+    "archive": "neighbour-b0-m0.ivo",
+    "bytes": 3233,
+    "original_sha256": "d993d8c7092b7dae859ffce117484c5afa6676a13f8dfffb275f885c1435eae5",
+    "fresh_cli_exact": true
+  },
+  {
+    "source": "fixture-3.jpg",
+    "archive": "neighbour-b0-m1.ivo",
+    "bytes": 3232,
+    "original_sha256": "d993d8c7092b7dae859ffce117484c5afa6676a13f8dfffb275f885c1435eae5",
+    "fresh_cli_exact": true
+  },
+  {
+    "source": "fixture-3.jpg",
+    "archive": "neighbour-b1-m0.ivo",
+    "bytes": 3234,
+    "original_sha256": "d993d8c7092b7dae859ffce117484c5afa6676a13f8dfffb275f885c1435eae5",
+    "fresh_cli_exact": true
+  },
+  {
+    "source": "fixture-3.jpg",
+    "archive": "neighbour-b1-m1.ivo",
+    "bytes": 3233,
+    "original_sha256": "d993d8c7092b7dae859ffce117484c5afa6676a13f8dfffb275f885c1435eae5",
+    "fresh_cli_exact": true
+  },
+  {
+    "source": "fixture-3.jpg",
+    "archive": "neighbour-b2-m0.ivo",
+    "bytes": 3233,
+    "original_sha256": "d993d8c7092b7dae859ffce117484c5afa6676a13f8dfffb275f885c1435eae5",
+    "fresh_cli_exact": true
+  },
+  {
+    "source": "fixture-3.jpg",
+    "archive": "neighbour-b2-m1.ivo",
+    "bytes": 3232,
+    "original_sha256": "d993d8c7092b7dae859ffce117484c5afa6676a13f8dfffb275f885c1435eae5",
+    "fresh_cli_exact": true
+  },
+  {
+    "source": "hdr_canon_hdr_NO.jpg",
+    "archive": "neighbour-b1-m0.ivo",
+    "bytes": 677155,
+    "original_sha256": "fa2127ebab1b3930c998ab262795044262f41dda7eaf0f7a21a773cff48c8696",
+    "fresh_cli_exact": true
+  },
+  {
+    "source": "hdr_canon_hdr_NO.jpg",
+    "archive": "neighbour-b1-m1.ivo",
+    "bytes": 677011,
+    "original_sha256": "fa2127ebab1b3930c998ab262795044262f41dda7eaf0f7a21a773cff48c8696",
+    "fresh_cli_exact": true
+  },
+  {
+    "source": "hdr_canon_hdr_NO.jpg",
+    "archive": "neighbour-b2-m0.ivo",
+    "bytes": 675759,
+    "original_sha256": "fa2127ebab1b3930c998ab262795044262f41dda7eaf0f7a21a773cff48c8696",
+    "fresh_cli_exact": true
+  },
+  {
+    "source": "hdr_canon_hdr_NO.jpg",
+    "archive": "neighbour-b2-m1.ivo",
+    "bytes": 675615,
+    "original_sha256": "fa2127ebab1b3930c998ab262795044262f41dda7eaf0f7a21a773cff48c8696",
+    "fresh_cli_exact": true
+  },
+  {
+    "source": "hdr_canon_hdr_NO.jpg",
+    "archive": "neighbour-m0.ivo",
+    "bytes": 678198,
+    "original_sha256": "fa2127ebab1b3930c998ab262795044262f41dda7eaf0f7a21a773cff48c8696",
+    "fresh_cli_exact": true
+  },
+  {
+    "source": "hdr_canon_hdr_NO.jpg",
+    "archive": "neighbour-m1.ivo",
+    "bytes": 678054,
+    "original_sha256": "fa2127ebab1b3930c998ab262795044262f41dda7eaf0f7a21a773cff48c8696",
+    "fresh_cli_exact": true
+  },
+  {
+    "source": "hdr_iphone_hdr_NO.jpg",
+    "archive": "neighbour-b1-m0.ivo",
+    "bytes": 1654028,
+    "original_sha256": "eb81d33a9b1d1bea5d133483f918c2cc927161c0dda44c9fedfa4da87c8b1cc3",
+    "fresh_cli_exact": true
+  },
+  {
+    "source": "hdr_iphone_hdr_NO.jpg",
+    "archive": "neighbour-b1-m1.ivo",
+    "bytes": 1653728,
+    "original_sha256": "eb81d33a9b1d1bea5d133483f918c2cc927161c0dda44c9fedfa4da87c8b1cc3",
+    "fresh_cli_exact": true
+  },
+  {
+    "source": "hdr_iphone_hdr_NO.jpg",
+    "archive": "neighbour-b2-m0.ivo",
+    "bytes": 1653006,
+    "original_sha256": "eb81d33a9b1d1bea5d133483f918c2cc927161c0dda44c9fedfa4da87c8b1cc3",
+    "fresh_cli_exact": true
+  },
+  {
+    "source": "hdr_iphone_hdr_NO.jpg",
+    "archive": "neighbour-b2-m1.ivo",
+    "bytes": 1652706,
+    "original_sha256": "eb81d33a9b1d1bea5d133483f918c2cc927161c0dda44c9fedfa4da87c8b1cc3",
+    "fresh_cli_exact": true
+  },
+  {
+    "source": "hdr_iphone_hdr_NO.jpg",
+    "archive": "neighbour-m0.ivo",
+    "bytes": 1655662,
+    "original_sha256": "eb81d33a9b1d1bea5d133483f918c2cc927161c0dda44c9fedfa4da87c8b1cc3",
+    "fresh_cli_exact": true
+  },
+  {
+    "source": "hdr_iphone_hdr_NO.jpg",
+    "archive": "neighbour-m1.ivo",
+    "bytes": 1655362,
+    "original_sha256": "eb81d33a9b1d1bea5d133483f918c2cc927161c0dda44c9fedfa4da87c8b1cc3",
+    "fresh_cli_exact": true
+  },
+  {
+    "source": "hdr_iphone_hdr_YES.jpg",
+    "archive": "neighbour-b1-m0.ivo",
+    "bytes": 1672302,
+    "original_sha256": "5125870f6f4a94a2329bc9f53482680772d3277399aed71c2f0636cb07870533",
+    "fresh_cli_exact": true
+  },
+  {
+    "source": "hdr_iphone_hdr_YES.jpg",
+    "archive": "neighbour-b1-m1.ivo",
+    "bytes": 1672062,
+    "original_sha256": "5125870f6f4a94a2329bc9f53482680772d3277399aed71c2f0636cb07870533",
+    "fresh_cli_exact": true
+  },
+  {
+    "source": "hdr_iphone_hdr_YES.jpg",
+    "archive": "neighbour-b2-m0.ivo",
+    "bytes": 1671236,
+    "original_sha256": "5125870f6f4a94a2329bc9f53482680772d3277399aed71c2f0636cb07870533",
+    "fresh_cli_exact": true
+  },
+  {
+    "source": "hdr_iphone_hdr_YES.jpg",
+    "archive": "neighbour-b2-m1.ivo",
+    "bytes": 1670996,
+    "original_sha256": "5125870f6f4a94a2329bc9f53482680772d3277399aed71c2f0636cb07870533",
+    "fresh_cli_exact": true
+  },
+  {
+    "source": "hdr_iphone_hdr_YES.jpg",
+    "archive": "neighbour-m0.ivo",
+    "bytes": 1673762,
+    "original_sha256": "5125870f6f4a94a2329bc9f53482680772d3277399aed71c2f0636cb07870533",
+    "fresh_cli_exact": true
+  },
+  {
+    "source": "hdr_iphone_hdr_YES.jpg",
+    "archive": "neighbour-m1.ivo",
+    "bytes": 1673522,
+    "original_sha256": "5125870f6f4a94a2329bc9f53482680772d3277399aed71c2f0636cb07870533",
+    "fresh_cli_exact": true
+  },
+  {
+    "source": "mobile_jolla.jpg",
+    "archive": "neighbour-b1-m0.ivo",
+    "bytes": 681380,
+    "original_sha256": "ee6bc1200cf8b1b26f5b60d8294d9617e8099f6dfdd7a4757a424f332360f5e3",
+    "fresh_cli_exact": true
+  },
+  {
+    "source": "mobile_jolla.jpg",
+    "archive": "neighbour-b1-m1.ivo",
+    "bytes": 681262,
+    "original_sha256": "ee6bc1200cf8b1b26f5b60d8294d9617e8099f6dfdd7a4757a424f332360f5e3",
+    "fresh_cli_exact": true
+  },
+  {
+    "source": "mobile_jolla.jpg",
+    "archive": "neighbour-b2-m0.ivo",
+    "bytes": 681283,
+    "original_sha256": "ee6bc1200cf8b1b26f5b60d8294d9617e8099f6dfdd7a4757a424f332360f5e3",
+    "fresh_cli_exact": true
+  },
+  {
+    "source": "mobile_jolla.jpg",
+    "archive": "neighbour-b2-m1.ivo",
+    "bytes": 681165,
+    "original_sha256": "ee6bc1200cf8b1b26f5b60d8294d9617e8099f6dfdd7a4757a424f332360f5e3",
+    "fresh_cli_exact": true
+  },
+  {
+    "source": "mobile_jolla.jpg",
+    "archive": "neighbour-m0.ivo",
+    "bytes": 682785,
+    "original_sha256": "ee6bc1200cf8b1b26f5b60d8294d9617e8099f6dfdd7a4757a424f332360f5e3",
+    "fresh_cli_exact": true
+  },
+  {
+    "source": "mobile_jolla.jpg",
+    "archive": "neighbour-m1.ivo",
+    "bytes": 682667,
+    "original_sha256": "ee6bc1200cf8b1b26f5b60d8294d9617e8099f6dfdd7a4757a424f332360f5e3",
+    "fresh_cli_exact": true
+  },
+  {
+    "source": "01-25060.jpg",
+    "archive": "neighbour-b1-m0.ivo",
+    "bytes": 171710,
+    "original_sha256": "5d0b5cb9ea9069ae14c2a92951ed86c0ae56c3e2598bb10ef5e3300b785f5668",
+    "fresh_cli_exact": true
+  },
+  {
+    "source": "01-25060.jpg",
+    "archive": "neighbour-b1-m1.ivo",
+    "bytes": 171609,
+    "original_sha256": "5d0b5cb9ea9069ae14c2a92951ed86c0ae56c3e2598bb10ef5e3300b785f5668",
+    "fresh_cli_exact": true
+  },
+  {
+    "source": "01-25060.jpg",
+    "archive": "neighbour-b2-m0.ivo",
+    "bytes": 171504,
+    "original_sha256": "5d0b5cb9ea9069ae14c2a92951ed86c0ae56c3e2598bb10ef5e3300b785f5668",
+    "fresh_cli_exact": true
+  },
+  {
+    "source": "01-25060.jpg",
+    "archive": "neighbour-b2-m1.ivo",
+    "bytes": 171403,
+    "original_sha256": "5d0b5cb9ea9069ae14c2a92951ed86c0ae56c3e2598bb10ef5e3300b785f5668",
+    "fresh_cli_exact": true
+  },
+  {
+    "source": "01-25066.jpg",
+    "archive": "neighbour-b1-m0.ivo",
+    "bytes": 94840,
+    "original_sha256": "b2b17bc5f4aaa5760688efa0d739ea5198771f3ab76c1949263146edb58abe2a",
+    "fresh_cli_exact": true
+  },
+  {
+    "source": "01-25066.jpg",
+    "archive": "neighbour-b1-m1.ivo",
+    "bytes": 94742,
+    "original_sha256": "b2b17bc5f4aaa5760688efa0d739ea5198771f3ab76c1949263146edb58abe2a",
+    "fresh_cli_exact": true
+  },
+  {
+    "source": "01-25066.jpg",
+    "archive": "neighbour-b2-m0.ivo",
+    "bytes": 94794,
+    "original_sha256": "b2b17bc5f4aaa5760688efa0d739ea5198771f3ab76c1949263146edb58abe2a",
+    "fresh_cli_exact": true
+  },
+  {
+    "source": "01-25066.jpg",
+    "archive": "neighbour-b2-m1.ivo",
+    "bytes": 94696,
+    "original_sha256": "b2b17bc5f4aaa5760688efa0d739ea5198771f3ab76c1949263146edb58abe2a",
+    "fresh_cli_exact": true
+  }
+]

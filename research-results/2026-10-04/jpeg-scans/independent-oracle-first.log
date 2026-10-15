@@ -1,0 +1,3 @@
+PASS scan_syntax cases=8 independent_pixel_oracles=5 odd_dimensions=true progressive_refinement=true restart=true malformed=17
+ORACLE pixels_exact=true file=/tmp/ivo-jpeg-external-inputs/libjxl_flower.png.im_q85_420_progr.jpg
+ORACLE pixels_exact=true file=/tmp/ivo-jpeg-external-inputs/libjxl_flower_small.q85_420_non_interleaved.jpg

@@ -1,0 +1,3 @@
+package io.ivo.mp3;
+import io.ivo.container.*;import io.ivo.util.*;import java.nio.file.*;import java.util.*;
+public class Compatibility {public static void main(String[] args)throws Exception{byte[] input=Files.readAllBytes(Path.of(args[0]));for(int i=1;i<args.length;i++){IvoArchive a=IvoContainer.unpack(Files.readAllBytes(Path.of(args[i])));byte[] restored=ReservoirTrial.decodeV4(a.payload());if(a.originalSize()!=input.length||!Arrays.equals(a.sha256(),Hashing.sha256(input))||!Arrays.equals(input,restored))throw new AssertionError(args[i]);System.out.println("PASS old MP34 "+args[i]+" size="+input.length+" exact=true");}}}

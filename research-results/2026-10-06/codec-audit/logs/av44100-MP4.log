@@ -1,0 +1,15 @@
+RESULT kind=MP4 file=av44100.mp4 raw=47481 candidate_payload=-1 candidate_container_size=-1 exact=false baseline_payload=46115 same_payload=false reference_best=46171 winner=USER_MP4_CABAC_RESEARCH new_ms=15 old_ms=345 error=RuntimeException:poc_type old_error=
+
+STDERR
+slice fallback: cabac mismatch
+slice fallback: cabac mismatch
+slice fallback: cabac mismatch
+slices modeled=15 raw=15 | modeled NAL bytes=9253 header bytes=48 tail bytes=0 | skeleton=38228
+model bytes by group: skip=69 mbtype=143 mvd=561 ref=170 intra/chroma/t8=64 cbp=271 qpdelta=208 cbf=555 sig=1987 last=779 abs=2371 bypass=1689 term=0
+meta(deflated)=37239 (raw 38430) payload=8869
+slice fallback: cabac mismatch
+slice fallback: cabac mismatch
+slice fallback: cabac mismatch
+slices modeled=15 raw=15 | modeled NAL bytes=9253 header bytes=48 tail bytes=0 | skeleton=38228
+model bytes by group: skip=69 mbtype=143 mvd=561 ref=170 intra/chroma/t8=64 cbp=271 qpdelta=208 cbf=555 sig=1987 last=779 abs=2371 bypass=1689 term=0
+meta(deflated)=37239 (raw 38430) payload=8869

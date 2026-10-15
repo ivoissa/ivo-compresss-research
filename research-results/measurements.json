@@ -1,0 +1,130 @@
+[
+  {
+    "file": "ljt-monkey12.jpg",
+    "original": 32831,
+    "reference": null,
+    "reference_log": "file,bytes,blocks,dc_jpeg_bytes,var_chain,var_median,cat_chain,cat_left,cat_gradient,cat_median,best_cat\nException in thread \"main\" java.lang.IllegalArgumentException: SOF0 missing\n\tat io.ivo.jpeg.JpegDcExperiment.decode(JpegDcExperiment.java:1597)\n\tat io.ivo.jpeg.JpegDcExperiment.main(JpegDcExperiment.java:91)\n",
+    "abc": null,
+    "abc_log": "file,bytes,blocks,dc_jpeg_bytes,var_chain,var_median,cat_chain,cat_left,cat_gradient,cat_median,best_cat\nException in thread \"main\" java.lang.IllegalArgumentException: SOF0 missing\n\tat io.ivo.jpeg.JpegDcExperiment.decode(JpegDcExperiment.java:1669)\n\tat io.ivo.jpeg.JpegDcExperiment.main(JpegDcExperiment.java:91)\n"
+  },
+  {
+    "file": "ljt-testimgari.jpg",
+    "original": 5126,
+    "reference": null,
+    "reference_log": "file,bytes,blocks,dc_jpeg_bytes,var_chain,var_median,cat_chain,cat_left,cat_gradient,cat_median,best_cat\nException in thread \"main\" java.lang.IllegalArgumentException: SOF0 missing\n\tat io.ivo.jpeg.JpegDcExperiment.decode(JpegDcExperiment.java:1597)\n\tat io.ivo.jpeg.JpegDcExperiment.main(JpegDcExperiment.java:91)\n",
+    "abc": null,
+    "abc_log": "file,bytes,blocks,dc_jpeg_bytes,var_chain,var_median,cat_chain,cat_left,cat_gradient,cat_median,best_cat\nException in thread \"main\" java.lang.IllegalArgumentException: SOF0 missing\n\tat io.ivo.jpeg.JpegDcExperiment.decode(JpegDcExperiment.java:1669)\n\tat io.ivo.jpeg.JpegDcExperiment.main(JpegDcExperiment.java:91)\n"
+  },
+  {
+    "file": "ljt-testimgint.jpg",
+    "original": 5756,
+    "reference": 6833,
+    "reference_log": "file,bytes,blocks,dc_jpeg_bytes,var_chain,var_median,cat_chain,cat_left,cat_gradient,cat_median,best_cat\nV61BENCH ljt-testimgint.jpg original=5756 ivo=6833 gain=-18.7109% enc_ms=103.240 dec_ms=41.117 exact=true\n",
+    "abc": 6221,
+    "abc_log": "file,bytes,blocks,dc_jpeg_bytes,var_chain,var_median,cat_chain,cat_left,cat_gradient,cat_median,best_cat\nV61BENCH ljt-testimgint.jpg original=5756 ivo=6221 gain=-8.0785% enc_ms=176.407 dec_ms=37.555 exact=true\n"
+  },
+  {
+    "file": "ljt-testorig.jpg",
+    "original": 5770,
+    "reference": 6845,
+    "reference_log": "file,bytes,blocks,dc_jpeg_bytes,var_chain,var_median,cat_chain,cat_left,cat_gradient,cat_median,best_cat\nV61BENCH ljt-testorig.jpg original=5770 ivo=6845 gain=-18.6308% enc_ms=116.006 dec_ms=40.456 exact=true\n",
+    "abc": 6234,
+    "abc_log": "file,bytes,blocks,dc_jpeg_bytes,var_chain,var_median,cat_chain,cat_left,cat_gradient,cat_median,best_cat\nV61BENCH ljt-testorig.jpg original=5770 ivo=6234 gain=-8.0416% enc_ms=181.159 dec_ms=36.413 exact=true\n"
+  },
+  {
+    "file": "pillow-app13-multiple.jpg",
+    "original": 80337,
+    "reference": null,
+    "reference_log": "file,bytes,blocks,dc_jpeg_bytes,var_chain,var_median,cat_chain,cat_left,cat_gradient,cat_median,best_cat\nException in thread \"main\" java.lang.IllegalArgumentException: Progressive JPEG excluded from V0/V1\n\tat io.ivo.jpeg.JpegDcExperiment.decode(JpegDcExperiment.java:1583)\n\tat io.ivo.jpeg.JpegDcExperiment.main(JpegDcExperiment.java:91)\n",
+    "abc": null,
+    "abc_log": "file,bytes,blocks,dc_jpeg_bytes,var_chain,var_median,cat_chain,cat_left,cat_gradient,cat_median,best_cat\nException in thread \"main\" java.lang.IllegalArgumentException: Progressive JPEG excluded from V0/V1\n\tat io.ivo.jpeg.JpegDcExperiment.decode(JpegDcExperiment.java:1655)\n\tat io.ivo.jpeg.JpegDcExperiment.main(JpegDcExperiment.java:91)\n"
+  },
+  {
+    "file": "pillow-exif-72dpi-int.jpg",
+    "original": 71056,
+    "reference": 70920,
+    "reference_log": "file,bytes,blocks,dc_jpeg_bytes,var_chain,var_median,cat_chain,cat_left,cat_gradient,cat_median,best_cat\nV61BENCH pillow-exif-72dpi-int.jpg original=71056 ivo=70920 gain=0.1914% enc_ms=462.616 dec_ms=257.178 exact=true\n",
+    "abc": 67451,
+    "abc_log": "file,bytes,blocks,dc_jpeg_bytes,var_chain,var_median,cat_chain,cat_left,cat_gradient,cat_median,best_cat\nV61BENCH pillow-exif-72dpi-int.jpg original=71056 ivo=67451 gain=5.0735% enc_ms=512.673 dec_ms=214.302 exact=true\n"
+  },
+  {
+    "file": "pillow-flower.jpg",
+    "original": 32764,
+    "reference": 34005,
+    "reference_log": "file,bytes,blocks,dc_jpeg_bytes,var_chain,var_median,cat_chain,cat_left,cat_gradient,cat_median,best_cat\nV61BENCH pillow-flower.jpg original=32764 ivo=34005 gain=-3.7877% enc_ms=302.574 dec_ms=113.669 exact=true\n",
+    "abc": 32651,
+    "abc_log": "file,bytes,blocks,dc_jpeg_bytes,var_chain,var_median,cat_chain,cat_left,cat_gradient,cat_median,best_cat\nV61BENCH pillow-flower.jpg original=32764 ivo=32651 gain=0.3449% enc_ms=296.054 dec_ms=79.840 exact=true\n"
+  },
+  {
+    "file": "pillow-flower2.jpg",
+    "original": 86491,
+    "reference": 80201,
+    "reference_log": "file,bytes,blocks,dc_jpeg_bytes,var_chain,var_median,cat_chain,cat_left,cat_gradient,cat_median,best_cat\nV61BENCH pillow-flower2.jpg original=86491 ivo=80201 gain=7.2724% enc_ms=462.984 dec_ms=242.540 exact=true\n",
+    "abc": 74939,
+    "abc_log": "file,bytes,blocks,dc_jpeg_bytes,var_chain,var_median,cat_chain,cat_left,cat_gradient,cat_median,best_cat\nV61BENCH pillow-flower2.jpg original=86491 ivo=74939 gain=13.3563% enc_ms=461.394 dec_ms=165.955 exact=true\n"
+  },
+  {
+    "file": "pillow-hopper.jpg",
+    "original": 6412,
+    "reference": 7583,
+    "reference_log": "file,bytes,blocks,dc_jpeg_bytes,var_chain,var_median,cat_chain,cat_left,cat_gradient,cat_median,best_cat\nV61BENCH pillow-hopper.jpg original=6412 ivo=7583 gain=-18.2626% enc_ms=114.964 dec_ms=92.883 exact=true\n",
+    "abc": 6691,
+    "abc_log": "file,bytes,blocks,dc_jpeg_bytes,var_chain,var_median,cat_chain,cat_left,cat_gradient,cat_median,best_cat\nV61BENCH pillow-hopper.jpg original=6412 ivo=6691 gain=-4.3512% enc_ms=141.722 dec_ms=38.249 exact=true\n"
+  },
+  {
+    "file": "pillow-hopper_16bit_qtables.jpg",
+    "original": 2044,
+    "reference": null,
+    "reference_log": "file,bytes,blocks,dc_jpeg_bytes,var_chain,var_median,cat_chain,cat_left,cat_gradient,cat_median,best_cat\nException in thread \"main\" java.lang.IllegalArgumentException: SOF0 missing\n\tat io.ivo.jpeg.JpegDcExperiment.decode(JpegDcExperiment.java:1597)\n\tat io.ivo.jpeg.JpegDcExperiment.main(JpegDcExperiment.java:91)\n",
+    "abc": null,
+    "abc_log": "file,bytes,blocks,dc_jpeg_bytes,var_chain,var_median,cat_chain,cat_left,cat_gradient,cat_median,best_cat\nException in thread \"main\" java.lang.IllegalArgumentException: SOF0 missing\n\tat io.ivo.jpeg.JpegDcExperiment.decode(JpegDcExperiment.java:1669)\n\tat io.ivo.jpeg.JpegDcExperiment.main(JpegDcExperiment.java:91)\n"
+  },
+  {
+    "file": "pillow-hopper_gray.jpg",
+    "original": 5353,
+    "reference": 6161,
+    "reference_log": "file,bytes,blocks,dc_jpeg_bytes,var_chain,var_median,cat_chain,cat_left,cat_gradient,cat_median,best_cat\nV61BENCH pillow-hopper_gray.jpg original=5353 ivo=6161 gain=-15.0943% enc_ms=87.136 dec_ms=26.324 exact=true\n",
+    "abc": 5442,
+    "abc_log": "file,bytes,blocks,dc_jpeg_bytes,var_chain,var_median,cat_chain,cat_left,cat_gradient,cat_median,best_cat\nV61BENCH pillow-hopper_gray.jpg original=5353 ivo=5442 gain=-1.6626% enc_ms=165.439 dec_ms=47.984 exact=true\n"
+  },
+  {
+    "file": "pillow-icc_profile_big.jpg",
+    "original": 511999,
+    "reference": null,
+    "reference_log": "file,bytes,blocks,dc_jpeg_bytes,var_chain,var_median,cat_chain,cat_left,cat_gradient,cat_median,best_cat\nException in thread \"main\" java.lang.IllegalArgumentException: Progressive JPEG excluded from V0/V1\n\tat io.ivo.jpeg.JpegDcExperiment.decode(JpegDcExperiment.java:1583)\n\tat io.ivo.jpeg.JpegDcExperiment.main(JpegDcExperiment.java:91)\n",
+    "abc": null,
+    "abc_log": "file,bytes,blocks,dc_jpeg_bytes,var_chain,var_median,cat_chain,cat_left,cat_gradient,cat_median,best_cat\nException in thread \"main\" java.lang.IllegalArgumentException: Progressive JPEG excluded from V0/V1\n\tat io.ivo.jpeg.JpegDcExperiment.decode(JpegDcExperiment.java:1655)\n\tat io.ivo.jpeg.JpegDcExperiment.main(JpegDcExperiment.java:91)\n"
+  },
+  {
+    "file": "pillow-pil_sample_cmyk.jpg",
+    "original": 29364,
+    "reference": 18041,
+    "reference_log": "file,bytes,blocks,dc_jpeg_bytes,var_chain,var_median,cat_chain,cat_left,cat_gradient,cat_median,best_cat\nV61BENCH pillow-pil_sample_cmyk.jpg original=29364 ivo=18041 gain=38.5608% enc_ms=255.755 dec_ms=96.681 exact=true\n",
+    "abc": 16474,
+    "abc_log": "file,bytes,blocks,dc_jpeg_bytes,var_chain,var_median,cat_chain,cat_left,cat_gradient,cat_median,best_cat\nV61BENCH pillow-pil_sample_cmyk.jpg original=29364 ivo=16474 gain=43.8973% enc_ms=247.246 dec_ms=55.400 exact=true\n"
+  },
+  {
+    "file": "pillow-pil_sample_rgb.jpg",
+    "original": 29342,
+    "reference": 18499,
+    "reference_log": "file,bytes,blocks,dc_jpeg_bytes,var_chain,var_median,cat_chain,cat_left,cat_gradient,cat_median,best_cat\nV61BENCH pillow-pil_sample_rgb.jpg original=29342 ivo=18499 gain=36.9539% enc_ms=290.629 dec_ms=60.606 exact=true\n",
+    "abc": 17412,
+    "abc_log": "file,bytes,blocks,dc_jpeg_bytes,var_chain,var_median,cat_chain,cat_left,cat_gradient,cat_median,best_cat\nV61BENCH pillow-pil_sample_rgb.jpg original=29342 ivo=17412 gain=40.6584% enc_ms=193.752 dec_ms=47.582 exact=true\n"
+  },
+  {
+    "file": "pillow-rgb.jpg",
+    "original": 20230,
+    "reference": 16002,
+    "reference_log": "file,bytes,blocks,dc_jpeg_bytes,var_chain,var_median,cat_chain,cat_left,cat_gradient,cat_median,best_cat\nV61BENCH pillow-rgb.jpg original=20230 ivo=16002 gain=20.8997% enc_ms=161.436 dec_ms=49.590 exact=true\n",
+    "abc": 15133,
+    "abc_log": "file,bytes,blocks,dc_jpeg_bytes,var_chain,var_median,cat_chain,cat_left,cat_gradient,cat_median,best_cat\nV61BENCH pillow-rgb.jpg original=20230 ivo=15133 gain=25.1953% enc_ms=144.939 dec_ms=32.190 exact=true\n"
+  },
+  {
+    "file": "pillow-ultrahdr.jpg",
+    "original": 48197,
+    "reference": null,
+    "reference_log": "file,bytes,blocks,dc_jpeg_bytes,var_chain,var_median,cat_chain,cat_left,cat_gradient,cat_median,best_cat\nException in thread \"main\" java.lang.IllegalArgumentException: Truncated entropy data\n\tat io.ivo.jpeg.JpegDcExperiment$EntropyBits.readDataByte(JpegDcExperiment.java:1882)\n\tat io.ivo.jpeg.JpegDcExperiment$EntropyBits.readBit(JpegDcExperiment.java:1877)\n\tat io.ivo.jpeg.JpegDcExperiment$Huffman.read(JpegDcExperiment.java:1825)\n\tat io.ivo.jpeg.JpegDcExperiment.decodeScan(JpegDcExperiment.java:1637)\n\tat io.ivo.jpeg.JpegDcExperiment.decode(JpegDcExperiment.java:1608)\n\tat io.ivo.jpeg.JpegDcExperiment.main(JpegDcExperiment.java:91)\n",
+    "abc": null,
+    "abc_log": "file,bytes,blocks,dc_jpeg_bytes,var_chain,var_median,cat_chain,cat_left,cat_gradient,cat_median,best_cat\nException in thread \"main\" java.lang.IllegalArgumentException: Truncated entropy data\n\tat io.ivo.jpeg.JpegDcExperiment$EntropyBits.readDataByte(JpegDcExperiment.java:1954)\n\tat io.ivo.jpeg.JpegDcExperiment$EntropyBits.readBit(JpegDcExperiment.java:1949)\n\tat io.ivo.jpeg.JpegDcExperiment$Huffman.read(JpegDcExperiment.java:1897)\n\tat io.ivo.jpeg.JpegDcExperiment.decodeScan(JpegDcExperiment.java:1709)\n\tat io.ivo.jpeg.JpegDcExperiment.decode(JpegDcExperiment.java:1680)\n\tat io.ivo.jpeg.JpegDcExperiment.main(JpegDcExperiment.java:91)\n"
+  }
+]

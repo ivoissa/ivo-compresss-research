@@ -1,0 +1,12 @@
+MAIN_LANES scheme=0 raw_cord_bytes=[83788182, 2892773, 495410] coded=83829506 exact=true
+RESULT scheme=0 ivo=87297487 exact=true sha=c6e361e833559e842390da8541480ce47096baf61b405da64d9ef10188a2f40c
+MAIN_LANES scheme=1 raw_cord_bytes=[43415444, 43265511, 495410] coded=84033493 exact=true
+RESULT scheme=1 ivo=87501474 exact=true sha=c6e361e833559e842390da8541480ce47096baf61b405da64d9ef10188a2f40c
+MAIN_LANES scheme=2 raw_cord_bytes=[41942123, 1473322, 41846060, 1419451, 495410] coded=83909328 exact=true
+RESULT scheme=2 ivo=87377309 exact=true sha=c6e361e833559e842390da8541480ce47096baf61b405da64d9ef10188a2f40c
+MAIN_LANES scheme=3 raw_cord_bytes=[83984240, 2963139, 495410] coded=84007243 exact=true
+RESULT scheme=3 ivo=87475224 exact=true sha=c6e361e833559e842390da8541480ce47096baf61b405da64d9ef10188a2f40c
+MAIN_LANES scheme=4 raw_cord_bytes=[43548879, 43398500, 495410] coded=84223018 exact=true
+RESULT scheme=4 ivo=87690999 exact=true sha=c6e361e833559e842390da8541480ce47096baf61b405da64d9ef10188a2f40c
+MAIN_LANES scheme=5 raw_cord_bytes=[42040320, 1508559, 41943920, 1454580, 495410] coded=84082332 exact=true
+RESULT scheme=5 ivo=87550313 exact=true sha=c6e361e833559e842390da8541480ce47096baf61b405da64d9ef10188a2f40c

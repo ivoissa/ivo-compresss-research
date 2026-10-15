@@ -1,0 +1,14 @@
+name,original_bytes,ivo_bytes,exact,independent_oracle
+MEANDR_PHASE0.mp3,4001280,4455935,True,True
+MIPSTest.mp3,328320,367186,True,True
+generated-22050-1.mp3,16762,8974,True,True
+generated-22050-2.mp3,16762,7914,True,True
+generated-44100-1.mp3,33062,14163,True,True
+generated-44100-2.mp3,33062,12881,True,True
+generated-8000-1.mp3,6741,6292,True,True
+generated-8000-2.mp3,6741,5613,True,True
+l3-compl-cut.mp3,192,378,True,False
+l3-test45.bit,391105,343560,True,True
+l3-test46.bit,130613,131405,True,True
+noise_meandr.mp3,401280,454166,True,True
+Tao,95634889,99286987,True,True

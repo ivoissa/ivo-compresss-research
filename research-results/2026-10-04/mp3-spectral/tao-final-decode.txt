@@ -1,0 +1,1 @@
+DECODE_SPECTRAL Stats[parts=609748, pairs=85717785, quads=7771895, scalefactorBits=34249308, residualBits=0, unusedBits=3963279, bigHash=-3933596068788499615, quadHash=-841840283139987648]

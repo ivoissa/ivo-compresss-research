@@ -1,0 +1,106 @@
+from pathlib import Path
+import json,re,shutil,hashlib,zipfile,csv
+root=Path('ivo-mp3-spectral-2026-10-04');work=Path('mp3-spectral-work');dest=root/'research-results/2026-10-04/mp3-spectral';dest.mkdir(parents=True,exist_ok=True)
+rows=json.loads((work/'corpus-measurements.json').read_text());summary={'exact_files':len(rows),'independent_oracles':sum(bool(x['oracle']) for x in rows),'tao_original':95634889,'tao_new_ivo':99286987,'tao_previous_mp37_ivo':87297487,'test45_previous_matched_ivo':343626,'test45_new_matched_ivo':343560,'test45_extra_gain_bytes':66,'pairs_fixture_cases':99260,'quad_fixture_cases':162,'scalefactor_known_cases':7,'malformed_rejections':165,'production_promoted':False,'minimp3_source_sha256':hashlib.sha256((work/'minimp3.h').read_bytes()).hexdigest()}
+(dest/'summary.json').write_text(json.dumps(summary,indent=2)+'\n');shutil.copy2(work/'corpus-measurements.json',dest/'measurements.json')
+for p in work.glob('*.txt'):
+ if 'validation' in p.name or 'oracle' in p.name or 'decode' in p.name:shutil.copy2(p,dest/p.name)
+with (dest/'measurements.csv').open('w') as f:
+ w=csv.writer(f);w.writerow(['name','original_bytes','ivo_bytes','exact','independent_oracle']);w.writerows((x['name'],x['original'],x['ivo'],True,bool(x['oracle'])) for x in rows)
+shutil.copy2(work/'results/l3-test45.bit.ivo',dest/'test45-spectral.ivo');shutil.copy2(work/'results/test45-previous.ivo',dest/'test45-previous.ivo')
+oracle=root/'research-experiments/mp3-spectral-oracle';oracle.mkdir(exist_ok=True)
+for name in ['oracle.c','minimp3-oracle.h','minimp3.h']:shutil.copy2(work/name,oracle/name)
+shutil.copy2(work/'make_report.py',dest/'make_report.py.txt')
+(root/'README_MP3_SPECTRAL.md').write_text('''# MP3 spectral : parseur et réémetteur exacts — recherche du 4 octobre 2026
+
+## Explication simple
+
+Ce moteur lit les données comprimées du MP3 pour retrouver leurs valeurs entières, leurs signes et leurs facteurs d’échelle. Il ne décode pas le son en PCM pour le réencoder. Il conserve aussi les informations de trame, CRC, métadonnées et bits non interprétés, afin de reconstruire exactement le fichier original.
+
+Treize fichiers ont été réellement encodés en .ivo puis décodés : le grand MP3 Tao, six vecteurs publics minimp3 et six signaux déterministes encodés par ffmpeg/libmp3lame. Les derniers couvrent MPEG1 à 44 100 Hz, MPEG2 à 22 050 Hz et MPEG2.5 à 8 000 Hz, mono et stéréo. Pour douze fichiers, un décodeur indépendant confirme également les nombres de parties, paires, quadruplets et bits de facteurs d’échelle, ainsi que les empreintes des suites de valeurs. Le petit vecteur fuzz est validé octet pour octet mais n’est pas passé à l’oracle C.
+
+| Comparaison | Ancien .ivo | Nouveau .ivo |
+|---|---:|---:|
+| Grand MP3 Tao | 87 297 487 (MP37, mesure précédente) | 99 286 987 |
+| Vecteur MPEG2 stéréo l3-test45.bit | 343 626 | 343 560 |
+
+Le premier codage provisoire du nouvel IR utilise zlib, et il est nettement moins performant que MP37 sur le grand fichier. Le gain isolé de 66 octets sur le vecteur de conformité est trop faible pour promouvoir ce moteur. L’ancien modèle reste conservé. Les deux conteneurs du vecteur ont été réellement reconstruits et mesurés avec le même nom original. La référence MP37 du grand fichier provient du test précédent sur le même SHA-256 ; elle n’a pas été réencodée ici.
+
+Le parseur/réémetteur est donc une base de recherche validée sur ces cas, tandis que la compression des nouvelles cordes reste à optimiser. Aucune estimation n’est présentée comme un résultat complet.
+
+## Modèle exact et invariants
+
+Le flux main_data physique est la concaténation des données principales des trames. Pour la trame i :
+
+    O_i = nombre d’octets main_data physiques des trames précédentes
+    b_i = main_data_begin
+    s_i,g,c = 8*(O_i−b_i) + somme des part2_3_length précédents de cette trame
+    e_i,g,c = s_i,g,c + part2_3_length_i,g,c
+
+Les intervalles non vides sont bornés par la capacité physique disponible et ne doivent pas se chevaucher. Le décodeur reproduit ces intervalles depuis les headers et side_info conservés.
+
+Partie 2 : calcul des largeurs et groupes de facteurs d’échelle selon MPEG1 ou LSF, scalefac_compress, type de fenêtre, bloc mixte, réutilisation scfsi et stéréo d’intensité. Seules les valeurs réellement transmises sont représentées ; les valeurs implicites de largeur zéro et les réutilisations ne créent pas de bits. Les valeurs transmises sont gardées comme entiers, sans déquantification.
+
+Partie 3 : big_values indique le nombre de paires. Les régions sélectionnent leurs tables à partir des largeurs des bandes fréquentielles et des compteurs de région, avec les cas implicites de fenêtres commutées. Les tables 4 et 14 sont réservées et refusées. Le symbole Huffman donne les valeurs de base ; pour les tables à extension, une base 15 consomme linbits ; un signe est consommé seulement si la valeur est non nulle. Le réémetteur inverse exactement ces décisions.
+
+La partie count1 utilise la table 32 ou 33 pour des quadruplets de valeurs 0, +1 ou −1. Leur représentation ternaire tient dans un octet (0 à 80). Leur nombre est conservé : les quadruplets nuls en fin de segment ne peuvent pas être déduits des seules valeurs spectrales non nulles. Au maximum 576 coefficients sont interprétés. Un code incomplet ou un signe qui dépasse la limite de la partie reste dans les bits résiduels ; les bits après la capacité spectrale restent aussi conservés.
+
+Le réémetteur conserve les codes de tables imposés par le side_info, les facteurs d’échelle transmis, le nombre exact de quadruplets et les bits résiduels. Il recopie également les bits hors des segments du réservoir. Le résultat n’est pas seulement un son identique : l’invariant est Arrays.equals(original, decode(encode(original))), avec le SHA-256 d’origine contrôlé dans le conteneur.
+
+Les parties de longueur nulle sont traitées : des paires implicites nulles de table zéro sont possibles sans aucun bit transmis. Un besoin de facteurs d’échelle ou de codes non nuls dans un intervalle vide est refusé.
+
+## Codage provisoire MP38
+
+L’IR spectral est sérialisé en ordre de trame : bits hors segments, valeurs des facteurs d’échelle, entiers signés des paires par VarInt ZigZag, nombre et valeurs ternaires des quadruplets, puis bits résiduels. Ce flux est comprimé par zlib niveau 9. Les autres familles (layout, préfixe, headers, CRC, side_info, suffixe) sont comprimées séparément avec zlib. Elles ne sont pas encore optimisées par les modèles de MP37.
+
+L’enveloppe IVO1 contient l’identifiant expérimental 17 MP3_SPECTRAL_RESEARCH et le payload MP38. Cette attribution est locale à la recherche, pas un engagement public du format. Le CLI de production antérieur ne connaît pas ce moteur. Le décodeur SpectralMeasure fourni est nécessaire. Les données et en-têtes requis sont dans le conteneur ; l’oracle C et les fichiers d’origine ne sont pas nécessaires à la décompression.
+
+Les chiffres du grand fichier : 229 671 trames, 918 684 parties, 85 717 785 paires, 7 771 895 quadruplets et 34 249 308 bits de facteurs d’échelle. Les bits hors segments sont tous conservés. Les logs originaux, mesures et validations finales sont joints. Les premières traces du développement comptaient seulement les parties non vides ; la validation finale compte toutes les parties, comme l’oracle.
+
+## Contrôle indépendant et tests
+
+Les tables de code et largeurs de bandes proviennent de lieff/minimp3, sous CC0 : https://github.com/lieff/minimp3/blob/master/minimp3.h. La copie utilisée et son SHA-256 sont joints, afin que la reproduction ne dépende pas d’un changement de master. L’originalité n’est pas dans le décodage Huffman standard. La recherche à venir porte sur le regroupement des cordes, leurs contextes et leurs références.
+
+L’oracle C est le décodeur minimp3 instrumenté avant la déquantification pour relever les valeurs des paires et les quadruplets complets, ainsi que les limites des facteurs d’échelle. Les empreintes auxiliaires FNV64 comparent ces suites ; elles ne constituent pas une preuve cryptographique universelle. Le contrôle fichier indépendant reste l’égalité directe de tous les octets et SHA-256. Les douze comparaisons de l’oracle concordent.
+
+Les fixtures Java couvrent 99 260 cas de paires et leurs extensions/signatures, les 162 combinaisons ternaires des deux tables count1, sept cas connus de largeurs de facteurs d’échelle, 165 rejets malformés et le cas des paires nulles dans une partie vide. Les tests généraux, DEFLATE et MP3 précédents passent aussi. Les trois types de fenêtres et les blocs mixtes sont interprétés par le parseur ; ces essais ne constituent pas une couverture exhaustive de toutes les combinaisons légales.
+
+Le cadrage existant ne prend pas en charge le bitrate libre (free-format). Le positionnement binaire actuel repose sur des int Java : une corde main_data doit tenir dans Integer.MAX_VALUE/8 octets. Les entrées non prises en charge doivent garder les anciens candidats ou STORE ; ce prototype n’est pas encore un moteur universel de production.
+
+## Projet Java 17 reproductible
+
+Le projet complet contient pom.xml, src et les sources de recherche. Aucun JAR ni .class n’est livré. Les scripts Python de recherche sont conservés avec l’extension .py.txt.
+
+```bash
+bash build-reservoir.sh
+java -Xmx2048m -cp target/reservoir-classes:target/classes io.ivo.mp3.SpectralMeasure original.mp3 candidat.ivo
+java -Xmx2048m -cp target/reservoir-classes:target/classes io.ivo.mp3.SpectralMeasure decode candidat.ivo restaure.mp3
+java -cp target/reservoir-classes:target/classes io.ivo.mp3.SpectralSyntaxTest
+```
+
+L’archive contient également les deux .ivo du vecteur test45 pour comparaison. Le précédent utilise le décodeur expérimental MP37 ReservoirTrial.decodeMainCandidate ; le nouveau utilise SpectralMeasure.decode.
+
+Pour l’oracle (validation seulement, pas dépendance du moteur Java) :
+
+```bash
+gcc -O2 -o oracle research-experiments/mp3-spectral-oracle/oracle.c -lm
+./oracle original.mp3
+```
+
+Les six signaux de test ont été produits par :
+
+    aevalsrc=0.2*sin(2*PI*173*t)+0.3*sin(2*PI*1000*t)*lt(mod(t\\,0.25)\\,0.015):s=RATE:d=2
+
+avec ffmpeg/libmp3lame, RATE 44100/22050/8000, débits 128k/64k/24k, canaux 1/2. Les vecteurs publics viennent de https://github.com/lieff/minimp3/tree/master/vectors ; leurs noms et SHA-256 sont dans measurements.json. Les sources audio et le grand conteneur Tao ne sont pas inclus dans cette archive.
+
+## Suite de l’optimisation
+
+Séparer les familles spectrales en vraies cordes (support, amplitudes/extensions, signes, facteurs d’échelle, count1 et résidus), appliquer N&C avec les contextes de canal, granule et bande, puis tester REF et REF+résidu entre segments proches. Réutiliser les meilleures familles non spectrales de MP37. Toute adoption exige des conteneurs complets plus petits sur le corpus et une reconstruction exacte ; le candidat MP38 zlib actuel n’est pas promu.
+''')
+p=root/'README.md';p.write_text('# Dernière recherche MP3\n\nVoir [README_MP3_SPECTRAL.md](README_MP3_SPECTRAL.md) : parseur spectral exact, 13 fichiers et contrôle indépendant ; compression provisoire non promue.\n\n'+p.read_text())
+archive=Path('ivo-mp3-spectral-2026-10-04-sources-resultats.zip')
+with zipfile.ZipFile(archive,'w',zipfile.ZIP_DEFLATED) as z:
+ for p in root.rglob('*'):
+  if p.is_file() and not any(a in ('target','__pycache__') for a in p.parts) and p.suffix not in ('.jar','.class'):
+   z.write(p,str(p)+('.txt' if p.suffix=='.py' else ''))
+print(json.dumps(summary));print(archive.resolve());print(archive.stat().st_size)

@@ -1,0 +1,23 @@
+[
+  {
+    "source": "Tao",
+    "archive": "temporal-s12.ivo",
+    "bytes": 83137499,
+    "sha256_original": "c6e361e833559e842390da8541480ce47096baf61b405da64d9ef10188a2f40c",
+    "fresh_cli_exact": true
+  },
+  {
+    "source": "Tao",
+    "archive": "temporal-s13.ivo",
+    "bytes": 91929968,
+    "sha256_original": "c6e361e833559e842390da8541480ce47096baf61b405da64d9ef10188a2f40c",
+    "fresh_cli_exact": true
+  },
+  {
+    "source": "Tao",
+    "archive": "temporal-s14.ivo",
+    "bytes": 91868844,
+    "sha256_original": "c6e361e833559e842390da8541480ce47096baf61b405da64d9ef10188a2f40c",
+    "fresh_cli_exact": true
+  }
+]

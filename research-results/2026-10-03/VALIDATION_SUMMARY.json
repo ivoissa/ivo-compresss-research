@@ -1,0 +1,16 @@
+{
+  "jpeg_exact_count": 42,
+  "original_bytes": 17266786,
+  "ivo_bytes": 14667891,
+  "additional_unsupported_store_exact": 6,
+  "self_tests": "passed",
+  "deflate_reconstructions": 1750,
+  "deflate_invalid_rejections": 9,
+  "compiled_jpeg_variants": [
+    "JV67",
+    "JV72",
+    "JV74",
+    "JV83"
+  ],
+  "B_C_extensions": "research only"
+}

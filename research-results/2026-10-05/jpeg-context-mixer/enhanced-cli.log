@@ -1,0 +1,9 @@
+/workspace/scratch/9c62166e5fd0/jpeg-mixer-holdout/24790.jpg: 117,634 -> 95,471 bytes (81.16%), engine=JPEG_NEIGHBOUR_RESEARCH
+Engine                         valid   payload       IVO       ms  note
+STORE                          true      117,634   117,688        3  verbatim
+N&C contextuel                 true      152,637   152,691      231  PPM-like sparse contexts, order<=4
+REF + N&C                      true      152,409   152,463      210  REF minMatch=8 then N&C; REF size=112638
+JPEG oracle exact (structure/scans) true      117,520   117,574      184  JPEG exact; segments=12; scans=1; progressive=false; meta=859; entropy=116775; modes=[0, 2, 0]
+JPEG frozen portfolio (ABC, spatial, directional, similarity) true       99,505    99,559     2682  DCT coefficients + exact entropy patch
+JPEG boundary + mixed-context trials true       95,417    95,471     4543  Causal AC category/presence; mode=15; exact entropy patch
+Written: /tmp/ivo-v26-enhanced.ivo

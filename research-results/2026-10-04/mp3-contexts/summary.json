@@ -1,0 +1,72 @@
+{
+  "files": 13,
+  "exact_archives": 104,
+  "fresh_process": true,
+  "wins": 4,
+  "losses": 9,
+  "production_cli_integrated": false,
+  "experimental_engine_id": 19,
+  "gain_known_offsets_tested": 16,
+  "spectral_goldens_match": true,
+  "tao": {
+    "name": "Tao",
+    "original": 95634889,
+    "sha256": "c6e361e833559e842390da8541480ce47096baf61b405da64d9ef10188a2f40c",
+    "previous_best_ivo": 83508548,
+    "mp39_best_ivo": 83508548,
+    "mp40_best_ivo": 82851262,
+    "best_scheme": 7,
+    "extra_bytes": 657286,
+    "selected_ivo": 82851262,
+    "candidates": {
+      "4": {
+        "ivo": 83510105,
+        "fresh_decode_ms": 29752,
+        "byte_exact": true,
+        "spectral_golden": true
+      },
+      "5": {
+        "ivo": 82909977,
+        "fresh_decode_ms": 29010,
+        "byte_exact": true,
+        "spectral_golden": true
+      },
+      "6": {
+        "ivo": 83302639,
+        "fresh_decode_ms": 30028,
+        "byte_exact": true,
+        "spectral_golden": true
+      },
+      "7": {
+        "ivo": 82851262,
+        "fresh_decode_ms": 29038,
+        "byte_exact": true,
+        "spectral_golden": true
+      },
+      "8": {
+        "ivo": 84555661,
+        "fresh_decode_ms": 29323,
+        "byte_exact": true,
+        "spectral_golden": true
+      },
+      "9": {
+        "ivo": 83955533,
+        "fresh_decode_ms": 29074,
+        "byte_exact": true,
+        "spectral_golden": true
+      },
+      "10": {
+        "ivo": 84348195,
+        "fresh_decode_ms": 29664,
+        "byte_exact": true,
+        "spectral_golden": true
+      },
+      "11": {
+        "ivo": 83896818,
+        "fresh_decode_ms": 28757,
+        "byte_exact": true,
+        "spectral_golden": true
+      }
+    }
+  }
+}

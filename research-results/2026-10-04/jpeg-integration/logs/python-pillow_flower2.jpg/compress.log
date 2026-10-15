@@ -1,0 +1,9 @@
+/tmp/ivo-jpeg-external-inputs/python-pillow_flower2.jpg: 86,491 -> 71,482 bytes (82.65%), engine=JPEG_NEIGHBOUR_RESEARCH
+Engine                         valid   payload       IVO       ms  note
+STORE                          true       86,491    86,561        3  verbatim
+N&C contextuel                 true      110,486   110,556      194  PPM-like sparse contexts, order<=4
+REF + N&C                      true      107,344   107,414      173  REF minMatch=8 then N&C; REF size=76429
+JPEG oracle exact (structure/scans) true       80,095    80,165      185  JPEG exact; segments=12; scans=1; progressive=false; meta=22388; entropy=64103; modes=[0, 2, 0]
+JPEG frozen portfolio (ABC, spatial, directional, similarity) true       74,409    74,479     2001  DCT coefficients + exact entropy patch
+JPEG boundary portfolio (physical + presence control) true       71,412    71,482      885  Causal AC category/presence; mode=9; exact entropy patch
+Written: /tmp/ivo-jpeg-integration-results/python-pillow_flower2.jpg/automatic.ivo

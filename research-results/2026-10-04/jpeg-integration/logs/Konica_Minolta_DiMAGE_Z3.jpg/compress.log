@@ -1,0 +1,9 @@
+/tmp/ivo-jpeg-amplitude-heldout/Konica_Minolta_DiMAGE_Z3.jpg: 36,971 -> 11,057 bytes (29.91%), engine=JPEG_IR
+Engine                         valid   payload       IVO       ms  note
+STORE                          true       36,971    37,044        2  verbatim
+N&C contextuel                 true       12,105    12,177       64  PPM-like sparse contexts, order<=4
+REF + N&C                      true       11,615    11,687       54  REF minMatch=8 then N&C; REF size=12140
+JPEG oracle exact (structure/scans) true       10,985    11,057       75  JPEG exact; segments=12; scans=1; progressive=false; meta=35955; entropy=1016; modes=[0, 2, 0]
+JPEG frozen portfolio (ABC, spatial, directional, similarity) true       11,294    11,366      304  DCT coefficients + exact entropy patch
+JPEG boundary portfolio (physical + presence control) true       11,106    11,178       91  Causal AC category/presence; mode=9; exact entropy patch
+Written: /tmp/ivo-jpeg-integration-results/Konica_Minolta_DiMAGE_Z3.jpg/automatic.ivo

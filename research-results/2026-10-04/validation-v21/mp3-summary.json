@@ -1,0 +1,17 @@
+{
+  "files": 10,
+  "energy_wins": 7,
+  "previous_kept": 3,
+  "previous_archive_total": 10396102,
+  "retained_total": 10374224,
+  "retained_gain_bytes": 21878,
+  "retained_gain_percent": 0.21044426074311312,
+  "energy_forced_total": 10439001,
+  "forced_extra_bytes": 42899,
+  "fresh_candidate_archives": 40,
+  "fresh_baseline_archives": 10,
+  "historical_scheme_archives_verified_same_process": 150,
+  "models_unchanged": true,
+  "related_stems": 5,
+  "content_groups": 6
+}

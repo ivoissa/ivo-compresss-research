@@ -1,0 +1,686 @@
+[
+  {
+    "source": "libjxl_flower.png.im_q85_420.jpg",
+    "repo": "libjxl/testdata",
+    "mode": 7,
+    "previous_v16_bytes": 464604,
+    "candidate_bytes": 456636,
+    "gain_bytes": 7968,
+    "milliseconds": 3168
+  },
+  {
+    "source": "libjxl_flower.png.im_q85_420.jpg",
+    "repo": "libjxl/testdata",
+    "mode": 8,
+    "previous_v16_bytes": 464604,
+    "candidate_bytes": 464710,
+    "gain_bytes": -106,
+    "milliseconds": 3175
+  },
+  {
+    "source": "libjxl_flower.png.im_q85_420.jpg",
+    "repo": "libjxl/testdata",
+    "mode": 9,
+    "previous_v16_bytes": 464604,
+    "candidate_bytes": 448739,
+    "gain_bytes": 15865,
+    "milliseconds": 3030
+  },
+  {
+    "source": "libjxl_flower.png.im_q85_420.jpg",
+    "repo": "libjxl/testdata",
+    "mode": 10,
+    "previous_v16_bytes": 464604,
+    "candidate_bytes": 454309,
+    "gain_bytes": 10295,
+    "milliseconds": 2699
+  },
+  {
+    "source": "libjxl_flower.png.im_q85_444.jpg",
+    "repo": "libjxl/testdata",
+    "mode": 7,
+    "previous_v16_bytes": 578755,
+    "candidate_bytes": 566301,
+    "gain_bytes": 12454,
+    "milliseconds": 4044
+  },
+  {
+    "source": "libjxl_flower.png.im_q85_444.jpg",
+    "repo": "libjxl/testdata",
+    "mode": 8,
+    "previous_v16_bytes": 578755,
+    "candidate_bytes": 578885,
+    "gain_bytes": -130,
+    "milliseconds": 3940
+  },
+  {
+    "source": "libjxl_flower.png.im_q85_444.jpg",
+    "repo": "libjxl/testdata",
+    "mode": 9,
+    "previous_v16_bytes": 578755,
+    "candidate_bytes": 555644,
+    "gain_bytes": 23111,
+    "milliseconds": 3981
+  },
+  {
+    "source": "libjxl_flower.png.im_q85_444.jpg",
+    "repo": "libjxl/testdata",
+    "mode": 10,
+    "previous_v16_bytes": 578755,
+    "candidate_bytes": 563363,
+    "gain_bytes": 15392,
+    "milliseconds": 3881
+  },
+  {
+    "source": "libjxl_flower.png.im_q85_gray.jpg",
+    "repo": "libjxl/testdata",
+    "mode": 7,
+    "previous_v16_bytes": 390222,
+    "candidate_bytes": 383753,
+    "gain_bytes": 6469,
+    "milliseconds": 3251
+  },
+  {
+    "source": "libjxl_flower.png.im_q85_gray.jpg",
+    "repo": "libjxl/testdata",
+    "mode": 8,
+    "previous_v16_bytes": 390222,
+    "candidate_bytes": 390317,
+    "gain_bytes": -95,
+    "milliseconds": 2950
+  },
+  {
+    "source": "libjxl_flower.png.im_q85_gray.jpg",
+    "repo": "libjxl/testdata",
+    "mode": 9,
+    "previous_v16_bytes": 390222,
+    "candidate_bytes": 377572,
+    "gain_bytes": 12650,
+    "milliseconds": 2617
+  },
+  {
+    "source": "libjxl_flower.png.im_q85_gray.jpg",
+    "repo": "libjxl/testdata",
+    "mode": 10,
+    "previous_v16_bytes": 390222,
+    "candidate_bytes": 381927,
+    "gain_bytes": 8295,
+    "milliseconds": 2523
+  },
+  {
+    "source": "libjxl_flower_small.cmyk.jpg",
+    "repo": "libjxl/testdata",
+    "mode": 7,
+    "previous_v16_bytes": 132003,
+    "candidate_bytes": 129706,
+    "gain_bytes": 2297,
+    "milliseconds": 951
+  },
+  {
+    "source": "libjxl_flower_small.cmyk.jpg",
+    "repo": "libjxl/testdata",
+    "mode": 8,
+    "previous_v16_bytes": 132003,
+    "candidate_bytes": 132019,
+    "gain_bytes": -16,
+    "milliseconds": 889
+  },
+  {
+    "source": "libjxl_flower_small.cmyk.jpg",
+    "repo": "libjxl/testdata",
+    "mode": 9,
+    "previous_v16_bytes": 132003,
+    "candidate_bytes": 127368,
+    "gain_bytes": 4635,
+    "milliseconds": 903
+  },
+  {
+    "source": "libjxl_flower_small.cmyk.jpg",
+    "repo": "libjxl/testdata",
+    "mode": 10,
+    "previous_v16_bytes": 132003,
+    "candidate_bytes": 128734,
+    "gain_bytes": 3269,
+    "milliseconds": 776
+  },
+  {
+    "source": "libjxl_bicycles_restarts.jpg",
+    "repo": "libjxl/testdata",
+    "mode": 7,
+    "previous_v16_bytes": 79602,
+    "candidate_bytes": 78888,
+    "gain_bytes": 714,
+    "milliseconds": 546
+  },
+  {
+    "source": "libjxl_bicycles_restarts.jpg",
+    "repo": "libjxl/testdata",
+    "mode": 8,
+    "previous_v16_bytes": 79602,
+    "candidate_bytes": 79608,
+    "gain_bytes": -6,
+    "milliseconds": 493
+  },
+  {
+    "source": "libjxl_bicycles_restarts.jpg",
+    "repo": "libjxl/testdata",
+    "mode": 9,
+    "previous_v16_bytes": 79602,
+    "candidate_bytes": 77314,
+    "gain_bytes": 2288,
+    "milliseconds": 519
+  },
+  {
+    "source": "libjxl_bicycles_restarts.jpg",
+    "repo": "libjxl/testdata",
+    "mode": 10,
+    "previous_v16_bytes": 79602,
+    "candidate_bytes": 78139,
+    "gain_bytes": 1463,
+    "milliseconds": 509
+  },
+  {
+    "source": "libjxl_sideways_bench.jpg",
+    "repo": "libjxl/testdata",
+    "mode": 7,
+    "previous_v16_bytes": 15320,
+    "candidate_bytes": 15433,
+    "gain_bytes": -113,
+    "milliseconds": 148
+  },
+  {
+    "source": "libjxl_sideways_bench.jpg",
+    "repo": "libjxl/testdata",
+    "mode": 8,
+    "previous_v16_bytes": 15320,
+    "candidate_bytes": 15484,
+    "gain_bytes": -164,
+    "milliseconds": 133
+  },
+  {
+    "source": "libjxl_sideways_bench.jpg",
+    "repo": "libjxl/testdata",
+    "mode": 9,
+    "previous_v16_bytes": 15320,
+    "candidate_bytes": 14959,
+    "gain_bytes": 361,
+    "milliseconds": 128
+  },
+  {
+    "source": "libjxl_sideways_bench.jpg",
+    "repo": "libjxl/testdata",
+    "mode": 10,
+    "previous_v16_bytes": 15320,
+    "candidate_bytes": 15026,
+    "gain_bytes": 294,
+    "milliseconds": 139
+  },
+  {
+    "source": "libjpeg-turbo_testimgint.jpg",
+    "repo": "libjpeg-turbo/libjpeg-turbo",
+    "mode": 7,
+    "previous_v16_bytes": 5827,
+    "candidate_bytes": 5999,
+    "gain_bytes": -172,
+    "milliseconds": 105
+  },
+  {
+    "source": "libjpeg-turbo_testimgint.jpg",
+    "repo": "libjpeg-turbo/libjpeg-turbo",
+    "mode": 8,
+    "previous_v16_bytes": 5827,
+    "candidate_bytes": 6046,
+    "gain_bytes": -219,
+    "milliseconds": 116
+  },
+  {
+    "source": "libjpeg-turbo_testimgint.jpg",
+    "repo": "libjpeg-turbo/libjpeg-turbo",
+    "mode": 9,
+    "previous_v16_bytes": 5827,
+    "candidate_bytes": 5656,
+    "gain_bytes": 171,
+    "milliseconds": 69
+  },
+  {
+    "source": "libjpeg-turbo_testimgint.jpg",
+    "repo": "libjpeg-turbo/libjpeg-turbo",
+    "mode": 10,
+    "previous_v16_bytes": 5827,
+    "candidate_bytes": 5687,
+    "gain_bytes": 140,
+    "milliseconds": 53
+  },
+  {
+    "source": "libjpeg-turbo_testorig.jpg",
+    "repo": "libjpeg-turbo/libjpeg-turbo",
+    "mode": 7,
+    "previous_v16_bytes": 5839,
+    "candidate_bytes": 6013,
+    "gain_bytes": -174,
+    "milliseconds": 57
+  },
+  {
+    "source": "libjpeg-turbo_testorig.jpg",
+    "repo": "libjpeg-turbo/libjpeg-turbo",
+    "mode": 8,
+    "previous_v16_bytes": 5839,
+    "candidate_bytes": 6060,
+    "gain_bytes": -221,
+    "milliseconds": 74
+  },
+  {
+    "source": "libjpeg-turbo_testorig.jpg",
+    "repo": "libjpeg-turbo/libjpeg-turbo",
+    "mode": 9,
+    "previous_v16_bytes": 5839,
+    "candidate_bytes": 5672,
+    "gain_bytes": 167,
+    "milliseconds": 54
+  },
+  {
+    "source": "libjpeg-turbo_testorig.jpg",
+    "repo": "libjpeg-turbo/libjpeg-turbo",
+    "mode": 10,
+    "previous_v16_bytes": 5839,
+    "candidate_bytes": 5700,
+    "gain_bytes": 139,
+    "milliseconds": 45
+  },
+  {
+    "source": "python-pillow_flower2.jpg",
+    "repo": "python-pillow/Pillow",
+    "mode": 7,
+    "previous_v16_bytes": 73024,
+    "candidate_bytes": 72649,
+    "gain_bytes": 375,
+    "milliseconds": 505
+  },
+  {
+    "source": "python-pillow_flower2.jpg",
+    "repo": "python-pillow/Pillow",
+    "mode": 8,
+    "previous_v16_bytes": 73024,
+    "candidate_bytes": 73029,
+    "gain_bytes": -5,
+    "milliseconds": 469
+  },
+  {
+    "source": "python-pillow_flower2.jpg",
+    "repo": "python-pillow/Pillow",
+    "mode": 9,
+    "previous_v16_bytes": 73024,
+    "candidate_bytes": 71482,
+    "gain_bytes": 1542,
+    "milliseconds": 417
+  },
+  {
+    "source": "python-pillow_flower2.jpg",
+    "repo": "python-pillow/Pillow",
+    "mode": 10,
+    "previous_v16_bytes": 73024,
+    "candidate_bytes": 71948,
+    "gain_bytes": 1076,
+    "milliseconds": 433
+  },
+  {
+    "source": "python-pillow_hopper.jpg",
+    "repo": "python-pillow/Pillow",
+    "mode": 7,
+    "previous_v16_bytes": 6477,
+    "candidate_bytes": 6540,
+    "gain_bytes": -63,
+    "milliseconds": 59
+  },
+  {
+    "source": "python-pillow_hopper.jpg",
+    "repo": "python-pillow/Pillow",
+    "mode": 8,
+    "previous_v16_bytes": 6477,
+    "candidate_bytes": 6544,
+    "gain_bytes": -67,
+    "milliseconds": 49
+  },
+  {
+    "source": "python-pillow_hopper.jpg",
+    "repo": "python-pillow/Pillow",
+    "mode": 9,
+    "previous_v16_bytes": 6477,
+    "candidate_bytes": 6199,
+    "gain_bytes": 278,
+    "milliseconds": 71
+  },
+  {
+    "source": "python-pillow_hopper.jpg",
+    "repo": "python-pillow/Pillow",
+    "mode": 10,
+    "previous_v16_bytes": 6477,
+    "candidate_bytes": 6225,
+    "gain_bytes": 252,
+    "milliseconds": 57
+  },
+  {
+    "source": "python-pillow_hopper_gray.jpg",
+    "repo": "python-pillow/Pillow",
+    "mode": 7,
+    "previous_v16_bytes": 5313,
+    "candidate_bytes": 5298,
+    "gain_bytes": 15,
+    "milliseconds": 77
+  },
+  {
+    "source": "python-pillow_hopper_gray.jpg",
+    "repo": "python-pillow/Pillow",
+    "mode": 8,
+    "previous_v16_bytes": 5313,
+    "candidate_bytes": 5311,
+    "gain_bytes": 2,
+    "milliseconds": 58
+  },
+  {
+    "source": "python-pillow_hopper_gray.jpg",
+    "repo": "python-pillow/Pillow",
+    "mode": 9,
+    "previous_v16_bytes": 5313,
+    "candidate_bytes": 5118,
+    "gain_bytes": 195,
+    "milliseconds": 40
+  },
+  {
+    "source": "python-pillow_hopper_gray.jpg",
+    "repo": "python-pillow/Pillow",
+    "mode": 10,
+    "previous_v16_bytes": 5313,
+    "candidate_bytes": 5146,
+    "gain_bytes": 167,
+    "milliseconds": 52
+  },
+  {
+    "source": "python-pillow_pil_sample_cmyk.jpg",
+    "repo": "python-pillow/Pillow",
+    "mode": 7,
+    "previous_v16_bytes": 16352,
+    "candidate_bytes": 16337,
+    "gain_bytes": 15,
+    "milliseconds": 114
+  },
+  {
+    "source": "python-pillow_pil_sample_cmyk.jpg",
+    "repo": "python-pillow/Pillow",
+    "mode": 8,
+    "previous_v16_bytes": 16352,
+    "candidate_bytes": 16339,
+    "gain_bytes": 13,
+    "milliseconds": 122
+  },
+  {
+    "source": "python-pillow_pil_sample_cmyk.jpg",
+    "repo": "python-pillow/Pillow",
+    "mode": 9,
+    "previous_v16_bytes": 16352,
+    "candidate_bytes": 15980,
+    "gain_bytes": 372,
+    "milliseconds": 97
+  },
+  {
+    "source": "python-pillow_pil_sample_cmyk.jpg",
+    "repo": "python-pillow/Pillow",
+    "mode": 10,
+    "previous_v16_bytes": 16352,
+    "candidate_bytes": 15994,
+    "gain_bytes": 358,
+    "milliseconds": 91
+  },
+  {
+    "source": "python-pillow_pil_sample_rgb.jpg",
+    "repo": "python-pillow/Pillow",
+    "mode": 7,
+    "previous_v16_bytes": 17325,
+    "candidate_bytes": 17314,
+    "gain_bytes": 11,
+    "milliseconds": 92
+  },
+  {
+    "source": "python-pillow_pil_sample_rgb.jpg",
+    "repo": "python-pillow/Pillow",
+    "mode": 8,
+    "previous_v16_bytes": 17325,
+    "candidate_bytes": 17317,
+    "gain_bytes": 8,
+    "milliseconds": 77
+  },
+  {
+    "source": "python-pillow_pil_sample_rgb.jpg",
+    "repo": "python-pillow/Pillow",
+    "mode": 9,
+    "previous_v16_bytes": 17325,
+    "candidate_bytes": 17008,
+    "gain_bytes": 317,
+    "milliseconds": 75
+  },
+  {
+    "source": "python-pillow_pil_sample_rgb.jpg",
+    "repo": "python-pillow/Pillow",
+    "mode": 10,
+    "previous_v16_bytes": 17325,
+    "candidate_bytes": 17023,
+    "gain_bytes": 302,
+    "milliseconds": 72
+  },
+  {
+    "source": "python-pillow_rgb.jpg",
+    "repo": "python-pillow/Pillow",
+    "mode": 7,
+    "previous_v16_bytes": 14958,
+    "candidate_bytes": 14941,
+    "gain_bytes": 17,
+    "milliseconds": 96
+  },
+  {
+    "source": "python-pillow_rgb.jpg",
+    "repo": "python-pillow/Pillow",
+    "mode": 8,
+    "previous_v16_bytes": 14958,
+    "candidate_bytes": 14952,
+    "gain_bytes": 6,
+    "milliseconds": 75
+  },
+  {
+    "source": "python-pillow_rgb.jpg",
+    "repo": "python-pillow/Pillow",
+    "mode": 9,
+    "previous_v16_bytes": 14958,
+    "candidate_bytes": 14531,
+    "gain_bytes": 427,
+    "milliseconds": 70
+  },
+  {
+    "source": "python-pillow_rgb.jpg",
+    "repo": "python-pillow/Pillow",
+    "mode": 10,
+    "previous_v16_bytes": 14958,
+    "candidate_bytes": 14616,
+    "gain_bytes": 342,
+    "milliseconds": 71
+  },
+  {
+    "source": "python-pillow_xmp_test.jpg",
+    "repo": "python-pillow/Pillow",
+    "mode": 7,
+    "previous_v16_bytes": 1561004,
+    "candidate_bytes": 1554928,
+    "gain_bytes": 6076,
+    "milliseconds": 8972
+  },
+  {
+    "source": "python-pillow_xmp_test.jpg",
+    "repo": "python-pillow/Pillow",
+    "mode": 8,
+    "previous_v16_bytes": 1561004,
+    "candidate_bytes": 1560388,
+    "gain_bytes": 616,
+    "milliseconds": 8895
+  },
+  {
+    "source": "python-pillow_xmp_test.jpg",
+    "repo": "python-pillow/Pillow",
+    "mode": 9,
+    "previous_v16_bytes": 1561004,
+    "candidate_bytes": 1544426,
+    "gain_bytes": 16578,
+    "milliseconds": 8521
+  },
+  {
+    "source": "python-pillow_xmp_test.jpg",
+    "repo": "python-pillow/Pillow",
+    "mode": 10,
+    "previous_v16_bytes": 1561004,
+    "candidate_bytes": 1549672,
+    "gain_bytes": 11332,
+    "milliseconds": 8555
+  },
+  {
+    "source": "pytorch_astronaut.jpg",
+    "repo": "pytorch/vision",
+    "mode": 7,
+    "previous_v16_bytes": 37465,
+    "candidate_bytes": 37055,
+    "gain_bytes": 410,
+    "milliseconds": 317
+  },
+  {
+    "source": "pytorch_astronaut.jpg",
+    "repo": "pytorch/vision",
+    "mode": 8,
+    "previous_v16_bytes": 37465,
+    "candidate_bytes": 37464,
+    "gain_bytes": 1,
+    "milliseconds": 308
+  },
+  {
+    "source": "pytorch_astronaut.jpg",
+    "repo": "pytorch/vision",
+    "mode": 9,
+    "previous_v16_bytes": 37465,
+    "candidate_bytes": 35944,
+    "gain_bytes": 1521,
+    "milliseconds": 287
+  },
+  {
+    "source": "pytorch_astronaut.jpg",
+    "repo": "pytorch/vision",
+    "mode": 10,
+    "previous_v16_bytes": 37465,
+    "candidate_bytes": 36398,
+    "gain_bytes": 1067,
+    "milliseconds": 261
+  },
+  {
+    "source": "pytorch_person1.jpg",
+    "repo": "pytorch/vision",
+    "mode": 7,
+    "previous_v16_bytes": 64428,
+    "candidate_bytes": 63928,
+    "gain_bytes": 500,
+    "milliseconds": 546
+  },
+  {
+    "source": "pytorch_person1.jpg",
+    "repo": "pytorch/vision",
+    "mode": 8,
+    "previous_v16_bytes": 64428,
+    "candidate_bytes": 64435,
+    "gain_bytes": -7,
+    "milliseconds": 462
+  },
+  {
+    "source": "pytorch_person1.jpg",
+    "repo": "pytorch/vision",
+    "mode": 9,
+    "previous_v16_bytes": 64428,
+    "candidate_bytes": 62507,
+    "gain_bytes": 1921,
+    "milliseconds": 515
+  },
+  {
+    "source": "pytorch_person1.jpg",
+    "repo": "pytorch/vision",
+    "mode": 10,
+    "previous_v16_bytes": 64428,
+    "candidate_bytes": 63337,
+    "gain_bytes": 1091,
+    "milliseconds": 446
+  },
+  {
+    "source": "pytorch_pottery.jpg",
+    "repo": "pytorch/vision",
+    "mode": 7,
+    "previous_v16_bytes": 78819,
+    "candidate_bytes": 78505,
+    "gain_bytes": 314,
+    "milliseconds": 558
+  },
+  {
+    "source": "pytorch_pottery.jpg",
+    "repo": "pytorch/vision",
+    "mode": 8,
+    "previous_v16_bytes": 78819,
+    "candidate_bytes": 78780,
+    "gain_bytes": 39,
+    "milliseconds": 512
+  },
+  {
+    "source": "pytorch_pottery.jpg",
+    "repo": "pytorch/vision",
+    "mode": 9,
+    "previous_v16_bytes": 78819,
+    "candidate_bytes": 77472,
+    "gain_bytes": 1347,
+    "milliseconds": 601
+  },
+  {
+    "source": "pytorch_pottery.jpg",
+    "repo": "pytorch/vision",
+    "mode": 10,
+    "previous_v16_bytes": 78819,
+    "candidate_bytes": 77871,
+    "gain_bytes": 948,
+    "milliseconds": 464
+  },
+  {
+    "source": "pytorch_dog.jpg",
+    "repo": "pytorch/hub",
+    "mode": 7,
+    "previous_v16_bytes": 572169,
+    "candidate_bytes": 568681,
+    "gain_bytes": 3488,
+    "milliseconds": 3795
+  },
+  {
+    "source": "pytorch_dog.jpg",
+    "repo": "pytorch/hub",
+    "mode": 8,
+    "previous_v16_bytes": 572169,
+    "candidate_bytes": 572145,
+    "gain_bytes": 24,
+    "milliseconds": 3432
+  },
+  {
+    "source": "pytorch_dog.jpg",
+    "repo": "pytorch/hub",
+    "mode": 9,
+    "previous_v16_bytes": 572169,
+    "candidate_bytes": 561192,
+    "gain_bytes": 10977,
+    "milliseconds": 3370
+  },
+  {
+    "source": "pytorch_dog.jpg",
+    "repo": "pytorch/hub",
+    "mode": 10,
+    "previous_v16_bytes": 572169,
+    "candidate_bytes": 565197,
+    "gain_bytes": 6972,
+    "milliseconds": 3365
+  }
+]

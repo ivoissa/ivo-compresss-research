@@ -1,0 +1,9 @@
+import pathlib,json,subprocess,re
+root=pathlib.Path('trials/mp3-lsf');lines=[]
+for i,p in enumerate(json.loads((root/'manifest.json').read_text())):
+ d=root/'results'/f'{i:02d}';r=subprocess.run(['java','-cp','trials/mp3-lsf/classes:ivo-jpeg-frozen-2026-10-03/target/classes','io.ivo.mp3.ReservoirTrial','--reservoir-audit',p],capture_output=True,text=True);t=r.stdout+r.stderr;(d/'audit.txt').write_text(t);c=subprocess.run(['trials/mp3-lsf/reference_side_info',p],capture_output=True,text=True);(d/'reference.txt').write_text(c.stdout+c.stderr)
+ if not t.startswith('RESERVOIR_AUDIT'):lines.append(f'{i:02d}: reservoir rejected; no mask claimed');continue
+ j=dict(re.findall(r'(\w+)=(\d+)',t));ref=dict(re.findall(r'(\w+)=(\d+)',c.stdout));nf=sum(int(j['mpeg'+v+'_frames']) for v in ['1','2','25'])
+ if c.returncode or nf!=int(ref['frames']) or j['declared_bits']!=ref['declared_bits'] or j['back_sum']!=ref['back_sum']:raise AssertionError((i,j,ref,c.stderr))
+ lines.append(f'{i:02d}: PASS frames={nf} declared_bits={j["declared_bits"]} back_sum={j["back_sum"]}')
+(root/'reference-validation.txt').write_text('\n'.join(lines)+'\n');print('\n'.join(lines))

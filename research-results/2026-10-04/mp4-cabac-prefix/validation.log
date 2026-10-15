@@ -1,0 +1,7 @@
+PASS frames=709 skip_flags=910 skip_ones=204 termination_flags=204 terminal_ones=0 longest_skip_run=6 mismatches=0 external_reference=FFmpeg_mb_type prefix=true
+NOT_DONE: remaining macroblocks, CABAC encoder, byte-exact CABAC roundtrip, new compression measurement
+PASS frames=10 skip_flags=144 skip_ones=144 termination_flags=144 terminal_ones=9 longest_skip_run=16 mismatches=0 external_reference=FFmpeg_mb_type prefix=true
+NOT_DONE: remaining macroblocks, CABAC encoder, byte-exact CABAC roundtrip, new compression measurement
+PASS frames=12 skip_flags=23 skip_ones=12 termination_flags=12 terminal_ones=0 longest_skip_run=4 mismatches=0 external_reference=FFmpeg_mb_type prefix=true
+NOT_DONE: remaining macroblocks, CABAC encoder, byte-exact CABAC roundtrip, new compression measurement
+PASS altered_second_macroblock_rejected=true

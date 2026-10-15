@@ -1,0 +1,5 @@
+BASELINE_V16 original=371 ivo=427
+RESULT mode=7 ivo=509 gain_v16=-82 exact=true ms=31
+RESULT mode=8 ivo=509 gain_v16=-82 exact=true ms=7
+RESULT mode=9 ivo=480 gain_v16=-53 exact=true ms=6
+RESULT mode=10 ivo=480 gain_v16=-53 exact=true ms=5

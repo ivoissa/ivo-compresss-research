@@ -1,0 +1,9 @@
+/tmp/ivo-jpeg-amplitude-heldout/Canon_40D_photoshop_import.jpg: 9,686 -> 9,635 bytes (99.47%), engine=JPEG_NEIGHBOUR_RESEARCH
+Engine                         valid   payload       IVO       ms  note
+STORE                          true        9,686     9,759        1  verbatim
+N&C contextuel                 true       12,712    12,785       50  PPM-like sparse contexts, order<=4
+REF + N&C                      true       12,568    12,641       51  REF minMatch=8 then N&C; REF size=9016
+JPEG oracle exact (structure/scans) true        9,730     9,803       35  JPEG exact; segments=13; scans=1; progressive=false; meta=5829; entropy=3857; modes=[0, 0, 0]
+JPEG frozen portfolio (ABC, spatial, directional, similarity) true        9,883     9,956      347  DCT coefficients + exact entropy patch
+JPEG boundary portfolio (physical + presence control) true        9,562     9,635      119  Causal AC category/presence; mode=9; exact entropy patch
+Written: /tmp/ivo-jpeg-integration-results/Canon_40D_photoshop_import.jpg/automatic.ivo

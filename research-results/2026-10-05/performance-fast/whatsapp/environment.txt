@@ -1,0 +1,9 @@
+source=/workspace/scratch/9c62166e5fd0/integration-inputs/VID-20260930-WA0003.mp4
+sha256=604f5646ea19d34261f0942f922399ecc90787fa244e719515e81103180998c8
+java=17.0.20+8-1-24.04-Ubuntu
+vm=OpenJDK 64-Bit Server VM
+flags=[-Xms64m, -Xmx2g, -XX:+UseG1GC]
+os=Linux amd64
+processors=8
+warmups=1
+repetitions=3

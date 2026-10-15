@@ -1,0 +1,15 @@
+{
+  "parameters": {
+    "table_bits": 16,
+    "experts": 8,
+    "limit": 1023,
+    "learning_rate": 8,
+    "ap_rate": 6
+  },
+  "source_sha256": {
+    "src/main/java/io/ivo/usercode/MixedRefinementCodec.java": "11c3dfa6605f7dd6cb8ee4b9210a918334a7d2b8954f96925a3387d29d604646",
+    "src/main/java/io/ivo/usercode/MixedScanSymbolCodec.java": "bdd97792a5d4629e13281b59c394356669d1bc5f3d25a1f62d0434f91ee2152c",
+    "src/main/java/io/ivo/usercode/Ivo.java": "b1e399de7e733c3380ee83e5a495bbd90bd93d9115fa0c575527484234a7ba43",
+    "src/main/java/io/ivo/jpeg/ProgressiveScanCodec.java": "ccdef5aae81919bb83ac7143c193acc689f855849b2414edc57794ab598d299d"
+  }
+}

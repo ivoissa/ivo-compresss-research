@@ -1,0 +1,23 @@
+SIDE_PORTFOLIO direct=271 transposed=268 selected=true
+MAIN_SPLIT mode=1 used_raw=5822 unused_raw=471 coded=5758
+MAIN_SPLIT mode=2 used_raw=5808 unused_raw=486 coded=5767
+SIDE_MODEL predictor=0 field_cords_complete=true
+SIDE_MODEL predictor=1 field_cords_complete=true
+SIDE_MODEL predictor=2 field_cords_complete=true
+SIDE_FIELDS profile=0 previous=269 semantic=321
+SIDE_FIELDS profile=1 previous=269 semantic=321
+SIDE_FIELDS profile=2 previous=269 semantic=321
+SIDE_FIELDS profile=3 previous=269 semantic=342
+BLOCK_SIDE scheme=0 coded=313 exact=true
+BLOCK_SIDE scheme=1 coded=313 exact=true
+BLOCK_SIDE scheme=2 coded=434 exact=true
+BLOCK_FIELDS scheme=0 previous=269 semantic=313
+BLOCK_FIELDS scheme=1 previous=269 semantic=313
+BLOCK_FIELDS scheme=2 previous=269 semantic=434
+MAIN_LANES scheme=0 raw_cord_bytes=[5808, 0, 486] coded=5769 exact=true
+MAIN_LANES scheme=1 raw_cord_bytes=[5808, 0, 486] coded=5769 exact=true
+MAIN_LANES scheme=2 raw_cord_bytes=[5808, 0, 0, 0, 486] coded=5773 exact=true
+MAIN_LANES scheme=3 raw_cord_bytes=[5822, 0, 486] coded=5767 exact=true
+MAIN_LANES scheme=4 raw_cord_bytes=[5822, 0, 486] coded=5767 exact=true
+MAIN_LANES scheme=5 raw_cord_bytes=[5822, 0, 0, 0, 486] coded=5771 exact=true
+PREVIOUS same_name=true ivo=6169 exact=true magic=3

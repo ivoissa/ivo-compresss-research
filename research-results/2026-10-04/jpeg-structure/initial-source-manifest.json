@@ -1,0 +1,108 @@
+[
+  {
+    "source": "01-25060.jpg",
+    "kind": "user",
+    "bytes": 204196,
+    "sha256": "5d0b5cb9ea9069ae14c2a92951ed86c0ae56c3e2598bb10ef5e3300b785f5668"
+  },
+  {
+    "source": "01-25066.jpg",
+    "kind": "user",
+    "bytes": 119935,
+    "sha256": "b2b17bc5f4aaa5760688efa0d739ea5198771f3ab76c1949263146edb58abe2a"
+  },
+  {
+    "source": "Canon_40D.jpg",
+    "kind": "public",
+    "bytes": 7958,
+    "sha256": "6bfdabd4fc33d112283c147acccc574e770bbe6fbdbc3d4da968ba7b606ecc2f",
+    "url": "https://raw.githubusercontent.com/ianare/exif-samples/master/jpg/Canon_40D.jpg"
+  },
+  {
+    "source": "Canon_DIGITAL_IXUS_400.jpg",
+    "kind": "public",
+    "bytes": 9198,
+    "sha256": "23c1ec51c075d6864862412d07b9d0f07e84237af68972c1d1293e4c28f73e4f",
+    "url": "https://raw.githubusercontent.com/ianare/exif-samples/master/jpg/Canon_DIGITAL_IXUS_400.jpg"
+  },
+  {
+    "source": "Nikon_D70.jpg",
+    "kind": "public",
+    "bytes": 14034,
+    "sha256": "8e2a627b96ca71c20129161f46bda3d338407da99bd11b1055adb27af27d7ef5",
+    "url": "https://raw.githubusercontent.com/ianare/exif-samples/master/jpg/Nikon_D70.jpg"
+  },
+  {
+    "source": "Pentax_K10D.jpg",
+    "kind": "public",
+    "bytes": 12077,
+    "sha256": "146601c9d406410abdaa832508ee4ccddbc7ad54530e81d57962c1b7728e2e6d",
+    "url": "https://raw.githubusercontent.com/ianare/exif-samples/master/jpg/Pentax_K10D.jpg"
+  },
+  {
+    "source": "Reconyx_HC500_Hyperfire.jpg",
+    "kind": "public",
+    "bytes": 425890,
+    "sha256": "d7ba6bc532a225c955411cb96c733a45ee39403fa973312bded7732e6f8e4b3c",
+    "url": "https://raw.githubusercontent.com/ianare/exif-samples/master/jpg/Reconyx_HC500_Hyperfire.jpg"
+  },
+  {
+    "source": "Samsung_Digimax_i50_MP3.jpg",
+    "kind": "public",
+    "bytes": 45286,
+    "sha256": "e61da5ee8d7ba1726bd0a887216ed5ae7ca38c97fcf7aac11b808e1c269e1722",
+    "url": "https://raw.githubusercontent.com/ianare/exif-samples/master/jpg/Samsung_Digimax_i50_MP3.jpg"
+  },
+  {
+    "source": "fixture-0.jpg",
+    "kind": "synthetic",
+    "bytes": 353,
+    "sha256": "fd4168c059bccb6371ed9b64f96f90601bb8169709b93dae0a3e941e73861789"
+  },
+  {
+    "source": "fixture-1.jpg",
+    "kind": "synthetic",
+    "bytes": 371,
+    "sha256": "8656dca5cdd5db601750bc91ad9ea45af32905e69b95d57ccbd26b09848860cb"
+  },
+  {
+    "source": "fixture-2.jpg",
+    "kind": "synthetic",
+    "bytes": 970,
+    "sha256": "2bceac200fa29db746eca48baf107bcd70a6e9567a1787fe570200797caca53b"
+  },
+  {
+    "source": "fixture-3.jpg",
+    "kind": "synthetic",
+    "bytes": 3075,
+    "sha256": "d993d8c7092b7dae859ffce117484c5afa6676a13f8dfffb275f885c1435eae5"
+  },
+  {
+    "source": "hdr_canon_hdr_NO.jpg",
+    "kind": "public",
+    "bytes": 784371,
+    "sha256": "fa2127ebab1b3930c998ab262795044262f41dda7eaf0f7a21a773cff48c8696",
+    "url": "https://raw.githubusercontent.com/ianare/exif-samples/master/jpg/hdr/canon_hdr_NO.jpg"
+  },
+  {
+    "source": "hdr_iphone_hdr_NO.jpg",
+    "kind": "public",
+    "bytes": 1957448,
+    "sha256": "eb81d33a9b1d1bea5d133483f918c2cc927161c0dda44c9fedfa4da87c8b1cc3",
+    "url": "https://raw.githubusercontent.com/ianare/exif-samples/master/jpg/hdr/iphone_hdr_NO.jpg"
+  },
+  {
+    "source": "hdr_iphone_hdr_YES.jpg",
+    "kind": "public",
+    "bytes": 1976579,
+    "sha256": "5125870f6f4a94a2329bc9f53482680772d3277399aed71c2f0636cb07870533",
+    "url": "https://raw.githubusercontent.com/ianare/exif-samples/master/jpg/hdr/iphone_hdr_YES.jpg"
+  },
+  {
+    "source": "mobile_jolla.jpg",
+    "kind": "public",
+    "bytes": 811904,
+    "sha256": "ee6bc1200cf8b1b26f5b60d8294d9617e8099f6dfdd7a4757a424f332360f5e3",
+    "url": "https://raw.githubusercontent.com/ianare/exif-samples/master/jpg/mobile/jolla.jpg"
+  }
+]

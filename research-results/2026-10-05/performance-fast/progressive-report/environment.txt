@@ -1,0 +1,9 @@
+source=research-results/2026-10-05/jpeg-progressive-mixer/summary.json
+sha256=45b05ebb03442c9f6d43d1dc8362c7cf191c3701753dd6c83dec38400482e679
+java=17.0.20+8-1-24.04-Ubuntu
+vm=OpenJDK 64-Bit Server VM
+flags=[-Xms64m, -Xmx2g, -XX:+UseG1GC]
+os=Linux amd64
+processors=8
+warmups=1
+repetitions=3

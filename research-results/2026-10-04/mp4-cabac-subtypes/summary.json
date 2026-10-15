@@ -1,0 +1,20 @@
+{
+  "status": "selected_sub_mb_type_values_independently_compared",
+  "original_video_subtypes": 212,
+  "synthetic_detail_subtypes": 44,
+  "total_compared": 256,
+  "counts": {
+    "8x8": 242,
+    "8x4": 3,
+    "4x8": 5,
+    "4x4": 6
+  },
+  "mismatches": 0,
+  "reference": "FFmpeg 6.1.1, direct logs immediately after sub_mb_type decode; single-thread run",
+  "reference_source_tar_sha256": "8684f4b00f94b85461884c3719382f1261f0d9eb3d59640a1f4ac0873616f968",
+  "motion_vector_export_is_not_subtype_reference": true,
+  "full_video_decoder": false,
+  "byte_exact_CABAC_roundtrip": false,
+  "new_compression_measurement": false,
+  "previous_best_ivo_bytes": 5414825
+}

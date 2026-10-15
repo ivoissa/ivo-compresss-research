@@ -1,0 +1,16 @@
+{
+  "exact_files": 13,
+  "independent_oracles": 12,
+  "tao_original": 95634889,
+  "tao_new_ivo": 99286987,
+  "tao_previous_mp37_ivo": 87297487,
+  "test45_previous_matched_ivo": 343626,
+  "test45_new_matched_ivo": 343560,
+  "test45_extra_gain_bytes": 66,
+  "pairs_fixture_cases": 99260,
+  "quad_fixture_cases": 162,
+  "scalefactor_known_cases": 7,
+  "malformed_rejections": 165,
+  "production_promoted": false,
+  "minimp3_source_sha256": "57e437c5c1f0e8b243885d3929c8973b5e6c778451e0100ab4251d19915cb3ad"
+}

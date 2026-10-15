@@ -1,0 +1,22 @@
+{
+  "status": "first_non_skipped_P_macroblock_type_category_and_partition_only",
+  "real_video_categories_compared": 706,
+  "detail_synthetic_categories_compared": 11,
+  "flat_synthetic_categories_compared": 0,
+  "total_categories_compared": 717,
+  "categories": {
+    "P_L0_16x16": 533,
+    "P_L0_16x8": 44,
+    "P_L0_8x16": 44,
+    "P_8x8": 55,
+    "I_NxN": 6,
+    "I_16x16": 35
+  },
+  "mismatches": 0,
+  "I_PCM_external_coverage": 0,
+  "I_16x16_prediction_and_cbp_external_validation": false,
+  "movements_and_residuals_decoded": false,
+  "full_CABAC_roundtrip": false,
+  "new_compression_measurement": false,
+  "previous_best_ivo_bytes": 5414825
+}

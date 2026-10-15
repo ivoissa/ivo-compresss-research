@@ -1,0 +1,9 @@
+/tmp/ivo-jpeg-amplitude-heldout/Fujifilm_FinePix_E500.jpg: 2,241 -> 1,954 bytes (87.19%), engine=JPEG_IR
+Engine                         valid   payload       IVO       ms  note
+STORE                          true        2,241     2,309        1  verbatim
+N&C contextuel                 true        2,281     2,349       19  PPM-like sparse contexts, order<=4
+REF + N&C                      true        2,274     2,342       25  REF minMatch=8 then N&C; REF size=2018
+JPEG oracle exact (structure/scans) true        1,886     1,954       28  JPEG exact; segments=12; scans=1; progressive=false; meta=1483; entropy=758; modes=[0, 1, 0]
+JPEG frozen portfolio (ABC, spatial, directional, similarity) true        2,178     2,246      192  DCT coefficients + exact entropy patch
+JPEG boundary portfolio (physical + presence control) true        2,001     2,069       62  Causal AC category/presence; mode=9; exact entropy patch
+Written: /tmp/ivo-jpeg-integration-results/Fujifilm_FinePix_E500.jpg/automatic.ivo

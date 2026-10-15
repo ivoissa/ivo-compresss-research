@@ -1,0 +1,17 @@
+{
+  "files": 12,
+  "supported": 11,
+  "fresh_candidate_archives": 22,
+  "fresh_baseline_archives": 12,
+  "independent_pixel_oracles": 11,
+  "photo_files": 4,
+  "photo_wins": 4,
+  "photo_baseline": 267387,
+  "photo_candidate": 259861,
+  "photo_gain_bytes": 7526,
+  "photo_gain_percent": 2.8146469349669205,
+  "correlated_multiscan_wins": 3,
+  "conformance_files_keep_baseline": 4,
+  "unsupported_file_keeps_exact_baseline": 1,
+  "model_unchanged": true
+}

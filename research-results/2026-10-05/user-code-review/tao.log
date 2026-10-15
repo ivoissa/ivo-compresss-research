@@ -1,0 +1,6 @@
+frames=419 granules=1676 modeled=952 explicit=724
+gaps=363 nonZeroGaps=328 nzBytes=1139
+meta(deflated)=190844 (raw 193523, prefix 190370) payload=129239
+cost bytes: mags=76554 esc=20279 quads=942 sf=3901 signs=24659 sideinfo=2676 quadflags=228
+side bytes by field: f0=21 f1=7 f2=0 f3=182 f4=247 f5=183 f6=6 f7=6 f8=7 f9=266 f10=106 f11=74 f12=11 f13=117 f14=244 f15=563 f16=418 f17=66 f18=3 f19=1 f20=1 f21=1 f22=145
+original=357362 compressed=320090 delta=-10.43% GAIN | identical=true | comp 1417 ms, decomp 1254 ms

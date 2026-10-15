@@ -1,0 +1,10 @@
+slices modeled=709 raw=0 | modeled NAL bytes=5065804 header bytes=2049 tail bytes=5311 | skeleton=361839
+model bytes by group: skip=25203 mbtype=80342 mvd=196096 ref=0 intra/chroma/t8=64632 cbp=165977 qpdelta=37459 cbf=418951 sig=1359452 last=504277 abs=668973 bypass=896311 term=38
+meta(deflated)=359929 (raw 378291) payload=4417711
+/workspace/scratch/9c62166e5fd0/integration-inputs/VID-20260930-WA0003.mp4: 5,427,643 -> 4,777,717 bytes (88.03%), engine=USER_MP4_CABAC_RESEARCH
+Engine                         valid   payload       IVO       ms  note
+STORE                          true    5,427,643 5,427,713       16  verbatim
+User MP4 frozen-model research true    4,777,647 4,777,717    49664  frozen profile; exactness checked by Router
+Written: /workspace/scratch/9c62166e5fd0/recap/ivo-java-complet-2026-10-04/research-results/2026-10-05/compact-mixer/encodings/whatsapp/compact.ivo
+Restored 5,427,643 bytes with SHA-256 verification: /tmp/ivo-v29-whatsapp-v28
+Restored 5,427,643 bytes with SHA-256 verification: /tmp/ivo-v29-whatsapp-compact

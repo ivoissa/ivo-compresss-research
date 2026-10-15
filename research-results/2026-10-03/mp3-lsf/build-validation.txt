@@ -1,0 +1,4 @@
+ALL SELF TESTS OK
+DEFLATE EXACT OK: 1750 reconstructions; 9 malformed/truncated rejected; stored/fixed/dynamic/multiblock covered
+Built target/ivo-0.8.0-research.jar and target/ivo-research-1.5.0.jar
+PASS 24 known-offset side-info cases, offset cases and 5 rejection cases

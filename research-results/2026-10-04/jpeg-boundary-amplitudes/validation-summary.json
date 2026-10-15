@@ -1,0 +1,15 @@
+{
+  "initial_files": 16,
+  "heldout_files": 14,
+  "new_candidates": 60,
+  "fresh_cli_archives": 106,
+  "regression_or_baseline_archives": 46,
+  "winners": 12,
+  "gain_bytes": 16883,
+  "initial_gain_bytes": 9693,
+  "heldout_gain_bytes": 7190,
+  "previous_v15_bytes": 11606842,
+  "retained_bytes": 11589959,
+  "truncated_rejected": 2,
+  "automatic_compression_enabled": false
+}

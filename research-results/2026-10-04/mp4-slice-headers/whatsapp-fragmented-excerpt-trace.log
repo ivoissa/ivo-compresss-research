@@ -1,0 +1,1732 @@
+ffmpeg version 6.1.1-3ubuntu5 Copyright (c) 2000-2023 the FFmpeg developers
+  built with gcc 13 (Ubuntu 13.2.0-23ubuntu3)
+  configuration: --prefix=/usr --extra-version=3ubuntu5 --toolchain=hardened --libdir=/usr/lib/x86_64-linux-gnu --incdir=/usr/include/x86_64-linux-gnu --arch=amd64 --enable-gpl --disable-stripping --disable-omx --enable-gnutls --enable-libaom --enable-libass --enable-libbs2b --enable-libcaca --enable-libcdio --enable-libcodec2 --enable-libdav1d --enable-libflite --enable-libfontconfig --enable-libfreetype --enable-libfribidi --enable-libglslang --enable-libgme --enable-libgsm --enable-libharfbuzz --enable-libmp3lame --enable-libmysofa --enable-libopenjpeg --enable-libopenmpt --enable-libopus --enable-librubberband --enable-libshine --enable-libsnappy --enable-libsoxr --enable-libspeex --enable-libtheora --enable-libtwolame --enable-libvidstab --enable-libvorbis --enable-libvpx --enable-libwebp --enable-libx265 --enable-libxml2 --enable-libxvid --enable-libzimg --enable-openal --enable-opencl --enable-opengl --disable-sndio --enable-libvpl --disable-libmfx --enable-libdc1394 --enable-libdrm --enable-libiec61883 --enable-chromaprint --enable-frei0r --enable-ladspa --enable-libbluray --enable-libjack --enable-libpulse --enable-librabbitmq --enable-librist --enable-libsrt --enable-libssh --enable-libsvtav1 --enable-libx264 --enable-libzmq --enable-libzvbi --enable-lv2 --enable-sdl2 --enable-libplacebo --enable-librav1e --enable-pocketsphinx --enable-librsvg --enable-libjxl --enable-shared
+  libavutil      58. 29.100 / 58. 29.100
+  libavcodec     60. 31.102 / 60. 31.102
+  libavformat    60. 16.100 / 60. 16.100
+  libavdevice    60.  3.100 / 60.  3.100
+  libavfilter     9. 12.100 /  9. 12.100
+  libswscale      7.  5.100 /  7.  5.100
+  libswresample   4. 12.100 /  4. 12.100
+  libpostproc    57.  3.100 / 57.  3.100
+Splitting the commandline.
+Reading option '-v' ... matched as option 'v' (set logging level) with argument 'trace'.
+Reading option '-i' ... matched as output url with argument '/tmp/ivo-mp4-corpus/whatsapp-fragmented-excerpt.mp4'.
+Reading option '-map' ... matched as option 'map' (set input stream mapping) with argument '0:v:0'.
+Reading option '-c' ... matched as option 'c' (codec name) with argument 'copy'.
+Reading option '-bsf:v' ... matched as option 'bsf' (A comma-separated list of bitstream filters) with argument 'trace_headers'.
+Reading option '-f' ... matched as option 'f' (force format) with argument 'null'.
+Reading option '-' ... matched as output url.
+Finished splitting the commandline.
+Parsing a group of options: global .
+Applying option v (set logging level) with argument trace.
+Successfully parsed a group of options.
+Parsing a group of options: input url /tmp/ivo-mp4-corpus/whatsapp-fragmented-excerpt.mp4.
+Successfully parsed a group of options.
+Opening an input file: /tmp/ivo-mp4-corpus/whatsapp-fragmented-excerpt.mp4.
+[AVFormatContext @ 0x564ba3d60c80] Opening '/tmp/ivo-mp4-corpus/whatsapp-fragmented-excerpt.mp4' for reading
+[file @ 0x564ba3d61280] Setting default whitelist 'file,crypto,data'
+Probing mov,mp4,m4a,3gp,3g2,mj2 score:100 size:2048
+[mov,mp4,m4a,3gp,3g2,mj2 @ 0x564ba3d60c80] Format mov,mp4,m4a,3gp,3g2,mj2 probed with size=2048 and score=100
+[mov,mp4,m4a,3gp,3g2,mj2 @ 0x564ba3d60c80] type:'ftyp' parent:'root' sz: 36 8 389896
+[mov,mp4,m4a,3gp,3g2,mj2 @ 0x564ba3d60c80] ISO: File Type Major Brand: isom
+[mov,mp4,m4a,3gp,3g2,mj2 @ 0x564ba3d60c80] type:'moov' parent:'root' sz: 1218 44 389896
+[mov,mp4,m4a,3gp,3g2,mj2 @ 0x564ba3d60c80] type:'mvhd' parent:'moov' sz: 108 8 1210
+[mov,mp4,m4a,3gp,3g2,mj2 @ 0x564ba3d60c80] time scale = 1000
+[mov,mp4,m4a,3gp,3g2,mj2 @ 0x564ba3d60c80] type:'trak' parent:'moov' sz: 488 116 1210
+[mov,mp4,m4a,3gp,3g2,mj2 @ 0x564ba3d60c80] type:'tkhd' parent:'trak' sz: 92 8 480
+[mov,mp4,m4a,3gp,3g2,mj2 @ 0x564ba3d60c80] type:'mdia' parent:'trak' sz: 388 100 480
+[mov,mp4,m4a,3gp,3g2,mj2 @ 0x564ba3d60c80] type:'mdhd' parent:'mdia' sz: 32 8 380
+[mov,mp4,m4a,3gp,3g2,mj2 @ 0x564ba3d60c80] type:'hdlr' parent:'mdia' sz: 45 40 380
+[mov,mp4,m4a,3gp,3g2,mj2 @ 0x564ba3d60c80] ctype=[0][0][0][0]
+[mov,mp4,m4a,3gp,3g2,mj2 @ 0x564ba3d60c80] stype=vide
+[mov,mp4,m4a,3gp,3g2,mj2 @ 0x564ba3d60c80] type:'minf' parent:'mdia' sz: 303 85 380
+[mov,mp4,m4a,3gp,3g2,mj2 @ 0x564ba3d60c80] type:'vmhd' parent:'minf' sz: 20 8 295
+[mov,mp4,m4a,3gp,3g2,mj2 @ 0x564ba3d60c80] type:'dinf' parent:'minf' sz: 36 28 295
+[mov,mp4,m4a,3gp,3g2,mj2 @ 0x564ba3d60c80] type:'dref' parent:'dinf' sz: 28 8 28
+[mov,mp4,m4a,3gp,3g2,mj2 @ 0x564ba3d60c80] Unknown dref type 0x206c7275 size 12
+[mov,mp4,m4a,3gp,3g2,mj2 @ 0x564ba3d60c80] type:'stbl' parent:'minf' sz: 239 64 295
+[mov,mp4,m4a,3gp,3g2,mj2 @ 0x564ba3d60c80] type:'stsd' parent:'stbl' sz: 163 8 231
+[mov,mp4,m4a,3gp,3g2,mj2 @ 0x564ba3d60c80] size=147 4CC=avc1 codec_type=0
+[mov,mp4,m4a,3gp,3g2,mj2 @ 0x564ba3d60c80] type:'avcC' parent:'stsd' sz: 41 8 61
+[mov,mp4,m4a,3gp,3g2,mj2 @ 0x564ba3d60c80] type:'btrt' parent:'stsd' sz: 20 49 61
+[mov,mp4,m4a,3gp,3g2,mj2 @ 0x564ba3d60c80] type:'stts' parent:'stbl' sz: 16 171 231
+[mov,mp4,m4a,3gp,3g2,mj2 @ 0x564ba3d60c80] track[0].stts.entries = 0
+[mov,mp4,m4a,3gp,3g2,mj2 @ 0x564ba3d60c80] type:'stsc' parent:'stbl' sz: 16 187 231
+[mov,mp4,m4a,3gp,3g2,mj2 @ 0x564ba3d60c80] track[0].stsc.entries = 0
+[mov,mp4,m4a,3gp,3g2,mj2 @ 0x564ba3d60c80] type:'stsz' parent:'stbl' sz: 20 203 231
+[mov,mp4,m4a,3gp,3g2,mj2 @ 0x564ba3d60c80] sample_size = 0 sample_count = 0
+[mov,mp4,m4a,3gp,3g2,mj2 @ 0x564ba3d60c80] type:'stco' parent:'stbl' sz: 16 223 231
+[mov,mp4,m4a,3gp,3g2,mj2 @ 0x564ba3d60c80] advanced_editlist does not work with fragmented MP4. disabling.
+[mov,mp4,m4a,3gp,3g2,mj2 @ 0x564ba3d60c80] type:'trak' parent:'moov' sz: 444 604 1210
+[mov,mp4,m4a,3gp,3g2,mj2 @ 0x564ba3d60c80] type:'tkhd' parent:'trak' sz: 92 8 436
+[mov,mp4,m4a,3gp,3g2,mj2 @ 0x564ba3d60c80] type:'mdia' parent:'trak' sz: 344 100 436
+[mov,mp4,m4a,3gp,3g2,mj2 @ 0x564ba3d60c80] type:'mdhd' parent:'mdia' sz: 32 8 336
+[mov,mp4,m4a,3gp,3g2,mj2 @ 0x564ba3d60c80] type:'hdlr' parent:'mdia' sz: 45 40 336
+[mov,mp4,m4a,3gp,3g2,mj2 @ 0x564ba3d60c80] ctype=[0][0][0][0]
+[mov,mp4,m4a,3gp,3g2,mj2 @ 0x564ba3d60c80] stype=soun
+[mov,mp4,m4a,3gp,3g2,mj2 @ 0x564ba3d60c80] type:'minf' parent:'mdia' sz: 259 85 336
+[mov,mp4,m4a,3gp,3g2,mj2 @ 0x564ba3d60c80] type:'smhd' parent:'minf' sz: 16 8 251
+[mov,mp4,m4a,3gp,3g2,mj2 @ 0x564ba3d60c80] type:'dinf' parent:'minf' sz: 36 24 251
+[mov,mp4,m4a,3gp,3g2,mj2 @ 0x564ba3d60c80] type:'dref' parent:'dinf' sz: 28 8 28
+[mov,mp4,m4a,3gp,3g2,mj2 @ 0x564ba3d60c80] Unknown dref type 0x206c7275 size 12
+[mov,mp4,m4a,3gp,3g2,mj2 @ 0x564ba3d60c80] type:'stbl' parent:'minf' sz: 199 60 251
+[mov,mp4,m4a,3gp,3g2,mj2 @ 0x564ba3d60c80] type:'stsd' parent:'stbl' sz: 123 8 191
+[mov,mp4,m4a,3gp,3g2,mj2 @ 0x564ba3d60c80] size=107 4CC=mp4a codec_type=1
+[mov,mp4,m4a,3gp,3g2,mj2 @ 0x564ba3d60c80] audio channels 2
+[mov,mp4,m4a,3gp,3g2,mj2 @ 0x564ba3d60c80] version =0, isom =1
+[mov,mp4,m4a,3gp,3g2,mj2 @ 0x564ba3d60c80] type:'esds' parent:'stsd' sz: 51 8 71
+[mov,mp4,m4a,3gp,3g2,mj2 @ 0x564ba3d60c80] MPEG-4 description: tag=0x03 len=34
+[mov,mp4,m4a,3gp,3g2,mj2 @ 0x564ba3d60c80] MPEG-4 description: tag=0x04 len=20
+[mov,mp4,m4a,3gp,3g2,mj2 @ 0x564ba3d60c80] esds object type id 0x40
+[mov,mp4,m4a,3gp,3g2,mj2 @ 0x564ba3d60c80] MPEG-4 description: tag=0x05 len=2
+[mov,mp4,m4a,3gp,3g2,mj2 @ 0x564ba3d60c80] Specific MPEG-4 header len=2
+[mov,mp4,m4a,3gp,3g2,mj2 @ 0x564ba3d60c80] mp4a config channels 2 obj 2 ext obj 0 sample rate 44100 ext sample rate 0
+[mov,mp4,m4a,3gp,3g2,mj2 @ 0x564ba3d60c80] type:'btrt' parent:'stsd' sz: 20 59 71
+[mov,mp4,m4a,3gp,3g2,mj2 @ 0x564ba3d60c80] type:'stts' parent:'stbl' sz: 16 131 191
+[mov,mp4,m4a,3gp,3g2,mj2 @ 0x564ba3d60c80] track[1].stts.entries = 0
+[mov,mp4,m4a,3gp,3g2,mj2 @ 0x564ba3d60c80] type:'stsc' parent:'stbl' sz: 16 147 191
+[mov,mp4,m4a,3gp,3g2,mj2 @ 0x564ba3d60c80] track[1].stsc.entries = 0
+[mov,mp4,m4a,3gp,3g2,mj2 @ 0x564ba3d60c80] type:'stsz' parent:'stbl' sz: 20 163 191
+[mov,mp4,m4a,3gp,3g2,mj2 @ 0x564ba3d60c80] sample_size = 0 sample_count = 0
+[mov,mp4,m4a,3gp,3g2,mj2 @ 0x564ba3d60c80] type:'stco' parent:'stbl' sz: 16 183 191
+[mov,mp4,m4a,3gp,3g2,mj2 @ 0x564ba3d60c80] type:'mvex' parent:'moov' sz: 72 1048 1210
+[mov,mp4,m4a,3gp,3g2,mj2 @ 0x564ba3d60c80] type:'trex' parent:'mvex' sz: 32 8 64
+[mov,mp4,m4a,3gp,3g2,mj2 @ 0x564ba3d60c80] type:'trex' parent:'mvex' sz: 32 40 64
+[mov,mp4,m4a,3gp,3g2,mj2 @ 0x564ba3d60c80] type:'udta' parent:'moov' sz: 98 1120 1210
+[mov,mp4,m4a,3gp,3g2,mj2 @ 0x564ba3d60c80] type:'meta' parent:'udta' sz: 90 8 90
+[mov,mp4,m4a,3gp,3g2,mj2 @ 0x564ba3d60c80] type:'hdlr' parent:'meta' sz: 33 8 78
+[mov,mp4,m4a,3gp,3g2,mj2 @ 0x564ba3d60c80] ctype=[0][0][0][0]
+[mov,mp4,m4a,3gp,3g2,mj2 @ 0x564ba3d60c80] stype=mdir
+[mov,mp4,m4a,3gp,3g2,mj2 @ 0x564ba3d60c80] type:'ilst' parent:'meta' sz: 45 41 78
+[mov,mp4,m4a,3gp,3g2,mj2 @ 0x564ba3d60c80] type:'[169]too' parent:'ilst' sz: 37 8 37
+[mov,mp4,m4a,3gp,3g2,mj2 @ 0x564ba3d60c80] type:'moof' parent:'root' sz: 744 1262 389896
+[mov,mp4,m4a,3gp,3g2,mj2 @ 0x564ba3d60c80] moof offset 4e6
+[mov,mp4,m4a,3gp,3g2,mj2 @ 0x564ba3d60c80] type:'mfhd' parent:'moof' sz: 16 8 736
+[mov,mp4,m4a,3gp,3g2,mj2 @ 0x564ba3d60c80] type:'traf' parent:'moof' sz: 288 24 736
+[mov,mp4,m4a,3gp,3g2,mj2 @ 0x564ba3d60c80] type:'tfhd' parent:'traf' sz: 36 8 280
+[mov,mp4,m4a,3gp,3g2,mj2 @ 0x564ba3d60c80] frag flags 0x1010000
+[mov,mp4,m4a,3gp,3g2,mj2 @ 0x564ba3d60c80] type:'tfdt' parent:'traf' sz: 20 44 280
+[mov,mp4,m4a,3gp,3g2,mj2 @ 0x564ba3d60c80] type:'trun' parent:'traf' sz: 224 64 280
+[mov,mp4,m4a,3gp,3g2,mj2 @ 0x564ba3d60c80] flags 0x205 entries 50
+[mov,mp4,m4a,3gp,3g2,mj2 @ 0x564ba3d60c80] found tfdt time 0, using it for dts
+[mov,mp4,m4a,3gp,3g2,mj2 @ 0x564ba3d60c80] first sample flags 0x2000000
+[mov,mp4,m4a,3gp,3g2,mj2 @ 0x564ba3d60c80] AVIndex stream 0, sample 1, offset 7d6, dts 0, size 21248, distance 0, keyframe 1
+[mov,mp4,m4a,3gp,3g2,mj2 @ 0x564ba3d60c80] AVIndex stream 0, sample 2, offset 5ad6, dts 3600, size 3424, distance 1, keyframe 0
+[mov,mp4,m4a,3gp,3g2,mj2 @ 0x564ba3d60c80] AVIndex stream 0, sample 3, offset 6836, dts 7200, size 3840, distance 2, keyframe 0
+[mov,mp4,m4a,3gp,3g2,mj2 @ 0x564ba3d60c80] AVIndex stream 0, sample 4, offset 7736, dts 10800, size 5808, distance 3, keyframe 0
+[mov,mp4,m4a,3gp,3g2,mj2 @ 0x564ba3d60c80] AVIndex stream 0, sample 5, offset 8de6, dts 14400, size 5632, distance 4, keyframe 0
+[mov,mp4,m4a,3gp,3g2,mj2 @ 0x564ba3d60c80] AVIndex stream 0, sample 6, offset a3e6, dts 18000, size 6528, distance 5, keyframe 0
+[mov,mp4,m4a,3gp,3g2,mj2 @ 0x564ba3d60c80] AVIndex stream 0, sample 7, offset bd66, dts 21600, size 6096, distance 6, keyframe 0
+[mov,mp4,m4a,3gp,3g2,mj2 @ 0x564ba3d60c80] AVIndex stream 0, sample 8, offset d536, dts 25200, size 6560, distance 7, keyframe 0
+[mov,mp4,m4a,3gp,3g2,mj2 @ 0x564ba3d60c80] AVIndex stream 0, sample 9, offset eed6, dts 28800, size 6496, distance 8, keyframe 0
+[mov,mp4,m4a,3gp,3g2,mj2 @ 0x564ba3d60c80] AVIndex stream 0, sample 10, offset 10836, dts 32400, size 6384, distance 9, keyframe 0
+[mov,mp4,m4a,3gp,3g2,mj2 @ 0x564ba3d60c80] AVIndex stream 0, sample 11, offset 12126, dts 36000, size 6416, distance 10, keyframe 0
+[mov,mp4,m4a,3gp,3g2,mj2 @ 0x564ba3d60c80] AVIndex stream 0, sample 12, offset 13a36, dts 39600, size 6240, distance 11, keyframe 0
+[mov,mp4,m4a,3gp,3g2,mj2 @ 0x564ba3d60c80] AVIndex stream 0, sample 13, offset 15296, dts 43200, size 6160, distance 12, keyframe 0
+[mov,mp4,m4a,3gp,3g2,mj2 @ 0x564ba3d60c80] AVIndex stream 0, sample 14, offset 16aa6, dts 46800, size 6416, distance 13, keyframe 0
+[mov,mp4,m4a,3gp,3g2,mj2 @ 0x564ba3d60c80] AVIndex stream 0, sample 15, offset 183b6, dts 50400, size 6304, distance 14, keyframe 0
+[mov,mp4,m4a,3gp,3g2,mj2 @ 0x564ba3d60c80] AVIndex stream 0, sample 16, offset 19c56, dts 54000, size 6320, distance 15, keyframe 0
+[mov,mp4,m4a,3gp,3g2,mj2 @ 0x564ba3d60c80] AVIndex stream 0, sample 17, offset 1b506, dts 57600, size 6224, distance 16, keyframe 0
+[mov,mp4,m4a,3gp,3g2,mj2 @ 0x564ba3d60c80] AVIndex stream 0, sample 18, offset 1cd56, dts 61200, size 6720, distance 17, keyframe 0
+[mov,mp4,m4a,3gp,3g2,mj2 @ 0x564ba3d60c80] AVIndex stream 0, sample 19, offset 1e796, dts 64800, size 6304, distance 18, keyframe 0
+[mov,mp4,m4a,3gp,3g2,mj2 @ 0x564ba3d60c80] AVIndex stream 0, sample 20, offset 20036, dts 68400, size 6144, distance 19, keyframe 0
+[mov,mp4,m4a,3gp,3g2,mj2 @ 0x564ba3d60c80] AVIndex stream 0, sample 21, offset 21836, dts 72000, size 6128, distance 20, keyframe 0
+[mov,mp4,m4a,3gp,3g2,mj2 @ 0x564ba3d60c80] AVIndex stream 0, sample 22, offset 23026, dts 75600, size 6224, distance 21, keyframe 0
+[mov,mp4,m4a,3gp,3g2,mj2 @ 0x564ba3d60c80] AVIndex stream 0, sample 23, offset 24876, dts 79200, size 6336, distance 22, keyframe 0
+[mov,mp4,m4a,3gp,3g2,mj2 @ 0x564ba3d60c80] AVIndex stream 0, sample 24, offset 26136, dts 82800, size 6032, distance 23, keyframe 0
+[mov,mp4,m4a,3gp,3g2,mj2 @ 0x564ba3d60c80] AVIndex stream 0, sample 25, offset 278c6, dts 86400, size 6256, distance 24, keyframe 0
+[mov,mp4,m4a,3gp,3g2,mj2 @ 0x564ba3d60c80] AVIndex stream 0, sample 26, offset 29136, dts 90000, size 6288, distance 25, keyframe 0
+[mov,mp4,m4a,3gp,3g2,mj2 @ 0x564ba3d60c80] AVIndex stream 0, sample 27, offset 2a9c6, dts 93600, size 6192, distance 26, keyframe 0
+[mov,mp4,m4a,3gp,3g2,mj2 @ 0x564ba3d60c80] AVIndex stream 0, sample 28, offset 2c1f6, dts 97200, size 6320, distance 27, keyframe 0
+[mov,mp4,m4a,3gp,3g2,mj2 @ 0x564ba3d60c80] AVIndex stream 0, sample 29, offset 2daa6, dts 100800, size 6176, distance 28, keyframe 0
+[mov,mp4,m4a,3gp,3g2,mj2 @ 0x564ba3d60c80] AVIndex stream 0, sample 30, offset 2f2c6, dts 104400, size 6176, distance 29, keyframe 0
+[mov,mp4,m4a,3gp,3g2,mj2 @ 0x564ba3d60c80] AVIndex stream 0, sample 31, offset 30ae6, dts 108000, size 6784, distance 30, keyframe 0
+[mov,mp4,m4a,3gp,3g2,mj2 @ 0x564ba3d60c80] AVIndex stream 0, sample 32, offset 32566, dts 111600, size 8272, distance 31, keyframe 0
+[mov,mp4,m4a,3gp,3g2,mj2 @ 0x564ba3d60c80] AVIndex stream 0, sample 33, offset 345b6, dts 115200, size 9280, distance 32, keyframe 0
+[mov,mp4,m4a,3gp,3g2,mj2 @ 0x564ba3d60c80] AVIndex stream 0, sample 34, offset 369f6, dts 118800, size 9888, distance 33, keyframe 0
+[mov,mp4,m4a,3gp,3g2,mj2 @ 0x564ba3d60c80] AVIndex stream 0, sample 35, offset 39096, dts 122400, size 10704, distance 34, keyframe 0
+[mov,mp4,m4a,3gp,3g2,mj2 @ 0x564ba3d60c80] AVIndex stream 0, sample 36, offset 3ba66, dts 126000, size 9472, distance 35, keyframe 0
+[mov,mp4,m4a,3gp,3g2,mj2 @ 0x564ba3d60c80] AVIndex stream 0, sample 37, offset 3df66, dts 129600, size 10736, distance 36, keyframe 0
+[mov,mp4,m4a,3gp,3g2,mj2 @ 0x564ba3d60c80] AVIndex stream 0, sample 38, offset 40956, dts 133200, size 10624, distance 37, keyframe 0
+[mov,mp4,m4a,3gp,3g2,mj2 @ 0x564ba3d60c80] AVIndex stream 0, sample 39, offset 432d6, dts 136800, size 10736, distance 38, keyframe 0
+[mov,mp4,m4a,3gp,3g2,mj2 @ 0x564ba3d60c80] AVIndex stream 0, sample 40, offset 45cc6, dts 140400, size 9728, distance 39, keyframe 0
+[mov,mp4,m4a,3gp,3g2,mj2 @ 0x564ba3d60c80] AVIndex stream 0, sample 41, offset 482c6, dts 144000, size 9712, distance 40, keyframe 0
+[mov,mp4,m4a,3gp,3g2,mj2 @ 0x564ba3d60c80] AVIndex stream 0, sample 42, offset 4a8b6, dts 147600, size 9328, distance 41, keyframe 0
+[mov,mp4,m4a,3gp,3g2,mj2 @ 0x564ba3d60c80] AVIndex stream 0, sample 43, offset 4cd26, dts 151200, size 7728, distance 42, keyframe 0
+[mov,mp4,m4a,3gp,3g2,mj2 @ 0x564ba3d60c80] AVIndex stream 0, sample 44, offset 4eb56, dts 154800, size 6784, distance 43, keyframe 0
+[mov,mp4,m4a,3gp,3g2,mj2 @ 0x564ba3d60c80] AVIndex stream 0, sample 45, offset 505d6, dts 158400, size 6784, distance 44, keyframe 0
+[mov,mp4,m4a,3gp,3g2,mj2 @ 0x564ba3d60c80] AVIndex stream 0, sample 46, offset 52056, dts 162000, size 6272, distance 45, keyframe 0
+[mov,mp4,m4a,3gp,3g2,mj2 @ 0x564ba3d60c80] AVIndex stream 0, sample 47, offset 538d6, dts 165600, size 5696, distance 46, keyframe 0
+[mov,mp4,m4a,3gp,3g2,mj2 @ 0x564ba3d60c80] AVIndex stream 0, sample 48, offset 54f16, dts 169200, size 6016, distance 47, keyframe 0
+[mov,mp4,m4a,3gp,3g2,mj2 @ 0x564ba3d60c80] AVIndex stream 0, sample 49, offset 56696, dts 172800, size 5280, distance 48, keyframe 0
+[mov,mp4,m4a,3gp,3g2,mj2 @ 0x564ba3d60c80] AVIndex stream 0, sample 50, offset 57b36, dts 176400, size 5824, distance 49, keyframe 0
+[mov,mp4,m4a,3gp,3g2,mj2 @ 0x564ba3d60c80] type:'traf' parent:'moof' sz: 432 312 736
+[mov,mp4,m4a,3gp,3g2,mj2 @ 0x564ba3d60c80] type:'tfhd' parent:'traf' sz: 36 8 424
+[mov,mp4,m4a,3gp,3g2,mj2 @ 0x564ba3d60c80] frag flags 0x2000000
+[mov,mp4,m4a,3gp,3g2,mj2 @ 0x564ba3d60c80] type:'tfdt' parent:'traf' sz: 20 44 424
+[mov,mp4,m4a,3gp,3g2,mj2 @ 0x564ba3d60c80] type:'trun' parent:'traf' sz: 368 64 424
+[mov,mp4,m4a,3gp,3g2,mj2 @ 0x564ba3d60c80] flags 0x201 entries 87
+[mov,mp4,m4a,3gp,3g2,mj2 @ 0x564ba3d60c80] found tfdt time 0, using it for dts
+[mov,mp4,m4a,3gp,3g2,mj2 @ 0x564ba3d60c80] first sample flags 0x2000000
+[mov,mp4,m4a,3gp,3g2,mj2 @ 0x564ba3d60c80] AVIndex stream 1, sample 1, offset 591f6, dts 0, size 257, distance 0, keyframe 1
+[mov,mp4,m4a,3gp,3g2,mj2 @ 0x564ba3d60c80] AVIndex stream 1, sample 2, offset 592f7, dts 1024, size 274, distance 0, keyframe 1
+[mov,mp4,m4a,3gp,3g2,mj2 @ 0x564ba3d60c80] AVIndex stream 1, sample 3, offset 59409, dts 2048, size 275, distance 0, keyframe 1
+[mov,mp4,m4a,3gp,3g2,mj2 @ 0x564ba3d60c80] AVIndex stream 1, sample 4, offset 5951c, dts 3072, size 330, distance 0, keyframe 1
+[mov,mp4,m4a,3gp,3g2,mj2 @ 0x564ba3d60c80] AVIndex stream 1, sample 5, offset 59666, dts 4096, size 275, distance 0, keyframe 1
+[mov,mp4,m4a,3gp,3g2,mj2 @ 0x564ba3d60c80] AVIndex stream 1, sample 6, offset 59779, dts 5120, size 256, distance 0, keyframe 1
+[mov,mp4,m4a,3gp,3g2,mj2 @ 0x564ba3d60c80] AVIndex stream 1, sample 7, offset 59879, dts 6144, size 269, distance 0, keyframe 1
+[mov,mp4,m4a,3gp,3g2,mj2 @ 0x564ba3d60c80] AVIndex stream 1, sample 8, offset 59986, dts 7168, size 308, distance 0, keyframe 1
+[mov,mp4,m4a,3gp,3g2,mj2 @ 0x564ba3d60c80] AVIndex stream 1, sample 9, offset 59aba, dts 8192, size 329, distance 0, keyframe 1
+[mov,mp4,m4a,3gp,3g2,mj2 @ 0x564ba3d60c80] AVIndex stream 1, sample 10, offset 59c03, dts 9216, size 277, distance 0, keyframe 1
+[mov,mp4,m4a,3gp,3g2,mj2 @ 0x564ba3d60c80] AVIndex stream 1, sample 11, offset 59d18, dts 10240, size 281, distance 0, keyframe 1
+[mov,mp4,m4a,3gp,3g2,mj2 @ 0x564ba3d60c80] AVIndex stream 1, sample 12, offset 59e31, dts 11264, size 265, distance 0, keyframe 1
+[mov,mp4,m4a,3gp,3g2,mj2 @ 0x564ba3d60c80] AVIndex stream 1, sample 13, offset 59f3a, dts 12288, size 265, distance 0, keyframe 1
+[mov,mp4,m4a,3gp,3g2,mj2 @ 0x564ba3d60c80] AVIndex stream 1, sample 14, offset 5a043, dts 13312, size 274, distance 0, keyframe 1
+[mov,mp4,m4a,3gp,3g2,mj2 @ 0x564ba3d60c80] AVIndex stream 1, sample 15, offset 5a155, dts 14336, size 265, distance 0, keyframe 1
+[mov,mp4,m4a,3gp,3g2,mj2 @ 0x564ba3d60c80] AVIndex stream 1, sample 16, offset 5a25e, dts 15360, size 266, distance 0, keyframe 1
+[mov,mp4,m4a,3gp,3g2,mj2 @ 0x564ba3d60c80] AVIndex stream 1, sample 17, offset 5a368, dts 16384, size 310, distance 0, keyframe 1
+[mov,mp4,m4a,3gp,3g2,mj2 @ 0x564ba3d60c80] AVIndex stream 1, sample 18, offset 5a49e, dts 17408, size 273, distance 0, keyframe 1
+[mov,mp4,m4a,3gp,3g2,mj2 @ 0x564ba3d60c80] AVIndex stream 1, sample 19, offset 5a5af, dts 18432, size 272, distance 0, keyframe 1
+[mov,mp4,m4a,3gp,3g2,mj2 @ 0x564ba3d60c80] AVIndex stream 1, sample 20, offset 5a6bf, dts 19456, size 265, distance 0, keyframe 1
+[mov,mp4,m4a,3gp,3g2,mj2 @ 0x564ba3d60c80] AVIndex stream 1, sample 21, offset 5a7c8, dts 20480, size 267, distance 0, keyframe 1
+[mov,mp4,m4a,3gp,3g2,mj2 @ 0x564ba3d60c80] AVIndex stream 1, sample 22, offset 5a8d3, dts 21504, size 293, distance 0, keyframe 1
+[mov,mp4,m4a,3gp,3g2,mj2 @ 0x564ba3d60c80] AVIndex stream 1, sample 23, offset 5a9f8, dts 22528, size 309, distance 0, keyframe 1
+[mov,mp4,m4a,3gp,3g2,mj2 @ 0x564ba3d60c80] AVIndex stream 1, sample 24, offset 5ab2d, dts 23552, size 355, distance 0, keyframe 1
+[mov,mp4,m4a,3gp,3g2,mj2 @ 0x564ba3d60c80] AVIndex stream 1, sample 25, offset 5ac90, dts 24576, size 277, distance 0, keyframe 1
+[mov,mp4,m4a,3gp,3g2,mj2 @ 0x564ba3d60c80] AVIndex stream 1, sample 26, offset 5ada5, dts 25600, size 311, distance 0, keyframe 1
+[mov,mp4,m4a,3gp,3g2,mj2 @ 0x564ba3d60c80] AVIndex stream 1, sample 27, offset 5aedc, dts 26624, size 270, distance 0, keyframe 1
+[mov,mp4,m4a,3gp,3g2,mj2 @ 0x564ba3d60c80] AVIndex stream 1, sample 28, offset 5afea, dts 27648, size 265, distance 0, keyframe 1
+[mov,mp4,m4a,3gp,3g2,mj2 @ 0x564ba3d60c80] AVIndex stream 1, sample 29, offset 5b0f3, dts 28672, size 269, distance 0, keyframe 1
+[mov,mp4,m4a,3gp,3g2,mj2 @ 0x564ba3d60c80] AVIndex stream 1, sample 30, offset 5b200, dts 29696, size 357, distance 0, keyframe 1
+[mov,mp4,m4a,3gp,3g2,mj2 @ 0x564ba3d60c80] AVIndex stream 1, sample 31, offset 5b365, dts 30720, size 269, distance 0, keyframe 1
+[mov,mp4,m4a,3gp,3g2,mj2 @ 0x564ba3d60c80] AVIndex stream 1, sample 32, offset 5b472, dts 31744, size 268, distance 0, keyframe 1
+[mov,mp4,m4a,3gp,3g2,mj2 @ 0x564ba3d60c80] AVIndex stream 1, sample 33, offset 5b57e, dts 32768, size 257, distance 0, keyframe 1
+[mov,mp4,m4a,3gp,3g2,mj2 @ 0x564ba3d60c80] AVIndex stream 1, sample 34, offset 5b67f, dts 33792, size 273, distance 0, keyframe 1
+[mov,mp4,m4a,3gp,3g2,mj2 @ 0x564ba3d60c80] AVIndex stream 1, sample 35, offset 5b790, dts 34816, size 270, distance 0, keyframe 1
+[mov,mp4,m4a,3gp,3g2,mj2 @ 0x564ba3d60c80] AVIndex stream 1, sample 36, offset 5b89e, dts 35840, size 343, distance 0, keyframe 1
+[mov,mp4,m4a,3gp,3g2,mj2 @ 0x564ba3d60c80] AVIndex stream 1, sample 37, offset 5b9f5, dts 36864, size 267, distance 0, keyframe 1
+[mov,mp4,m4a,3gp,3g2,mj2 @ 0x564ba3d60c80] AVIndex stream 1, sample 38, offset 5bb00, dts 37888, size 260, distance 0, keyframe 1
+[mov,mp4,m4a,3gp,3g2,mj2 @ 0x564ba3d60c80] AVIndex stream 1, sample 39, offset 5bc04, dts 38912, size 256, distance 0, keyframe 1
+[mov,mp4,m4a,3gp,3g2,mj2 @ 0x564ba3d60c80] AVIndex stream 1, sample 40, offset 5bd04, dts 39936, size 261, distance 0, keyframe 1
+[mov,mp4,m4a,3gp,3g2,mj2 @ 0x564ba3d60c80] AVIndex stream 1, sample 41, offset 5be09, dts 40960, size 265, distance 0, keyframe 1
+[mov,mp4,m4a,3gp,3g2,mj2 @ 0x564ba3d60c80] AVIndex stream 1, sample 42, offset 5bf12, dts 41984, size 265, distance 0, keyframe 1
+[mov,mp4,m4a,3gp,3g2,mj2 @ 0x564ba3d60c80] AVIndex stream 1, sample 43, offset 5c01b, dts 43008, size 309, distance 0, keyframe 1
+[mov,mp4,m4a,3gp,3g2,mj2 @ 0x564ba3d60c80] AVIndex stream 1, sample 44, offset 5c150, dts 44032, size 275, distance 0, keyframe 1
+[mov,mp4,m4a,3gp,3g2,mj2 @ 0x564ba3d60c80] AVIndex stream 1, sample 45, offset 5c263, dts 45056, size 281, distance 0, keyframe 1
+[mov,mp4,m4a,3gp,3g2,mj2 @ 0x564ba3d60c80] AVIndex stream 1, sample 46, offset 5c37c, dts 46080, size 286, distance 0, keyframe 1
+[mov,mp4,m4a,3gp,3g2,mj2 @ 0x564ba3d60c80] AVIndex stream 1, sample 47, offset 5c49a, dts 47104, size 298, distance 0, keyframe 1
+[mov,mp4,m4a,3gp,3g2,mj2 @ 0x564ba3d60c80] AVIndex stream 1, sample 48, offset 5c5c4, dts 48128, size 290, distance 0, keyframe 1
+[mov,mp4,m4a,3gp,3g2,mj2 @ 0x564ba3d60c80] AVIndex stream 1, sample 49, offset 5c6e6, dts 49152, size 381, distance 0, keyframe 1
+[mov,mp4,m4a,3gp,3g2,mj2 @ 0x564ba3d60c80] AVIndex stream 1, sample 50, offset 5c863, dts 50176, size 268, distance 0, keyframe 1
+[mov,mp4,m4a,3gp,3g2,mj2 @ 0x564ba3d60c80] AVIndex stream 1, sample 51, offset 5c96f, dts 51200, size 276, distance 0, keyframe 1
+[mov,mp4,m4a,3gp,3g2,mj2 @ 0x564ba3d60c80] AVIndex stream 1, sample 52, offset 5ca83, dts 52224, size 263, distance 0, keyframe 1
+[mov,mp4,m4a,3gp,3g2,mj2 @ 0x564ba3d60c80] AVIndex stream 1, sample 53, offset 5cb8a, dts 53248, size 264, distance 0, keyframe 1
+[mov,mp4,m4a,3gp,3g2,mj2 @ 0x564ba3d60c80] AVIndex stream 1, sample 54, offset 5cc92, dts 54272, size 269, distance 0, keyframe 1
+[mov,mp4,m4a,3gp,3g2,mj2 @ 0x564ba3d60c80] AVIndex stream 1, sample 55, offset 5cd9f, dts 55296, size 291, distance 0, keyframe 1
+[mov,mp4,m4a,3gp,3g2,mj2 @ 0x564ba3d60c80] AVIndex stream 1, sample 56, offset 5cec2, dts 56320, size 416, distance 0, keyframe 1
+[mov,mp4,m4a,3gp,3g2,mj2 @ 0x564ba3d60c80] AVIndex stream 1, sample 57, offset 5d062, dts 57344, size 295, distance 0, keyframe 1
+[mov,mp4,m4a,3gp,3g2,mj2 @ 0x564ba3d60c80] AVIndex stream 1, sample 58, offset 5d189, dts 58368, size 244, distance 0, keyframe 1
+[mov,mp4,m4a,3gp,3g2,mj2 @ 0x564ba3d60c80] AVIndex stream 1, sample 59, offset 5d27d, dts 59392, size 277, distance 0, keyframe 1
+[mov,mp4,m4a,3gp,3g2,mj2 @ 0x564ba3d60c80] AVIndex stream 1, sample 60, offset 5d392, dts 60416, size 264, distance 0, keyframe 1
+[mov,mp4,m4a,3gp,3g2,mj2 @ 0x564ba3d60c80] AVIndex stream 1, sample 61, offset 5d49a, dts 61440, size 247, distance 0, keyframe 1
+[mov,mp4,m4a,3gp,3g2,mj2 @ 0x564ba3d60c80] AVIndex stream 1, sample 62, offset 5d591, dts 62464, size 381, distance 0, keyframe 1
+[mov,mp4,m4a,3gp,3g2,mj2 @ 0x564ba3d60c80] AVIndex stream 1, sample 63, offset 5d70e, dts 63488, size 267, distance 0, keyframe 1
+[mov,mp4,m4a,3gp,3g2,mj2 @ 0x564ba3d60c80] AVIndex stream 1, sample 64, offset 5d819, dts 64512, size 266, distance 0, keyframe 1
+[mov,mp4,m4a,3gp,3g2,mj2 @ 0x564ba3d60c80] AVIndex stream 1, sample 65, offset 5d923, dts 65536, size 276, distance 0, keyframe 1
+[mov,mp4,m4a,3gp,3g2,mj2 @ 0x564ba3d60c80] AVIndex stream 1, sample 66, offset 5da37, dts 66560, size 261, distance 0, keyframe 1
+[mov,mp4,m4a,3gp,3g2,mj2 @ 0x564ba3d60c80] AVIndex stream 1, sample 67, offset 5db3c, dts 67584, size 262, distance 0, keyframe 1
+[mov,mp4,m4a,3gp,3g2,mj2 @ 0x564ba3d60c80] AVIndex stream 1, sample 68, offset 5dc42, dts 68608, size 276, distance 0, keyframe 1
+[mov,mp4,m4a,3gp,3g2,mj2 @ 0x564ba3d60c80] AVIndex stream 1, sample 69, offset 5dd56, dts 69632, size 346, distance 0, keyframe 1
+[mov,mp4,m4a,3gp,3g2,mj2 @ 0x564ba3d60c80] AVIndex stream 1, sample 70, offset 5deb0, dts 70656, size 270, distance 0, keyframe 1
+[mov,mp4,m4a,3gp,3g2,mj2 @ 0x564ba3d60c80] AVIndex stream 1, sample 71, offset 5dfbe, dts 71680, size 272, distance 0, keyframe 1
+[mov,mp4,m4a,3gp,3g2,mj2 @ 0x564ba3d60c80] AVIndex stream 1, sample 72, offset 5e0ce, dts 72704, size 260, distance 0, keyframe 1
+[mov,mp4,m4a,3gp,3g2,mj2 @ 0x564ba3d60c80] AVIndex stream 1, sample 73, offset 5e1d2, dts 73728, size 275, distance 0, keyframe 1
+[mov,mp4,m4a,3gp,3g2,mj2 @ 0x564ba3d60c80] AVIndex stream 1, sample 74, offset 5e2e5, dts 74752, size 267, distance 0, keyframe 1
+[mov,mp4,m4a,3gp,3g2,mj2 @ 0x564ba3d60c80] AVIndex stream 1, sample 75, offset 5e3f0, dts 75776, size 374, distance 0, keyframe 1
+[mov,mp4,m4a,3gp,3g2,mj2 @ 0x564ba3d60c80] AVIndex stream 1, sample 76, offset 5e566, dts 76800, size 296, distance 0, keyframe 1
+[mov,mp4,m4a,3gp,3g2,mj2 @ 0x564ba3d60c80] AVIndex stream 1, sample 77, offset 5e68e, dts 77824, size 274, distance 0, keyframe 1
+[mov,mp4,m4a,3gp,3g2,mj2 @ 0x564ba3d60c80] AVIndex stream 1, sample 78, offset 5e7a0, dts 78848, size 291, distance 0, keyframe 1
+[mov,mp4,m4a,3gp,3g2,mj2 @ 0x564ba3d60c80] AVIndex stream 1, sample 79, offset 5e8c3, dts 79872, size 273, distance 0, keyframe 1
+[mov,mp4,m4a,3gp,3g2,mj2 @ 0x564ba3d60c80] AVIndex stream 1, sample 80, offset 5e9d4, dts 80896, size 259, distance 0, keyframe 1
+[mov,mp4,m4a,3gp,3g2,mj2 @ 0x564ba3d60c80] AVIndex stream 1, sample 81, offset 5ead7, dts 81920, size 341, distance 0, keyframe 1
+[mov,mp4,m4a,3gp,3g2,mj2 @ 0x564ba3d60c80] AVIndex stream 1, sample 82, offset 5ec2c, dts 82944, size 268, distance 0, keyframe 1
+[mov,mp4,m4a,3gp,3g2,mj2 @ 0x564ba3d60c80] AVIndex stream 1, sample 83, offset 5ed38, dts 83968, size 279, distance 0, keyframe 1
+[mov,mp4,m4a,3gp,3g2,mj2 @ 0x564ba3d60c80] AVIndex stream 1, sample 84, offset 5ee4f, dts 84992, size 277, distance 0, keyframe 1
+[mov,mp4,m4a,3gp,3g2,mj2 @ 0x564ba3d60c80] AVIndex stream 1, sample 85, offset 5ef64, dts 86016, size 284, distance 0, keyframe 1
+[mov,mp4,m4a,3gp,3g2,mj2 @ 0x564ba3d60c80] AVIndex stream 1, sample 86, offset 5f080, dts 87040, size 270, distance 0, keyframe 1
+[mov,mp4,m4a,3gp,3g2,mj2 @ 0x564ba3d60c80] AVIndex stream 1, sample 87, offset 5f18e, dts 88064, size 268, distance 0, keyframe 1
+[mov,mp4,m4a,3gp,3g2,mj2 @ 0x564ba3d60c80] type:'mdat' parent:'root' sz: 387788 2006 389896
+[mov,mp4,m4a,3gp,3g2,mj2 @ 0x564ba3d60c80] type:'mfra' parent:'root' sz: 110 389794 389896
+[mov,mp4,m4a,3gp,3g2,mj2 @ 0x564ba3d60c80] on_parse_exit_offset=389896
+[mov,mp4,m4a,3gp,3g2,mj2 @ 0x564ba3d60c80] Before avformat_find_stream_info() pos: 389896 bytes read:32878 seeks:1 nb_streams:2
+[h264 @ 0x564ba3d61b80] nal_unit_type: 7(SPS), nal_ref_idc: 3
+[h264 @ 0x564ba3d61b80] Decoding VUI
+[h264 @ 0x564ba3d61b80] nal_unit_type: 8(PPS), nal_ref_idc: 3
+For transform of length 64, inverse, mdct_float, flags: [aligned, out_of_place], found 3 matches:
+    1: mdct_inv_float_avx2 - type: mdct_float, len: [16, ∞], factors[2]: [2, any], flags: [aligned, out_of_place, inv_only], prio: 511
+    2: mdct_inv_float_c - type: mdct_float, len: [2, ∞], factors[2]: [2, any], flags: [unaligned, out_of_place, inv_only], prio: 96
+    3: mdct_naive_inv_float_c - type: mdct_float, len: [2, ∞], factors[2]: [2, any], flags: [unaligned, out_of_place, inv_only], prio: -130976
+For transform of length 32, inverse, fft_float, flags: [aligned, inplace, preshuf, asm_call], found 2 matches:
+    1: fft32_asm_float_fma3 - type: fft_float, len: 32, factor: 2, flags: [aligned, inplace, out_of_place, preshuf, asm_call], prio: 512
+    2: fft32_asm_float_avx - type: fft_float, len: 32, factor: 2, flags: [aligned, inplace, out_of_place, preshuf, asm_call], prio: 480
+Transform tree:
+    mdct_inv_float_avx2 - type: mdct_float, len: 64, factors[2]: [2, any], flags: [aligned, out_of_place, inv_only]
+        fft32_asm_float_fma3 - type: fft_float, len: 32, factor: 2, flags: [aligned, inplace, out_of_place, preshuf, asm_call]
+For transform of length 64, inverse, mdct_float, flags: [aligned, out_of_place], found 3 matches:
+    1: mdct_inv_float_avx2 - type: mdct_float, len: [16, ∞], factors[2]: [2, any], flags: [aligned, out_of_place, inv_only], prio: 511
+    2: mdct_inv_float_c - type: mdct_float, len: [2, ∞], factors[2]: [2, any], flags: [unaligned, out_of_place, inv_only], prio: 96
+    3: mdct_naive_inv_float_c - type: mdct_float, len: [2, ∞], factors[2]: [2, any], flags: [unaligned, out_of_place, inv_only], prio: -130976
+For transform of length 32, inverse, fft_float, flags: [aligned, inplace, preshuf, asm_call], found 2 matches:
+    1: fft32_asm_float_fma3 - type: fft_float, len: 32, factor: 2, flags: [aligned, inplace, out_of_place, preshuf, asm_call], prio: 512
+    2: fft32_asm_float_avx - type: fft_float, len: 32, factor: 2, flags: [aligned, inplace, out_of_place, preshuf, asm_call], prio: 480
+Transform tree:
+    mdct_inv_float_avx2 - type: mdct_float, len: 64, factors[2]: [2, any], flags: [aligned, out_of_place, inv_only]
+        fft32_asm_float_fma3 - type: fft_float, len: 32, factor: 2, flags: [aligned, inplace, out_of_place, preshuf, asm_call]
+For transform of length 120, inverse, mdct_float, flags: [aligned, out_of_place], found 6 matches:
+    1: mdct_inv_float_avx2 - type: mdct_float, len: [16, ∞], factors[2]: [2, any], flags: [aligned, out_of_place, inv_only], prio: 511
+    2: mdct_pfa_15xM_inv_float_c - type: mdct_float, len: [30, ∞], factors[2]: [15, any], flags: [unaligned, out_of_place, inv_only], prio: 304
+    3: mdct_pfa_5xM_inv_float_c - type: mdct_float, len: [10, ∞], factors[2]: [5, any], flags: [unaligned, out_of_place, inv_only], prio: 144
+    4: mdct_pfa_3xM_inv_float_c - type: mdct_float, len: [6, ∞], factors[2]: [3, any], flags: [unaligned, out_of_place, inv_only], prio: 112
+    5: mdct_inv_float_c - type: mdct_float, len: [2, ∞], factors[2]: [2, any], flags: [unaligned, out_of_place, inv_only], prio: 96
+    6: mdct_naive_inv_float_c - type: mdct_float, len: [2, ∞], factors[2]: [2, any], flags: [unaligned, out_of_place, inv_only], prio: -130976
+For transform of length 60, inverse, fft_float, flags: [aligned, inplace, preshuf, asm_call], found 1 matches:
+    1: fft_pfa_15xM_asm_float_avx2 - type: fft_float, len: [60, ∞], factors[2]: [15, 2], flags: [aligned, inplace, out_of_place, preshuf, asm_call], prio: 655
+For transform of length 4, inverse, fft_float, flags: [aligned, inplace, preshuf, asm_call], found 1 matches:
+    1: fft4_fwd_asm_float_sse2 - type: fft_float, len: 4, factor: 2, flags: [aligned, inplace, out_of_place, preshuf, asm_call], prio: 352
+Transform tree:
+    mdct_inv_float_avx2 - type: mdct_float, len: 120, factors[2]: [2, any], flags: [aligned, out_of_place, inv_only]
+        fft_pfa_15xM_asm_float_avx2 - type: fft_float, len: 60, factors[2]: [15, 2], flags: [aligned, inplace, out_of_place, preshuf, asm_call]
+            fft4_fwd_asm_float_sse2 - type: fft_float, len: 4, factor: 2, flags: [aligned, inplace, out_of_place, preshuf, asm_call]
+For transform of length 128, inverse, mdct_float, flags: [aligned, out_of_place], found 3 matches:
+    1: mdct_inv_float_avx2 - type: mdct_float, len: [16, ∞], factors[2]: [2, any], flags: [aligned, out_of_place, inv_only], prio: 511
+    2: mdct_inv_float_c - type: mdct_float, len: [2, ∞], factors[2]: [2, any], flags: [unaligned, out_of_place, inv_only], prio: 96
+    3: mdct_naive_inv_float_c - type: mdct_float, len: [2, ∞], factors[2]: [2, any], flags: [unaligned, out_of_place, inv_only], prio: -130976
+For transform of length 64, inverse, fft_float, flags: [aligned, inplace, preshuf, asm_call], found 3 matches:
+    1: fft_sr_asm_float_fma3 - type: fft_float, len: [64, 131072], factor: 2, flags: [aligned, inplace, out_of_place, preshuf, asm_call], prio: 448
+    2: fft_sr_asm_float_avx2 - type: fft_float, len: [64, 131072], factor: 2, flags: [aligned, inplace, out_of_place, preshuf, asm_call], prio: 447
+    3: fft_sr_asm_float_avx - type: fft_float, len: [64, 131072], factor: 2, flags: [aligned, inplace, out_of_place, preshuf, asm_call], prio: 416
+Transform tree:
+    mdct_inv_float_avx2 - type: mdct_float, len: 128, factors[2]: [2, any], flags: [aligned, out_of_place, inv_only]
+        fft_sr_asm_float_fma3 - type: fft_float, len: 64, factor: 2, flags: [aligned, inplace, out_of_place, preshuf, asm_call]
+For transform of length 480, inverse, mdct_float, flags: [aligned, out_of_place], found 6 matches:
+    1: mdct_inv_float_avx2 - type: mdct_float, len: [16, ∞], factors[2]: [2, any], flags: [aligned, out_of_place, inv_only], prio: 511
+    2: mdct_pfa_15xM_inv_float_c - type: mdct_float, len: [30, ∞], factors[2]: [15, any], flags: [unaligned, out_of_place, inv_only], prio: 304
+    3: mdct_pfa_5xM_inv_float_c - type: mdct_float, len: [10, ∞], factors[2]: [5, any], flags: [unaligned, out_of_place, inv_only], prio: 144
+    4: mdct_pfa_3xM_inv_float_c - type: mdct_float, len: [6, ∞], factors[2]: [3, any], flags: [unaligned, out_of_place, inv_only], prio: 112
+    5: mdct_inv_float_c - type: mdct_float, len: [2, ∞], factors[2]: [2, any], flags: [unaligned, out_of_place, inv_only], prio: 96
+    6: mdct_naive_inv_float_c - type: mdct_float, len: [2, ∞], factors[2]: [2, any], flags: [unaligned, out_of_place, inv_only], prio: -130976
+For transform of length 240, inverse, fft_float, flags: [aligned, inplace, preshuf, asm_call], found 1 matches:
+    1: fft_pfa_15xM_asm_float_avx2 - type: fft_float, len: [60, ∞], factors[2]: [15, 2], flags: [aligned, inplace, out_of_place, preshuf, asm_call], prio: 655
+For transform of length 16, inverse, fft_float, flags: [aligned, inplace, preshuf, asm_call], found 2 matches:
+    1: fft16_asm_float_fma3 - type: fft_float, len: 16, factor: 2, flags: [aligned, inplace, out_of_place, preshuf, asm_call], prio: 512
+    2: fft16_asm_float_avx - type: fft_float, len: 16, factor: 2, flags: [aligned, inplace, out_of_place, preshuf, asm_call], prio: 480
+Transform tree:
+    mdct_inv_float_avx2 - type: mdct_float, len: 480, factors[2]: [2, any], flags: [aligned, out_of_place, inv_only]
+        fft_pfa_15xM_asm_float_avx2 - type: fft_float, len: 240, factors[2]: [15, 2], flags: [aligned, inplace, out_of_place, preshuf, asm_call]
+            fft16_asm_float_fma3 - type: fft_float, len: 16, factor: 2, flags: [aligned, inplace, out_of_place, preshuf, asm_call]
+For transform of length 512, inverse, mdct_float, flags: [aligned, out_of_place], found 3 matches:
+    1: mdct_inv_float_avx2 - type: mdct_float, len: [16, ∞], factors[2]: [2, any], flags: [aligned, out_of_place, inv_only], prio: 511
+    2: mdct_inv_float_c - type: mdct_float, len: [2, ∞], factors[2]: [2, any], flags: [unaligned, out_of_place, inv_only], prio: 96
+    3: mdct_naive_inv_float_c - type: mdct_float, len: [2, ∞], factors[2]: [2, any], flags: [unaligned, out_of_place, inv_only], prio: -130976
+For transform of length 256, inverse, fft_float, flags: [aligned, inplace, preshuf, asm_call], found 3 matches:
+    1: fft_sr_asm_float_fma3 - type: fft_float, len: [64, 131072], factor: 2, flags: [aligned, inplace, out_of_place, preshuf, asm_call], prio: 448
+    2: fft_sr_asm_float_avx2 - type: fft_float, len: [64, 131072], factor: 2, flags: [aligned, inplace, out_of_place, preshuf, asm_call], prio: 447
+    3: fft_sr_asm_float_avx - type: fft_float, len: [64, 131072], factor: 2, flags: [aligned, inplace, out_of_place, preshuf, asm_call], prio: 416
+Transform tree:
+    mdct_inv_float_avx2 - type: mdct_float, len: 512, factors[2]: [2, any], flags: [aligned, out_of_place, inv_only]
+        fft_sr_asm_float_fma3 - type: fft_float, len: 256, factor: 2, flags: [aligned, inplace, out_of_place, preshuf, asm_call]
+For transform of length 960, inverse, mdct_float, flags: [aligned, out_of_place], found 6 matches:
+    1: mdct_inv_float_avx2 - type: mdct_float, len: [16, ∞], factors[2]: [2, any], flags: [aligned, out_of_place, inv_only], prio: 511
+    2: mdct_pfa_15xM_inv_float_c - type: mdct_float, len: [30, ∞], factors[2]: [15, any], flags: [unaligned, out_of_place, inv_only], prio: 304
+    3: mdct_pfa_5xM_inv_float_c - type: mdct_float, len: [10, ∞], factors[2]: [5, any], flags: [unaligned, out_of_place, inv_only], prio: 144
+    4: mdct_pfa_3xM_inv_float_c - type: mdct_float, len: [6, ∞], factors[2]: [3, any], flags: [unaligned, out_of_place, inv_only], prio: 112
+    5: mdct_inv_float_c - type: mdct_float, len: [2, ∞], factors[2]: [2, any], flags: [unaligned, out_of_place, inv_only], prio: 96
+    6: mdct_naive_inv_float_c - type: mdct_float, len: [2, ∞], factors[2]: [2, any], flags: [unaligned, out_of_place, inv_only], prio: -130976
+For transform of length 480, inverse, fft_float, flags: [aligned, inplace, preshuf, asm_call], found 1 matches:
+    1: fft_pfa_15xM_asm_float_avx2 - type: fft_float, len: [60, ∞], factors[2]: [15, 2], flags: [aligned, inplace, out_of_place, preshuf, asm_call], prio: 655
+For transform of length 32, inverse, fft_float, flags: [aligned, inplace, preshuf, asm_call], found 2 matches:
+    1: fft32_asm_float_fma3 - type: fft_float, len: 32, factor: 2, flags: [aligned, inplace, out_of_place, preshuf, asm_call], prio: 512
+    2: fft32_asm_float_avx - type: fft_float, len: 32, factor: 2, flags: [aligned, inplace, out_of_place, preshuf, asm_call], prio: 480
+Transform tree:
+    mdct_inv_float_avx2 - type: mdct_float, len: 960, factors[2]: [2, any], flags: [aligned, out_of_place, inv_only]
+        fft_pfa_15xM_asm_float_avx2 - type: fft_float, len: 480, factors[2]: [15, 2], flags: [aligned, inplace, out_of_place, preshuf, asm_call]
+            fft32_asm_float_fma3 - type: fft_float, len: 32, factor: 2, flags: [aligned, inplace, out_of_place, preshuf, asm_call]
+For transform of length 1024, inverse, mdct_float, flags: [aligned, out_of_place], found 3 matches:
+    1: mdct_inv_float_avx2 - type: mdct_float, len: [16, ∞], factors[2]: [2, any], flags: [aligned, out_of_place, inv_only], prio: 511
+    2: mdct_inv_float_c - type: mdct_float, len: [2, ∞], factors[2]: [2, any], flags: [unaligned, out_of_place, inv_only], prio: 96
+    3: mdct_naive_inv_float_c - type: mdct_float, len: [2, ∞], factors[2]: [2, any], flags: [unaligned, out_of_place, inv_only], prio: -130976
+For transform of length 512, inverse, fft_float, flags: [aligned, inplace, preshuf, asm_call], found 3 matches:
+    1: fft_sr_asm_float_fma3 - type: fft_float, len: [64, 131072], factor: 2, flags: [aligned, inplace, out_of_place, preshuf, asm_call], prio: 448
+    2: fft_sr_asm_float_avx2 - type: fft_float, len: [64, 131072], factor: 2, flags: [aligned, inplace, out_of_place, preshuf, asm_call], prio: 447
+    3: fft_sr_asm_float_avx - type: fft_float, len: [64, 131072], factor: 2, flags: [aligned, inplace, out_of_place, preshuf, asm_call], prio: 416
+Transform tree:
+    mdct_inv_float_avx2 - type: mdct_float, len: 1024, factors[2]: [2, any], flags: [aligned, out_of_place, inv_only]
+        fft_sr_asm_float_fma3 - type: fft_float, len: 512, factor: 2, flags: [aligned, inplace, out_of_place, preshuf, asm_call]
+For transform of length 1024, forward, mdct_float, flags: [aligned, out_of_place], found 2 matches:
+    1: mdct_fwd_float_c - type: mdct_float, len: [2, ∞], factors[2]: [2, any], flags: [unaligned, out_of_place, fwd_only], prio: 96
+    2: mdct_naive_fwd_float_c - type: mdct_float, len: [2, ∞], factors[2]: [2, any], flags: [unaligned, out_of_place, fwd_only], prio: -130976
+For transform of length 512, forward, fft_float, flags: [aligned, inplace, preshuf], found 5 matches:
+    1: fft_sr_ns_float_fma3 - type: fft_float, len: [64, 131072], factor: 2, flags: [aligned, inplace, out_of_place, preshuf], prio: 448
+    2: fft_sr_ns_float_avx2 - type: fft_float, len: [64, 131072], factor: 2, flags: [aligned, inplace, out_of_place, preshuf], prio: 447
+    3: fft_sr_ns_float_avx - type: fft_float, len: [64, 131072], factor: 2, flags: [aligned, inplace, out_of_place, preshuf], prio: 416
+    4: fft_pfa_ns_float_c - type: fft_float, len: [6, ∞], factors[2]: [7, 5, 3, 2, any], flags: [unaligned, inplace, out_of_place, preshuf], prio: 112
+    5: fft512_ns_float_c - type: fft_float, len: 512, factor: 2, flags: [unaligned, inplace, out_of_place, preshuf], prio: 96
+Transform tree:
+    mdct_fwd_float_c - type: mdct_float, len: 1024, factors[2]: [2, any], flags: [unaligned, out_of_place, fwd_only]
+        fft_sr_ns_float_fma3 - type: fft_float, len: 512, factor: 2, flags: [aligned, inplace, out_of_place, preshuf]
+[mov,mp4,m4a,3gp,3g2,mj2 @ 0x564ba3d60c80] stream 0, sample 0, dts 0
+[mov,mp4,m4a,3gp,3g2,mj2 @ 0x564ba3d60c80] stream 1, sample 0, dts 0
+[h264 @ 0x564ba3d61b80] nal_unit_type: 7(SPS), nal_ref_idc: 3
+[h264 @ 0x564ba3d61b80] Decoding VUI
+[h264 @ 0x564ba3d61b80] nal_unit_type: 8(PPS), nal_ref_idc: 3
+[h264 @ 0x564ba3d61b80] nal_unit_type: 5(IDR), nal_ref_idc: 3
+[h264 @ 0x564ba3d61b80] Format yuv420p chosen by get_format().
+[h264 @ 0x564ba3d61b80] Reinit context to 288x640, pix_fmt: yuv420p
+[mov,mp4,m4a,3gp,3g2,mj2 @ 0x564ba3d60c80] stream 0, sample 1, dts 40000
+[mov,mp4,m4a,3gp,3g2,mj2 @ 0x564ba3d60c80] stream 1, sample 0, dts 0
+[h264 @ 0x564ba3d61b80] nal_unit_type: 1(Coded slice of a non-IDR picture), nal_ref_idc: 2
+[mov,mp4,m4a,3gp,3g2,mj2 @ 0x564ba3d60c80] stream 0, sample 2, dts 80000
+[mov,mp4,m4a,3gp,3g2,mj2 @ 0x564ba3d60c80] stream 1, sample 0, dts 0
+[h264 @ 0x564ba3d61b80] nal_unit_type: 1(Coded slice of a non-IDR picture), nal_ref_idc: 2
+[mov,mp4,m4a,3gp,3g2,mj2 @ 0x564ba3d60c80] stream 0, sample 3, dts 120000
+[mov,mp4,m4a,3gp,3g2,mj2 @ 0x564ba3d60c80] stream 1, sample 0, dts 0
+[h264 @ 0x564ba3d61b80] nal_unit_type: 1(Coded slice of a non-IDR picture), nal_ref_idc: 2
+[mov,mp4,m4a,3gp,3g2,mj2 @ 0x564ba3d60c80] stream 0, sample 4, dts 160000
+[mov,mp4,m4a,3gp,3g2,mj2 @ 0x564ba3d60c80] stream 1, sample 0, dts 0
+[h264 @ 0x564ba3d61b80] nal_unit_type: 1(Coded slice of a non-IDR picture), nal_ref_idc: 2
+[mov,mp4,m4a,3gp,3g2,mj2 @ 0x564ba3d60c80] stream 0, sample 5, dts 200000
+[mov,mp4,m4a,3gp,3g2,mj2 @ 0x564ba3d60c80] stream 1, sample 0, dts 0
+[h264 @ 0x564ba3d61b80] nal_unit_type: 1(Coded slice of a non-IDR picture), nal_ref_idc: 2
+[mov,mp4,m4a,3gp,3g2,mj2 @ 0x564ba3d60c80] stream 0, sample 6, dts 240000
+[mov,mp4,m4a,3gp,3g2,mj2 @ 0x564ba3d60c80] stream 1, sample 0, dts 0
+[h264 @ 0x564ba3d61b80] nal_unit_type: 1(Coded slice of a non-IDR picture), nal_ref_idc: 2
+[mov,mp4,m4a,3gp,3g2,mj2 @ 0x564ba3d60c80] stream 0, sample 7, dts 280000
+[mov,mp4,m4a,3gp,3g2,mj2 @ 0x564ba3d60c80] stream 1, sample 0, dts 0
+[mov,mp4,m4a,3gp,3g2,mj2 @ 0x564ba3d60c80] stream 0, sample 8, dts 320000
+[mov,mp4,m4a,3gp,3g2,mj2 @ 0x564ba3d60c80] stream 1, sample 0, dts 0
+[mov,mp4,m4a,3gp,3g2,mj2 @ 0x564ba3d60c80] stream 0, sample 9, dts 360000
+[mov,mp4,m4a,3gp,3g2,mj2 @ 0x564ba3d60c80] stream 1, sample 0, dts 0
+[mov,mp4,m4a,3gp,3g2,mj2 @ 0x564ba3d60c80] stream 0, sample 10, dts 400000
+[mov,mp4,m4a,3gp,3g2,mj2 @ 0x564ba3d60c80] stream 1, sample 0, dts 0
+[mov,mp4,m4a,3gp,3g2,mj2 @ 0x564ba3d60c80] stream 0, sample 11, dts 440000
+[mov,mp4,m4a,3gp,3g2,mj2 @ 0x564ba3d60c80] stream 1, sample 0, dts 0
+[mov,mp4,m4a,3gp,3g2,mj2 @ 0x564ba3d60c80] stream 0, sample 12, dts 480000
+[mov,mp4,m4a,3gp,3g2,mj2 @ 0x564ba3d60c80] stream 1, sample 0, dts 0
+[mov,mp4,m4a,3gp,3g2,mj2 @ 0x564ba3d60c80] stream 0, sample 13, dts 520000
+[mov,mp4,m4a,3gp,3g2,mj2 @ 0x564ba3d60c80] stream 1, sample 0, dts 0
+[mov,mp4,m4a,3gp,3g2,mj2 @ 0x564ba3d60c80] stream 0, sample 14, dts 560000
+[mov,mp4,m4a,3gp,3g2,mj2 @ 0x564ba3d60c80] stream 1, sample 0, dts 0
+[mov,mp4,m4a,3gp,3g2,mj2 @ 0x564ba3d60c80] stream 0, sample 15, dts 600000
+[mov,mp4,m4a,3gp,3g2,mj2 @ 0x564ba3d60c80] stream 1, sample 0, dts 0
+[mov,mp4,m4a,3gp,3g2,mj2 @ 0x564ba3d60c80] stream 0, sample 16, dts 640000
+[mov,mp4,m4a,3gp,3g2,mj2 @ 0x564ba3d60c80] stream 1, sample 0, dts 0
+[mov,mp4,m4a,3gp,3g2,mj2 @ 0x564ba3d60c80] stream 0, sample 17, dts 680000
+[mov,mp4,m4a,3gp,3g2,mj2 @ 0x564ba3d60c80] stream 1, sample 0, dts 0
+[mov,mp4,m4a,3gp,3g2,mj2 @ 0x564ba3d60c80] stream 0, sample 18, dts 720000
+[mov,mp4,m4a,3gp,3g2,mj2 @ 0x564ba3d60c80] stream 1, sample 0, dts 0
+[mov,mp4,m4a,3gp,3g2,mj2 @ 0x564ba3d60c80] stream 0, sample 19, dts 760000
+[mov,mp4,m4a,3gp,3g2,mj2 @ 0x564ba3d60c80] stream 1, sample 0, dts 0
+[mov,mp4,m4a,3gp,3g2,mj2 @ 0x564ba3d60c80] stream 0, sample 20, dts 800000
+[mov,mp4,m4a,3gp,3g2,mj2 @ 0x564ba3d60c80] stream 1, sample 0, dts 0
+[mov,mp4,m4a,3gp,3g2,mj2 @ 0x564ba3d60c80] stream 0, sample 21, dts 840000
+[mov,mp4,m4a,3gp,3g2,mj2 @ 0x564ba3d60c80] stream 1, sample 0, dts 0
+[mov,mp4,m4a,3gp,3g2,mj2 @ 0x564ba3d60c80] stream 0, sample 22, dts 880000
+[mov,mp4,m4a,3gp,3g2,mj2 @ 0x564ba3d60c80] stream 1, sample 0, dts 0
+[mov,mp4,m4a,3gp,3g2,mj2 @ 0x564ba3d60c80] stream 0, sample 23, dts 920000
+[mov,mp4,m4a,3gp,3g2,mj2 @ 0x564ba3d60c80] stream 1, sample 0, dts 0
+[mov,mp4,m4a,3gp,3g2,mj2 @ 0x564ba3d60c80] stream 0, sample 24, dts 960000
+[mov,mp4,m4a,3gp,3g2,mj2 @ 0x564ba3d60c80] stream 1, sample 0, dts 0
+[mov,mp4,m4a,3gp,3g2,mj2 @ 0x564ba3d60c80] stream 0, sample 25, dts 1000000
+[mov,mp4,m4a,3gp,3g2,mj2 @ 0x564ba3d60c80] stream 1, sample 0, dts 0
+[mov,mp4,m4a,3gp,3g2,mj2 @ 0x564ba3d60c80] stream 0, sample 26, dts 1040000
+[mov,mp4,m4a,3gp,3g2,mj2 @ 0x564ba3d60c80] stream 1, sample 0, dts 0
+[mov,mp4,m4a,3gp,3g2,mj2 @ 0x564ba3d60c80] All info found
+[mov,mp4,m4a,3gp,3g2,mj2 @ 0x564ba3d60c80] stream 0: start_time: 0 duration: 2
+[mov,mp4,m4a,3gp,3g2,mj2 @ 0x564ba3d60c80] stream 1: start_time: 0 duration: 2.02014
+[mov,mp4,m4a,3gp,3g2,mj2 @ 0x564ba3d60c80] format: start_time: 0 duration: 2.02014 (estimate from stream) bitrate=1544 kb/s
+[mov,mp4,m4a,3gp,3g2,mj2 @ 0x564ba3d60c80] After avformat_find_stream_info() pos: 365303 bytes read:254336 seeks:3 frames:27
+Input #0, mov,mp4,m4a,3gp,3g2,mj2, from '/tmp/ivo-mp4-corpus/whatsapp-fragmented-excerpt.mp4':
+  Metadata:
+    major_brand     : isom
+    minor_version   : 512
+    compatible_brands: isomiso6iso2avc1mp41
+    encoder         : Lavf60.16.100
+  Duration: 00:00:02.02, start: 0.000000, bitrate: 1544 kb/s
+  Stream #0:0[0x1](und), 26, 1/90000: Video: h264 (High), 1 reference frame (avc1 / 0x31637661), yuv420p(tv, unknown/bt470bg/unknown, progressive, left), 288x640, 0/1, 1452 kb/s, 25 fps, 25 tbr, 90k tbn (default)
+    Metadata:
+      handler_name    : VideoHandler
+      vendor_id       : [0][0][0][0]
+  Stream #0:1[0x2](und), 1, 1/44100: Audio: aac (LC) (mp4a / 0x6134706D), 44100 Hz, stereo, fltp, 97 kb/s (default)
+    Metadata:
+      handler_name    : SoundHandler
+      vendor_id       : [0][0][0][0]
+Successfully opened the file.
+Parsing a group of options: output url -.
+Applying option map (set input stream mapping) with argument 0:v:0.
+Applying option c (codec name) with argument copy.
+Applying option bsf:v (A comma-separated list of bitstream filters) with argument trace_headers.
+Applying option f (force format) with argument null.
+Successfully parsed a group of options.
+Opening an output file: -.
+[out#0/null @ 0x564ba3d68bc0] Adding streams from explicit maps...
+[vost#0:0/copy @ 0x564ba3e03840] Created video stream from input stream 0:0
+[trace_headers @ 0x564ba3e45240] Extradata
+[trace_headers @ 0x564ba3e45240] nal_unit_type: 7(SPS), nal_ref_idc: 3
+[trace_headers @ 0x564ba3e45240] nal_unit_type: 8(PPS), nal_ref_idc: 3
+[trace_headers @ 0x564ba3e45240] Sequence Parameter Set
+[trace_headers @ 0x564ba3e45240] 0           forbidden_zero_bit                                          0 = 0
+[trace_headers @ 0x564ba3e45240] 1           nal_ref_idc                                                11 = 3
+[trace_headers @ 0x564ba3e45240] 3           nal_unit_type                                           00111 = 7
+[trace_headers @ 0x564ba3e45240] 8           profile_idc                                          01100100 = 100
+[trace_headers @ 0x564ba3e45240] 16          constraint_set0_flag                                        0 = 0
+[trace_headers @ 0x564ba3e45240] 17          constraint_set1_flag                                        0 = 0
+[trace_headers @ 0x564ba3e45240] 18          constraint_set2_flag                                        0 = 0
+[trace_headers @ 0x564ba3e45240] 19          constraint_set3_flag                                        0 = 0
+[trace_headers @ 0x564ba3e45240] 20          constraint_set4_flag                                        0 = 0
+[trace_headers @ 0x564ba3e45240] 21          constraint_set5_flag                                        0 = 0
+[trace_headers @ 0x564ba3e45240] 22          reserved_zero_2bits                                        00 = 0
+[trace_headers @ 0x564ba3e45240] 24          level_idc                                            00011110 = 30
+[trace_headers @ 0x564ba3e45240] 32          seq_parameter_set_id                                        1 = 0
+[trace_headers @ 0x564ba3e45240] 33          chroma_format_idc                                         010 = 1
+[trace_headers @ 0x564ba3e45240] 36          bit_depth_luma_minus8                                       1 = 0
+[trace_headers @ 0x564ba3e45240] 37          bit_depth_chroma_minus8                                     1 = 0
+[trace_headers @ 0x564ba3e45240] 38          qpprime_y_zero_transform_bypass_flag                        0 = 0
+[trace_headers @ 0x564ba3e45240] 39          seq_scaling_matrix_present_flag                             0 = 0
+[trace_headers @ 0x564ba3e45240] 40          log2_max_frame_num_minus4                                   1 = 0
+[trace_headers @ 0x564ba3e45240] 41          pic_order_cnt_type                                        011 = 2
+[trace_headers @ 0x564ba3e45240] 44          max_num_ref_frames                                        010 = 1
+[trace_headers @ 0x564ba3e45240] 47          gaps_in_frame_num_allowed_flag                              0 = 0
+[trace_headers @ 0x564ba3e45240] 48          pic_width_in_mbs_minus1                             000010010 = 17
+[trace_headers @ 0x564ba3e45240] 57          pic_height_in_map_units_minus1                    00000101000 = 39
+[trace_headers @ 0x564ba3e45240] 68          frame_mbs_only_flag                                         1 = 1
+[trace_headers @ 0x564ba3e45240] 69          direct_8x8_inference_flag                                   1 = 1
+[trace_headers @ 0x564ba3e45240] 70          frame_cropping_flag                                         0 = 0
+[trace_headers @ 0x564ba3e45240] 71          vui_parameters_present_flag                                 1 = 1
+[trace_headers @ 0x564ba3e45240] 72          aspect_ratio_info_present_flag                              0 = 0
+[trace_headers @ 0x564ba3e45240] 73          overscan_info_present_flag                                  0 = 0
+[trace_headers @ 0x564ba3e45240] 74          video_signal_type_present_flag                              1 = 1
+[trace_headers @ 0x564ba3e45240] 75          video_format                                              010 = 2
+[trace_headers @ 0x564ba3e45240] 78          video_full_range_flag                                       0 = 0
+[trace_headers @ 0x564ba3e45240] 79          colour_description_present_flag                             1 = 1
+[trace_headers @ 0x564ba3e45240] 80          colour_primaries                                     00000101 = 5
+[trace_headers @ 0x564ba3e45240] 88          transfer_characteristics                             00000010 = 2
+[trace_headers @ 0x564ba3e45240] 96          matrix_coefficients                                  00000010 = 2
+[trace_headers @ 0x564ba3e45240] 104         chroma_loc_info_present_flag                                0 = 0
+[trace_headers @ 0x564ba3e45240] 105         timing_info_present_flag                                    0 = 0
+[trace_headers @ 0x564ba3e45240] 106         nal_hrd_parameters_present_flag                             0 = 0
+[trace_headers @ 0x564ba3e45240] 107         vcl_hrd_parameters_present_flag                             0 = 0
+[trace_headers @ 0x564ba3e45240] 108         pic_struct_present_flag                                     0 = 0
+[trace_headers @ 0x564ba3e45240] 109         bitstream_restriction_flag                                  1 = 1
+[trace_headers @ 0x564ba3e45240] 110         motion_vectors_over_pic_boundaries_flag                     1 = 1
+[trace_headers @ 0x564ba3e45240] 111         max_bytes_per_pic_denom                                   011 = 2
+[trace_headers @ 0x564ba3e45240] 114         max_bits_per_mb_denom                                     010 = 1
+[trace_headers @ 0x564ba3e45240] 117         log2_max_mv_length_horizontal                         0001010 = 9
+[trace_headers @ 0x564ba3e45240] 124         log2_max_mv_length_vertical                           0001001 = 8
+[trace_headers @ 0x564ba3e45240] 131         max_num_reorder_frames                                      1 = 0
+[trace_headers @ 0x564ba3e45240] 132         max_dec_frame_buffering                                   010 = 1
+[trace_headers @ 0x564ba3e45240] 135         rbsp_stop_one_bit                                           1 = 1
+[trace_headers @ 0x564ba3e45240] Picture Parameter Set
+[trace_headers @ 0x564ba3e45240] 0           forbidden_zero_bit                                          0 = 0
+[trace_headers @ 0x564ba3e45240] 1           nal_ref_idc                                                11 = 3
+[trace_headers @ 0x564ba3e45240] 3           nal_unit_type                                           01000 = 8
+[trace_headers @ 0x564ba3e45240] 8           pic_parameter_set_id                                        1 = 0
+[trace_headers @ 0x564ba3e45240] 9           seq_parameter_set_id                                        1 = 0
+[trace_headers @ 0x564ba3e45240] 10          entropy_coding_mode_flag                                    1 = 1
+[trace_headers @ 0x564ba3e45240] 11          bottom_field_pic_order_in_frame_present_flag                0 = 0
+[trace_headers @ 0x564ba3e45240] 12          num_slice_groups_minus1                                     1 = 0
+[trace_headers @ 0x564ba3e45240] 13          num_ref_idx_l0_default_active_minus1                        1 = 0
+[trace_headers @ 0x564ba3e45240] 14          num_ref_idx_l1_default_active_minus1                        1 = 0
+[trace_headers @ 0x564ba3e45240] 15          weighted_pred_flag                                          0 = 0
+[trace_headers @ 0x564ba3e45240] 16          weighted_bipred_idc                                        00 = 0
+[trace_headers @ 0x564ba3e45240] 18          pic_init_qp_minus26                                   0001101 = -6
+[trace_headers @ 0x564ba3e45240] 25          pic_init_qs_minus26                                         1 = 0
+[trace_headers @ 0x564ba3e45240] 26          chroma_qp_index_offset                                      1 = 0
+[trace_headers @ 0x564ba3e45240] 27          deblocking_filter_control_present_flag                      0 = 0
+[trace_headers @ 0x564ba3e45240] 28          constrained_intra_pred_flag                                 0 = 0
+[trace_headers @ 0x564ba3e45240] 29          redundant_pic_cnt_present_flag                              0 = 0
+[trace_headers @ 0x564ba3e45240] 30          transform_8x8_mode_flag                                     1 = 1
+[trace_headers @ 0x564ba3e45240] 31          pic_scaling_matrix_present_flag                             0 = 0
+[trace_headers @ 0x564ba3e45240] 32          second_chroma_qp_index_offset                               1 = 0
+[trace_headers @ 0x564ba3e45240] 33          rbsp_stop_one_bit                                           1 = 1
+[trace_headers @ 0x564ba3e45240] 34          rbsp_alignment_zero_bit                                     0 = 0
+[trace_headers @ 0x564ba3e45240] 35          rbsp_alignment_zero_bit                                     0 = 0
+[trace_headers @ 0x564ba3e45240] 36          rbsp_alignment_zero_bit                                     0 = 0
+[trace_headers @ 0x564ba3e45240] 37          rbsp_alignment_zero_bit                                     0 = 0
+[trace_headers @ 0x564ba3e45240] 38          rbsp_alignment_zero_bit                                     0 = 0
+[trace_headers @ 0x564ba3e45240] 39          rbsp_alignment_zero_bit                                     0 = 0
+Output #0, null, to 'pipe:':
+  Metadata:
+    major_brand     : isom
+    minor_version   : 512
+    compatible_brands: isomiso6iso2avc1mp41
+    encoder         : Lavf60.16.100
+  Stream #0:0(und), 0, 1/90000: Video: h264 (High), 1 reference frame (avc1 / 0x31637661), yuv420p(tv, unknown/bt470bg/unknown, progressive, left), 288x640 (0x0), 0/1, q=2-31, 1452 kb/s, 25 fps, 25 tbr, 90k tbn (default)
+    Metadata:
+      handler_name    : VideoHandler
+      vendor_id       : [0][0][0][0]
+Successfully opened the file.
+Stream mapping:
+  Stream #0:0 -> #0:0 (copy)
+Press [q] to stop, [?] for help
+[trace_headers @ 0x564ba3e45240] Packet: 21248 bytes, key frame, pts 0, dts 0.
+[trace_headers @ 0x564ba3e45240] nal_unit_type: 5(IDR), nal_ref_idc: 3
+[trace_headers @ 0x564ba3e45240] Slice Header
+[trace_headers @ 0x564ba3e45240] 0           forbidden_zero_bit                                          0 = 0
+[trace_headers @ 0x564ba3e45240] 1           nal_ref_idc                                                11 = 3
+[trace_headers @ 0x564ba3e45240] 3           nal_unit_type                                           00101 = 5
+[trace_headers @ 0x564ba3e45240] 8           first_mb_in_slice                                           1 = 0
+[trace_headers @ 0x564ba3e45240] 9           slice_type                                                011 = 2
+[trace_headers @ 0x564ba3e45240] 12          pic_parameter_set_id                                        1 = 0
+[trace_headers @ 0x564ba3e45240] 13          frame_num                                                0000 = 0
+[trace_headers @ 0x564ba3e45240] 17          idr_pic_id                                                  1 = 0
+[trace_headers @ 0x564ba3e45240] 18          no_output_of_prior_pics_flag                                0 = 0
+[trace_headers @ 0x564ba3e45240] 19          long_term_reference_flag                                    0 = 0
+[trace_headers @ 0x564ba3e45240] 20          slice_qp_delta                                              1 = 0
+[trace_headers @ 0x564ba3e45240] 21          cabac_alignment_one_bit                                     1 = 1
+[trace_headers @ 0x564ba3e45240] 22          cabac_alignment_one_bit                                     1 = 1
+[trace_headers @ 0x564ba3e45240] 23          cabac_alignment_one_bit                                     1 = 1
+size=       0kB time=00:00:00.00 bitrate=N/A speed=N/A    [trace_headers @ 0x564ba3e45240] Packet: 3424 bytes, pts 3600, dts 3600.
+[trace_headers @ 0x564ba3e45240] nal_unit_type: 1(Coded slice of a non-IDR picture), nal_ref_idc: 2
+[trace_headers @ 0x564ba3e45240] Slice Header
+[trace_headers @ 0x564ba3e45240] 0           forbidden_zero_bit                                          0 = 0
+[trace_headers @ 0x564ba3e45240] 1           nal_ref_idc                                                10 = 2
+[trace_headers @ 0x564ba3e45240] 3           nal_unit_type                                           00001 = 1
+[trace_headers @ 0x564ba3e45240] 8           first_mb_in_slice                                           1 = 0
+[trace_headers @ 0x564ba3e45240] 9           slice_type                                                  1 = 0
+[trace_headers @ 0x564ba3e45240] 10          pic_parameter_set_id                                        1 = 0
+[trace_headers @ 0x564ba3e45240] 11          frame_num                                                0001 = 1
+[trace_headers @ 0x564ba3e45240] 15          num_ref_idx_active_override_flag                            0 = 0
+[trace_headers @ 0x564ba3e45240] 16          ref_pic_list_modification_flag_l0                           0 = 0
+[trace_headers @ 0x564ba3e45240] 17          adaptive_ref_pic_marking_mode_flag                          0 = 0
+[trace_headers @ 0x564ba3e45240] 18          cabac_init_idc                                            010 = 1
+[trace_headers @ 0x564ba3e45240] 21          slice_qp_delta                                          00100 = 2
+[trace_headers @ 0x564ba3e45240] 26          cabac_alignment_one_bit                                     1 = 1
+[trace_headers @ 0x564ba3e45240] 27          cabac_alignment_one_bit                                     1 = 1
+[trace_headers @ 0x564ba3e45240] 28          cabac_alignment_one_bit                                     1 = 1
+[trace_headers @ 0x564ba3e45240] 29          cabac_alignment_one_bit                                     1 = 1
+[trace_headers @ 0x564ba3e45240] 30          cabac_alignment_one_bit                                     1 = 1
+[trace_headers @ 0x564ba3e45240] 31          cabac_alignment_one_bit                                     1 = 1
+[trace_headers @ 0x564ba3e45240] Packet: 3840 bytes, pts 7200, dts 7200.
+[trace_headers @ 0x564ba3e45240] nal_unit_type: 1(Coded slice of a non-IDR picture), nal_ref_idc: 2
+[trace_headers @ 0x564ba3e45240] Slice Header
+[trace_headers @ 0x564ba3e45240] 0           forbidden_zero_bit                                          0 = 0
+[trace_headers @ 0x564ba3e45240] 1           nal_ref_idc                                                10 = 2
+[trace_headers @ 0x564ba3e45240] 3           nal_unit_type                                           00001 = 1
+[trace_headers @ 0x564ba3e45240] 8           first_mb_in_slice                                           1 = 0
+[trace_headers @ 0x564ba3e45240] 9           slice_type                                                  1 = 0
+[trace_headers @ 0x564ba3e45240] 10          pic_parameter_set_id                                        1 = 0
+[trace_headers @ 0x564ba3e45240] 11          frame_num                                                0010 = 2
+[trace_headers @ 0x564ba3e45240] 15          num_ref_idx_active_override_flag                            0 = 0
+[trace_headers @ 0x564ba3e45240] 16          ref_pic_list_modification_flag_l0                           0 = 0
+[trace_headers @ 0x564ba3e45240] 17          adaptive_ref_pic_marking_mode_flag                          0 = 0
+[trace_headers @ 0x564ba3e45240] 18          cabac_init_idc                                            010 = 1
+[trace_headers @ 0x564ba3e45240] 21          slice_qp_delta                                          00100 = 2
+[trace_headers @ 0x564ba3e45240] 26          cabac_alignment_one_bit                                     1 = 1
+[trace_headers @ 0x564ba3e45240] 27          cabac_alignment_one_bit                                     1 = 1
+[trace_headers @ 0x564ba3e45240] 28          cabac_alignment_one_bit                                     1 = 1
+[trace_headers @ 0x564ba3e45240] 29          cabac_alignment_one_bit                                     1 = 1
+[trace_headers @ 0x564ba3e45240] 30          cabac_alignment_one_bit                                     1 = 1
+[trace_headers @ 0x564ba3e45240] 31          cabac_alignment_one_bit                                     1 = 1
+[trace_headers @ 0x564ba3e45240] Packet: 5808 bytes, pts 10800, dts 10800.
+[trace_headers @ 0x564ba3e45240] nal_unit_type: 1(Coded slice of a non-IDR picture), nal_ref_idc: 2
+[trace_headers @ 0x564ba3e45240] Slice Header
+[trace_headers @ 0x564ba3e45240] 0           forbidden_zero_bit                                          0 = 0
+[trace_headers @ 0x564ba3e45240] 1           nal_ref_idc                                                10 = 2
+[trace_headers @ 0x564ba3e45240] 3           nal_unit_type                                           00001 = 1
+[trace_headers @ 0x564ba3e45240] 8           first_mb_in_slice                                           1 = 0
+[trace_headers @ 0x564ba3e45240] 9           slice_type                                                  1 = 0
+[trace_headers @ 0x564ba3e45240] 10          pic_parameter_set_id                                        1 = 0
+[trace_headers @ 0x564ba3e45240] 11          frame_num                                                0011 = 3
+[trace_headers @ 0x564ba3e45240] 15          num_ref_idx_active_override_flag                            0 = 0
+[trace_headers @ 0x564ba3e45240] 16          ref_pic_list_modification_flag_l0                           0 = 0
+[trace_headers @ 0x564ba3e45240] 17          adaptive_ref_pic_marking_mode_flag                          0 = 0
+[trace_headers @ 0x564ba3e45240] 18          cabac_init_idc                                            010 = 1
+[trace_headers @ 0x564ba3e45240] 21          slice_qp_delta                                              1 = 0
+[trace_headers @ 0x564ba3e45240] 22          cabac_alignment_one_bit                                     1 = 1
+[trace_headers @ 0x564ba3e45240] 23          cabac_alignment_one_bit                                     1 = 1
+[trace_headers @ 0x564ba3e45240] Packet: 5632 bytes, pts 14400, dts 14400.
+[trace_headers @ 0x564ba3e45240] nal_unit_type: 1(Coded slice of a non-IDR picture), nal_ref_idc: 2
+[trace_headers @ 0x564ba3e45240] Slice Header
+[trace_headers @ 0x564ba3e45240] 0           forbidden_zero_bit                                          0 = 0
+[trace_headers @ 0x564ba3e45240] 1           nal_ref_idc                                                10 = 2
+[trace_headers @ 0x564ba3e45240] 3           nal_unit_type                                           00001 = 1
+[trace_headers @ 0x564ba3e45240] 8           first_mb_in_slice                                           1 = 0
+[trace_headers @ 0x564ba3e45240] 9           slice_type                                                  1 = 0
+[trace_headers @ 0x564ba3e45240] 10          pic_parameter_set_id                                        1 = 0
+[trace_headers @ 0x564ba3e45240] 11          frame_num                                                0100 = 4
+[trace_headers @ 0x564ba3e45240] 15          num_ref_idx_active_override_flag                            0 = 0
+[trace_headers @ 0x564ba3e45240] 16          ref_pic_list_modification_flag_l0                           0 = 0
+[trace_headers @ 0x564ba3e45240] 17          adaptive_ref_pic_marking_mode_flag                          0 = 0
+[trace_headers @ 0x564ba3e45240] 18          cabac_init_idc                                            010 = 1
+[trace_headers @ 0x564ba3e45240] 21          slice_qp_delta                                              1 = 0
+[trace_headers @ 0x564ba3e45240] 22          cabac_alignment_one_bit                                     1 = 1
+[trace_headers @ 0x564ba3e45240] 23          cabac_alignment_one_bit                                     1 = 1
+[trace_headers @ 0x564ba3e45240] Packet: 6528 bytes, pts 18000, dts 18000.
+[trace_headers @ 0x564ba3e45240] nal_unit_type: 1(Coded slice of a non-IDR picture), nal_ref_idc: 2
+[trace_headers @ 0x564ba3e45240] Slice Header
+[trace_headers @ 0x564ba3e45240] 0           forbidden_zero_bit                                          0 = 0
+[trace_headers @ 0x564ba3e45240] 1           nal_ref_idc                                                10 = 2
+[trace_headers @ 0x564ba3e45240] 3           nal_unit_type                                           00001 = 1
+[trace_headers @ 0x564ba3e45240] 8           first_mb_in_slice                                           1 = 0
+[trace_headers @ 0x564ba3e45240] 9           slice_type                                                  1 = 0
+[trace_headers @ 0x564ba3e45240] 10          pic_parameter_set_id                                        1 = 0
+[trace_headers @ 0x564ba3e45240] 11          frame_num                                                0101 = 5
+[trace_headers @ 0x564ba3e45240] 15          num_ref_idx_active_override_flag                            0 = 0
+[trace_headers @ 0x564ba3e45240] 16          ref_pic_list_modification_flag_l0                           0 = 0
+[trace_headers @ 0x564ba3e45240] 17          adaptive_ref_pic_marking_mode_flag                          0 = 0
+[trace_headers @ 0x564ba3e45240] 18          cabac_init_idc                                            010 = 1
+[trace_headers @ 0x564ba3e45240] 21          slice_qp_delta                                            011 = -1
+[trace_headers @ 0x564ba3e45240] Packet: 6096 bytes, pts 21600, dts 21600.
+[trace_headers @ 0x564ba3e45240] nal_unit_type: 1(Coded slice of a non-IDR picture), nal_ref_idc: 2
+[trace_headers @ 0x564ba3e45240] Slice Header
+[trace_headers @ 0x564ba3e45240] 0           forbidden_zero_bit                                          0 = 0
+[trace_headers @ 0x564ba3e45240] 1           nal_ref_idc                                                10 = 2
+[trace_headers @ 0x564ba3e45240] 3           nal_unit_type                                           00001 = 1
+[trace_headers @ 0x564ba3e45240] 8           first_mb_in_slice                                           1 = 0
+[trace_headers @ 0x564ba3e45240] 9           slice_type                                                  1 = 0
+[trace_headers @ 0x564ba3e45240] 10          pic_parameter_set_id                                        1 = 0
+[trace_headers @ 0x564ba3e45240] 11          frame_num                                                0110 = 6
+[trace_headers @ 0x564ba3e45240] 15          num_ref_idx_active_override_flag                            0 = 0
+[trace_headers @ 0x564ba3e45240] 16          ref_pic_list_modification_flag_l0                           0 = 0
+[trace_headers @ 0x564ba3e45240] 17          adaptive_ref_pic_marking_mode_flag                          0 = 0
+[trace_headers @ 0x564ba3e45240] 18          cabac_init_idc                                            010 = 1
+[trace_headers @ 0x564ba3e45240] 21          slice_qp_delta                                            011 = -1
+[trace_headers @ 0x564ba3e45240] Packet: 6560 bytes, pts 25200, dts 25200.
+[trace_headers @ 0x564ba3e45240] nal_unit_type: 1(Coded slice of a non-IDR picture), nal_ref_idc: 2
+[trace_headers @ 0x564ba3e45240] Slice Header
+[trace_headers @ 0x564ba3e45240] 0           forbidden_zero_bit                                          0 = 0
+[trace_headers @ 0x564ba3e45240] 1           nal_ref_idc                                                10 = 2
+[trace_headers @ 0x564ba3e45240] 3           nal_unit_type                                           00001 = 1
+[trace_headers @ 0x564ba3e45240] 8           first_mb_in_slice                                           1 = 0
+[trace_headers @ 0x564ba3e45240] 9           slice_type                                                  1 = 0
+[trace_headers @ 0x564ba3e45240] 10          pic_parameter_set_id                                        1 = 0
+[trace_headers @ 0x564ba3e45240] 11          frame_num                                                0111 = 7
+[trace_headers @ 0x564ba3e45240] 15          num_ref_idx_active_override_flag                            0 = 0
+[trace_headers @ 0x564ba3e45240] 16          ref_pic_list_modification_flag_l0                           0 = 0
+[trace_headers @ 0x564ba3e45240] 17          adaptive_ref_pic_marking_mode_flag                          0 = 0
+[trace_headers @ 0x564ba3e45240] 18          cabac_init_idc                                            010 = 1
+[trace_headers @ 0x564ba3e45240] 21          slice_qp_delta                                          00101 = -2
+[trace_headers @ 0x564ba3e45240] 26          cabac_alignment_one_bit                                     1 = 1
+[trace_headers @ 0x564ba3e45240] 27          cabac_alignment_one_bit                                     1 = 1
+[trace_headers @ 0x564ba3e45240] 28          cabac_alignment_one_bit                                     1 = 1
+[trace_headers @ 0x564ba3e45240] 29          cabac_alignment_one_bit                                     1 = 1
+[trace_headers @ 0x564ba3e45240] 30          cabac_alignment_one_bit                                     1 = 1
+[trace_headers @ 0x564ba3e45240] 31          cabac_alignment_one_bit                                     1 = 1
+[trace_headers @ 0x564ba3e45240] Packet: 6496 bytes, pts 28800, dts 28800.
+[trace_headers @ 0x564ba3e45240] nal_unit_type: 1(Coded slice of a non-IDR picture), nal_ref_idc: 2
+[trace_headers @ 0x564ba3e45240] Slice Header
+[trace_headers @ 0x564ba3e45240] 0           forbidden_zero_bit                                          0 = 0
+[trace_headers @ 0x564ba3e45240] 1           nal_ref_idc                                                10 = 2
+[trace_headers @ 0x564ba3e45240] 3           nal_unit_type                                           00001 = 1
+[trace_headers @ 0x564ba3e45240] 8           first_mb_in_slice                                           1 = 0
+[trace_headers @ 0x564ba3e45240] 9           slice_type                                                  1 = 0
+[trace_headers @ 0x564ba3e45240] 10          pic_parameter_set_id                                        1 = 0
+[trace_headers @ 0x564ba3e45240] 11          frame_num                                                1000 = 8
+[trace_headers @ 0x564ba3e45240] 15          num_ref_idx_active_override_flag                            0 = 0
+[trace_headers @ 0x564ba3e45240] 16          ref_pic_list_modification_flag_l0                           0 = 0
+[trace_headers @ 0x564ba3e45240] 17          adaptive_ref_pic_marking_mode_flag                          0 = 0
+[trace_headers @ 0x564ba3e45240] 18          cabac_init_idc                                            010 = 1
+[trace_headers @ 0x564ba3e45240] 21          slice_qp_delta                                          00101 = -2
+[trace_headers @ 0x564ba3e45240] 26          cabac_alignment_one_bit                                     1 = 1
+[trace_headers @ 0x564ba3e45240] 27          cabac_alignment_one_bit                                     1 = 1
+[trace_headers @ 0x564ba3e45240] 28          cabac_alignment_one_bit                                     1 = 1
+[trace_headers @ 0x564ba3e45240] 29          cabac_alignment_one_bit                                     1 = 1
+[trace_headers @ 0x564ba3e45240] 30          cabac_alignment_one_bit                                     1 = 1
+[trace_headers @ 0x564ba3e45240] 31          cabac_alignment_one_bit                                     1 = 1
+[trace_headers @ 0x564ba3e45240] Packet: 6384 bytes, pts 32400, dts 32400.
+[trace_headers @ 0x564ba3e45240] nal_unit_type: 1(Coded slice of a non-IDR picture), nal_ref_idc: 2
+[trace_headers @ 0x564ba3e45240] Slice Header
+[trace_headers @ 0x564ba3e45240] 0           forbidden_zero_bit                                          0 = 0
+[trace_headers @ 0x564ba3e45240] 1           nal_ref_idc                                                10 = 2
+[trace_headers @ 0x564ba3e45240] 3           nal_unit_type                                           00001 = 1
+[trace_headers @ 0x564ba3e45240] 8           first_mb_in_slice                                           1 = 0
+[trace_headers @ 0x564ba3e45240] 9           slice_type                                                  1 = 0
+[trace_headers @ 0x564ba3e45240] 10          pic_parameter_set_id                                        1 = 0
+[trace_headers @ 0x564ba3e45240] 11          frame_num                                                1001 = 9
+[trace_headers @ 0x564ba3e45240] 15          num_ref_idx_active_override_flag                            0 = 0
+[trace_headers @ 0x564ba3e45240] 16          ref_pic_list_modification_flag_l0                           0 = 0
+[trace_headers @ 0x564ba3e45240] 17          adaptive_ref_pic_marking_mode_flag                          0 = 0
+[trace_headers @ 0x564ba3e45240] 18          cabac_init_idc                                            010 = 1
+[trace_headers @ 0x564ba3e45240] 21          slice_qp_delta                                          00101 = -2
+[trace_headers @ 0x564ba3e45240] 26          cabac_alignment_one_bit                                     1 = 1
+[trace_headers @ 0x564ba3e45240] 27          cabac_alignment_one_bit                                     1 = 1
+[trace_headers @ 0x564ba3e45240] 28          cabac_alignment_one_bit                                     1 = 1
+[trace_headers @ 0x564ba3e45240] 29          cabac_alignment_one_bit                                     1 = 1
+[trace_headers @ 0x564ba3e45240] 30          cabac_alignment_one_bit                                     1 = 1
+[trace_headers @ 0x564ba3e45240] 31          cabac_alignment_one_bit                                     1 = 1
+[trace_headers @ 0x564ba3e45240] Packet: 6416 bytes, pts 36000, dts 36000.
+[trace_headers @ 0x564ba3e45240] nal_unit_type: 1(Coded slice of a non-IDR picture), nal_ref_idc: 2
+[trace_headers @ 0x564ba3e45240] Slice Header
+[trace_headers @ 0x564ba3e45240] 0           forbidden_zero_bit                                          0 = 0
+[trace_headers @ 0x564ba3e45240] 1           nal_ref_idc                                                10 = 2
+[trace_headers @ 0x564ba3e45240] 3           nal_unit_type                                           00001 = 1
+[trace_headers @ 0x564ba3e45240] 8           first_mb_in_slice                                           1 = 0
+[trace_headers @ 0x564ba3e45240] 9           slice_type                                                  1 = 0
+[trace_headers @ 0x564ba3e45240] 10          pic_parameter_set_id                                        1 = 0
+[trace_headers @ 0x564ba3e45240] 11          frame_num                                                1010 = 10
+[trace_headers @ 0x564ba3e45240] 15          num_ref_idx_active_override_flag                            0 = 0
+[trace_headers @ 0x564ba3e45240] 16          ref_pic_list_modification_flag_l0                           0 = 0
+[trace_headers @ 0x564ba3e45240] 17          adaptive_ref_pic_marking_mode_flag                          0 = 0
+[trace_headers @ 0x564ba3e45240] 18          cabac_init_idc                                            010 = 1
+[trace_headers @ 0x564ba3e45240] 21          slice_qp_delta                                          00101 = -2
+[trace_headers @ 0x564ba3e45240] 26          cabac_alignment_one_bit                                     1 = 1
+[trace_headers @ 0x564ba3e45240] 27          cabac_alignment_one_bit                                     1 = 1
+[trace_headers @ 0x564ba3e45240] 28          cabac_alignment_one_bit                                     1 = 1
+[trace_headers @ 0x564ba3e45240] 29          cabac_alignment_one_bit                                     1 = 1
+[trace_headers @ 0x564ba3e45240] 30          cabac_alignment_one_bit                                     1 = 1
+[trace_headers @ 0x564ba3e45240] 31          cabac_alignment_one_bit                                     1 = 1
+[trace_headers @ 0x564ba3e45240] Packet: 6240 bytes, pts 39600, dts 39600.
+[trace_headers @ 0x564ba3e45240] nal_unit_type: 1(Coded slice of a non-IDR picture), nal_ref_idc: 2
+[trace_headers @ 0x564ba3e45240] Slice Header
+[trace_headers @ 0x564ba3e45240] 0           forbidden_zero_bit                                          0 = 0
+[trace_headers @ 0x564ba3e45240] 1           nal_ref_idc                                                10 = 2
+[trace_headers @ 0x564ba3e45240] 3           nal_unit_type                                           00001 = 1
+[trace_headers @ 0x564ba3e45240] 8           first_mb_in_slice                                           1 = 0
+[trace_headers @ 0x564ba3e45240] 9           slice_type                                                  1 = 0
+[trace_headers @ 0x564ba3e45240] 10          pic_parameter_set_id                                        1 = 0
+[trace_headers @ 0x564ba3e45240] 11          frame_num                                                1011 = 11
+[trace_headers @ 0x564ba3e45240] 15          num_ref_idx_active_override_flag                            0 = 0
+[trace_headers @ 0x564ba3e45240] 16          ref_pic_list_modification_flag_l0                           0 = 0
+[trace_headers @ 0x564ba3e45240] 17          adaptive_ref_pic_marking_mode_flag                          0 = 0
+[trace_headers @ 0x564ba3e45240] 18          cabac_init_idc                                            010 = 1
+[trace_headers @ 0x564ba3e45240] 21          slice_qp_delta                                          00101 = -2
+[trace_headers @ 0x564ba3e45240] 26          cabac_alignment_one_bit                                     1 = 1
+[trace_headers @ 0x564ba3e45240] 27          cabac_alignment_one_bit                                     1 = 1
+[trace_headers @ 0x564ba3e45240] 28          cabac_alignment_one_bit                                     1 = 1
+[trace_headers @ 0x564ba3e45240] 29          cabac_alignment_one_bit                                     1 = 1
+[trace_headers @ 0x564ba3e45240] 30          cabac_alignment_one_bit                                     1 = 1
+[trace_headers @ 0x564ba3e45240] 31          cabac_alignment_one_bit                                     1 = 1
+[trace_headers @ 0x564ba3e45240] Packet: 6160 bytes, pts 43200, dts 43200.
+[trace_headers @ 0x564ba3e45240] nal_unit_type: 1(Coded slice of a non-IDR picture), nal_ref_idc: 2
+[trace_headers @ 0x564ba3e45240] Slice Header
+[trace_headers @ 0x564ba3e45240] 0           forbidden_zero_bit                                          0 = 0
+[trace_headers @ 0x564ba3e45240] 1           nal_ref_idc                                                10 = 2
+[trace_headers @ 0x564ba3e45240] 3           nal_unit_type                                           00001 = 1
+[trace_headers @ 0x564ba3e45240] 8           first_mb_in_slice                                           1 = 0
+[trace_headers @ 0x564ba3e45240] 9           slice_type                                                  1 = 0
+[trace_headers @ 0x564ba3e45240] 10          pic_parameter_set_id                                        1 = 0
+[trace_headers @ 0x564ba3e45240] 11          frame_num                                                1100 = 12
+[trace_headers @ 0x564ba3e45240] 15          num_ref_idx_active_override_flag                            0 = 0
+[trace_headers @ 0x564ba3e45240] 16          ref_pic_list_modification_flag_l0                           0 = 0
+[trace_headers @ 0x564ba3e45240] 17          adaptive_ref_pic_marking_mode_flag                          0 = 0
+[trace_headers @ 0x564ba3e45240] 18          cabac_init_idc                                            010 = 1
+[trace_headers @ 0x564ba3e45240] 21          slice_qp_delta                                          00101 = -2
+[trace_headers @ 0x564ba3e45240] 26          cabac_alignment_one_bit                                     1 = 1
+[trace_headers @ 0x564ba3e45240] 27          cabac_alignment_one_bit                                     1 = 1
+[trace_headers @ 0x564ba3e45240] 28          cabac_alignment_one_bit                                     1 = 1
+[trace_headers @ 0x564ba3e45240] 29          cabac_alignment_one_bit                                     1 = 1
+[trace_headers @ 0x564ba3e45240] 30          cabac_alignment_one_bit                                     1 = 1
+[trace_headers @ 0x564ba3e45240] 31          cabac_alignment_one_bit                                     1 = 1
+[trace_headers @ 0x564ba3e45240] Packet: 6416 bytes, pts 46800, dts 46800.
+[trace_headers @ 0x564ba3e45240] nal_unit_type: 1(Coded slice of a non-IDR picture), nal_ref_idc: 2
+[trace_headers @ 0x564ba3e45240] Slice Header
+[trace_headers @ 0x564ba3e45240] 0           forbidden_zero_bit                                          0 = 0
+[trace_headers @ 0x564ba3e45240] 1           nal_ref_idc                                                10 = 2
+[trace_headers @ 0x564ba3e45240] 3           nal_unit_type                                           00001 = 1
+[trace_headers @ 0x564ba3e45240] 8           first_mb_in_slice                                           1 = 0
+[trace_headers @ 0x564ba3e45240] 9           slice_type                                                  1 = 0
+[trace_headers @ 0x564ba3e45240] 10          pic_parameter_set_id                                        1 = 0
+[trace_headers @ 0x564ba3e45240] 11          frame_num                                                1101 = 13
+[trace_headers @ 0x564ba3e45240] 15          num_ref_idx_active_override_flag                            0 = 0
+[trace_headers @ 0x564ba3e45240] 16          ref_pic_list_modification_flag_l0                           0 = 0
+[trace_headers @ 0x564ba3e45240] 17          adaptive_ref_pic_marking_mode_flag                          0 = 0
+[trace_headers @ 0x564ba3e45240] 18          cabac_init_idc                                            010 = 1
+[trace_headers @ 0x564ba3e45240] 21          slice_qp_delta                                          00101 = -2
+[trace_headers @ 0x564ba3e45240] 26          cabac_alignment_one_bit                                     1 = 1
+[trace_headers @ 0x564ba3e45240] 27          cabac_alignment_one_bit                                     1 = 1
+[trace_headers @ 0x564ba3e45240] 28          cabac_alignment_one_bit                                     1 = 1
+[trace_headers @ 0x564ba3e45240] 29          cabac_alignment_one_bit                                     1 = 1
+[trace_headers @ 0x564ba3e45240] 30          cabac_alignment_one_bit                                     1 = 1
+[trace_headers @ 0x564ba3e45240] 31          cabac_alignment_one_bit                                     1 = 1
+[trace_headers @ 0x564ba3e45240] Packet: 6304 bytes, pts 50400, dts 50400.
+[trace_headers @ 0x564ba3e45240] nal_unit_type: 1(Coded slice of a non-IDR picture), nal_ref_idc: 2
+[trace_headers @ 0x564ba3e45240] Slice Header
+[trace_headers @ 0x564ba3e45240] 0           forbidden_zero_bit                                          0 = 0
+[trace_headers @ 0x564ba3e45240] 1           nal_ref_idc                                                10 = 2
+[trace_headers @ 0x564ba3e45240] 3           nal_unit_type                                           00001 = 1
+[trace_headers @ 0x564ba3e45240] 8           first_mb_in_slice                                           1 = 0
+[trace_headers @ 0x564ba3e45240] 9           slice_type                                                  1 = 0
+[trace_headers @ 0x564ba3e45240] 10          pic_parameter_set_id                                        1 = 0
+[trace_headers @ 0x564ba3e45240] 11          frame_num                                                1110 = 14
+[trace_headers @ 0x564ba3e45240] 15          num_ref_idx_active_override_flag                            0 = 0
+[trace_headers @ 0x564ba3e45240] 16          ref_pic_list_modification_flag_l0                           0 = 0
+[trace_headers @ 0x564ba3e45240] 17          adaptive_ref_pic_marking_mode_flag                          0 = 0
+[trace_headers @ 0x564ba3e45240] 18          cabac_init_idc                                            010 = 1
+[trace_headers @ 0x564ba3e45240] 21          slice_qp_delta                                          00101 = -2
+[trace_headers @ 0x564ba3e45240] 26          cabac_alignment_one_bit                                     1 = 1
+[trace_headers @ 0x564ba3e45240] 27          cabac_alignment_one_bit                                     1 = 1
+[trace_headers @ 0x564ba3e45240] 28          cabac_alignment_one_bit                                     1 = 1
+[trace_headers @ 0x564ba3e45240] 29          cabac_alignment_one_bit                                     1 = 1
+[trace_headers @ 0x564ba3e45240] 30          cabac_alignment_one_bit                                     1 = 1
+[trace_headers @ 0x564ba3e45240] 31          cabac_alignment_one_bit                                     1 = 1
+[trace_headers @ 0x564ba3e45240] Packet: 6320 bytes, pts 54000, dts 54000.
+[trace_headers @ 0x564ba3e45240] nal_unit_type: 1(Coded slice of a non-IDR picture), nal_ref_idc: 2
+[trace_headers @ 0x564ba3e45240] Slice Header
+[trace_headers @ 0x564ba3e45240] 0           forbidden_zero_bit                                          0 = 0
+[trace_headers @ 0x564ba3e45240] 1           nal_ref_idc                                                10 = 2
+[trace_headers @ 0x564ba3e45240] 3           nal_unit_type                                           00001 = 1
+[trace_headers @ 0x564ba3e45240] 8           first_mb_in_slice                                           1 = 0
+[trace_headers @ 0x564ba3e45240] 9           slice_type                                                  1 = 0
+[trace_headers @ 0x564ba3e45240] 10          pic_parameter_set_id                                        1 = 0
+[trace_headers @ 0x564ba3e45240] 11          frame_num                                                1111 = 15
+[trace_headers @ 0x564ba3e45240] 15          num_ref_idx_active_override_flag                            0 = 0
+[trace_headers @ 0x564ba3e45240] 16          ref_pic_list_modification_flag_l0                           0 = 0
+[trace_headers @ 0x564ba3e45240] 17          adaptive_ref_pic_marking_mode_flag                          0 = 0
+[trace_headers @ 0x564ba3e45240] 18          cabac_init_idc                                            010 = 1
+[trace_headers @ 0x564ba3e45240] 21          slice_qp_delta                                          00101 = -2
+[trace_headers @ 0x564ba3e45240] 26          cabac_alignment_one_bit                                     1 = 1
+[trace_headers @ 0x564ba3e45240] 27          cabac_alignment_one_bit                                     1 = 1
+[trace_headers @ 0x564ba3e45240] 28          cabac_alignment_one_bit                                     1 = 1
+[trace_headers @ 0x564ba3e45240] 29          cabac_alignment_one_bit                                     1 = 1
+[trace_headers @ 0x564ba3e45240] 30          cabac_alignment_one_bit                                     1 = 1
+[trace_headers @ 0x564ba3e45240] 31          cabac_alignment_one_bit                                     1 = 1
+[trace_headers @ 0x564ba3e45240] Packet: 6224 bytes, pts 57600, dts 57600.
+[trace_headers @ 0x564ba3e45240] nal_unit_type: 1(Coded slice of a non-IDR picture), nal_ref_idc: 2
+[trace_headers @ 0x564ba3e45240] Slice Header
+[trace_headers @ 0x564ba3e45240] 0           forbidden_zero_bit                                          0 = 0
+[trace_headers @ 0x564ba3e45240] 1           nal_ref_idc                                                10 = 2
+[trace_headers @ 0x564ba3e45240] 3           nal_unit_type                                           00001 = 1
+[trace_headers @ 0x564ba3e45240] 8           first_mb_in_slice                                           1 = 0
+[trace_headers @ 0x564ba3e45240] 9           slice_type                                                  1 = 0
+[trace_headers @ 0x564ba3e45240] 10          pic_parameter_set_id                                        1 = 0
+[trace_headers @ 0x564ba3e45240] 11          frame_num                                                0000 = 0
+[trace_headers @ 0x564ba3e45240] 15          num_ref_idx_active_override_flag                            0 = 0
+[trace_headers @ 0x564ba3e45240] 16          ref_pic_list_modification_flag_l0                           0 = 0
+[trace_headers @ 0x564ba3e45240] 17          adaptive_ref_pic_marking_mode_flag                          0 = 0
+[trace_headers @ 0x564ba3e45240] 18          cabac_init_idc                                            010 = 1
+[trace_headers @ 0x564ba3e45240] 21          slice_qp_delta                                          00101 = -2
+[trace_headers @ 0x564ba3e45240] 26          cabac_alignment_one_bit                                     1 = 1
+[trace_headers @ 0x564ba3e45240] 27          cabac_alignment_one_bit                                     1 = 1
+[trace_headers @ 0x564ba3e45240] 28          cabac_alignment_one_bit                                     1 = 1
+[trace_headers @ 0x564ba3e45240] 29          cabac_alignment_one_bit                                     1 = 1
+[trace_headers @ 0x564ba3e45240] 30          cabac_alignment_one_bit                                     1 = 1
+[trace_headers @ 0x564ba3e45240] 31          cabac_alignment_one_bit                                     1 = 1
+[trace_headers @ 0x564ba3e45240] Packet: 6720 bytes, pts 61200, dts 61200.
+[trace_headers @ 0x564ba3e45240] nal_unit_type: 1(Coded slice of a non-IDR picture), nal_ref_idc: 2
+[trace_headers @ 0x564ba3e45240] Slice Header
+[trace_headers @ 0x564ba3e45240] 0           forbidden_zero_bit                                          0 = 0
+[trace_headers @ 0x564ba3e45240] 1           nal_ref_idc                                                10 = 2
+[trace_headers @ 0x564ba3e45240] 3           nal_unit_type                                           00001 = 1
+[trace_headers @ 0x564ba3e45240] 8           first_mb_in_slice                                           1 = 0
+[trace_headers @ 0x564ba3e45240] 9           slice_type                                                  1 = 0
+[trace_headers @ 0x564ba3e45240] 10          pic_parameter_set_id                                        1 = 0
+[trace_headers @ 0x564ba3e45240] 11          frame_num                                                0001 = 1
+[trace_headers @ 0x564ba3e45240] 15          num_ref_idx_active_override_flag                            0 = 0
+[trace_headers @ 0x564ba3e45240] 16          ref_pic_list_modification_flag_l0                           0 = 0
+[trace_headers @ 0x564ba3e45240] 17          adaptive_ref_pic_marking_mode_flag                          0 = 0
+[trace_headers @ 0x564ba3e45240] 18          cabac_init_idc                                            010 = 1
+[trace_headers @ 0x564ba3e45240] 21          slice_qp_delta                                          00101 = -2
+[trace_headers @ 0x564ba3e45240] 26          cabac_alignment_one_bit                                     1 = 1
+[trace_headers @ 0x564ba3e45240] 27          cabac_alignment_one_bit                                     1 = 1
+[trace_headers @ 0x564ba3e45240] 28          cabac_alignment_one_bit                                     1 = 1
+[trace_headers @ 0x564ba3e45240] 29          cabac_alignment_one_bit                                     1 = 1
+[trace_headers @ 0x564ba3e45240] 30          cabac_alignment_one_bit                                     1 = 1
+[trace_headers @ 0x564ba3e45240] 31          cabac_alignment_one_bit                                     1 = 1
+[trace_headers @ 0x564ba3e45240] Packet: 6304 bytes, pts 64800, dts 64800.
+[trace_headers @ 0x564ba3e45240] nal_unit_type: 1(Coded slice of a non-IDR picture), nal_ref_idc: 2
+[trace_headers @ 0x564ba3e45240] Slice Header
+[trace_headers @ 0x564ba3e45240] 0           forbidden_zero_bit                                          0 = 0
+[trace_headers @ 0x564ba3e45240] 1           nal_ref_idc                                                10 = 2
+[trace_headers @ 0x564ba3e45240] 3           nal_unit_type                                           00001 = 1
+[trace_headers @ 0x564ba3e45240] 8           first_mb_in_slice                                           1 = 0
+[trace_headers @ 0x564ba3e45240] 9           slice_type                                                  1 = 0
+[trace_headers @ 0x564ba3e45240] 10          pic_parameter_set_id                                        1 = 0
+[trace_headers @ 0x564ba3e45240] 11          frame_num                                                0010 = 2
+[trace_headers @ 0x564ba3e45240] 15          num_ref_idx_active_override_flag                            0 = 0
+[trace_headers @ 0x564ba3e45240] 16          ref_pic_list_modification_flag_l0                           0 = 0
+[trace_headers @ 0x564ba3e45240] 17          adaptive_ref_pic_marking_mode_flag                          0 = 0
+[trace_headers @ 0x564ba3e45240] 18          cabac_init_idc                                            010 = 1
+[trace_headers @ 0x564ba3e45240] 21          slice_qp_delta                                          00101 = -2
+[trace_headers @ 0x564ba3e45240] 26          cabac_alignment_one_bit                                     1 = 1
+[trace_headers @ 0x564ba3e45240] 27          cabac_alignment_one_bit                                     1 = 1
+[trace_headers @ 0x564ba3e45240] 28          cabac_alignment_one_bit                                     1 = 1
+[trace_headers @ 0x564ba3e45240] 29          cabac_alignment_one_bit                                     1 = 1
+[trace_headers @ 0x564ba3e45240] 30          cabac_alignment_one_bit                                     1 = 1
+[trace_headers @ 0x564ba3e45240] 31          cabac_alignment_one_bit                                     1 = 1
+[trace_headers @ 0x564ba3e45240] Packet: 6144 bytes, pts 68400, dts 68400.
+[trace_headers @ 0x564ba3e45240] nal_unit_type: 1(Coded slice of a non-IDR picture), nal_ref_idc: 2
+[trace_headers @ 0x564ba3e45240] Slice Header
+[trace_headers @ 0x564ba3e45240] 0           forbidden_zero_bit                                          0 = 0
+[trace_headers @ 0x564ba3e45240] 1           nal_ref_idc                                                10 = 2
+[trace_headers @ 0x564ba3e45240] 3           nal_unit_type                                           00001 = 1
+[trace_headers @ 0x564ba3e45240] 8           first_mb_in_slice                                           1 = 0
+[trace_headers @ 0x564ba3e45240] 9           slice_type                                                  1 = 0
+[trace_headers @ 0x564ba3e45240] 10          pic_parameter_set_id                                        1 = 0
+[trace_headers @ 0x564ba3e45240] 11          frame_num                                                0011 = 3
+[trace_headers @ 0x564ba3e45240] 15          num_ref_idx_active_override_flag                            0 = 0
+[trace_headers @ 0x564ba3e45240] 16          ref_pic_list_modification_flag_l0                           0 = 0
+[trace_headers @ 0x564ba3e45240] 17          adaptive_ref_pic_marking_mode_flag                          0 = 0
+[trace_headers @ 0x564ba3e45240] 18          cabac_init_idc                                            010 = 1
+[trace_headers @ 0x564ba3e45240] 21          slice_qp_delta                                          00101 = -2
+[trace_headers @ 0x564ba3e45240] 26          cabac_alignment_one_bit                                     1 = 1
+[trace_headers @ 0x564ba3e45240] 27          cabac_alignment_one_bit                                     1 = 1
+[trace_headers @ 0x564ba3e45240] 28          cabac_alignment_one_bit                                     1 = 1
+[trace_headers @ 0x564ba3e45240] 29          cabac_alignment_one_bit                                     1 = 1
+[trace_headers @ 0x564ba3e45240] 30          cabac_alignment_one_bit                                     1 = 1
+[trace_headers @ 0x564ba3e45240] 31          cabac_alignment_one_bit                                     1 = 1
+[trace_headers @ 0x564ba3e45240] Packet: 6128 bytes, pts 72000, dts 72000.
+[trace_headers @ 0x564ba3e45240] nal_unit_type: 1(Coded slice of a non-IDR picture), nal_ref_idc: 2
+[trace_headers @ 0x564ba3e45240] Slice Header
+[trace_headers @ 0x564ba3e45240] 0           forbidden_zero_bit                                          0 = 0
+[trace_headers @ 0x564ba3e45240] 1           nal_ref_idc                                                10 = 2
+[trace_headers @ 0x564ba3e45240] 3           nal_unit_type                                           00001 = 1
+[trace_headers @ 0x564ba3e45240] 8           first_mb_in_slice                                           1 = 0
+[trace_headers @ 0x564ba3e45240] 9           slice_type                                                  1 = 0
+[trace_headers @ 0x564ba3e45240] 10          pic_parameter_set_id                                        1 = 0
+[trace_headers @ 0x564ba3e45240] 11          frame_num                                                0100 = 4
+[trace_headers @ 0x564ba3e45240] 15          num_ref_idx_active_override_flag                            0 = 0
+[trace_headers @ 0x564ba3e45240] 16          ref_pic_list_modification_flag_l0                           0 = 0
+[trace_headers @ 0x564ba3e45240] 17          adaptive_ref_pic_marking_mode_flag                          0 = 0
+[trace_headers @ 0x564ba3e45240] 18          cabac_init_idc                                            010 = 1
+[trace_headers @ 0x564ba3e45240] 21          slice_qp_delta                                          00101 = -2
+[trace_headers @ 0x564ba3e45240] 26          cabac_alignment_one_bit                                     1 = 1
+[trace_headers @ 0x564ba3e45240] 27          cabac_alignment_one_bit                                     1 = 1
+[trace_headers @ 0x564ba3e45240] 28          cabac_alignment_one_bit                                     1 = 1
+[trace_headers @ 0x564ba3e45240] 29          cabac_alignment_one_bit                                     1 = 1
+[trace_headers @ 0x564ba3e45240] 30          cabac_alignment_one_bit                                     1 = 1
+[trace_headers @ 0x564ba3e45240] 31          cabac_alignment_one_bit                                     1 = 1
+[trace_headers @ 0x564ba3e45240] Packet: 6224 bytes, pts 75600, dts 75600.
+[trace_headers @ 0x564ba3e45240] nal_unit_type: 1(Coded slice of a non-IDR picture), nal_ref_idc: 2
+[trace_headers @ 0x564ba3e45240] Slice Header
+[trace_headers @ 0x564ba3e45240] 0           forbidden_zero_bit                                          0 = 0
+[trace_headers @ 0x564ba3e45240] 1           nal_ref_idc                                                10 = 2
+[trace_headers @ 0x564ba3e45240] 3           nal_unit_type                                           00001 = 1
+[trace_headers @ 0x564ba3e45240] 8           first_mb_in_slice                                           1 = 0
+[trace_headers @ 0x564ba3e45240] 9           slice_type                                                  1 = 0
+[trace_headers @ 0x564ba3e45240] 10          pic_parameter_set_id                                        1 = 0
+[trace_headers @ 0x564ba3e45240] 11          frame_num                                                0101 = 5
+[trace_headers @ 0x564ba3e45240] 15          num_ref_idx_active_override_flag                            0 = 0
+[trace_headers @ 0x564ba3e45240] 16          ref_pic_list_modification_flag_l0                           0 = 0
+[trace_headers @ 0x564ba3e45240] 17          adaptive_ref_pic_marking_mode_flag                          0 = 0
+[trace_headers @ 0x564ba3e45240] 18          cabac_init_idc                                            010 = 1
+[trace_headers @ 0x564ba3e45240] 21          slice_qp_delta                                          00101 = -2
+[trace_headers @ 0x564ba3e45240] 26          cabac_alignment_one_bit                                     1 = 1
+[trace_headers @ 0x564ba3e45240] 27          cabac_alignment_one_bit                                     1 = 1
+[trace_headers @ 0x564ba3e45240] 28          cabac_alignment_one_bit                                     1 = 1
+[trace_headers @ 0x564ba3e45240] 29          cabac_alignment_one_bit                                     1 = 1
+[trace_headers @ 0x564ba3e45240] 30          cabac_alignment_one_bit                                     1 = 1
+[trace_headers @ 0x564ba3e45240] 31          cabac_alignment_one_bit                                     1 = 1
+[trace_headers @ 0x564ba3e45240] Packet: 6336 bytes, pts 79200, dts 79200.
+[trace_headers @ 0x564ba3e45240] nal_unit_type: 1(Coded slice of a non-IDR picture), nal_ref_idc: 2
+[trace_headers @ 0x564ba3e45240] Slice Header
+[trace_headers @ 0x564ba3e45240] 0           forbidden_zero_bit                                          0 = 0
+[trace_headers @ 0x564ba3e45240] 1           nal_ref_idc                                                10 = 2
+[trace_headers @ 0x564ba3e45240] 3           nal_unit_type                                           00001 = 1
+[trace_headers @ 0x564ba3e45240] 8           first_mb_in_slice                                           1 = 0
+[trace_headers @ 0x564ba3e45240] 9           slice_type                                                  1 = 0
+[trace_headers @ 0x564ba3e45240] 10          pic_parameter_set_id                                        1 = 0
+[trace_headers @ 0x564ba3e45240] 11          frame_num                                                0110 = 6
+[trace_headers @ 0x564ba3e45240] 15          num_ref_idx_active_override_flag                            0 = 0
+[trace_headers @ 0x564ba3e45240] 16          ref_pic_list_modification_flag_l0                           0 = 0
+[trace_headers @ 0x564ba3e45240] 17          adaptive_ref_pic_marking_mode_flag                          0 = 0
+[trace_headers @ 0x564ba3e45240] 18          cabac_init_idc                                            010 = 1
+[trace_headers @ 0x564ba3e45240] 21          slice_qp_delta                                          00101 = -2
+[trace_headers @ 0x564ba3e45240] 26          cabac_alignment_one_bit                                     1 = 1
+[trace_headers @ 0x564ba3e45240] 27          cabac_alignment_one_bit                                     1 = 1
+[trace_headers @ 0x564ba3e45240] 28          cabac_alignment_one_bit                                     1 = 1
+[trace_headers @ 0x564ba3e45240] 29          cabac_alignment_one_bit                                     1 = 1
+[trace_headers @ 0x564ba3e45240] 30          cabac_alignment_one_bit                                     1 = 1
+[trace_headers @ 0x564ba3e45240] 31          cabac_alignment_one_bit                                     1 = 1
+[trace_headers @ 0x564ba3e45240] Packet: 6032 bytes, pts 82800, dts 82800.
+[trace_headers @ 0x564ba3e45240] nal_unit_type: 1(Coded slice of a non-IDR picture), nal_ref_idc: 2
+[trace_headers @ 0x564ba3e45240] Slice Header
+[trace_headers @ 0x564ba3e45240] 0           forbidden_zero_bit                                          0 = 0
+[trace_headers @ 0x564ba3e45240] 1           nal_ref_idc                                                10 = 2
+[trace_headers @ 0x564ba3e45240] 3           nal_unit_type                                           00001 = 1
+[trace_headers @ 0x564ba3e45240] 8           first_mb_in_slice                                           1 = 0
+[trace_headers @ 0x564ba3e45240] 9           slice_type                                                  1 = 0
+[trace_headers @ 0x564ba3e45240] 10          pic_parameter_set_id                                        1 = 0
+[trace_headers @ 0x564ba3e45240] 11          frame_num                                                0111 = 7
+[trace_headers @ 0x564ba3e45240] 15          num_ref_idx_active_override_flag                            0 = 0
+[trace_headers @ 0x564ba3e45240] 16          ref_pic_list_modification_flag_l0                           0 = 0
+[trace_headers @ 0x564ba3e45240] 17          adaptive_ref_pic_marking_mode_flag                          0 = 0
+[trace_headers @ 0x564ba3e45240] 18          cabac_init_idc                                            010 = 1
+[trace_headers @ 0x564ba3e45240] 21          slice_qp_delta                                          00101 = -2
+[trace_headers @ 0x564ba3e45240] 26          cabac_alignment_one_bit                                     1 = 1
+[trace_headers @ 0x564ba3e45240] 27          cabac_alignment_one_bit                                     1 = 1
+[trace_headers @ 0x564ba3e45240] 28          cabac_alignment_one_bit                                     1 = 1
+[trace_headers @ 0x564ba3e45240] 29          cabac_alignment_one_bit                                     1 = 1
+[trace_headers @ 0x564ba3e45240] 30          cabac_alignment_one_bit                                     1 = 1
+[trace_headers @ 0x564ba3e45240] 31          cabac_alignment_one_bit                                     1 = 1
+[trace_headers @ 0x564ba3e45240] Packet: 6256 bytes, pts 86400, dts 86400.
+[trace_headers @ 0x564ba3e45240] nal_unit_type: 1(Coded slice of a non-IDR picture), nal_ref_idc: 2
+[mov,mp4,m4a,3gp,3g2,mj2 @ 0x564ba3d60c80] stream 0, sample 26, dts 1040000
+[mov,mp4,m4a,3gp,3g2,mj2 @ 0x564ba3d60c80] stream 1, sample 1, dts 23220
+[mov,mp4,m4a,3gp,3g2,mj2 @ 0x564ba3d60c80] stream 0, sample 26, dts 1040000
+[mov,mp4,m4a,3gp,3g2,mj2 @ 0x564ba3d60c80] stream 1, sample 2, dts 46440
+[trace_headers @ 0x564ba3e45240] Slice Header
+[trace_headers @ 0x564ba3e45240] 0           forbidden_zero_bit                                          0 = 0
+[trace_headers @ 0x564ba3e45240] 1           nal_ref_idc                                                10 = 2
+[trace_headers @ 0x564ba3e45240] 3           nal_unit_type                                           00001 = 1
+[trace_headers @ 0x564ba3e45240] 8           first_mb_in_slice                                           1 = 0
+[trace_headers @ 0x564ba3e45240] 9           slice_type                                                  1 = 0
+[trace_headers @ 0x564ba3e45240] 10          pic_parameter_set_id                                        1 = 0
+[trace_headers @ 0x564ba3e45240] 11          frame_num                                                1000 = 8
+[trace_headers @ 0x564ba3e45240] 15          num_ref_idx_active_override_flag                            0 = 0
+[trace_headers @ 0x564ba3e45240] 16          ref_pic_list_modification_flag_l0                           0 = 0
+[trace_headers @ 0x564ba3e45240] 17          adaptive_ref_pic_marking_mode_flag                          0 = 0
+[trace_headers @ 0x564ba3e45240] 18          cabac_init_idc                                            010 = 1
+[trace_headers @ 0x564ba3e45240] 21          slice_qp_delta                                          00101 = -2
+[trace_headers @ 0x564ba3e45240] 26          cabac_alignment_one_bit                                     1 = 1
+[trace_headers @ 0x564ba3e45240] 27          cabac_alignment_one_bit                                     1 = 1
+[trace_headers @ 0x564ba3e45240] 28          cabac_alignment_one_bit                                     1 = 1
+[trace_headers @ 0x564ba3e45240] 29          cabac_alignment_one_bit                                     1 = 1
+[trace_headers @ 0x564ba3e45240] 30          cabac_alignment_one_bit                                     1 = 1
+[trace_headers @ 0x564ba3e45240] 31          cabac_alignment_one_bit                                     1 = 1
+[trace_headers @ 0x564ba3e45240] Packet: 6288 bytes, pts 90000, dts 90000.
+[mov,mp4,m4a,3gp,3g2,mj2 @ 0x564ba3d60c80] stream 0, sample 27, dts 1080000
+[mov,mp4,m4a,3gp,3g2,mj2 @ 0x564ba3d60c80] stream 1, sample 2, dts 46440
+[mov,mp4,m4a,3gp,3g2,mj2 @ 0x564ba3d60c80] stream 0, sample 27, dts 1080000
+[mov,mp4,m4a,3gp,3g2,mj2 @ 0x564ba3d60c80] stream 1, sample 3, dts 69660
+[mov,mp4,m4a,3gp,3g2,mj2 @ 0x564ba3d60c80] stream 0, sample 27, dts 1080000
+[mov,mp4,m4a,3gp,3g2,mj2 @ 0x564ba3d60c80] stream 1, sample 4, dts 92880
+[trace_headers @ 0x564ba3e45240] nal_unit_type: 1(Coded slice of a non-IDR picture), nal_ref_idc: 2
+[trace_headers @ 0x564ba3e45240] Slice Header
+[trace_headers @ 0x564ba3e45240] 0           forbidden_zero_bit                                          0 = 0
+[trace_headers @ 0x564ba3e45240] 1           nal_ref_idc                                                10 = 2
+[trace_headers @ 0x564ba3e45240] 3           nal_unit_type                                           00001 = 1
+[trace_headers @ 0x564ba3e45240] 8           first_mb_in_slice                                           1 = 0
+[trace_headers @ 0x564ba3e45240] 9           slice_type                                                  1 = 0
+[trace_headers @ 0x564ba3e45240] 10          pic_parameter_set_id                                        1 = 0
+[trace_headers @ 0x564ba3e45240] 11          frame_num                                                1001 = 9
+[trace_headers @ 0x564ba3e45240] 15          num_ref_idx_active_override_flag                            0 = 0
+[trace_headers @ 0x564ba3e45240] 16          ref_pic_list_modification_flag_l0                           0 = 0
+[trace_headers @ 0x564ba3e45240] 17          adaptive_ref_pic_marking_mode_flag                          0 = 0
+[trace_headers @ 0x564ba3e45240] 18          cabac_init_idc                                            010 = 1
+[trace_headers @ 0x564ba3e45240] 21          slice_qp_delta                                          00101 = -2
+[trace_headers @ 0x564ba3e45240] 26          cabac_alignment_one_bit                                     1 = 1
+[trace_headers @ 0x564ba3e45240] 27          cabac_alignment_one_bit                                     1 = 1
+[trace_headers @ 0x564ba3e45240] 28          cabac_alignment_one_bit                                     1 = 1
+[trace_headers @ 0x564ba3e45240] 29          cabac_alignment_one_bit                                     1 = 1
+[trace_headers @ 0x564ba3e45240] 30          cabac_alignment_one_bit                                     1 = 1
+[trace_headers @ 0x564ba3e45240] 31          cabac_alignment_one_bit                                     1 = 1
+[trace_headers @ 0x564ba3e45240] Packet: 6192 bytes, pts 93600, dts 93600, duration 3600.
+[trace_headers @ 0x564ba3e45240] nal_unit_type: 1(Coded slice of a non-IDR picture), nal_ref_idc: 2
+[trace_headers @ 0x564ba3e45240] Slice Header
+[trace_headers @ 0x564ba3e45240] 0           forbidden_zero_bit                                          0 = 0
+[trace_headers @ 0x564ba3e45240] 1           nal_ref_idc                                                10 = 2
+[trace_headers @ 0x564ba3e45240] 3           nal_unit_type                                           00001 = 1
+[mov,mp4,m4a,3gp,3g2,mj2 @ 0x564ba3d60c80] stream 0, sample 28, dts 1120000
+[mov,mp4,m4a,3gp,3g2,mj2 @ 0x564ba3d60c80] stream 1, sample 4, dts 92880
+[mov,mp4,m4a,3gp,3g2,mj2 @ 0x564ba3d60c80] stream 0, sample 28, dts 1120000
+[mov,mp4,m4a,3gp,3g2,mj2 @ 0x564ba3d60c80] stream 1, sample 5, dts 116100
+[mov,mp4,m4a,3gp,3g2,mj2 @ 0x564ba3d60c80] stream 0, sample 28, dts 1120000
+[mov,mp4,m4a,3gp,3g2,mj2 @ 0x564ba3d60c80] stream 1, sample 6, dts 139320
+[trace_headers @ 0x564ba3e45240] 8           first_mb_in_slice                                           1 = 0
+[trace_headers @ 0x564ba3e45240] 9           slice_type                                                  1 = 0
+[trace_headers @ 0x564ba3e45240] 10          pic_parameter_set_id                                        1 = 0
+[trace_headers @ 0x564ba3e45240] 11          frame_num                                                1010 = 10
+[trace_headers @ 0x564ba3e45240] 15          num_ref_idx_active_override_flag                            0 = 0
+[trace_headers @ 0x564ba3e45240] 16          ref_pic_list_modification_flag_l0                           0 = 0
+[trace_headers @ 0x564ba3e45240] 17          adaptive_ref_pic_marking_mode_flag                          0 = 0
+[trace_headers @ 0x564ba3e45240] 18          cabac_init_idc                                            010 = 1
+[trace_headers @ 0x564ba3e45240] 21          slice_qp_delta                                          00101 = -2
+[trace_headers @ 0x564ba3e45240] 26          cabac_alignment_one_bit                                     1 = 1
+[trace_headers @ 0x564ba3e45240] 27          cabac_alignment_one_bit                                     1 = 1
+[trace_headers @ 0x564ba3e45240] 28          cabac_alignment_one_bit                                     1 = 1
+[trace_headers @ 0x564ba3e45240] 29          cabac_alignment_one_bit                                     1 = 1
+[trace_headers @ 0x564ba3e45240] 30          cabac_alignment_one_bit                                     1 = 1
+[trace_headers @ 0x564ba3e45240] 31          cabac_alignment_one_bit                                     1 = 1
+[trace_headers @ 0x564ba3e45240] Packet: 6320 bytes, pts 97200, dts 97200, duration 3600.
+[mov,mp4,m4a,3gp,3g2,mj2 @ 0x564ba3d60c80] stream 0, sample 29, dts 1160000
+[mov,mp4,m4a,3gp,3g2,mj2 @ 0x564ba3d60c80] stream 1, sample 6, dts 139320
+[mov,mp4,m4a,3gp,3g2,mj2 @ 0x564ba3d60c80] stream 0, sample 29, dts 1160000
+[mov,mp4,m4a,3gp,3g2,mj2 @ 0x564ba3d60c80] stream 1, sample 7, dts 162540
+[trace_headers @ 0x564ba3e45240] nal_unit_type: 1(Coded slice of a non-IDR picture), nal_ref_idc: 2
+[trace_headers @ 0x564ba3e45240] Slice Header
+[trace_headers @ 0x564ba3e45240] 0           forbidden_zero_bit                                          0 = 0
+[trace_headers @ 0x564ba3e45240] 1           nal_ref_idc                                                10 = 2
+[trace_headers @ 0x564ba3e45240] 3           nal_unit_type                                           00001 = 1
+[trace_headers @ 0x564ba3e45240] 8           first_mb_in_slice                                           1 = 0
+[trace_headers @ 0x564ba3e45240] 9           slice_type                                                  1 = 0
+[trace_headers @ 0x564ba3e45240] 10          pic_parameter_set_id                                        1 = 0
+[trace_headers @ 0x564ba3e45240] 11          frame_num                                                1011 = 11
+[trace_headers @ 0x564ba3e45240] 15          num_ref_idx_active_override_flag                            0 = 0
+[trace_headers @ 0x564ba3e45240] 16          ref_pic_list_modification_flag_l0                           0 = 0
+[trace_headers @ 0x564ba3e45240] 17          adaptive_ref_pic_marking_mode_flag                          0 = 0
+[trace_headers @ 0x564ba3e45240] 18          cabac_init_idc                                            010 = 1
+[trace_headers @ 0x564ba3e45240] 21          slice_qp_delta                                          00101 = -2
+[trace_headers @ 0x564ba3e45240] 26          cabac_alignment_one_bit                                     1 = 1
+[trace_headers @ 0x564ba3e45240] 27          cabac_alignment_one_bit                                     1 = 1
+[trace_headers @ 0x564ba3e45240] 28          cabac_alignment_one_bit                                     1 = 1
+[trace_headers @ 0x564ba3e45240] 29          cabac_alignment_one_bit                                     1 = 1
+[trace_headers @ 0x564ba3e45240] 30          cabac_alignment_one_bit                                     1 = 1
+[trace_headers @ 0x564ba3e45240] 31          cabac_alignment_one_bit                                     1 = 1
+[trace_headers @ 0x564ba3e45240] Packet: 6176 bytes, pts 100800, dts 100800, duration 3600.
+[trace_headers @ 0x564ba3e45240] nal_unit_type: 1(Coded slice of a non-IDR picture), nal_ref_idc: 2
+[trace_headers @ 0x564ba3e45240] Slice Header
+[trace_headers @ 0x564ba3e45240] 0           forbidden_zero_bit                                          0 = 0
+[trace_headers @ 0x564ba3e45240] 1           nal_ref_idc                                                10 = 2
+[trace_headers @ 0x564ba3e45240] 3           nal_unit_type                                           00001 = 1
+[trace_headers @ 0x564ba3e45240] 8           first_mb_in_slice                                           1 = 0
+[mov,mp4,m4a,3gp,3g2,mj2 @ 0x564ba3d60c80] stream 0, sample 30, dts 1200000
+[mov,mp4,m4a,3gp,3g2,mj2 @ 0x564ba3d60c80] stream 1, sample 7, dts 162540
+[mov,mp4,m4a,3gp,3g2,mj2 @ 0x564ba3d60c80] stream 0, sample 30, dts 1200000
+[mov,mp4,m4a,3gp,3g2,mj2 @ 0x564ba3d60c80] stream 1, sample 8, dts 185760
+[mov,mp4,m4a,3gp,3g2,mj2 @ 0x564ba3d60c80] stream 0, sample 30, dts 1200000
+[mov,mp4,m4a,3gp,3g2,mj2 @ 0x564ba3d60c80] stream 1, sample 9, dts 208980
+[trace_headers @ 0x564ba3e45240] 9           slice_type                                                  1 = 0
+[trace_headers @ 0x564ba3e45240] 10          pic_parameter_set_id                                        1 = 0
+[trace_headers @ 0x564ba3e45240] 11          frame_num                                                1100 = 12
+[trace_headers @ 0x564ba3e45240] 15          num_ref_idx_active_override_flag                            0 = 0
+[trace_headers @ 0x564ba3e45240] 16          ref_pic_list_modification_flag_l0                           0 = 0
+[trace_headers @ 0x564ba3e45240] 17          adaptive_ref_pic_marking_mode_flag                          0 = 0
+[trace_headers @ 0x564ba3e45240] 18          cabac_init_idc                                            010 = 1
+[trace_headers @ 0x564ba3e45240] 21          slice_qp_delta                                          00101 = -2
+[trace_headers @ 0x564ba3e45240] 26          cabac_alignment_one_bit                                     1 = 1
+[trace_headers @ 0x564ba3e45240] 27          cabac_alignment_one_bit                                     1 = 1
+[trace_headers @ 0x564ba3e45240] 28          cabac_alignment_one_bit                                     1 = 1
+[trace_headers @ 0x564ba3e45240] 29          cabac_alignment_one_bit                                     1 = 1
+[trace_headers @ 0x564ba3e45240] 30          cabac_alignment_one_bit                                     1 = 1
+[trace_headers @ 0x564ba3e45240] 31          cabac_alignment_one_bit                                     1 = 1
+[trace_headers @ 0x564ba3e45240] Packet: 6176 bytes, pts 104400, dts 104400, duration 3600.
+[mov,mp4,m4a,3gp,3g2,mj2 @ 0x564ba3d60c80] stream 0, sample 31, dts 1240000
+[mov,mp4,m4a,3gp,3g2,mj2 @ 0x564ba3d60c80] stream 1, sample 9, dts 208980
+[mov,mp4,m4a,3gp,3g2,mj2 @ 0x564ba3d60c80] stream 0, sample 31, dts 1240000
+[mov,mp4,m4a,3gp,3g2,mj2 @ 0x564ba3d60c80] stream 1, sample 10, dts 232200
+[mov,mp4,m4a,3gp,3g2,mj2 @ 0x564ba3d60c80] stream 0, sample 31, dts 1240000
+[mov,mp4,m4a,3gp,3g2,mj2 @ 0x564ba3d60c80] stream 1, sample 11, dts 255420
+[trace_headers @ 0x564ba3e45240] nal_unit_type: 1(Coded slice of a non-IDR picture), nal_ref_idc: 2
+[trace_headers @ 0x564ba3e45240] Slice Header
+[trace_headers @ 0x564ba3e45240] 0           forbidden_zero_bit                                          0 = 0
+[trace_headers @ 0x564ba3e45240] 1           nal_ref_idc                                                10 = 2
+[trace_headers @ 0x564ba3e45240] 3           nal_unit_type                                           00001 = 1
+[trace_headers @ 0x564ba3e45240] 8           first_mb_in_slice                                           1 = 0
+[trace_headers @ 0x564ba3e45240] 9           slice_type                                                  1 = 0
+[trace_headers @ 0x564ba3e45240] 10          pic_parameter_set_id                                        1 = 0
+[trace_headers @ 0x564ba3e45240] 11          frame_num                                                1101 = 13
+[trace_headers @ 0x564ba3e45240] 15          num_ref_idx_active_override_flag                            0 = 0
+[trace_headers @ 0x564ba3e45240] 16          ref_pic_list_modification_flag_l0                           0 = 0
+[trace_headers @ 0x564ba3e45240] 17          adaptive_ref_pic_marking_mode_flag                          0 = 0
+[trace_headers @ 0x564ba3e45240] 18          cabac_init_idc                                            010 = 1
+[trace_headers @ 0x564ba3e45240] 21          slice_qp_delta                                          00101 = -2
+[trace_headers @ 0x564ba3e45240] 26          cabac_alignment_one_bit                                     1 = 1
+[trace_headers @ 0x564ba3e45240] 27          cabac_alignment_one_bit                                     1 = 1
+[trace_headers @ 0x564ba3e45240] 28          cabac_alignment_one_bit                                     1 = 1
+[trace_headers @ 0x564ba3e45240] 29          cabac_alignment_one_bit                                     1 = 1
+[trace_headers @ 0x564ba3e45240] 30          cabac_alignment_one_bit                                     1 = 1
+[trace_headers @ 0x564ba3e45240] 31          cabac_alignment_one_bit                                     1 = 1
+[trace_headers @ 0x564ba3e45240] Packet: 6784 bytes, pts 108000, dts 108000, duration 3600.
+[mov,mp4,m4a,3gp,3g2,mj2 @ 0x564ba3d60c80] stream 0, sample 32, dts 1280000
+[mov,mp4,m4a,3gp,3g2,mj2 @ 0x564ba3d60c80] stream 1, sample 11, dts 255420
+[mov,mp4,m4a,3gp,3g2,mj2 @ 0x564ba3d60c80] stream 0, sample 32, dts 1280000
+[mov,mp4,m4a,3gp,3g2,mj2 @ 0x564ba3d60c80] stream 1, sample 12, dts 278639
+[mov,mp4,m4a,3gp,3g2,mj2 @ 0x564ba3d60c80] stream 0, sample 32, dts 1280000
+[mov,mp4,m4a,3gp,3g2,mj2 @ 0x564ba3d60c80] stream 1, sample 13, dts 301859
+[trace_headers @ 0x564ba3e45240] nal_unit_type: 1(Coded slice of a non-IDR picture), nal_ref_idc: 2
+[trace_headers @ 0x564ba3e45240] Slice Header
+[trace_headers @ 0x564ba3e45240] 0           forbidden_zero_bit                                          0 = 0
+[trace_headers @ 0x564ba3e45240] 1           nal_ref_idc                                                10 = 2
+[trace_headers @ 0x564ba3e45240] 3           nal_unit_type                                           00001 = 1
+[trace_headers @ 0x564ba3e45240] 8           first_mb_in_slice                                           1 = 0
+[trace_headers @ 0x564ba3e45240] 9           slice_type                                                  1 = 0
+[trace_headers @ 0x564ba3e45240] 10          pic_parameter_set_id                                        1 = 0
+[trace_headers @ 0x564ba3e45240] 11          frame_num                                                1110 = 14
+[trace_headers @ 0x564ba3e45240] 15          num_ref_idx_active_override_flag                            0 = 0
+[trace_headers @ 0x564ba3e45240] 16          ref_pic_list_modification_flag_l0                           0 = 0
+[trace_headers @ 0x564ba3e45240] 17          adaptive_ref_pic_marking_mode_flag                          0 = 0
+[trace_headers @ 0x564ba3e45240] 18          cabac_init_idc                                            010 = 1
+[trace_headers @ 0x564ba3e45240] 21          slice_qp_delta                                          00101 = -2
+[trace_headers @ 0x564ba3e45240] 26          cabac_alignment_one_bit                                     1 = 1
+[trace_headers @ 0x564ba3e45240] 27          cabac_alignment_one_bit                                     1 = 1
+[trace_headers @ 0x564ba3e45240] 28          cabac_alignment_one_bit                                     1 = 1
+[trace_headers @ 0x564ba3e45240] 29          cabac_alignment_one_bit                                     1 = 1
+[trace_headers @ 0x564ba3e45240] 30          cabac_alignment_one_bit                                     1 = 1
+[trace_headers @ 0x564ba3e45240] 31          cabac_alignment_one_bit                                     1 = 1
+[trace_headers @ 0x564ba3e45240] Packet: 8272 bytes, pts 111600, dts 111600, duration 3600.
+[trace_headers @ 0x564ba3e45240] nal_unit_type: 1(Coded slice of a non-IDR picture), nal_ref_idc: 2
+[trace_headers @ 0x564ba3e45240] Slice Header
+[trace_headers @ 0x564ba3e45240] 0           forbidden_zero_bit                                          0 = 0
+[trace_headers @ 0x564ba3e45240] 1           nal_ref_idc                                                10 = 2
+[trace_headers @ 0x564ba3e45240] 3           nal_unit_type                                           00001 = 1
+[trace_headers @ 0x564ba3e45240] 8           first_mb_in_slice                                           1 = 0
+[trace_headers @ 0x564ba3e45240] 9           slice_type                                                  1 = 0
+[trace_headers @ 0x564ba3e45240] 10          pic_parameter_set_id                                        1 = 0
+[trace_headers @ 0x564ba3e45240] 11          frame_num                                                1111 = 15
+[trace_headers @ 0x564ba3e45240] 15          num_ref_idx_active_override_flag                            0 = 0
+[trace_headers @ 0x564ba3e45240] 16          ref_pic_list_modification_flag_l0                           0 = 0
+[trace_headers @ 0x564ba3e45240] 17          adaptive_ref_pic_marking_mode_flag                          0 = 0
+[trace_headers @ 0x564ba3e45240] 18          cabac_init_idc                                            010 = 1
+[trace_headers @ 0x564ba3e45240] 21          slice_qp_delta                                          00101 = -2
+[trace_headers @ 0x564ba3e45240] 26          cabac_alignment_one_bit                                     1 = 1
+[trace_headers @ 0x564ba3e45240] 27          cabac_alignment_one_bit                                     1 = 1
+[trace_headers @ 0x564ba3e45240] 28          cabac_alignment_one_bit                                     1 = 1
+[trace_headers @ 0x564ba3e45240] 29          cabac_alignment_one_bit                                     1 = 1
+[trace_headers @ 0x564ba3e45240] 30          cabac_alignment_one_bit                                     1 = 1
+[trace_headers @ 0x564ba3e45240] 31          cabac_alignment_one_bit                                     1 = 1
+[mov,mp4,m4a,3gp,3g2,mj2 @ 0x564ba3d60c80] stream 0, sample 33, dts 1320000
+[mov,mp4,m4a,3gp,3g2,mj2 @ 0x564ba3d60c80] stream 1, sample 13, dts 301859
+[mov,mp4,m4a,3gp,3g2,mj2 @ 0x564ba3d60c80] stream 0, sample 33, dts 1320000
+[mov,mp4,m4a,3gp,3g2,mj2 @ 0x564ba3d60c80] stream 1, sample 14, dts 325079
+[trace_headers @ 0x564ba3e45240] Packet: 9280 bytes, pts 115200, dts 115200, duration 3600.
+[trace_headers @ 0x564ba3e45240] nal_unit_type: 1(Coded slice of a non-IDR picture), nal_ref_idc: 2
+[trace_headers @ 0x564ba3e45240] Slice Header
+[trace_headers @ 0x564ba3e45240] 0           forbidden_zero_bit                                          0 = 0
+[trace_headers @ 0x564ba3e45240] 1           nal_ref_idc                                                10 = 2
+[trace_headers @ 0x564ba3e45240] 3           nal_unit_type                                           00001 = 1
+[trace_headers @ 0x564ba3e45240] 8           first_mb_in_slice                                           1 = 0
+[mov,mp4,m4a,3gp,3g2,mj2 @ 0x564ba3d60c80] stream 0, sample 34, dts 1360000
+[mov,mp4,m4a,3gp,3g2,mj2 @ 0x564ba3d60c80] stream 1, sample 14, dts 325079
+[mov,mp4,m4a,3gp,3g2,mj2 @ 0x564ba3d60c80] stream 0, sample 34, dts 1360000
+[mov,mp4,m4a,3gp,3g2,mj2 @ 0x564ba3d60c80] stream 1, sample 15, dts 348299
+[mov,mp4,m4a,3gp,3g2,mj2 @ 0x564ba3d60c80] stream 0, sample 34, dts 1360000
+[mov,mp4,m4a,3gp,3g2,mj2 @ 0x564ba3d60c80] stream 1, sample 16, dts 371519
+[trace_headers @ 0x564ba3e45240] 9           slice_type                                                  1 = 0
+[trace_headers @ 0x564ba3e45240] 10          pic_parameter_set_id                                        1 = 0
+[trace_headers @ 0x564ba3e45240] 11          frame_num                                                0000 = 0
+[trace_headers @ 0x564ba3e45240] 15          num_ref_idx_active_override_flag                            0 = 0
+[trace_headers @ 0x564ba3e45240] 16          ref_pic_list_modification_flag_l0                           0 = 0
+[trace_headers @ 0x564ba3e45240] 17          adaptive_ref_pic_marking_mode_flag                          0 = 0
+[trace_headers @ 0x564ba3e45240] 18          cabac_init_idc                                            010 = 1
+[trace_headers @ 0x564ba3e45240] 21          slice_qp_delta                                          00101 = -2
+[trace_headers @ 0x564ba3e45240] 26          cabac_alignment_one_bit                                     1 = 1
+[trace_headers @ 0x564ba3e45240] 27          cabac_alignment_one_bit                                     1 = 1
+[trace_headers @ 0x564ba3e45240] 28          cabac_alignment_one_bit                                     1 = 1
+[trace_headers @ 0x564ba3e45240] 29          cabac_alignment_one_bit                                     1 = 1
+[trace_headers @ 0x564ba3e45240] 30          cabac_alignment_one_bit                                     1 = 1
+[trace_headers @ 0x564ba3e45240] 31          cabac_alignment_one_bit                                     1 = 1
+[trace_headers @ 0x564ba3e45240] Packet: 9888 bytes, pts 118800, dts 118800, duration 3600.
+[mov,mp4,m4a,3gp,3g2,mj2 @ 0x564ba3d60c80] stream 0, sample 35, dts 1400000
+[mov,mp4,m4a,3gp,3g2,mj2 @ 0x564ba3d60c80] stream 1, sample 16, dts 371519
+[mov,mp4,m4a,3gp,3g2,mj2 @ 0x564ba3d60c80] stream 0, sample 35, dts 1400000
+[mov,mp4,m4a,3gp,3g2,mj2 @ 0x564ba3d60c80] stream 1, sample 17, dts 394739
+[mov,mp4,m4a,3gp,3g2,mj2 @ 0x564ba3d60c80] stream 0, sample 35, dts 1400000
+[mov,mp4,m4a,3gp,3g2,mj2 @ 0x564ba3d60c80] stream 1, sample 18, dts 417959
+[trace_headers @ 0x564ba3e45240] nal_unit_type: 1(Coded slice of a non-IDR picture), nal_ref_idc: 2
+[trace_headers @ 0x564ba3e45240] Slice Header
+[trace_headers @ 0x564ba3e45240] 0           forbidden_zero_bit                                          0 = 0
+[trace_headers @ 0x564ba3e45240] 1           nal_ref_idc                                                10 = 2
+[trace_headers @ 0x564ba3e45240] 3           nal_unit_type                                           00001 = 1
+[trace_headers @ 0x564ba3e45240] 8           first_mb_in_slice                                           1 = 0
+[trace_headers @ 0x564ba3e45240] 9           slice_type                                                  1 = 0
+[trace_headers @ 0x564ba3e45240] 10          pic_parameter_set_id                                        1 = 0
+[trace_headers @ 0x564ba3e45240] 11          frame_num                                                0001 = 1
+[trace_headers @ 0x564ba3e45240] 15          num_ref_idx_active_override_flag                            0 = 0
+[trace_headers @ 0x564ba3e45240] 16          ref_pic_list_modification_flag_l0                           0 = 0
+[trace_headers @ 0x564ba3e45240] 17          adaptive_ref_pic_marking_mode_flag                          0 = 0
+[trace_headers @ 0x564ba3e45240] 18          cabac_init_idc                                            010 = 1
+[trace_headers @ 0x564ba3e45240] 21          slice_qp_delta                                            011 = -1
+[trace_headers @ 0x564ba3e45240] Packet: 10704 bytes, pts 122400, dts 122400, duration 3600.
+[mov,mp4,m4a,3gp,3g2,mj2 @ 0x564ba3d60c80] stream 0, sample 36, dts 1440000
+[mov,mp4,m4a,3gp,3g2,mj2 @ 0x564ba3d60c80] stream 1, sample 18, dts 417959
+[mov,mp4,m4a,3gp,3g2,mj2 @ 0x564ba3d60c80] stream 0, sample 36, dts 1440000
+[mov,mp4,m4a,3gp,3g2,mj2 @ 0x564ba3d60c80] stream 1, sample 19, dts 441179
+[trace_headers @ 0x564ba3e45240] nal_unit_type: 1(Coded slice of a non-IDR picture), nal_ref_idc: 2
+[trace_headers @ 0x564ba3e45240] Slice Header
+[trace_headers @ 0x564ba3e45240] 0           forbidden_zero_bit                                          0 = 0
+[trace_headers @ 0x564ba3e45240] 1           nal_ref_idc                                                10 = 2
+[trace_headers @ 0x564ba3e45240] 3           nal_unit_type                                           00001 = 1
+[trace_headers @ 0x564ba3e45240] 8           first_mb_in_slice                                           1 = 0
+[trace_headers @ 0x564ba3e45240] 9           slice_type                                                  1 = 0
+[trace_headers @ 0x564ba3e45240] 10          pic_parameter_set_id                                        1 = 0
+[trace_headers @ 0x564ba3e45240] 11          frame_num                                                0010 = 2
+[trace_headers @ 0x564ba3e45240] 15          num_ref_idx_active_override_flag                            0 = 0
+[trace_headers @ 0x564ba3e45240] 16          ref_pic_list_modification_flag_l0                           0 = 0
+[trace_headers @ 0x564ba3e45240] 17          adaptive_ref_pic_marking_mode_flag                          0 = 0
+[trace_headers @ 0x564ba3e45240] 18          cabac_init_idc                                            010 = 1
+[trace_headers @ 0x564ba3e45240] 21          slice_qp_delta                                            011 = -1
+[trace_headers @ 0x564ba3e45240] Packet: 9472 bytes, pts 126000, dts 126000, duration 3600.
+[mov,mp4,m4a,3gp,3g2,mj2 @ 0x564ba3d60c80] stream 0, sample 37, dts 1480000
+[mov,mp4,m4a,3gp,3g2,mj2 @ 0x564ba3d60c80] stream 1, sample 19, dts 441179
+[mov,mp4,m4a,3gp,3g2,mj2 @ 0x564ba3d60c80] stream 0, sample 37, dts 1480000
+[mov,mp4,m4a,3gp,3g2,mj2 @ 0x564ba3d60c80] stream 1, sample 20, dts 464399
+[mov,mp4,m4a,3gp,3g2,mj2 @ 0x564ba3d60c80] stream 0, sample 37, dts 1480000
+[mov,mp4,m4a,3gp,3g2,mj2 @ 0x564ba3d60c80] stream 1, sample 21, dts 487619
+[trace_headers @ 0x564ba3e45240] nal_unit_type: 1(Coded slice of a non-IDR picture), nal_ref_idc: 2
+[trace_headers @ 0x564ba3e45240] Slice Header
+[trace_headers @ 0x564ba3e45240] 0           forbidden_zero_bit                                          0 = 0
+[trace_headers @ 0x564ba3e45240] 1           nal_ref_idc                                                10 = 2
+[trace_headers @ 0x564ba3e45240] 3           nal_unit_type                                           00001 = 1
+[trace_headers @ 0x564ba3e45240] 8           first_mb_in_slice                                           1 = 0
+[trace_headers @ 0x564ba3e45240] 9           slice_type                                                  1 = 0
+[trace_headers @ 0x564ba3e45240] 10          pic_parameter_set_id                                        1 = 0
+[trace_headers @ 0x564ba3e45240] 11          frame_num                                                0011 = 3
+[trace_headers @ 0x564ba3e45240] 15          num_ref_idx_active_override_flag                            0 = 0
+[trace_headers @ 0x564ba3e45240] 16          ref_pic_list_modification_flag_l0                           0 = 0
+[trace_headers @ 0x564ba3e45240] 17          adaptive_ref_pic_marking_mode_flag                          0 = 0
+[trace_headers @ 0x564ba3e45240] 18          cabac_init_idc                                            010 = 1
+[trace_headers @ 0x564ba3e45240] 21          slice_qp_delta                                            010 = 1
+[trace_headers @ 0x564ba3e45240] Packet: 10736 bytes, pts 129600, dts 129600, duration 3600.
+[mov,mp4,m4a,3gp,3g2,mj2 @ 0x564ba3d60c80] stream 0, sample 38, dts 1520000
+[mov,mp4,m4a,3gp,3g2,mj2 @ 0x564ba3d60c80] stream 1, sample 21, dts 487619
+[mov,mp4,m4a,3gp,3g2,mj2 @ 0x564ba3d60c80] stream 0, sample 38, dts 1520000
+[mov,mp4,m4a,3gp,3g2,mj2 @ 0x564ba3d60c80] stream 1, sample 22, dts 510839
+[mov,mp4,m4a,3gp,3g2,mj2 @ 0x564ba3d60c80] stream 0, sample 38, dts 1520000
+[mov,mp4,m4a,3gp,3g2,mj2 @ 0x564ba3d60c80] stream 1, sample 23, dts 534059
+[trace_headers @ 0x564ba3e45240] nal_unit_type: 1(Coded slice of a non-IDR picture), nal_ref_idc: 2
+[trace_headers @ 0x564ba3e45240] Slice Header
+[trace_headers @ 0x564ba3e45240] 0           forbidden_zero_bit                                          0 = 0
+[trace_headers @ 0x564ba3e45240] 1           nal_ref_idc                                                10 = 2
+[trace_headers @ 0x564ba3e45240] 3           nal_unit_type                                           00001 = 1
+[trace_headers @ 0x564ba3e45240] 8           first_mb_in_slice                                           1 = 0
+[trace_headers @ 0x564ba3e45240] 9           slice_type                                                  1 = 0
+[trace_headers @ 0x564ba3e45240] 10          pic_parameter_set_id                                        1 = 0
+[trace_headers @ 0x564ba3e45240] 11          frame_num                                                0100 = 4
+[trace_headers @ 0x564ba3e45240] 15          num_ref_idx_active_override_flag                            0 = 0
+[trace_headers @ 0x564ba3e45240] 16          ref_pic_list_modification_flag_l0                           0 = 0
+[trace_headers @ 0x564ba3e45240] 17          adaptive_ref_pic_marking_mode_flag                          0 = 0
+[trace_headers @ 0x564ba3e45240] 18          cabac_init_idc                                            010 = 1
+[trace_headers @ 0x564ba3e45240] 21          slice_qp_delta                                            010 = 1
+[trace_headers @ 0x564ba3e45240] Packet: 10624 bytes, pts 133200, dts 133200, duration 3600.
+[mov,mp4,m4a,3gp,3g2,mj2 @ 0x564ba3d60c80] stream 0, sample 39, dts 1560000
+[mov,mp4,m4a,3gp,3g2,mj2 @ 0x564ba3d60c80] stream 1, sample 23, dts 534059
+[mov,mp4,m4a,3gp,3g2,mj2 @ 0x564ba3d60c80] stream 0, sample 39, dts 1560000
+[mov,mp4,m4a,3gp,3g2,mj2 @ 0x564ba3d60c80] stream 1, sample 24, dts 557279
+[mov,mp4,m4a,3gp,3g2,mj2 @ 0x564ba3d60c80] stream 0, sample 39, dts 1560000
+[mov,mp4,m4a,3gp,3g2,mj2 @ 0x564ba3d60c80] stream 1, sample 25, dts 580499
+[trace_headers @ 0x564ba3e45240] nal_unit_type: 1(Coded slice of a non-IDR picture), nal_ref_idc: 2
+[trace_headers @ 0x564ba3e45240] Slice Header
+[trace_headers @ 0x564ba3e45240] 0           forbidden_zero_bit                                          0 = 0
+[trace_headers @ 0x564ba3e45240] 1           nal_ref_idc                                                10 = 2
+[trace_headers @ 0x564ba3e45240] 3           nal_unit_type                                           00001 = 1
+[trace_headers @ 0x564ba3e45240] 8           first_mb_in_slice                                           1 = 0
+[trace_headers @ 0x564ba3e45240] 9           slice_type                                                  1 = 0
+[trace_headers @ 0x564ba3e45240] 10          pic_parameter_set_id                                        1 = 0
+[trace_headers @ 0x564ba3e45240] 11          frame_num                                                0101 = 5
+[trace_headers @ 0x564ba3e45240] 15          num_ref_idx_active_override_flag                            0 = 0
+[trace_headers @ 0x564ba3e45240] 16          ref_pic_list_modification_flag_l0                           0 = 0
+[trace_headers @ 0x564ba3e45240] 17          adaptive_ref_pic_marking_mode_flag                          0 = 0
+[trace_headers @ 0x564ba3e45240] 18          cabac_init_idc                                            010 = 1
+[trace_headers @ 0x564ba3e45240] 21          slice_qp_delta                                          00100 = 2
+[trace_headers @ 0x564ba3e45240] 26          cabac_alignment_one_bit                                     1 = 1
+[trace_headers @ 0x564ba3e45240] 27          cabac_alignment_one_bit                                     1 = 1
+[trace_headers @ 0x564ba3e45240] 28          cabac_alignment_one_bit                                     1 = 1
+[trace_headers @ 0x564ba3e45240] 29          cabac_alignment_one_bit                                     1 = 1
+[trace_headers @ 0x564ba3e45240] 30          cabac_alignment_one_bit                                     1 = 1
+[trace_headers @ 0x564ba3e45240] 31          cabac_alignment_one_bit                                     1 = 1
+[trace_headers @ 0x564ba3e45240] Packet: 10736 bytes, pts 136800, dts 136800, duration 3600.
+[mov,mp4,m4a,3gp,3g2,mj2 @ 0x564ba3d60c80] stream 0, sample 40, dts 1600000
+[mov,mp4,m4a,3gp,3g2,mj2 @ 0x564ba3d60c80] stream 1, sample 25, dts 580499
+[mov,mp4,m4a,3gp,3g2,mj2 @ 0x564ba3d60c80] stream 0, sample 40, dts 1600000
+[mov,mp4,m4a,3gp,3g2,mj2 @ 0x564ba3d60c80] stream 1, sample 26, dts 603719
+[trace_headers @ 0x564ba3e45240] nal_unit_type: 1(Coded slice of a non-IDR picture), nal_ref_idc: 2
+[trace_headers @ 0x564ba3e45240] Slice Header
+[trace_headers @ 0x564ba3e45240] 0           forbidden_zero_bit                                          0 = 0
+[trace_headers @ 0x564ba3e45240] 1           nal_ref_idc                                                10 = 2
+[trace_headers @ 0x564ba3e45240] 3           nal_unit_type                                           00001 = 1
+[trace_headers @ 0x564ba3e45240] 8           first_mb_in_slice                                           1 = 0
+[trace_headers @ 0x564ba3e45240] 9           slice_type                                                  1 = 0
+[trace_headers @ 0x564ba3e45240] 10          pic_parameter_set_id                                        1 = 0
+[trace_headers @ 0x564ba3e45240] 11          frame_num                                                0110 = 6
+[trace_headers @ 0x564ba3e45240] 15          num_ref_idx_active_override_flag                            0 = 0
+[trace_headers @ 0x564ba3e45240] 16          ref_pic_list_modification_flag_l0                           0 = 0
+[trace_headers @ 0x564ba3e45240] 17          adaptive_ref_pic_marking_mode_flag                          0 = 0
+[trace_headers @ 0x564ba3e45240] 18          cabac_init_idc                                            010 = 1
+[trace_headers @ 0x564ba3e45240] 21          slice_qp_delta                                          00110 = 3
+[trace_headers @ 0x564ba3e45240] 26          cabac_alignment_one_bit                                     1 = 1
+[trace_headers @ 0x564ba3e45240] 27          cabac_alignment_one_bit                                     1 = 1
+[trace_headers @ 0x564ba3e45240] 28          cabac_alignment_one_bit                                     1 = 1
+[trace_headers @ 0x564ba3e45240] 29          cabac_alignment_one_bit                                     1 = 1
+[trace_headers @ 0x564ba3e45240] 30          cabac_alignment_one_bit                                     1 = 1
+[trace_headers @ 0x564ba3e45240] 31          cabac_alignment_one_bit                                     1 = 1
+[trace_headers @ 0x564ba3e45240] Packet: 9728 bytes, pts 140400, dts 140400, duration 3600.
+[mov,mp4,m4a,3gp,3g2,mj2 @ 0x564ba3d60c80] stream 0, sample 41, dts 1640000
+[mov,mp4,m4a,3gp,3g2,mj2 @ 0x564ba3d60c80] stream 1, sample 26, dts 603719
+[mov,mp4,m4a,3gp,3g2,mj2 @ 0x564ba3d60c80] stream 0, sample 41, dts 1640000
+[mov,mp4,m4a,3gp,3g2,mj2 @ 0x564ba3d60c80] stream 1, sample 27, dts 626939
+[mov,mp4,m4a,3gp,3g2,mj2 @ 0x564ba3d60c80] stream 0, sample 41, dts 1640000
+[mov,mp4,m4a,3gp,3g2,mj2 @ 0x564ba3d60c80] stream 1, sample 28, dts 650159
+[trace_headers @ 0x564ba3e45240] nal_unit_type: 1(Coded slice of a non-IDR picture), nal_ref_idc: 2
+[trace_headers @ 0x564ba3e45240] Slice Header
+[trace_headers @ 0x564ba3e45240] 0           forbidden_zero_bit                                          0 = 0
+[trace_headers @ 0x564ba3e45240] 1           nal_ref_idc                                                10 = 2
+[trace_headers @ 0x564ba3e45240] 3           nal_unit_type                                           00001 = 1
+[trace_headers @ 0x564ba3e45240] 8           first_mb_in_slice                                           1 = 0
+[trace_headers @ 0x564ba3e45240] 9           slice_type                                                  1 = 0
+[trace_headers @ 0x564ba3e45240] 10          pic_parameter_set_id                                        1 = 0
+[trace_headers @ 0x564ba3e45240] 11          frame_num                                                0111 = 7
+[trace_headers @ 0x564ba3e45240] 15          num_ref_idx_active_override_flag                            0 = 0
+[trace_headers @ 0x564ba3e45240] 16          ref_pic_list_modification_flag_l0                           0 = 0
+[trace_headers @ 0x564ba3e45240] 17          adaptive_ref_pic_marking_mode_flag                          0 = 0
+[trace_headers @ 0x564ba3e45240] 18          cabac_init_idc                                            010 = 1
+[trace_headers @ 0x564ba3e45240] 21          slice_qp_delta                                        0001000 = 4
+[trace_headers @ 0x564ba3e45240] 28          cabac_alignment_one_bit                                     1 = 1
+[trace_headers @ 0x564ba3e45240] 29          cabac_alignment_one_bit                                     1 = 1
+[trace_headers @ 0x564ba3e45240] 30          cabac_alignment_one_bit                                     1 = 1
+[trace_headers @ 0x564ba3e45240] 31          cabac_alignment_one_bit                                     1 = 1
+[trace_headers @ 0x564ba3e45240] Packet: 9712 bytes, pts 144000, dts 144000, duration 3600.
+[mov,mp4,m4a,3gp,3g2,mj2 @ 0x564ba3d60c80] stream 0, sample 42, dts 1680000
+[mov,mp4,m4a,3gp,3g2,mj2 @ 0x564ba3d60c80] stream 1, sample 28, dts 650159
+[mov,mp4,m4a,3gp,3g2,mj2 @ 0x564ba3d60c80] stream 0, sample 42, dts 1680000
+[mov,mp4,m4a,3gp,3g2,mj2 @ 0x564ba3d60c80] stream 1, sample 29, dts 673379
+[mov,mp4,m4a,3gp,3g2,mj2 @ 0x564ba3d60c80] stream 0, sample 42, dts 1680000
+[mov,mp4,m4a,3gp,3g2,mj2 @ 0x564ba3d60c80] stream 1, sample 30, dts 696599
+[trace_headers @ 0x564ba3e45240] nal_unit_type: 1(Coded slice of a non-IDR picture), nal_ref_idc: 2
+[trace_headers @ 0x564ba3e45240] Slice Header
+[trace_headers @ 0x564ba3e45240] 0           forbidden_zero_bit                                          0 = 0
+[trace_headers @ 0x564ba3e45240] 1           nal_ref_idc                                                10 = 2
+[trace_headers @ 0x564ba3e45240] 3           nal_unit_type                                           00001 = 1
+[trace_headers @ 0x564ba3e45240] 8           first_mb_in_slice                                           1 = 0
+[trace_headers @ 0x564ba3e45240] 9           slice_type                                                  1 = 0
+[trace_headers @ 0x564ba3e45240] 10          pic_parameter_set_id                                        1 = 0
+[trace_headers @ 0x564ba3e45240] 11          frame_num                                                1000 = 8
+[trace_headers @ 0x564ba3e45240] 15          num_ref_idx_active_override_flag                            0 = 0
+[trace_headers @ 0x564ba3e45240] 16          ref_pic_list_modification_flag_l0                           0 = 0
+[trace_headers @ 0x564ba3e45240] 17          adaptive_ref_pic_marking_mode_flag                          0 = 0
+[trace_headers @ 0x564ba3e45240] 18          cabac_init_idc                                            010 = 1
+[trace_headers @ 0x564ba3e45240] 21          slice_qp_delta                                        0001010 = 5
+[trace_headers @ 0x564ba3e45240] 28          cabac_alignment_one_bit                                     1 = 1
+[trace_headers @ 0x564ba3e45240] 29          cabac_alignment_one_bit                                     1 = 1
+[trace_headers @ 0x564ba3e45240] 30          cabac_alignment_one_bit                                     1 = 1
+[trace_headers @ 0x564ba3e45240] 31          cabac_alignment_one_bit                                     1 = 1
+[trace_headers @ 0x564ba3e45240] Packet: 9328 bytes, pts 147600, dts 147600, duration 3600.
+[trace_headers @ 0x564ba3e45240] nal_unit_type: 1(Coded slice of a non-IDR picture), nal_ref_idc: 2
+[trace_headers @ 0x564ba3e45240] Slice Header
+[trace_headers @ 0x564ba3e45240] 0           forbidden_zero_bit                                          0 = 0
+[trace_headers @ 0x564ba3e45240] 1           nal_ref_idc                                                10 = 2
+[trace_headers @ 0x564ba3e45240] 3           nal_unit_type                                           00001 = 1
+[trace_headers @ 0x564ba3e45240] 8           first_mb_in_slice                                           1 = 0
+[trace_headers @ 0x564ba3e45240] 9           slice_type                                                  1 = 0
+[trace_headers @ 0x564ba3e45240] 10          pic_parameter_set_id                                        1 = 0
+[trace_headers @ 0x564ba3e45240] 11          frame_num                                                1001 = 9
+[trace_headers @ 0x564ba3e45240] 15          num_ref_idx_active_override_flag                            0 = 0
+[trace_headers @ 0x564ba3e45240] 16          ref_pic_list_modification_flag_l0                           0 = 0
+[trace_headers @ 0x564ba3e45240] 17          adaptive_ref_pic_marking_mode_flag                          0 = 0
+[trace_headers @ 0x564ba3e45240] 18          cabac_init_idc                                            010 = 1
+[trace_headers @ 0x564ba3e45240] 21          slice_qp_delta                                        0001100 = 6
+[trace_headers @ 0x564ba3e45240] 28          cabac_alignment_one_bit                                     1 = 1
+[mov,mp4,m4a,3gp,3g2,mj2 @ 0x564ba3d60c80] stream 0, sample 43, dts 1720000
+[mov,mp4,m4a,3gp,3g2,mj2 @ 0x564ba3d60c80] stream 1, sample 30, dts 696599
+[mov,mp4,m4a,3gp,3g2,mj2 @ 0x564ba3d60c80] stream 0, sample 43, dts 1720000
+[mov,mp4,m4a,3gp,3g2,mj2 @ 0x564ba3d60c80] stream 1, sample 31, dts 719819
+[trace_headers @ 0x564ba3e45240] 29          cabac_alignment_one_bit                                     1 = 1
+[trace_headers @ 0x564ba3e45240] 30          cabac_alignment_one_bit                                     1 = 1
+[trace_headers @ 0x564ba3e45240] 31          cabac_alignment_one_bit                                     1 = 1
+[mov,mp4,m4a,3gp,3g2,mj2 @ 0x564ba3d60c80] stream 0, sample 43, dts 1720000
+[mov,mp4,m4a,3gp,3g2,mj2 @ 0x564ba3d60c80] stream 1, sample 32, dts 743039
+[trace_headers @ 0x564ba3e45240] Packet: 7728 bytes, pts 151200, dts 151200, duration 3600.
+[mov,mp4,m4a,3gp,3g2,mj2 @ 0x564ba3d60c80] stream 0, sample 44, dts 1760000
+[mov,mp4,m4a,3gp,3g2,mj2 @ 0x564ba3d60c80] stream 1, sample 32, dts 743039
+[mov,mp4,m4a,3gp,3g2,mj2 @ 0x564ba3d60c80] stream 0, sample 44, dts 1760000
+[mov,mp4,m4a,3gp,3g2,mj2 @ 0x564ba3d60c80] stream 1, sample 33, dts 766259
+[trace_headers @ 0x564ba3e45240] nal_unit_type: 1(Coded slice of a non-IDR picture), nal_ref_idc: 2
+[trace_headers @ 0x564ba3e45240] Slice Header
+[trace_headers @ 0x564ba3e45240] 0           forbidden_zero_bit                                          0 = 0
+[trace_headers @ 0x564ba3e45240] 1           nal_ref_idc                                                10 = 2
+[trace_headers @ 0x564ba3e45240] 3           nal_unit_type                                           00001 = 1
+[trace_headers @ 0x564ba3e45240] 8           first_mb_in_slice                                           1 = 0
+[trace_headers @ 0x564ba3e45240] 9           slice_type                                                  1 = 0
+[trace_headers @ 0x564ba3e45240] 10          pic_parameter_set_id                                        1 = 0
+[trace_headers @ 0x564ba3e45240] 11          frame_num                                                1010 = 10
+[trace_headers @ 0x564ba3e45240] 15          num_ref_idx_active_override_flag                            0 = 0
+[trace_headers @ 0x564ba3e45240] 16          ref_pic_list_modification_flag_l0                           0 = 0
+[trace_headers @ 0x564ba3e45240] 17          adaptive_ref_pic_marking_mode_flag                          0 = 0
+[trace_headers @ 0x564ba3e45240] 18          cabac_init_idc                                            010 = 1
+[trace_headers @ 0x564ba3e45240] 21          slice_qp_delta                                        0001110 = 7
+[trace_headers @ 0x564ba3e45240] 28          cabac_alignment_one_bit                                     1 = 1
+[trace_headers @ 0x564ba3e45240] 29          cabac_alignment_one_bit                                     1 = 1
+[trace_headers @ 0x564ba3e45240] 30          cabac_alignment_one_bit                                     1 = 1
+[trace_headers @ 0x564ba3e45240] 31          cabac_alignment_one_bit                                     1 = 1
+[trace_headers @ 0x564ba3e45240] Packet: 6784 bytes, pts 154800, dts 154800, duration 3600.
+[mov,mp4,m4a,3gp,3g2,mj2 @ 0x564ba3d60c80] stream 0, sample 45, dts 1800000
+[mov,mp4,m4a,3gp,3g2,mj2 @ 0x564ba3d60c80] stream 1, sample 33, dts 766259
+[mov,mp4,m4a,3gp,3g2,mj2 @ 0x564ba3d60c80] stream 0, sample 45, dts 1800000
+[mov,mp4,m4a,3gp,3g2,mj2 @ 0x564ba3d60c80] stream 1, sample 34, dts 789478
+[mov,mp4,m4a,3gp,3g2,mj2 @ 0x564ba3d60c80] stream 0, sample 45, dts 1800000
+[mov,mp4,m4a,3gp,3g2,mj2 @ 0x564ba3d60c80] stream 1, sample 35, dts 812698
+[trace_headers @ 0x564ba3e45240] nal_unit_type: 1(Coded slice of a non-IDR picture), nal_ref_idc: 2
+[trace_headers @ 0x564ba3e45240] Slice Header
+[trace_headers @ 0x564ba3e45240] 0           forbidden_zero_bit                                          0 = 0
+[trace_headers @ 0x564ba3e45240] 1           nal_ref_idc                                                10 = 2
+[trace_headers @ 0x564ba3e45240] 3           nal_unit_type                                           00001 = 1
+[trace_headers @ 0x564ba3e45240] 8           first_mb_in_slice                                           1 = 0
+[trace_headers @ 0x564ba3e45240] 9           slice_type                                                  1 = 0
+[trace_headers @ 0x564ba3e45240] 10          pic_parameter_set_id                                        1 = 0
+[trace_headers @ 0x564ba3e45240] 11          frame_num                                                1011 = 11
+[trace_headers @ 0x564ba3e45240] 15          num_ref_idx_active_override_flag                            0 = 0
+[trace_headers @ 0x564ba3e45240] 16          ref_pic_list_modification_flag_l0                           0 = 0
+[trace_headers @ 0x564ba3e45240] 17          adaptive_ref_pic_marking_mode_flag                          0 = 0
+[trace_headers @ 0x564ba3e45240] 18          cabac_init_idc                                            010 = 1
+[trace_headers @ 0x564ba3e45240] 21          slice_qp_delta                                      000010000 = 8
+[trace_headers @ 0x564ba3e45240] 30          cabac_alignment_one_bit                                     1 = 1
+[trace_headers @ 0x564ba3e45240] 31          cabac_alignment_one_bit                                     1 = 1
+[trace_headers @ 0x564ba3e45240] Packet: 6784 bytes, pts 158400, dts 158400, duration 3600.
+[mov,mp4,m4a,3gp,3g2,mj2 @ 0x564ba3d60c80] stream 0, sample 46, dts 1840000
+[mov,mp4,m4a,3gp,3g2,mj2 @ 0x564ba3d60c80] stream 1, sample 35, dts 812698
+[mov,mp4,m4a,3gp,3g2,mj2 @ 0x564ba3d60c80] stream 0, sample 46, dts 1840000
+[mov,mp4,m4a,3gp,3g2,mj2 @ 0x564ba3d60c80] stream 1, sample 36, dts 835918
+[mov,mp4,m4a,3gp,3g2,mj2 @ 0x564ba3d60c80] stream 0, sample 46, dts 1840000
+[mov,mp4,m4a,3gp,3g2,mj2 @ 0x564ba3d60c80] stream 1, sample 37, dts 859138
+[trace_headers @ 0x564ba3e45240] nal_unit_type: 1(Coded slice of a non-IDR picture), nal_ref_idc: 2
+[trace_headers @ 0x564ba3e45240] Slice Header
+[trace_headers @ 0x564ba3e45240] 0           forbidden_zero_bit                                          0 = 0
+[trace_headers @ 0x564ba3e45240] 1           nal_ref_idc                                                10 = 2
+[trace_headers @ 0x564ba3e45240] 3           nal_unit_type                                           00001 = 1
+[trace_headers @ 0x564ba3e45240] 8           first_mb_in_slice                                           1 = 0
+[trace_headers @ 0x564ba3e45240] 9           slice_type                                                  1 = 0
+[trace_headers @ 0x564ba3e45240] 10          pic_parameter_set_id                                        1 = 0
+[trace_headers @ 0x564ba3e45240] 11          frame_num                                                1100 = 12
+[trace_headers @ 0x564ba3e45240] 15          num_ref_idx_active_override_flag                            0 = 0
+[trace_headers @ 0x564ba3e45240] 16          ref_pic_list_modification_flag_l0                           0 = 0
+[trace_headers @ 0x564ba3e45240] 17          adaptive_ref_pic_marking_mode_flag                          0 = 0
+[trace_headers @ 0x564ba3e45240] 18          cabac_init_idc                                            010 = 1
+[trace_headers @ 0x564ba3e45240] 21          slice_qp_delta                                      000010000 = 8
+[trace_headers @ 0x564ba3e45240] 30          cabac_alignment_one_bit                                     1 = 1
+[trace_headers @ 0x564ba3e45240] 31          cabac_alignment_one_bit                                     1 = 1
+[trace_headers @ 0x564ba3e45240] Packet: 6272 bytes, pts 162000, dts 162000, duration 3600.
+[mov,mp4,m4a,3gp,3g2,mj2 @ 0x564ba3d60c80] stream 0, sample 47, dts 1880000
+[mov,mp4,m4a,3gp,3g2,mj2 @ 0x564ba3d60c80] stream 1, sample 37, dts 859138
+[mov,mp4,m4a,3gp,3g2,mj2 @ 0x564ba3d60c80] stream 0, sample 47, dts 1880000
+[mov,mp4,m4a,3gp,3g2,mj2 @ 0x564ba3d60c80] stream 1, sample 38, dts 882358
+[trace_headers @ 0x564ba3e45240] nal_unit_type: 1(Coded slice of a non-IDR picture), nal_ref_idc: 2
+[trace_headers @ 0x564ba3e45240] Slice Header
+[trace_headers @ 0x564ba3e45240] 0           forbidden_zero_bit                                          0 = 0
+[trace_headers @ 0x564ba3e45240] 1           nal_ref_idc                                                10 = 2
+[trace_headers @ 0x564ba3e45240] 3           nal_unit_type                                           00001 = 1
+[trace_headers @ 0x564ba3e45240] 8           first_mb_in_slice                                           1 = 0
+[trace_headers @ 0x564ba3e45240] 9           slice_type                                                  1 = 0
+[trace_headers @ 0x564ba3e45240] 10          pic_parameter_set_id                                        1 = 0
+[trace_headers @ 0x564ba3e45240] 11          frame_num                                                1101 = 13
+[trace_headers @ 0x564ba3e45240] 15          num_ref_idx_active_override_flag                            0 = 0
+[trace_headers @ 0x564ba3e45240] 16          ref_pic_list_modification_flag_l0                           0 = 0
+[trace_headers @ 0x564ba3e45240] 17          adaptive_ref_pic_marking_mode_flag                          0 = 0
+[trace_headers @ 0x564ba3e45240] 18          cabac_init_idc                                            010 = 1
+[trace_headers @ 0x564ba3e45240] 21          slice_qp_delta                                      000010000 = 8
+[trace_headers @ 0x564ba3e45240] 30          cabac_alignment_one_bit                                     1 = 1
+[trace_headers @ 0x564ba3e45240] 31          cabac_alignment_one_bit                                     1 = 1
+[trace_headers @ 0x564ba3e45240] Packet: 5696 bytes, pts 165600, dts 165600, duration 3600.
+[mov,mp4,m4a,3gp,3g2,mj2 @ 0x564ba3d60c80] stream 0, sample 48, dts 1920000
+[mov,mp4,m4a,3gp,3g2,mj2 @ 0x564ba3d60c80] stream 1, sample 38, dts 882358
+[mov,mp4,m4a,3gp,3g2,mj2 @ 0x564ba3d60c80] stream 0, sample 48, dts 1920000
+[mov,mp4,m4a,3gp,3g2,mj2 @ 0x564ba3d60c80] stream 1, sample 39, dts 905578
+[mov,mp4,m4a,3gp,3g2,mj2 @ 0x564ba3d60c80] stream 0, sample 48, dts 1920000
+[mov,mp4,m4a,3gp,3g2,mj2 @ 0x564ba3d60c80] stream 1, sample 40, dts 928798
+[trace_headers @ 0x564ba3e45240] nal_unit_type: 1(Coded slice of a non-IDR picture), nal_ref_idc: 2
+[trace_headers @ 0x564ba3e45240] Slice Header
+[trace_headers @ 0x564ba3e45240] 0           forbidden_zero_bit                                          0 = 0
+[trace_headers @ 0x564ba3e45240] 1           nal_ref_idc                                                10 = 2
+[trace_headers @ 0x564ba3e45240] 3           nal_unit_type                                           00001 = 1
+[trace_headers @ 0x564ba3e45240] 8           first_mb_in_slice                                           1 = 0
+[trace_headers @ 0x564ba3e45240] 9           slice_type                                                  1 = 0
+[trace_headers @ 0x564ba3e45240] 10          pic_parameter_set_id                                        1 = 0
+[trace_headers @ 0x564ba3e45240] 11          frame_num                                                1110 = 14
+[trace_headers @ 0x564ba3e45240] 15          num_ref_idx_active_override_flag                            0 = 0
+[trace_headers @ 0x564ba3e45240] 16          ref_pic_list_modification_flag_l0                           0 = 0
+[trace_headers @ 0x564ba3e45240] 17          adaptive_ref_pic_marking_mode_flag                          0 = 0
+[trace_headers @ 0x564ba3e45240] 18          cabac_init_idc                                            010 = 1
+[trace_headers @ 0x564ba3e45240] 21          slice_qp_delta                                      000010000 = 8
+[trace_headers @ 0x564ba3e45240] 30          cabac_alignment_one_bit                                     1 = 1
+[trace_headers @ 0x564ba3e45240] 31          cabac_alignment_one_bit                                     1 = 1
+[trace_headers @ 0x564ba3e45240] Packet: 6016 bytes, pts 169200, dts 169200, duration 3600.
+[mov,mp4,m4a,3gp,3g2,mj2 @ 0x564ba3d60c80] stream 0, sample 49, dts 1960000
+[mov,mp4,m4a,3gp,3g2,mj2 @ 0x564ba3d60c80] stream 1, sample 40, dts 928798
+[mov,mp4,m4a,3gp,3g2,mj2 @ 0x564ba3d60c80] stream 0, sample 49, dts 1960000
+[mov,mp4,m4a,3gp,3g2,mj2 @ 0x564ba3d60c80] stream 1, sample 41, dts 952018
+[mov,mp4,m4a,3gp,3g2,mj2 @ 0x564ba3d60c80] stream 0, sample 49, dts 1960000
+[mov,mp4,m4a,3gp,3g2,mj2 @ 0x564ba3d60c80] stream 1, sample 42, dts 975238
+[trace_headers @ 0x564ba3e45240] nal_unit_type: 1(Coded slice of a non-IDR picture), nal_ref_idc: 2
+[trace_headers @ 0x564ba3e45240] Slice Header
+[trace_headers @ 0x564ba3e45240] 0           forbidden_zero_bit                                          0 = 0
+[trace_headers @ 0x564ba3e45240] 1           nal_ref_idc                                                10 = 2
+[trace_headers @ 0x564ba3e45240] 3           nal_unit_type                                           00001 = 1
+[trace_headers @ 0x564ba3e45240] 8           first_mb_in_slice                                           1 = 0
+[trace_headers @ 0x564ba3e45240] 9           slice_type                                                  1 = 0
+[trace_headers @ 0x564ba3e45240] 10          pic_parameter_set_id                                        1 = 0
+[trace_headers @ 0x564ba3e45240] 11          frame_num                                                1111 = 15
+[trace_headers @ 0x564ba3e45240] 15          num_ref_idx_active_override_flag                            0 = 0
+[trace_headers @ 0x564ba3e45240] 16          ref_pic_list_modification_flag_l0                           0 = 0
+[trace_headers @ 0x564ba3e45240] 17          adaptive_ref_pic_marking_mode_flag                          0 = 0
+[trace_headers @ 0x564ba3e45240] 18          cabac_init_idc                                            010 = 1
+[trace_headers @ 0x564ba3e45240] 21          slice_qp_delta                                        0001110 = 7
+[trace_headers @ 0x564ba3e45240] 28          cabac_alignment_one_bit                                     1 = 1
+[trace_headers @ 0x564ba3e45240] 29          cabac_alignment_one_bit                                     1 = 1
+[trace_headers @ 0x564ba3e45240] 30          cabac_alignment_one_bit                                     1 = 1
+[trace_headers @ 0x564ba3e45240] 31          cabac_alignment_one_bit                                     1 = 1
+[trace_headers @ 0x564ba3e45240] Packet: 5280 bytes, pts 172800, dts 172800, duration 3600.
+[mov,mp4,m4a,3gp,3g2,mj2 @ 0x564ba3d60c80] stream 1, sample 42, dts 975238
+[mov,mp4,m4a,3gp,3g2,mj2 @ 0x564ba3d60c80] stream 1, sample 43, dts 998458
+[mov,mp4,m4a,3gp,3g2,mj2 @ 0x564ba3d60c80] stream 1, sample 44, dts 1021678
+[mov,mp4,m4a,3gp,3g2,mj2 @ 0x564ba3d60c80] stream 1, sample 45, dts 1044898
+[mov,mp4,m4a,3gp,3g2,mj2 @ 0x564ba3d60c80] stream 1, sample 46, dts 1068118
+[mov,mp4,m4a,3gp,3g2,mj2 @ 0x564ba3d60c80] stream 1, sample 47, dts 1091338
+[mov,mp4,m4a,3gp,3g2,mj2 @ 0x564ba3d60c80] stream 1, sample 48, dts 1114558
+[mov,mp4,m4a,3gp,3g2,mj2 @ 0x564ba3d60c80] stream 1, sample 49, dts 1137778
+[mov,mp4,m4a,3gp,3g2,mj2 @ 0x564ba3d60c80] stream 1, sample 50, dts 1160998
+[mov,mp4,m4a,3gp,3g2,mj2 @ 0x564ba3d60c80] stream 1, sample 51, dts 1184218
+[mov,mp4,m4a,3gp,3g2,mj2 @ 0x564ba3d60c80] stream 1, sample 52, dts 1207438
+[mov,mp4,m4a,3gp,3g2,mj2 @ 0x564ba3d60c80] stream 1, sample 53, dts 1230658
+[mov,mp4,m4a,3gp,3g2,mj2 @ 0x564ba3d60c80] stream 1, sample 54, dts 1253878
+[mov,mp4,m4a,3gp,3g2,mj2 @ 0x564ba3d60c80] stream 1, sample 55, dts 1277098
+[trace_headers @ 0x564ba3e45240] nal_unit_type: 1(Coded slice of a non-IDR picture), nal_ref_idc: 2
+[trace_headers @ 0x564ba3e45240] Slice Header
+[trace_headers @ 0x564ba3e45240] 0           forbidden_zero_bit                                          0 = 0
+[trace_headers @ 0x564ba3e45240] 1           nal_ref_idc                                                10 = 2
+[trace_headers @ 0x564ba3e45240] 3           nal_unit_type                                           00001 = 1
+[trace_headers @ 0x564ba3e45240] 8           first_mb_in_slice                                           1 = 0
+[trace_headers @ 0x564ba3e45240] 9           slice_type                                                  1 = 0
+[trace_headers @ 0x564ba3e45240] 10          pic_parameter_set_id                                        1 = 0
+[mov,mp4,m4a,3gp,3g2,mj2 @ 0x564ba3d60c80] stream 1, sample 56, dts 1300317
+[mov,mp4,m4a,3gp,3g2,mj2 @ 0x564ba3d60c80] stream 1, sample 57, dts 1323537
+[mov,mp4,m4a,3gp,3g2,mj2 @ 0x564ba3d60c80] stream 1, sample 58, dts 1346757
+[mov,mp4,m4a,3gp,3g2,mj2 @ 0x564ba3d60c80] stream 1, sample 59, dts 1369977
+[trace_headers @ 0x564ba3e45240] 11          frame_num                                                0000 = 0
+[trace_headers @ 0x564ba3e45240] 15          num_ref_idx_active_override_flag                            0 = 0
+[trace_headers @ 0x564ba3e45240] 16          ref_pic_list_modification_flag_l0                           0 = 0
+[mov,mp4,m4a,3gp,3g2,mj2 @ 0x564ba3d60c80] stream 1, sample 60, dts 1393197
+[mov,mp4,m4a,3gp,3g2,mj2 @ 0x564ba3d60c80] stream 1, sample 61, dts 1416417
+[mov,mp4,m4a,3gp,3g2,mj2 @ 0x564ba3d60c80] stream 1, sample 62, dts 1439637
+[mov,mp4,m4a,3gp,3g2,mj2 @ 0x564ba3d60c80] stream 1, sample 63, dts 1462857
+[mov,mp4,m4a,3gp,3g2,mj2 @ 0x564ba3d60c80] stream 1, sample 64, dts 1486077
+[mov,mp4,m4a,3gp,3g2,mj2 @ 0x564ba3d60c80] stream 1, sample 65, dts 1509297
+[mov,mp4,m4a,3gp,3g2,mj2 @ 0x564ba3d60c80] stream 1, sample 66, dts 1532517
+[mov,mp4,m4a,3gp,3g2,mj2 @ 0x564ba3d60c80] stream 1, sample 67, dts 1555737
+[mov,mp4,m4a,3gp,3g2,mj2 @ 0x564ba3d60c80] stream 1, sample 68, dts 1578957
+[mov,mp4,m4a,3gp,3g2,mj2 @ 0x564ba3d60c80] stream 1, sample 69, dts 1602177
+[mov,mp4,m4a,3gp,3g2,mj2 @ 0x564ba3d60c80] stream 1, sample 70, dts 1625397
+[mov,mp4,m4a,3gp,3g2,mj2 @ 0x564ba3d60c80] stream 1, sample 71, dts 1648617
+[mov,mp4,m4a,3gp,3g2,mj2 @ 0x564ba3d60c80] stream 1, sample 72, dts 1671837
+[mov,mp4,m4a,3gp,3g2,mj2 @ 0x564ba3d60c80] stream 1, sample 73, dts 1695057
+[mov,mp4,m4a,3gp,3g2,mj2 @ 0x564ba3d60c80] stream 1, sample 74, dts 1718277
+[mov,mp4,m4a,3gp,3g2,mj2 @ 0x564ba3d60c80] stream 1, sample 75, dts 1741497
+[mov,mp4,m4a,3gp,3g2,mj2 @ 0x564ba3d60c80] stream 1, sample 76, dts 1764717
+[mov,mp4,m4a,3gp,3g2,mj2 @ 0x564ba3d60c80] stream 1, sample 77, dts 1787937
+[mov,mp4,m4a,3gp,3g2,mj2 @ 0x564ba3d60c80] stream 1, sample 78, dts 1811156
+[mov,mp4,m4a,3gp,3g2,mj2 @ 0x564ba3d60c80] stream 1, sample 79, dts 1834376
+[mov,mp4,m4a,3gp,3g2,mj2 @ 0x564ba3d60c80] stream 1, sample 80, dts 1857596
+[mov,mp4,m4a,3gp,3g2,mj2 @ 0x564ba3d60c80] stream 1, sample 81, dts 1880816
+[mov,mp4,m4a,3gp,3g2,mj2 @ 0x564ba3d60c80] stream 1, sample 82, dts 1904036
+[mov,mp4,m4a,3gp,3g2,mj2 @ 0x564ba3d60c80] stream 1, sample 83, dts 1927256
+[mov,mp4,m4a,3gp,3g2,mj2 @ 0x564ba3d60c80] stream 1, sample 84, dts 1950476
+[mov,mp4,m4a,3gp,3g2,mj2 @ 0x564ba3d60c80] stream 1, sample 85, dts 1973696
+[mov,mp4,m4a,3gp,3g2,mj2 @ 0x564ba3d60c80] stream 1, sample 86, dts 1996916
+[trace_headers @ 0x564ba3e45240] 17          adaptive_ref_pic_marking_mode_flag                          0 = 0
+[trace_headers @ 0x564ba3e45240] 18          cabac_init_idc                                            010 = 1
+[trace_headers @ 0x564ba3e45240] 21          slice_qp_delta                                        0001110 = 7
+[trace_headers @ 0x564ba3e45240] 28          cabac_alignment_one_bit                                     1 = 1
+[trace_headers @ 0x564ba3e45240] 29          cabac_alignment_one_bit                                     1 = 1
+[trace_headers @ 0x564ba3e45240] 30          cabac_alignment_one_bit                                     1 = 1
+[trace_headers @ 0x564ba3e45240] 31          cabac_alignment_one_bit                                     1 = 1
+[in#0/mov,mp4,m4a,3gp,3g2,mj2 @ 0x564ba3d60b80] EOF while reading input
+[in#0/mov,mp4,m4a,3gp,3g2,mj2 @ 0x564ba3d60b80] Terminating demuxer thread
+[trace_headers @ 0x564ba3e45240] Packet: 5824 bytes, pts 176400, dts 176400, duration 3600.
+[trace_headers @ 0x564ba3e45240] nal_unit_type: 1(Coded slice of a non-IDR picture), nal_ref_idc: 2
+[trace_headers @ 0x564ba3e45240] Slice Header
+[trace_headers @ 0x564ba3e45240] 0           forbidden_zero_bit                                          0 = 0
+[trace_headers @ 0x564ba3e45240] 1           nal_ref_idc                                                10 = 2
+[trace_headers @ 0x564ba3e45240] 3           nal_unit_type                                           00001 = 1
+[trace_headers @ 0x564ba3e45240] 8           first_mb_in_slice                                           1 = 0
+[trace_headers @ 0x564ba3e45240] 9           slice_type                                                  1 = 0
+[trace_headers @ 0x564ba3e45240] 10          pic_parameter_set_id                                        1 = 0
+[trace_headers @ 0x564ba3e45240] 11          frame_num                                                0001 = 1
+[trace_headers @ 0x564ba3e45240] 15          num_ref_idx_active_override_flag                            0 = 0
+[trace_headers @ 0x564ba3e45240] 16          ref_pic_list_modification_flag_l0                           0 = 0
+[trace_headers @ 0x564ba3e45240] 17          adaptive_ref_pic_marking_mode_flag                          0 = 0
+[trace_headers @ 0x564ba3e45240] 18          cabac_init_idc                                            010 = 1
+[trace_headers @ 0x564ba3e45240] 21          slice_qp_delta                                        0001100 = 6
+[trace_headers @ 0x564ba3e45240] 28          cabac_alignment_one_bit                                     1 = 1
+[trace_headers @ 0x564ba3e45240] 29          cabac_alignment_one_bit                                     1 = 1
+[trace_headers @ 0x564ba3e45240] 30          cabac_alignment_one_bit                                     1 = 1
+[trace_headers @ 0x564ba3e45240] 31          cabac_alignment_one_bit                                     1 = 1
+No more output streams to write to, finishing.
+[out#0/null @ 0x564ba3d68bc0] All streams finished
+[out#0/null @ 0x564ba3d68bc0] Terminating muxer thread
+[out#0/null @ 0x564ba3d68bc0] Output file #0 (pipe:):
+[out#0/null @ 0x564ba3d68bc0]   Output stream #0:0 (video): 50 packets muxed (363040 bytes); 
+[out#0/null @ 0x564ba3d68bc0]   Total: 50 packets (363040 bytes) muxed
+[out#0/null @ 0x564ba3d68bc0] video:355kB audio:0kB subtitle:0kB other streams:0kB global headers:0kB muxing overhead: unknown
+size=N/A time=00:00:01.96 bitrate=N/A speed= 593x    
+[in#0/mov,mp4,m4a,3gp,3g2,mj2 @ 0x564ba3d60b80] Input file #0 (/tmp/ivo-mp4-corpus/whatsapp-fragmented-excerpt.mp4):
+[in#0/mov,mp4,m4a,3gp,3g2,mj2 @ 0x564ba3d60b80]   Input stream #0:0 (video): 50 packets read (363040 bytes); 
+[in#0/mov,mp4,m4a,3gp,3g2,mj2 @ 0x564ba3d60b80]   Total: 50 packets (363040 bytes) demuxed
+[AVIOContext @ 0x564ba3d69440] Statistics: 450944 bytes read, 4 seeks

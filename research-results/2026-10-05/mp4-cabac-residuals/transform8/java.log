@@ -1,0 +1,5 @@
+PASS residue_prefix_replay macroblocks=59 bits=1621 decisions=1213; uses observed probability states and final offset; not a coefficient encoder
+DECODED sub_mb_types=0 counts={}; external_geometry_comparison_required
+PASS mb_type_categories=59 counts={P_L0_16x16=59} mismatches=0; intra16 prediction/cbp not independently checked
+PASS frames=60 skip_flags=61 skip_ones=2 termination_flags=2 terminal_ones=0 longest_skip_run=1 mismatches=0 external_reference=FFmpeg_mb_type prefix=true
+NOT_DONE: remaining macroblocks, CABAC encoder, byte-exact CABAC roundtrip, new compression measurement

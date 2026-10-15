@@ -1,0 +1,21 @@
+{
+  "corpus_files": 26,
+  "exact_new_archives": 104,
+  "wins": 15,
+  "losses": 11,
+  "extra_bytes_with_measured_selection": 24960,
+  "field_only_wins": 10,
+  "predictor_extra_bytes_after_field_only": 701,
+  "original_sum": 8585464,
+  "previous_sum": 8224455,
+  "selected_sum": 8199495,
+  "tao_original": 95634889,
+  "tao_previous": 87587830,
+  "tao_candidates": {
+    "0": 87538951,
+    "1": 88223205,
+    "2": 88283917,
+    "3": 87538972
+  },
+  "tao_gain": 48879
+}

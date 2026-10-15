@@ -1,0 +1,6 @@
+CSV file,mode,original,baseline,candidate,retained,scans,progressive_scans,blocks,symbols,correction_bits,coefficient_hash,exact
+Exception in thread "main" java.lang.IllegalArgumentException: Expected JPEG marker at offset 1292
+	at io.ivo.jpeg.JpegIrCodec.parse(JpegIrCodec.java:115)
+	at io.ivo.jpeg.JpegIrCodec.split(JpegIrCodec.java:37)
+	at io.ivo.jpeg.ProgressiveScanCodec.encode(ProgressiveScanCodec.java:20)
+	at io.ivo.jpeg.ProgressiveScanMeasure.main(ProgressiveScanMeasure.java:10)

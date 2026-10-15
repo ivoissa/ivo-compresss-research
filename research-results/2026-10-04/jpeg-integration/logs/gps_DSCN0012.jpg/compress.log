@@ -1,0 +1,9 @@
+/tmp/ivo-jpeg-amplitude-heldout/gps_DSCN0012.jpg: 159,137 -> 142,371 bytes (89.46%), engine=JPEG_NEIGHBOUR_RESEARCH
+Engine                         valid   payload       IVO       ms  note
+STORE                          true      159,137   159,198        2  verbatim
+N&C contextuel                 true      203,475   203,536      339  PPM-like sparse contexts, order<=4
+REF + N&C                      true      201,996   202,057      363  REF minMatch=8 then N&C; REF size=153743
+JPEG oracle exact (structure/scans) true      156,632   156,693      305  JPEG exact; segments=8; scans=1; progressive=false; meta=15586; entropy=143551; modes=[0, 2, 0]
+JPEG frozen portfolio (ABC, spatial, directional, similarity) true      144,180   144,241     3540  DCT coefficients + exact entropy patch
+JPEG boundary portfolio (physical + presence control) true      142,310   142,371     1576  Causal AC category/presence; mode=9; exact entropy patch
+Written: /tmp/ivo-jpeg-integration-results/gps_DSCN0012.jpg/automatic.ivo

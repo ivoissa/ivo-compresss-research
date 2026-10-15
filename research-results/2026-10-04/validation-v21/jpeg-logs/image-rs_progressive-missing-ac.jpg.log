@@ -1,0 +1,3 @@
+CSV file,mode,original,baseline,candidate,retained,scans,progressive_scans,blocks,symbols,correction_bits,coefficient_hash,exact
+CSV image-rs_progressive-missing-ac.jpg,0,139,202,345,202,1,1,1,1,0,cbbe6d548091d977,true
+CSV image-rs_progressive-missing-ac.jpg,1,139,202,345,202,1,1,1,1,0,cbbe6d548091d977,true

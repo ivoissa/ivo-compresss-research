@@ -1,0 +1,9 @@
+  zero/EOB(nd0): 423 bytes
+  nd1: 635 bytes
+  nd2: 502 bytes
+  nd3-5: 494 bytes
+  nd6-15: 349 bytes
+  sign: 582 bytes
+  modes: 290 bytes
+meta(deflated)=55 payload=3544
+original=3932 compressed=3604 delta=-8.34% GAIN | identical=true | comp 211 ms, decomp 123 ms

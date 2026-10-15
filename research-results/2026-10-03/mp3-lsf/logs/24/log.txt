@@ -1,0 +1,7 @@
+INPUT /tmp/ivo-minimp3/vectors/l3-test45.bit bytes=391105 sha=384ccca2d558a3505bb2e7c2860e12aa3b651473ace655cda3a2c8cfb1b2fc53 store=391163
+SIDE_PORTFOLIO direct=6362 transposed=5342 selected=true
+BASE v1=347019 v3=346000 exact=true
+MAIN_SPLIT mode=1 used_raw=373333 unused_raw=510 coded=340409
+RESULT mode=1 ivo=346003 delta_vs_v3=3 exact=true
+MAIN_SPLIT mode=2 used_raw=373041 unused_raw=803 coded=340458
+RESULT mode=2 ivo=346052 delta_vs_v3=52 exact=true

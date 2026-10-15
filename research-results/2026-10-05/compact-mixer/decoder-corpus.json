@@ -1,0 +1,43 @@
+[
+  {
+    "label": "user-22626",
+    "format": "JPEG-baseline",
+    "archive": "research-results/2026-10-05/performance-fast/user-22626/fast.ivo",
+    "source": "research-results/2026-10-05/jpeg-context-mixer/inputs/22626.jpg",
+    "source_sha256": "b553c7053ab5a57ca3451c65d6fff419c83e14c5afb0d45ea14c064029e2134b"
+  },
+  {
+    "label": "is-progressive_kitten-progressive",
+    "format": "JPEG-progressive",
+    "archive": "research-results/2026-10-05/performance-fast/is-progressive_kitten-progressive/fast.ivo",
+    "source": "research-results/2026-10-04/validation-v21/jpeg-inputs/is-progressive_kitten-progressive.jpg",
+    "source_sha256": "d9955d4b9bfd4804b911ef38c5c3d80b665377b42041ba4400fc3fb1486869b8"
+  },
+  {
+    "label": "tao-10s",
+    "format": "MP3",
+    "archive": "research-results/2026-10-05/performance-fast/tao-10s/fast.ivo",
+    "source": "research-results/2026-10-05/user-code-review/small-cases/tao-10s.mp3",
+    "source_sha256": "d7968356ef193ef8ae9ddd93d1b3e27a27819925f858e849d1221cf2dc264b97"
+  },
+  {
+    "label": "business-synthetic",
+    "format": "JSON-synthetic",
+    "archive": "research-results/2026-10-05/performance-fast/business-synthetic/fast.ivo",
+    "source": "research-results/2026-10-05/performance-fast/inputs/business-synthetic.json",
+    "source_sha256": "755e242a49a3761a11001cbadb51c126d6b3603cdbeedcb3f7f4f2242f0ae121"
+  },
+  {
+    "label": "whatsapp",
+    "format": "MP4",
+    "archive": "research-results/2026-10-05/performance-fast/whatsapp/fast.ivo",
+    "source": "/workspace/scratch/9c62166e5fd0/integration-inputs/VID-20260930-WA0003.mp4",
+    "source_sha256": "604f5646ea19d34261f0942f922399ecc90787fa244e719515e81103180998c8"
+  },
+  {
+    "label": "kitten-webp",
+    "format": "WEBP",
+    "archive": "research-results/2026-10-05/user-code-review/small-cases/kitten.ivo",
+    "source": "research-results/2026-10-05/user-code-review/small-cases/kitten.webp"
+  }
+]

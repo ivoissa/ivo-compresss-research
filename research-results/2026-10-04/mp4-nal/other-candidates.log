@@ -1,0 +1,60 @@
+RESULT h=1 mode=0 original=17203 ivo=16713 exact=true
+RESULT h=1 mode=1 original=17203 ivo=16699 exact=true
+RESULT h=1 mode=2 original=17203 ivo=16692 exact=true
+RESULT h=2 mode=0 original=17203 ivo=16706 exact=true
+RESULT h=2 mode=1 original=17203 ivo=16692 exact=true
+RESULT h=2 mode=2 original=17203 ivo=16685 exact=true
+/tmp/ivo-mp4-corpus/detail-h264.mp4: 17,203 -> 16,704 bytes (97.10%), engine=MP4_V3
+Engine                         valid   payload       IVO       ms  note
+STORE                          true       17,203    17,263        1  verbatim
+N&C contextuel                 true       24,584    24,644       84  PPM-like sparse contexts, order<=4
+REF + N&C                      true       24,662    24,722       65  REF minMatch=8 then N&C; REF size=16993
+MP4 V1 (boîtes + cordes exactes) true       16,666    16,726      152  top-level ISO-BMFF layout + four exact cords
+MP4 V2 (échantillons + cordes exactes) true       16,677    16,737      126  sample map + video/audio/other/gap exact cords
+MP4 V3 (échantillons + NAL exacts) true       16,644    16,704      121  sample map + reversible NAL length/header/payload cords
+Written: /tmp/ivo-baseline-detail-h264.ivo
+RESULT h=1 mode=0 original=16614 ivo=15019 exact=true
+RESULT h=1 mode=1 original=16614 ivo=15006 exact=true
+RESULT h=1 mode=2 original=16614 ivo=15002 exact=true
+RESULT h=2 mode=0 original=16614 ivo=15002 exact=true
+RESULT h=2 mode=1 original=16614 ivo=14989 exact=true
+RESULT h=2 mode=2 original=16614 ivo=14985 exact=true
+/tmp/ivo-mp4-corpus/detail-hevc.mp4: 16,614 -> 15,000 bytes (90.29%), engine=MP4_V3
+Engine                         valid   payload       IVO       ms  note
+STORE                          true       16,614    16,674        2  verbatim
+N&C contextuel                 true       21,839    21,899       65  PPM-like sparse contexts, order<=4
+REF + N&C                      true       22,100    22,160       87  REF minMatch=8 then N&C; REF size=16221
+MP4 V1 (boîtes + cordes exactes) true       14,978    15,037      164  top-level ISO-BMFF layout + four exact cords
+MP4 V2 (échantillons + cordes exactes) true       14,989    15,048      109  sample map + video/audio/other/gap exact cords
+MP4 V3 (échantillons + NAL exacts) true       14,941    15,000      118  sample map + reversible NAL length/header/payload cords
+Written: /tmp/ivo-baseline-detail-hevc.ivo
+RESULT h=1 mode=0 original=2143 ivo=1337 exact=true
+RESULT h=1 mode=1 original=2143 ivo=1327 exact=true
+RESULT h=1 mode=2 original=2143 ivo=1333 exact=true
+RESULT h=2 mode=0 original=2143 ivo=1331 exact=true
+RESULT h=2 mode=1 original=2143 ivo=1321 exact=true
+RESULT h=2 mode=2 original=2143 ivo=1327 exact=true
+/tmp/ivo-mp4-corpus/smooth-h264.mp4: 2,143 -> 1,318 bytes (61.50%), engine=MP4_V1
+Engine                         valid   payload       IVO       ms  note
+STORE                          true        2,143     2,201        1  verbatim
+N&C contextuel                 true        1,496     1,554       16  PPM-like sparse contexts, order<=4
+REF + N&C                      true        1,577     1,635       17  REF minMatch=8 then N&C; REF size=1781
+MP4 V1 (boîtes + cordes exactes) true        1,260     1,318       60  top-level ISO-BMFF layout + four exact cords
+MP4 V2 (échantillons + cordes exactes) true        1,271     1,329       25  sample map + video/audio/other/gap exact cords
+MP4 V3 (échantillons + NAL exacts) true        1,271     1,329       18  sample map + reversible NAL length/header/payload cords
+Written: /tmp/ivo-baseline-smooth-h264.ivo
+RESULT h=1 mode=0 original=389896 ivo=388597 exact=true
+RESULT h=1 mode=1 original=389896 ivo=388569 exact=true
+RESULT h=1 mode=2 original=389896 ivo=388570 exact=true
+RESULT h=2 mode=0 original=389896 ivo=388554 exact=true
+RESULT h=2 mode=1 original=389896 ivo=388526 exact=true
+RESULT h=2 mode=2 original=389896 ivo=388527 exact=true
+/tmp/ivo-mp4-corpus/whatsapp-fragmented-excerpt.mp4: 389,896 -> 388,552 bytes (99.66%), engine=MP4_V3
+Engine                         valid   payload       IVO       ms  note
+STORE                          true      389,896   389,972        5  verbatim
+N&C contextuel                 true      470,227   470,303      539  PPM-like sparse contexts, order<=4
+REF + N&C                      true      469,767   469,843      544  REF minMatch=8 then N&C; REF size=389239
+MP4 V1 (boîtes + cordes exactes) true      388,562   388,638     1256  top-level ISO-BMFF layout + four exact cords
+MP4 V2 (échantillons + cordes exactes) true      388,579   388,655     1352  sample map + video/audio/other/gap exact cords
+MP4 V3 (échantillons + NAL exacts) true      388,476   388,552     1342  sample map + reversible NAL length/header/payload cords
+Written: /tmp/ivo-baseline-whatsapp-fragmented-excerpt.ivo

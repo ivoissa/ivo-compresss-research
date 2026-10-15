@@ -1,0 +1,121 @@
+[
+  {
+    "label": "user-25060",
+    "archive_bytes": 166708,
+    "archive_identical_v28_fast": true,
+    "old_reader_exact": true,
+    "compact_reader_exact": true
+  },
+  {
+    "label": "user-25066",
+    "archive_bytes": 92560,
+    "archive_identical_v28_fast": true,
+    "old_reader_exact": true,
+    "compact_reader_exact": true
+  },
+  {
+    "label": "user-19414",
+    "archive_bytes": 160911,
+    "archive_identical_v28_fast": true,
+    "old_reader_exact": true,
+    "compact_reader_exact": true
+  },
+  {
+    "label": "user-22626",
+    "archive_bytes": 497727,
+    "archive_identical_v28_fast": true,
+    "old_reader_exact": true,
+    "compact_reader_exact": true
+  },
+  {
+    "label": "user-24792",
+    "archive_bytes": 114476,
+    "archive_identical_v28_fast": true,
+    "old_reader_exact": true,
+    "compact_reader_exact": true
+  },
+  {
+    "label": "holdout-24790",
+    "archive_bytes": 95471,
+    "archive_identical_v28_fast": true,
+    "old_reader_exact": true,
+    "compact_reader_exact": true
+  },
+  {
+    "label": "is-progressive_kitten-progressive",
+    "archive_bytes": 76496,
+    "archive_identical_v28_fast": true,
+    "old_reader_exact": true,
+    "compact_reader_exact": true
+  },
+  {
+    "label": "image-rs_tower_progressive",
+    "archive_bytes": 59542,
+    "archive_identical_v28_fast": true,
+    "old_reader_exact": true,
+    "compact_reader_exact": true
+  },
+  {
+    "label": "image-rs_progressive3",
+    "archive_bytes": 84911,
+    "archive_identical_v28_fast": true,
+    "old_reader_exact": true,
+    "compact_reader_exact": true
+  },
+  {
+    "label": "image-rs_jpg-progressive",
+    "archive_bytes": 884,
+    "archive_identical_v28_fast": true,
+    "old_reader_exact": true,
+    "compact_reader_exact": true
+  },
+  {
+    "label": "pytorch_dog1",
+    "archive_bytes": 87444,
+    "archive_identical_v28_fast": true,
+    "old_reader_exact": true,
+    "compact_reader_exact": true
+  },
+  {
+    "label": "pytorch_dog2",
+    "archive_bytes": 81761,
+    "archive_identical_v28_fast": true,
+    "old_reader_exact": true,
+    "compact_reader_exact": true
+  },
+  {
+    "label": "tao-10s",
+    "archive_bytes": 320146,
+    "archive_identical_v28_fast": true,
+    "old_reader_exact": true,
+    "compact_reader_exact": true
+  },
+  {
+    "label": "business-synthetic",
+    "archive_bytes": 6088,
+    "archive_identical_v28_fast": true,
+    "old_reader_exact": true,
+    "compact_reader_exact": true
+  },
+  {
+    "label": "progressive-report",
+    "archive_bytes": 554,
+    "archive_identical_v28_fast": true,
+    "old_reader_exact": true,
+    "compact_reader_exact": true
+  },
+  {
+    "label": "whatsapp",
+    "archive_bytes": 4777717,
+    "archive_identical_v28_fast": true,
+    "old_reader_exact": true,
+    "compact_reader_exact": true
+  },
+  {
+    "label": "fixture-3-tradeoff",
+    "archive_bytes": 2996,
+    "archive_identical_v28_fast": true,
+    "old_reader_exact": true,
+    "compact_reader_exact": true
+  }
+]

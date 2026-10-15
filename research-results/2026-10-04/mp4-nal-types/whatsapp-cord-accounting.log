@@ -1,0 +1,11 @@
+CORD layout raw=389 coded=337
+CORD box headers raw=32 coded=34
+CORD metadata raw=10458 coded=4116
+CORD NAL lengths raw=1308 coded=877
+CORD NAL headers raw=1418 coded=60
+CORD video payload raw=5064386 coded=5061850
+CORD audio raw=348513 coded=348031
+CORD other raw=0 coded=2
+CORD gaps raw=0 coded=2
+CORD trailing raw=0 coded=2
+TYPE_HIST AVC={1=706, 5=3} HEVC={32=706, 50=3}; codec interpretation must match source

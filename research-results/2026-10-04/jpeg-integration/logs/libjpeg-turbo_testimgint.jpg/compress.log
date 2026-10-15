@@ -1,0 +1,9 @@
+/tmp/ivo-jpeg-external-inputs/libjpeg-turbo_testimgint.jpg: 5,756 -> 5,656 bytes (98.26%), engine=JPEG_NEIGHBOUR_RESEARCH
+Engine                         valid   payload       IVO       ms  note
+STORE                          true        5,756     5,827        1  verbatim
+N&C contextuel                 true        7,859     7,930       48  PPM-like sparse contexts, order<=4
+REF + N&C                      true        7,814     7,885       48  REF minMatch=8 then N&C; REF size=5613
+JPEG oracle exact (structure/scans) true        5,765     5,836       47  JPEG exact; segments=11; scans=1; progressive=false; meta=625; entropy=5131; modes=[1, 1, 0]
+JPEG frozen portfolio (ABC, spatial, directional, similarity) true        6,149     6,220      376  DCT coefficients + exact entropy patch
+JPEG boundary portfolio (physical + presence control) true        5,585     5,656      109  Causal AC category/presence; mode=9; exact entropy patch
+Written: /tmp/ivo-jpeg-integration-results/libjpeg-turbo_testimgint.jpg/automatic.ivo

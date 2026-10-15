@@ -1,0 +1,1 @@
+frames=10 declared_bits=73555 back_sum=4178

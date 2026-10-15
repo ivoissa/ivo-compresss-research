@@ -1,0 +1,68 @@
+--- a/Mp4.java
++++ b/Mp4.java
+@@ -32,7 +32,7 @@
+             if (z >= 2 && v <= 3) { o[n++] = 3; z = 0; }
+             o[n++] = (byte) v; z = v == 0 ? z + 1 : 0;
+         }
+-        if (n > 0 && o[n - 1] == 0) o[n++] = 3;
++        // Preserve trailing zero bytes; eligibility still requires exact original EBSP.
+         return Arrays.copyOf(o, n);
+     }
+ 
+@@ -48,7 +48,7 @@
+             if (r.u1() == 1) throw new RuntimeException("scaling matrix");
+         }
+         p.log2Fn = r.ue() + 4; p.pocType = r.ue();
+-        if (p.pocType == 0) p.log2Poc = r.ue() + 4; else throw new RuntimeException("poc type");
++        if (p.pocType == 0) p.log2Poc = r.ue() + 4; else if(p.pocType != 2) throw new RuntimeException("poc type");
+         r.ue(); r.u1(); p.mbw = r.ue() + 1; p.mbh = r.ue() + 1;
+         if (r.u1() != 1) throw new RuntimeException("interlaced");
+     }
+@@ -68,7 +68,7 @@
+         s.firstMb = r.ue(); int st = r.ue() % 5; if (st != 0 && st != 2) throw new RuntimeException("slice type " + st); s.type = st;
+         r.ue(); r.u(p.log2Fn);
+         if (s.nalType == 5) r.ue();
+-        r.u(p.log2Poc); if (p.bottomPoc) r.se();
++        if(p.pocType == 0) { r.u(p.log2Poc); if (p.bottomPoc) r.se(); }
+         if (p.redundant) r.ue();
+         s.numRef = p.numRefDef;
+         if (st == 0) {
+@@ -579,12 +579,14 @@
+                     int L = cab.length, avail = rbsp.length - sh.dataStart; if (L > avail) throw new RuntimeException("short");
+                     for (int i = 0; i < L; i++) if (cab[i] != rbsp[sh.dataStart + i]) throw new RuntimeException("cabac mismatch");
+                     byte[] tail = Arrays.copyOfRange(rbsp, sh.dataStart + L, rbsp.length);
+-                    byte[] esc = escape(rbsp); if (esc.length != len - 1) throw new RuntimeException("escape length");
+-                    for (int i = 0; i < esc.length; i++) if (esc[i] != d[np + 1 + i]) throw new RuntimeException("escape mismatch");
++                    byte[] esc = escape(rbsp); int common=0;
++                    while(common<Math.min(esc.length,len-1) && esc[common]==d[np+1+common])common++;
++                    byte[] ebspFix=Arrays.copyOfRange(d,np+1+common,np+len);
+                     real.slice(sh, rbsp);
+                     skel.write(d, cursor, np - cursor); cursor = np + len;
+                     wv(recs, skel.size() - prevSkel); prevSkel = skel.size();
+                     recs.write(hdr); wv(recs, sh.dataStart); recs.write(rbsp, 0, sh.dataStart); wv(recs, tail.length); recs.write(tail);
++                    wv(recs,common);wv(recs,ebspFix.length);recs.write(ebspFix);
+                     hdrBytes += sh.dataStart; tailBytes += tail.length; slicedBytes += len; ok++;
+                     if (ok % 1000 == 0) System.err.printf("  %d slices, %.0fs%n", ok, (System.currentTimeMillis() - t0) / 1000.0);
+                 } catch (RuntimeException ex) { fail++; if (fail <= 3) System.err.println("slice fallback: " + ex.getMessage()); }
+@@ -600,7 +602,7 @@
+         String[] nm = {"skip", "mbtype", "mvd", "ref", "intra/chroma/t8", "cbp", "qpdelta", "cbf", "sig", "last", "abs", "bypass", "term"};
+         StringBuilder sb = new StringBuilder("model bytes by group:"); for (int k = 0; k < 13; k++) sb.append(String.format(" %s=%.0f", nm[k], k == 11 ? real.cost[k] / 8 : real.cost[k] / 8)); System.err.println(sb);
+         System.err.printf("meta(deflated)=%d (raw %d) payload=%d%n", z.size(), mo.size(), payload.length);
+-        ByteArrayOutputStream out = new ByteArrayOutputStream(); out.write('M'); out.write('4'); out.write('V'); out.write('1'); wv(out, z.size()); out.write(z.toByteArray()); out.write(payload);
++        ByteArrayOutputStream out = new ByteArrayOutputStream(); out.write('M'); out.write('4'); out.write('V'); out.write('2'); wv(out, z.size()); out.write(z.toByteArray()); out.write(payload);
+         return out.toByteArray();
+     }
+ 
+@@ -616,9 +618,11 @@
+         for (int i = 0; i < n; i++) {
+             skelPos += (int) rv(m); o.write(skel, cur, skelPos - cur); cur = skelPos;
+             int hdr = m.read(); int hl = (int) rv(m); byte[] hb = new byte[hl]; m.read(hb); int tl = (int) rv(m); byte[] tail = new byte[tl]; m.read(tail);
++            int common=(int)rv(m),fl=(int)rv(m);byte[] fix=new byte[fl];m.read(fix);
+             Sh sh = parseSlice(hb, hdr, ps); real.slice(sh, null); byte[] cab = real.ce.bytes();
+             byte[] rb = new byte[hl + cab.length + tl]; System.arraycopy(hb, 0, rb, 0, hl); System.arraycopy(cab, 0, rb, hl, cab.length); System.arraycopy(tail, 0, rb, hl + cab.length, tl);
+-            o.write(hdr); o.write(escape(rb));
++            byte[] esc=escape(rb);if(common<0||common>esc.length)throw new IllegalArgumentException("EBSP fixup prefix");
++            o.write(hdr);o.write(esc,0,common);o.write(fix);
+         }
+         o.write(skel, cur, skel.length - cur);
+         return o.toByteArray();

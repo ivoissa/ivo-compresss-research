@@ -1,0 +1,1570 @@
+ffmpeg version 6.1.1 Copyright (c) 2000-2023 the FFmpeg developers
+  built with gcc 13 (Ubuntu 13.3.0-6ubuntu2~24.04)
+  configuration: --disable-everything --disable-doc --disable-x86asm --disable-network --disable-ffplay --disable-ffprobe --enable-ffmpeg --enable-decoder=h264 --enable-parser=h264 --enable-demuxer=h264 --enable-protocol=file --enable-muxer=null --enable-encoder=wrapped_avframe --enable-filter=null --enable-filter=buffer --enable-filter=buffersink
+  libavutil      58. 29.100 / 58. 29.100
+  libavcodec     60. 31.102 / 60. 31.102
+  libavformat    60. 16.100 / 60. 16.100
+  libavdevice    60.  3.100 / 60.  3.100
+  libavfilter     9. 12.100 /  9. 12.100
+  libswscale      7.  5.100 /  7.  5.100
+  libswresample   4. 12.100 /  4. 12.100
+Splitting the commandline.
+Reading option '-v' ... matched as option 'v' (set logging level) with argument 'debug'.
+Reading option '-threads' ... matched as AVOption 'threads' with argument '1'.
+Reading option '-probesize' ... matched as AVOption 'probesize' with argument '32'.
+Reading option '-analyzeduration' ... matched as AVOption 'analyzeduration' with argument '0'.
+Reading option '-f' ... matched as option 'f' (force format) with argument 'h264'.
+Reading option '-i' ... matched as output url with argument 'recap/ivo-java-complet-2026-10-04/research-results/2026-10-04/mp4-cabac-motion/detail/source.h264'.
+Reading option '-f' ... matched as option 'f' (force format) with argument 'null'.
+Reading option '-' ... matched as output url.
+Finished splitting the commandline.
+Parsing a group of options: global .
+Applying option v (set logging level) with argument debug.
+Successfully parsed a group of options.
+Parsing a group of options: input url recap/ivo-java-complet-2026-10-04/research-results/2026-10-04/mp4-cabac-motion/detail/source.h264.
+Applying option f (force format) with argument h264.
+Successfully parsed a group of options.
+Opening an input file: recap/ivo-java-complet-2026-10-04/research-results/2026-10-04/mp4-cabac-motion/detail/source.h264.
+[h264 @ 0x556be4e5f6c0] Opening 'recap/ivo-java-complet-2026-10-04/research-results/2026-10-04/mp4-cabac-motion/detail/source.h264' for reading
+[file @ 0x556be4e5fe40] Setting default whitelist 'file,crypto,data'
+[h264 @ 0x556be4e5f6c0] Before avformat_find_stream_info() pos: 0 bytes read:9427 seeks:0 nb_streams:1
+[h264 @ 0x556be4e68680] Decoding VUI
+[h264 @ 0x556be4e68680] nal_unit_type: 6(SEI), nal_ref_idc: 0
+[h264 @ 0x556be4e68680] nal_unit_type: 7(SPS), nal_ref_idc: 3
+[h264 @ 0x556be4e68680] nal_unit_type: 8(PPS), nal_ref_idc: 3
+[h264 @ 0x556be4e68680] nal_unit_type: 5(IDR), nal_ref_idc: 3
+[h264 @ 0x556be4e68680] Decoding VUI
+[h264 @ 0x556be4e68680] Format yuv420p chosen by get_format().
+[h264 @ 0x556be4e68680] Reinit context to 96x96, pix_fmt: yuv420p
+[h264 @ 0x556be4e68680] IVO_FRAME
+[h264 @ 0x556be4e5f6c0] Probe buffer size limit of 32 bytes reached
+[h264 @ 0x556be4e5f6c0] Stream #0: not enough frames to estimate rate; consider increasing probesize
+[h264 @ 0x556be4e5f6c0] After avformat_find_stream_info() pos: 2048 bytes read:9427 seeks:0 frames:1
+Input #0, h264, from 'recap/ivo-java-complet-2026-10-04/research-results/2026-10-04/mp4-cabac-motion/detail/source.h264':
+  Duration: N/A, bitrate: N/A
+  Stream #0:0, 1, 1/1200000: Video: h264 (High), 1 reference frame, yuv420p(progressive, left), 96x96 [SAR 1:1 DAR 1:1], 0/1, 25 fps, 30 tbr, 1200k tbn
+Successfully opened the file.
+Parsing a group of options: output url -.
+Applying option f (force format) with argument null.
+Successfully parsed a group of options.
+Opening an output file: -.
+[out#0/null @ 0x556be4e6c940] No explicit maps, mapping streams automatically...
+[vost#0:0/wrapped_avframe @ 0x556be4e8d900] Created video stream from input stream 0:0
+Successfully opened the file.
+Stream mapping:
+  Stream #0:0 -> #0:0 (h264 (native) -> wrapped_avframe (native))
+Press [q] to stop, [?] for help
+[h264 @ 0x556be4e863c0] nal_unit_type: 6(SEI), nal_ref_idc: 0
+[h264 @ 0x556be4e863c0] nal_unit_type: 7(SPS), nal_ref_idc: 3
+[h264 @ 0x556be4e863c0] nal_unit_type: 8(PPS), nal_ref_idc: 3
+[h264 @ 0x556be4e863c0] nal_unit_type: 5(IDR), nal_ref_idc: 3
+[h264 @ 0x556be4e863c0] Decoding VUI
+[h264 @ 0x556be4e863c0] Format yuv420p chosen by get_format().
+[h264 @ 0x556be4e863c0] Reinit context to 96x96, pix_fmt: yuv420p
+[h264 @ 0x556be4e863c0] IVO_FRAME
+detected 9 logical cores
+[graph 0 input from stream 0:0 @ 0x556be4e8e9c0] Setting 'video_size' to value '96x96'
+[graph 0 input from stream 0:0 @ 0x556be4e8e9c0] Setting 'pix_fmt' to value '0'
+[graph 0 input from stream 0:0 @ 0x556be4e8e9c0] Setting 'time_base' to value '1/1200000'
+[graph 0 input from stream 0:0 @ 0x556be4e8e9c0] Setting 'pixel_aspect' to value '1/1'
+[graph 0 input from stream 0:0 @ 0x556be4e8e9c0] Setting 'frame_rate' to value '15/1'
+[graph 0 input from stream 0:0 @ 0x556be4e8e9c0] w:96 h:96 pixfmt:yuv420p tb:1/1200000 fr:15/1 sar:1/1
+[AVFilterGraph @ 0x556be4e5fd00] query_formats: 3 queried, 2 merged, 0 already done, 0 delayed
+Output #0, null, to 'pipe:':
+  Metadata:
+    encoder         : Lavf60.16.100
+  Stream #0:0, 0, 1/15: Video: wrapped_avframe, 1 reference frame, yuv420p(progressive, left), 96x96 (0x0) [SAR 1:1 DAR 1:1], 0/1, q=2-31, 200 kb/s, 15 fps, 15 tbn
+    Metadata:
+      encoder         : Lavc60.31.102 wrapped_avframe
+frame=    0 fps=0.0 q=-0.0 size=       0kB time=00:00:00.00 bitrate=N/A speed=N/A    [h264 @ 0x556be4e863c0] nal_unit_type: 1(Coded slice of a non-IDR picture), nal_ref_idc: 2
+[h264 @ 0x556be4e863c0] IVO_FRAME
+[h264 @ 0x556be4e863c0] IVO_SUB 0 0 0 0
+[h264 @ 0x556be4e863c0] IVO_SUB 0 0 1 0
+[h264 @ 0x556be4e863c0] IVO_SUB 0 0 2 0
+[h264 @ 0x556be4e863c0] IVO_SUB 0 0 3 0
+[h264 @ 0x556be4e863c0] IVO_MOTION 0 0 0 0 0 7 -24 0 0
+[h264 @ 0x556be4e863c0] IVO_MOTION 0 0 0 4 0 1 0 7 24
+[h264 @ 0x556be4e863c0] IVO_MOTION 0 0 0 8 0 -7 24 7 24
+[h264 @ 0x556be4e863c0] IVO_MOTION 0 0 0 12 0 57 24 8 24
+[h264 @ 0x556be4e863c0] IVO_SUB 1 0 0 0
+[h264 @ 0x556be4e863c0] IVO_SUB 1 0 1 0
+[h264 @ 0x556be4e863c0] IVO_SUB 1 0 2 3
+[h264 @ 0x556be4e863c0] IVO_SUB 1 0 3 1
+[h264 @ 0x556be4e863c0] IVO_MOTION 1 0 0 0 0 0 0 1 0
+[h264 @ 0x556be4e863c0] IVO_MOTION 1 0 0 4 0 0 0 0 0
+[h264 @ 0x556be4e863c0] IVO_MOTION 1 0 0 8 0 32 24 57 24
+[h264 @ 0x556be4e863c0] IVO_MOTION 1 0 0 9 0 16 24 32 24
+[h264 @ 0x556be4e863c0] IVO_MOTION 1 0 0 10 0 0 -8 89 48
+[h264 @ 0x556be4e863c0] IVO_MOTION 1 0 0 11 0 -16 -16 16 32
+[h264 @ 0x556be4e863c0] IVO_MOTION 1 0 0 12 0 0 24 16 24
+[h264 @ 0x556be4e863c0] IVO_MOTION 1 0 0 14 0 -16 -16 16 40
+[h264 @ 0x556be4e863c0] IVO_SUB 2 0 0 0
+[h264 @ 0x556be4e863c0] IVO_SUB 2 0 1 0
+[h264 @ 0x556be4e863c0] IVO_SUB 2 0 2 1
+[h264 @ 0x556be4e863c0] IVO_SUB 2 0 3 0
+[h264 @ 0x556be4e863c0] IVO_MOTION 2 0 0 0 0 16 0 0 0
+[h264 @ 0x556be4e863c0] IVO_MOTION 2 0 0 4 0 -24 -1 16 0
+[h264 @ 0x556be4e863c0] IVO_MOTION 2 0 0 8 0 0 24 16 24
+[h264 @ 0x556be4e863c0] IVO_MOTION 2 0 0 10 0 0 -8 16 40
+[h264 @ 0x556be4e863c0] IVO_MOTION 2 0 0 12 0 -2 24 24 25
+[h264 @ 0x556be4e863c0] IVO_SUB 3 0 0 3
+[h264 @ 0x556be4e863c0] IVO_SUB 3 0 1 1
+[h264 @ 0x556be4e863c0] IVO_SUB 3 0 2 1
+[h264 @ 0x556be4e863c0] IVO_SUB 3 0 3 0
+[h264 @ 0x556be4e863c0] IVO_MOTION 3 0 0 0 0 0 0 24 1
+[h264 @ 0x556be4e863c0] IVO_MOTION 3 0 0 1 0 -8 21 0 0
+[h264 @ 0x556be4e863c0] IVO_MOTION 3 0 0 2 0 0 0 24 1
+[h264 @ 0x556be4e863c0] IVO_MOTION 3 0 0 3 0 0 17 8 21
+[h264 @ 0x556be4e863c0] IVO_MOTION 3 0 0 4 0 8 7 8 21
+[h264 @ 0x556be4e863c0] IVO_MOTION 3 0 0 6 0 0 -4 8 24
+[h264 @ 0x556be4e863c0] IVO_MOTION 3 0 0 8 0 64 8 2 24
+[h264 @ 0x556be4e863c0] IVO_MOTION 3 0 0 10 0 0 0 66 32
+[h264 @ 0x556be4e863c0] IVO_MOTION 3 0 0 12 0 64 8 64 12
+[h264 @ 0x556be4e863c0] IVO_MOTION 4 0 0 0 0 0 -31 8 7
+[h264 @ 0x556be4e863c0] IVO_MOTION 5 0 0 0 0 0 0 0 31
+[h264 @ 0x556be4e863c0] IVO_MOTION 1 1 0 0 0 0 0 0 8
+[h264 @ 0x556be4e863c0] IVO_MOTION 1 1 0 4 0 -8 -16 16 16
+[h264 @ 0x556be4e863c0] IVO_MOTION 2 1 0 0 0 -6 -16 8 24
+[h264 @ 0x556be4e863c0] IVO_MOTION 3 1 0 0 0 0 0 6 16
+[h264 @ 0x556be4e863c0] IVO_MOTION 4 1 0 0 0 0 4 0 31
+[h264 @ 0x556be4e863c0] IVO_MOTION 5 1 0 0 0 0 4 0 4
+[h264 @ 0x556be4e863c0] IVO_MOTION 2 2 0 0 0 0 0 6 16
+[h264 @ 0x556be4e863c0] IVO_MOTION 4 2 0 0 0 0 0 0 4
+[h264 @ 0x556be4e863c0] IVO_MOTION 5 2 0 0 0 0 0 0 4
+[h264 @ 0x556be4e863c0] IVO_MOTION 2 3 0 0 0 0 0 0 0
+[h264 @ 0x556be4e863c0] IVO_MOTION 2 4 0 0 0 0 0 0 0
+[h264 @ 0x556be4e863c0] IVO_MOTION 2 5 0 0 0 0 0 0 0
+[h264 @ 0x556be4e863c0] nal_unit_type: 1(Coded slice of a non-IDR picture), nal_ref_idc: 2
+[h264 @ 0x556be4e863c0] IVO_FRAME
+[h264 @ 0x556be4e863c0] IVO_MOTION 0 0 0 0 0 48 0 0 0
+[h264 @ 0x556be4e863c0] IVO_SUB 1 0 0 3
+[h264 @ 0x556be4e863c0] IVO_SUB 1 0 1 3
+[h264 @ 0x556be4e863c0] IVO_SUB 1 0 2 1
+[h264 @ 0x556be4e863c0] IVO_SUB 1 0 3 0
+[h264 @ 0x556be4e863c0] IVO_MOTION 1 0 0 0 0 0 -12 48 0
+[h264 @ 0x556be4e863c0] IVO_MOTION 1 0 0 1 0 0 0 0 12
+[h264 @ 0x556be4e863c0] IVO_MOTION 1 0 0 2 0 -40 0 48 12
+[h264 @ 0x556be4e863c0] IVO_MOTION 1 0 0 3 0 1 0 40 0
+[h264 @ 0x556be4e863c0] IVO_MOTION 1 0 0 4 0 0 0 0 0
+[h264 @ 0x556be4e863c0] IVO_MOTION 1 0 0 5 0 0 0 0 0
+[h264 @ 0x556be4e863c0] IVO_MOTION 1 0 0 6 0 -1 0 1 0
+[h264 @ 0x556be4e863c0] IVO_MOTION 1 0 0 7 0 0 0 1 0
+[h264 @ 0x556be4e863c0] IVO_MOTION 1 0 0 8 0 -40 20 88 0
+[h264 @ 0x556be4e863c0] IVO_MOTION 1 0 0 10 0 -41 -8 88 20
+[h264 @ 0x556be4e863c0] IVO_MOTION 1 0 0 12 0 -42 12 41 20
+[h264 @ 0x556be4e863c0] IVO_MOTION 2 0 0 0 0 -48 -1 0 0
+[h264 @ 0x556be4e863c0] IVO_MOTION 2 0 0 8 0 3 0 90 13
+[h264 @ 0x556be4e863c0] IVO_SUB 3 0 0 2
+[h264 @ 0x556be4e863c0] IVO_SUB 3 0 1 2
+[h264 @ 0x556be4e863c0] IVO_SUB 3 0 2 0
+[h264 @ 0x556be4e863c0] IVO_SUB 3 0 3 0
+[h264 @ 0x556be4e863c0] IVO_MOTION 3 0 0 0 0 0 0 48 1
+[h264 @ 0x556be4e863c0] IVO_MOTION 3 0 0 1 0 12 13 0 0
+[h264 @ 0x556be4e863c0] IVO_MOTION 3 0 0 4 0 -20 0 12 13
+[h264 @ 0x556be4e863c0] IVO_MOTION 3 0 0 5 0 8 0 20 0
+[h264 @ 0x556be4e863c0] IVO_MOTION 3 0 0 8 0 68 0 3 0
+[h264 @ 0x556be4e863c0] IVO_MOTION 3 0 0 12 0 20 0 88 0
+[h264 @ 0x556be4e863c0] IVO_MOTION 0 1 0 0 0 -48 0 48 0
+[h264 @ 0x556be4e863c0] IVO_MOTION 0 1 0 4 0 -7 -16 96 0
+[h264 @ 0x556be4e863c0] IVO_MOTION 1 1 0 0 0 -7 -16 48 24
+[h264 @ 0x556be4e863c0] IVO_MOTION 2 1 0 0 0 0 -16 10 16
+[h264 @ 0x556be4e863c0] IVO_MOTION 2 1 0 8 0 0 0 7 32
+[h264 @ 0x556be4e863c0] IVO_MOTION 3 1 0 0 0 -68 -24 68 16
+[h264 @ 0x556be4e863c0] IVO_MOTION 3 1 0 8 0 7 0 68 24
+[h264 @ 0x556be4e863c0] IVO_MOTION 4 1 0 0 0 0 -24 68 24
+[h264 @ 0x556be4e863c0] IVO_MOTION 5 1 0 0 0 0 -24 0 24
+[h264 @ 0x556be4e863c0] IVO_MOTION 1 2 0 0 0 0 0 7 16
+[h264 @ 0x556be4e863c0] IVO_MOTION 3 2 0 0 0 0 0 7 0
+[h264 @ 0x556be4e863c0] IVO_MOTION 4 2 0 0 0 0 0 0 24
+[h264 @ 0x556be4e863c0] IVO_MOTION 5 2 0 0 0 0 0 0 24
+[h264 @ 0x556be4e863c0] IVO_MOTION 1 3 0 0 0 0 0 0 0
+[h264 @ 0x556be4e863c0] IVO_MOTION 5 3 0 0 0 0 0 0 0
+[h264 @ 0x556be4e863c0] IVO_MOTION 1 4 0 0 0 0 0 0 0
+[h264 @ 0x556be4e863c0] IVO_MOTION 1 5 0 0 0 0 0 0 0
+[h264 @ 0x556be4e863c0] nal_unit_type: 1(Coded slice of a non-IDR picture), nal_ref_idc: 2
+[h264 @ 0x556be4e863c0] IVO_FRAME
+[h264 @ 0x556be4e863c0] IVO_SUB 0 0 0 3
+[h264 @ 0x556be4e863c0] IVO_SUB 0 0 1 0
+[h264 @ 0x556be4e863c0] IVO_SUB 0 0 2 1
+[h264 @ 0x556be4e863c0] IVO_SUB 0 0 3 0
+[h264 @ 0x556be4e863c0] IVO_MOTION 0 0 0 0 0 62 -8 0 0
+[h264 @ 0x556be4e863c0] IVO_MOTION 0 0 0 1 0 0 0 62 8
+[h264 @ 0x556be4e863c0] IVO_MOTION 0 0 0 2 0 -60 0 62 8
+[h264 @ 0x556be4e863c0] IVO_MOTION 0 0 0 3 0 -14 0 60 0
+[h264 @ 0x556be4e863c0] IVO_MOTION 0 0 0 4 0 -22 0 0 0
+[h264 @ 0x556be4e863c0] IVO_MOTION 0 0 0 8 0 6 16 60 0
+[h264 @ 0x556be4e863c0] IVO_MOTION 0 0 0 10 0 0 -20 6 16
+[h264 @ 0x556be4e863c0] IVO_MOTION 0 0 0 12 0 -32 16 28 16
+[h264 @ 0x556be4e863c0] IVO_MOTION 1 0 0 0 0 0 0 22 0
+[h264 @ 0x556be4e863c0] IVO_MOTION 1 0 0 8 0 39 -8 32 16
+[h264 @ 0x556be4e863c0] IVO_SUB 2 0 0 0
+[h264 @ 0x556be4e863c0] IVO_SUB 2 0 1 0
+[h264 @ 0x556be4e863c0] IVO_SUB 2 0 2 2
+[h264 @ 0x556be4e863c0] IVO_SUB 2 0 3 1
+[h264 @ 0x556be4e863c0] IVO_MOTION 2 0 0 0 0 -41 -4 0 0
+[h264 @ 0x556be4e863c0] IVO_MOTION 2 0 0 4 0 1 1 41 4
+[h264 @ 0x556be4e863c0] IVO_MOTION 2 0 0 8 0 0 98 80 12
+[h264 @ 0x556be4e863c0] IVO_MOTION 2 0 0 9 0 0 101 41 74
+[h264 @ 0x556be4e863c0] IVO_MOTION 2 0 0 12 0 1 11 1 71
+[h264 @ 0x556be4e863c0] IVO_MOTION 2 0 0 14 0 1 -1 1 81
+[h264 @ 0x556be4e863c0] IVO_SUB 3 0 0 2
+[h264 @ 0x556be4e863c0] IVO_SUB 3 0 1 3
+[h264 @ 0x556be4e863c0] IVO_SUB 3 0 2 0
+[h264 @ 0x556be4e863c0] IVO_SUB 3 0 3 0
+[h264 @ 0x556be4e863c0] IVO_MOTION 3 0 0 0 0 0 0 1 1
+[h264 @ 0x556be4e863c0] IVO_MOTION 3 0 0 1 0 -2 11 0 0
+[h264 @ 0x556be4e863c0] IVO_MOTION 3 0 0 4 0 3 1 2 11
+[h264 @ 0x556be4e863c0] IVO_MOTION 3 0 0 5 0 -1 0 3 1
+[h264 @ 0x556be4e863c0] IVO_MOTION 3 0 0 6 0 0 -1 5 12
+[h264 @ 0x556be4e863c0] IVO_MOTION 3 0 0 7 0 0 -1 1 1
+[h264 @ 0x556be4e863c0] IVO_MOTION 3 0 0 8 0 0 0 1 11
+[h264 @ 0x556be4e863c0] IVO_MOTION 3 0 0 12 0 0 0 0 1
+[h264 @ 0x556be4e863c0] IVO_MOTION 4 0 0 0 0 0 0 1 0
+[h264 @ 0x556be4e863c0] IVO_MOTION 5 0 0 0 0 0 0 0 0
+[h264 @ 0x556be4e863c0] IVO_MOTION 0 1 0 0 0 -8 -24 0 20
+[h264 @ 0x556be4e863c0] IVO_SUB 1 1 0 1
+[h264 @ 0x556be4e863c0] IVO_SUB 1 1 1 0
+[h264 @ 0x556be4e863c0] IVO_SUB 1 1 2 2
+[h264 @ 0x556be4e863c0] IVO_SUB 1 1 3 1
+[h264 @ 0x556be4e863c0] IVO_MOTION 1 1 0 0 0 -39 0 47 32
+[h264 @ 0x556be4e863c0] IVO_MOTION 1 1 0 2 0 7 0 47 24
+[h264 @ 0x556be4e863c0] IVO_MOTION 1 1 0 4 0 0 0 78 8
+[h264 @ 0x556be4e863c0] IVO_MOTION 1 1 0 8 0 -7 0 15 24
+[h264 @ 0x556be4e863c0] IVO_MOTION 1 1 0 9 0 1 0 14 0
+[h264 @ 0x556be4e863c0] IVO_MOTION 1 1 0 12 0 0 0 1 0
+[h264 @ 0x556be4e863c0] IVO_MOTION 1 1 0 14 0 -8 0 1 0
+[h264 @ 0x556be4e863c0] IVO_SUB 2 1 0 0
+[h264 @ 0x556be4e863c0] IVO_SUB 2 1 1 3
+[h264 @ 0x556be4e863c0] IVO_SUB 2 1 2 0
+[h264 @ 0x556be4e863c0] IVO_SUB 2 1 3 0
+[h264 @ 0x556be4e863c0] IVO_MOTION 2 1 0 0 0 2 -110 0 70
+[h264 @ 0x556be4e863c0] IVO_MOTION 2 1 0 4 0 0 0 3 71
+[h264 @ 0x556be4e863c0] IVO_MOTION 2 1 0 5 0 0 0 1 1
+[h264 @ 0x556be4e863c0] IVO_MOTION 2 1 0 6 0 0 0 2 70
+[h264 @ 0x556be4e863c0] IVO_MOTION 2 1 0 7 0 0 -89 0 0
+[h264 @ 0x556be4e863c0] IVO_MOTION 2 1 0 8 0 3 0 2 70
+[h264 @ 0x556be4e863c0] IVO_MOTION 2 1 0 12 0 2 0 3 0
+[h264 @ 0x556be4e863c0] IVO_MOTION 3 1 0 0 0 0 -25 0 0
+[h264 @ 0x556be4e863c0] IVO_MOTION 4 1 0 0 0 0 -25 0 25
+[h264 @ 0x556be4e863c0] IVO_MOTION 0 2 0 0 0 0 0 8 24
+[h264 @ 0x556be4e863c0] IVO_SUB 2 2 0 0
+[h264 @ 0x556be4e863c0] IVO_SUB 2 2 1 0
+[h264 @ 0x556be4e863c0] IVO_SUB 2 2 2 0
+[h264 @ 0x556be4e863c0] IVO_SUB 2 2 3 0
+[h264 @ 0x556be4e863c0] IVO_MOTION 2 2 0 0 0 -4 1 3 0
+[h264 @ 0x556be4e863c0] IVO_MOTION 2 2 0 4 0 0 0 6 1
+[h264 @ 0x556be4e863c0] IVO_MOTION 2 2 0 8 0 0 0 4 1
+[h264 @ 0x556be4e863c0] IVO_MOTION 2 2 0 12 0 0 0 0 0
+[h264 @ 0x556be4e863c0] IVO_SUB 3 2 0 0
+[h264 @ 0x556be4e863c0] IVO_SUB 3 2 1 0
+[h264 @ 0x556be4e863c0] IVO_SUB 3 2 2 0
+[h264 @ 0x556be4e863c0] IVO_SUB 3 2 3 0
+[h264 @ 0x556be4e863c0] IVO_MOTION 3 2 0 0 0 0 0 0 25
+[h264 @ 0x556be4e863c0] IVO_MOTION 3 2 0 4 0 7 -1 0 25
+[h264 @ 0x556be4e863c0] IVO_MOTION 3 2 0 8 0 0 0 0 0
+[h264 @ 0x556be4e863c0] IVO_MOTION 3 2 0 12 0 0 0 7 1
+[h264 @ 0x556be4e863c0] IVO_SUB 4 2 0 0
+[h264 @ 0x556be4e863c0] IVO_SUB 4 2 1 0
+[h264 @ 0x556be4e863c0] IVO_SUB 4 2 2 3
+[h264 @ 0x556be4e863c0] IVO_SUB 4 2 3 0
+[h264 @ 0x556be4e863c0] IVO_MOTION 4 2 0 0 0 7 0 7 26
+[h264 @ 0x556be4e863c0] IVO_MOTION 4 2 0 4 0 6 17 7 25
+[h264 @ 0x556be4e863c0] IVO_MOTION 4 2 0 8 0 1 0 7 0
+[h264 @ 0x556be4e863c0] IVO_MOTION 4 2 0 9 0 0 0 8 0
+[h264 @ 0x556be4e863c0] IVO_MOTION 4 2 0 10 0 0 12 1 0
+[h264 @ 0x556be4e863c0] IVO_MOTION 4 2 0 11 0 1 0 0 12
+[h264 @ 0x556be4e863c0] IVO_MOTION 4 2 0 12 0 -7 0 6 17
+[h264 @ 0x556be4e863c0] IVO_SUB 5 2 0 1
+[h264 @ 0x556be4e863c0] IVO_SUB 5 2 1 0
+[h264 @ 0x556be4e863c0] IVO_SUB 5 2 2 0
+[h264 @ 0x556be4e863c0] IVO_SUB 5 2 3 0
+[h264 @ 0x556be4e863c0] IVO_MOTION 5 2 0 0 0 -6 -17 6 17
+[h264 @ 0x556be4e863c0] IVO_MOTION 5 2 0 2 0 1 0 12 34
+[h264 @ 0x556be4e863c0] IVO_MOTION 5 2 0 4 0 0 0 6 17
+[h264 @ 0x556be4e863c0] IVO_MOTION 5 2 0 8 0 7 -2 8 0
+[h264 @ 0x556be4e863c0] IVO_MOTION 5 2 0 12 0 1 0 7 2
+[h264 @ 0x556be4e863c0] IVO_MOTION 0 3 0 0 0 0 0 0 0
+[h264 @ 0x556be4e863c0] IVO_MOTION 4 3 0 0 0 0 3 0 12
+[h264 @ 0x556be4e863c0] IVO_MOTION 4 3 0 8 0 0 0 0 3
+[h264 @ 0x556be4e863c0] IVO_MOTION 5 3 0 0 0 -7 0 7 5
+[h264 @ 0x556be4e863c0] IVO_MOTION 0 4 0 0 0 0 0 0 0
+[h264 @ 0x556be4e863c0] IVO_MOTION 0 5 0 0 0 0 0 0 0
+[h264 @ 0x556be4e863c0] nal_unit_type: 1(Coded slice of a non-IDR picture), nal_ref_idc: 2
+[h264 @ 0x556be4e863c0] IVO_FRAME
+[h264 @ 0x556be4e863c0] IVO_SUB 0 0 0 0
+[h264 @ 0x556be4e863c0] IVO_SUB 0 0 1 0
+[h264 @ 0x556be4e863c0] IVO_SUB 0 0 2 3
+[h264 @ 0x556be4e863c0] IVO_SUB 0 0 3 1
+[h264 @ 0x556be4e863c0] IVO_MOTION 0 0 0 0 0 0 -16 0 0
+[h264 @ 0x556be4e863c0] IVO_MOTION 0 0 0 4 0 0 0 0 16
+[h264 @ 0x556be4e863c0] IVO_MOTION 0 0 0 8 0 7 37 0 16
+[h264 @ 0x556be4e863c0] IVO_MOTION 0 0 0 9 0 -1 16 7 53
+[h264 @ 0x556be4e863c0] IVO_MOTION 0 0 0 10 0 0 -1 7 37
+[h264 @ 0x556be4e863c0] IVO_MOTION 0 0 0 11 0 0 -1 1 17
+[h264 @ 0x556be4e863c0] IVO_MOTION 0 0 0 12 0 80 16 1 16
+[h264 @ 0x556be4e863c0] IVO_MOTION 0 0 0 14 0 16 -16 70 17
+[h264 @ 0x556be4e863c0] IVO_MOTION 1 0 0 0 0 56 16 0 0
+[h264 @ 0x556be4e863c0] IVO_SUB 3 0 0 2
+[h264 @ 0x556be4e863c0] IVO_SUB 3 0 1 2
+[h264 @ 0x556be4e863c0] IVO_SUB 3 0 2 0
+[h264 @ 0x556be4e863c0] IVO_SUB 3 0 3 0
+[h264 @ 0x556be4e863c0] IVO_MOTION 3 0 0 0 0 0 0 0 0
+[h264 @ 0x556be4e863c0] IVO_MOTION 3 0 0 1 0 -17 0 0 0
+[h264 @ 0x556be4e863c0] IVO_MOTION 3 0 0 4 0 1 0 17 0
+[h264 @ 0x556be4e863c0] IVO_MOTION 3 0 0 5 0 16 0 1 0
+[h264 @ 0x556be4e863c0] IVO_MOTION 3 0 0 8 0 0 0 0 0
+[h264 @ 0x556be4e863c0] IVO_MOTION 3 0 0 12 0 0 0 1 0
+[h264 @ 0x556be4e863c0] IVO_SUB 0 1 0 1
+[h264 @ 0x556be4e863c0] IVO_SUB 0 1 1 0
+[h264 @ 0x556be4e863c0] IVO_SUB 0 1 2 0
+[h264 @ 0x556be4e863c0] IVO_SUB 0 1 3 2
+[h264 @ 0x556be4e863c0] IVO_MOTION 0 1 0 0 0 8 -3 0 1
+[h264 @ 0x556be4e863c0] IVO_MOTION 0 1 0 2 0 0 -16 8 3
+[h264 @ 0x556be4e863c0] IVO_MOTION 0 1 0 4 0 -9 -9 24 19
+[h264 @ 0x556be4e863c0] IVO_MOTION 0 1 0 8 0 -7 -4 0 16
+[h264 @ 0x556be4e863c0] IVO_MOTION 0 1 0 12 0 1 -3 16 13
+[h264 @ 0x556be4e863c0] IVO_MOTION 0 1 0 13 0 -7 -11 10 12
+[h264 @ 0x556be4e863c0] IVO_SUB 1 1 0 0
+[h264 @ 0x556be4e863c0] IVO_SUB 1 1 1 2
+[h264 @ 0x556be4e863c0] IVO_SUB 1 1 2 1
+[h264 @ 0x556be4e863c0] IVO_SUB 1 1 3 0
+[h264 @ 0x556be4e863c0] IVO_MOTION 1 1 0 0 0 -51 1 65 25
+[h264 @ 0x556be4e863c0] IVO_MOTION 1 1 0 4 0 -48 -16 107 17
+[h264 @ 0x556be4e863c0] IVO_MOTION 1 1 0 5 0 -8 -24 104 32
+[h264 @ 0x556be4e863c0] IVO_MOTION 1 1 0 8 0 0 -1 58 12
+[h264 @ 0x556be4e863c0] IVO_MOTION 1 1 0 10 0 8 8 7 12
+[h264 @ 0x556be4e863c0] IVO_MOTION 1 1 0 12 0 0 0 48 17
+[h264 @ 0x556be4e863c0] IVO_MOTION 2 1 0 0 0 6 8 8 24
+[h264 @ 0x556be4e863c0] IVO_MOTION 2 1 0 4 0 0 -24 6 8
+[h264 @ 0x556be4e863c0] IVO_MOTION 3 1 0 0 0 8 8 0 24
+[h264 @ 0x556be4e863c0] IVO_MOTION 3 1 0 4 0 16 -16 8 8
+[h264 @ 0x556be4e863c0] IVO_MOTION 0 2 0 0 0 0 0 7 4
+[h264 @ 0x556be4e863c0] IVO_SUB 1 2 0 0
+[h264 @ 0x556be4e863c0] IVO_SUB 1 2 1 3
+[h264 @ 0x556be4e863c0] IVO_SUB 1 2 2 0
+[h264 @ 0x556be4e863c0] IVO_SUB 1 2 3 0
+[h264 @ 0x556be4e863c0] IVO_MOTION 1 2 0 0 0 -1 0 8 8
+[h264 @ 0x556be4e863c0] IVO_MOTION 1 2 0 4 0 3 0 1 0
+[h264 @ 0x556be4e863c0] IVO_MOTION 1 2 0 5 0 0 -11 3 0
+[h264 @ 0x556be4e863c0] IVO_MOTION 1 2 0 6 0 0 0 4 0
+[h264 @ 0x556be4e863c0] IVO_MOTION 1 2 0 7 0 0 0 0 11
+[h264 @ 0x556be4e863c0] IVO_MOTION 1 2 0 8 0 0 0 1 0
+[h264 @ 0x556be4e863c0] IVO_MOTION 1 2 0 12 0 0 0 0 0
+[h264 @ 0x556be4e863c0] IVO_MOTION 2 2 0 0 0 1 0 6 19
+[h264 @ 0x556be4e863c0] IVO_MOTION 2 2 0 8 0 -4 -8 1 0
+[h264 @ 0x556be4e863c0] IVO_SUB 3 2 0 0
+[h264 @ 0x556be4e863c0] IVO_SUB 3 2 1 0
+[h264 @ 0x556be4e863c0] IVO_SUB 3 2 2 0
+[h264 @ 0x556be4e863c0] IVO_SUB 3 2 3 2
+[h264 @ 0x556be4e863c0] IVO_MOTION 3 2 0 0 0 -1 0 9 8
+[h264 @ 0x556be4e863c0] IVO_MOTION 3 2 0 4 0 -2 0 17 16
+[h264 @ 0x556be4e863c0] IVO_MOTION 3 2 0 8 0 3 0 5 8
+[h264 @ 0x556be4e863c0] IVO_MOTION 3 2 0 12 0 3 0 5 0
+[h264 @ 0x556be4e863c0] IVO_MOTION 3 2 0 13 0 0 -15 5 0
+[h264 @ 0x556be4e863c0] IVO_SUB 4 2 0 0
+[h264 @ 0x556be4e863c0] IVO_SUB 4 2 1 0
+[h264 @ 0x556be4e863c0] IVO_SUB 4 2 2 0
+[h264 @ 0x556be4e863c0] IVO_SUB 4 2 3 0
+[h264 @ 0x556be4e863c0] IVO_MOTION 4 2 0 0 0 3 0 2 0
+[h264 @ 0x556be4e863c0] IVO_MOTION 4 2 0 4 0 16 -16 3 0
+[h264 @ 0x556be4e863c0] IVO_MOTION 4 2 0 8 0 0 0 3 15
+[h264 @ 0x556be4e863c0] IVO_MOTION 4 2 0 12 0 -1 0 16 16
+[h264 @ 0x556be4e863c0] IVO_SUB 5 2 0 2
+[h264 @ 0x556be4e863c0] IVO_SUB 5 2 1 0
+[h264 @ 0x556be4e863c0] IVO_SUB 5 2 2 0
+[h264 @ 0x556be4e863c0] IVO_SUB 5 2 3 2
+[h264 @ 0x556be4e863c0] IVO_MOTION 5 2 0 0 0 8 -16 16 16
+[h264 @ 0x556be4e863c0] IVO_MOTION 5 2 0 1 0 0 -20 8 16
+[h264 @ 0x556be4e863c0] IVO_MOTION 5 2 0 4 0 0 -24 0 20
+[h264 @ 0x556be4e863c0] IVO_MOTION 5 2 0 8 0 0 11 9 16
+[h264 @ 0x556be4e863c0] IVO_MOTION 5 2 0 12 0 8 8 0 35
+[h264 @ 0x556be4e863c0] IVO_MOTION 5 2 0 13 0 1 0 8 32
+[h264 @ 0x556be4e863c0] IVO_MOTION 0 3 0 0 0 0 0 0 0
+[h264 @ 0x556be4e863c0] IVO_SUB 4 3 0 0
+[h264 @ 0x556be4e863c0] IVO_SUB 4 3 1 3
+[h264 @ 0x556be4e863c0] IVO_SUB 4 3 2 0
+[h264 @ 0x556be4e863c0] IVO_SUB 4 3 3 0
+[h264 @ 0x556be4e863c0] IVO_MOTION 4 3 0 0 0 0 0 0 0
+[h264 @ 0x556be4e863c0] IVO_MOTION 4 3 0 4 0 1 0 1 0
+[h264 @ 0x556be4e863c0] IVO_MOTION 4 3 0 5 0 0 0 2 0
+[h264 @ 0x556be4e863c0] IVO_MOTION 4 3 0 6 0 0 0 1 0
+[h264 @ 0x556be4e863c0] IVO_MOTION 4 3 0 7 0 8 0 0 0
+[h264 @ 0x556be4e863c0] IVO_MOTION 4 3 0 8 0 0 0 0 0
+[h264 @ 0x556be4e863c0] IVO_MOTION 4 3 0 12 0 0 0 0 0
+[h264 @ 0x556be4e863c0] IVO_SUB 5 3 0 3
+[h264 @ 0x556be4e863c0] IVO_SUB 5 3 1 3
+[h264 @ 0x556be4e863c0] IVO_SUB 5 3 2 0
+[h264 @ 0x556be4e863c0] IVO_SUB 5 3 3 3
+[h264 @ 0x556be4e863c0] IVO_MOTION 5 3 0 0 0 0 -3 0 11
+[h264 @ 0x556be4e863c0] IVO_MOTION 5 3 0 1 0 0 0 0 14
+[h264 @ 0x556be4e863c0] IVO_MOTION 5 3 0 2 0 1 -8 8 3
+[h264 @ 0x556be4e863c0] IVO_MOTION 5 3 0 3 0 0 -16 1 8
+[h264 @ 0x556be4e863c0] IVO_MOTION 5 3 0 4 0 1 0 8 8
+[h264 @ 0x556be4e863c0] IVO_MOTION 5 3 0 5 0 3 0 2 0
+[h264 @ 0x556be4e863c0] IVO_MOTION 5 3 0 6 0 0 0 1 16
+[h264 @ 0x556be4e863c0] IVO_MOTION 5 3 0 7 0 0 0 3 0
+[h264 @ 0x556be4e863c0] IVO_MOTION 5 3 0 8 0 -8 0 1 8
+[h264 @ 0x556be4e863c0] IVO_MOTION 5 3 0 12 0 0 0 8 0
+[h264 @ 0x556be4e863c0] IVO_MOTION 5 3 0 13 0 0 -18 0 0
+[h264 @ 0x556be4e863c0] IVO_MOTION 5 3 0 14 0 0 0 8 0
+[h264 @ 0x556be4e863c0] IVO_MOTION 5 3 0 15 0 0 0 0 18
+[h264 @ 0x556be4e863c0] IVO_MOTION 0 4 0 0 0 0 0 0 0
+[h264 @ 0x556be4e863c0] IVO_MOTION 0 5 0 0 0 0 0 0 0
+[h264 @ 0x556be4e863c0] nal_unit_type: 1(Coded slice of a non-IDR picture), nal_ref_idc: 2
+[h264 @ 0x556be4e863c0] IVO_FRAME
+[h264 @ 0x556be4e863c0] IVO_MOTION 0 0 0 0 0 0 0 0 0
+[h264 @ 0x556be4e863c0] IVO_MOTION 0 0 0 8 0 0 88 0 0
+[h264 @ 0x556be4e863c0] IVO_SUB 3 0 0 0
+[h264 @ 0x556be4e863c0] IVO_SUB 3 0 1 1
+[h264 @ 0x556be4e863c0] IVO_SUB 3 0 2 0
+[h264 @ 0x556be4e863c0] IVO_SUB 3 0 3 0
+[h264 @ 0x556be4e863c0] IVO_MOTION 3 0 0 0 0 11 0 0 0
+[h264 @ 0x556be4e863c0] IVO_MOTION 3 0 0 4 0 -11 2 11 0
+[h264 @ 0x556be4e863c0] IVO_MOTION 3 0 0 6 0 -11 0 22 2
+[h264 @ 0x556be4e863c0] IVO_MOTION 3 0 0 8 0 0 0 11 0
+[h264 @ 0x556be4e863c0] IVO_MOTION 3 0 0 12 0 0 0 11 0
+[h264 @ 0x556be4e863c0] IVO_MOTION 4 0 0 0 0 0 0 11 2
+[h264 @ 0x556be4e863c0] IVO_MOTION 5 0 0 0 0 0 0 0 0
+[h264 @ 0x556be4e863c0] IVO_SUB 0 1 0 0
+[h264 @ 0x556be4e863c0] IVO_SUB 0 1 1 1
+[h264 @ 0x556be4e863c0] IVO_SUB 0 1 2 0
+[h264 @ 0x556be4e863c0] IVO_SUB 0 1 3 0
+[h264 @ 0x556be4e863c0] IVO_MOTION 0 1 0 0 0 7 -89 0 70
+[h264 @ 0x556be4e863c0] IVO_MOTION 0 1 0 4 0 0 -24 7 140
+[h264 @ 0x556be4e863c0] IVO_MOTION 0 1 0 6 0 -2 0 7 94
+[h264 @ 0x556be4e863c0] IVO_MOTION 0 1 0 8 0 -5 -23 7 70
+[h264 @ 0x556be4e863c0] IVO_MOTION 0 1 0 12 0 0 -24 7 23
+[h264 @ 0x556be4e863c0] IVO_SUB 1 1 0 0
+[h264 @ 0x556be4e863c0] IVO_SUB 1 1 1 0
+[h264 @ 0x556be4e863c0] IVO_SUB 1 1 2 0
+[h264 @ 0x556be4e863c0] IVO_SUB 1 1 3 3
+[h264 @ 0x556be4e863c0] IVO_MOTION 1 1 0 0 0 0 0 0 24
+[h264 @ 0x556be4e863c0] IVO_MOTION 1 1 0 4 0 0 -28 0 0
+[h264 @ 0x556be4e863c0] IVO_MOTION 1 1 0 8 0 8 25 0 24
+[h264 @ 0x556be4e863c0] IVO_MOTION 1 1 0 12 0 0 5 8 53
+[h264 @ 0x556be4e863c0] IVO_MOTION 1 1 0 13 0 6 4 0 33
+[h264 @ 0x556be4e863c0] IVO_MOTION 1 1 0 14 0 0 -1 8 30
+[h264 @ 0x556be4e863c0] IVO_MOTION 1 1 0 15 0 0 0 6 5
+[h264 @ 0x556be4e863c0] IVO_SUB 2 1 0 0
+[h264 @ 0x556be4e863c0] IVO_SUB 2 1 1 0
+[h264 @ 0x556be4e863c0] IVO_SUB 2 1 2 1
+[h264 @ 0x556be4e863c0] IVO_SUB 2 1 3 0
+[h264 @ 0x556be4e863c0] IVO_MOTION 2 1 0 0 0 0 -16 0 28
+[h264 @ 0x556be4e863c0] IVO_MOTION 2 1 0 4 0 0 -1 0 16
+[h264 @ 0x556be4e863c0] IVO_MOTION 2 1 0 8 0 0 -8 6 20
+[h264 @ 0x556be4e863c0] IVO_MOTION 2 1 0 10 0 0 0 0 8
+[h264 @ 0x556be4e863c0] IVO_MOTION 2 1 0 12 0 0 -8 0 9
+[h264 @ 0x556be4e863c0] IVO_MOTION 0 2 0 0 0 0 -24 5 23
+[h264 @ 0x556be4e863c0] IVO_SUB 1 2 0 1
+[h264 @ 0x556be4e863c0] IVO_SUB 1 2 1 0
+[h264 @ 0x556be4e863c0] IVO_SUB 1 2 2 0
+[h264 @ 0x556be4e863c0] IVO_SUB 1 2 3 3
+[h264 @ 0x556be4e863c0] IVO_MOTION 1 2 0 0 0 0 0 8 49
+[h264 @ 0x556be4e863c0] IVO_MOTION 1 2 0 2 0 0 0 0 24
+[h264 @ 0x556be4e863c0] IVO_MOTION 1 2 0 4 0 0 0 0 1
+[h264 @ 0x556be4e863c0] IVO_MOTION 1 2 0 8 0 0 0 0 24
+[h264 @ 0x556be4e863c0] IVO_MOTION 1 2 0 12 0 -6 0 0 0
+[h264 @ 0x556be4e863c0] IVO_MOTION 1 2 0 13 0 0 0 6 0
+[h264 @ 0x556be4e863c0] IVO_MOTION 1 2 0 14 0 0 0 6 0
+[h264 @ 0x556be4e863c0] IVO_MOTION 1 2 0 15 0 0 0 0 0
+[h264 @ 0x556be4e863c0] IVO_SUB 2 2 0 0
+[h264 @ 0x556be4e863c0] IVO_SUB 2 2 1 0
+[h264 @ 0x556be4e863c0] IVO_SUB 2 2 2 0
+[h264 @ 0x556be4e863c0] IVO_SUB 2 2 3 0
+[h264 @ 0x556be4e863c0] IVO_MOTION 2 2 0 0 0 0 0 0 0
+[h264 @ 0x556be4e863c0] IVO_MOTION 2 2 0 4 0 8 0 0 8
+[h264 @ 0x556be4e863c0] IVO_MOTION 2 2 0 8 0 -5 0 0 0
+[h264 @ 0x556be4e863c0] IVO_MOTION 2 2 0 12 0 -3 0 13 0
+[h264 @ 0x556be4e863c0] IVO_MOTION 3 2 0 0 0 -8 0 8 0
+[h264 @ 0x556be4e863c0] IVO_MOTION 3 2 0 8 0 1 0 11 0
+[h264 @ 0x556be4e863c0] IVO_MOTION 4 2 0 0 0 0 -24 8 0
+[h264 @ 0x556be4e863c0] IVO_SUB 5 2 0 0
+[h264 @ 0x556be4e863c0] IVO_SUB 5 2 1 0
+[h264 @ 0x556be4e863c0] IVO_SUB 5 2 2 0
+[h264 @ 0x556be4e863c0] IVO_SUB 5 2 3 0
+[h264 @ 0x556be4e863c0] IVO_MOTION 5 2 0 0 0 0 -10 0 24
+[h264 @ 0x556be4e863c0] IVO_MOTION 5 2 0 4 0 0 -2 0 10
+[h264 @ 0x556be4e863c0] IVO_MOTION 5 2 0 8 0 0 -16 0 34
+[h264 @ 0x556be4e863c0] IVO_MOTION 5 2 0 12 0 0 -24 0 18
+[h264 @ 0x556be4e863c0] IVO_MOTION 0 3 0 0 0 0 0 0 24
+[h264 @ 0x556be4e863c0] IVO_MOTION 2 3 0 0 0 -1 0 5 0
+[h264 @ 0x556be4e863c0] IVO_MOTION 3 3 0 0 0 0 0 2 0
+[h264 @ 0x556be4e863c0] IVO_SUB 4 3 0 0
+[h264 @ 0x556be4e863c0] IVO_SUB 4 3 1 0
+[h264 @ 0x556be4e863c0] IVO_SUB 4 3 2 0
+[h264 @ 0x556be4e863c0] IVO_SUB 4 3 3 0
+[h264 @ 0x556be4e863c0] IVO_MOTION 4 3 0 0 0 0 0 0 24
+[h264 @ 0x556be4e863c0] IVO_MOTION 4 3 0 4 0 4 0 0 24
+[h264 @ 0x556be4e863c0] IVO_MOTION 4 3 0 8 0 0 0 0 0
+[h264 @ 0x556be4e863c0] IVO_MOTION 4 3 0 12 0 0 0 4 0
+[h264 @ 0x556be4e863c0] IVO_MOTION 5 3 0 0 0 0 0 4 16
+[h264 @ 0x556be4e863c0] IVO_MOTION 0 4 0 0 0 0 0 0 0
+[h264 @ 0x556be4e863c0] IVO_MOTION 5 4 0 0 0 0 0 0 0
+[h264 @ 0x556be4e863c0] IVO_MOTION 0 5 0 0 0 0 0 0 0
+[h264 @ 0x556be4e863c0] nal_unit_type: 1(Coded slice of a non-IDR picture), nal_ref_idc: 2
+[h264 @ 0x556be4e863c0] IVO_FRAME
+[h264 @ 0x556be4e863c0] IVO_SUB 0 0 0 0
+[h264 @ 0x556be4e863c0] IVO_SUB 0 0 1 0
+[h264 @ 0x556be4e863c0] IVO_SUB 0 0 2 1
+[h264 @ 0x556be4e863c0] IVO_SUB 0 0 3 0
+[h264 @ 0x556be4e863c0] IVO_MOTION 0 0 0 0 0 0 0 0 0
+[h264 @ 0x556be4e863c0] IVO_MOTION 0 0 0 4 0 0 0 0 0
+[h264 @ 0x556be4e863c0] IVO_MOTION 0 0 0 8 0 0 0 0 0
+[h264 @ 0x556be4e863c0] IVO_MOTION 0 0 0 10 0 0 -16 0 0
+[h264 @ 0x556be4e863c0] IVO_MOTION 0 0 0 12 0 0 0 0 0
+[h264 @ 0x556be4e863c0] IVO_SUB 0 1 0 0
+[h264 @ 0x556be4e863c0] IVO_SUB 0 1 1 0
+[h264 @ 0x556be4e863c0] IVO_SUB 0 1 2 0
+[h264 @ 0x556be4e863c0] IVO_SUB 0 1 3 2
+[h264 @ 0x556be4e863c0] IVO_MOTION 0 1 0 0 0 0 -24 0 16
+[h264 @ 0x556be4e863c0] IVO_MOTION 0 1 0 4 0 0 -24 0 24
+[h264 @ 0x556be4e863c0] IVO_MOTION 0 1 0 8 0 5 0 0 24
+[h264 @ 0x556be4e863c0] IVO_MOTION 0 1 0 12 0 4 12 5 24
+[h264 @ 0x556be4e863c0] IVO_MOTION 0 1 0 13 0 5 0 4 36
+[h264 @ 0x556be4e863c0] IVO_MOTION 1 1 0 0 0 0 -24 0 24
+[h264 @ 0x556be4e863c0] IVO_SUB 0 2 0 1
+[h264 @ 0x556be4e863c0] IVO_SUB 0 2 1 0
+[h264 @ 0x556be4e863c0] IVO_SUB 0 2 2 0
+[h264 @ 0x556be4e863c0] IVO_SUB 0 2 3 2
+[h264 @ 0x556be4e863c0] IVO_MOTION 0 2 0 0 0 2 -12 5 0
+[h264 @ 0x556be4e863c0] IVO_MOTION 0 2 0 2 0 -6 0 2 12
+[h264 @ 0x556be4e863c0] IVO_MOTION 0 2 0 4 0 2 0 6 24
+[h264 @ 0x556be4e863c0] IVO_MOTION 0 2 0 8 0 0 0 6 0
+[h264 @ 0x556be4e863c0] IVO_MOTION 0 2 0 12 0 -6 0 2 0
+[h264 @ 0x556be4e863c0] IVO_MOTION 0 2 0 13 0 1 0 8 0
+[h264 @ 0x556be4e863c0] IVO_MOTION 1 2 0 0 0 6 7 2 24
+[h264 @ 0x556be4e863c0] IVO_MOTION 1 2 0 8 0 -7 0 7 7
+[h264 @ 0x556be4e863c0] IVO_SUB 2 2 0 0
+[h264 @ 0x556be4e863c0] IVO_SUB 2 2 1 0
+[h264 @ 0x556be4e863c0] IVO_SUB 2 2 2 0
+[h264 @ 0x556be4e863c0] IVO_SUB 2 2 3 0
+[h264 @ 0x556be4e863c0] IVO_MOTION 2 2 0 0 0 1 0 6 7
+[h264 @ 0x556be4e863c0] IVO_MOTION 2 2 0 4 0 0 -24 1 0
+[h264 @ 0x556be4e863c0] IVO_MOTION 2 2 0 8 0 5 -1 8 0
+[h264 @ 0x556be4e863c0] IVO_MOTION 2 2 0 12 0 -1 -1 5 25
+[h264 @ 0x556be4e863c0] IVO_MOTION 3 2 0 0 0 0 -24 0 24
+[h264 @ 0x556be4e863c0] IVO_MOTION 4 2 0 0 0 0 -24 0 24
+[h264 @ 0x556be4e863c0] IVO_MOTION 0 3 0 0 0 0 0 0 0
+[h264 @ 0x556be4e863c0] IVO_SUB 2 3 0 0
+[h264 @ 0x556be4e863c0] IVO_SUB 2 3 1 0
+[h264 @ 0x556be4e863c0] IVO_SUB 2 3 2 0
+[h264 @ 0x556be4e863c0] IVO_SUB 2 3 3 0
+[h264 @ 0x556be4e863c0] IVO_MOTION 2 3 0 0 0 -3 4 5 1
+[h264 @ 0x556be4e863c0] IVO_MOTION 2 3 0 4 0 -1 0 4 5
+[h264 @ 0x556be4e863c0] IVO_MOTION 2 3 0 8 0 0 0 3 4
+[h264 @ 0x556be4e863c0] IVO_MOTION 2 3 0 12 0 0 0 1 0
+[h264 @ 0x556be4e863c0] IVO_MOTION 3 3 0 0 0 0 0 1 24
+[h264 @ 0x556be4e863c0] IVO_SUB 4 3 0 0
+[h264 @ 0x556be4e863c0] IVO_SUB 4 3 1 0
+[h264 @ 0x556be4e863c0] IVO_SUB 4 3 2 0
+[h264 @ 0x556be4e863c0] IVO_SUB 4 3 3 0
+[h264 @ 0x556be4e863c0] IVO_MOTION 4 3 0 0 0 4 0 0 24
+[h264 @ 0x556be4e863c0] IVO_MOTION 4 3 0 4 0 0 0 4 24
+[h264 @ 0x556be4e863c0] IVO_MOTION 4 3 0 8 0 0 0 4 0
+[h264 @ 0x556be4e863c0] IVO_MOTION 4 3 0 12 0 7 0 0 0
+[h264 @ 0x556be4e863c0] IVO_MOTION 5 3 0 0 0 0 0 0 0
+[h264 @ 0x556be4e863c0] IVO_MOTION 0 4 0 0 0 0 0 0 0
+[h264 @ 0x556be4e863c0] IVO_MOTION 5 4 0 0 0 0 0 0 0
+[h264 @ 0x556be4e863c0] IVO_MOTION 0 5 0 0 0 0 0 0 0
+[h264 @ 0x556be4e863c0] nal_unit_type: 1(Coded slice of a non-IDR picture), nal_ref_idc: 2
+[h264 @ 0x556be4e863c0] IVO_FRAME
+[h264 @ 0x556be4e863c0] IVO_SUB 3 0 0 0
+[h264 @ 0x556be4e863c0] IVO_SUB 3 0 1 2
+[h264 @ 0x556be4e863c0] IVO_SUB 3 0 2 0
+[h264 @ 0x556be4e863c0] IVO_SUB 3 0 3 0
+[h264 @ 0x556be4e863c0] IVO_MOTION 3 0 0 0 0 -7 0 0 0
+[h264 @ 0x556be4e863c0] IVO_MOTION 3 0 0 4 0 -32 0 7 0
+[h264 @ 0x556be4e863c0] IVO_MOTION 3 0 0 5 0 39 0 32 0
+[h264 @ 0x556be4e863c0] IVO_MOTION 3 0 0 8 0 7 0 7 0
+[h264 @ 0x556be4e863c0] IVO_MOTION 3 0 0 12 0 0 0 39 0
+[h264 @ 0x556be4e863c0] IVO_MOTION 0 1 0 0 0 0 -24 0 0
+[h264 @ 0x556be4e863c0] IVO_SUB 0 2 0 0
+[h264 @ 0x556be4e863c0] IVO_SUB 0 2 1 0
+[h264 @ 0x556be4e863c0] IVO_SUB 0 2 2 3
+[h264 @ 0x556be4e863c0] IVO_SUB 0 2 3 3
+[h264 @ 0x556be4e863c0] IVO_MOTION 0 2 0 0 0 6 1 0 24
+[h264 @ 0x556be4e863c0] IVO_MOTION 0 2 0 4 0 8 -1 6 25
+[h264 @ 0x556be4e863c0] IVO_MOTION 0 2 0 8 0 -6 -1 6 1
+[h264 @ 0x556be4e863c0] IVO_MOTION 0 2 0 9 0 2 0 12 2
+[h264 @ 0x556be4e863c0] IVO_MOTION 0 2 0 10 0 0 0 6 1
+[h264 @ 0x556be4e863c0] IVO_MOTION 0 2 0 11 0 0 0 2 0
+[h264 @ 0x556be4e863c0] IVO_MOTION 0 2 0 12 0 0 0 10 1
+[h264 @ 0x556be4e863c0] IVO_MOTION 0 2 0 13 0 0 0 8 1
+[h264 @ 0x556be4e863c0] IVO_MOTION 0 2 0 14 0 -8 0 0 0
+[h264 @ 0x556be4e863c0] IVO_MOTION 0 2 0 15 0 0 0 8 0
+[h264 @ 0x556be4e863c0] IVO_SUB 1 2 0 1
+[h264 @ 0x556be4e863c0] IVO_SUB 1 2 1 1
+[h264 @ 0x556be4e863c0] IVO_SUB 1 2 2 0
+[h264 @ 0x556be4e863c0] IVO_SUB 1 2 3 0
+[h264 @ 0x556be4e863c0] IVO_MOTION 1 2 0 0 0 -8 0 8 1
+[h264 @ 0x556be4e863c0] IVO_MOTION 1 2 0 2 0 -1 0 16 1
+[h264 @ 0x556be4e863c0] IVO_MOTION 1 2 0 4 0 0 -28 8 0
+[h264 @ 0x556be4e863c0] IVO_MOTION 1 2 0 6 0 0 0 1 28
+[h264 @ 0x556be4e863c0] IVO_MOTION 1 2 0 8 0 0 0 1 0
+[h264 @ 0x556be4e863c0] IVO_MOTION 1 2 0 12 0 -1 0 0 0
+[h264 @ 0x556be4e863c0] IVO_MOTION 2 2 0 0 0 0 -24 0 28
+[h264 @ 0x556be4e863c0] IVO_MOTION 3 2 0 0 0 0 -24 0 24
+[h264 @ 0x556be4e863c0] IVO_MOTION 0 3 0 0 0 0 0 0 0
+[h264 @ 0x556be4e863c0] IVO_MOTION 1 3 0 0 0 0 1 0 0
+[h264 @ 0x556be4e863c0] IVO_MOTION 2 3 0 0 0 5 1 0 25
+[h264 @ 0x556be4e863c0] IVO_MOTION 2 3 0 8 0 0 -1 5 2
+[h264 @ 0x556be4e863c0] IVO_SUB 3 3 0 0
+[h264 @ 0x556be4e863c0] IVO_SUB 3 3 1 1
+[h264 @ 0x556be4e863c0] IVO_SUB 3 3 2 1
+[h264 @ 0x556be4e863c0] IVO_SUB 3 3 3 3
+[h264 @ 0x556be4e863c0] IVO_MOTION 3 3 0 0 0 7 0 5 25
+[h264 @ 0x556be4e863c0] IVO_MOTION 3 3 0 4 0 0 0 7 24
+[h264 @ 0x556be4e863c0] IVO_MOTION 3 3 0 6 0 0 1 7 0
+[h264 @ 0x556be4e863c0] IVO_MOTION 3 3 0 8 0 0 -1 7 1
+[h264 @ 0x556be4e863c0] IVO_MOTION 3 3 0 10 0 0 0 0 2
+[h264 @ 0x556be4e863c0] IVO_MOTION 3 3 0 12 0 2 0 0 2
+[h264 @ 0x556be4e863c0] IVO_MOTION 3 3 0 13 0 -1 0 2 1
+[h264 @ 0x556be4e863c0] IVO_MOTION 3 3 0 14 0 -1 -1 2 0
+[h264 @ 0x556be4e863c0] IVO_MOTION 3 3 0 15 0 0 -1 2 1
+[h264 @ 0x556be4e863c0] IVO_SUB 4 3 0 0
+[h264 @ 0x556be4e863c0] IVO_SUB 4 3 1 1
+[h264 @ 0x556be4e863c0] IVO_SUB 4 3 2 0
+[h264 @ 0x556be4e863c0] IVO_SUB 4 3 3 0
+[h264 @ 0x556be4e863c0] IVO_MOTION 4 3 0 0 0 0 0 0 0
+[h264 @ 0x556be4e863c0] IVO_MOTION 4 3 0 4 0 0 -16 0 0
+[h264 @ 0x556be4e863c0] IVO_MOTION 4 3 0 6 0 0 0 0 16
+[h264 @ 0x556be4e863c0] IVO_MOTION 4 3 0 8 0 7 0 1 0
+[h264 @ 0x556be4e863c0] IVO_MOTION 4 3 0 12 0 4 0 7 0
+[h264 @ 0x556be4e863c0] IVO_MOTION 5 3 0 0 0 0 -24 0 16
+[h264 @ 0x556be4e863c0] IVO_MOTION 0 4 0 0 0 0 0 0 0
+[h264 @ 0x556be4e863c0] IVO_MOTION 3 4 0 0 0 0 0 0 0
+[h264 @ 0x556be4e863c0] IVO_MOTION 4 4 0 0 0 0 0 7 0
+[h264 @ 0x556be4e863c0] IVO_MOTION 5 4 0 0 0 0 0 0 24
+[h264 @ 0x556be4e863c0] IVO_MOTION 0 5 0 0 0 0 0 0 0
+[h264 @ 0x556be4e863c0] IVO_MOTION 5 5 0 0 0 0 0 0 0
+[h264 @ 0x556be4e863c0] nal_unit_type: 1(Coded slice of a non-IDR picture), nal_ref_idc: 2
+[h264 @ 0x556be4e863c0] IVO_FRAME
+[h264 @ 0x556be4e863c0] IVO_SUB 3 0 0 2
+[h264 @ 0x556be4e863c0] IVO_SUB 3 0 1 0
+[h264 @ 0x556be4e863c0] IVO_SUB 3 0 2 0
+[h264 @ 0x556be4e863c0] IVO_SUB 3 0 3 0
+[h264 @ 0x556be4e863c0] IVO_MOTION 3 0 0 0 0 0 0 0 0
+[h264 @ 0x556be4e863c0] IVO_MOTION 3 0 0 1 0 6 0 0 0
+[h264 @ 0x556be4e863c0] IVO_MOTION 3 0 0 4 0 -6 0 6 0
+[h264 @ 0x556be4e863c0] IVO_MOTION 3 0 0 8 0 0 0 0 0
+[h264 @ 0x556be4e863c0] IVO_MOTION 3 0 0 12 0 0 0 6 0
+[h264 @ 0x556be4e863c0] IVO_MOTION 0 2 0 0 0 0 -24 0 0
+[h264 @ 0x556be4e863c0] IVO_MOTION 0 2 0 8 0 7 -1 0 24
+[h264 @ 0x556be4e863c0] IVO_SUB 1 2 0 0
+[h264 @ 0x556be4e863c0] IVO_SUB 1 2 1 0
+[h264 @ 0x556be4e863c0] IVO_SUB 1 2 2 0
+[h264 @ 0x556be4e863c0] IVO_SUB 1 2 3 1
+[h264 @ 0x556be4e863c0] IVO_MOTION 1 2 0 0 0 1 -24 0 24
+[h264 @ 0x556be4e863c0] IVO_MOTION 1 2 0 4 0 0 -16 1 24
+[h264 @ 0x556be4e863c0] IVO_MOTION 1 2 0 8 0 4 8 8 25
+[h264 @ 0x556be4e863c0] IVO_MOTION 1 2 0 12 0 -1 -8 4 24
+[h264 @ 0x556be4e863c0] IVO_MOTION 1 2 0 14 0 1 0 5 16
+[h264 @ 0x556be4e863c0] IVO_MOTION 0 3 0 0 0 -5 -8 7 1
+[h264 @ 0x556be4e863c0] IVO_MOTION 1 3 0 0 0 -4 -8 9 16
+[h264 @ 0x556be4e863c0] IVO_MOTION 1 3 0 8 0 0 1 9 16
+[h264 @ 0x556be4e863c0] IVO_SUB 2 3 0 0
+[h264 @ 0x556be4e863c0] IVO_SUB 2 3 1 0
+[h264 @ 0x556be4e863c0] IVO_SUB 2 3 2 0
+[h264 @ 0x556be4e863c0] IVO_SUB 2 3 3 0
+[h264 @ 0x556be4e863c0] IVO_MOTION 2 3 0 0 0 3 0 4 8
+[h264 @ 0x556be4e863c0] IVO_MOTION 2 3 0 4 0 -4 0 3 0
+[h264 @ 0x556be4e863c0] IVO_MOTION 2 3 0 8 0 5 4 3 1
+[h264 @ 0x556be4e863c0] IVO_MOTION 2 3 0 12 0 1 0 9 4
+[h264 @ 0x556be4e863c0] IVO_SUB 3 3 0 3
+[h264 @ 0x556be4e863c0] IVO_SUB 3 3 1 0
+[h264 @ 0x556be4e863c0] IVO_SUB 3 3 2 0
+[h264 @ 0x556be4e863c0] IVO_SUB 3 3 3 0
+[h264 @ 0x556be4e863c0] IVO_MOTION 3 3 0 0 0 0 0 4 0
+[h264 @ 0x556be4e863c0] IVO_MOTION 3 3 0 1 0 0 0 0 0
+[h264 @ 0x556be4e863c0] IVO_MOTION 3 3 0 2 0 0 0 4 0
+[h264 @ 0x556be4e863c0] IVO_MOTION 3 3 0 3 0 0 0 0 0
+[h264 @ 0x556be4e863c0] IVO_MOTION 3 3 0 4 0 0 -24 0 0
+[h264 @ 0x556be4e863c0] IVO_MOTION 3 3 0 8 0 7 1 1 0
+[h264 @ 0x556be4e863c0] IVO_MOTION 3 3 0 12 0 3 0 7 25
+[h264 @ 0x556be4e863c0] IVO_MOTION 4 3 0 0 0 0 -24 0 24
+[h264 @ 0x556be4e863c0] IVO_MOTION 5 3 0 0 0 0 -24 0 24
+[h264 @ 0x556be4e863c0] IVO_MOTION 0 4 0 0 0 0 0 5 8
+[h264 @ 0x556be4e863c0] IVO_MOTION 2 4 0 0 0 -5 -1 5 4
+[h264 @ 0x556be4e863c0] IVO_MOTION 3 4 0 0 0 0 0 12 2
+[h264 @ 0x556be4e863c0] IVO_SUB 4 4 0 0
+[h264 @ 0x556be4e863c0] IVO_SUB 4 4 1 0
+[h264 @ 0x556be4e863c0] IVO_SUB 4 4 2 0
+[h264 @ 0x556be4e863c0] IVO_SUB 4 4 3 1
+[h264 @ 0x556be4e863c0] IVO_MOTION 4 4 0 0 0 5 0 0 24
+[h264 @ 0x556be4e863c0] IVO_MOTION 4 4 0 4 0 7 0 5 24
+[h264 @ 0x556be4e863c0] IVO_MOTION 4 4 0 8 0 -5 0 5 0
+[h264 @ 0x556be4e863c0] IVO_MOTION 4 4 0 12 0 3 0 12 0
+[h264 @ 0x556be4e863c0] IVO_MOTION 4 4 0 14 0 0 0 8 0
+[h264 @ 0x556be4e863c0] IVO_MOTION 5 4 0 0 0 0 0 7 24
+[h264 @ 0x556be4e863c0] IVO_MOTION 0 5 0 0 0 0 0 0 0
+[h264 @ 0x556be4e863c0] IVO_SUB 5 5 0 0
+[h264 @ 0x556be4e863c0] IVO_SUB 5 5 1 1
+[h264 @ 0x556be4e863c0] IVO_SUB 5 5 2 0
+[h264 @ 0x556be4e863c0] IVO_SUB 5 5 3 0
+[h264 @ 0x556be4e863c0] IVO_MOTION 5 5 0 0 0 0 8 0 0
+[h264 @ 0x556be4e863c0] IVO_MOTION 5 5 0 4 0 0 0 0 8
+[h264 @ 0x556be4e863c0] IVO_MOTION 5 5 0 6 0 0 0 0 8
+[h264 @ 0x556be4e863c0] IVO_MOTION 5 5 0 8 0 0 0 0 8
+[h264 @ 0x556be4e863c0] IVO_MOTION 5 5 0 12 0 0 0 0 0
+[h264 @ 0x556be4e863c0] nal_unit_type: 1(Coded slice of a non-IDR picture), nal_ref_idc: 2
+[h264 @ 0x556be4e863c0] IVO_FRAME
+[h264 @ 0x556be4e863c0] IVO_MOTION 0 0 0 0 0 0 0 0 0
+[h264 @ 0x556be4e863c0] IVO_MOTION 3 0 0 0 0 0 0 0 0
+[h264 @ 0x556be4e863c0] IVO_MOTION 0 1 0 0 0 0 0 0 0
+[h264 @ 0x556be4e863c0] IVO_SUB 0 2 0 0
+[h264 @ 0x556be4e863c0] IVO_SUB 0 2 1 0
+[h264 @ 0x556be4e863c0] IVO_SUB 0 2 2 0
+[h264 @ 0x556be4e863c0] IVO_SUB 0 2 3 1
+[h264 @ 0x556be4e863c0] IVO_MOTION 0 2 0 0 0 0 -24 0 0
+[h264 @ 0x556be4e863c0] IVO_MOTION 0 2 0 4 0 0 -16 0 24
+[h264 @ 0x556be4e863c0] IVO_MOTION 0 2 0 8 0 8 0 0 24
+[h264 @ 0x556be4e863c0] IVO_MOTION 0 2 0 12 0 0 -8 8 16
+[h264 @ 0x556be4e863c0] IVO_MOTION 0 2 0 14 0 0 0 8 8
+[h264 @ 0x556be4e863c0] IVO_MOTION 1 2 0 0 0 0 -24 0 16
+[h264 @ 0x556be4e863c0] IVO_SUB 0 3 0 0
+[h264 @ 0x556be4e863c0] IVO_SUB 0 3 1 0
+[h264 @ 0x556be4e863c0] IVO_SUB 0 3 2 0
+[h264 @ 0x556be4e863c0] IVO_SUB 0 3 3 0
+[h264 @ 0x556be4e863c0] IVO_MOTION 0 3 0 0 0 -8 -8 8 0
+[h264 @ 0x556be4e863c0] IVO_MOTION 0 3 0 4 0 6 -1 8 8
+[h264 @ 0x556be4e863c0] IVO_MOTION 0 3 0 8 0 0 29 8 8
+[h264 @ 0x556be4e863c0] IVO_MOTION 0 3 0 12 0 0 0 6 30
+[h264 @ 0x556be4e863c0] IVO_SUB 1 3 0 0
+[h264 @ 0x556be4e863c0] IVO_SUB 1 3 1 2
+[h264 @ 0x556be4e863c0] IVO_SUB 1 3 2 1
+[h264 @ 0x556be4e863c0] IVO_SUB 1 3 3 0
+[h264 @ 0x556be4e863c0] IVO_MOTION 1 3 0 0 0 6 0 6 25
+[h264 @ 0x556be4e863c0] IVO_MOTION 1 3 0 4 0 8 9 6 24
+[h264 @ 0x556be4e863c0] IVO_MOTION 1 3 0 5 0 7 -9 8 33
+[h264 @ 0x556be4e863c0] IVO_MOTION 1 3 0 8 0 1 -3 6 0
+[h264 @ 0x556be4e863c0] IVO_MOTION 1 3 0 10 0 0 0 1 3
+[h264 @ 0x556be4e863c0] IVO_MOTION 1 3 0 12 0 1 0 9 12
+[h264 @ 0x556be4e863c0] IVO_MOTION 2 3 0 0 0 -1 2 7 9
+[h264 @ 0x556be4e863c0] IVO_MOTION 2 3 0 4 0 0 -24 1 2
+[h264 @ 0x556be4e863c0] IVO_MOTION 3 3 0 0 0 0 -24 0 24
+[h264 @ 0x556be4e863c0] IVO_MOTION 4 3 0 0 0 0 -24 0 24
+[h264 @ 0x556be4e863c0] IVO_MOTION 1 4 0 0 0 0 1 0 0
+[h264 @ 0x556be4e863c0] IVO_MOTION 2 4 0 0 0 -2 -2 1 3
+[h264 @ 0x556be4e863c0] IVO_MOTION 2 4 0 8 0 0 1 2 3
+[h264 @ 0x556be4e863c0] IVO_SUB 3 4 0 0
+[h264 @ 0x556be4e863c0] IVO_SUB 3 4 1 0
+[h264 @ 0x556be4e863c0] IVO_SUB 3 4 2 0
+[h264 @ 0x556be4e863c0] IVO_SUB 3 4 3 3
+[h264 @ 0x556be4e863c0] IVO_MOTION 3 4 0 0 0 7 -3 2 26
+[h264 @ 0x556be4e863c0] IVO_MOTION 3 4 0 4 0 7 0 7 27
+[h264 @ 0x556be4e863c0] IVO_MOTION 3 4 0 8 0 -7 0 7 4
+[h264 @ 0x556be4e863c0] IVO_MOTION 3 4 0 12 0 0 0 14 0
+[h264 @ 0x556be4e863c0] IVO_MOTION 3 4 0 13 0 0 0 7 0
+[h264 @ 0x556be4e863c0] IVO_MOTION 3 4 0 14 0 0 12 7 0
+[h264 @ 0x556be4e863c0] IVO_MOTION 3 4 0 15 0 1 0 0 12
+[h264 @ 0x556be4e863c0] IVO_MOTION 4 4 0 0 0 0 0 7 24
+[h264 @ 0x556be4e863c0] IVO_MOTION 5 4 0 0 0 0 0 0 0
+[h264 @ 0x556be4e863c0] IVO_MOTION 1 5 0 0 0 0 0 0 1
+[h264 @ 0x556be4e863c0] IVO_MOTION 4 5 0 0 0 0 0 0 0
+[h264 @ 0x556be4e863c0] IVO_MOTION 5 5 0 0 0 0 0 0 0
+[h264 @ 0x556be4e863c0] nal_unit_type: 1(Coded slice of a non-IDR picture), nal_ref_idc: 2
+[h264 @ 0x556be4e863c0] IVO_FRAME
+[h264 @ 0x556be4e863c0] IVO_MOTION 0 0 0 0 0 0 0 0 0
+[h264 @ 0x556be4e863c0] IVO_MOTION 2 0 0 0 0 0 0 0 0
+[h264 @ 0x556be4e863c0] IVO_SUB 3 0 0 2
+[h264 @ 0x556be4e863c0] IVO_SUB 3 0 1 2
+[h264 @ 0x556be4e863c0] IVO_SUB 3 0 2 0
+[h264 @ 0x556be4e863c0] IVO_SUB 3 0 3 0
+[h264 @ 0x556be4e863c0] IVO_MOTION 3 0 0 0 0 36 -4 0 0
+[h264 @ 0x556be4e863c0] IVO_MOTION 3 0 0 1 0 -40 4 36 4
+[h264 @ 0x556be4e863c0] IVO_MOTION 3 0 0 4 0 0 0 40 4
+[h264 @ 0x556be4e863c0] IVO_MOTION 3 0 0 5 0 4 0 0 0
+[h264 @ 0x556be4e863c0] IVO_MOTION 3 0 0 8 0 0 0 36 4
+[h264 @ 0x556be4e863c0] IVO_MOTION 3 0 0 12 0 0 0 0 0
+[h264 @ 0x556be4e863c0] IVO_SUB 0 1 0 0
+[h264 @ 0x556be4e863c0] IVO_SUB 0 1 1 0
+[h264 @ 0x556be4e863c0] IVO_SUB 0 1 2 0
+[h264 @ 0x556be4e863c0] IVO_SUB 0 1 3 0
+[h264 @ 0x556be4e863c0] IVO_MOTION 0 1 0 0 0 -9 -16 0 0
+[h264 @ 0x556be4e863c0] IVO_MOTION 0 1 0 4 0 0 0 9 16
+[h264 @ 0x556be4e863c0] IVO_MOTION 0 1 0 8 0 0 0 9 16
+[h264 @ 0x556be4e863c0] IVO_MOTION 0 1 0 12 0 0 0 0 0
+[h264 @ 0x556be4e863c0] IVO_MOTION 0 2 0 0 0 0 -24 0 0
+[h264 @ 0x556be4e863c0] IVO_SUB 0 3 0 0
+[h264 @ 0x556be4e863c0] IVO_SUB 0 3 1 0
+[h264 @ 0x556be4e863c0] IVO_SUB 0 3 2 1
+[h264 @ 0x556be4e863c0] IVO_SUB 0 3 3 0
+[h264 @ 0x556be4e863c0] IVO_MOTION 0 3 0 0 0 5 0 0 24
+[h264 @ 0x556be4e863c0] IVO_MOTION 0 3 0 4 0 0 0 5 24
+[h264 @ 0x556be4e863c0] IVO_MOTION 0 3 0 8 0 7 0 5 0
+[h264 @ 0x556be4e863c0] IVO_MOTION 0 3 0 10 0 -7 0 7 0
+[h264 @ 0x556be4e863c0] IVO_MOTION 0 3 0 12 0 1 0 7 0
+[h264 @ 0x556be4e863c0] IVO_SUB 1 3 0 1
+[h264 @ 0x556be4e863c0] IVO_SUB 1 3 1 0
+[h264 @ 0x556be4e863c0] IVO_SUB 1 3 2 0
+[h264 @ 0x556be4e863c0] IVO_SUB 1 3 3 0
+[h264 @ 0x556be4e863c0] IVO_MOTION 1 3 0 0 0 0 0 0 0
+[h264 @ 0x556be4e863c0] IVO_MOTION 1 3 0 2 0 6 11 0 0
+[h264 @ 0x556be4e863c0] IVO_MOTION 1 3 0 4 0 0 -24 0 0
+[h264 @ 0x556be4e863c0] IVO_MOTION 1 3 0 8 0 0 0 7 11
+[h264 @ 0x556be4e863c0] IVO_MOTION 1 3 0 12 0 -1 0 0 24
+[h264 @ 0x556be4e863c0] IVO_MOTION 2 3 0 0 0 0 -24 0 24
+[h264 @ 0x556be4e863c0] IVO_MOTION 3 3 0 0 0 0 -24 0 24
+[h264 @ 0x556be4e863c0] IVO_MOTION 0 4 0 0 0 0 0 7 0
+[h264 @ 0x556be4e863c0] IVO_MOTION 1 4 0 0 0 0 0 0 0
+[h264 @ 0x556be4e863c0] IVO_MOTION 2 4 0 0 0 5 1 0 24
+[h264 @ 0x556be4e863c0] IVO_MOTION 2 4 0 8 0 0 0 5 1
+[h264 @ 0x556be4e863c0] IVO_SUB 3 4 0 0
+[h264 @ 0x556be4e863c0] IVO_SUB 3 4 1 0
+[h264 @ 0x556be4e863c0] IVO_SUB 3 4 2 0
+[h264 @ 0x556be4e863c0] IVO_SUB 3 4 3 0
+[h264 @ 0x556be4e863c0] IVO_MOTION 3 4 0 0 0 5 18 5 25
+[h264 @ 0x556be4e863c0] IVO_MOTION 3 4 0 4 0 0 -18 5 42
+[h264 @ 0x556be4e863c0] IVO_MOTION 3 4 0 8 0 0 0 5 18
+[h264 @ 0x556be4e863c0] IVO_MOTION 3 4 0 12 0 1 0 0 18
+[h264 @ 0x556be4e863c0] IVO_SUB 4 4 0 0
+[h264 @ 0x556be4e863c0] IVO_SUB 4 4 1 0
+[h264 @ 0x556be4e863c0] IVO_SUB 4 4 2 0
+[h264 @ 0x556be4e863c0] IVO_SUB 4 4 3 2
+[h264 @ 0x556be4e863c0] IVO_MOTION 4 4 0 0 0 0 0 0 18
+[h264 @ 0x556be4e863c0] IVO_MOTION 4 4 0 4 0 1 -31 0 0
+[h264 @ 0x556be4e863c0] IVO_MOTION 4 4 0 8 0 3 0 1 0
+[h264 @ 0x556be4e863c0] IVO_MOTION 4 4 0 12 0 -1 7 4 31
+[h264 @ 0x556be4e863c0] IVO_MOTION 4 4 0 13 0 7 7 2 38
+[h264 @ 0x556be4e863c0] IVO_MOTION 5 4 0 0 0 0 -24 1 31
+[h264 @ 0x556be4e863c0] IVO_MOTION 0 5 0 0 0 0 0 0 0
+[h264 @ 0x556be4e863c0] IVO_MOTION 3 5 0 0 0 0 0 0 0
+[h264 @ 0x556be4e863c0] IVO_SUB 4 5 0 1
+[h264 @ 0x556be4e863c0] IVO_SUB 4 5 1 2
+[h264 @ 0x556be4e863c0] IVO_SUB 4 5 2 0
+[h264 @ 0x556be4e863c0] IVO_SUB 4 5 3 2
+[h264 @ 0x556be4e863c0] IVO_MOTION 4 5 0 0 0 4 0 3 0
+[h264 @ 0x556be4e863c0] IVO_MOTION 4 5 0 2 0 0 0 4 0
+[h264 @ 0x556be4e863c0] IVO_MOTION 4 5 0 4 0 1 0 5 7
+[h264 @ 0x556be4e863c0] IVO_MOTION 4 5 0 5 0 2 0 8 7
+[h264 @ 0x556be4e863c0] IVO_MOTION 4 5 0 8 0 0 0 0 0
+[h264 @ 0x556be4e863c0] IVO_MOTION 4 5 0 12 0 -5 0 1 0
+[h264 @ 0x556be4e863c0] IVO_MOTION 4 5 0 13 0 0 0 7 0
+[h264 @ 0x556be4e863c0] IVO_MOTION 5 5 0 0 0 -7 0 2 24
+[h264 @ 0x556be4e863c0] nal_unit_type: 1(Coded slice of a non-IDR picture), nal_ref_idc: 2
+[h264 @ 0x556be4e863c0] IVO_FRAME
+[h264 @ 0x556be4e863c0] IVO_MOTION 3 0 0 0 0 0 0 0 0
+[h264 @ 0x556be4e863c0] IVO_MOTION 0 1 0 0 0 -16 -24 0 0
+[h264 @ 0x556be4e863c0] IVO_MOTION 0 2 0 0 0 0 -16 16 24
+[h264 @ 0x556be4e863c0] IVO_SUB 0 3 0 1
+[h264 @ 0x556be4e863c0] IVO_SUB 0 3 1 2
+[h264 @ 0x556be4e863c0] IVO_SUB 0 3 2 0
+[h264 @ 0x556be4e863c0] IVO_SUB 0 3 3 0
+[h264 @ 0x556be4e863c0] IVO_MOTION 0 3 0 0 0 0 -8 0 16
+[h264 @ 0x556be4e863c0] IVO_MOTION 0 3 0 2 0 8 17 0 8
+[h264 @ 0x556be4e863c0] IVO_MOTION 0 3 0 4 0 0 -8 0 24
+[h264 @ 0x556be4e863c0] IVO_MOTION 0 3 0 5 0 0 -16 0 24
+[h264 @ 0x556be4e863c0] IVO_MOTION 0 3 0 8 0 7 -15 8 17
+[h264 @ 0x556be4e863c0] IVO_MOTION 0 3 0 12 0 0 -1 7 23
+[h264 @ 0x556be4e863c0] IVO_MOTION 1 3 0 0 0 1 8 0 16
+[h264 @ 0x556be4e863c0] IVO_MOTION 1 3 0 4 0 5 -24 1 8
+[h264 @ 0x556be4e863c0] IVO_MOTION 0 4 0 0 0 -1 -2 7 15
+[h264 @ 0x556be4e863c0] IVO_SUB 1 4 0 0
+[h264 @ 0x556be4e863c0] IVO_SUB 1 4 1 0
+[h264 @ 0x556be4e863c0] IVO_SUB 1 4 2 2
+[h264 @ 0x556be4e863c0] IVO_SUB 1 4 3 3
+[h264 @ 0x556be4e863c0] IVO_MOTION 1 4 0 0 0 7 -1 2 10
+[h264 @ 0x556be4e863c0] IVO_MOTION 1 4 0 4 0 2 -1 12 25
+[h264 @ 0x556be4e863c0] IVO_MOTION 1 4 0 8 0 -8 1 8 3
+[h264 @ 0x556be4e863c0] IVO_MOTION 1 4 0 9 0 -7 1 15 2
+[h264 @ 0x556be4e863c0] IVO_MOTION 1 4 0 12 0 0 0 9 2
+[h264 @ 0x556be4e863c0] IVO_MOTION 1 4 0 13 0 0 0 2 1
+[h264 @ 0x556be4e863c0] IVO_MOTION 1 4 0 14 0 0 9 7 1
+[h264 @ 0x556be4e863c0] IVO_MOTION 1 4 0 15 0 1 0 0 9
+[h264 @ 0x556be4e863c0] IVO_MOTION 2 4 0 0 0 -7 1 2 1
+[h264 @ 0x556be4e863c0] IVO_MOTION 2 4 0 8 0 -1 -1 7 1
+[h264 @ 0x556be4e863c0] IVO_MOTION 3 4 0 0 0 0 -24 7 1
+[h264 @ 0x556be4e863c0] IVO_MOTION 4 4 0 0 0 0 -24 0 24
+[h264 @ 0x556be4e863c0] IVO_MOTION 0 5 0 0 0 0 0 1 2
+[h264 @ 0x556be4e863c0] IVO_MOTION 2 5 0 0 0 0 0 1 1
+[h264 @ 0x556be4e863c0] IVO_SUB 3 5 0 0
+[h264 @ 0x556be4e863c0] IVO_SUB 3 5 1 0
+[h264 @ 0x556be4e863c0] IVO_SUB 3 5 2 0
+[h264 @ 0x556be4e863c0] IVO_SUB 3 5 3 2
+[h264 @ 0x556be4e863c0] IVO_MOTION 3 5 0 0 0 0 0 0 24
+[h264 @ 0x556be4e863c0] IVO_MOTION 3 5 0 4 0 7 0 0 24
+[h264 @ 0x556be4e863c0] IVO_MOTION 3 5 0 8 0 0 0 0 0
+[h264 @ 0x556be4e863c0] IVO_MOTION 3 5 0 12 0 -7 0 7 0
+[h264 @ 0x556be4e863c0] IVO_MOTION 3 5 0 13 0 1 0 14 0
+[h264 @ 0x556be4e863c0] IVO_SUB 4 5 0 0
+[h264 @ 0x556be4e863c0] IVO_SUB 4 5 1 0
+[h264 @ 0x556be4e863c0] IVO_SUB 4 5 2 3
+[h264 @ 0x556be4e863c0] IVO_SUB 4 5 3 3
+[h264 @ 0x556be4e863c0] IVO_MOTION 4 5 0 0 0 7 0 7 24
+[h264 @ 0x556be4e863c0] IVO_MOTION 4 5 0 4 0 8 0 7 24
+[h264 @ 0x556be4e863c0] IVO_MOTION 4 5 0 8 0 -7 0 8 0
+[h264 @ 0x556be4e863c0] IVO_MOTION 4 5 0 9 0 0 0 14 0
+[h264 @ 0x556be4e863c0] IVO_MOTION 4 5 0 10 0 0 0 8 0
+[h264 @ 0x556be4e863c0] IVO_MOTION 4 5 0 11 0 0 15 0 0
+[h264 @ 0x556be4e863c0] IVO_MOTION 4 5 0 12 0 -1 0 8 0
+[h264 @ 0x556be4e863c0] IVO_MOTION 4 5 0 13 0 0 0 9 0
+[h264 @ 0x556be4e863c0] IVO_MOTION 4 5 0 14 0 -7 0 1 15
+[h264 @ 0x556be4e863c0] IVO_MOTION 4 5 0 15 0 0 0 7 0
+[h264 @ 0x556be4e863c0] IVO_MOTION 5 5 0 0 0 0 0 8 0
+[h264 @ 0x556be4e863c0] nal_unit_type: 1(Coded slice of a non-IDR picture), nal_ref_idc: 2
+[h264 @ 0x556be4e863c0] IVO_FRAME
+[h264 @ 0x556be4e863c0] IVO_MOTION 3 0 0 0 0 0 0 0 0
+[h264 @ 0x556be4e863c0] IVO_MOTION 0 1 0 0 0 0 -12 0 0
+[h264 @ 0x556be4e863c0] IVO_MOTION 0 1 0 8 0 -16 -4 0 12
+[h264 @ 0x556be4e863c0] IVO_MOTION 0 2 0 0 0 16 16 16 4
+[h264 @ 0x556be4e863c0] IVO_MOTION 0 2 0 4 0 -16 -16 32 20
+[h264 @ 0x556be4e863c0] IVO_SUB 0 3 0 0
+[h264 @ 0x556be4e863c0] IVO_SUB 0 3 1 0
+[h264 @ 0x556be4e863c0] IVO_SUB 0 3 2 3
+[h264 @ 0x556be4e863c0] IVO_SUB 0 3 3 1
+[h264 @ 0x556be4e863c0] IVO_MOTION 0 3 0 0 0 0 -32 16 16
+[h264 @ 0x556be4e863c0] IVO_MOTION 0 3 0 4 0 0 0 16 48
+[h264 @ 0x556be4e863c0] IVO_MOTION 0 3 0 8 0 7 33 0 32
+[h264 @ 0x556be4e863c0] IVO_MOTION 0 3 0 9 0 16 0 7 65
+[h264 @ 0x556be4e863c0] IVO_MOTION 0 3 0 10 0 0 0 7 33
+[h264 @ 0x556be4e863c0] IVO_MOTION 0 3 0 11 0 0 -1 16 0
+[h264 @ 0x556be4e863c0] IVO_MOTION 0 3 0 12 0 8 0 16 0
+[h264 @ 0x556be4e863c0] IVO_MOTION 0 3 0 14 0 -1 0 8 1
+[h264 @ 0x556be4e863c0] IVO_MOTION 1 3 0 0 0 0 0 0 0
+[h264 @ 0x556be4e863c0] IVO_MOTION 1 3 0 8 0 8 0 8 0
+[h264 @ 0x556be4e863c0] IVO_SUB 0 4 0 0
+[h264 @ 0x556be4e863c0] IVO_SUB 0 4 1 0
+[h264 @ 0x556be4e863c0] IVO_SUB 0 4 2 2
+[h264 @ 0x556be4e863c0] IVO_SUB 0 4 3 0
+[h264 @ 0x556be4e863c0] IVO_MOTION 0 4 0 0 0 -1 -40 0 0
+[h264 @ 0x556be4e863c0] IVO_MOTION 0 4 0 4 0 0 -1 2 40
+[h264 @ 0x556be4e863c0] IVO_MOTION 0 4 0 8 0 -6 24 1 40
+[h264 @ 0x556be4e863c0] IVO_MOTION 0 4 0 9 0 10 1 7 64
+[h264 @ 0x556be4e863c0] IVO_MOTION 0 4 0 12 0 1 1 10 2
+[h264 @ 0x556be4e863c0] IVO_MOTION 1 4 0 0 0 0 0 8 1
+[h264 @ 0x556be4e863c0] IVO_MOTION 2 4 0 0 0 0 -20 0 0
+[h264 @ 0x556be4e863c0] IVO_MOTION 2 4 0 8 0 -2 10 0 20
+[h264 @ 0x556be4e863c0] IVO_SUB 3 4 0 0
+[h264 @ 0x556be4e863c0] IVO_SUB 3 4 1 0
+[h264 @ 0x556be4e863c0] IVO_SUB 3 4 2 3
+[h264 @ 0x556be4e863c0] IVO_SUB 3 4 3 0
+[h264 @ 0x556be4e863c0] IVO_MOTION 3 4 0 0 0 0 -20 0 20
+[h264 @ 0x556be4e863c0] IVO_MOTION 3 4 0 4 0 0 0 0 20
+[h264 @ 0x556be4e863c0] IVO_MOTION 3 4 0 8 0 12 4 2 30
+[h264 @ 0x556be4e863c0] IVO_MOTION 3 4 0 9 0 0 -16 12 24
+[h264 @ 0x556be4e863c0] IVO_MOTION 3 4 0 10 0 0 0 14 14
+[h264 @ 0x556be4e863c0] IVO_MOTION 3 4 0 11 0 0 0 0 16
+[h264 @ 0x556be4e863c0] IVO_MOTION 3 4 0 12 0 8 4 0 16
+[h264 @ 0x556be4e863c0] IVO_MOTION 0 5 0 0 0 0 0 6 24
+[h264 @ 0x556be4e863c0] IVO_SUB 2 5 0 0
+[h264 @ 0x556be4e863c0] IVO_SUB 2 5 1 0
+[h264 @ 0x556be4e863c0] IVO_SUB 2 5 2 0
+[h264 @ 0x556be4e863c0] IVO_SUB 2 5 3 0
+[h264 @ 0x556be4e863c0] IVO_MOTION 2 5 0 0 0 -1 -15 2 10
+[h264 @ 0x556be4e863c0] IVO_MOTION 2 5 0 4 0 3 0 3 25
+[h264 @ 0x556be4e863c0] IVO_MOTION 2 5 0 8 0 0 0 1 15
+[h264 @ 0x556be4e863c0] IVO_MOTION 2 5 0 12 0 -5 0 3 0
+[h264 @ 0x556be4e863c0] IVO_SUB 3 5 0 0
+[h264 @ 0x556be4e863c0] IVO_SUB 3 5 1 0
+[h264 @ 0x556be4e863c0] IVO_SUB 3 5 2 0
+[h264 @ 0x556be4e863c0] IVO_SUB 3 5 3 0
+[h264 @ 0x556be4e863c0] IVO_MOTION 3 5 0 0 0 0 0 3 0
+[h264 @ 0x556be4e863c0] IVO_MOTION 3 5 0 4 0 -4 8 8 4
+[h264 @ 0x556be4e863c0] IVO_MOTION 3 5 0 8 0 12 0 5 0
+[h264 @ 0x556be4e863c0] IVO_MOTION 3 5 0 12 0 0 0 16 8
+[h264 @ 0x556be4e863c0] IVO_SUB 4 5 0 3
+[h264 @ 0x556be4e863c0] IVO_SUB 4 5 1 0
+[h264 @ 0x556be4e863c0] IVO_SUB 4 5 2 0
+[h264 @ 0x556be4e863c0] IVO_SUB 4 5 3 0
+[h264 @ 0x556be4e863c0] IVO_MOTION 4 5 0 0 0 0 0 4 8
+[h264 @ 0x556be4e863c0] IVO_MOTION 4 5 0 1 0 12 -8 0 0
+[h264 @ 0x556be4e863c0] IVO_MOTION 4 5 0 2 0 0 0 4 8
+[h264 @ 0x556be4e863c0] IVO_MOTION 4 5 0 3 0 0 0 12 8
+[h264 @ 0x556be4e863c0] IVO_MOTION 4 5 0 4 0 8 -16 12 8
+[h264 @ 0x556be4e863c0] IVO_MOTION 4 5 0 8 0 0 0 0 0
+[h264 @ 0x556be4e863c0] IVO_MOTION 4 5 0 12 0 -2 8 8 16
+[h264 @ 0x556be4e863c0] IVO_SUB 5 5 0 2
+[h264 @ 0x556be4e863c0] IVO_SUB 5 5 1 0
+[h264 @ 0x556be4e863c0] IVO_SUB 5 5 2 0
+[h264 @ 0x556be4e863c0] IVO_SUB 5 5 3 0
+[h264 @ 0x556be4e863c0] IVO_MOTION 5 5 0 0 0 8 -16 8 16
+[h264 @ 0x556be4e863c0] IVO_MOTION 5 5 0 1 0 0 -28 8 16
+[h264 @ 0x556be4e863c0] IVO_MOTION 5 5 0 4 0 0 -29 0 28
+[h264 @ 0x556be4e863c0] IVO_MOTION 5 5 0 8 0 1 44 10 24
+[h264 @ 0x556be4e863c0] IVO_MOTION 5 5 0 12 0 8 12 1 73
+[h264 @ 0x556be4e863c0] nal_unit_type: 1(Coded slice of a non-IDR picture), nal_ref_idc: 2
+[h264 @ 0x556be4e863c0] IVO_FRAME
+[h264 @ 0x556be4e863c0] IVO_SUB 3 0 0 2
+[h264 @ 0x556be4e863c0] IVO_SUB 3 0 1 3
+[h264 @ 0x556be4e863c0] IVO_SUB 3 0 2 0
+[h264 @ 0x556be4e863c0] IVO_SUB 3 0 3 0
+[h264 @ 0x556be4e863c0] IVO_MOTION 3 0 0 0 0 0 0 0 0
+[h264 @ 0x556be4e863c0] IVO_MOTION 3 0 0 1 0 -2 0 0 0
+[h264 @ 0x556be4e863c0] IVO_MOTION 3 0 0 4 0 3 1 2 0
+[h264 @ 0x556be4e863c0] IVO_MOTION 3 0 0 5 0 -1 0 3 1
+[h264 @ 0x556be4e863c0] IVO_MOTION 3 0 0 6 0 0 -1 5 1
+[h264 @ 0x556be4e863c0] IVO_MOTION 3 0 0 7 0 0 -1 1 1
+[h264 @ 0x556be4e863c0] IVO_MOTION 3 0 0 8 0 0 0 0 0
+[h264 @ 0x556be4e863c0] IVO_MOTION 3 0 0 12 0 0 0 0 1
+[h264 @ 0x556be4e863c0] IVO_MOTION 4 0 0 0 0 0 0 1 0
+[h264 @ 0x556be4e863c0] IVO_MOTION 5 0 0 0 0 0 0 0 0
+[h264 @ 0x556be4e863c0] IVO_SUB 0 1 0 0
+[h264 @ 0x556be4e863c0] IVO_SUB 0 1 1 0
+[h264 @ 0x556be4e863c0] IVO_SUB 0 1 2 0
+[h264 @ 0x556be4e863c0] IVO_SUB 0 1 3 0
+[h264 @ 0x556be4e863c0] IVO_MOTION 0 1 0 0 0 0 -1 0 0
+[h264 @ 0x556be4e863c0] IVO_MOTION 0 1 0 4 0 0 0 0 1
+[h264 @ 0x556be4e863c0] IVO_MOTION 0 1 0 8 0 0 61 0 1
+[h264 @ 0x556be4e863c0] IVO_MOTION 0 1 0 12 0 -16 -16 0 61
+[h264 @ 0x556be4e863c0] IVO_MOTION 1 1 0 0 0 0 0 0 0
+[h264 @ 0x556be4e863c0] IVO_MOTION 4 1 0 0 0 0 0 0 0
+[h264 @ 0x556be4e863c0] IVO_SUB 0 2 0 2
+[h264 @ 0x556be4e863c0] IVO_SUB 0 2 1 2
+[h264 @ 0x556be4e863c0] IVO_SUB 0 2 2 0
+[h264 @ 0x556be4e863c0] IVO_SUB 0 2 3 0
+[h264 @ 0x556be4e863c0] IVO_MOTION 0 2 0 0 0 0 -1 0 61
+[h264 @ 0x556be4e863c0] IVO_MOTION 0 2 0 1 0 0 0 0 62
+[h264 @ 0x556be4e863c0] IVO_MOTION 0 2 0 4 0 0 0 16 16
+[h264 @ 0x556be4e863c0] IVO_MOTION 0 2 0 5 0 1 0 16 16
+[h264 @ 0x556be4e863c0] IVO_MOTION 0 2 0 8 0 0 0 0 1
+[h264 @ 0x556be4e863c0] IVO_MOTION 0 2 0 12 0 0 0 0 0
+[h264 @ 0x556be4e863c0] IVO_MOTION 1 2 0 0 0 -1 0 1 0
+[h264 @ 0x556be4e863c0] IVO_MOTION 1 2 0 4 0 0 0 1 0
+[h264 @ 0x556be4e863c0] IVO_MOTION 4 2 0 0 0 0 0 0 0
+[h264 @ 0x556be4e863c0] IVO_MOTION 0 3 0 0 0 0 -24 0 0
+[h264 @ 0x556be4e863c0] IVO_MOTION 4 3 0 0 0 0 0 0 0
+[h264 @ 0x556be4e863c0] IVO_MOTION 0 4 0 0 0 0 -8 0 24
+[h264 @ 0x556be4e863c0] IVO_MOTION 1 4 0 0 0 0 -8 0 8
+[h264 @ 0x556be4e863c0] IVO_MOTION 1 4 0 8 0 5 0 0 16
+[h264 @ 0x556be4e863c0] IVO_MOTION 2 4 0 0 0 0 -24 0 8
+[h264 @ 0x556be4e863c0] IVO_SUB 0 5 0 0
+[h264 @ 0x556be4e863c0] IVO_SUB 0 5 1 0
+[h264 @ 0x556be4e863c0] IVO_SUB 0 5 2 0
+[h264 @ 0x556be4e863c0] IVO_SUB 0 5 3 0
+[h264 @ 0x556be4e863c0] IVO_MOTION 0 5 0 0 0 0 0 0 8
+[h264 @ 0x556be4e863c0] IVO_MOTION 0 5 0 4 0 0 1 0 8
+[h264 @ 0x556be4e863c0] IVO_MOTION 0 5 0 8 0 0 0 0 0
+[h264 @ 0x556be4e863c0] IVO_MOTION 0 5 0 12 0 0 0 0 1
+[h264 @ 0x556be4e863c0] IVO_SUB 1 5 0 3
+[h264 @ 0x556be4e863c0] IVO_SUB 1 5 1 0
+[h264 @ 0x556be4e863c0] IVO_SUB 1 5 2 0
+[h264 @ 0x556be4e863c0] IVO_SUB 1 5 3 0
+[h264 @ 0x556be4e863c0] IVO_MOTION 1 5 0 0 0 0 0 5 1
+[h264 @ 0x556be4e863c0] IVO_MOTION 1 5 0 1 0 1 0 5 0
+[h264 @ 0x556be4e863c0] IVO_MOTION 1 5 0 2 0 -5 0 0 1
+[h264 @ 0x556be4e863c0] IVO_MOTION 1 5 0 3 0 0 0 6 0
+[h264 @ 0x556be4e863c0] IVO_MOTION 1 5 0 4 0 1 0 6 0
+[h264 @ 0x556be4e863c0] IVO_MOTION 1 5 0 8 0 0 0 5 0
+[h264 @ 0x556be4e863c0] IVO_MOTION 1 5 0 12 0 -4 0 1 0
+[h264 @ 0x556be4e863c0] IVO_SUB 2 5 0 0
+[h264 @ 0x556be4e863c0] IVO_SUB 2 5 1 0
+[h264 @ 0x556be4e863c0] IVO_SUB 2 5 2 0
+[h264 @ 0x556be4e863c0] IVO_SUB 2 5 3 1
+[h264 @ 0x556be4e863c0] IVO_MOTION 2 5 0 0 0 7 0 1 24
+[h264 @ 0x556be4e863c0] IVO_MOTION 2 5 0 4 0 4 0 7 24
+[h264 @ 0x556be4e863c0] IVO_MOTION 2 5 0 8 0 -1 0 11 0
+[h264 @ 0x556be4e863c0] IVO_MOTION 2 5 0 12 0 1 0 5 0
+[h264 @ 0x556be4e863c0] IVO_MOTION 2 5 0 14 0 -3 0 2 0
+[h264 @ 0x556be4e863c0] IVO_MOTION 3 5 0 0 0 -4 0 4 0
+[h264 @ 0x556be4e863c0] IVO_MOTION 3 5 0 8 0 0 0 5 0
+[h264 @ 0x556be4e863c0] IVO_SUB 4 5 0 0
+[h264 @ 0x556be4e863c0] IVO_SUB 4 5 1 0
+[h264 @ 0x556be4e863c0] IVO_SUB 4 5 2 0
+[h264 @ 0x556be4e863c0] IVO_SUB 4 5 3 0
+[h264 @ 0x556be4e863c0] IVO_MOTION 4 5 0 0 0 0 0 4 0
+[h264 @ 0x556be4e863c0] IVO_MOTION 4 5 0 4 0 0 -24 0 0
+[h264 @ 0x556be4e863c0] IVO_MOTION 4 5 0 8 0 4 0 0 0
+[h264 @ 0x556be4e863c0] IVO_MOTION 4 5 0 12 0 0 0 4 24
+[h264 @ 0x556be4e863c0] IVO_MOTION 5 5 0 0 0 0 -24 0 24
+[h264 @ 0x556be4e863c0] nal_unit_type: 1(Coded slice of a non-IDR picture), nal_ref_idc: 2
+[h264 @ 0x556be4e863c0] IVO_FRAME
+[h264 @ 0x556be4e863c0] IVO_MOTION 3 0 0 0 0 0 0 0 0
+[h264 @ 0x556be4e863c0] IVO_MOTION 0 2 0 0 0 0 0 0 0
+[h264 @ 0x556be4e863c0] IVO_MOTION 0 2 0 4 0 -16 -24 0 0
+[h264 @ 0x556be4e863c0] IVO_MOTION 1 2 0 0 0 0 0 16 24
+[h264 @ 0x556be4e863c0] IVO_MOTION 1 2 0 4 0 0 0 0 0
+[h264 @ 0x556be4e863c0] IVO_MOTION 0 4 0 0 0 0 -24 0 0
+[h264 @ 0x556be4e863c0] IVO_MOTION 0 4 0 8 0 7 16 0 24
+[h264 @ 0x556be4e863c0] IVO_SUB 1 4 0 0
+[h264 @ 0x556be4e863c0] IVO_SUB 1 4 1 0
+[h264 @ 0x556be4e863c0] IVO_SUB 1 4 2 1
+[h264 @ 0x556be4e863c0] IVO_SUB 1 4 3 0
+[h264 @ 0x556be4e863c0] IVO_MOTION 1 4 0 0 0 0 -57 0 24
+[h264 @ 0x556be4e863c0] IVO_MOTION 1 4 0 4 0 0 -53 0 57
+[h264 @ 0x556be4e863c0] IVO_MOTION 1 4 0 8 0 0 29 7 73
+[h264 @ 0x556be4e863c0] IVO_MOTION 1 4 0 10 0 0 0 7 45
+[h264 @ 0x556be4e863c0] IVO_MOTION 1 4 0 12 0 0 0 0 82
+[h264 @ 0x556be4e863c0] IVO_MOTION 2 4 0 0 0 0 -80 0 53
+[h264 @ 0x556be4e863c0] IVO_MOTION 0 5 0 0 0 -7 -16 7 16
+[h264 @ 0x556be4e863c0] IVO_MOTION 1 5 0 0 0 4 0 7 16
+[h264 @ 0x556be4e863c0] IVO_MOTION 2 5 0 0 0 0 56 4 70
+[h264 @ 0x556be4e863c0] IVO_MOTION 2 5 0 8 0 3 0 4 56
+[h264 @ 0x556be4e863c0] IVO_SUB 3 5 0 0
+[h264 @ 0x556be4e863c0] IVO_SUB 3 5 1 0
+[h264 @ 0x556be4e863c0] IVO_SUB 3 5 2 0
+[h264 @ 0x556be4e863c0] IVO_SUB 3 5 3 0
+[h264 @ 0x556be4e863c0] IVO_MOTION 3 5 0 0 0 0 -24 0 56
+[h264 @ 0x556be4e863c0] IVO_MOTION 3 5 0 4 0 0 -28 0 24
+[h264 @ 0x556be4e863c0] IVO_MOTION 3 5 0 8 0 3 0 3 24
+[h264 @ 0x556be4e863c0] IVO_MOTION 3 5 0 12 0 0 0 3 28
+[h264 @ 0x556be4e863c0] IVO_MOTION 4 5 0 0 0 0 -24 0 28
+[h264 @ 0x556be4e863c0] nal_unit_type: 1(Coded slice of a non-IDR picture), nal_ref_idc: 2
+[h264 @ 0x556be4e863c0] IVO_FRAME
+[h264 @ 0x556be4e863c0] IVO_MOTION 3 0 0 0 0 0 0 0 0
+[h264 @ 0x556be4e863c0] IVO_MOTION 1 2 0 0 0 0 -24 0 0
+[h264 @ 0x556be4e863c0] IVO_MOTION 1 2 0 8 0 -16 8 0 24
+[h264 @ 0x556be4e863c0] IVO_MOTION 0 4 0 0 0 0 -24 0 0
+[h264 @ 0x556be4e863c0] IVO_SUB 0 5 0 0
+[h264 @ 0x556be4e863c0] IVO_SUB 0 5 1 0
+[h264 @ 0x556be4e863c0] IVO_SUB 0 5 2 2
+[h264 @ 0x556be4e863c0] IVO_SUB 0 5 3 1
+[h264 @ 0x556be4e863c0] IVO_MOTION 0 5 0 0 0 6 -1 0 24
+[h264 @ 0x556be4e863c0] IVO_MOTION 0 5 0 4 0 6 -1 6 25
+[h264 @ 0x556be4e863c0] IVO_MOTION 0 5 0 8 0 -6 1 6 1
+[h264 @ 0x556be4e863c0] IVO_MOTION 0 5 0 9 0 2 1 12 2
+[h264 @ 0x556be4e863c0] IVO_MOTION 0 5 0 12 0 0 0 8 2
+[h264 @ 0x556be4e863c0] IVO_MOTION 0 5 0 14 0 -8 0 2 1
+[h264 @ 0x556be4e863c0] IVO_SUB 1 5 0 2
+[h264 @ 0x556be4e863c0] IVO_SUB 1 5 1 0
+[h264 @ 0x556be4e863c0] IVO_SUB 1 5 2 0
+[h264 @ 0x556be4e863c0] IVO_SUB 1 5 3 0
+[h264 @ 0x556be4e863c0] IVO_MOTION 1 5 0 0 0 0 12 6 1
+[h264 @ 0x556be4e863c0] IVO_MOTION 1 5 0 1 0 3 0 0 12
+[h264 @ 0x556be4e863c0] IVO_MOTION 1 5 0 4 0 7 -19 3 0
+[h264 @ 0x556be4e863c0] IVO_MOTION 1 5 0 8 0 1 -7 0 12
+[h264 @ 0x556be4e863c0] IVO_MOTION 1 5 0 12 0 -1 1 8 26
+[h264 @ 0x556be4e863c0] IVO_SUB 2 5 0 0
+[h264 @ 0x556be4e863c0] IVO_SUB 2 5 1 0
+[h264 @ 0x556be4e863c0] IVO_SUB 2 5 2 0
+[h264 @ 0x556be4e863c0] IVO_SUB 2 5 3 0
+[h264 @ 0x556be4e863c0] IVO_MOTION 2 5 0 0 0 0 -24 7 19
+[h264 @ 0x556be4e863c0] IVO_MOTION 2 5 0 4 0 0 -31 0 24
+[h264 @ 0x556be4e863c0] IVO_MOTION 2 5 0 8 0 6 6 1 25
+[h264 @ 0x556be4e863c0] IVO_MOTION 2 5 0 12 0 0 0 6 37
+[h264 @ 0x556be4e863c0] IVO_MOTION 3 5 0 0 0 0 -24 0 31
+[h264 @ 0x556be4e863c0] nal_unit_type: 1(Coded slice of a non-IDR picture), nal_ref_idc: 2
+[h264 @ 0x556be4e863c0] IVO_FRAME
+[h264 @ 0x556be4e863c0] IVO_MOTION 3 0 0 0 0 0 0 0 0
+[h264 @ 0x556be4e863c0] IVO_MOTION 1 2 0 0 0 -16 -16 0 0
+[h264 @ 0x556be4e863c0] IVO_SUB 1 3 0 0
+[h264 @ 0x556be4e863c0] IVO_SUB 1 3 1 0
+[h264 @ 0x556be4e863c0] IVO_SUB 1 3 2 0
+[h264 @ 0x556be4e863c0] IVO_SUB 1 3 3 0
+[h264 @ 0x556be4e863c0] IVO_MOTION 1 3 0 0 0 0 0 16 16
+[h264 @ 0x556be4e863c0] IVO_MOTION 1 3 0 4 0 0 0 16 16
+[h264 @ 0x556be4e863c0] IVO_MOTION 1 3 0 8 0 0 0 0 0
+[h264 @ 0x556be4e863c0] IVO_MOTION 1 3 0 12 0 0 0 0 0
+[h264 @ 0x556be4e863c0] IVO_SUB 0 5 0 0
+[h264 @ 0x556be4e863c0] IVO_SUB 0 5 1 1
+[h264 @ 0x556be4e863c0] IVO_SUB 0 5 2 1
+[h264 @ 0x556be4e863c0] IVO_SUB 0 5 3 0
+[h264 @ 0x556be4e863c0] IVO_MOTION 0 5 0 0 0 0 -24 0 0
+[h264 @ 0x556be4e863c0] IVO_MOTION 0 5 0 4 0 0 -24 0 24
+[h264 @ 0x556be4e863c0] IVO_MOTION 0 5 0 6 0 7 28 0 48
+[h264 @ 0x556be4e863c0] IVO_MOTION 0 5 0 8 0 4 -32 0 24
+[h264 @ 0x556be4e863c0] IVO_MOTION 0 5 0 10 0 0 1 4 32
+[h264 @ 0x556be4e863c0] IVO_MOTION 0 5 0 12 0 2 1 11 60
+[h264 @ 0x556be4e863c0] IVO_MOTION 1 5 0 0 0 8 -24 0 24
+[h264 @ 0x556be4e863c0] IVO_MOTION 1 5 0 8 0 1 0 10 25
+[h264 @ 0x556be4e863c0] IVO_MOTION 2 5 0 0 0 0 -24 8 24
+[h264 @ 0x556be4e863c0] nal_unit_type: 1(Coded slice of a non-IDR picture), nal_ref_idc: 2
+[h264 @ 0x556be4e863c0] IVO_FRAME
+[h264 @ 0x556be4e863c0] IVO_MOTION 3 0 0 0 0 0 0 0 0
+[h264 @ 0x556be4e863c0] IVO_MOTION 1 3 0 0 0 -16 -24 0 0
+[h264 @ 0x556be4e863c0] IVO_MOTION 2 3 0 0 0 0 0 16 24
+[h264 @ 0x556be4e863c0] IVO_MOTION 2 3 0 4 0 0 0 0 0
+[h264 @ 0x556be4e863c0] IVO_MOTION 0 5 0 0 0 0 -24 0 0
+[h264 @ 0x556be4e863c0] IVO_MOTION 1 5 0 0 0 0 -25 0 24
+[h264 @ 0x556be4e863c0] nal_unit_type: 1(Coded slice of a non-IDR picture), nal_ref_idc: 2
+[h264 @ 0x556be4e863c0] IVO_FRAME
+[h264 @ 0x556be4e863c0] IVO_SUB 3 0 0 2
+[h264 @ 0x556be4e863c0] IVO_SUB 3 0 1 0
+[h264 @ 0x556be4e863c0] IVO_SUB 3 0 2 0
+[h264 @ 0x556be4e863c0] IVO_SUB 3 0 3 0
+[h264 @ 0x556be4e863c0] IVO_MOTION 3 0 0 0 0 0 0 0 0
+[h264 @ 0x556be4e863c0] IVO_MOTION 3 0 0 1 0 6 0 0 0
+[h264 @ 0x556be4e863c0] IVO_MOTION 3 0 0 4 0 -6 0 6 0
+[h264 @ 0x556be4e863c0] IVO_MOTION 3 0 0 8 0 0 0 0 0
+[h264 @ 0x556be4e863c0] IVO_MOTION 3 0 0 12 0 0 0 6 0
+[h264 @ 0x556be4e863c0] IVO_MOTION 1 3 0 0 0 -16 -16 0 0
+[h264 @ 0x556be4e863c0] IVO_MOTION 2 3 0 0 0 0 0 16 16
+[h264 @ 0x556be4e863c0] IVO_MOTION 2 3 0 4 0 0 0 0 0
+[h264 @ 0x556be4e863c0] IVO_MOTION 1 4 0 0 0 0 0 16 16
+[h264 @ 0x556be4e863c0] IVO_MOTION 2 4 0 0 0 0 0 0 0
+[h264 @ 0x556be4e863c0] IVO_MOTION 2 4 0 4 0 0 0 0 0
+[h264 @ 0x556be4e863c0] IVO_MOTION 0 5 0 0 0 0 -24 0 0
+[h264 @ 0x556be4e863c0] IVO_MOTION 0 5 0 4 0 17 -8 0 24
+[h264 @ 0x556be4e863c0] nal_unit_type: 1(Coded slice of a non-IDR picture), nal_ref_idc: 2
+[h264 @ 0x556be4e863c0] IVO_FRAME
+[h264 @ 0x556be4e863c0] IVO_MOTION 3 0 0 0 0 0 0 0 0
+[h264 @ 0x556be4e863c0] IVO_MOTION 2 3 0 0 0 -16 -16 0 0
+[h264 @ 0x556be4e863c0] IVO_SUB 2 4 0 0
+[h264 @ 0x556be4e863c0] IVO_SUB 2 4 1 2
+[h264 @ 0x556be4e863c0] IVO_SUB 2 4 2 2
+[h264 @ 0x556be4e863c0] IVO_SUB 2 4 3 0
+[h264 @ 0x556be4e863c0] IVO_MOTION 2 4 0 0 0 0 0 16 16
+[h264 @ 0x556be4e863c0] IVO_MOTION 2 4 0 4 0 0 0 16 16
+[h264 @ 0x556be4e863c0] IVO_MOTION 2 4 0 5 0 16 0 16 16
+[h264 @ 0x556be4e863c0] IVO_MOTION 2 4 0 8 0 0 0 0 0
+[h264 @ 0x556be4e863c0] IVO_MOTION 2 4 0 9 0 0 0 0 0
+[h264 @ 0x556be4e863c0] IVO_MOTION 2 4 0 12 0 16 0 0 0
+[h264 @ 0x556be4e863c0] IVO_MOTION 1 5 0 0 0 0 24 0 0
+[h264 @ 0x556be4e863c0] nal_unit_type: 1(Coded slice of a non-IDR picture), nal_ref_idc: 2
+[h264 @ 0x556be4e863c0] IVO_FRAME
+[h264 @ 0x556be4e863c0] IVO_SUB 2 0 0 0
+[h264 @ 0x556be4e863c0] IVO_SUB 2 0 1 3
+[h264 @ 0x556be4e863c0] IVO_SUB 2 0 2 0
+[h264 @ 0x556be4e863c0] IVO_SUB 2 0 3 0
+[h264 @ 0x556be4e863c0] IVO_MOTION 2 0 0 0 0 0 0 0 0
+[h264 @ 0x556be4e863c0] IVO_MOTION 2 0 0 4 0 0 0 0 0
+[h264 @ 0x556be4e863c0] IVO_MOTION 2 0 0 5 0 12 0 0 0
+[h264 @ 0x556be4e863c0] IVO_MOTION 2 0 0 6 0 0 0 0 0
+[h264 @ 0x556be4e863c0] IVO_MOTION 2 0 0 7 0 0 0 12 0
+[h264 @ 0x556be4e863c0] IVO_MOTION 2 0 0 8 0 0 0 0 0
+[h264 @ 0x556be4e863c0] IVO_MOTION 2 0 0 12 0 0 0 0 0
+[h264 @ 0x556be4e863c0] IVO_SUB 3 0 0 2
+[h264 @ 0x556be4e863c0] IVO_SUB 3 0 1 2
+[h264 @ 0x556be4e863c0] IVO_SUB 3 0 2 0
+[h264 @ 0x556be4e863c0] IVO_SUB 3 0 3 0
+[h264 @ 0x556be4e863c0] IVO_MOTION 3 0 0 0 0 15 -1 12 0
+[h264 @ 0x556be4e863c0] IVO_MOTION 3 0 0 1 0 -31 1 15 1
+[h264 @ 0x556be4e863c0] IVO_MOTION 3 0 0 4 0 0 0 31 1
+[h264 @ 0x556be4e863c0] IVO_MOTION 3 0 0 5 0 4 0 0 0
+[h264 @ 0x556be4e863c0] IVO_MOTION 3 0 0 8 0 0 0 15 1
+[h264 @ 0x556be4e863c0] IVO_MOTION 3 0 0 12 0 0 0 0 0
+[h264 @ 0x556be4e863c0] IVO_MOTION 2 4 0 0 0 -16 -24 0 0
+[h264 @ 0x556be4e863c0] IVO_MOTION 2 4 0 8 0 0 0 16 24
+[h264 @ 0x556be4e863c0] IVO_MOTION 1 5 0 0 0 0 24 0 0
+[h264 @ 0x556be4e863c0] nal_unit_type: 1(Coded slice of a non-IDR picture), nal_ref_idc: 2
+[h264 @ 0x556be4e863c0] IVO_FRAME
+[h264 @ 0x556be4e863c0] IVO_MOTION 3 0 0 0 0 0 0 0 0
+[h264 @ 0x556be4e863c0] IVO_MOTION 1 4 0 0 0 0 24 0 0
+[h264 @ 0x556be4e863c0] IVO_MOTION 2 4 0 0 0 -16 -16 0 24
+[h264 @ 0x556be4e863c0] IVO_MOTION 3 4 0 0 0 -16 -16 16 16
+[h264 @ 0x556be4e863c0] IVO_MOTION 2 5 0 0 0 16 0 16 16
+[h264 @ 0x556be4e863c0] nal_unit_type: 1(Coded slice of a non-IDR picture), nal_ref_idc: 2
+[h264 @ 0x556be4e863c0] IVO_FRAME
+[h264 @ 0x556be4e863c0] IVO_MOTION 3 0 0 0 0 0 0 0 0
+[h264 @ 0x556be4e863c0] IVO_MOTION 1 4 0 0 0 0 24 0 0
+[h264 @ 0x556be4e863c0] IVO_SUB 2 4 0 0
+[h264 @ 0x556be4e863c0] IVO_SUB 2 4 1 0
+[h264 @ 0x556be4e863c0] IVO_SUB 2 4 2 0
+[h264 @ 0x556be4e863c0] IVO_SUB 2 4 3 0
+[h264 @ 0x556be4e863c0] IVO_MOTION 2 4 0 0 0 0 0 0 24
+[h264 @ 0x556be4e863c0] IVO_MOTION 2 4 0 4 0 0 -20 0 0
+[h264 @ 0x556be4e863c0] IVO_MOTION 2 4 0 8 0 0 0 0 24
+[h264 @ 0x556be4e863c0] IVO_MOTION 2 4 0 12 0 -16 -16 0 20
+[h264 @ 0x556be4e863c0] IVO_MOTION 3 4 0 0 0 8 0 0 20
+[h264 @ 0x556be4e863c0] IVO_MOTION 3 4 0 8 0 0 0 24 16
+[h264 @ 0x556be4e863c0] nal_unit_type: 1(Coded slice of a non-IDR picture), nal_ref_idc: 2
+[h264 @ 0x556be4e863c0] IVO_FRAME
+[h264 @ 0x556be4e863c0] IVO_SUB 3 0 0 2
+[h264 @ 0x556be4e863c0] IVO_SUB 3 0 1 3
+[h264 @ 0x556be4e863c0] IVO_SUB 3 0 2 0
+[h264 @ 0x556be4e863c0] IVO_SUB 3 0 3 0
+[h264 @ 0x556be4e863c0] IVO_MOTION 3 0 0 0 0 0 0 0 0
+[h264 @ 0x556be4e863c0] IVO_MOTION 3 0 0 1 0 -2 0 0 0
+[h264 @ 0x556be4e863c0] IVO_MOTION 3 0 0 4 0 3 1 2 0
+[h264 @ 0x556be4e863c0] IVO_MOTION 3 0 0 5 0 -1 0 3 1
+[h264 @ 0x556be4e863c0] IVO_MOTION 3 0 0 6 0 0 -1 5 1
+[h264 @ 0x556be4e863c0] IVO_MOTION 3 0 0 7 0 0 -1 1 1
+[h264 @ 0x556be4e863c0] IVO_MOTION 3 0 0 8 0 0 0 0 0
+[h264 @ 0x556be4e863c0] IVO_MOTION 3 0 0 12 0 0 0 0 1
+[h264 @ 0x556be4e863c0] IVO_MOTION 4 0 0 0 0 0 0 1 0
+[h264 @ 0x556be4e863c0] IVO_MOTION 5 0 0 0 0 0 0 0 0
+[h264 @ 0x556be4e863c0] IVO_MOTION 4 1 0 0 0 0 0 0 0
+[h264 @ 0x556be4e863c0] IVO_MOTION 4 2 0 0 0 0 0 0 0
+[h264 @ 0x556be4e863c0] IVO_MOTION 4 3 0 0 0 0 0 0 0
+[h264 @ 0x556be4e863c0] IVO_MOTION 3 4 0 0 0 0 0 0 0
+[h264 @ 0x556be4e863c0] IVO_MOTION 3 4 0 8 0 -16 -24 0 0
+[h264 @ 0x556be4e863c0] IVO_MOTION 4 4 0 0 0 0 0 0 0
+[h264 @ 0x556be4e863c0] IVO_MOTION 3 5 0 0 0 0 0 16 24
+[h264 @ 0x556be4e863c0] IVO_MOTION 3 5 0 8 0 0 0 0 0
+[h264 @ 0x556be4e863c0] nal_unit_type: 1(Coded slice of a non-IDR picture), nal_ref_idc: 2
+[h264 @ 0x556be4e863c0] IVO_FRAME
+[h264 @ 0x556be4e863c0] IVO_MOTION 3 0 0 0 0 0 0 0 0
+[h264 @ 0x556be4e863c0] IVO_MOTION 1 4 0 0 0 0 -24 0 0
+[h264 @ 0x556be4e863c0] IVO_SUB 3 5 0 0
+[h264 @ 0x556be4e863c0] IVO_SUB 3 5 1 0
+[h264 @ 0x556be4e863c0] IVO_SUB 3 5 2 2
+[h264 @ 0x556be4e863c0] IVO_SUB 3 5 3 0
+[h264 @ 0x556be4e863c0] IVO_MOTION 3 5 0 0 0 -16 -16 0 0
+[h264 @ 0x556be4e863c0] IVO_MOTION 3 5 0 4 0 -16 -16 16 16
+[h264 @ 0x556be4e863c0] IVO_MOTION 3 5 0 8 0 8 0 16 16
+[h264 @ 0x556be4e863c0] IVO_MOTION 3 5 0 9 0 0 0 24 16
+[h264 @ 0x556be4e863c0] IVO_MOTION 3 5 0 12 0 0 0 16 16
+[h264 @ 0x556be4e863c0] nal_unit_type: 1(Coded slice of a non-IDR picture), nal_ref_idc: 2
+[h264 @ 0x556be4e863c0] IVO_FRAME
+[h264 @ 0x556be4e863c0] IVO_MOTION 3 0 0 0 0 0 0 0 0
+[h264 @ 0x556be4e863c0] IVO_MOTION 3 5 0 0 0 60 0 0 0
+[h264 @ 0x556be4e863c0] IVO_MOTION 3 5 0 4 0 -16 -16 60 0
+[h264 @ 0x556be4e863c0] IVO_MOTION 4 5 0 0 0 -16 -16 16 16
+[h264 @ 0x556be4e863c0] nal_unit_type: 1(Coded slice of a non-IDR picture), nal_ref_idc: 2
+[h264 @ 0x556be4e863c0] IVO_FRAME
+[h264 @ 0x556be4e863c0] IVO_MOTION 1 5 0 0 0 0 -24 0 0
+[h264 @ 0x556be4e863c0] IVO_MOTION 3 5 0 0 0 -8 -24 0 0
+[h264 @ 0x556be4e863c0] IVO_MOTION 4 5 0 0 0 -8 -24 8 24
+[h264 @ 0x556be4e863c0] nal_unit_type: 1(Coded slice of a non-IDR picture), nal_ref_idc: 2
+[h264 @ 0x556be4e863c0] IVO_FRAME
+[h264 @ 0x556be4e863c0] IVO_MOTION 3 0 0 0 0 0 0 0 0
+[h264 @ 0x556be4e863c0] IVO_MOTION 1 5 0 0 0 0 -24 0 0
+[h264 @ 0x556be4e863c0] nal_unit_type: 1(Coded slice of a non-IDR picture), nal_ref_idc: 2
+[h264 @ 0x556be4e863c0] IVO_FRAME
+[h264 @ 0x556be4e863c0] IVO_MOTION 3 0 0 0 0 0 0 0 0
+[h264 @ 0x556be4e863c0] nal_unit_type: 1(Coded slice of a non-IDR picture), nal_ref_idc: 2
+[h264 @ 0x556be4e863c0] IVO_FRAME
+[h264 @ 0x556be4e863c0] IVO_MOTION 3 0 0 0 0 0 0 0 0
+[h264 @ 0x556be4e863c0] nal_unit_type: 1(Coded slice of a non-IDR picture), nal_ref_idc: 2
+[h264 @ 0x556be4e863c0] IVO_FRAME
+[h264 @ 0x556be4e863c0] IVO_SUB 2 0 0 0
+[h264 @ 0x556be4e863c0] IVO_SUB 2 0 1 3
+[h264 @ 0x556be4e863c0] IVO_SUB 2 0 2 0
+[h264 @ 0x556be4e863c0] IVO_SUB 2 0 3 0
+[h264 @ 0x556be4e863c0] IVO_MOTION 2 0 0 0 0 0 0 0 0
+[h264 @ 0x556be4e863c0] IVO_MOTION 2 0 0 4 0 0 0 0 0
+[h264 @ 0x556be4e863c0] IVO_MOTION 2 0 0 5 0 -2 0 0 0
+[h264 @ 0x556be4e863c0] IVO_MOTION 2 0 0 6 0 0 0 0 0
+[h264 @ 0x556be4e863c0] IVO_MOTION 2 0 0 7 0 0 0 2 0
+[h264 @ 0x556be4e863c0] IVO_MOTION 2 0 0 8 0 0 0 0 0
+[h264 @ 0x556be4e863c0] IVO_MOTION 2 0 0 12 0 0 0 0 0
+[h264 @ 0x556be4e863c0] IVO_SUB 3 0 0 2
+[h264 @ 0x556be4e863c0] IVO_SUB 3 0 1 2
+[h264 @ 0x556be4e863c0] IVO_SUB 3 0 2 0
+[h264 @ 0x556be4e863c0] IVO_SUB 3 0 3 0
+[h264 @ 0x556be4e863c0] IVO_MOTION 3 0 0 0 0 30 0 2 0
+[h264 @ 0x556be4e863c0] IVO_MOTION 3 0 0 1 0 -32 0 30 0
+[h264 @ 0x556be4e863c0] IVO_MOTION 3 0 0 4 0 0 0 32 0
+[h264 @ 0x556be4e863c0] IVO_MOTION 3 0 0 5 0 4 0 0 0
+[h264 @ 0x556be4e863c0] IVO_MOTION 3 0 0 8 0 0 0 30 0
+[h264 @ 0x556be4e863c0] IVO_MOTION 3 0 0 12 0 0 0 0 0
+[h264 @ 0x556be4e863c0] nal_unit_type: 1(Coded slice of a non-IDR picture), nal_ref_idc: 2
+[h264 @ 0x556be4e863c0] IVO_FRAME
+[h264 @ 0x556be4e863c0] IVO_MOTION 3 0 0 0 0 0 0 0 0
+[h264 @ 0x556be4e863c0] nal_unit_type: 1(Coded slice of a non-IDR picture), nal_ref_idc: 2
+[h264 @ 0x556be4e863c0] IVO_FRAME
+[h264 @ 0x556be4e863c0] IVO_MOTION 3 0 0 0 0 0 0 0 0
+[h264 @ 0x556be4e863c0] IVO_SUB 4 5 0 0
+[h264 @ 0x556be4e863c0] IVO_SUB 4 5 1 0
+[h264 @ 0x556be4e863c0] IVO_SUB 4 5 2 0
+[h264 @ 0x556be4e863c0] IVO_SUB 4 5 3 0
+[h264 @ 0x556be4e863c0] IVO_MOTION 4 5 0 0 0 0 0 0 0
+[h264 @ 0x556be4e863c0] IVO_MOTION 4 5 0 4 0 0 0 0 0
+[h264 @ 0x556be4e863c0] IVO_MOTION 4 5 0 8 0 64 -1 0 0
+[h264 @ 0x556be4e863c0] IVO_MOTION 4 5 0 12 0 40 8 64 1
+[h264 @ 0x556be4e863c0] IVO_SUB 5 5 0 0
+[h264 @ 0x556be4e863c0] IVO_SUB 5 5 1 0
+[h264 @ 0x556be4e863c0] IVO_SUB 5 5 2 3
+[h264 @ 0x556be4e863c0] IVO_SUB 5 5 3 1
+[h264 @ 0x556be4e863c0] IVO_MOTION 5 5 0 0 0 0 0 0 0
+[h264 @ 0x556be4e863c0] IVO_MOTION 5 5 0 4 0 0 24 0 0
+[h264 @ 0x556be4e863c0] IVO_MOTION 5 5 0 8 0 24 16 40 8
+[h264 @ 0x556be4e863c0] IVO_MOTION 5 5 0 9 0 2 8 24 16
+[h264 @ 0x556be4e863c0] IVO_MOTION 5 5 0 10 0 -16 0 64 24
+[h264 @ 0x556be4e863c0] IVO_MOTION 5 5 0 11 0 0 0 18 8
+[h264 @ 0x556be4e863c0] IVO_MOTION 5 5 0 12 0 0 0 2 32
+[h264 @ 0x556be4e863c0] IVO_MOTION 5 5 0 14 0 0 0 0 0
+[h264 @ 0x556be4e863c0] nal_unit_type: 1(Coded slice of a non-IDR picture), nal_ref_idc: 2
+[h264 @ 0x556be4e863c0] IVO_FRAME
+[h264 @ 0x556be4e863c0] IVO_MOTION 3 0 0 0 0 0 0 0 0
+[h264 @ 0x556be4e863c0] IVO_MOTION 5 4 0 0 0 0 24 0 0
+[h264 @ 0x556be4e863c0] IVO_SUB 3 5 0 0
+[h264 @ 0x556be4e863c0] IVO_SUB 3 5 1 0
+[h264 @ 0x556be4e863c0] IVO_SUB 3 5 2 0
+[h264 @ 0x556be4e863c0] IVO_SUB 3 5 3 0
+[h264 @ 0x556be4e863c0] IVO_MOTION 3 5 0 0 0 0 0 0 0
+[h264 @ 0x556be4e863c0] IVO_MOTION 3 5 0 4 0 0 0 0 0
+[h264 @ 0x556be4e863c0] IVO_MOTION 3 5 0 8 0 64 -1 0 0
+[h264 @ 0x556be4e863c0] IVO_MOTION 3 5 0 12 0 48 8 64 1
+[h264 @ 0x556be4e863c0] IVO_MOTION 4 5 0 0 0 16 16 0 0
+[h264 @ 0x556be4e863c0] IVO_MOTION 4 5 0 4 0 0 0 16 16
+[h264 @ 0x556be4e863c0] IVO_SUB 5 5 0 1
+[h264 @ 0x556be4e863c0] IVO_SUB 5 5 1 0
+[h264 @ 0x556be4e863c0] IVO_SUB 5 5 2 0
+[h264 @ 0x556be4e863c0] IVO_SUB 5 5 3 0
+[h264 @ 0x556be4e863c0] IVO_MOTION 5 5 0 0 0 0 0 0 24
+[h264 @ 0x556be4e863c0] IVO_MOTION 5 5 0 2 0 5 0 0 0
+[h264 @ 0x556be4e863c0] IVO_MOTION 5 5 0 4 0 8 0 0 24
+[h264 @ 0x556be4e863c0] IVO_MOTION 5 5 0 8 0 0 0 5 0
+[h264 @ 0x556be4e863c0] IVO_MOTION 5 5 0 12 0 0 0 8 0
+[h264 @ 0x556be4e863c0] nal_unit_type: 1(Coded slice of a non-IDR picture), nal_ref_idc: 2
+[h264 @ 0x556be4e863c0] IVO_FRAME
+[h264 @ 0x556be4e863c0] IVO_MOTION 3 0 0 0 0 0 0 0 0
+[h264 @ 0x556be4e863c0] IVO_MOTION 5 4 0 0 0 -8 24 0 0
+[h264 @ 0x556be4e863c0] IVO_MOTION 5 4 0 4 0 8 16 8 24
+[h264 @ 0x556be4e863c0] IVO_MOTION 1 5 0 0 0 0 24 0 0
+[h264 @ 0x556be4e863c0] IVO_SUB 3 5 0 0
+[h264 @ 0x556be4e863c0] IVO_SUB 3 5 1 0
+[h264 @ 0x556be4e863c0] IVO_SUB 3 5 2 2
+[h264 @ 0x556be4e863c0] IVO_SUB 3 5 3 0
+[h264 @ 0x556be4e863c0] IVO_MOTION 3 5 0 0 0 0 0 0 0
+[h264 @ 0x556be4e863c0] IVO_MOTION 3 5 0 4 0 8 16 0 0
+[h264 @ 0x556be4e863c0] IVO_MOTION 3 5 0 8 0 8 16 0 0
+[h264 @ 0x556be4e863c0] IVO_MOTION 3 5 0 9 0 -3 8 8 16
+[h264 @ 0x556be4e863c0] IVO_MOTION 3 5 0 12 0 0 0 11 24
+[h264 @ 0x556be4e863c0] IVO_SUB 4 5 0 0
+[h264 @ 0x556be4e863c0] IVO_SUB 4 5 1 0
+[h264 @ 0x556be4e863c0] IVO_SUB 4 5 2 0
+[h264 @ 0x556be4e863c0] IVO_SUB 4 5 3 0
+[h264 @ 0x556be4e863c0] IVO_MOTION 4 5 0 0 0 16 16 8 16
+[h264 @ 0x556be4e863c0] IVO_MOTION 4 5 0 4 0 8 0 16 16
+[h264 @ 0x556be4e863c0] IVO_MOTION 4 5 0 8 0 -2 0 16 16
+[h264 @ 0x556be4e863c0] IVO_MOTION 4 5 0 12 0 -2 0 10 0
+[h264 @ 0x556be4e863c0] IVO_MOTION 5 5 0 0 0 7 0 16 24
+[h264 @ 0x556be4e863c0] nal_unit_type: 1(Coded slice of a non-IDR picture), nal_ref_idc: 2
+[h264 @ 0x556be4e863c0] IVO_FRAME
+[h264 @ 0x556be4e863c0] IVO_MOTION 3 0 0 0 0 0 0 0 0
+[h264 @ 0x556be4e863c0] IVO_MOTION 4 4 0 0 0 0 24 0 0
+[h264 @ 0x556be4e863c0] IVO_SUB 5 4 0 0
+[h264 @ 0x556be4e863c0] IVO_SUB 5 4 1 0
+[h264 @ 0x556be4e863c0] IVO_SUB 5 4 2 0
+[h264 @ 0x556be4e863c0] IVO_SUB 5 4 3 0
+[h264 @ 0x556be4e863c0] IVO_MOTION 5 4 0 0 0 0 24 0 24
+[h264 @ 0x556be4e863c0] IVO_MOTION 5 4 0 4 0 0 24 0 24
+[h264 @ 0x556be4e863c0] IVO_MOTION 5 4 0 8 0 7 0 0 48
+[h264 @ 0x556be4e863c0] IVO_MOTION 5 4 0 12 0 4 0 7 24
+[h264 @ 0x556be4e863c0] IVO_MOTION 1 5 0 0 0 0 24 0 0
+[h264 @ 0x556be4e863c0] IVO_SUB 2 5 0 0
+[h264 @ 0x556be4e863c0] IVO_SUB 2 5 1 0
+[h264 @ 0x556be4e863c0] IVO_SUB 2 5 2 2
+[h264 @ 0x556be4e863c0] IVO_SUB 2 5 3 2
+[h264 @ 0x556be4e863c0] IVO_MOTION 2 5 0 0 0 0 0 0 24
+[h264 @ 0x556be4e863c0] IVO_MOTION 2 5 0 4 0 0 24 0 0
+[h264 @ 0x556be4e863c0] IVO_MOTION 2 5 0 8 0 16 16 0 24
+[h264 @ 0x556be4e863c0] IVO_MOTION 2 5 0 9 0 0 8 16 16
+[h264 @ 0x556be4e863c0] IVO_MOTION 2 5 0 12 0 8 0 0 32
+[h264 @ 0x556be4e863c0] IVO_MOTION 2 5 0 13 0 7 0 8 24
+[h264 @ 0x556be4e863c0] IVO_MOTION 3 5 0 0 0 0 0 0 24
+[h264 @ 0x556be4e863c0] IVO_SUB 4 5 0 0
+[h264 @ 0x556be4e863c0] IVO_SUB 4 5 1 0
+[h264 @ 0x556be4e863c0] IVO_SUB 4 5 2 0
+[h264 @ 0x556be4e863c0] IVO_SUB 4 5 3 2
+[h264 @ 0x556be4e863c0] IVO_MOTION 4 5 0 0 0 7 2 0 24
+[h264 @ 0x556be4e863c0] IVO_MOTION 4 5 0 4 0 0 0 7 26
+[h264 @ 0x556be4e863c0] IVO_MOTION 4 5 0 8 0 57 -24 7 2
+[h264 @ 0x556be4e863c0] IVO_MOTION 4 5 0 12 0 33 -16 57 24
+[h264 @ 0x556be4e863c0] IVO_MOTION 4 5 0 13 0 9 -8 33 16
+[h264 @ 0x556be4e863c0] IVO_MOTION 5 5 0 0 0 -7 0 7 0
+[h264 @ 0x556be4e863c0] nal_unit_type: 1(Coded slice of a non-IDR picture), nal_ref_idc: 2
+[h264 @ 0x556be4e863c0] IVO_FRAME
+[h264 @ 0x556be4e863c0] IVO_MOTION 5 3 0 0 0 0 0 0 0
+[h264 @ 0x556be4e863c0] IVO_MOTION 5 3 0 4 0 0 24 0 0
+[h264 @ 0x556be4e863c0] IVO_MOTION 1 4 0 0 0 0 24 0 0
+[h264 @ 0x556be4e863c0] IVO_MOTION 3 4 0 0 0 0 0 0 0
+[h264 @ 0x556be4e863c0] IVO_MOTION 3 4 0 8 0 0 24 0 0
+[h264 @ 0x556be4e863c0] IVO_MOTION 4 4 0 0 0 0 24 0 0
+[h264 @ 0x556be4e863c0] IVO_SUB 5 4 0 2
+[h264 @ 0x556be4e863c0] IVO_SUB 5 4 1 0
+[h264 @ 0x556be4e863c0] IVO_SUB 5 4 2 0
+[h264 @ 0x556be4e863c0] IVO_SUB 5 4 3 0
+[h264 @ 0x556be4e863c0] IVO_MOTION 5 4 0 0 0 0 24 0 24
+[h264 @ 0x556be4e863c0] IVO_MOTION 5 4 0 1 0 7 0 0 24
+[h264 @ 0x556be4e863c0] IVO_MOTION 5 4 0 4 0 4 3 7 24
+[h264 @ 0x556be4e863c0] IVO_MOTION 5 4 0 8 0 4 0 0 48
+[h264 @ 0x556be4e863c0] IVO_MOTION 5 4 0 12 0 -3 0 8 3
+[h264 @ 0x556be4e863c0] IVO_MOTION 0 5 0 0 0 0 0 0 0
+[h264 @ 0x556be4e863c0] IVO_MOTION 2 5 0 0 0 0 24 0 0
+[h264 @ 0x556be4e863c0] IVO_SUB 3 5 0 0
+[h264 @ 0x556be4e863c0] IVO_SUB 3 5 1 0
+[h264 @ 0x556be4e863c0] IVO_SUB 3 5 2 1
+[h264 @ 0x556be4e863c0] IVO_SUB 3 5 3 3
+[h264 @ 0x556be4e863c0] IVO_MOTION 3 5 0 0 0 7 1 0 48
+[h264 @ 0x556be4e863c0] IVO_MOTION 3 5 0 4 0 5 0 7 25
+[h264 @ 0x556be4e863c0] IVO_MOTION 3 5 0 8 0 2 0 7 25
+[h264 @ 0x556be4e863c0] IVO_MOTION 3 5 0 10 0 69 1 2 24
+[h264 @ 0x556be4e863c0] IVO_MOTION 3 5 0 12 0 35 -16 7 0
+[h264 @ 0x556be4e863c0] IVO_MOTION 3 5 0 13 0 11 -8 40 16
+[h264 @ 0x556be4e863c0] IVO_MOTION 3 5 0 14 0 0 0 104 17
+[h264 @ 0x556be4e863c0] IVO_MOTION 3 5 0 15 0 0 0 11 8
+[h264 @ 0x556be4e863c0] IVO_MOTION 4 5 0 0 0 -4 0 5 24
+[h264 @ 0x556be4e863c0] nal_unit_type: 1(Coded slice of a non-IDR picture), nal_ref_idc: 2
+[h264 @ 0x556be4e863c0] IVO_FRAME
+[h264 @ 0x556be4e863c0] IVO_MOTION 3 0 0 0 0 0 0 0 0
+[h264 @ 0x556be4e863c0] IVO_MOTION 4 3 0 0 0 0 0 0 0
+[h264 @ 0x556be4e863c0] IVO_MOTION 4 3 0 4 0 0 24 0 0
+[h264 @ 0x556be4e863c0] IVO_MOTION 5 3 0 0 0 0 0 0 24
+[h264 @ 0x556be4e863c0] IVO_MOTION 5 3 0 8 0 0 0 0 24
+[h264 @ 0x556be4e863c0] IVO_MOTION 1 4 0 0 0 0 24 0 0
+[h264 @ 0x556be4e863c0] IVO_MOTION 2 4 0 0 0 0 24 0 24
+[h264 @ 0x556be4e863c0] IVO_MOTION 3 4 0 0 0 0 24 0 24
+[h264 @ 0x556be4e863c0] IVO_MOTION 4 4 0 0 0 0 0 0 24
+[h264 @ 0x556be4e863c0] IVO_MOTION 5 4 0 0 0 0 0 0 0
+[h264 @ 0x556be4e863c0] IVO_SUB 0 5 0 0
+[h264 @ 0x556be4e863c0] IVO_SUB 0 5 1 0
+[h264 @ 0x556be4e863c0] IVO_SUB 0 5 2 0
+[h264 @ 0x556be4e863c0] IVO_SUB 0 5 3 3
+[h264 @ 0x556be4e863c0] IVO_MOTION 0 5 0 0 0 0 0 0 0
+[h264 @ 0x556be4e863c0] IVO_MOTION 0 5 0 4 0 0 24 0 0
+[h264 @ 0x556be4e863c0] IVO_MOTION 0 5 0 8 0 16 25 0 0
+[h264 @ 0x556be4e863c0] IVO_MOTION 0 5 0 12 0 7 0 16 49
+[h264 @ 0x556be4e863c0] IVO_MOTION 0 5 0 13 0 0 0 7 24
+[h264 @ 0x556be4e863c0] IVO_MOTION 0 5 0 14 0 0 0 23 25
+[h264 @ 0x556be4e863c0] IVO_MOTION 0 5 0 15 0 -7 -6 0 0
+[h264 @ 0x556be4e863c0] IVO_MOTION 2 5 0 0 0 8 -8 0 24
+[h264 @ 0x556be4e863c0] IVO_MOTION 3 5 0 0 0 0 0 8 32
+[in#0/h264 @ 0x556be4e5f5c0] EOF while reading input
+[in#0/h264 @ 0x556be4e5f5c0] Terminating demuxer thread
+[h264 @ 0x556be4e863c0] nal_unit_type: 1(Coded slice of a non-IDR picture), nal_ref_idc: 2
+[h264 @ 0x556be4e863c0] IVO_FRAME
+[h264 @ 0x556be4e863c0] IVO_MOTION 3 0 0 0 0 0 0 0 0
+[h264 @ 0x556be4e863c0] IVO_MOTION 3 3 0 0 0 0 0 0 0
+[h264 @ 0x556be4e863c0] IVO_MOTION 3 3 0 4 0 0 24 0 0
+[h264 @ 0x556be4e863c0] IVO_MOTION 4 3 0 0 0 0 -1 0 24
+[h264 @ 0x556be4e863c0] IVO_MOTION 4 3 0 8 0 0 0 0 25
+[h264 @ 0x556be4e863c0] IVO_MOTION 5 3 0 0 0 0 24 0 1
+[h264 @ 0x556be4e863c0] IVO_MOTION 2 4 0 0 0 0 24 0 0
+[h264 @ 0x556be4e863c0] IVO_MOTION 3 4 0 0 0 0 0 0 24
+[h264 @ 0x556be4e863c0] IVO_MOTION 4 4 0 0 0 0 0 0 0
+[h264 @ 0x556be4e863c0] IVO_MOTION 5 4 0 0 0 0 0 0 24
+[h264 @ 0x556be4e863c0] IVO_MOTION 0 5 0 0 0 0 24 0 0
+[h264 @ 0x556be4e863c0] IVO_MOTION 1 5 0 0 0 0 0 0 24
+[h264 @ 0x556be4e863c0] IVO_SUB 2 5 0 0
+[h264 @ 0x556be4e863c0] IVO_SUB 2 5 1 0
+[h264 @ 0x556be4e863c0] IVO_SUB 2 5 2 0
+[h264 @ 0x556be4e863c0] IVO_SUB 2 5 3 0
+[h264 @ 0x556be4e863c0] IVO_MOTION 2 5 0 0 0 0 0 0 24
+[h264 @ 0x556be4e863c0] IVO_MOTION 2 5 0 4 0 0 0 0 24
+[h264 @ 0x556be4e863c0] IVO_MOTION 2 5 0 8 0 1 0 0 0
+[h264 @ 0x556be4e863c0] IVO_MOTION 2 5 0 12 0 0 0 1 0
+[h264 @ 0x556be4e863c0] IVO_MOTION 3 5 0 0 0 0 0 0 0
+[h264 @ 0x556be4e863c0] nal_unit_type: 1(Coded slice of a non-IDR picture), nal_ref_idc: 2
+[h264 @ 0x556be4e863c0] IVO_FRAME
+[h264 @ 0x556be4e863c0] IVO_MOTION 3 0 0 0 0 0 0 0 0
+[h264 @ 0x556be4e863c0] IVO_MOTION 5 2 0 0 0 0 24 0 0
+[h264 @ 0x556be4e863c0] IVO_MOTION 2 3 0 0 0 0 0 0 0
+[h264 @ 0x556be4e863c0] IVO_MOTION 2 3 0 4 0 0 24 0 0
+[h264 @ 0x556be4e863c0] IVO_MOTION 3 3 0 0 0 0 0 0 24
+[h264 @ 0x556be4e863c0] IVO_MOTION 3 3 0 8 0 0 0 0 24
+[h264 @ 0x556be4e863c0] IVO_SUB 4 3 0 0
+[h264 @ 0x556be4e863c0] IVO_SUB 4 3 1 1
+[h264 @ 0x556be4e863c0] IVO_SUB 4 3 2 0
+[h264 @ 0x556be4e863c0] IVO_SUB 4 3 3 3
+[h264 @ 0x556be4e863c0] IVO_MOTION 4 3 0 0 0 0 24 0 0
+[h264 @ 0x556be4e863c0] IVO_MOTION 4 3 0 4 0 0 0 0 24
+[h264 @ 0x556be4e863c0] IVO_MOTION 4 3 0 6 0 7 1 0 24
+[h264 @ 0x556be4e863c0] IVO_MOTION 4 3 0 8 0 7 1 0 24
+[h264 @ 0x556be4e863c0] IVO_MOTION 4 3 0 12 0 0 -1 14 2
+[h264 @ 0x556be4e863c0] IVO_MOTION 4 3 0 13 0 0 0 7 2
+[h264 @ 0x556be4e863c0] IVO_MOTION 4 3 0 14 0 0 -1 7 2
+[h264 @ 0x556be4e863c0] IVO_MOTION 4 3 0 15 0 -1 0 0 1
+[h264 @ 0x556be4e863c0] IVO_MOTION 5 3 0 0 0 0 0 0 24
+[h264 @ 0x556be4e863c0] IVO_MOTION 0 4 0 0 0 0 24 0 0
+[h264 @ 0x556be4e863c0] IVO_SUB 1 4 0 0
+[h264 @ 0x556be4e863c0] IVO_SUB 1 4 1 0
+[h264 @ 0x556be4e863c0] IVO_SUB 1 4 2 0
+[h264 @ 0x556be4e863c0] IVO_SUB 1 4 3 0
+[h264 @ 0x556be4e863c0] IVO_MOTION 1 4 0 0 0 64 -2 0 24
+[h264 @ 0x556be4e863c0] IVO_MOTION 1 4 0 4 0 40 7 64 2
+[h264 @ 0x556be4e863c0] IVO_MOTION 1 4 0 8 0 -8 -31 64 26
+[h264 @ 0x556be4e863c0] IVO_MOTION 1 4 0 12 0 -40 -22 48 38
+[h264 @ 0x556be4e863c0] IVO_MOTION 2 4 0 0 0 0 17 40 7
+[h264 @ 0x556be4e863c0] IVO_MOTION 3 4 0 0 0 0 0 0 17
+[h264 @ 0x556be4e863c0] IVO_MOTION 4 4 0 0 0 0 0 7 1
+[h264 @ 0x556be4e863c0] IVO_MOTION 0 5 0 0 0 0 0 0 24
+[h264 @ 0x556be4e863c0] IVO_MOTION 0 5 0 8 0 -55 0 0 0
+[h264 @ 0x556be4e863c0] IVO_MOTION 2 5 0 0 0 0 0 0 17
+[vist#0:0/h264 @ 0x556be4e6c480] Decoder thread received EOF packet
+[vist#0:0/h264 @ 0x556be4e6c480] Decoder returned EOF, finishing
+[vist#0:0/h264 @ 0x556be4e6c480] Terminating decoder thread
+[out_0_0 @ 0x556be4e92d00] EOF on sink link out_0_0:default.
+No more output streams to write to, finishing.
+[out#0/null @ 0x556be4e6c940] All streams finished
+[out#0/null @ 0x556be4e6c940] Terminating muxer thread
+[out#0/null @ 0x556be4e6c940] Output file #0 (pipe:):
+[out#0/null @ 0x556be4e6c940]   Output stream #0:0 (video): 40 frames encoded; 40 packets muxed (19200 bytes); 
+[out#0/null @ 0x556be4e6c940]   Total: 40 packets (19200 bytes) muxed
+[out#0/null @ 0x556be4e6c940] video:19kB audio:0kB subtitle:0kB other streams:0kB global headers:0kB muxing overhead: unknown
+frame=   40 fps=0.0 q=-0.0 Lsize=N/A time=00:00:02.60 bitrate=N/A speed= 383x    
+[in#0/h264 @ 0x556be4e5f5c0] Input file #0 (recap/ivo-java-complet-2026-10-04/research-results/2026-10-04/mp4-cabac-motion/detail/source.h264):
+[in#0/h264 @ 0x556be4e5f5c0]   Input stream #0:0 (video): 40 packets read (9427 bytes); 40 frames decoded; 0 decode errors; 
+[in#0/h264 @ 0x556be4e5f5c0]   Total: 40 packets (9427 bytes) demuxed
+[AVIOContext @ 0x556be4e67fc0] Statistics: 9427 bytes read, 0 seeks

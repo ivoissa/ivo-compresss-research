@@ -1,0 +1,21 @@
+RESULT kind=MP4 file=av-poc0-24000.mp4 raw=58028 candidate_payload=50805 candidate_container_size=50865 exact=true baseline_payload=56183 same_payload=false reference_best=56153 winner=MP4_V1 new_ms=943 old_ms=340 error= old_error=
+
+slice fallback: slice type 1
+slice fallback: slice type 1
+slice fallback: cabac mismatch
+slices modeled=8 raw=37 | modeled NAL bytes=8189 header bytes=46 tail bytes=0 | skeleton=26542
+audio frames modeled=72 raw=0 bytes=23297 -> 17702
+model bytes by group: skip=40 mbtype=94 mvd=276 ref=77 intra/chroma/t8=177 cbp=152 qpdelta=132 cbf=449 sig=1608 last=644 abs=2852 bypass=1564 term=0
+meta(deflated)=24989 (raw 26789) payload=8105 audio=17702
+slice fallback: slice type 1
+slice fallback: slice type 1
+slice fallback: cabac mismatch
+slices modeled=8 raw=37 | modeled NAL bytes=8189 header bytes=46 tail bytes=0 | skeleton=49839
+model bytes by group: skip=40 mbtype=94 mvd=276 ref=77 intra/chroma/t8=177 cbp=152 qpdelta=132 cbf=449 sig=1608 last=644 abs=2852 bypass=1564 term=0
+meta(deflated)=48111 (raw 49982) payload=8065
+slice fallback: slice type 1
+slice fallback: slice type 1
+slice fallback: cabac mismatch
+slices modeled=8 raw=37 | modeled NAL bytes=8189 header bytes=46 tail bytes=0 | skeleton=49839
+model bytes by group: skip=40 mbtype=94 mvd=276 ref=77 intra/chroma/t8=177 cbp=152 qpdelta=132 cbf=449 sig=1608 last=644 abs=2852 bypass=1564 term=0
+meta(deflated)=48111 (raw 49982) payload=8065

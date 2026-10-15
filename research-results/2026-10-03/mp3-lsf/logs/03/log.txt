@@ -1,0 +1,7 @@
+INPUT /tmp/ivo-minimp3/vectors/performance/MIPSTest.mp3 bytes=328320 sha=197265fa09d1b6777b71269d986055035f3e9e1f4d74e4cbaa0e55034447a9ca store=328377
+SIDE_PORTFOLIO direct=8059 transposed=7474 selected=true
+BASE v1=321627 v3=321043 exact=true
+MAIN_SPLIT mode=1 used_raw=314796 unused_raw=528 coded=312777
+RESULT mode=1 ivo=321045 delta_vs_v3=2 exact=true
+MAIN_SPLIT mode=2 used_raw=314643 unused_raw=682 coded=312643
+RESULT mode=2 ivo=320911 delta_vs_v3=-132 exact=true

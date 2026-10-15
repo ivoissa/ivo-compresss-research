@@ -1,0 +1,2 @@
+Exception in thread "main" java.lang.IllegalArgumentException: Reference archive does not reconstruct source
+	at io.ivo.jpeg.JpegStructureMeasure.main(JpegStructureMeasure.java:19)

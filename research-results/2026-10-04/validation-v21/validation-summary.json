@@ -1,0 +1,10 @@
+{
+  "models_frozen": true,
+  "new_candidates_cli_exact": 62,
+  "reference_archives_cli_exact": 22,
+  "total_fresh_cli_decompressions": 84,
+  "jpeg_independent_pixel_checks": 11,
+  "build_tests_passed": true,
+  "automatic_router_changed": false,
+  "mp4_remeasured": false
+}

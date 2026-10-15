@@ -1,0 +1,32 @@
+  zero/EOB(nd0): 11840 bytes
+  nd1: 10126 bytes
+  nd2: 5257 bytes
+  nd3-5: 2803 bytes
+  nd6-15: 448 bytes
+  sign: 7871 bytes
+  modes: 9199 bytes
+meta(deflated)=54 payload=47733
+/workspace/scratch/9c62166e5fd0/recap/ivo-java-complet-2026-10-04/research-results/2026-10-05/user-code-review/small-cases/kitten.webp: 51,064 -> 47,848 bytes (93.70%), engine=USER_WEBP_RESEARCH
+Engine                         valid   payload       IVO       ms  note
+STORE                          true       51,064    51,120        3  verbatim
+N&C contextuel                 true       76,306    76,362      163  PPM-like sparse contexts, order<=4
+REF + N&C                      true       76,326    76,382      135  REF minMatch=8 then N&C; REF size=51082
+User WEBP frozen-model research true       47,792    47,848      845  frozen profile; exactness checked by Router
+Written: /workspace/scratch/9c62166e5fd0/recap/ivo-java-complet-2026-10-04/research-results/2026-10-05/compact-mixer/encodings/webp-kitten/fast.ivo
+  zero/EOB(nd0): 11840 bytes
+  nd1: 10126 bytes
+  nd2: 5257 bytes
+  nd3-5: 2803 bytes
+  nd6-15: 448 bytes
+  sign: 7871 bytes
+  modes: 9199 bytes
+meta(deflated)=54 payload=47733
+/workspace/scratch/9c62166e5fd0/recap/ivo-java-complet-2026-10-04/research-results/2026-10-05/user-code-review/small-cases/kitten.webp: 51,064 -> 47,848 bytes (93.70%), engine=USER_WEBP_RESEARCH
+Engine                         valid   payload       IVO       ms  note
+STORE                          true       51,064    51,120        3  verbatim
+N&C contextuel                 true       76,306    76,362      206  PPM-like sparse contexts, order<=4
+REF + N&C                      true       76,326    76,382      132  REF minMatch=8 then N&C; REF size=51082
+User WEBP frozen-model research true       47,792    47,848      855  frozen profile; exactness checked by Router
+Written: /workspace/scratch/9c62166e5fd0/recap/ivo-java-complet-2026-10-04/research-results/2026-10-05/compact-mixer/encodings/webp-kitten/compact.ivo
+Restored 51,064 bytes with SHA-256 verification: /tmp/ivo-v29-webp-kitten-v28
+Restored 51,064 bytes with SHA-256 verification: /tmp/ivo-v29-webp-kitten-compact

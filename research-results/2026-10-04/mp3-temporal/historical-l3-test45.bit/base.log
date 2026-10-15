@@ -1,0 +1,44 @@
+BLOCK_SIDE scheme=2 coded=6934 exact=true
+META side_format=6 field_sizes=[70, 2, 103, 2, 6934, 0, 2]
+CODER file=cord-0.bin raw=809 selected=2 candidates=[809, 87, 84, -1, 128] total=87
+CODER file=cord-1.bin raw=17378 selected=2 candidates=[17378, 4902, 4380, 6322, 5696] total=4384
+CODER file=cord-2.bin raw=803 selected=1 candidates=[803, 23, 30, -1, 32] total=26
+CODER file=cord-3.bin raw=21102 selected=2 candidates=[21102, 43, 8, 12, 8] total=12
+CODER file=cord-4.bin raw=4416 selected=1 candidates=[4416, 337, 374, 775, 385] total=340
+CODER file=cord-5.bin raw=7886 selected=1 candidates=[7886, 4970, 5231, 5246, 5701] total=4973
+CODER file=cord-6.bin raw=986 selected=0 candidates=[986, 997, 1357, -1, 1357] total=989
+CODER file=cord-7.bin raw=100 selected=2 candidates=[100, 12, 4, -1, 5] total=6
+CODER file=cord-8.bin raw=14848 selected=4 candidates=[14848, 1167, 1396, 2315, 1156] total=1159
+CODER file=cord-9.bin raw=25512 selected=2 candidates=[25512, 15268, 14396, 14478, 16141] total=14400
+CODER file=cord-10.bin raw=3189 selected=0 candidates=[3189, 3200, 4358, 4366, 4330] total=3192
+CODER file=cord-11.bin raw=300 selected=2 candidates=[300, 13, 5, -1, 6] total=8
+CODER file=cord-12.bin raw=67744 selected=4 candidates=[67744, 4542, 5254, 8239, 3975] total=3979
+CODER file=cord-13.bin raw=118051 selected=2 candidates=[118051, 68837, 64145, 64679, 68977] total=64149
+CODER file=cord-14.bin raw=14757 selected=0 candidates=[14757, 14768, 21777, 21786, 21629] total=14760
+CODER file=cord-15.bin raw=1056 selected=2 candidates=[1056, 18, 5, 10, 7] total=8
+CODER file=cord-16.bin raw=122589 selected=4 candidates=[122589, 7394, 7851, 13025, 6128] total=6132
+CODER file=cord-17.bin raw=220157 selected=2 candidates=[220157, 137707, 132193, 132763, 139431] total=132197
+CODER file=cord-18.bin raw=27457 selected=0 candidates=[27457, 27473, 41032, 41045, 40795] total=27461
+CODER file=cord-19.bin raw=1519 selected=1 candidates=[1519, 109, 178, 124, 185] total=112
+CODER file=cord-20.bin raw=812 selected=1 candidates=[812, 42, 46, -1, 60] total=45
+CODER file=cord-21.bin raw=22476 selected=1 candidates=[22476, 2263, 2846, 3296, 3800] total=2267
+CODER file=cord-22.bin raw=0 selected=0 candidates=[0, -1, -1, -1, -1] total=2
+CODER file=cord-23.bin raw=0 selected=0 candidates=[0, -1, -1, -1, -1] total=2
+CODER file=cord-24.bin raw=2180 selected=2 candidates=[2180, 206, 136, 433, 215] total=139
+CODER file=cord-25.bin raw=4206 selected=2 candidates=[4206, 2341, 2180, 2186, 2829] total=2183
+CODER file=cord-26.bin raw=526 selected=0 candidates=[526, 537, 755, -1, 755] total=529
+CODER file=cord-27.bin raw=0 selected=0 candidates=[0, -1, -1, -1, -1] total=2
+CODER file=cord-28.bin raw=5042 selected=2 candidates=[5042, 579, 408, 1123, 601] total=411
+CODER file=cord-29.bin raw=9520 selected=2 candidates=[9520, 5153, 4722, 4818, 5914] total=4725
+CODER file=cord-30.bin raw=1206 selected=0 candidates=[1206, 1217, 1642, 1649, 1642] total=1209
+CODER file=cord-31.bin raw=53 selected=2 candidates=[53, 49, 47, -1, 48] total=49
+CODER file=cord-32.bin raw=12377 selected=2 candidates=[12377, 942, 730, 1952, 928] total=733
+CODER file=cord-33.bin raw=23785 selected=2 candidates=[23785, 14312, 13272, 13315, 15463] total=13276
+CODER file=cord-34.bin raw=2993 selected=0 candidates=[2993, 3004, 4098, 4106, 4063] total=2996
+CODER file=cord-35.bin raw=112 selected=1 candidates=[112, 81, 84, -1, 88] total=83
+CODER file=cord-36.bin raw=11828 selected=2 candidates=[11828, 664, 549, 1440, 610] total=552
+CODER file=cord-37.bin raw=22914 selected=2 candidates=[22914, 14749, 14459, 14472, 16818] total=14463
+CODER file=cord-38.bin raw=2863 selected=0 candidates=[2863, 2874, 3886, 3893, 3874] total=2866
+CODER file=cord-39.bin raw=1 selected=0 candidates=[1, 9, 4, -1, 4] total=3
+RESULT scheme=2 original=391105 ivo=332166 exact=true sha=384ccca2d558a3505bb2e7c2860e12aa3b651473ace655cda3a2c8cfb1b2fc53 ms=1092
+SPECTRAL Stats[parts=1644, pairs=252320, quads=3141, scalefactorBits=126961, residualBits=168816, unusedBits=6419, bigHash=3528351053876419162, quadHash=-2665366271962508319]

@@ -1,0 +1,20 @@
+{
+  "original": 95634889,
+  "original_sha256": "c6e361e833559e842390da8541480ce47096baf61b405da64d9ef10188a2f40c",
+  "baseline_v3_ivo": 87681423,
+  "byte_split": {
+    "used_raw": 86779075,
+    "unused_raw": 397289,
+    "main_coded": 84056582,
+    "ivo": 87673353,
+    "exact": true
+  },
+  "bit_split": {
+    "used_raw": 86680955,
+    "unused_raw": 495410,
+    "main_coded": 83971059,
+    "ivo": 87587830,
+    "exact": true
+  },
+  "scope": "single MPEG-1 file; experimental decoder MP34; not integrated in CLI"
+}

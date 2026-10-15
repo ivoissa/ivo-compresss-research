@@ -1,0 +1,29 @@
+{
+  "version": 27,
+  "experimental_profiles": [
+    2,
+    3,
+    4,
+    5
+  ],
+  "wire_format": "JPS2",
+  "legacy_wire_format": "JPS1",
+  "primary_validation_progressive_files": 6,
+  "primary_original_bytes": 432263,
+  "primary_reference_ivo_bytes": 417312,
+  "primary_retained_ivo_bytes": 391038,
+  "additional_gain_bytes": 26274,
+  "additional_gain_percent": 6.296008741660915,
+  "gain_vs_original_percent": 9.537017972854489,
+  "improved_validation_files": 5,
+  "unchanged_validation_files": 1,
+  "development_progressive_files": 4,
+  "multiscan_files": 2,
+  "multiscan_additional_gain_bytes": 419,
+  "new_fresh_process_exact_archives": 48,
+  "total_fresh_checks_including_old_candidates_and_references": 84,
+  "prior_version_archives_exact": 8,
+  "independent_pixel_oracle_files": 6,
+  "enhanced_cli_enabled": true,
+  "default_compression_changed": false
+}

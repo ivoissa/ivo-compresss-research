@@ -1,0 +1,3 @@
+PASS direct_sub_mb_type_comparisons=212 counts={0=212} mismatches=0 reference_frames=709
+PASS direct_sub_mb_type_comparisons=44 counts={0=30, 1=3, 2=5, 3=6} mismatches=0 reference_frames=40
+PASS altered_subtype_rejected=true

@@ -1,0 +1,44 @@
+from pathlib import Path
+import json,re,hashlib,csv,shutil,zipfile
+work=Path('mp3-cords-work');project=Path('ivo-mp3-spectral-cords-2026-10-04')
+history=json.loads((project/'research-results/2026-10-03/mp3-main-lanes/measurements.json').read_text())
+old_by_hash={x['sha256']:x['main_selected'] for x in history}
+goldens=json.loads(Path('mp3-spectral-work/corpus-measurements.json').read_text())
+golden_by_name={x['name']:x for x in goldens}
+final_text=(work/'final-validation.txt').read_text()
+assert 'PASS final_archives=52 byte_exact=true fresh_process=true' in final_text
+parts=re.split(r'^FILE (.+)\n',final_text,flags=re.M)
+final_logs={parts[i]:parts[i+1] for i in range(1,len(parts),2)}
+rows=[]
+for name,golden in golden_by_name.items():
+    if name=='Tao':
+        source=Path('mp3-spectral-work/downloads/Tao-te-king-livre-de-la-voie-et-de-la-vertu(2).mp3'); folder=work/'results/tao'; log=work/'tao.txt'; previous=87297487;origin='MP37 mesuré le 2026-10-03, même SHA-256'
+    else:
+        source=Path('mp3-spectral-work/corpus')/name;folder=work/'results'/name;log=work/(name+'.txt')
+        archive=folder/'previous.ivo'
+        if archive.exists():previous=archive.stat().st_size;origin='Portefeuille MP37 recalculé pour cet essai'
+        else:previous=old_by_hash[golden['sha256']];origin='Portefeuille MP37 mesuré le 2026-10-03, même SHA-256'
+    text=final_logs[name];found=re.findall(r'RESULT scheme=(\d+) original=(\d+) ivo=(\d+) exact=true sha=(\w+) ms=(\d+)\nSPECTRAL Stats\[([^\n]+)\]',text)
+    assert len(found)==4,(name,len(found))
+    assert hashlib.sha256(source.read_bytes()).hexdigest()==golden['sha256']
+    candidates={}
+    for scheme,size,ivo,sha,ms,stats in found:
+        assert int(size)==source.stat().st_size and sha==golden['sha256']
+        parsed={k:int(v) for k,v in re.findall(r'(\w+)=(-?\d+)',stats)}
+        assert parsed==golden['spectral'],(name,parsed,golden['spectral'])
+        assert (folder/f'spectral-s{scheme}.ivo').stat().st_size==int(ivo)
+        candidates[scheme]={'ivo':int(ivo),'fresh_decode_validation_ms':int(ms),'exact':True,'spectral_golden':True}
+    scheme=min(candidates,key=lambda s:candidates[s]['ivo']);new=candidates[scheme]['ivo'];baseline=min(previous,golden['ivo'])
+    row={'name':name,'original':source.stat().st_size,'sha256':golden['sha256'],'previous_mp37_ivo':previous,'previous_origin':origin,'previous_mp38_ivo':golden['ivo'],'previous_best_ivo':baseline,'candidates':candidates,'best_scheme':int(scheme),'new_ivo':new,'extra_bytes':baseline-new,'selected_ivo':min(baseline,new),'gain_vs_original_pct':100*(1-min(baseline,new)/source.stat().st_size),'independent_spectral_oracle':bool(golden['oracle'])}
+    rows.append(row)
+result=project/'research-results/2026-10-04/mp3-spectral-cords';result.mkdir(parents=True,exist_ok=True)
+for p in work.glob('*.txt'):
+    if p.name!='first-test.txt':shutil.copy2(p,result/p.name)
+shutil.copy2(work/'make_report.py',result/'make_report.py.txt')
+(result/'measurements.json').write_text(json.dumps(rows,indent=2)+'\n')
+summary={'files':len(rows),'exact_archives':sum(len(r['candidates']) for r in rows),'wins':sum(r['extra_bytes']>0 for r in rows),'losses':sum(r['extra_bytes']<0 for r in rows),'production_cli_integrated':False,'experimental_engine_id':18,'goldens_checked':True,'oracle_files':sum(r['independent_spectral_oracle'] for r in rows),'large_bit_cords_policy':'RAW/zlib only above 1 MiB; NC7 only at most 256 KiB','tao':next(r for r in rows if r['name']=='Tao')}
+(result/'summary.json').write_text(json.dumps(summary,indent=2)+'\n')
+with (result/'measurements.csv').open('w',newline='') as f:
+    w=csv.writer(f);w.writerow(['name','original','previous_best_ivo','new_ivo','extra_bytes','selected_ivo','best_scheme'])
+    for r in rows:w.writerow([r[k] for k in ['name','original','previous_best_ivo','new_ivo','extra_bytes','selected_ivo','best_scheme']])
+print(json.dumps(summary,indent=2))

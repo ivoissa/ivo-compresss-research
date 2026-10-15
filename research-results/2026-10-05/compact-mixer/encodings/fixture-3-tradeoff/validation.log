@@ -1,0 +1,11 @@
+/workspace/scratch/9c62166e5fd0/recap/ivo-java-complet-2026-10-04/research-results/2026-10-04/jpeg-neighbour/fixtures/fixture-3.jpg: 3,075 -> 2,996 bytes (97.43%), engine=JPEG_NEIGHBOUR_RESEARCH
+Engine                         valid   payload       IVO       ms  note
+STORE                          true        3,075     3,131        1  verbatim
+N&C contextuel                 true        3,959     4,015       25  PPM-like sparse contexts, order<=4
+REF + N&C                      true        3,932     3,988       25  REF minMatch=8 then N&C; REF size=2932
+JPEG oracle exact (structure/scans) true        3,082     3,138       29  JPEG exact; segments=11; scans=1; progressive=false; meta=625; entropy=2450; modes=[1, 1, 0]
+JPEG frozen portfolio (ABC, spatial, directional, similarity) true        3,176     3,232      328  DCT coefficients + exact entropy patch
+JPEG boundary + mixed-context trials true        2,940     2,996      235  Causal AC category/presence; mode=10; exact entropy patch
+Written: /workspace/scratch/9c62166e5fd0/recap/ivo-java-complet-2026-10-04/research-results/2026-10-05/compact-mixer/encodings/fixture-3-tradeoff/compact.ivo
+Restored 3,075 bytes with SHA-256 verification: /tmp/ivo-v29-fixture-3-tradeoff-v28
+Restored 3,075 bytes with SHA-256 verification: /tmp/ivo-v29-fixture-3-tradeoff-compact

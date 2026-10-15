@@ -1,0 +1,6 @@
+RESULT h=1 mode=0 original=5427643 ivo=5417015 exact=true
+RESULT h=1 mode=1 original=5427643 ivo=5416749 exact=true
+RESULT h=1 mode=2 original=5427643 ivo=5416555 exact=true
+RESULT h=2 mode=0 original=5427643 ivo=5415865 exact=true
+RESULT h=2 mode=1 original=5427643 ivo=5415599 exact=true
+RESULT h=2 mode=2 original=5427643 ivo=5415405 exact=true

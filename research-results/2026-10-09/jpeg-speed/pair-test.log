@@ -1,0 +1,1 @@
+PASS PreferredPairTest fixtures=4 independent_profiles=8 identical_payloads=true exact=true

@@ -1,0 +1,162 @@
+{
+  "version": 23,
+  "scope": "first non-skipped inter macroblock in progressive CABAC P slices, 8-bit 4:2:0",
+  "reference_source_url": "https://ffmpeg.org/releases/ffmpeg-6.1.1.tar.xz",
+  "reference_source_sha256": "8684f4b00f94b85461884c3719382f1261f0d9eb3d59640a1f4ac0873616f968",
+  "diagnostic_patch_sha256": "ee6aa49f140bb81e56c5ce4d68065fef6dfdfc775442fb88a2625a6ff406ae41",
+  "diagnostic_patch_reproduces_executed_source": true,
+  "new_compression_gain_measured": false,
+  "automatic_router_changed": false,
+  "full_slice_encoder": false,
+  "prefix_replay_requires_observed_states_and_final_offset": true,
+  "datasets": [
+    {
+      "name": "whatsapp",
+      "source_sha256": "35f3266b88c75cec1af7cc28bf38ff927f7b8f4f2a844e5b7ff157a8fe291256",
+      "source_relative_path": "research-results/2026-10-04/mp4-cabac-motion/whatsapp/source.h264",
+      "source_kind": "user original video",
+      "macroblocks": 665,
+      "coefficient_slots": 77016,
+      "nonzero_coefficients": 5690,
+      "transform8_counts": {
+        "0": 665
+      },
+      "categories": {
+        "2": 68864,
+        "3": 2392,
+        "4": 5760
+      },
+      "delta_qp_counts": {
+        "-3": 14,
+        "0": 167,
+        "-1": 30,
+        "1": 283,
+        "-2": 10,
+        "-4": 63,
+        "5": 65,
+        "2": 33
+      },
+      "max_absolute_level": 16,
+      "reference_log_sha256": "f01382b38ed2778bee67f83c1f4b12fe1c9a5b8b6a008289778e678f6d89dd97",
+      "mismatches": 0,
+      "prefix_bits_reconstructed": 59981,
+      "arithmetic_decisions": 55292,
+      "residual_terminal_ones": 0
+    },
+    {
+      "name": "detail",
+      "source_sha256": "96b72bea989f56be271509380f7385438baff782b8bfac886c22e8e75d5192bf",
+      "source_relative_path": "research-results/2026-10-04/mp4-cabac-motion/detail/source.h264",
+      "source_kind": "synthetic fixture",
+      "macroblocks": 39,
+      "coefficient_slots": 8392,
+      "nonzero_coefficients": 2131,
+      "transform8_counts": {
+        "0": 38,
+        "1": 1
+      },
+      "categories": {
+        "2": 4224,
+        "3": 264,
+        "4": 3840,
+        "5": 64
+      },
+      "delta_qp_counts": {
+        "0": 39
+      },
+      "max_absolute_level": 54,
+      "reference_log_sha256": "9a551bf67c325d438d76b9a5056e6a029439fed83c08593b056ef4ca2d74f3c0",
+      "mismatches": 0,
+      "prefix_bits_reconstructed": 16283,
+      "arithmetic_decisions": 17817,
+      "residual_terminal_ones": 0
+    },
+    {
+      "name": "multi",
+      "source_sha256": "66dfb052e75ab8151f0ee53a5f4dfc4cb25844aa0593999e4620664a6b9cd544",
+      "source_relative_path": "research-results/2026-10-04/mp4-cabac-motion/multi/source.h264",
+      "source_kind": "synthetic fixture",
+      "macroblocks": 78,
+      "coefficient_slots": 12552,
+      "nonzero_coefficients": 2557,
+      "transform8_counts": {
+        "0": 76,
+        "1": 2
+      },
+      "categories": {
+        "2": 5760,
+        "3": 416,
+        "4": 6120,
+        "5": 256
+      },
+      "delta_qp_counts": {
+        "0": 78
+      },
+      "max_absolute_level": 122,
+      "reference_log_sha256": "45e0fa39c8be21b16175e7084f292c3a2bf87ec5d4258d98ccd9020b568576bd",
+      "mismatches": 0,
+      "prefix_bits_reconstructed": 21896,
+      "arithmetic_decisions": 23736,
+      "residual_terminal_ones": 0
+    },
+    {
+      "name": "transform8",
+      "source_sha256": "fb1193f45140b40750598fa9673ce09017f4adf2190450095f2ed07323151a7e",
+      "source_relative_path": "research-results/2026-10-05/mp4-cabac-residuals/transform8/source.h264",
+      "source_kind": "synthetic boundary fixture",
+      "macroblocks": 59,
+      "coefficient_slots": 896,
+      "nonzero_coefficients": 22,
+      "transform8_counts": {
+        "0": 48,
+        "1": 11
+      },
+      "categories": {
+        "5": 896
+      },
+      "delta_qp_counts": {
+        "0": 59
+      },
+      "max_absolute_level": 1,
+      "reference_log_sha256": "288ea18c06c7dee9fa43186b80833ac2d8daab3ddef23abba9d4dcfd4ad4fa97",
+      "mismatches": 0,
+      "prefix_bits_reconstructed": 1621,
+      "arithmetic_decisions": 1213,
+      "frames": 60,
+      "width_mbs": 8,
+      "residual_terminal_ones": 0
+    },
+    {
+      "name": "terminal",
+      "source_sha256": "b90e1a520257e128e2512611146288b314e5a3eb825e1d21d48f4cca83163b9f",
+      "source_relative_path": "research-results/2026-10-05/mp4-cabac-residuals/terminal/source.h264",
+      "source_kind": "synthetic boundary fixture",
+      "macroblocks": 19,
+      "coefficient_slots": 4416,
+      "nonzero_coefficients": 336,
+      "transform8_counts": {
+        "0": 1,
+        "1": 18
+      },
+      "categories": {
+        "5": 4416
+      },
+      "delta_qp_counts": {
+        "0": 19
+      },
+      "max_absolute_level": 8,
+      "reference_log_sha256": "da312e02d7b6c2636d1dc225e8c98c22b376d11c772161dd448478c81d175ffa",
+      "mismatches": 0,
+      "prefix_bits_reconstructed": 2200,
+      "arithmetic_decisions": 2293,
+      "frames": 20,
+      "width_mbs": 1,
+      "residual_terminal_ones": 19
+    }
+  ],
+  "total_macroblocks": 860,
+  "total_coefficient_slots": 103272,
+  "total_nonzero_coefficients": 10736,
+  "total_prefix_bits_reconstructed": 101981,
+  "total_residual_terminal_ones": 19
+}

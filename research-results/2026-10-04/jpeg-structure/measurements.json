@@ -1,0 +1,1202 @@
+[
+  {
+    "source": "01-25060.jpg",
+    "cohort": "initial",
+    "mode": 7,
+    "original_bytes": 204196,
+    "previous_v16_bytes": 169926,
+    "candidate_bytes": 169851,
+    "gain_bytes": 75,
+    "milliseconds": 1854
+  },
+  {
+    "source": "01-25060.jpg",
+    "cohort": "initial",
+    "mode": 8,
+    "original_bytes": 204196,
+    "previous_v16_bytes": 169926,
+    "candidate_bytes": 169549,
+    "gain_bytes": 377,
+    "milliseconds": 1324
+  },
+  {
+    "source": "01-25060.jpg",
+    "cohort": "initial",
+    "mode": 9,
+    "original_bytes": 204196,
+    "previous_v16_bytes": 169926,
+    "candidate_bytes": 169080,
+    "gain_bytes": 846,
+    "milliseconds": 1391
+  },
+  {
+    "source": "01-25060.jpg",
+    "cohort": "initial",
+    "mode": 10,
+    "original_bytes": 204196,
+    "previous_v16_bytes": 169926,
+    "candidate_bytes": 169285,
+    "gain_bytes": 641,
+    "milliseconds": 1385
+  },
+  {
+    "source": "01-25066.jpg",
+    "cohort": "initial",
+    "mode": 7,
+    "original_bytes": 119935,
+    "previous_v16_bytes": 94329,
+    "candidate_bytes": 94279,
+    "gain_bytes": 50,
+    "milliseconds": 1421
+  },
+  {
+    "source": "01-25066.jpg",
+    "cohort": "initial",
+    "mode": 8,
+    "original_bytes": 119935,
+    "previous_v16_bytes": 94329,
+    "candidate_bytes": 94091,
+    "gain_bytes": 238,
+    "milliseconds": 842
+  },
+  {
+    "source": "01-25066.jpg",
+    "cohort": "initial",
+    "mode": 9,
+    "original_bytes": 119935,
+    "previous_v16_bytes": 94329,
+    "candidate_bytes": 93714,
+    "gain_bytes": 615,
+    "milliseconds": 867
+  },
+  {
+    "source": "01-25066.jpg",
+    "cohort": "initial",
+    "mode": 10,
+    "original_bytes": 119935,
+    "previous_v16_bytes": 94329,
+    "candidate_bytes": 93790,
+    "gain_bytes": 539,
+    "milliseconds": 754
+  },
+  {
+    "source": "Canon_40D.jpg",
+    "cohort": "initial",
+    "mode": 7,
+    "original_bytes": 7958,
+    "previous_v16_bytes": 8014,
+    "candidate_bytes": 8368,
+    "gain_bytes": -354,
+    "milliseconds": 115
+  },
+  {
+    "source": "Canon_40D.jpg",
+    "cohort": "initial",
+    "mode": 8,
+    "original_bytes": 7958,
+    "previous_v16_bytes": 8014,
+    "candidate_bytes": 8363,
+    "gain_bytes": -349,
+    "milliseconds": 51
+  },
+  {
+    "source": "Canon_40D.jpg",
+    "cohort": "initial",
+    "mode": 9,
+    "original_bytes": 7958,
+    "previous_v16_bytes": 8014,
+    "candidate_bytes": 8140,
+    "gain_bytes": -126,
+    "milliseconds": 46
+  },
+  {
+    "source": "Canon_40D.jpg",
+    "cohort": "initial",
+    "mode": 10,
+    "original_bytes": 7958,
+    "previous_v16_bytes": 8014,
+    "candidate_bytes": 8142,
+    "gain_bytes": -128,
+    "milliseconds": 43
+  },
+  {
+    "source": "Canon_DIGITAL_IXUS_400.jpg",
+    "cohort": "initial",
+    "mode": 7,
+    "original_bytes": 9198,
+    "previous_v16_bytes": 7755,
+    "candidate_bytes": 8066,
+    "gain_bytes": -311,
+    "milliseconds": 171
+  },
+  {
+    "source": "Canon_DIGITAL_IXUS_400.jpg",
+    "cohort": "initial",
+    "mode": 8,
+    "original_bytes": 9198,
+    "previous_v16_bytes": 7755,
+    "candidate_bytes": 8063,
+    "gain_bytes": -308,
+    "milliseconds": 86
+  },
+  {
+    "source": "Canon_DIGITAL_IXUS_400.jpg",
+    "cohort": "initial",
+    "mode": 9,
+    "original_bytes": 9198,
+    "previous_v16_bytes": 7755,
+    "candidate_bytes": 7795,
+    "gain_bytes": -40,
+    "milliseconds": 45
+  },
+  {
+    "source": "Canon_DIGITAL_IXUS_400.jpg",
+    "cohort": "initial",
+    "mode": 10,
+    "original_bytes": 9198,
+    "previous_v16_bytes": 7755,
+    "candidate_bytes": 7802,
+    "gain_bytes": -47,
+    "milliseconds": 39
+  },
+  {
+    "source": "Nikon_D70.jpg",
+    "cohort": "initial",
+    "mode": 7,
+    "original_bytes": 14034,
+    "previous_v16_bytes": 12284,
+    "candidate_bytes": 12510,
+    "gain_bytes": -226,
+    "milliseconds": 202
+  },
+  {
+    "source": "Nikon_D70.jpg",
+    "cohort": "initial",
+    "mode": 8,
+    "original_bytes": 14034,
+    "previous_v16_bytes": 12284,
+    "candidate_bytes": 12503,
+    "gain_bytes": -219,
+    "milliseconds": 99
+  },
+  {
+    "source": "Nikon_D70.jpg",
+    "cohort": "initial",
+    "mode": 9,
+    "original_bytes": 14034,
+    "previous_v16_bytes": 12284,
+    "candidate_bytes": 12248,
+    "gain_bytes": 36,
+    "milliseconds": 76
+  },
+  {
+    "source": "Nikon_D70.jpg",
+    "cohort": "initial",
+    "mode": 10,
+    "original_bytes": 14034,
+    "previous_v16_bytes": 12284,
+    "candidate_bytes": 12259,
+    "gain_bytes": 25,
+    "milliseconds": 51
+  },
+  {
+    "source": "Pentax_K10D.jpg",
+    "cohort": "initial",
+    "mode": 7,
+    "original_bytes": 12077,
+    "previous_v16_bytes": 10194,
+    "candidate_bytes": 10496,
+    "gain_bytes": -302,
+    "milliseconds": 194
+  },
+  {
+    "source": "Pentax_K10D.jpg",
+    "cohort": "initial",
+    "mode": 8,
+    "original_bytes": 12077,
+    "previous_v16_bytes": 10194,
+    "candidate_bytes": 10493,
+    "gain_bytes": -299,
+    "milliseconds": 82
+  },
+  {
+    "source": "Pentax_K10D.jpg",
+    "cohort": "initial",
+    "mode": 9,
+    "original_bytes": 12077,
+    "previous_v16_bytes": 10194,
+    "candidate_bytes": 10285,
+    "gain_bytes": -91,
+    "milliseconds": 46
+  },
+  {
+    "source": "Pentax_K10D.jpg",
+    "cohort": "initial",
+    "mode": 10,
+    "original_bytes": 12077,
+    "previous_v16_bytes": 10194,
+    "candidate_bytes": 10288,
+    "gain_bytes": -94,
+    "milliseconds": 38
+  },
+  {
+    "source": "Reconyx_HC500_Hyperfire.jpg",
+    "cohort": "initial",
+    "mode": 7,
+    "original_bytes": 425890,
+    "previous_v16_bytes": 366166,
+    "candidate_bytes": 362351,
+    "gain_bytes": 3815,
+    "milliseconds": 3441
+  },
+  {
+    "source": "Reconyx_HC500_Hyperfire.jpg",
+    "cohort": "initial",
+    "mode": 8,
+    "original_bytes": 425890,
+    "previous_v16_bytes": 366166,
+    "candidate_bytes": 366223,
+    "gain_bytes": -57,
+    "milliseconds": 2999
+  },
+  {
+    "source": "Reconyx_HC500_Hyperfire.jpg",
+    "cohort": "initial",
+    "mode": 9,
+    "original_bytes": 425890,
+    "previous_v16_bytes": 366166,
+    "candidate_bytes": 356364,
+    "gain_bytes": 9802,
+    "milliseconds": 2867
+  },
+  {
+    "source": "Reconyx_HC500_Hyperfire.jpg",
+    "cohort": "initial",
+    "mode": 10,
+    "original_bytes": 425890,
+    "previous_v16_bytes": 366166,
+    "candidate_bytes": 360883,
+    "gain_bytes": 5283,
+    "milliseconds": 2625
+  },
+  {
+    "source": "Samsung_Digimax_i50_MP3.jpg",
+    "cohort": "initial",
+    "mode": 7,
+    "original_bytes": 45286,
+    "previous_v16_bytes": 43628,
+    "candidate_bytes": 43898,
+    "gain_bytes": -270,
+    "milliseconds": 317
+  },
+  {
+    "source": "Samsung_Digimax_i50_MP3.jpg",
+    "cohort": "initial",
+    "mode": 8,
+    "original_bytes": 45286,
+    "previous_v16_bytes": 43628,
+    "candidate_bytes": 43893,
+    "gain_bytes": -265,
+    "milliseconds": 151
+  },
+  {
+    "source": "Samsung_Digimax_i50_MP3.jpg",
+    "cohort": "initial",
+    "mode": 9,
+    "original_bytes": 45286,
+    "previous_v16_bytes": 43628,
+    "candidate_bytes": 43692,
+    "gain_bytes": -64,
+    "milliseconds": 130
+  },
+  {
+    "source": "Samsung_Digimax_i50_MP3.jpg",
+    "cohort": "initial",
+    "mode": 10,
+    "original_bytes": 45286,
+    "previous_v16_bytes": 43628,
+    "candidate_bytes": 43701,
+    "gain_bytes": -73,
+    "milliseconds": 157
+  },
+  {
+    "source": "fixture-0.jpg",
+    "cohort": "initial",
+    "mode": 7,
+    "original_bytes": 353,
+    "previous_v16_bytes": 409,
+    "candidate_bytes": 491,
+    "gain_bytes": -82,
+    "milliseconds": 25
+  },
+  {
+    "source": "fixture-0.jpg",
+    "cohort": "initial",
+    "mode": 8,
+    "original_bytes": 353,
+    "previous_v16_bytes": 409,
+    "candidate_bytes": 491,
+    "gain_bytes": -82,
+    "milliseconds": 8
+  },
+  {
+    "source": "fixture-0.jpg",
+    "cohort": "initial",
+    "mode": 9,
+    "original_bytes": 353,
+    "previous_v16_bytes": 409,
+    "candidate_bytes": 463,
+    "gain_bytes": -54,
+    "milliseconds": 5
+  },
+  {
+    "source": "fixture-0.jpg",
+    "cohort": "initial",
+    "mode": 10,
+    "original_bytes": 353,
+    "previous_v16_bytes": 409,
+    "candidate_bytes": 463,
+    "gain_bytes": -54,
+    "milliseconds": 4
+  },
+  {
+    "source": "fixture-1.jpg",
+    "cohort": "initial",
+    "mode": 7,
+    "original_bytes": 371,
+    "previous_v16_bytes": 427,
+    "candidate_bytes": 509,
+    "gain_bytes": -82,
+    "milliseconds": 31
+  },
+  {
+    "source": "fixture-1.jpg",
+    "cohort": "initial",
+    "mode": 8,
+    "original_bytes": 371,
+    "previous_v16_bytes": 427,
+    "candidate_bytes": 509,
+    "gain_bytes": -82,
+    "milliseconds": 7
+  },
+  {
+    "source": "fixture-1.jpg",
+    "cohort": "initial",
+    "mode": 9,
+    "original_bytes": 371,
+    "previous_v16_bytes": 427,
+    "candidate_bytes": 480,
+    "gain_bytes": -53,
+    "milliseconds": 6
+  },
+  {
+    "source": "fixture-1.jpg",
+    "cohort": "initial",
+    "mode": 10,
+    "original_bytes": 371,
+    "previous_v16_bytes": 427,
+    "candidate_bytes": 480,
+    "gain_bytes": -53,
+    "milliseconds": 5
+  },
+  {
+    "source": "fixture-2.jpg",
+    "cohort": "initial",
+    "mode": 7,
+    "original_bytes": 970,
+    "previous_v16_bytes": 938,
+    "candidate_bytes": 939,
+    "gain_bytes": -1,
+    "milliseconds": 50
+  },
+  {
+    "source": "fixture-2.jpg",
+    "cohort": "initial",
+    "mode": 8,
+    "original_bytes": 970,
+    "previous_v16_bytes": 938,
+    "candidate_bytes": 938,
+    "gain_bytes": 0,
+    "milliseconds": 21
+  },
+  {
+    "source": "fixture-2.jpg",
+    "cohort": "initial",
+    "mode": 9,
+    "original_bytes": 970,
+    "previous_v16_bytes": 938,
+    "candidate_bytes": 870,
+    "gain_bytes": 68,
+    "milliseconds": 19
+  },
+  {
+    "source": "fixture-2.jpg",
+    "cohort": "initial",
+    "mode": 10,
+    "original_bytes": 970,
+    "previous_v16_bytes": 938,
+    "candidate_bytes": 869,
+    "gain_bytes": 69,
+    "milliseconds": 18
+  },
+  {
+    "source": "fixture-3.jpg",
+    "cohort": "initial",
+    "mode": 7,
+    "original_bytes": 3075,
+    "previous_v16_bytes": 3131,
+    "candidate_bytes": 3233,
+    "gain_bytes": -102,
+    "milliseconds": 104
+  },
+  {
+    "source": "fixture-3.jpg",
+    "cohort": "initial",
+    "mode": 8,
+    "original_bytes": 3075,
+    "previous_v16_bytes": 3131,
+    "candidate_bytes": 3212,
+    "gain_bytes": -81,
+    "milliseconds": 59
+  },
+  {
+    "source": "fixture-3.jpg",
+    "cohort": "initial",
+    "mode": 9,
+    "original_bytes": 3075,
+    "previous_v16_bytes": 3131,
+    "candidate_bytes": 2999,
+    "gain_bytes": 132,
+    "milliseconds": 37
+  },
+  {
+    "source": "fixture-3.jpg",
+    "cohort": "initial",
+    "mode": 10,
+    "original_bytes": 3075,
+    "previous_v16_bytes": 3131,
+    "candidate_bytes": 2996,
+    "gain_bytes": 135,
+    "milliseconds": 23
+  },
+  {
+    "source": "hdr_canon_hdr_NO.jpg",
+    "cohort": "initial",
+    "mode": 7,
+    "original_bytes": 784371,
+    "previous_v16_bytes": 664401,
+    "candidate_bytes": 659973,
+    "gain_bytes": 4428,
+    "milliseconds": 5433
+  },
+  {
+    "source": "hdr_canon_hdr_NO.jpg",
+    "cohort": "initial",
+    "mode": 8,
+    "original_bytes": 784371,
+    "previous_v16_bytes": 664401,
+    "candidate_bytes": 664538,
+    "gain_bytes": -137,
+    "milliseconds": 4964
+  },
+  {
+    "source": "hdr_canon_hdr_NO.jpg",
+    "cohort": "initial",
+    "mode": 9,
+    "original_bytes": 784371,
+    "previous_v16_bytes": 664401,
+    "candidate_bytes": 650070,
+    "gain_bytes": 14331,
+    "milliseconds": 5130
+  },
+  {
+    "source": "hdr_canon_hdr_NO.jpg",
+    "cohort": "initial",
+    "mode": 10,
+    "original_bytes": 784371,
+    "previous_v16_bytes": 664401,
+    "candidate_bytes": 655675,
+    "gain_bytes": 8726,
+    "milliseconds": 5030
+  },
+  {
+    "source": "hdr_iphone_hdr_NO.jpg",
+    "cohort": "initial",
+    "mode": 7,
+    "original_bytes": 1957448,
+    "previous_v16_bytes": 1575113,
+    "candidate_bytes": 1540955,
+    "gain_bytes": 34158,
+    "milliseconds": 11470
+  },
+  {
+    "source": "hdr_iphone_hdr_NO.jpg",
+    "cohort": "initial",
+    "mode": 8,
+    "original_bytes": 1957448,
+    "previous_v16_bytes": 1575113,
+    "candidate_bytes": 1575249,
+    "gain_bytes": -136,
+    "milliseconds": 11490
+  },
+  {
+    "source": "hdr_iphone_hdr_NO.jpg",
+    "cohort": "initial",
+    "mode": 9,
+    "original_bytes": 1957448,
+    "previous_v16_bytes": 1575113,
+    "candidate_bytes": 1520247,
+    "gain_bytes": 54866,
+    "milliseconds": 11664
+  },
+  {
+    "source": "hdr_iphone_hdr_NO.jpg",
+    "cohort": "initial",
+    "mode": 10,
+    "original_bytes": 1957448,
+    "previous_v16_bytes": 1575113,
+    "candidate_bytes": 1531344,
+    "gain_bytes": 43769,
+    "milliseconds": 10720
+  },
+  {
+    "source": "hdr_iphone_hdr_YES.jpg",
+    "cohort": "initial",
+    "mode": 7,
+    "original_bytes": 1976579,
+    "previous_v16_bytes": 1594612,
+    "candidate_bytes": 1561696,
+    "gain_bytes": 32916,
+    "milliseconds": 11663
+  },
+  {
+    "source": "hdr_iphone_hdr_YES.jpg",
+    "cohort": "initial",
+    "mode": 8,
+    "original_bytes": 1976579,
+    "previous_v16_bytes": 1594612,
+    "candidate_bytes": 1594813,
+    "gain_bytes": -201,
+    "milliseconds": 11986
+  },
+  {
+    "source": "hdr_iphone_hdr_YES.jpg",
+    "cohort": "initial",
+    "mode": 9,
+    "original_bytes": 1976579,
+    "previous_v16_bytes": 1594612,
+    "candidate_bytes": 1539895,
+    "gain_bytes": 54717,
+    "milliseconds": 11119
+  },
+  {
+    "source": "hdr_iphone_hdr_YES.jpg",
+    "cohort": "initial",
+    "mode": 10,
+    "original_bytes": 1976579,
+    "previous_v16_bytes": 1594612,
+    "candidate_bytes": 1551946,
+    "gain_bytes": 42666,
+    "milliseconds": 10875
+  },
+  {
+    "source": "mobile_jolla.jpg",
+    "cohort": "initial",
+    "mode": 7,
+    "original_bytes": 811904,
+    "previous_v16_bytes": 649550,
+    "candidate_bytes": 637646,
+    "gain_bytes": 11904,
+    "milliseconds": 6058
+  },
+  {
+    "source": "mobile_jolla.jpg",
+    "cohort": "initial",
+    "mode": 8,
+    "original_bytes": 811904,
+    "previous_v16_bytes": 649550,
+    "candidate_bytes": 649473,
+    "gain_bytes": 77,
+    "milliseconds": 5544
+  },
+  {
+    "source": "mobile_jolla.jpg",
+    "cohort": "initial",
+    "mode": 9,
+    "original_bytes": 811904,
+    "previous_v16_bytes": 649550,
+    "candidate_bytes": 629435,
+    "gain_bytes": 20115,
+    "milliseconds": 5387
+  },
+  {
+    "source": "mobile_jolla.jpg",
+    "cohort": "initial",
+    "mode": 10,
+    "original_bytes": 811904,
+    "previous_v16_bytes": 649550,
+    "candidate_bytes": 632961,
+    "gain_bytes": 16589,
+    "milliseconds": 5159
+  },
+  {
+    "source": "Canon_40D_photoshop_import.jpg",
+    "cohort": "heldout",
+    "mode": 7,
+    "original_bytes": 9686,
+    "previous_v16_bytes": 9759,
+    "candidate_bytes": 9902,
+    "gain_bytes": -143,
+    "milliseconds": 136
+  },
+  {
+    "source": "Canon_40D_photoshop_import.jpg",
+    "cohort": "heldout",
+    "mode": 8,
+    "original_bytes": 9686,
+    "previous_v16_bytes": 9759,
+    "candidate_bytes": 9901,
+    "gain_bytes": -142,
+    "milliseconds": 68
+  },
+  {
+    "source": "Canon_40D_photoshop_import.jpg",
+    "cohort": "heldout",
+    "mode": 9,
+    "original_bytes": 9686,
+    "previous_v16_bytes": 9759,
+    "candidate_bytes": 9635,
+    "gain_bytes": 124,
+    "milliseconds": 46
+  },
+  {
+    "source": "Canon_40D_photoshop_import.jpg",
+    "cohort": "heldout",
+    "mode": 10,
+    "original_bytes": 9686,
+    "previous_v16_bytes": 9759,
+    "candidate_bytes": 9640,
+    "gain_bytes": 119,
+    "milliseconds": 35
+  },
+  {
+    "source": "Canon_PowerShot_S40.jpg",
+    "cohort": "heldout",
+    "mode": 7,
+    "original_bytes": 32764,
+    "previous_v16_bytes": 31740,
+    "candidate_bytes": 31466,
+    "gain_bytes": 274,
+    "milliseconds": 388
+  },
+  {
+    "source": "Canon_PowerShot_S40.jpg",
+    "cohort": "heldout",
+    "mode": 8,
+    "original_bytes": 32764,
+    "previous_v16_bytes": 31740,
+    "candidate_bytes": 31738,
+    "gain_bytes": 2,
+    "milliseconds": 205
+  },
+  {
+    "source": "Canon_PowerShot_S40.jpg",
+    "cohort": "heldout",
+    "mode": 9,
+    "original_bytes": 32764,
+    "previous_v16_bytes": 31740,
+    "candidate_bytes": 30783,
+    "gain_bytes": 957,
+    "milliseconds": 240
+  },
+  {
+    "source": "Canon_PowerShot_S40.jpg",
+    "cohort": "heldout",
+    "mode": 10,
+    "original_bytes": 32764,
+    "previous_v16_bytes": 31740,
+    "candidate_bytes": 31025,
+    "gain_bytes": 715,
+    "milliseconds": 211
+  },
+  {
+    "source": "Fujifilm_FinePix6900ZOOM.jpg",
+    "cohort": "heldout",
+    "mode": 7,
+    "original_bytes": 4278,
+    "previous_v16_bytes": 4242,
+    "candidate_bytes": 4541,
+    "gain_bytes": -299,
+    "milliseconds": 140
+  },
+  {
+    "source": "Fujifilm_FinePix6900ZOOM.jpg",
+    "cohort": "heldout",
+    "mode": 8,
+    "original_bytes": 4278,
+    "previous_v16_bytes": 4242,
+    "candidate_bytes": 4536,
+    "gain_bytes": -294,
+    "milliseconds": 43
+  },
+  {
+    "source": "Fujifilm_FinePix6900ZOOM.jpg",
+    "cohort": "heldout",
+    "mode": 9,
+    "original_bytes": 4278,
+    "previous_v16_bytes": 4242,
+    "candidate_bytes": 4343,
+    "gain_bytes": -101,
+    "milliseconds": 35
+  },
+  {
+    "source": "Fujifilm_FinePix6900ZOOM.jpg",
+    "cohort": "heldout",
+    "mode": 10,
+    "original_bytes": 4278,
+    "previous_v16_bytes": 4242,
+    "candidate_bytes": 4349,
+    "gain_bytes": -107,
+    "milliseconds": 29
+  },
+  {
+    "source": "Fujifilm_FinePix_E500.jpg",
+    "cohort": "heldout",
+    "mode": 7,
+    "original_bytes": 2241,
+    "previous_v16_bytes": 1954,
+    "candidate_bytes": 2225,
+    "gain_bytes": -271,
+    "milliseconds": 62
+  },
+  {
+    "source": "Fujifilm_FinePix_E500.jpg",
+    "cohort": "heldout",
+    "mode": 8,
+    "original_bytes": 2241,
+    "previous_v16_bytes": 1954,
+    "candidate_bytes": 2220,
+    "gain_bytes": -266,
+    "milliseconds": 36
+  },
+  {
+    "source": "Fujifilm_FinePix_E500.jpg",
+    "cohort": "heldout",
+    "mode": 9,
+    "original_bytes": 2241,
+    "previous_v16_bytes": 1954,
+    "candidate_bytes": 2069,
+    "gain_bytes": -115,
+    "milliseconds": 21
+  },
+  {
+    "source": "Fujifilm_FinePix_E500.jpg",
+    "cohort": "heldout",
+    "mode": 10,
+    "original_bytes": 2241,
+    "previous_v16_bytes": 1954,
+    "candidate_bytes": 2069,
+    "gain_bytes": -115,
+    "milliseconds": 24
+  },
+  {
+    "source": "Kodak_CX7530.jpg",
+    "cohort": "heldout",
+    "mode": 7,
+    "original_bytes": 5958,
+    "previous_v16_bytes": 6017,
+    "candidate_bytes": 6364,
+    "gain_bytes": -347,
+    "milliseconds": 115
+  },
+  {
+    "source": "Kodak_CX7530.jpg",
+    "cohort": "heldout",
+    "mode": 8,
+    "original_bytes": 5958,
+    "previous_v16_bytes": 6017,
+    "candidate_bytes": 6361,
+    "gain_bytes": -344,
+    "milliseconds": 68
+  },
+  {
+    "source": "Kodak_CX7530.jpg",
+    "cohort": "heldout",
+    "mode": 9,
+    "original_bytes": 5958,
+    "previous_v16_bytes": 6017,
+    "candidate_bytes": 6101,
+    "gain_bytes": -84,
+    "milliseconds": 48
+  },
+  {
+    "source": "Kodak_CX7530.jpg",
+    "cohort": "heldout",
+    "mode": 10,
+    "original_bytes": 5958,
+    "previous_v16_bytes": 6017,
+    "candidate_bytes": 6108,
+    "gain_bytes": -91,
+    "milliseconds": 27
+  },
+  {
+    "source": "Konica_Minolta_DiMAGE_Z3.jpg",
+    "cohort": "heldout",
+    "mode": 7,
+    "original_bytes": 36971,
+    "previous_v16_bytes": 11057,
+    "candidate_bytes": 11356,
+    "gain_bytes": -299,
+    "milliseconds": 182
+  },
+  {
+    "source": "Konica_Minolta_DiMAGE_Z3.jpg",
+    "cohort": "heldout",
+    "mode": 8,
+    "original_bytes": 36971,
+    "previous_v16_bytes": 11057,
+    "candidate_bytes": 11347,
+    "gain_bytes": -290,
+    "milliseconds": 112
+  },
+  {
+    "source": "Konica_Minolta_DiMAGE_Z3.jpg",
+    "cohort": "heldout",
+    "mode": 9,
+    "original_bytes": 36971,
+    "previous_v16_bytes": 11057,
+    "candidate_bytes": 11178,
+    "gain_bytes": -121,
+    "milliseconds": 59
+  },
+  {
+    "source": "Konica_Minolta_DiMAGE_Z3.jpg",
+    "cohort": "heldout",
+    "mode": 10,
+    "original_bytes": 36971,
+    "previous_v16_bytes": 11057,
+    "candidate_bytes": 11178,
+    "gain_bytes": -121,
+    "milliseconds": 65
+  },
+  {
+    "source": "Nikon_COOLPIX_P1.jpg",
+    "cohort": "heldout",
+    "mode": 7,
+    "original_bytes": 7068,
+    "previous_v16_bytes": 5969,
+    "candidate_bytes": 6271,
+    "gain_bytes": -302,
+    "milliseconds": 121
+  },
+  {
+    "source": "Nikon_COOLPIX_P1.jpg",
+    "cohort": "heldout",
+    "mode": 8,
+    "original_bytes": 7068,
+    "previous_v16_bytes": 5969,
+    "candidate_bytes": 6270,
+    "gain_bytes": -301,
+    "milliseconds": 50
+  },
+  {
+    "source": "Nikon_COOLPIX_P1.jpg",
+    "cohort": "heldout",
+    "mode": 9,
+    "original_bytes": 7068,
+    "previous_v16_bytes": 5969,
+    "candidate_bytes": 6053,
+    "gain_bytes": -84,
+    "milliseconds": 42
+  },
+  {
+    "source": "Nikon_COOLPIX_P1.jpg",
+    "cohort": "heldout",
+    "mode": 10,
+    "original_bytes": 7068,
+    "previous_v16_bytes": 5969,
+    "candidate_bytes": 6057,
+    "gain_bytes": -88,
+    "milliseconds": 30
+  },
+  {
+    "source": "Olympus_C8080WZ.jpg",
+    "cohort": "heldout",
+    "mode": 7,
+    "original_bytes": 3224,
+    "previous_v16_bytes": 3041,
+    "candidate_bytes": 3353,
+    "gain_bytes": -312,
+    "milliseconds": 105
+  },
+  {
+    "source": "Olympus_C8080WZ.jpg",
+    "cohort": "heldout",
+    "mode": 8,
+    "original_bytes": 3224,
+    "previous_v16_bytes": 3041,
+    "candidate_bytes": 3343,
+    "gain_bytes": -302,
+    "milliseconds": 63
+  },
+  {
+    "source": "Olympus_C8080WZ.jpg",
+    "cohort": "heldout",
+    "mode": 9,
+    "original_bytes": 3224,
+    "previous_v16_bytes": 3041,
+    "candidate_bytes": 3172,
+    "gain_bytes": -131,
+    "milliseconds": 30
+  },
+  {
+    "source": "Olympus_C8080WZ.jpg",
+    "cohort": "heldout",
+    "mode": 10,
+    "original_bytes": 3224,
+    "previous_v16_bytes": 3041,
+    "candidate_bytes": 3170,
+    "gain_bytes": -129,
+    "milliseconds": 28
+  },
+  {
+    "source": "PaintTool_sample.jpg",
+    "cohort": "heldout",
+    "mode": 7,
+    "original_bytes": 5738,
+    "previous_v16_bytes": 5801,
+    "candidate_bytes": 6167,
+    "gain_bytes": -366,
+    "milliseconds": 118
+  },
+  {
+    "source": "PaintTool_sample.jpg",
+    "cohort": "heldout",
+    "mode": 8,
+    "original_bytes": 5738,
+    "previous_v16_bytes": 5801,
+    "candidate_bytes": 6168,
+    "gain_bytes": -367,
+    "milliseconds": 52
+  },
+  {
+    "source": "PaintTool_sample.jpg",
+    "cohort": "heldout",
+    "mode": 9,
+    "original_bytes": 5738,
+    "previous_v16_bytes": 5801,
+    "candidate_bytes": 5899,
+    "gain_bytes": -98,
+    "milliseconds": 38
+  },
+  {
+    "source": "PaintTool_sample.jpg",
+    "cohort": "heldout",
+    "mode": 10,
+    "original_bytes": 5738,
+    "previous_v16_bytes": 5801,
+    "candidate_bytes": 5899,
+    "gain_bytes": -98,
+    "milliseconds": 37
+  },
+  {
+    "source": "Panasonic_DMC-FZ30.jpg",
+    "cohort": "heldout",
+    "mode": 7,
+    "original_bytes": 10769,
+    "previous_v16_bytes": 8614,
+    "candidate_bytes": 8846,
+    "gain_bytes": -232,
+    "milliseconds": 172
+  },
+  {
+    "source": "Panasonic_DMC-FZ30.jpg",
+    "cohort": "heldout",
+    "mode": 8,
+    "original_bytes": 10769,
+    "previous_v16_bytes": 8614,
+    "candidate_bytes": 8840,
+    "gain_bytes": -226,
+    "milliseconds": 63
+  },
+  {
+    "source": "Panasonic_DMC-FZ30.jpg",
+    "cohort": "heldout",
+    "mode": 9,
+    "original_bytes": 10769,
+    "previous_v16_bytes": 8614,
+    "candidate_bytes": 8633,
+    "gain_bytes": -19,
+    "milliseconds": 42
+  },
+  {
+    "source": "Panasonic_DMC-FZ30.jpg",
+    "cohort": "heldout",
+    "mode": 10,
+    "original_bytes": 10769,
+    "previous_v16_bytes": 8614,
+    "candidate_bytes": 8638,
+    "gain_bytes": -24,
+    "milliseconds": 37
+  },
+  {
+    "source": "gps_DSCN0010.jpg",
+    "cohort": "heldout",
+    "mode": 7,
+    "original_bytes": 161713,
+    "previous_v16_bytes": 142224,
+    "candidate_bytes": 142006,
+    "gain_bytes": 218,
+    "milliseconds": 1328
+  },
+  {
+    "source": "gps_DSCN0010.jpg",
+    "cohort": "heldout",
+    "mode": 8,
+    "original_bytes": 161713,
+    "previous_v16_bytes": 142224,
+    "candidate_bytes": 142115,
+    "gain_bytes": 109,
+    "milliseconds": 1047
+  },
+  {
+    "source": "gps_DSCN0010.jpg",
+    "cohort": "heldout",
+    "mode": 9,
+    "original_bytes": 161713,
+    "previous_v16_bytes": 142224,
+    "candidate_bytes": 140533,
+    "gain_bytes": 1691,
+    "milliseconds": 991
+  },
+  {
+    "source": "gps_DSCN0010.jpg",
+    "cohort": "heldout",
+    "mode": 10,
+    "original_bytes": 161713,
+    "previous_v16_bytes": 142224,
+    "candidate_bytes": 140791,
+    "gain_bytes": 1433,
+    "milliseconds": 977
+  },
+  {
+    "source": "gps_DSCN0012.jpg",
+    "cohort": "heldout",
+    "mode": 7,
+    "original_bytes": 159137,
+    "previous_v16_bytes": 143724,
+    "candidate_bytes": 143552,
+    "gain_bytes": 172,
+    "milliseconds": 1166
+  },
+  {
+    "source": "gps_DSCN0012.jpg",
+    "cohort": "heldout",
+    "mode": 8,
+    "original_bytes": 159137,
+    "previous_v16_bytes": 143724,
+    "candidate_bytes": 143714,
+    "gain_bytes": 10,
+    "milliseconds": 923
+  },
+  {
+    "source": "gps_DSCN0012.jpg",
+    "cohort": "heldout",
+    "mode": 9,
+    "original_bytes": 159137,
+    "previous_v16_bytes": 143724,
+    "candidate_bytes": 142371,
+    "gain_bytes": 1353,
+    "milliseconds": 1018
+  },
+  {
+    "source": "gps_DSCN0012.jpg",
+    "cohort": "heldout",
+    "mode": 10,
+    "original_bytes": 159137,
+    "previous_v16_bytes": 143724,
+    "candidate_bytes": 142760,
+    "gain_bytes": 964,
+    "milliseconds": 839
+  },
+  {
+    "source": "mobile_HMD_Nokia_8.3_5G.jpg",
+    "cohort": "heldout",
+    "mode": 7,
+    "original_bytes": 2190194,
+    "previous_v16_bytes": 1789947,
+    "candidate_bytes": 1781109,
+    "gain_bytes": 8838,
+    "milliseconds": 13810
+  },
+  {
+    "source": "mobile_HMD_Nokia_8.3_5G.jpg",
+    "cohort": "heldout",
+    "mode": 8,
+    "original_bytes": 2190194,
+    "previous_v16_bytes": 1789947,
+    "candidate_bytes": 1785899,
+    "gain_bytes": 4048,
+    "milliseconds": 13321
+  },
+  {
+    "source": "mobile_HMD_Nokia_8.3_5G.jpg",
+    "cohort": "heldout",
+    "mode": 9,
+    "original_bytes": 2190194,
+    "previous_v16_bytes": 1789947,
+    "candidate_bytes": 1757227,
+    "gain_bytes": 32720,
+    "milliseconds": 13637
+  },
+  {
+    "source": "mobile_HMD_Nokia_8.3_5G.jpg",
+    "cohort": "heldout",
+    "mode": 10,
+    "original_bytes": 2190194,
+    "previous_v16_bytes": 1789947,
+    "candidate_bytes": 1768459,
+    "gain_bytes": 21488,
+    "milliseconds": 14982
+  },
+  {
+    "source": "mobile_HMD_Nokia_8.3_5G_hdr.jpg",
+    "cohort": "heldout",
+    "mode": 7,
+    "original_bytes": 5168013,
+    "previous_v16_bytes": 4224993,
+    "candidate_bytes": 4193437,
+    "gain_bytes": 31556,
+    "milliseconds": 32659
+  },
+  {
+    "source": "mobile_HMD_Nokia_8.3_5G_hdr.jpg",
+    "cohort": "heldout",
+    "mode": 8,
+    "original_bytes": 5168013,
+    "previous_v16_bytes": 4224993,
+    "candidate_bytes": 4225768,
+    "gain_bytes": -775,
+    "milliseconds": 34063
+  },
+  {
+    "source": "mobile_HMD_Nokia_8.3_5G_hdr.jpg",
+    "cohort": "heldout",
+    "mode": 9,
+    "original_bytes": 5168013,
+    "previous_v16_bytes": 4224993,
+    "candidate_bytes": 4150179,
+    "gain_bytes": 74814,
+    "milliseconds": 33971
+  },
+  {
+    "source": "mobile_HMD_Nokia_8.3_5G_hdr.jpg",
+    "cohort": "heldout",
+    "mode": 10,
+    "original_bytes": 5168013,
+    "previous_v16_bytes": 4224993,
+    "candidate_bytes": 4175837,
+    "gain_bytes": 49156,
+    "milliseconds": 34029
+  }
+]

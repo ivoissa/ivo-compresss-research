@@ -1,0 +1,27 @@
+RESULT kind=WEBP file=test.webp raw=3932 candidate_payload=3604 candidate_container_size=3655 exact=true baseline_payload=3604 same_payload=true reference_best=3656 winner=USER_WEBP_RESEARCH new_ms=239 old_ms=152 error= old_error=
+
+STDERR
+  zero/EOB(nd0): 423 bytes
+  nd1: 635 bytes
+  nd2: 502 bytes
+  nd3-5: 494 bytes
+  nd6-15: 349 bytes
+  sign: 582 bytes
+  modes: 290 bytes
+meta(deflated)=55 payload=3544
+  zero/EOB(nd0): 423 bytes
+  nd1: 635 bytes
+  nd2: 502 bytes
+  nd3-5: 494 bytes
+  nd6-15: 349 bytes
+  sign: 582 bytes
+  modes: 290 bytes
+meta(deflated)=55 payload=3544
+  zero/EOB(nd0): 423 bytes
+  nd1: 635 bytes
+  nd2: 502 bytes
+  nd3-5: 494 bytes
+  nd6-15: 349 bytes
+  sign: 582 bytes
+  modes: 290 bytes
+meta(deflated)=55 payload=3544

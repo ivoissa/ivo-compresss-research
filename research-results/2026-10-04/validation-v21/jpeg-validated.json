@@ -1,0 +1,534 @@
+[
+  {
+    "source": {
+      "name": "image-rs_tower_progressive.jpg",
+      "repo": "image-rs/jpeg-decoder",
+      "commit": "eb2d7c0f6a2d0298aba7a7f8b9ca1440353e8f8c",
+      "path": "benches/tower_progressive.jpg",
+      "url": "https://raw.githubusercontent.com/image-rs/jpeg-decoder/eb2d7c0f6a2d0298aba7a7f8b9ca1440353e8f8c/benches/tower_progressive.jpg",
+      "cohort": "jpeg",
+      "bytes": 68149,
+      "sha256": "e87bac231e2c11b1aef6981358189ad5c51f67069a43131b1512ed823a7607c6",
+      "downloaded": true,
+      "seen_in_previous_reports": false,
+      "shape": [
+        512,
+        512
+      ],
+      "color": "RGB",
+      "progressive": true,
+      "class": "image"
+    },
+    "variants": [
+      {
+        "mode": 0,
+        "original": 68149,
+        "baseline": 68090,
+        "candidate": 64438,
+        "scans": 10,
+        "progressive_scans": 10,
+        "archive": "/tmp/ivo-v21-jpeg-results/image-rs_tower_progressive.jpg/scan-m0.ivo",
+        "fresh_cli_exact": true,
+        "archive_sha256": "d93aed93e42978218bdd20ee5abb51dd8a258841284a1aaa48ae767f74a36e8b"
+      },
+      {
+        "mode": 1,
+        "original": 68149,
+        "baseline": 68090,
+        "candidate": 63812,
+        "scans": 10,
+        "progressive_scans": 10,
+        "archive": "/tmp/ivo-v21-jpeg-results/image-rs_tower_progressive.jpg/scan-m1.ivo",
+        "fresh_cli_exact": true,
+        "archive_sha256": "7e7db49294708bad575435597c040a014f3f3b0359f45223ca9488716b401092"
+      }
+    ],
+    "baseline_fresh_cli_exact": true,
+    "supported": true,
+    "error": null
+  },
+  {
+    "source": {
+      "name": "image-rs_jpg-progressive.jpg",
+      "repo": "image-rs/jpeg-decoder",
+      "commit": "eb2d7c0f6a2d0298aba7a7f8b9ca1440353e8f8c",
+      "path": "tests/reftest/images/mozilla/jpg-progressive.jpg",
+      "url": "https://raw.githubusercontent.com/image-rs/jpeg-decoder/eb2d7c0f6a2d0298aba7a7f8b9ca1440353e8f8c/tests/reftest/images/mozilla/jpg-progressive.jpg",
+      "cohort": "jpeg",
+      "bytes": 979,
+      "sha256": "1cbff16cd9651840f660914eb8cd0cb29d248cf113081d75bd4476b4d18a5460",
+      "downloaded": true,
+      "seen_in_previous_reports": false,
+      "shape": [
+        32,
+        32
+      ],
+      "color": "RGB",
+      "progressive": true,
+      "class": "conformance"
+    },
+    "variants": [
+      {
+        "mode": 0,
+        "original": 979,
+        "baseline": 884,
+        "candidate": 1004,
+        "scans": 10,
+        "progressive_scans": 10,
+        "archive": "/tmp/ivo-v21-jpeg-results/image-rs_jpg-progressive.jpg/scan-m0.ivo",
+        "fresh_cli_exact": true,
+        "archive_sha256": "6e6fe1000cb32bf3c7cb15849af1f256b8dc616df280a9518368272bd1ae0f1d"
+      },
+      {
+        "mode": 1,
+        "original": 979,
+        "baseline": 884,
+        "candidate": 1035,
+        "scans": 10,
+        "progressive_scans": 10,
+        "archive": "/tmp/ivo-v21-jpeg-results/image-rs_jpg-progressive.jpg/scan-m1.ivo",
+        "fresh_cli_exact": true,
+        "archive_sha256": "884c078f822e75a257722da312becb317498ba50295fd1272c5ce8d1f8f39b46"
+      }
+    ],
+    "baseline_fresh_cli_exact": true,
+    "supported": true,
+    "error": null
+  },
+  {
+    "source": {
+      "name": "image-rs_non-interleaved-mcu.jpg",
+      "repo": "image-rs/jpeg-decoder",
+      "commit": "eb2d7c0f6a2d0298aba7a7f8b9ca1440353e8f8c",
+      "path": "tests/reftest/images/non-interleaved-mcu.jpg",
+      "url": "https://raw.githubusercontent.com/image-rs/jpeg-decoder/eb2d7c0f6a2d0298aba7a7f8b9ca1440353e8f8c/tests/reftest/images/non-interleaved-mcu.jpg",
+      "cohort": "jpeg",
+      "bytes": 572,
+      "sha256": "5abd83bf44756cb67018ef8b452c31a709146706e9c71800cd24628cce3ef9c4",
+      "downloaded": true,
+      "seen_in_previous_reports": false,
+      "shape": [
+        64,
+        16
+      ],
+      "color": "RGB",
+      "progressive": true,
+      "class": "conformance"
+    },
+    "variants": [
+      {
+        "mode": 0,
+        "original": 572,
+        "baseline": 343,
+        "candidate": 509,
+        "scans": 10,
+        "progressive_scans": 10,
+        "archive": "/tmp/ivo-v21-jpeg-results/image-rs_non-interleaved-mcu.jpg/scan-m0.ivo",
+        "fresh_cli_exact": true,
+        "archive_sha256": "4883891f1a22de0f0b43d9a9b44f7c1822a5099d0d3813b78de79df6b217bd54"
+      },
+      {
+        "mode": 1,
+        "original": 572,
+        "baseline": 343,
+        "candidate": 511,
+        "scans": 10,
+        "progressive_scans": 10,
+        "archive": "/tmp/ivo-v21-jpeg-results/image-rs_non-interleaved-mcu.jpg/scan-m1.ivo",
+        "fresh_cli_exact": true,
+        "archive_sha256": "649193c3fca861d4fe4c32b18e2309683ab2e251202ecea93e574a68739f537d"
+      }
+    ],
+    "baseline_fresh_cli_exact": true,
+    "supported": true,
+    "error": null
+  },
+  {
+    "source": {
+      "name": "image-rs_partial_progressive.jpg",
+      "repo": "image-rs/jpeg-decoder",
+      "commit": "eb2d7c0f6a2d0298aba7a7f8b9ca1440353e8f8c",
+      "path": "tests/reftest/images/partial_progressive.jpg",
+      "url": "https://raw.githubusercontent.com/image-rs/jpeg-decoder/eb2d7c0f6a2d0298aba7a7f8b9ca1440353e8f8c/tests/reftest/images/partial_progressive.jpg",
+      "cohort": "jpeg",
+      "bytes": 1330,
+      "sha256": "3b809d450dedbe4fc8b12afc57e64f296eee89ae61e69563e7b44e4e9049e7d9",
+      "downloaded": true,
+      "seen_in_previous_reports": false,
+      "shape": [
+        4,
+        4
+      ],
+      "color": "RGB",
+      "progressive": true,
+      "class": "conformance"
+    },
+    "variants": [],
+    "baseline_fresh_cli_exact": true,
+    "supported": false,
+    "error": " \"main\" java.lang.IllegalArgumentException: Expected JPEG marker at offset 1292"
+  },
+  {
+    "source": {
+      "name": "image-rs_progressive3.jpg",
+      "repo": "image-rs/jpeg-decoder",
+      "commit": "eb2d7c0f6a2d0298aba7a7f8b9ca1440353e8f8c",
+      "path": "tests/reftest/images/progressive3.jpg",
+      "url": "https://raw.githubusercontent.com/image-rs/jpeg-decoder/eb2d7c0f6a2d0298aba7a7f8b9ca1440353e8f8c/tests/reftest/images/progressive3.jpg",
+      "cohort": "jpeg",
+      "bytes": 91072,
+      "sha256": "d19ebc7245629cc1e55cd0876fe671bde324893e73a75f3c467b8b4991214837",
+      "downloaded": true,
+      "seen_in_previous_reports": false,
+      "shape": [
+        650,
+        470
+      ],
+      "color": "RGB",
+      "progressive": true,
+      "class": "image"
+    },
+    "variants": [
+      {
+        "mode": 0,
+        "original": 91072,
+        "baseline": 91050,
+        "candidate": 90261,
+        "scans": 11,
+        "progressive_scans": 11,
+        "archive": "/tmp/ivo-v21-jpeg-results/image-rs_progressive3.jpg/scan-m0.ivo",
+        "fresh_cli_exact": true,
+        "archive_sha256": "d6d62892df2dae3104c210f6359706feb7daf56cec35a251293d684a672e5306"
+      },
+      {
+        "mode": 1,
+        "original": 91072,
+        "baseline": 91050,
+        "candidate": 90020,
+        "scans": 11,
+        "progressive_scans": 11,
+        "archive": "/tmp/ivo-v21-jpeg-results/image-rs_progressive3.jpg/scan-m1.ivo",
+        "fresh_cli_exact": true,
+        "archive_sha256": "7d55e8b2a8ee2df96d90892792b99182bc3066b1bacb568ed4259eb575f7269f"
+      }
+    ],
+    "baseline_fresh_cli_exact": true,
+    "supported": true,
+    "error": null
+  },
+  {
+    "source": {
+      "name": "image-rs_progressive-missing-ac.jpg",
+      "repo": "image-rs/jpeg-decoder",
+      "commit": "eb2d7c0f6a2d0298aba7a7f8b9ca1440353e8f8c",
+      "path": "tests/reftest/images/progressive-missing-ac.jpg",
+      "url": "https://raw.githubusercontent.com/image-rs/jpeg-decoder/eb2d7c0f6a2d0298aba7a7f8b9ca1440353e8f8c/tests/reftest/images/progressive-missing-ac.jpg",
+      "cohort": "jpeg",
+      "bytes": 139,
+      "sha256": "ab24ace780b7efb1e74b58d4a87bcd9d4753a5b71a4b4552043fb83ba8e24cda",
+      "downloaded": true,
+      "seen_in_previous_reports": false,
+      "shape": [
+        8,
+        8
+      ],
+      "color": "L",
+      "progressive": true,
+      "class": "conformance"
+    },
+    "variants": [
+      {
+        "mode": 0,
+        "original": 139,
+        "baseline": 202,
+        "candidate": 345,
+        "scans": 1,
+        "progressive_scans": 1,
+        "archive": "/tmp/ivo-v21-jpeg-results/image-rs_progressive-missing-ac.jpg/scan-m0.ivo",
+        "fresh_cli_exact": true,
+        "archive_sha256": "5387c6555e6ff3518de5c26023d05c07eee824e364d7de2147bf7e21fdc1ae86"
+      },
+      {
+        "mode": 1,
+        "original": 139,
+        "baseline": 202,
+        "candidate": 345,
+        "scans": 1,
+        "progressive_scans": 1,
+        "archive": "/tmp/ivo-v21-jpeg-results/image-rs_progressive-missing-ac.jpg/scan-m1.ivo",
+        "fresh_cli_exact": true,
+        "archive_sha256": "0d19535b6dde81b647018cf1f9cd81886a6b396e1ed9bd1aaf6af8f013643899"
+      }
+    ],
+    "baseline_fresh_cli_exact": true,
+    "supported": true,
+    "error": null
+  },
+  {
+    "source": {
+      "name": "image-rs_progressive-missing-dc.jpg",
+      "repo": "image-rs/jpeg-decoder",
+      "commit": "eb2d7c0f6a2d0298aba7a7f8b9ca1440353e8f8c",
+      "path": "tests/reftest/images/progressive-missing-dc.jpg",
+      "url": "https://raw.githubusercontent.com/image-rs/jpeg-decoder/eb2d7c0f6a2d0298aba7a7f8b9ca1440353e8f8c/tests/reftest/images/progressive-missing-dc.jpg",
+      "cohort": "jpeg",
+      "bytes": 139,
+      "sha256": "102f457601e15b5d44c6afad9d8a79e32338081012deb5878e46a65b859c3a9e",
+      "downloaded": true,
+      "seen_in_previous_reports": false,
+      "shape": [
+        8,
+        8
+      ],
+      "color": "L",
+      "progressive": true,
+      "class": "conformance"
+    },
+    "variants": [
+      {
+        "mode": 0,
+        "original": 139,
+        "baseline": 202,
+        "candidate": 346,
+        "scans": 1,
+        "progressive_scans": 1,
+        "archive": "/tmp/ivo-v21-jpeg-results/image-rs_progressive-missing-dc.jpg/scan-m0.ivo",
+        "fresh_cli_exact": true,
+        "archive_sha256": "ee30d701e03b8d4b97b5dae2d008fe88203d99aabfd7608ebcd3215265add7a7"
+      },
+      {
+        "mode": 1,
+        "original": 139,
+        "baseline": 202,
+        "candidate": 346,
+        "scans": 1,
+        "progressive_scans": 1,
+        "archive": "/tmp/ivo-v21-jpeg-results/image-rs_progressive-missing-dc.jpg/scan-m1.ivo",
+        "fresh_cli_exact": true,
+        "archive_sha256": "1aae80abd0465ad0d4bb73770294dfbdbb71dc63d529a78d50e47193667089c5"
+      }
+    ],
+    "baseline_fresh_cli_exact": true,
+    "supported": true,
+    "error": null
+  },
+  {
+    "source": {
+      "name": "is-progressive_kitten-progressive.jpg",
+      "repo": "sindresorhus/is-progressive",
+      "commit": "0a745d218974951b73b8a6c86492a92422b14bc8",
+      "path": "fixture/kitten-progressive.jpg",
+      "url": "https://raw.githubusercontent.com/sindresorhus/is-progressive/0a745d218974951b73b8a6c86492a92422b14bc8/fixture/kitten-progressive.jpg",
+      "cohort": "jpeg",
+      "bytes": 83845,
+      "sha256": "d9955d4b9bfd4804b911ef38c5c3d80b665377b42041ba4400fc3fb1486869b8",
+      "downloaded": true,
+      "seen_in_previous_reports": false,
+      "shape": [
+        1024,
+        683
+      ],
+      "color": "RGB",
+      "progressive": true,
+      "class": "image"
+    },
+    "variants": [
+      {
+        "mode": 0,
+        "original": 83845,
+        "baseline": 83831,
+        "candidate": 81892,
+        "scans": 10,
+        "progressive_scans": 10,
+        "archive": "/tmp/ivo-v21-jpeg-results/is-progressive_kitten-progressive.jpg/scan-m0.ivo",
+        "fresh_cli_exact": true,
+        "archive_sha256": "cd7a9118b44b7dde1ab839db18fa0e04b09ed84deb009b1a76943402a9015b8d"
+      },
+      {
+        "mode": 1,
+        "original": 83845,
+        "baseline": 83831,
+        "candidate": 81702,
+        "scans": 10,
+        "progressive_scans": 10,
+        "archive": "/tmp/ivo-v21-jpeg-results/is-progressive_kitten-progressive.jpg/scan-m1.ivo",
+        "fresh_cli_exact": true,
+        "archive_sha256": "31fab431e8e14eac141e2c47cdcba8817f61cdd3c1a1dc132ca281252ef654da"
+      }
+    ],
+    "baseline_fresh_cli_exact": true,
+    "supported": true,
+    "error": null
+  },
+  {
+    "source": {
+      "name": "is-progressive_progressive.jpg",
+      "repo": "sindresorhus/is-progressive",
+      "commit": "0a745d218974951b73b8a6c86492a92422b14bc8",
+      "path": "fixture/progressive.jpg",
+      "url": "https://raw.githubusercontent.com/sindresorhus/is-progressive/0a745d218974951b73b8a6c86492a92422b14bc8/fixture/progressive.jpg",
+      "cohort": "jpeg",
+      "bytes": 24654,
+      "sha256": "a63c8ee4bf67a122f9898231412d5dae09b36a76004e13159ad4414ccce03be4",
+      "downloaded": true,
+      "seen_in_previous_reports": false,
+      "shape": [
+        200,
+        133
+      ],
+      "color": "RGB",
+      "progressive": true,
+      "class": "image"
+    },
+    "variants": [
+      {
+        "mode": 0,
+        "original": 24654,
+        "baseline": 24416,
+        "candidate": 24501,
+        "scans": 14,
+        "progressive_scans": 14,
+        "archive": "/tmp/ivo-v21-jpeg-results/is-progressive_progressive.jpg/scan-m0.ivo",
+        "fresh_cli_exact": true,
+        "archive_sha256": "ec4735bb94d33ae780947117c71ab87c991aec4ded6d4f686b23df8f56422b14"
+      },
+      {
+        "mode": 1,
+        "original": 24654,
+        "baseline": 24416,
+        "candidate": 24327,
+        "scans": 14,
+        "progressive_scans": 14,
+        "archive": "/tmp/ivo-v21-jpeg-results/is-progressive_progressive.jpg/scan-m1.ivo",
+        "fresh_cli_exact": true,
+        "archive_sha256": "635b23016ef3486f3e18c94e7862da8e668a5264e7f58284f2ce290bff595fe4"
+      }
+    ],
+    "baseline_fresh_cli_exact": true,
+    "supported": true,
+    "error": null
+  },
+  {
+    "source": {
+      "name": "libjxl_new_flower_small.q85_420_partially_interleaved.jpg",
+      "cohort": "jpeg",
+      "class": "correlated-multiscan",
+      "repo": "libjxl/testdata",
+      "commit": "73695d303670c90e4d506ea89d9901b081385089",
+      "path": "jxl/flower/flower_small.q85_420_partially_interleaved.jpg",
+      "url": "https://raw.githubusercontent.com/libjxl/testdata/73695d303670c90e4d506ea89d9901b081385089/jxl/flower/flower_small.q85_420_partially_interleaved.jpg",
+      "downloaded": true,
+      "bytes": 50018,
+      "sha256": "d9e29efba48dcc3171b6bc30eabb5ce9a54439fbe6087543e90da6c115469c32"
+    },
+    "variants": [
+      {
+        "mode": 0,
+        "original": 50018,
+        "baseline": 50120,
+        "candidate": 47043,
+        "scans": 2,
+        "progressive_scans": 0,
+        "archive": "/tmp/ivo-v21-jpeg-results/libjxl_new_flower_small.q85_420_partially_interleaved.jpg/scan-m0.ivo",
+        "fresh_cli_exact": true,
+        "archive_sha256": "bcaeb6896b9f8a5241291eff19df899f963b25c83a1eebd80b2a26e31daaae69"
+      },
+      {
+        "mode": 1,
+        "original": 50018,
+        "baseline": 50120,
+        "candidate": 47022,
+        "scans": 2,
+        "progressive_scans": 0,
+        "archive": "/tmp/ivo-v21-jpeg-results/libjxl_new_flower_small.q85_420_partially_interleaved.jpg/scan-m1.ivo",
+        "fresh_cli_exact": true,
+        "archive_sha256": "87ecd0a56f0e01b8b6e471ead22918352f6d118db66e26af460f0b80b929919c"
+      }
+    ],
+    "baseline_fresh_cli_exact": true,
+    "supported": true,
+    "error": null
+  },
+  {
+    "source": {
+      "name": "libjxl_new_flower_small.q85_444_non_interleaved.jpg",
+      "cohort": "jpeg",
+      "class": "correlated-multiscan",
+      "repo": "libjxl/testdata",
+      "commit": "73695d303670c90e4d506ea89d9901b081385089",
+      "path": "jxl/flower/flower_small.q85_444_non_interleaved.jpg",
+      "url": "https://raw.githubusercontent.com/libjxl/testdata/73695d303670c90e4d506ea89d9901b081385089/jxl/flower/flower_small.q85_444_non_interleaved.jpg",
+      "downloaded": true,
+      "bytes": 64780,
+      "sha256": "bf8466234b80d37469627db92abfa00ffb04fa608fd4de4775311fb3c9572866"
+    },
+    "variants": [
+      {
+        "mode": 0,
+        "original": 64780,
+        "baseline": 64869,
+        "candidate": 61346,
+        "scans": 3,
+        "progressive_scans": 0,
+        "archive": "/tmp/ivo-v21-jpeg-results/libjxl_new_flower_small.q85_444_non_interleaved.jpg/scan-m0.ivo",
+        "fresh_cli_exact": true,
+        "archive_sha256": "36f83067839dc94d20d985dbfaed28ed9a8585691ef33479b2782114c29b6564"
+      },
+      {
+        "mode": 1,
+        "original": 64780,
+        "baseline": 64869,
+        "candidate": 61520,
+        "scans": 3,
+        "progressive_scans": 0,
+        "archive": "/tmp/ivo-v21-jpeg-results/libjxl_new_flower_small.q85_444_non_interleaved.jpg/scan-m1.ivo",
+        "fresh_cli_exact": true,
+        "archive_sha256": "5622bf625caa1ca1783b7478f35ed5e41574b34fcc83e5f457ecba5862cdff19"
+      }
+    ],
+    "baseline_fresh_cli_exact": true,
+    "supported": true,
+    "error": null
+  },
+  {
+    "source": {
+      "name": "libjxl_new_flower_small.q85_444_partially_interleaved.jpg",
+      "cohort": "jpeg",
+      "class": "correlated-multiscan",
+      "repo": "libjxl/testdata",
+      "commit": "73695d303670c90e4d506ea89d9901b081385089",
+      "path": "jxl/flower/flower_small.q85_444_partially_interleaved.jpg",
+      "url": "https://raw.githubusercontent.com/libjxl/testdata/73695d303670c90e4d506ea89d9901b081385089/jxl/flower/flower_small.q85_444_partially_interleaved.jpg",
+      "downloaded": true,
+      "bytes": 64775,
+      "sha256": "f098366b67a72f780abc9ca6112d2083c83ed05a1527105db6da18ac891d1512"
+    },
+    "variants": [
+      {
+        "mode": 0,
+        "original": 64775,
+        "baseline": 64875,
+        "candidate": 61360,
+        "scans": 2,
+        "progressive_scans": 0,
+        "archive": "/tmp/ivo-v21-jpeg-results/libjxl_new_flower_small.q85_444_partially_interleaved.jpg/scan-m0.ivo",
+        "fresh_cli_exact": true,
+        "archive_sha256": "02a520ad01643d6ffd12aec9ebe3ba246b0dc0231c08f6c12312fdd5f4efa45c"
+      },
+      {
+        "mode": 1,
+        "original": 64775,
+        "baseline": 64875,
+        "candidate": 61558,
+        "scans": 2,
+        "progressive_scans": 0,
+        "archive": "/tmp/ivo-v21-jpeg-results/libjxl_new_flower_small.q85_444_partially_interleaved.jpg/scan-m1.ivo",
+        "fresh_cli_exact": true,
+        "archive_sha256": "cd022c17e4b86d2fee40e34232894f4e380d3209f317da6a0fd7cf1887992255"
+      }
+    ],
+    "baseline_fresh_cli_exact": true,
+    "supported": true,
+    "error": null
+  }
+]

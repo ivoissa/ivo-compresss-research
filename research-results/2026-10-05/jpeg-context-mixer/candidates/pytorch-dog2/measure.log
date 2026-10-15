@@ -1,0 +1,5 @@
+REFERENCE original=90796 ivo=90857 engine=STORE sha256=91c383f13fe7baf1c5306def5f50cc5bb0241e64065c081ad57671d33c503891
+Exception in thread "main" java.lang.IllegalArgumentException: Progressive JPEG excluded from V0/V1
+	at io.ivo.jpeg.QualityContextCodec.decode(QualityContextCodec.java:1753)
+	at io.ivo.jpeg.QualityContextCodec.encodeNeighbourTrial(QualityContextCodec.java:39)
+	at io.ivo.jpeg.JpegMixerMeasure.main(JpegMixerMeasure.java:21)

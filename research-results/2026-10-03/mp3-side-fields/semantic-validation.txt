@@ -1,0 +1,1 @@
+PASS residual bijection pairs=22369620; mixed geometry frames=48; exact profiles=4; malformed profiles rejected=8

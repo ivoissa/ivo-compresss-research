@@ -1,0 +1,898 @@
+{
+  "version": 28,
+  "primary_files": 16,
+  "diagnostic_fixtures": 1,
+  "warmups_per_mode": 1,
+  "measured_repetitions_per_mode": 3,
+  "primary_identical_archives": 16,
+  "diagnostic_fast_size_penalty_bytes": 28,
+  "fresh_process_exact_archives": 34,
+  "groups": {
+    "JPEG-baseline": {
+      "files": 6,
+      "original_bytes": 1358504,
+      "modes": {
+        "enhanced": {
+          "ivo_bytes": 1127853,
+          "compression_median_ms": 71840.580676,
+          "decompression_median_ms": 2720.2793699999997,
+          "compression_heap_pool_peak_sum_max_bytes": 1684957624,
+          "decompression_heap_pool_peak_sum_max_bytes": 128972152
+        },
+        "fast": {
+          "ivo_bytes": 1127853,
+          "compression_median_ms": 50965.774883000006,
+          "decompression_median_ms": 2705.67438,
+          "compression_heap_pool_peak_sum_max_bytes": 1482894752,
+          "decompression_heap_pool_peak_sum_max_bytes": 115246800
+        }
+      },
+      "compression_speedup_ratio_of_summed_medians": 1.4095847819624328
+    },
+    "JPEG-progressive": {
+      "files": 6,
+      "original_bytes": 432263,
+      "modes": {
+        "enhanced": {
+          "ivo_bytes": 391038,
+          "compression_median_ms": 35598.294659,
+          "decompression_median_ms": 1463.440956,
+          "compression_heap_pool_peak_sum_max_bytes": 456586992,
+          "decompression_heap_pool_peak_sum_max_bytes": 31533272
+        },
+        "fast": {
+          "ivo_bytes": 391038,
+          "compression_median_ms": 14232.563504,
+          "decompression_median_ms": 1470.651672,
+          "compression_heap_pool_peak_sum_max_bytes": 475788008,
+          "decompression_heap_pool_peak_sum_max_bytes": 31533272
+        }
+      },
+      "compression_speedup_ratio_of_summed_medians": 2.5011864270969353
+    },
+    "MP3": {
+      "files": 1,
+      "original_bytes": 357362,
+      "modes": {
+        "enhanced": {
+          "ivo_bytes": 320146,
+          "compression_median_ms": 15342.022159,
+          "decompression_median_ms": 997.426251,
+          "compression_heap_pool_peak_sum_max_bytes": 797334488,
+          "decompression_heap_pool_peak_sum_max_bytes": 350343472
+        },
+        "fast": {
+          "ivo_bytes": 320146,
+          "compression_median_ms": 2235.671901,
+          "decompression_median_ms": 1019.698131,
+          "compression_heap_pool_peak_sum_max_bytes": 394153848,
+          "decompression_heap_pool_peak_sum_max_bytes": 350543056
+        }
+      },
+      "compression_speedup_ratio_of_summed_medians": 6.862376430162951
+    },
+    "JSON-synthetic": {
+      "files": 1,
+      "original_bytes": 96019,
+      "modes": {
+        "enhanced": {
+          "ivo_bytes": 6088,
+          "compression_median_ms": 70.174704,
+          "decompression_median_ms": 6.350434,
+          "compression_heap_pool_peak_sum_max_bytes": 42584424,
+          "decompression_heap_pool_peak_sum_max_bytes": 6229120
+        },
+        "fast": {
+          "ivo_bytes": 6088,
+          "compression_median_ms": 73.587044,
+          "decompression_median_ms": 5.126077,
+          "compression_heap_pool_peak_sum_max_bytes": 42465096,
+          "decompression_heap_pool_peak_sum_max_bytes": 6229120
+        }
+      },
+      "compression_speedup_ratio_of_summed_medians": 0.953628521890348
+    },
+    "JSON-report": {
+      "files": 1,
+      "original_bytes": 862,
+      "modes": {
+        "enhanced": {
+          "ivo_bytes": 554,
+          "compression_median_ms": 6.429304,
+          "decompression_median_ms": 0.997856,
+          "compression_heap_pool_peak_sum_max_bytes": 4005696,
+          "decompression_heap_pool_peak_sum_max_bytes": 1910048
+        },
+        "fast": {
+          "ivo_bytes": 554,
+          "compression_median_ms": 6.342042,
+          "decompression_median_ms": 0.757132,
+          "compression_heap_pool_peak_sum_max_bytes": 4005696,
+          "decompression_heap_pool_peak_sum_max_bytes": 1910048
+        }
+      },
+      "compression_speedup_ratio_of_summed_medians": 1.0137592907773239
+    },
+    "MP4": {
+      "files": 1,
+      "original_bytes": 5427643,
+      "modes": {
+        "enhanced": {
+          "ivo_bytes": 4777717,
+          "compression_median_ms": 117112.051055,
+          "decompression_median_ms": 20991.530362,
+          "compression_heap_pool_peak_sum_max_bytes": 1092014080,
+          "decompression_heap_pool_peak_sum_max_bytes": 341020592
+        },
+        "fast": {
+          "ivo_bytes": 4777717,
+          "compression_median_ms": 45952.658144,
+          "decompression_median_ms": 21014.02321,
+          "compression_heap_pool_peak_sum_max_bytes": 404100792,
+          "decompression_heap_pool_peak_sum_max_bytes": 340507488
+        }
+      },
+      "compression_speedup_ratio_of_summed_medians": 2.548537033222554
+    },
+    "JPEG-fixture": {
+      "files": 1,
+      "original_bytes": 3075,
+      "modes": {
+        "enhanced": {
+          "ivo_bytes": 2968,
+          "compression_median_ms": 283.68,
+          "decompression_median_ms": 7.806779,
+          "compression_heap_pool_peak_sum_max_bytes": 153587816,
+          "decompression_heap_pool_peak_sum_max_bytes": 31438912
+        },
+        "fast": {
+          "ivo_bytes": 2996,
+          "compression_median_ms": 191.720868,
+          "decompression_median_ms": 7.743063,
+          "compression_heap_pool_peak_sum_max_bytes": 123444856,
+          "decompression_heap_pool_peak_sum_max_bytes": 14661760
+        }
+      },
+      "compression_speedup_ratio_of_summed_medians": 1.4796511353161619
+    }
+  },
+  "files": [
+    {
+      "label": "user-25060",
+      "format": "JPEG-baseline",
+      "original_bytes": 204196,
+      "modes": {
+        "enhanced": {
+          "original_bytes": 204196,
+          "ivo_bytes": 166708,
+          "engine": "JPEG_NEIGHBOUR_RESEARCH",
+          "compression_median_ms": 9879.068345,
+          "compression_min_ms": 9871.598481,
+          "compression_max_ms": 10145.393098,
+          "decompression_median_ms": 390.156676,
+          "decompression_min_ms": 389.348818,
+          "decompression_max_ms": 405.825003,
+          "compression_mib_per_second": 0.019712,
+          "decompression_mib_per_second": 0.499124,
+          "compression_heap_pool_peak_sum_max_bytes": 841888344,
+          "decompression_heap_pool_peak_sum_max_bytes": 82487368,
+          "speedup_vs_enhanced": 1.0,
+          "size_delta_vs_enhanced_bytes": 0,
+          "same_archive": true
+        },
+        "fast": {
+          "original_bytes": 204196,
+          "ivo_bytes": 166708,
+          "engine": "JPEG_NEIGHBOUR_RESEARCH",
+          "compression_median_ms": 7014.977109,
+          "compression_min_ms": 6948.661751,
+          "compression_max_ms": 7131.803047,
+          "decompression_median_ms": 386.366178,
+          "decompression_min_ms": 379.925216,
+          "decompression_max_ms": 398.377065,
+          "compression_mib_per_second": 0.02776,
+          "decompression_mib_per_second": 0.504021,
+          "compression_heap_pool_peak_sum_max_bytes": 788499832,
+          "decompression_heap_pool_peak_sum_max_bytes": 85545496,
+          "speedup_vs_enhanced": 1.408282,
+          "size_delta_vs_enhanced_bytes": 0,
+          "same_archive": true
+        }
+      }
+    },
+    {
+      "label": "user-25066",
+      "format": "JPEG-baseline",
+      "original_bytes": 119935,
+      "modes": {
+        "enhanced": {
+          "original_bytes": 119935,
+          "ivo_bytes": 92560,
+          "engine": "JPEG_NEIGHBOUR_RESEARCH",
+          "compression_median_ms": 6116.997013,
+          "compression_min_ms": 6089.532706,
+          "compression_max_ms": 6623.334678,
+          "decompression_median_ms": 246.818141,
+          "decompression_min_ms": 241.858135,
+          "decompression_max_ms": 248.409711,
+          "compression_mib_per_second": 0.018699,
+          "decompression_mib_per_second": 0.463414,
+          "compression_heap_pool_peak_sum_max_bytes": 887045968,
+          "decompression_heap_pool_peak_sum_max_bytes": 84107080,
+          "speedup_vs_enhanced": 1.0,
+          "size_delta_vs_enhanced_bytes": 0,
+          "same_archive": true
+        },
+        "fast": {
+          "original_bytes": 119935,
+          "ivo_bytes": 92560,
+          "engine": "JPEG_NEIGHBOUR_RESEARCH",
+          "compression_median_ms": 4560.851222,
+          "compression_min_ms": 4447.453247,
+          "compression_max_ms": 4614.483942,
+          "decompression_median_ms": 265.508568,
+          "decompression_min_ms": 252.858234,
+          "decompression_max_ms": 267.81876,
+          "compression_mib_per_second": 0.025078,
+          "decompression_mib_per_second": 0.430792,
+          "compression_heap_pool_peak_sum_max_bytes": 909146160,
+          "decompression_heap_pool_peak_sum_max_bytes": 88797448,
+          "speedup_vs_enhanced": 1.341196,
+          "size_delta_vs_enhanced_bytes": 0,
+          "same_archive": true
+        }
+      }
+    },
+    {
+      "label": "user-19414",
+      "format": "JPEG-baseline",
+      "original_bytes": 198464,
+      "modes": {
+        "enhanced": {
+          "original_bytes": 198464,
+          "ivo_bytes": 160911,
+          "engine": "JPEG_NEIGHBOUR_RESEARCH",
+          "compression_median_ms": 11140.790722,
+          "compression_min_ms": 10828.03252,
+          "compression_max_ms": 11152.72083,
+          "decompression_median_ms": 392.090673,
+          "decompression_min_ms": 374.997699,
+          "decompression_max_ms": 412.635891,
+          "compression_mib_per_second": 0.016989,
+          "decompression_mib_per_second": 0.48272,
+          "compression_heap_pool_peak_sum_max_bytes": 825586704,
+          "decompression_heap_pool_peak_sum_max_bytes": 104511512,
+          "speedup_vs_enhanced": 1.0,
+          "size_delta_vs_enhanced_bytes": 0,
+          "same_archive": true
+        },
+        "fast": {
+          "original_bytes": 198464,
+          "ivo_bytes": 160911,
+          "engine": "JPEG_NEIGHBOUR_RESEARCH",
+          "compression_median_ms": 7883.49497,
+          "compression_min_ms": 7780.79736,
+          "compression_max_ms": 8038.286895,
+          "decompression_median_ms": 386.635119,
+          "decompression_min_ms": 378.531357,
+          "decompression_max_ms": 412.183008,
+          "compression_mib_per_second": 0.024008,
+          "decompression_mib_per_second": 0.489531,
+          "compression_heap_pool_peak_sum_max_bytes": 758226384,
+          "decompression_heap_pool_peak_sum_max_bytes": 115246800,
+          "speedup_vs_enhanced": 1.413179,
+          "size_delta_vs_enhanced_bytes": 0,
+          "same_archive": true
+        }
+      }
+    },
+    {
+      "label": "user-22626",
+      "format": "JPEG-baseline",
+      "original_bytes": 579569,
+      "modes": {
+        "enhanced": {
+          "original_bytes": 579569,
+          "ivo_bytes": 497727,
+          "engine": "JPEG_NEIGHBOUR_RESEARCH",
+          "compression_median_ms": 31761.620831,
+          "compression_min_ms": 31049.918058,
+          "compression_max_ms": 32472.893456,
+          "decompression_median_ms": 1150.036189,
+          "decompression_min_ms": 1148.804027,
+          "decompression_max_ms": 1196.224782,
+          "compression_mib_per_second": 0.017402,
+          "decompression_mib_per_second": 0.480611,
+          "compression_heap_pool_peak_sum_max_bytes": 1684957624,
+          "decompression_heap_pool_peak_sum_max_bytes": 128972152,
+          "speedup_vs_enhanced": 1.0,
+          "size_delta_vs_enhanced_bytes": 0,
+          "same_archive": true
+        },
+        "fast": {
+          "original_bytes": 579569,
+          "ivo_bytes": 497727,
+          "engine": "JPEG_NEIGHBOUR_RESEARCH",
+          "compression_median_ms": 22295.072036,
+          "compression_min_ms": 21513.043423,
+          "compression_max_ms": 22309.359508,
+          "decompression_median_ms": 1138.398871,
+          "decompression_min_ms": 1134.131862,
+          "decompression_max_ms": 1150.320244,
+          "compression_mib_per_second": 0.024791,
+          "decompression_mib_per_second": 0.485524,
+          "compression_heap_pool_peak_sum_max_bytes": 1482894752,
+          "decompression_heap_pool_peak_sum_max_bytes": 109453064,
+          "speedup_vs_enhanced": 1.424603,
+          "size_delta_vs_enhanced_bytes": 0,
+          "same_archive": true
+        }
+      }
+    },
+    {
+      "label": "user-24792",
+      "format": "JPEG-baseline",
+      "original_bytes": 138706,
+      "modes": {
+        "enhanced": {
+          "original_bytes": 138706,
+          "ivo_bytes": 114476,
+          "engine": "JPEG_NEIGHBOUR_RESEARCH",
+          "compression_median_ms": 7015.066748,
+          "compression_min_ms": 6855.987422,
+          "compression_max_ms": 7021.982032,
+          "decompression_median_ms": 291.595063,
+          "decompression_min_ms": 291.563743,
+          "decompression_max_ms": 298.976125,
+          "compression_mib_per_second": 0.018857,
+          "decompression_mib_per_second": 0.453644,
+          "compression_heap_pool_peak_sum_max_bytes": 860559480,
+          "decompression_heap_pool_peak_sum_max_bytes": 86842752,
+          "speedup_vs_enhanced": 1.0,
+          "size_delta_vs_enhanced_bytes": 0,
+          "same_archive": true
+        },
+        "fast": {
+          "original_bytes": 138706,
+          "ivo_bytes": 114476,
+          "engine": "JPEG_NEIGHBOUR_RESEARCH",
+          "compression_median_ms": 5084.497364,
+          "compression_min_ms": 4947.395108,
+          "compression_max_ms": 5230.514068,
+          "decompression_median_ms": 296.467637,
+          "decompression_min_ms": 292.228042,
+          "decompression_max_ms": 344.177903,
+          "compression_mib_per_second": 0.026016,
+          "decompression_mib_per_second": 0.446188,
+          "compression_heap_pool_peak_sum_max_bytes": 855673320,
+          "decompression_heap_pool_peak_sum_max_bytes": 88939360,
+          "speedup_vs_enhanced": 1.379697,
+          "size_delta_vs_enhanced_bytes": 0,
+          "same_archive": true
+        }
+      }
+    },
+    {
+      "label": "holdout-24790",
+      "format": "JPEG-baseline",
+      "original_bytes": 117634,
+      "modes": {
+        "enhanced": {
+          "original_bytes": 117634,
+          "ivo_bytes": 95471,
+          "engine": "JPEG_NEIGHBOUR_RESEARCH",
+          "compression_median_ms": 5927.037017,
+          "compression_min_ms": 5896.359943,
+          "compression_max_ms": 5969.174321,
+          "decompression_median_ms": 249.582628,
+          "decompression_min_ms": 237.409696,
+          "decompression_max_ms": 253.448319,
+          "compression_mib_per_second": 0.018928,
+          "decompression_mib_per_second": 0.449489,
+          "compression_heap_pool_peak_sum_max_bytes": 655858168,
+          "decompression_heap_pool_peak_sum_max_bytes": 80683792,
+          "speedup_vs_enhanced": 1.0,
+          "size_delta_vs_enhanced_bytes": 0,
+          "same_archive": true
+        },
+        "fast": {
+          "original_bytes": 117634,
+          "ivo_bytes": 95471,
+          "engine": "JPEG_NEIGHBOUR_RESEARCH",
+          "compression_median_ms": 4126.882182,
+          "compression_min_ms": 4093.755285,
+          "compression_max_ms": 4269.635845,
+          "decompression_median_ms": 232.298007,
+          "decompression_min_ms": 229.645126,
+          "decompression_max_ms": 267.758856,
+          "compression_mib_per_second": 0.027184,
+          "decompression_mib_per_second": 0.482934,
+          "compression_heap_pool_peak_sum_max_bytes": 721374424,
+          "decompression_heap_pool_peak_sum_max_bytes": 80970896,
+          "speedup_vs_enhanced": 1.436202,
+          "size_delta_vs_enhanced_bytes": 0,
+          "same_archive": true
+        }
+      }
+    },
+    {
+      "label": "is-progressive_kitten-progressive",
+      "format": "JPEG-progressive",
+      "original_bytes": 83845,
+      "modes": {
+        "enhanced": {
+          "original_bytes": 83845,
+          "ivo_bytes": 76496,
+          "engine": "JPEG_SCAN_RESEARCH",
+          "compression_median_ms": 7539.829487,
+          "compression_min_ms": 7369.953356,
+          "compression_max_ms": 7580.717018,
+          "decompression_median_ms": 312.815115,
+          "decompression_min_ms": 309.791209,
+          "decompression_max_ms": 325.676209,
+          "compression_mib_per_second": 0.010605,
+          "decompression_mib_per_second": 0.255617,
+          "compression_heap_pool_peak_sum_max_bytes": 456586992,
+          "decompression_heap_pool_peak_sum_max_bytes": 29395328,
+          "speedup_vs_enhanced": 1.0,
+          "size_delta_vs_enhanced_bytes": 0,
+          "same_archive": true
+        },
+        "fast": {
+          "original_bytes": 83845,
+          "ivo_bytes": 76496,
+          "engine": "JPEG_SCAN_RESEARCH",
+          "compression_median_ms": 2893.605289,
+          "compression_min_ms": 2817.059197,
+          "compression_max_ms": 2928.328479,
+          "decompression_median_ms": 324.686884,
+          "decompression_min_ms": 313.615975,
+          "decompression_max_ms": 337.014929,
+          "compression_mib_per_second": 0.027634,
+          "decompression_mib_per_second": 0.246271,
+          "compression_heap_pool_peak_sum_max_bytes": 320890592,
+          "decompression_heap_pool_peak_sum_max_bytes": 29395328,
+          "speedup_vs_enhanced": 2.605687,
+          "size_delta_vs_enhanced_bytes": 0,
+          "same_archive": true
+        }
+      }
+    },
+    {
+      "label": "image-rs_tower_progressive",
+      "format": "JPEG-progressive",
+      "original_bytes": 68149,
+      "modes": {
+        "enhanced": {
+          "original_bytes": 68149,
+          "ivo_bytes": 59542,
+          "engine": "JPEG_SCAN_RESEARCH",
+          "compression_median_ms": 5309.580419,
+          "compression_min_ms": 5239.304216,
+          "compression_max_ms": 5534.526397,
+          "decompression_median_ms": 227.736637,
+          "decompression_min_ms": 217.694047,
+          "decompression_max_ms": 229.951427,
+          "compression_mib_per_second": 0.012241,
+          "decompression_mib_per_second": 0.285382,
+          "compression_heap_pool_peak_sum_max_bytes": 355816800,
+          "decompression_heap_pool_peak_sum_max_bytes": 30371248,
+          "speedup_vs_enhanced": 1.0,
+          "size_delta_vs_enhanced_bytes": 0,
+          "same_archive": true
+        },
+        "fast": {
+          "original_bytes": 68149,
+          "ivo_bytes": 59542,
+          "engine": "JPEG_SCAN_RESEARCH",
+          "compression_median_ms": 2206.018585,
+          "compression_min_ms": 2137.301394,
+          "compression_max_ms": 2274.788969,
+          "decompression_median_ms": 225.798746,
+          "decompression_min_ms": 223.738762,
+          "decompression_max_ms": 236.882956,
+          "compression_mib_per_second": 0.029461,
+          "decompression_mib_per_second": 0.287831,
+          "compression_heap_pool_peak_sum_max_bytes": 410754464,
+          "decompression_heap_pool_peak_sum_max_bytes": 30371248,
+          "speedup_vs_enhanced": 2.406861,
+          "size_delta_vs_enhanced_bytes": 0,
+          "same_archive": true
+        }
+      }
+    },
+    {
+      "label": "image-rs_progressive3",
+      "format": "JPEG-progressive",
+      "original_bytes": 91072,
+      "modes": {
+        "enhanced": {
+          "original_bytes": 91072,
+          "ivo_bytes": 84911,
+          "engine": "JPEG_SCAN_RESEARCH",
+          "compression_median_ms": 7551.530072,
+          "compression_min_ms": 7551.135504,
+          "compression_max_ms": 7789.620408,
+          "decompression_median_ms": 329.54278,
+          "decompression_min_ms": 316.945199,
+          "decompression_max_ms": 360.93404,
+          "compression_mib_per_second": 0.011501,
+          "decompression_mib_per_second": 0.263556,
+          "compression_heap_pool_peak_sum_max_bytes": 366405816,
+          "decompression_heap_pool_peak_sum_max_bytes": 31533272,
+          "speedup_vs_enhanced": 1.0,
+          "size_delta_vs_enhanced_bytes": 0,
+          "same_archive": true
+        },
+        "fast": {
+          "original_bytes": 91072,
+          "ivo_bytes": 84911,
+          "engine": "JPEG_SCAN_RESEARCH",
+          "compression_median_ms": 3208.797116,
+          "compression_min_ms": 2954.26897,
+          "compression_max_ms": 3250.838645,
+          "decompression_median_ms": 347.213933,
+          "decompression_min_ms": 319.332276,
+          "decompression_max_ms": 392.972967,
+          "compression_mib_per_second": 0.027067,
+          "decompression_mib_per_second": 0.250143,
+          "compression_heap_pool_peak_sum_max_bytes": 332712928,
+          "decompression_heap_pool_peak_sum_max_bytes": 31533272,
+          "speedup_vs_enhanced": 2.353383,
+          "size_delta_vs_enhanced_bytes": 0,
+          "same_archive": true
+        }
+      }
+    },
+    {
+      "label": "image-rs_jpg-progressive",
+      "format": "JPEG-progressive",
+      "original_bytes": 979,
+      "modes": {
+        "enhanced": {
+          "original_bytes": 979,
+          "ivo_bytes": 884,
+          "engine": "JPEG_IR",
+          "compression_median_ms": 90.960037,
+          "compression_min_ms": 78.809518,
+          "compression_max_ms": 94.832788,
+          "decompression_median_ms": 0.500105,
+          "decompression_min_ms": 0.480896,
+          "decompression_max_ms": 2.581216,
+          "compression_mib_per_second": 0.010264,
+          "decompression_mib_per_second": 1.866902,
+          "compression_heap_pool_peak_sum_max_bytes": 142168448,
+          "decompression_heap_pool_peak_sum_max_bytes": 2008416,
+          "speedup_vs_enhanced": 1.0,
+          "size_delta_vs_enhanced_bytes": 0,
+          "same_archive": true
+        },
+        "fast": {
+          "original_bytes": 979,
+          "ivo_bytes": 884,
+          "engine": "JPEG_IR",
+          "compression_median_ms": 39.151757,
+          "compression_min_ms": 35.46347,
+          "compression_max_ms": 41.036021,
+          "decompression_median_ms": 0.386143,
+          "decompression_min_ms": 0.385532,
+          "decompression_max_ms": 0.873989,
+          "compression_mib_per_second": 0.023847,
+          "decompression_mib_per_second": 2.417879,
+          "compression_heap_pool_peak_sum_max_bytes": 79599800,
+          "decompression_heap_pool_peak_sum_max_bytes": 2008416,
+          "speedup_vs_enhanced": 2.323268,
+          "size_delta_vs_enhanced_bytes": 0,
+          "same_archive": true
+        }
+      }
+    },
+    {
+      "label": "pytorch_dog1",
+      "format": "JPEG-progressive",
+      "original_bytes": 97422,
+      "modes": {
+        "enhanced": {
+          "original_bytes": 97422,
+          "ivo_bytes": 87444,
+          "engine": "JPEG_SCAN_RESEARCH",
+          "compression_median_ms": 7869.845166,
+          "compression_min_ms": 7568.187307,
+          "compression_max_ms": 7997.983206,
+          "decompression_median_ms": 307.332429,
+          "decompression_min_ms": 293.964773,
+          "decompression_max_ms": 358.475662,
+          "compression_mib_per_second": 0.011806,
+          "decompression_mib_per_second": 0.302307,
+          "compression_heap_pool_peak_sum_max_bytes": 320248944,
+          "decompression_heap_pool_peak_sum_max_bytes": 27611088,
+          "speedup_vs_enhanced": 1.0,
+          "size_delta_vs_enhanced_bytes": 0,
+          "same_archive": true
+        },
+        "fast": {
+          "original_bytes": 97422,
+          "ivo_bytes": 87444,
+          "engine": "JPEG_SCAN_RESEARCH",
+          "compression_median_ms": 2958.099851,
+          "compression_min_ms": 2952.148117,
+          "compression_max_ms": 3290.277545,
+          "decompression_median_ms": 296.650907,
+          "decompression_min_ms": 289.599052,
+          "decompression_max_ms": 350.435932,
+          "compression_mib_per_second": 0.031408,
+          "decompression_mib_per_second": 0.313193,
+          "compression_heap_pool_peak_sum_max_bytes": 475788008,
+          "decompression_heap_pool_peak_sum_max_bytes": 27500480,
+          "speedup_vs_enhanced": 2.660439,
+          "size_delta_vs_enhanced_bytes": 0,
+          "same_archive": true
+        }
+      }
+    },
+    {
+      "label": "pytorch_dog2",
+      "format": "JPEG-progressive",
+      "original_bytes": 90796,
+      "modes": {
+        "enhanced": {
+          "original_bytes": 90796,
+          "ivo_bytes": 81761,
+          "engine": "JPEG_SCAN_RESEARCH",
+          "compression_median_ms": 7236.549478,
+          "compression_min_ms": 7031.617522,
+          "compression_max_ms": 7560.715354,
+          "decompression_median_ms": 285.51389,
+          "decompression_min_ms": 276.397027,
+          "decompression_max_ms": 294.903536,
+          "compression_mib_per_second": 0.011966,
+          "decompression_mib_per_second": 0.303277,
+          "compression_heap_pool_peak_sum_max_bytes": 354452808,
+          "decompression_heap_pool_peak_sum_max_bytes": 27336944,
+          "speedup_vs_enhanced": 1.0,
+          "size_delta_vs_enhanced_bytes": 0,
+          "same_archive": true
+        },
+        "fast": {
+          "original_bytes": 90796,
+          "ivo_bytes": 81761,
+          "engine": "JPEG_SCAN_RESEARCH",
+          "compression_median_ms": 2926.890906,
+          "compression_min_ms": 2867.222503,
+          "compression_max_ms": 2938.51104,
+          "decompression_median_ms": 275.915059,
+          "decompression_min_ms": 267.084399,
+          "decompression_max_ms": 290.712931,
+          "compression_mib_per_second": 0.029584,
+          "decompression_mib_per_second": 0.313828,
+          "compression_heap_pool_peak_sum_max_bytes": 229469288,
+          "decompression_heap_pool_peak_sum_max_bytes": 28735280,
+          "speedup_vs_enhanced": 2.472436,
+          "size_delta_vs_enhanced_bytes": 0,
+          "same_archive": true
+        }
+      }
+    },
+    {
+      "label": "tao-10s",
+      "format": "MP3",
+      "original_bytes": 357362,
+      "modes": {
+        "enhanced": {
+          "original_bytes": 357362,
+          "ivo_bytes": 320146,
+          "engine": "USER_MP3_RESEARCH",
+          "compression_median_ms": 15342.022159,
+          "compression_min_ms": 14820.097582,
+          "compression_max_ms": 15564.712691,
+          "decompression_median_ms": 997.426251,
+          "decompression_min_ms": 970.448232,
+          "decompression_max_ms": 1134.59468,
+          "compression_mib_per_second": 0.022214,
+          "decompression_mib_per_second": 0.341686,
+          "compression_heap_pool_peak_sum_max_bytes": 797334488,
+          "decompression_heap_pool_peak_sum_max_bytes": 350343472,
+          "speedup_vs_enhanced": 1.0,
+          "size_delta_vs_enhanced_bytes": 0,
+          "same_archive": true
+        },
+        "fast": {
+          "original_bytes": 357362,
+          "ivo_bytes": 320146,
+          "engine": "USER_MP3_RESEARCH",
+          "compression_median_ms": 2235.671901,
+          "compression_min_ms": 2073.164805,
+          "compression_max_ms": 2465.245241,
+          "decompression_median_ms": 1019.698131,
+          "decompression_min_ms": 960.160331,
+          "decompression_max_ms": 1063.194667,
+          "compression_mib_per_second": 0.152441,
+          "decompression_mib_per_second": 0.334223,
+          "compression_heap_pool_peak_sum_max_bytes": 394153848,
+          "decompression_heap_pool_peak_sum_max_bytes": 350543056,
+          "speedup_vs_enhanced": 6.862376,
+          "size_delta_vs_enhanced_bytes": 0,
+          "same_archive": true
+        }
+      }
+    },
+    {
+      "label": "business-synthetic",
+      "format": "JSON-synthetic",
+      "original_bytes": 96019,
+      "modes": {
+        "enhanced": {
+          "original_bytes": 96019,
+          "ivo_bytes": 6088,
+          "engine": "REF_NC",
+          "compression_median_ms": 70.174704,
+          "compression_min_ms": 69.646987,
+          "compression_max_ms": 70.869287,
+          "decompression_median_ms": 6.350434,
+          "decompression_min_ms": 4.58448,
+          "decompression_max_ms": 6.367471,
+          "compression_mib_per_second": 1.304898,
+          "decompression_mib_per_second": 14.419621,
+          "compression_heap_pool_peak_sum_max_bytes": 42584424,
+          "decompression_heap_pool_peak_sum_max_bytes": 6229120,
+          "speedup_vs_enhanced": 1.0,
+          "size_delta_vs_enhanced_bytes": 0,
+          "same_archive": true
+        },
+        "fast": {
+          "original_bytes": 96019,
+          "ivo_bytes": 6088,
+          "engine": "REF_NC",
+          "compression_median_ms": 73.587044,
+          "compression_min_ms": 67.052231,
+          "compression_max_ms": 84.895401,
+          "decompression_median_ms": 5.126077,
+          "decompression_min_ms": 4.41925,
+          "decompression_max_ms": 5.559531,
+          "compression_mib_per_second": 1.244388,
+          "decompression_mib_per_second": 17.86373,
+          "compression_heap_pool_peak_sum_max_bytes": 42465096,
+          "decompression_heap_pool_peak_sum_max_bytes": 6229120,
+          "speedup_vs_enhanced": 0.953629,
+          "size_delta_vs_enhanced_bytes": 0,
+          "same_archive": true
+        }
+      }
+    },
+    {
+      "label": "progressive-report",
+      "format": "JSON-report",
+      "original_bytes": 862,
+      "modes": {
+        "enhanced": {
+          "original_bytes": 862,
+          "ivo_bytes": 554,
+          "engine": "NC_CONTEXT",
+          "compression_median_ms": 6.429304,
+          "compression_min_ms": 4.877422,
+          "compression_max_ms": 7.175464,
+          "decompression_median_ms": 0.997856,
+          "decompression_min_ms": 0.669791,
+          "decompression_max_ms": 2.112628,
+          "compression_mib_per_second": 0.127863,
+          "decompression_mib_per_second": 0.823834,
+          "compression_heap_pool_peak_sum_max_bytes": 4005696,
+          "decompression_heap_pool_peak_sum_max_bytes": 1910048,
+          "speedup_vs_enhanced": 1.0,
+          "size_delta_vs_enhanced_bytes": 0,
+          "same_archive": true
+        },
+        "fast": {
+          "original_bytes": 862,
+          "ivo_bytes": 554,
+          "engine": "NC_CONTEXT",
+          "compression_median_ms": 6.342042,
+          "compression_min_ms": 6.335532,
+          "compression_max_ms": 12.160694,
+          "decompression_median_ms": 0.757132,
+          "decompression_min_ms": 0.618214,
+          "decompression_max_ms": 2.342355,
+          "compression_mib_per_second": 0.129622,
+          "decompression_mib_per_second": 1.085765,
+          "compression_heap_pool_peak_sum_max_bytes": 4005696,
+          "decompression_heap_pool_peak_sum_max_bytes": 1910048,
+          "speedup_vs_enhanced": 1.013759,
+          "size_delta_vs_enhanced_bytes": 0,
+          "same_archive": true
+        }
+      }
+    },
+    {
+      "label": "whatsapp",
+      "format": "MP4",
+      "original_bytes": 5427643,
+      "modes": {
+        "enhanced": {
+          "original_bytes": 5427643,
+          "ivo_bytes": 4777717,
+          "engine": "USER_MP4_CABAC_RESEARCH",
+          "compression_median_ms": 117112.051055,
+          "compression_min_ms": 114490.400278,
+          "compression_max_ms": 119868.976277,
+          "decompression_median_ms": 20991.530362,
+          "decompression_min_ms": 20444.561249,
+          "decompression_max_ms": 21460.919591,
+          "compression_mib_per_second": 0.044199,
+          "decompression_mib_per_second": 0.246585,
+          "compression_heap_pool_peak_sum_max_bytes": 1092014080,
+          "decompression_heap_pool_peak_sum_max_bytes": 341020592,
+          "speedup_vs_enhanced": 1.0,
+          "size_delta_vs_enhanced_bytes": 0,
+          "same_archive": true
+        },
+        "fast": {
+          "original_bytes": 5427643,
+          "ivo_bytes": 4777717,
+          "engine": "USER_MP4_CABAC_RESEARCH",
+          "compression_median_ms": 45952.658144,
+          "compression_min_ms": 45557.796184,
+          "compression_max_ms": 45953.551275,
+          "decompression_median_ms": 21014.02321,
+          "decompression_min_ms": 20857.956222,
+          "decompression_max_ms": 21732.361269,
+          "compression_mib_per_second": 0.112642,
+          "decompression_mib_per_second": 0.246321,
+          "compression_heap_pool_peak_sum_max_bytes": 404100792,
+          "decompression_heap_pool_peak_sum_max_bytes": 340507488,
+          "speedup_vs_enhanced": 2.548537,
+          "size_delta_vs_enhanced_bytes": 0,
+          "same_archive": true
+        }
+      }
+    },
+    {
+      "label": "fixture-3-tradeoff",
+      "format": "JPEG-fixture",
+      "original_bytes": 3075,
+      "modes": {
+        "enhanced": {
+          "original_bytes": 3075,
+          "ivo_bytes": 2968,
+          "engine": "JPEG_NEIGHBOUR_RESEARCH",
+          "compression_median_ms": 283.68,
+          "compression_min_ms": 258.075016,
+          "compression_max_ms": 284.234148,
+          "decompression_median_ms": 7.806779,
+          "decompression_min_ms": 7.713548,
+          "decompression_max_ms": 8.435419,
+          "compression_mib_per_second": 0.010338,
+          "decompression_mib_per_second": 0.375641,
+          "compression_heap_pool_peak_sum_max_bytes": 153587816,
+          "decompression_heap_pool_peak_sum_max_bytes": 31438912,
+          "speedup_vs_enhanced": 1.0,
+          "size_delta_vs_enhanced_bytes": 0,
+          "same_archive": false
+        },
+        "fast": {
+          "original_bytes": 3075,
+          "ivo_bytes": 2996,
+          "engine": "JPEG_NEIGHBOUR_RESEARCH",
+          "compression_median_ms": 191.720868,
+          "compression_min_ms": 178.780197,
+          "compression_max_ms": 231.151061,
+          "decompression_median_ms": 7.743063,
+          "decompression_min_ms": 7.480175,
+          "decompression_max_ms": 8.441387,
+          "compression_mib_per_second": 0.015296,
+          "decompression_mib_per_second": 0.378732,
+          "compression_heap_pool_peak_sum_max_bytes": 123444856,
+          "decompression_heap_pool_peak_sum_max_bytes": 14661760,
+          "speedup_vs_enhanced": 1.479651,
+          "size_delta_vs_enhanced_bytes": 28,
+          "same_archive": false
+        }
+      }
+    }
+  ],
+  "measured_mode_samples": 102,
+  "measured_pairs": 51,
+  "warmup_mode_runs": 34,
+  "build_suite_passed": true,
+  "fast_router_checks_passed": 6,
+  "legacy_user_archives_checked": 9
+}

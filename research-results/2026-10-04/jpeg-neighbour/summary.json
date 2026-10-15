@@ -1,0 +1,178 @@
+[
+  {
+    "source": "01-25060.jpg",
+    "original_bytes": 204196,
+    "previous_bytes": 171468,
+    "best_trial_bytes": 171403,
+    "retained_bytes": 171403,
+    "gain_bytes": 65,
+    "backend": 2,
+    "mode": 1,
+    "synthetic": false
+  },
+  {
+    "source": "01-25066.jpg",
+    "original_bytes": 119935,
+    "previous_bytes": 94774,
+    "best_trial_bytes": 94696,
+    "retained_bytes": 94696,
+    "gain_bytes": 78,
+    "backend": 2,
+    "mode": 1,
+    "synthetic": false
+  },
+  {
+    "source": "Canon_40D.jpg",
+    "original_bytes": 7958,
+    "previous_bytes": 8014,
+    "best_trial_bytes": 8388,
+    "retained_bytes": 8014,
+    "gain_bytes": 0,
+    "backend": 0,
+    "mode": 1,
+    "synthetic": false
+  },
+  {
+    "source": "Canon_DIGITAL_IXUS_400.jpg",
+    "original_bytes": 9198,
+    "previous_bytes": 7755,
+    "best_trial_bytes": 8094,
+    "retained_bytes": 7755,
+    "gain_bytes": 0,
+    "backend": 0,
+    "mode": 1,
+    "synthetic": false
+  },
+  {
+    "source": "Nikon_D70.jpg",
+    "original_bytes": 14034,
+    "previous_bytes": 12284,
+    "best_trial_bytes": 12550,
+    "retained_bytes": 12284,
+    "gain_bytes": 0,
+    "backend": 0,
+    "mode": 0,
+    "synthetic": false
+  },
+  {
+    "source": "Pentax_K10D.jpg",
+    "original_bytes": 12077,
+    "previous_bytes": 10194,
+    "best_trial_bytes": 10518,
+    "retained_bytes": 10194,
+    "gain_bytes": 0,
+    "backend": 2,
+    "mode": 0,
+    "synthetic": false
+  },
+  {
+    "source": "Reconyx_HC500_Hyperfire.jpg",
+    "original_bytes": 425890,
+    "previous_bytes": 379231,
+    "best_trial_bytes": 378957,
+    "retained_bytes": 378957,
+    "gain_bytes": 274,
+    "backend": 2,
+    "mode": 1,
+    "synthetic": false
+  },
+  {
+    "source": "Samsung_Digimax_i50_MP3.jpg",
+    "original_bytes": 45286,
+    "previous_bytes": 43628,
+    "best_trial_bytes": 43919,
+    "retained_bytes": 43628,
+    "gain_bytes": 0,
+    "backend": 0,
+    "mode": 1,
+    "synthetic": false
+  },
+  {
+    "source": "fixture-0.jpg",
+    "original_bytes": 353,
+    "previous_bytes": 409,
+    "best_trial_bytes": 490,
+    "retained_bytes": 409,
+    "gain_bytes": 0,
+    "backend": 0,
+    "mode": 0,
+    "synthetic": true
+  },
+  {
+    "source": "fixture-1.jpg",
+    "original_bytes": 371,
+    "previous_bytes": 427,
+    "best_trial_bytes": 507,
+    "retained_bytes": 427,
+    "gain_bytes": 0,
+    "backend": 0,
+    "mode": 0,
+    "synthetic": true
+  },
+  {
+    "source": "fixture-2.jpg",
+    "original_bytes": 970,
+    "previous_bytes": 950,
+    "best_trial_bytes": 938,
+    "retained_bytes": 938,
+    "gain_bytes": 12,
+    "backend": 0,
+    "mode": 1,
+    "synthetic": true
+  },
+  {
+    "source": "fixture-3.jpg",
+    "original_bytes": 3075,
+    "previous_bytes": 3131,
+    "best_trial_bytes": 3232,
+    "retained_bytes": 3131,
+    "gain_bytes": 0,
+    "backend": 0,
+    "mode": 1,
+    "synthetic": true
+  },
+  {
+    "source": "hdr_canon_hdr_NO.jpg",
+    "original_bytes": 784371,
+    "previous_bytes": 675759,
+    "best_trial_bytes": 675615,
+    "retained_bytes": 675615,
+    "gain_bytes": 144,
+    "backend": 2,
+    "mode": 1,
+    "synthetic": false
+  },
+  {
+    "source": "hdr_iphone_hdr_NO.jpg",
+    "original_bytes": 1957448,
+    "previous_bytes": 1652929,
+    "best_trial_bytes": 1652706,
+    "retained_bytes": 1652706,
+    "gain_bytes": 223,
+    "backend": 2,
+    "mode": 1,
+    "synthetic": false
+  },
+  {
+    "source": "hdr_iphone_hdr_YES.jpg",
+    "original_bytes": 1976579,
+    "previous_bytes": 1671157,
+    "best_trial_bytes": 1670996,
+    "retained_bytes": 1670996,
+    "gain_bytes": 161,
+    "backend": 2,
+    "mode": 1,
+    "synthetic": false
+  },
+  {
+    "source": "mobile_jolla.jpg",
+    "original_bytes": 811904,
+    "previous_bytes": 681254,
+    "best_trial_bytes": 681165,
+    "retained_bytes": 681165,
+    "gain_bytes": 89,
+    "backend": 2,
+    "mode": 1,
+    "synthetic": false
+  }
+]

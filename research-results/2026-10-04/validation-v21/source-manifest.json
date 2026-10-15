@@ -1,0 +1,526 @@
+[
+  {
+    "name": "image-rs_tower_progressive.jpg",
+    "repo": "image-rs/jpeg-decoder",
+    "commit": "eb2d7c0f6a2d0298aba7a7f8b9ca1440353e8f8c",
+    "path": "benches/tower_progressive.jpg",
+    "url": "https://raw.githubusercontent.com/image-rs/jpeg-decoder/eb2d7c0f6a2d0298aba7a7f8b9ca1440353e8f8c/benches/tower_progressive.jpg",
+    "cohort": "jpeg",
+    "bytes": 68149,
+    "sha256": "e87bac231e2c11b1aef6981358189ad5c51f67069a43131b1512ed823a7607c6",
+    "downloaded": true,
+    "seen_in_previous_reports": false,
+    "shape": [
+      512,
+      512
+    ],
+    "color": "RGB",
+    "progressive": true,
+    "class": "image",
+    "duplicate_in_new_batch": false,
+    "scene_group": "image-rs_tower_progressive.jpg"
+  },
+  {
+    "name": "image-rs_jpg-progressive.jpg",
+    "repo": "image-rs/jpeg-decoder",
+    "commit": "eb2d7c0f6a2d0298aba7a7f8b9ca1440353e8f8c",
+    "path": "tests/reftest/images/mozilla/jpg-progressive.jpg",
+    "url": "https://raw.githubusercontent.com/image-rs/jpeg-decoder/eb2d7c0f6a2d0298aba7a7f8b9ca1440353e8f8c/tests/reftest/images/mozilla/jpg-progressive.jpg",
+    "cohort": "jpeg",
+    "bytes": 979,
+    "sha256": "1cbff16cd9651840f660914eb8cd0cb29d248cf113081d75bd4476b4d18a5460",
+    "downloaded": true,
+    "seen_in_previous_reports": false,
+    "shape": [
+      32,
+      32
+    ],
+    "color": "RGB",
+    "progressive": true,
+    "class": "conformance",
+    "duplicate_in_new_batch": false,
+    "scene_group": "image-rs_jpg-progressive.jpg"
+  },
+  {
+    "name": "image-rs_non-interleaved-mcu.jpg",
+    "repo": "image-rs/jpeg-decoder",
+    "commit": "eb2d7c0f6a2d0298aba7a7f8b9ca1440353e8f8c",
+    "path": "tests/reftest/images/non-interleaved-mcu.jpg",
+    "url": "https://raw.githubusercontent.com/image-rs/jpeg-decoder/eb2d7c0f6a2d0298aba7a7f8b9ca1440353e8f8c/tests/reftest/images/non-interleaved-mcu.jpg",
+    "cohort": "jpeg",
+    "bytes": 572,
+    "sha256": "5abd83bf44756cb67018ef8b452c31a709146706e9c71800cd24628cce3ef9c4",
+    "downloaded": true,
+    "seen_in_previous_reports": false,
+    "shape": [
+      64,
+      16
+    ],
+    "color": "RGB",
+    "progressive": true,
+    "class": "conformance",
+    "duplicate_in_new_batch": false,
+    "scene_group": "image-rs_non-interleaved-mcu.jpg"
+  },
+  {
+    "name": "image-rs_partial_progressive.jpg",
+    "repo": "image-rs/jpeg-decoder",
+    "commit": "eb2d7c0f6a2d0298aba7a7f8b9ca1440353e8f8c",
+    "path": "tests/reftest/images/partial_progressive.jpg",
+    "url": "https://raw.githubusercontent.com/image-rs/jpeg-decoder/eb2d7c0f6a2d0298aba7a7f8b9ca1440353e8f8c/tests/reftest/images/partial_progressive.jpg",
+    "cohort": "jpeg",
+    "bytes": 1330,
+    "sha256": "3b809d450dedbe4fc8b12afc57e64f296eee89ae61e69563e7b44e4e9049e7d9",
+    "downloaded": true,
+    "seen_in_previous_reports": false,
+    "shape": [
+      4,
+      4
+    ],
+    "color": "RGB",
+    "progressive": true,
+    "class": "conformance",
+    "duplicate_in_new_batch": false,
+    "scene_group": "image-rs_partial_progressive.jpg"
+  },
+  {
+    "name": "image-rs_progressive3.jpg",
+    "repo": "image-rs/jpeg-decoder",
+    "commit": "eb2d7c0f6a2d0298aba7a7f8b9ca1440353e8f8c",
+    "path": "tests/reftest/images/progressive3.jpg",
+    "url": "https://raw.githubusercontent.com/image-rs/jpeg-decoder/eb2d7c0f6a2d0298aba7a7f8b9ca1440353e8f8c/tests/reftest/images/progressive3.jpg",
+    "cohort": "jpeg",
+    "bytes": 91072,
+    "sha256": "d19ebc7245629cc1e55cd0876fe671bde324893e73a75f3c467b8b4991214837",
+    "downloaded": true,
+    "seen_in_previous_reports": false,
+    "shape": [
+      650,
+      470
+    ],
+    "color": "RGB",
+    "progressive": true,
+    "class": "image",
+    "duplicate_in_new_batch": false,
+    "scene_group": "image-rs_progressive3.jpg"
+  },
+  {
+    "name": "image-rs_progressive-missing-ac.jpg",
+    "repo": "image-rs/jpeg-decoder",
+    "commit": "eb2d7c0f6a2d0298aba7a7f8b9ca1440353e8f8c",
+    "path": "tests/reftest/images/progressive-missing-ac.jpg",
+    "url": "https://raw.githubusercontent.com/image-rs/jpeg-decoder/eb2d7c0f6a2d0298aba7a7f8b9ca1440353e8f8c/tests/reftest/images/progressive-missing-ac.jpg",
+    "cohort": "jpeg",
+    "bytes": 139,
+    "sha256": "ab24ace780b7efb1e74b58d4a87bcd9d4753a5b71a4b4552043fb83ba8e24cda",
+    "downloaded": true,
+    "seen_in_previous_reports": false,
+    "shape": [
+      8,
+      8
+    ],
+    "color": "L",
+    "progressive": true,
+    "class": "conformance",
+    "duplicate_in_new_batch": false,
+    "scene_group": "image-rs_progressive-missing-ac.jpg"
+  },
+  {
+    "name": "image-rs_progressive-missing-dc.jpg",
+    "repo": "image-rs/jpeg-decoder",
+    "commit": "eb2d7c0f6a2d0298aba7a7f8b9ca1440353e8f8c",
+    "path": "tests/reftest/images/progressive-missing-dc.jpg",
+    "url": "https://raw.githubusercontent.com/image-rs/jpeg-decoder/eb2d7c0f6a2d0298aba7a7f8b9ca1440353e8f8c/tests/reftest/images/progressive-missing-dc.jpg",
+    "cohort": "jpeg",
+    "bytes": 139,
+    "sha256": "102f457601e15b5d44c6afad9d8a79e32338081012deb5878e46a65b859c3a9e",
+    "downloaded": true,
+    "seen_in_previous_reports": false,
+    "shape": [
+      8,
+      8
+    ],
+    "color": "L",
+    "progressive": true,
+    "class": "conformance",
+    "duplicate_in_new_batch": false,
+    "scene_group": "image-rs_progressive-missing-dc.jpg"
+  },
+  {
+    "name": "is-progressive_kitten-progressive.jpg",
+    "repo": "sindresorhus/is-progressive",
+    "commit": "0a745d218974951b73b8a6c86492a92422b14bc8",
+    "path": "fixture/kitten-progressive.jpg",
+    "url": "https://raw.githubusercontent.com/sindresorhus/is-progressive/0a745d218974951b73b8a6c86492a92422b14bc8/fixture/kitten-progressive.jpg",
+    "cohort": "jpeg",
+    "bytes": 83845,
+    "sha256": "d9955d4b9bfd4804b911ef38c5c3d80b665377b42041ba4400fc3fb1486869b8",
+    "downloaded": true,
+    "seen_in_previous_reports": false,
+    "shape": [
+      1024,
+      683
+    ],
+    "color": "RGB",
+    "progressive": true,
+    "class": "image",
+    "duplicate_in_new_batch": false,
+    "scene_group": "is-progressive_kitten-progressive.jpg"
+  },
+  {
+    "name": "is-progressive_progressive.jpg",
+    "repo": "sindresorhus/is-progressive",
+    "commit": "0a745d218974951b73b8a6c86492a92422b14bc8",
+    "path": "fixture/progressive.jpg",
+    "url": "https://raw.githubusercontent.com/sindresorhus/is-progressive/0a745d218974951b73b8a6c86492a92422b14bc8/fixture/progressive.jpg",
+    "cohort": "jpeg",
+    "bytes": 24654,
+    "sha256": "a63c8ee4bf67a122f9898231412d5dae09b36a76004e13159ad4414ccce03be4",
+    "downloaded": true,
+    "seen_in_previous_reports": false,
+    "shape": [
+      200,
+      133
+    ],
+    "color": "RGB",
+    "progressive": true,
+    "class": "image",
+    "duplicate_in_new_batch": false,
+    "scene_group": "is-progressive_progressive.jpg"
+  },
+  {
+    "name": "mdn_viper.mp3",
+    "repo": "mdn/webaudio-examples",
+    "commit": "5582dbc39f241117c27c516b21243b041dc69fcb",
+    "path": "audio-analyser/viper.mp3",
+    "url": "https://raw.githubusercontent.com/mdn/webaudio-examples/5582dbc39f241117c27c516b21243b041dc69fcb/audio-analyser/viper.mp3",
+    "cohort": "mp3",
+    "bytes": 654942,
+    "sha256": "2850fdcd9b90b8de55acf01856bbfc39ff8b704edc522cadace27af5ba17224b",
+    "downloaded": true,
+    "seen_in_previous_reports": false,
+    "ffprobe": {
+      "programs": [],
+      "streams": [
+        {
+          "codec_name": "mp3",
+          "sample_rate": "44100",
+          "channels": 2,
+          "bit_rate": "128000"
+        }
+      ],
+      "format": {
+        "duration": "40.933875"
+      }
+    },
+    "duplicate_in_new_batch": false,
+    "content": "music / instrumental example",
+    "scene_group": "mdn_viper.mp3"
+  },
+  {
+    "name": "mdn_outfoxing.mp3",
+    "repo": "mdn/webaudio-examples",
+    "commit": "5582dbc39f241117c27c516b21243b041dc69fcb",
+    "path": "audio-basics/outfoxing.mp3",
+    "url": "https://raw.githubusercontent.com/mdn/webaudio-examples/5582dbc39f241117c27c516b21243b041dc69fcb/audio-basics/outfoxing.mp3",
+    "cohort": "mp3",
+    "bytes": 1831788,
+    "sha256": "7f00803ccfb5be334f83e570aa58a1f7860e1fed9a5d8cec07b12d0e480c9fe7",
+    "downloaded": true,
+    "seen_in_previous_reports": false,
+    "ffprobe": {
+      "programs": [],
+      "streams": [
+        {
+          "codec_name": "mp3",
+          "sample_rate": "44100",
+          "channels": 2,
+          "bit_rate": "150357"
+        }
+      ],
+      "format": {
+        "duration": "97.436735"
+      }
+    },
+    "duplicate_in_new_batch": false,
+    "content": "music / instrumental example",
+    "scene_group": "mdn_outfoxing.mp3"
+  },
+  {
+    "name": "mdn_bassguitar.mp3",
+    "repo": "mdn/webaudio-examples",
+    "commit": "5582dbc39f241117c27c516b21243b041dc69fcb",
+    "path": "multi-track/bassguitar.mp3",
+    "url": "https://raw.githubusercontent.com/mdn/webaudio-examples/5582dbc39f241117c27c516b21243b041dc69fcb/multi-track/bassguitar.mp3",
+    "cohort": "mp3",
+    "bytes": 646500,
+    "sha256": "3d96b24a0201f5df8254011ad3238d2582a4e982d32a32869db45cd62ff9e10d",
+    "downloaded": true,
+    "seen_in_previous_reports": false,
+    "ffprobe": {
+      "programs": [],
+      "streams": [
+        {
+          "codec_name": "mp3",
+          "sample_rate": "44100",
+          "channels": 2,
+          "bit_rate": "64000"
+        }
+      ],
+      "format": {
+        "duration": "80.300500"
+      }
+    },
+    "duplicate_in_new_batch": false,
+    "content": "music / instrumental example",
+    "scene_group": "mdn-multitrack-stems"
+  },
+  {
+    "name": "mdn_clav.mp3",
+    "repo": "mdn/webaudio-examples",
+    "commit": "5582dbc39f241117c27c516b21243b041dc69fcb",
+    "path": "multi-track/clav.mp3",
+    "url": "https://raw.githubusercontent.com/mdn/webaudio-examples/5582dbc39f241117c27c516b21243b041dc69fcb/multi-track/clav.mp3",
+    "cohort": "mp3",
+    "bytes": 670114,
+    "sha256": "8ba6d9552a7d888140b71fa8d5ce536bb8ab56556387d81f5a0c89d6a2ce976e",
+    "downloaded": true,
+    "seen_in_previous_reports": false,
+    "ffprobe": {
+      "programs": [],
+      "streams": [
+        {
+          "codec_name": "mp3",
+          "sample_rate": "44100",
+          "channels": 2,
+          "bit_rate": "64000"
+        }
+      ],
+      "format": {
+        "duration": "83.252250"
+      }
+    },
+    "duplicate_in_new_batch": false,
+    "content": "music / instrumental example",
+    "scene_group": "mdn-multitrack-stems"
+  },
+  {
+    "name": "mdn_drums.mp3",
+    "repo": "mdn/webaudio-examples",
+    "commit": "5582dbc39f241117c27c516b21243b041dc69fcb",
+    "path": "multi-track/drums.mp3",
+    "url": "https://raw.githubusercontent.com/mdn/webaudio-examples/5582dbc39f241117c27c516b21243b041dc69fcb/multi-track/drums.mp3",
+    "cohort": "mp3",
+    "bytes": 670114,
+    "sha256": "6024d80d742daff9f067bed60358915f6b1bcb8d5210c16a186aa48fea0f7649",
+    "downloaded": true,
+    "seen_in_previous_reports": false,
+    "ffprobe": {
+      "programs": [],
+      "streams": [
+        {
+          "codec_name": "mp3",
+          "sample_rate": "44100",
+          "channels": 2,
+          "bit_rate": "64000"
+        }
+      ],
+      "format": {
+        "duration": "83.252250"
+      }
+    },
+    "duplicate_in_new_batch": false,
+    "content": "music / instrumental example",
+    "scene_group": "mdn-multitrack-stems"
+  },
+  {
+    "name": "mdn_horns.mp3",
+    "repo": "mdn/webaudio-examples",
+    "commit": "5582dbc39f241117c27c516b21243b041dc69fcb",
+    "path": "multi-track/horns.mp3",
+    "url": "https://raw.githubusercontent.com/mdn/webaudio-examples/5582dbc39f241117c27c516b21243b041dc69fcb/multi-track/horns.mp3",
+    "cohort": "mp3",
+    "bytes": 670114,
+    "sha256": "76debbdb27ae5430e1367e3dfee49cca3d00628456e9a4f49081893cd0c5d5aa",
+    "downloaded": true,
+    "seen_in_previous_reports": false,
+    "ffprobe": {
+      "programs": [],
+      "streams": [
+        {
+          "codec_name": "mp3",
+          "sample_rate": "44100",
+          "channels": 2,
+          "bit_rate": "64000"
+        }
+      ],
+      "format": {
+        "duration": "83.252250"
+      }
+    },
+    "duplicate_in_new_batch": false,
+    "content": "music / instrumental example",
+    "scene_group": "mdn-multitrack-stems"
+  },
+  {
+    "name": "mdn_leadguitar.mp3",
+    "repo": "mdn/webaudio-examples",
+    "commit": "5582dbc39f241117c27c516b21243b041dc69fcb",
+    "path": "multi-track/leadguitar.mp3",
+    "url": "https://raw.githubusercontent.com/mdn/webaudio-examples/5582dbc39f241117c27c516b21243b041dc69fcb/multi-track/leadguitar.mp3",
+    "cohort": "mp3",
+    "bytes": 670114,
+    "sha256": "05bdf41a05ce7297bc7ae5fc683752834011a7ebbaec3361c78360ac6adb5997",
+    "downloaded": true,
+    "seen_in_previous_reports": false,
+    "ffprobe": {
+      "programs": [],
+      "streams": [
+        {
+          "codec_name": "mp3",
+          "sample_rate": "44100",
+          "channels": 2,
+          "bit_rate": "64000"
+        }
+      ],
+      "format": {
+        "duration": "83.252250"
+      }
+    },
+    "duplicate_in_new_batch": false,
+    "content": "music / instrumental example",
+    "scene_group": "mdn-multitrack-stems"
+  },
+  {
+    "name": "mdn_concert-crowd.mp3",
+    "repo": "mdn/webaudio-examples",
+    "commit": "5582dbc39f241117c27c516b21243b041dc69fcb",
+    "path": "voice-change-o-matic/audio/concert-crowd.mp3",
+    "url": "https://raw.githubusercontent.com/mdn/webaudio-examples/5582dbc39f241117c27c516b21243b041dc69fcb/voice-change-o-matic/audio/concert-crowd.mp3",
+    "cohort": "mp3",
+    "bytes": 187920,
+    "sha256": "fc3b82f2b7942eb15b9d2688f5d1e1c3efcd4657738c2817fcf1467bf0ea1c68",
+    "downloaded": true,
+    "seen_in_previous_reports": false,
+    "ffprobe": {
+      "programs": [],
+      "streams": [
+        {
+          "codec_name": "mp3",
+          "sample_rate": "32000",
+          "channels": 2,
+          "bit_rate": "96000",
+          "side_data_list": [
+            {}
+          ]
+        }
+      ],
+      "format": {
+        "duration": "15.624000"
+      }
+    },
+    "duplicate_in_new_batch": false,
+    "content": "ambient crowd",
+    "scene_group": "mdn_concert-crowd.mp3"
+  },
+  {
+    "name": "librivox_wonderland_ch01.mp3",
+    "url": "https://archive.org/download/alice_in_wonderland_librivox/wonderland_ch_01_64kb.mp3",
+    "cohort": "mp3",
+    "content": "human speech",
+    "bytes": 5124992,
+    "sha256": "fca40613cd198eb2b3e3b36e087b6cbaf22be8d143951d744670973a3c26d0d1",
+    "downloaded": true,
+    "ffprobe": {
+      "programs": [],
+      "streams": [
+        {
+          "codec_name": "mp3",
+          "sample_rate": "24000",
+          "channels": 2,
+          "bit_rate": "64000",
+          "side_data_list": [
+            {}
+          ]
+        }
+      ],
+      "format": {
+        "duration": "640.584000"
+      }
+    },
+    "seen_in_previous_reports": false,
+    "duplicate_in_new_batch": false,
+    "scene_group": "librivox_wonderland_ch01.mp3"
+  },
+  {
+    "name": "google_brooklyn_bridge.mp3",
+    "url": "https://storage.googleapis.com/cloud-samples-data/speech/brooklyn_bridge.mp3",
+    "cohort": "mp3",
+    "content": "human speech",
+    "bytes": 29928,
+    "sha256": "836c6691b3e638d54743132f74115af9a85e2b08d0004ae455dcc8df652953cf",
+    "downloaded": true,
+    "ffprobe": {
+      "programs": [],
+      "streams": [
+        {
+          "codec_name": "mp3",
+          "sample_rate": "44100",
+          "channels": 2,
+          "bit_rate": "128000"
+        }
+      ],
+      "format": {
+        "duration": "1.854694"
+      }
+    },
+    "seen_in_previous_reports": false,
+    "duplicate_in_new_batch": false,
+    "scene_group": "google_brooklyn_bridge.mp3"
+  },
+  {
+    "name": "libjxl_new_flower_small.q85_420_partially_interleaved.jpg",
+    "cohort": "jpeg",
+    "class": "correlated-multiscan",
+    "repo": "libjxl/testdata",
+    "commit": "73695d303670c90e4d506ea89d9901b081385089",
+    "path": "jxl/flower/flower_small.q85_420_partially_interleaved.jpg",
+    "url": "https://raw.githubusercontent.com/libjxl/testdata/73695d303670c90e4d506ea89d9901b081385089/jxl/flower/flower_small.q85_420_partially_interleaved.jpg",
+    "downloaded": true,
+    "bytes": 50018,
+    "sha256": "d9e29efba48dcc3171b6bc30eabb5ce9a54439fbe6087543e90da6c115469c32",
+    "seen_in_previous_reports": false,
+    "duplicate_in_new_batch": false,
+    "scene_group": "flower-libjxl-existing-scene"
+  },
+  {
+    "name": "libjxl_new_flower_small.q85_444_non_interleaved.jpg",
+    "cohort": "jpeg",
+    "class": "correlated-multiscan",
+    "repo": "libjxl/testdata",
+    "commit": "73695d303670c90e4d506ea89d9901b081385089",
+    "path": "jxl/flower/flower_small.q85_444_non_interleaved.jpg",
+    "url": "https://raw.githubusercontent.com/libjxl/testdata/73695d303670c90e4d506ea89d9901b081385089/jxl/flower/flower_small.q85_444_non_interleaved.jpg",
+    "downloaded": true,
+    "bytes": 64780,
+    "sha256": "bf8466234b80d37469627db92abfa00ffb04fa608fd4de4775311fb3c9572866",
+    "seen_in_previous_reports": false,
+    "duplicate_in_new_batch": false,
+    "scene_group": "flower-libjxl-existing-scene"
+  },
+  {
+    "name": "libjxl_new_flower_small.q85_444_partially_interleaved.jpg",
+    "cohort": "jpeg",
+    "class": "correlated-multiscan",
+    "repo": "libjxl/testdata",
+    "commit": "73695d303670c90e4d506ea89d9901b081385089",
+    "path": "jxl/flower/flower_small.q85_444_partially_interleaved.jpg",
+    "url": "https://raw.githubusercontent.com/libjxl/testdata/73695d303670c90e4d506ea89d9901b081385089/jxl/flower/flower_small.q85_444_partially_interleaved.jpg",
+    "downloaded": true,
+    "bytes": 64775,
+    "sha256": "f098366b67a72f780abc9ca6112d2083c83ed05a1527105db6da18ac891d1512",
+    "seen_in_previous_reports": false,
+    "duplicate_in_new_batch": false,
+    "scene_group": "flower-libjxl-existing-scene"
+  }
+]

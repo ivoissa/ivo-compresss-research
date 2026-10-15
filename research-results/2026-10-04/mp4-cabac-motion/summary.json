@@ -1,0 +1,19 @@
+{
+  "results": {
+    "whatsapp": "PASS motion_pairs=912 components=1824 refs={0=912} nonzero_pairs=720 mismatches=0",
+    "whatsapp_altered_rejected": true,
+    "detail": "PASS motion_pairs=100 components=200 refs={0=100} nonzero_pairs=43 mismatches=0",
+    "detail_altered_rejected": true,
+    "multi": "PASS motion_pairs=231 components=462 refs={0=144, 1=9, 2=29, 3=32, 4=17} nonzero_pairs=102 mismatches=0",
+    "multi_altered_rejected": true
+  },
+  "scope": "first non-skipped P macroblock, initial skipped neighbors only, progressive 8-bit CABAC; no residuals, no B slices, no CABAC re-emission",
+  "compression_gain_measured": false,
+  "best_previous_ivo_bytes": 5414825,
+  "ffmpeg_reference_source_sha256": "8684f4b00f94b85461884c3719382f1261f0d9eb3d59640a1f4ac0873616f968",
+  "source_hashes": {
+    "whatsapp": "35f3266b88c75cec1af7cc28bf38ff927f7b8f4f2a844e5b7ff157a8fe291256",
+    "detail": "96b72bea989f56be271509380f7385438baff782b8bfac886c22e8e75d5192bf",
+    "multi": "66dfb052e75ab8151f0ee53a5f4dfc4cb25844aa0593999e4620664a6b9cd544"
+  }
+}

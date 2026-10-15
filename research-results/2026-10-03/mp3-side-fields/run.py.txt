@@ -1,0 +1,16 @@
+import pathlib,subprocess,concurrent.futures,json,hashlib
+root=pathlib.Path('trials/mp3-side');rows=json.loads(pathlib.Path('trials/mp3-lsf/measurements.json').read_text());cp='trials/mp3-side/classes:trials/mp3-bounded/classes:ivo-mp3-lsf-2026-10-03/target/classes'
+def run(r):
+ index=r['index'];dest=root/'results'/index;dest.mkdir(exist_ok=True);input=root/'inputs'/index/pathlib.Path(r['path']).name
+ original_dir=pathlib.Path('trials/mp3-lsf/results')/index
+ recovery=subprocess.run(['java','-Xmx1024m','-cp',cp,'io.ivo.mp3.RecoverInputs',str(original_dir/'v3.ivo'),str(input)],capture_output=True,text=True)
+ (dest/'input-recovery.txt').write_text(recovery.stdout+recovery.stderr)
+ if recovery.returncode:raise RuntimeError(recovery.stderr)
+ if hashlib.sha256(input.read_bytes()).hexdigest()!=r['sha256']:raise AssertionError('Original changed')
+ choices=[(r['v3'],original_dir/'v3.ivo')]+[(size,original_dir/f'v4m{mode}.ivo') for mode,size in r['modes'].items()]
+ size,base=min(choices,key=lambda x:x[0]);(dest/'base.json').write_text(json.dumps(dict(reference_best=r['best'],seed_size=size,seed=str(base),sha256=r['sha256']),indent=2))
+ result=subprocess.run(['java','-Xmx1024m','-cp',cp,'io.ivo.mp3.SideMeasure',str(input),str(base),str(dest)],capture_output=True,text=True)
+ (dest/'log.txt').write_text(result.stdout+result.stderr)
+ print(index,result.returncode,result.stdout[-650:],flush=True)
+ if result.returncode:raise RuntimeError(result.stderr)
+with concurrent.futures.ThreadPoolExecutor(max_workers=2) as pool:list(pool.map(run,rows))

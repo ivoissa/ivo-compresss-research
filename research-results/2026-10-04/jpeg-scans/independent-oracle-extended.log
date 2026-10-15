@@ -1,0 +1,12 @@
+PASS scan_syntax cases=8 independent_pixel_oracles=5 odd_dimensions=true progressive_refinement=true restart=true malformed=17
+ORACLE pixels_exact=true file=/tmp/ivo-jpeg-external-inputs/pytorch_dog1.jpg
+ORACLE pixels_exact=true file=/tmp/ivo-jpeg-external-inputs/pytorch_dog2.jpg
+ORACLE pixels_exact=true file=/tmp/ivo-jpeg-external-inputs/pytorch_leaning_tower.jpg
+ORACLE pixels_exact=true file=/tmp/ivo-scan-new-inputs/derived-multiscan-restart.jpg
+ORACLE pixels_exact=true file=/tmp/ivo-scan-new-inputs/derived-multiscan.jpg
+ORACLE pixels_exact=true file=/tmp/ivo-scan-new-inputs/derived-progressive-libjxl_bicycles_restarts.jpg
+ORACLE pixels_exact=true file=/tmp/ivo-scan-new-inputs/derived-progressive-python-pillow_hopper.jpg
+ORACLE pixels_exact=true file=/tmp/ivo-scan-new-inputs/derived-progressive-python-pillow_hopper_gray.jpg
+ORACLE pixels_exact=true file=/tmp/ivo-scan-new-inputs/derived-progressive-pytorch_astronaut.jpg
+ORACLE pixels_exact=true file=/tmp/ivo-scan-new-inputs/derived-progressive-pytorch_dog.jpg
+ORACLE pixels_exact=true file=/tmp/ivo-scan-new-inputs/derived-sequential-restart.jpg

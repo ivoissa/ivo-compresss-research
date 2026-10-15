@@ -1,0 +1,538 @@
+package io.ivo.usercode;
+
+import java.io.*;
+import java.nio.file.*;
+import java.util.*;
+import java.util.zip.*;
+
+public class Ivo {
+    // ================= fixed-point logistic helpers (deterministic) =================
+    static final int[] SQT = {1, 2, 3, 6, 10, 16, 27, 45, 73, 120, 194, 310, 488, 747, 1101, 1546, 2047, 2549, 2994, 3348, 3607, 3785, 3901, 3975, 4022, 4050, 4068, 4079, 4085, 4089, 4092, 4093, 4094};
+    static int squash(int d) {
+        if (d > 2047) return 4095; if (d < -2047) return 0;
+        int w = d & 127; int i = (d >> 7) + 16;
+        return (SQT[i] * (128 - w) + SQT[i + 1] * w + 64) >> 7;
+    }
+    static final short[] STR = new short[4096];
+    static final int[] DT = new int[1024];
+    static {
+        int pi = 0;
+        for (int x = -2047; x <= 2047; x++) { int v = squash(x); for (int i = pi; i <= v; i++) STR[i] = (short) x; pi = v + 1; }
+        for (int i = pi; i < 4096; i++) STR[i] = 2047;
+        for (int i = 0; i < 1024; i++) DT[i] = 16384 / (i + i + 3);
+    }
+    static int H(int a, int b, int c, int d, int e, int f) {
+        int h = a * 0x2F0B4A27 + 0x1234567;
+        h = (h ^ (h >>> 15)) * 0x85EBCA6B + b; h = (h ^ (h >>> 13)) * 0xC2B2AE35 + c;
+        h = (h ^ (h >>> 16)) * 0x27D4EB2F + d; h = (h ^ (h >>> 15)) * 0x165667B1 + e;
+        h = (h ^ (h >>> 13)) * 0x9E3779B1 + f; h ^= h >>> 16; return h;
+    }
+    static int H(int a, int b, int c, int d, int e, int f, int g) { return H(H(a, b, c, d, e, f), g); }
+    static int H(int a, int b, int c, int d, int e) { return H(a, b, c, d, e, 0); }
+    static int H(int a, int b, int c, int d) { return H(a, b, c, d, 0, 0); }
+    static int H(int a, int b, int c) { return H(a, b, c, 0, 0, 0); }
+    static int H(int a, int b) { return H(a, b, 0, 0, 0, 0); }
+
+    // ================= adaptive probability map =================
+    static final class APM {
+        final int[] t; int index;
+        APM(int n) {
+            t = new int[n * 24];
+            for (int i = 0; i < n; i++) for (int j = 0; j < 24; j++) t[i * 24 + j] = squash((j * 4096 + 11) / 23 - 2048) * 16;
+        }
+        int pp(int pr12, int cx) { // returns 16-bit prob
+            int pr = (STR[pr12] + 2048) * 23; int wt = pr & 0xfff; cx = cx * 24 + (pr >> 12);
+            index = cx + (wt >> 11);
+            return (int) (((long) t[cx] * (4096 - wt) + (long) t[cx + 1] * wt) >> 12);
+        }
+        void update(int y, int rate) { int g = (y << 16) + (y << rate) - y - y; t[index] += (g - t[index]) >> rate; }
+    }
+
+    // ================= context-mixing predictor =================
+    static final class CM {
+        final int N, NI, TB; int vin; final int[][] tab; final int[][] fast; final char[][] fast16; final int[] idx, st, w1, w2, w3, wf; final int sets1, sets2, sets3, setsF;
+        int sa, sb, sc, sf, pm1, pm2, pm3, pmix, pfin; final APM ap1, ap2; int c1, c2; int limit, lr, apRate = 7, lrF = 2;
+        final int fr = 5;
+        int d1, d2, d3;
+        CM(int n, int tbBits, int sets1, int sets2, int apn1, int apn2, int limit, int lr) {
+            N = n; NI = 2 * n + 2; TB = tbBits; tab = new int[n][1 << tbBits]; fast = MixerStorage.isCompact() ? null : new int[n][1 << tbBits];
+            fast16 = fast == null ? new char[n][1 << tbBits] : null;
+            for (int[] t : tab) Arrays.fill(t, 0x80000000); if (fast != null) for (int[] t : fast) Arrays.fill(t, 32768);
+            else for (char[] t : fast16) Arrays.fill(t, (char) 32768);
+            idx = new int[n]; st = new int[NI]; this.sets1 = sets1; this.sets2 = sets2; sets3 = 1 << 14; setsF = 256;
+            w1 = new int[sets1 * NI]; w2 = new int[sets2 * NI]; w3 = new int[sets3 * NI]; wf = new int[setsF * 4];
+            Arrays.fill(w1, 12000); Arrays.fill(w2, 12000); Arrays.fill(w3, 12000); Arrays.fill(wf, 21845);
+            ap1 = new APM(apn1); ap2 = new APM(apn2); this.limit = limit; this.lr = lr;
+        }
+        void set(int i, int h) { idx[i] = h >>> (32 - TB); }
+        static int clip(int d) { return d > 2047 ? 2047 : d < -2047 ? -2047 : d; }
+        int predict() {
+            if (fast16 == null) {
+                for (int i = 0; i < N; i++) { st[i] = STR[tab[i][idx[i]] >>> 20]; st[N + i] = STR[fast[i][idx[i]] >>> 4]; }
+            } else {
+                for (int i = 0; i < N; i++) { st[i] = STR[tab[i][idx[i]] >>> 20]; st[N + i] = STR[fast16[i][idx[i]] >>> 4]; }
+            }
+            st[2 * N] = 256; st[2 * N + 1] = vin;
+            int b1 = sa * NI, b2 = sb * NI, b3 = sc * NI; long s1 = 0, s2 = 0, s3 = 0;
+            for (int i = 0; i < NI; i++) { s1 += (long) st[i] * w1[b1 + i]; s2 += (long) st[i] * w2[b2 + i]; s3 += (long) st[i] * w3[b3 + i]; }
+            d1 = clip((int) (s1 >> 16)); d2 = clip((int) (s2 >> 16)); d3 = clip((int) (s3 >> 16));
+            pm1 = squash(d1); pm2 = squash(d2); pm3 = squash(d3);
+            int fb = sf * 4;
+            int d = clip((int) (((long) d1 * wf[fb] + (long) d2 * wf[fb + 1] + (long) d3 * wf[fb + 2]) >> 16));
+            pmix = squash(d);
+            int pa = ap1.pp(pmix, c1), pb = ap2.pp(pmix, c2);
+            int p = (pmix * 16 * 2 + pa + pb) >> 2;
+            if (p < 24) p = 24; if (p > 65536 - 24) p = 65536 - 24;
+            pfin = p; return p;
+        }
+        void update(int y) {
+            int b1 = sa * NI, b2 = sb * NI, b3 = sc * NI;
+            int e1 = ((y << 12) - pm1) * lr, e2 = ((y << 12) - pm2) * lr, e3 = ((y << 12) - pm3) * lr;
+            for (int i = 0; i < NI; i++) { w1[b1 + i] += (st[i] * e1 + 0x8000) >> 16; w2[b2 + i] += (st[i] * e2 + 0x8000) >> 16; w3[b3 + i] += (st[i] * e3 + 0x8000) >> 16; }
+            int ef = ((y << 12) - pmix) * lrF; int fb = sf * 4;
+            wf[fb] += (d1 * ef + 0x8000) >> 16; wf[fb + 1] += (d2 * ef + 0x8000) >> 16; wf[fb + 2] += (d3 * ef + 0x8000) >> 16;
+            if (fast16 == null) {
+                for (int i = 0; i < N; i++) {
+                    int[] t = tab[i]; int k = idx[i]; int s = t[k]; int n = s & 1023; int p = s >>> 10;
+                    if (n < limit) s++; else s = (s & 0xfffffc00) | limit;
+                    s += ((((y << 22) - p) >> 3) * DT[n]) & 0xfffffc00; t[k] = s;
+                    int[] f = fast[i]; f[k] += (((y << 16) - f[k]) >> fr);
+                }
+            } else {
+                for (int i = 0; i < N; i++) {
+                    int[] t = tab[i]; int k = idx[i]; int s = t[k]; int n = s & 1023; int p = s >>> 10;
+                    if (n < limit) s++; else s = (s & 0xfffffc00) | limit;
+                    s += ((((y << 22) - p) >> 3) * DT[n]) & 0xfffffc00; t[k] = s;
+                    char[] f = fast16[i]; int value = f[k];
+                    f[k] = (char) (value + (((y << 16) - value) >> fr));
+                }
+            }
+            ap1.update(y, apRate); ap2.update(y, apRate);
+        }
+    }
+
+    // ================= arithmetic coder (carry-less, 32-bit, 16-bit probabilities) =================
+    static final class Enc {
+        byte[] buf = new byte[1 << 20]; int n; int x1 = 0, x2 = -1;
+        void out(int b) { if (n == buf.length) buf = Arrays.copyOf(buf, n * 2); buf[n++] = (byte) b; }
+        void enc(int y, int p16) {
+            long range = (x2 & 0xffffffffL) - (x1 & 0xffffffffL);
+            int xmid = (int) ((x1 & 0xffffffffL) + ((range * p16) >>> 16));
+            if (y == 1) x2 = xmid; else x1 = xmid + 1;
+            while (((x1 ^ x2) & 0xff000000) == 0) { out(x2 >>> 24); x1 <<= 8; x2 = (x2 << 8) | 255; }
+        }
+        byte[] finish() { out(x1 >>> 24); return Arrays.copyOf(buf, n); }
+    }
+    static final class Dec {
+        byte[] b; int pos; int x1 = 0, x2 = -1, x;
+        Dec(byte[] b, int pos) { this.b = b; this.pos = pos; for (int i = 0; i < 4; i++) x = (x << 8) | nb(); }
+        int nb() { return pos < b.length ? (b[pos++] & 255) : 255; }
+        int dec(int p16) {
+            long range = (x2 & 0xffffffffL) - (x1 & 0xffffffffL);
+            int xmid = (int) ((x1 & 0xffffffffL) + ((range * p16) >>> 16));
+            int y;
+            if (Integer.compareUnsigned(x, xmid) <= 0) { y = 1; x2 = xmid; } else { y = 0; x1 = xmid + 1; }
+            while (((x1 ^ x2) & 0xff000000) == 0) { x1 <<= 8; x2 = (x2 << 8) | 255; x = (x << 8) | nb(); }
+            return y;
+        }
+    }
+
+    // ================= the symmetrical walker =================
+    static final int[] BANDS = Vp8.BANDS;
+    static final int[][] CAT = Vp8.CAT;
+    static final int[] TREE4 = Vp8.TREE4;
+
+    final double[] COST = new double[256]; final int[] CNT = new int[256]; int cat;
+    final boolean enc;
+    Vp8.BD p1src; Vp8.BD[] tsrc; Vp8.BE p1dst; Vp8.BE[] tdst; Enc ae; Dec ad;
+    CM cmT, cmM;
+    int W, H, mbw, mbh, nparts;
+    int[] P = new int[1056];
+    boolean useSeg, updMap, useSkip; int skipP; int[] segP = {255, 255, 255};
+    // frame state
+    short[] coefs; int[] mbSeg, mbI4, mbUV, mbAct, mbYm; int[] grid; int G;
+    // token ctx state
+    static final int[] INV = new int[16]; static { for (int i = 0; i < 16; i++) INV[Vp8.ZIG[i]] = i; }
+    int aLast, lLast, uOff, mbCnt, prevCnt;
+    int curT, curN, ctx0, aOff, lOff, bOff, p1v, p2v, nzs, sumS, mctx, seg, aNZ, lNZ, aSum, lSum, lastSign;
+
+    Ivo(boolean enc) {
+        this.enc = enc;
+        cmT = new CM(12, 20, 64 * 16, 96 * 4, 64 * 16, 1 << 16, 255, 16); cmT.apRate = 6;
+        cmM = new CM(9, 20, 16 * 8, 64, 16 * 8, 1 << 12, 255, 6);
+    }
+
+    int hdrBit(int prob) { // fixed-probability coding for header bits
+        int p1 = (256 - prob) << 8; if (p1 < 1) p1 = 1; if (p1 > 65535) p1 = 65535;
+        int b;
+        if (enc) { b = p1src.bit(prob); ae.enc(b, p1); } else { b = ad.dec(p1); p1dst.bit(prob, b); }
+        return b;
+    }
+    int hlit(int n) { int v = 0; while (n-- > 0) v = (v << 1) | hdrBit(128); return v; }
+    int hsgn(int n) { int v = hlit(n); return hdrBit(128) == 1 ? -v : v; }
+
+    int cbit(CM cm, int vprob, Vp8.BD src, Vp8.BE dst) {
+        { int q = (256 - vprob) << 4; if (q < 1) q = 1; if (q > 4095) q = 4095; cm.vin = STR[q]; }
+        int p = cm.predict(); int b;
+        if (enc) { b = src.bit(vprob); ae.enc(b, p); } else { b = ad.dec(p); dst.bit(vprob, b); }
+        if (enc) { double q = b == 1 ? p / 65536.0 : 1 - p / 65536.0; COST[cat] -= Math.log(q) / Math.log(2); CNT[cat]++; }
+        cm.update(b); return b;
+    }
+
+    static int Q6(int x) { return x < 3 ? x : x < 5 ? 3 : x < 9 ? 4 : 5; }
+    static int QL(int x) { return x == 0 ? 0 : 32 - Integer.numberOfLeadingZeros(x); }
+
+    // ----- header -----
+    void header() {
+        hlit(1); hlit(1);
+        useSeg = hlit(1) == 1;
+        if (useSeg) {
+            updMap = hlit(1) == 1;
+            if (hlit(1) == 1) {
+                hlit(1);
+                for (int i = 0; i < 4; i++) if (hlit(1) == 1) hsgn(7);
+                for (int i = 0; i < 4; i++) if (hlit(1) == 1) hsgn(6);
+            }
+            if (updMap) for (int i = 0; i < 3; i++) segP[i] = hlit(1) == 1 ? hlit(8) : 255;
+        }
+        hlit(1); hlit(6); hlit(3);
+        if (hlit(1) == 1) { if (hlit(1) == 1) { for (int i = 0; i < 8; i++) if (hlit(1) == 1) hsgn(6); } }
+        nparts = 1 << hlit(2);
+        hlit(7); for (int i = 0; i < 5; i++) if (hlit(1) == 1) hsgn(4);
+        hlit(1);
+        for (int i = 0; i < 1056; i++) P[i] = hdrBit(T.UPD[i]) == 1 ? hlit(8) : T.COEF[i];
+        useSkip = hlit(1) == 1; if (useSkip) skipP = hlit(8);
+    }
+
+    // ----- modes for one MB -----
+    int modeBit(int vp, int p1or2) { return cbit(cmM, vp, p1src, p1dst); }
+
+    void setM(int i, int h) { cmM.set(i, h); }
+
+    int mxc, myc, nac, nlc, tlc, trc;
+    int mbBit(int vp, int sel1, int sel2) { cmM.set(7, H(70, sel1, nac, nlc, tlc)); cmM.set(8, H(71, sel1, trc, tlc, nac));  cat = 100 + (sel1 < 4 ? 0 : sel1 < 5 ? 1 : sel1 < 8 ? 2 : sel1 < 16 ? 3 : 4); cmM.sa = sel1; cmM.sb = sel2; cmM.sc = H(22, sel1, sel2) >>> 18; cmM.sf = sel1; cmM.c1 = sel1; cmM.c2 = sel2 & 63; return cbit(cmM, vp, p1src, p1dst); }
+
+    void modes(int mx, int my, int mb) {
+        int sa = my > 0 ? mbSeg[mb - mbw] : 4, sl = mx > 0 ? mbSeg[mb - 1] : 4;
+        int sal = (my > 0 && mx > 0) ? mbSeg[mb - mbw - 1] : 4, sar = (my > 0 && mx + 1 < mbw) ? mbSeg[mb - mbw + 1] : 4;
+        int na = my > 0 ? QL(mbAct[mb - mbw]) : 15, nl = mx > 0 ? QL(mbAct[mb - 1]) : 15;
+        int ia = my > 0 ? mbI4[mb - mbw] : 2, il = mx > 0 ? mbI4[mb - 1] : 2;
+        int ial = (my > 0 && mx > 0) ? mbI4[mb - mbw - 1] : 2, iar = (my > 0 && mx + 1 < mbw) ? mbI4[mb - mbw + 1] : 2;
+        int sg = 0; nac = na; nlc = nl;
+        tlc = (my > 0 && mx > 0) ? QL(mbAct[mb - mbw - 1]) : 15; trc = (my > 0 && mx + 1 < mbw) ? QL(mbAct[mb - mbw + 1]) : 15;
+        if (updMap) {
+            int s;
+            // node 0
+            setM(0, H(10, 0, sa, sl)); setM(1, H(11, 0, sa, sl, sal)); setM(2, H(12, 0, sa, sl, sar)); setM(3, H(13, 0, na, nl)); setM(4, H(14, 0, sa, sl, na + nl)); setM(5, H(15, 0, sa, sl, sal, sar, na)); setM(6, H(16, 0));
+            int b0 = mbBit(segP[0], 0, 0);
+            if (b0 == 0) {
+                setM(0, H(10, 1, sa, sl)); setM(1, H(11, 1, sa, sl, sal)); setM(2, H(12, 1, sa, sl, sar)); setM(3, H(13, 1, na, nl)); setM(4, H(14, 1, sa, sl, na + nl)); setM(5, H(15, 1, sa, sl, sal, sar, na)); setM(6, H(16, 1));
+                s = mbBit(segP[1], 1, 1);
+            } else {
+                setM(0, H(10, 2, sa, sl)); setM(1, H(11, 2, sa, sl, sal)); setM(2, H(12, 2, sa, sl, sar)); setM(3, H(13, 2, na, nl)); setM(4, H(14, 2, sa, sl, na + nl)); setM(5, H(15, 2, sa, sl, sal, sar, na)); setM(6, H(16, 2));
+                s = 2 + mbBit(segP[2], 2, 2);
+            }
+            sg = s; mbSeg[mb] = s;
+        }
+        if (useSkip) { setM(0, H(60, 0)); for (int i = 1; i < 7; i++) setM(i, H(60 + i, 0)); mbBit(skipP, 3, 3); }
+        // i4 flag
+        setM(0, H(20, ia, il)); setM(1, H(21, ia, il, sg)); setM(2, H(22, sg, na, nl)); setM(3, H(23, ia, il, ial, iar)); setM(4, H(24, sg)); setM(5, H(25, ia, il, ial, iar, sg)); setM(6, H(26, na, nl, ia, il));
+        int i4 = mbBit(145, 4, 4) == 0 ? 1 : 0; mbI4[mb] = i4;
+        int X0 = 4 * mx, Y0 = 4 * my;
+        if (i4 == 0) {
+            int topm = my > 0 ? grid[(Y0 - 1) * G + X0] : 0, leftm = mx > 0 ? grid[Y0 * G + X0 - 1] : 0;
+            setM(0, H(30, 0, topm, leftm)); setM(1, H(31, 0, topm, leftm, sg)); setM(2, H(32, 0, ia, il, sg)); setM(3, H(33, 0, sg)); setM(4, H(34, 0, na, nl)); setM(5, H(35, 0, topm, leftm, ia, il)); setM(6, H(36, 0));
+            int ym;
+            if (mbBit(156, 5, 5) == 1) {
+                setM(0, H(30, 1, topm, leftm)); setM(1, H(31, 1, topm, leftm, sg)); setM(2, H(32, 1, ia, il, sg)); setM(3, H(33, 1, sg)); setM(4, H(34, 1, na, nl)); setM(5, H(35, 1, topm, leftm, ia, il)); setM(6, H(36, 1));
+                ym = mbBit(128, 6, 6) == 1 ? 1 : 3;
+            } else {
+                setM(0, H(30, 2, topm, leftm)); setM(1, H(31, 2, topm, leftm, sg)); setM(2, H(32, 2, ia, il, sg)); setM(3, H(33, 2, sg)); setM(4, H(34, 2, na, nl)); setM(5, H(35, 2, topm, leftm, ia, il)); setM(6, H(36, 2));
+                ym = mbBit(163, 7, 7) == 1 ? 2 : 0;
+            }
+            for (int y = 0; y < 4; y++) for (int x = 0; x < 4; x++) grid[(Y0 + y) * G + X0 + x] = ym;
+            mbYm[mb] = ym;
+        } else {
+            int firstMode = -1;
+            for (int y = 0; y < 4; y++) {
+                for (int x = 0; x < 4; x++) {
+                    int X = X0 + x, Y = Y0 + y;
+                    int top = Y > 0 ? grid[(Y - 1) * G + X] : 0, left = X > 0 ? grid[Y * G + X - 1] : 0;
+                    int tl = (Y > 0 && X > 0) ? grid[(Y - 1) * G + X - 1] : 0;
+                    int ll = X > 1 ? grid[Y * G + X - 2] : 0, tt = Y > 1 ? grid[(Y - 2) * G + X] : 0;
+                    int tr = (Y > 0 && X + 1 < G) ? grid[(Y - 1) * G + X + 1] : 0;
+                    int base = (top * 10 + left) * 9;
+                    int node = 0;
+                    int bit = bmBit(node, base, top, left, tl, ll, tt, tr, sg);
+                    int i = TREE4[bit];
+                    while (i > 0) { node = i; bit = bmBit(node, base, top, left, tl, ll, tt, tr, sg); i = TREE4[2 * i + bit]; }
+                    int ym = -i; grid[Y * G + X] = ym; if (firstMode < 0) firstMode = ym;
+                }
+            }
+            mbYm[mb] = 4 + firstMode;
+        }
+        int uva = my > 0 ? mbUV[mb - mbw] : 4, uvl = mx > 0 ? mbUV[mb - 1] : 4;
+        int yy = mbYm[mb];
+        setM(0, H(50, 0, uva, uvl)); setM(1, H(51, 0, uva, uvl, i4)); setM(2, H(52, 0, yy, i4)); setM(3, H(53, 0, sg)); setM(4, H(54, 0, uva, uvl, yy)); setM(5, H(55, 0, na, nl)); setM(6, H(56, 0));
+        int uv;
+        if (mbBit(142, 8, 8) == 0) uv = 0;
+        else {
+            setM(0, H(50, 1, uva, uvl)); setM(1, H(51, 1, uva, uvl, i4)); setM(2, H(52, 1, yy, i4)); setM(3, H(53, 1, sg)); setM(4, H(54, 1, uva, uvl, yy)); setM(5, H(55, 1, na, nl)); setM(6, H(56, 1));
+            if (mbBit(114, 9, 9) == 0) uv = 2;
+            else {
+                setM(0, H(50, 2, uva, uvl)); setM(1, H(51, 2, uva, uvl, i4)); setM(2, H(52, 2, yy, i4)); setM(3, H(53, 2, sg)); setM(4, H(54, 2, uva, uvl, yy)); setM(5, H(55, 2, na, nl)); setM(6, H(56, 2));
+                uv = mbBit(183, 10, 10) == 1 ? 1 : 3;
+            }
+        }
+        mbUV[mb] = uv;
+    }
+
+    int bmBit(int node, int base, int top, int left, int tl, int ll, int tt, int tr, int sg) {
+        setM(0, H(40, node, top, left)); setM(1, H(41, node, top, left, sg)); setM(2, H(42, node, top, left, tl));
+        setM(3, H(43, node, left, ll)); setM(4, H(44, node, top, tt)); setM(5, H(45, node, top, left, tr)); setM(6, H(46, node, top, left, tl, tr));
+        return mbBit(T.BMODE[base + node], 16 + node, 16 + node);
+    }
+
+    // ----- tokens -----
+    int tokBit(int vp, int nd, int aux, Vp8.BD src, Vp8.BE dst) {
+        int n = curN < 16 ? curN : 15, t = curT;
+        int a = 0, l = 0, sa = 0, sl = 0;
+        if (nd == 58) {
+            int av = aOff >= 0 ? coefs[aOff + n] : 0, lv = lOff >= 0 ? coefs[lOff + n] : 0;
+            sa = av > 0 ? 1 : av < 0 ? 2 : 0; sl = lv > 0 ? 1 : lv < 0 ? 2 : 0;
+            a = sa; l = sl;
+        } else {
+            a = aOff >= 0 ? Math.abs(coefs[aOff + n]) : 0; l = lOff >= 0 ? Math.abs(coefs[lOff + n]) : 0;
+        }
+        int qa = nd == 58 ? a : Q6(a), ql = nd == 58 ? l : Q6(l);
+        int pv1 = nd == 58 ? lastSign : Q6(p1v), pv2 = Q6(p2v);
+        int tn = t * 64 + nd; cat = nd == 58 ? 58 : Math.min(nd, 15) + 16 * 0;
+        cmT.set(0, H(1, tn, n, ctx0, aux));
+        cmT.set(1, H(2, tn, n, qa * 8 + ql, aux));
+        cmT.set(2, H(3, tn, n, pv1 * 8 + pv2, aux));
+        cmT.set(3, H(4, tn, n, Math.min(nzs, 15) * 16 + QL(aNZ + lNZ), aux));
+        cmT.set(4, H(5, tn, n, mctx * 8 + seg, aux));
+        cmT.set(5, H(6, tn, n, QL(aSum + lSum) * 4 + Math.min(nzs, 3), aux));
+        cmT.set(6, H(7, tn, QL(sumS) * 16 + n, aux));
+        cmT.set(7, H(8, tn, n, (qa * 8 + ql) * 8 + pv1, aux));
+        cmT.set(8, H(9, tn, ctx0 * 64 + mctx, QL(a + l + p1v + p2v), aux));
+        int pos = Vp8.ZIG[n], rr = pos >> 2, cc = pos & 3;
+        int up = rr > 0 ? Math.abs(coefs[bOff + INV[pos - 4]]) : 0, lf = cc > 0 ? Math.abs(coefs[bOff + INV[pos - 1]]) : 0;
+        int uv = uOff >= 0 ? Math.abs(coefs[uOff + n]) : 0;
+        cmT.set(9, H(17, tn, n, Math.min(mbCnt, 40) / 2 * 8 + Q6(prevCnt), aux));
+        cmT.set(10, H(18, tn, n, QL(mbCnt) * 8 + QL(aSum + lSum), mctx, aux));
+        int asg = aOff >= 0 ? mbSeg[aOff / 400] : 4, lsg = lOff >= 0 ? mbSeg[lOff / 400] : 4;
+        cmT.set(11, H(19, tn, n, qa * 8 + ql, seg * 25 + asg * 5 + lsg, aux));
+        int ndc = nd < 3 ? nd : 3;
+        cmT.sa = nd * 16 + n; cmT.sb = ((t * 3 + ctx0) * 8 + Math.min(nzs, 7)) * 4 + ndc;
+        cmT.sc = (H(21, tn, n, mctx, ctx0) >>> 18); cmT.sf = nd * 4 + t;
+        cmT.c1 = nd * 16 + n; cmT.c2 = H(11, tn, qa, ql, pv1) >>> 16;
+        return cbit(cmT, vp, src, dst);
+    }
+
+    int block(Vp8.BD src, Vp8.BE dst, int type, int ctx, int first, int off, int an, int ln) {
+        curT = type; ctx0 = ctx; bOff = off; p1v = p2v = 0; nzs = 0; sumS = 0; lastSign = 0;
+        int n = first;
+        for (; n < 16; n++) {
+            curN = n;
+            if (tokBit(0, 0, 0, src, dst) == 0) return n; // placeholder replaced by real prob below
+        }
+        return 16;
+    }
+
+    int getCoeffs(Vp8.BD src, Vp8.BE dst, int type, int ctx, int n, int off, int aO, int lO, int mc) {
+        int r = getCoeffs0(src, dst, type, ctx, n, off, aO, lO, mc); prevCnt = 0; for (int i = 0; i < 16; i++) if (coefs[off + i] != 0) prevCnt++; mbCnt += prevCnt; return r;
+    }
+    int getCoeffs0(Vp8.BD src, Vp8.BE dst, int type, int ctx, int n, int off, int aO, int lO, int mc) {
+        curT = type; ctx0 = ctx; bOff = off; aOff = aO; lOff = lO; mctx = mc; p1v = p2v = 0; nzs = 0; sumS = 0; lastSign = 0;
+        aNZ = lNZ = aSum = lSum = 0; aLast = lLast = 0;
+        uOff = (type == 2 && ((off / 16) % 25) >= 20) ? off - 64 : -1;
+        if (aO >= 0) for (int i = 0; i < 16; i++) { int v = Math.abs(coefs[aO + i]); if (v != 0) { aNZ++; aSum += v; aLast = i + 1; } }
+        if (lO >= 0) for (int i = 0; i < 16; i++) { int v = Math.abs(coefs[lO + i]); if (v != 0) { lNZ++; lSum += v; lLast = i + 1; } }
+        int pi = ((type * 8 + BANDS[n]) * 3 + ctx) * 11;
+        for (; n < 16; n++) {
+            curN = n;
+            if (tokBit(P[pi], 0, 0, src, dst) == 0) return n;
+            while (tokBit(P[pi + 1], 1, 0, src, dst) == 0) {
+                p2v = p1v; p1v = 0;
+                n++; if (n == 16) return 16;
+                curN = n;
+                pi = ((type * 8 + BANDS[n]) * 3) * 11;
+            }
+            int nb = ((type * 8 + BANDS[n + 1]) * 3) * 11;
+            int v;
+            if (tokBit(P[pi + 2], 2, 0, src, dst) == 0) { v = 1; pi = nb + 11; }
+            else {
+                if (tokBit(P[pi + 3], 3, 0, src, dst) == 0) {
+                    if (tokBit(P[pi + 4], 4, 0, src, dst) == 0) v = 2; else v = 3 + tokBit(P[pi + 5], 5, 0, src, dst);
+                } else if (tokBit(P[pi + 6], 6, 0, src, dst) == 0) {
+                    if (tokBit(P[pi + 7], 7, 0, src, dst) == 0) v = 5 + tokBit(159, 11, 0, src, dst);
+                    else { v = 7 + 2 * tokBit(165, 12, 0, src, dst); v += tokBit(145, 13, 0, src, dst); }
+                } else {
+                    int b1 = tokBit(P[pi + 8], 8, 0, src, dst); int b0 = tokBit(P[pi + 9 + b1], 9 + b1, 0, src, dst); int cat = 2 * b1 + b0;
+                    v = 0; int j = 0;
+                    for (int pr : CAT[cat]) { v += v + tokBit(pr, 14 + cat * 11 + j, v, src, dst); j++; }
+                    v += 3 + (8 << cat);
+                }
+                pi = nb + 22;
+            }
+            int s = tokBit(128, 58, 0, src, dst);
+            coefs[off + n] = (short) (s == 1 ? -v : v);
+            p2v = p1v; p1v = v; nzs++; sumS += v; lastSign = s + 1;
+        }
+        return 16;
+    }
+
+    // block neighbour offsets
+    int offA(int mx, int my, int mb, int blk) {
+        if (blk < 16) { int bx = blk & 3, by = blk >> 2; if (by > 0) return mb * 400 + (blk - 4) * 16; return my > 0 ? (mb - mbw) * 400 + (12 + bx) * 16 : -1; }
+        if (blk < 24) { int pb = blk < 20 ? 16 : 20; int r = blk - pb; int bx = r & 1, by = r >> 1; if (by > 0) return mb * 400 + (pb + bx) * 16; return my > 0 ? (mb - mbw) * 400 + (pb + 2 + bx) * 16 : -1; }
+        return my > 0 ? (mb - mbw) * 400 + 24 * 16 : -1;
+    }
+    int offL(int mx, int my, int mb, int blk) {
+        if (blk < 16) { int bx = blk & 3, by = blk >> 2; if (bx > 0) return mb * 400 + (blk - 1) * 16; return mx > 0 ? (mb - 1) * 400 + (by * 4 + 3) * 16 : -1; }
+        if (blk < 24) { int pb = blk < 20 ? 16 : 20; int r = blk - pb; int bx = r & 1, by = r >> 1; if (bx > 0) return mb * 400 + (pb + by * 2) * 16; return mx > 0 ? (mb - 1) * 400 + (pb + by * 2 + 1) * 16 : -1; }
+        return mx > 0 ? (mb - 1) * 400 + 24 * 16 : -1;
+    }
+
+    void run() {
+        header();
+        int nmb = (mbw = (W + 15) >> 4) * (mbh = (H + 15) >> 4);
+        G = 4 * mbw;
+        coefs = new short[nmb * 400]; mbSeg = new int[nmb]; mbI4 = new int[nmb]; mbUV = new int[nmb]; mbAct = new int[nmb]; mbYm = new int[nmb];
+        grid = new int[G * 4 * mbh];
+        int[] topNz = new int[mbw], topDc = new int[mbw];
+        for (int my = 0; my < mbh; my++) {
+            int leftNz = 0, leftDc = 0;
+            int part = my & (nparts - 1);
+            Vp8.BD src = enc ? tsrc[part] : null; Vp8.BE dst = enc ? null : tdst[part];
+            for (int mx = 0; mx < mbw; mx++) {
+                int mb = my * mbw + mx;
+                modes(mx, my, mb);
+                seg = mbSeg[mb]; int i4 = mbI4[mb]; mbCnt = 0; prevCnt = 0;
+                int act = 0;
+                int first, type;
+                int ymc = i4 == 0 ? mbYm[mb] : 0;
+                if (i4 == 0) {
+                    int ctx = topDc[mx] + leftDc;
+                    int nz = getCoeffs(src, dst, 1, ctx, 0, mb * 400 + 24 * 16, offA(mx, my, mb, 24), offL(mx, my, mb, 24), ymc);
+                    topDc[mx] = leftDc = nz > 0 ? 1 : 0;
+                    first = 1; type = 0;
+                } else { first = 0; type = 3; }
+                int tnz = topNz[mx] & 15, lnz = leftNz & 15;
+                for (int y = 0; y < 4; y++) {
+                    int l = lnz & 1;
+                    for (int x = 0; x < 4; x++) {
+                        int blk = y * 4 + x;
+                        int mc = i4 == 0 ? ymc : 4 + grid[(4 * my + y) * G + 4 * mx + x];
+                        int ctx = l + (tnz & 1);
+                        int nz = getCoeffs(src, dst, type, ctx, first, mb * 400 + blk * 16, offA(mx, my, mb, blk), offL(mx, my, mb, blk), mc);
+                        l = nz > first ? 1 : 0;
+                        tnz = (tnz >> 1) | (l << 7);
+                    }
+                    tnz >>= 4; lnz = (lnz >> 1) | (l << 7);
+                }
+                int outT = tnz & 15, outL = (lnz >> 4) & 15;
+                for (int ch = 0; ch < 4; ch += 2) {
+                    tnz = topNz[mx] >> (4 + ch); lnz = leftNz >> (4 + ch);
+                    for (int y = 0; y < 2; y++) {
+                        int l = lnz & 1;
+                        for (int x = 0; x < 2; x++) {
+                            int blk = 16 + (ch / 2) * 4 + y * 2 + x;
+                            int ctx = l + (tnz & 1);
+                            int nz = getCoeffs(src, dst, 2, ctx, 0, mb * 400 + blk * 16, offA(mx, my, mb, blk), offL(mx, my, mb, blk), 20 + mbUV[mb]);
+                            l = nz > 0 ? 1 : 0;
+                            tnz = (tnz >> 1) | (l << 3);
+                        }
+                        tnz >>= 2; lnz = (lnz >> 1) | (l << 5);
+                    }
+                    outT |= (tnz & 3) << (4 + ch); outL |= ((lnz >> 4) & 3) << (4 + ch);
+                }
+                topNz[mx] = outT; leftNz = outL;
+                int cnt = 0; int base = mb * 400; for (int i = 0; i < 400; i++) if (coefs[base + i] != 0) cnt++;
+                mbAct[mb] = cnt;
+            }
+        }
+    }
+
+    // ================= container =================
+    static void wv(DataOutputStream o, int v) throws IOException { while (v >= 128) { o.write((v & 127) | 128); v >>>= 7; } o.write(v); }
+    static int rv(DataInputStream i) throws IOException { return UserCodecIO.readVar(i); }
+
+    static byte[] compress(byte[] data) throws Exception {
+        int i = 12, off = -1, len = 0;
+        while (i <= data.length - 8) {
+            String id = new String(data, i, 4, "ISO-8859-1");
+            int n = (data[i + 4] & 255) | ((data[i + 5] & 255) << 8) | ((data[i + 6] & 255) << 16) | ((data[i + 7] & 255) << 24);
+            if(n<0 || (long)i+8+n+(n&1)>data.length)throw new IllegalArgumentException("Invalid RIFF chunk size");
+            if (id.equals("VP8 ")) { off = i + 8; len = n; }
+            i += 8 + n + (n & 1);
+        }
+        if(off<0 || len<10)throw new IllegalArgumentException("No lossy VP8 chunk");
+        Vp8 v = new Vp8(); v.parse(data, off, len);
+        Ivo w = new Ivo(true);
+        w.W = v.W; w.H = v.H;
+        w.p1src = new Vp8.BD(data, v.p1Start, v.p1Start + v.p1Len, null);
+        w.tsrc = new Vp8.BD[v.nparts]; for (int k = 0; k < v.nparts; k++) w.tsrc[k] = new Vp8.BD(data, v.partStart[k], v.partEnd[k], null);
+        w.ae = new Enc();
+        w.run();
+        byte[] payload = w.ae.finish();
+        // fixups: re-encode logged symbols to find the identical prefix
+        ByteArrayOutputStream mb = new ByteArrayOutputStream(); DataOutputStream mo = new DataOutputStream(mb);
+        wv(mo, off); mo.write(data, 0, off);                       // prefix (RIFF.. up to VP8 payload)
+        int end = off + len; wv(mo, data.length - end); mo.write(data, end, data.length - end); // suffix
+        wv(mo, v.W); wv(mo, v.H); mo.write(data, off, 10);
+        wv(mo, v.nparts);
+        for (int k = 0; k < v.nparts + 1; k++) {
+            Vp8.IL log = k == 0 ? v.logP1 : v.logTok[k - 1];
+            int s0 = k == 0 ? v.p1Start : v.partStart[k - 1], e0 = k == 0 ? v.p1Start + v.p1Len : v.partEnd[k - 1];
+            Vp8.BE be = new Vp8.BE(); for (int q = 0; q < log.n; q++) be.bit(log.a[q] >> 1, log.a[q] & 1);
+            byte[] r = be.finish(); int same = 0; int L = e0 - s0;
+            while (same < Math.min(L, r.length) && r[same] == data[s0 + same]) same++;
+            wv(mo, L); wv(mo, same); mo.write(data, s0 + same, L - same);
+        }
+        mo.flush();
+        ByteArrayOutputStream z = new ByteArrayOutputStream(); z.writeBytes(UserCodecIO.deflate(mb.toByteArray()));
+        ByteArrayOutputStream out = new ByteArrayOutputStream(); DataOutputStream oo = new DataOutputStream(out);
+        oo.write('I'); oo.write('V'); oo.write('O'); oo.write('1'); wv(oo, z.size()); oo.write(z.toByteArray()); oo.write(payload);
+        { double[] g = new double[8]; String[] nm = {"zero/EOB(nd0)","nd1","nd2","nd3-5","nd6-15","sign","modes","extra"}; for (int k = 0; k < 256; k++) { if (w.CNT[k] == 0) continue; int j = k == 0 ? 0 : k == 1 ? 1 : k == 2 ? 2 : k < 6 ? 3 : k == 58 ? 5 : k >= 100 ? 6 : 4; g[j] += w.COST[k] / 8; }
+          for (int j = 0; j < 7; j++) System.err.printf("  %s: %.0f bytes%n", nm[j], g[j]); }
+        System.err.printf("meta(deflated)=%d payload=%d%n", z.size(), payload.length);
+        return out.toByteArray();
+    }
+
+    static byte[] decompress(byte[] c) throws Exception {
+        DataInputStream in = new DataInputStream(new ByteArrayInputStream(c));
+        in.skipBytes(4); int zl = rv(in); if(zl>in.available())throw new IllegalArgumentException("Truncated WebP metadata"); byte[] zb = new byte[zl]; in.readFully(zb);
+        int payloadOff = c.length - in.available();
+        DataInputStream m = new DataInputStream(new ByteArrayInputStream(UserCodecIO.inflate(zb)));
+        int pl = rv(m); if(pl>m.available())throw new IllegalArgumentException("WebP prefix length"); byte[] prefix = new byte[pl]; m.readFully(prefix);
+        int sl = rv(m); if(sl>m.available())throw new IllegalArgumentException("WebP suffix length"); byte[] suffix = new byte[sl]; m.readFully(suffix);
+        int W = rv(m), H = rv(m); byte[] fh = new byte[10]; m.readFully(fh);
+        int nparts = rv(m);
+        if(W<1 || H<1 || ((long)(W+15)/16)*((H+15)/16)>16384 || (nparts!=1 && nparts!=2 && nparts!=4 && nparts!=8))throw new IllegalArgumentException("WebP dimensions or partitions");
+        long total=pl+(long)sl+10+3*(nparts-1);
+        int[] L = new int[nparts + 1], S = new int[nparts + 1]; byte[][] fix = new byte[nparts + 1][];
+        for (int k = 0; k < nparts + 1; k++) { L[k] = rv(m); S[k] = rv(m); total+=L[k]; if(S[k]>L[k] || L[k]-S[k]>m.available() || total>UserCodecIO.MAX_BYTES)throw new IllegalArgumentException("WebP partition length"); fix[k] = new byte[L[k] - S[k]]; m.readFully(fix[k]); }
+        if(m.available()!=0)throw new IllegalArgumentException("Trailing WebP metadata");
+        Ivo w = new Ivo(false);
+        w.W = W; w.H = H; w.nparts = nparts; // nparts re-derived by header()
+        w.p1dst = new Vp8.BE(); w.tdst = new Vp8.BE[nparts]; for (int k = 0; k < nparts; k++) w.tdst[k] = new Vp8.BE();
+        w.ad = new Dec(c, payloadOff);
+        w.run();
+        ByteArrayOutputStream o = new ByteArrayOutputStream();
+        o.write(prefix); o.write(fh);
+        byte[][] parts = new byte[nparts + 1][];
+        for (int k = 0; k < nparts + 1; k++) {
+            byte[] r = (k == 0 ? w.p1dst : w.tdst[k - 1]).finish();
+            byte[] full = new byte[L[k]]; if(S[k]>r.length)throw new IllegalArgumentException("Short WebP reconstructed prefix"); System.arraycopy(r, 0, full, 0, S[k]); System.arraycopy(fix[k], 0, full, S[k], fix[k].length);
+            parts[k] = full;
+        }
+        o.write(parts[0]);
+        for (int k = 1; k < nparts; k++) { int len = parts[k].length; o.write(len & 255); o.write((len >> 8) & 255); o.write((len >> 16) & 255); }
+        for (int k = 1; k < nparts + 1; k++) o.write(parts[k]);
+        o.write(suffix);
+        return o.toByteArray();
+    }
+
+}

@@ -1,0 +1,4 @@
+PASS frames=709 P_first_mb_skip_flags=706 skip_ones=106 mismatches=0 external_reference=FFmpeg_mb_type
+NOT_DONE: remaining macroblocks, CABAC encoder, byte-exact CABAC roundtrip, new compression measurement
+PASS altered_source_header_rejected=true
+PASS altered_reference_skip_rejected=true

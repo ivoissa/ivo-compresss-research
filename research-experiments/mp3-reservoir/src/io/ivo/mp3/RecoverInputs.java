@@ -1,0 +1,3 @@
+package io.ivo.mp3;
+import io.ivo.container.*;import io.ivo.util.*;import java.nio.file.*;import java.util.*;
+public class RecoverInputs { public static void main(String[] args)throws Exception {IvoArchive a=IvoContainer.unpack(Files.readAllBytes(Path.of(args[0])));byte[] r=ReservoirTrial.decodeV3(a.payload());if(r.length!=a.originalSize()||!Arrays.equals(a.sha256(),Hashing.sha256(r)))throw new AssertionError("Input integrity");Path p=Path.of(args[1]);Files.createDirectories(p.getParent());Files.write(p,r);System.out.println(p+" bytes="+r.length+" sha="+HexFormat.of().formatHex(Hashing.sha256(r)));}}

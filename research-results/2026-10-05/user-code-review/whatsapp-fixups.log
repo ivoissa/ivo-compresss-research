@@ -1,0 +1,4 @@
+slices modeled=709 raw=0 | modeled NAL bytes=5065804 header bytes=2049 tail bytes=5311 | skeleton=361839
+model bytes by group: skip=25203 mbtype=80342 mvd=196096 ref=0 intra/chroma/t8=64632 cbp=165977 qpdelta=37459 cbf=418951 sig=1359452 last=504277 abs=668973 bypass=896311 term=38
+meta(deflated)=359929 (raw 378291) payload=4417711
+original=5427643 compressed=4777647 delta=-11.98% GAIN | identical=true | comp 25307 ms, decomp 22118 ms

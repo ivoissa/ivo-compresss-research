@@ -1,0 +1,433 @@
+ffmpeg version 6.1.1-3ubuntu5 Copyright (c) 2000-2023 the FFmpeg developers
+  built with gcc 13 (Ubuntu 13.2.0-23ubuntu3)
+  configuration: --prefix=/usr --extra-version=3ubuntu5 --toolchain=hardened --libdir=/usr/lib/x86_64-linux-gnu --incdir=/usr/include/x86_64-linux-gnu --arch=amd64 --enable-gpl --disable-stripping --disable-omx --enable-gnutls --enable-libaom --enable-libass --enable-libbs2b --enable-libcaca --enable-libcdio --enable-libcodec2 --enable-libdav1d --enable-libflite --enable-libfontconfig --enable-libfreetype --enable-libfribidi --enable-libglslang --enable-libgme --enable-libgsm --enable-libharfbuzz --enable-libmp3lame --enable-libmysofa --enable-libopenjpeg --enable-libopenmpt --enable-libopus --enable-librubberband --enable-libshine --enable-libsnappy --enable-libsoxr --enable-libspeex --enable-libtheora --enable-libtwolame --enable-libvidstab --enable-libvorbis --enable-libvpx --enable-libwebp --enable-libx265 --enable-libxml2 --enable-libxvid --enable-libzimg --enable-openal --enable-opencl --enable-opengl --disable-sndio --enable-libvpl --disable-libmfx --enable-libdc1394 --enable-libdrm --enable-libiec61883 --enable-chromaprint --enable-frei0r --enable-ladspa --enable-libbluray --enable-libjack --enable-libpulse --enable-librabbitmq --enable-librist --enable-libsrt --enable-libssh --enable-libsvtav1 --enable-libx264 --enable-libzmq --enable-libzvbi --enable-lv2 --enable-sdl2 --enable-libplacebo --enable-librav1e --enable-pocketsphinx --enable-librsvg --enable-libjxl --enable-shared
+  libavutil      58. 29.100 / 58. 29.100
+  libavcodec     60. 31.102 / 60. 31.102
+  libavformat    60. 16.100 / 60. 16.100
+  libavdevice    60.  3.100 / 60.  3.100
+  libavfilter     9. 12.100 /  9. 12.100
+  libswscale      7.  5.100 /  7.  5.100
+  libswresample   4. 12.100 /  4. 12.100
+  libpostproc    57.  3.100 / 57.  3.100
+Splitting the commandline.
+Reading option '-v' ... matched as option 'v' (set logging level) with argument 'debug'.
+Reading option '-threads' ... matched as AVOption 'threads' with argument '1'.
+Reading option '-debug' ... matched as AVOption 'debug' with argument 'mb_type'.
+Reading option '-probesize' ... matched as AVOption 'probesize' with argument '32'.
+Reading option '-analyzeduration' ... matched as AVOption 'analyzeduration' with argument '0'.
+Reading option '-f' ... matched as option 'f' (force format) with argument 'h264'.
+Reading option '-i' ... matched as output url with argument '/workspace/scratch/9c62166e5fd0/recap/ivo-java-complet-2026-10-04/research-results/2026-10-04/mp4-cabac-motion/detail/source.h264'.
+Reading option '-map' ... matched as option 'map' (set input stream mapping) with argument '0:v:0'.
+Reading option '-an' ... matched as option 'an' (disable audio) with argument '1'.
+Reading option '-f' ... matched as option 'f' (force format) with argument 'null'.
+Reading option '-' ... matched as output url.
+Finished splitting the commandline.
+Parsing a group of options: global .
+Applying option v (set logging level) with argument debug.
+Successfully parsed a group of options.
+Parsing a group of options: input url /workspace/scratch/9c62166e5fd0/recap/ivo-java-complet-2026-10-04/research-results/2026-10-04/mp4-cabac-motion/detail/source.h264.
+Applying option f (force format) with argument h264.
+Successfully parsed a group of options.
+Opening an input file: /workspace/scratch/9c62166e5fd0/recap/ivo-java-complet-2026-10-04/research-results/2026-10-04/mp4-cabac-motion/detail/source.h264.
+[h264 @ 0x55e7dcdf1cc0] Opening '/workspace/scratch/9c62166e5fd0/recap/ivo-java-complet-2026-10-04/research-results/2026-10-04/mp4-cabac-motion/detail/source.h264' for reading
+[file @ 0x55e7dcdf2340] Setting default whitelist 'file,crypto,data'
+[h264 @ 0x55e7dcdf1cc0] Before avformat_find_stream_info() pos: 0 bytes read:9427 seeks:0 nb_streams:1
+[h264 @ 0x55e7dcdfac00] Decoding VUI
+[extract_extradata @ 0x55e7dce13840] nal_unit_type: 6(SEI), nal_ref_idc: 0
+[extract_extradata @ 0x55e7dce13840] nal_unit_type: 7(SPS), nal_ref_idc: 3
+[extract_extradata @ 0x55e7dce13840] nal_unit_type: 8(PPS), nal_ref_idc: 3
+[extract_extradata @ 0x55e7dce13840] nal_unit_type: 5(IDR), nal_ref_idc: 3
+[h264 @ 0x55e7dcdfac00] nal_unit_type: 6(SEI), nal_ref_idc: 0
+[h264 @ 0x55e7dcdfac00] nal_unit_type: 7(SPS), nal_ref_idc: 3
+[h264 @ 0x55e7dcdfac00] nal_unit_type: 8(PPS), nal_ref_idc: 3
+[h264 @ 0x55e7dcdfac00] nal_unit_type: 5(IDR), nal_ref_idc: 3
+[h264 @ 0x55e7dcdfac00] Decoding VUI
+[h264 @ 0x55e7dcdfac00] Format yuv420p chosen by get_format().
+[h264 @ 0x55e7dcdfac00] Reinit context to 96x96, pix_fmt: yuv420p
+[h264 @ 0x55e7dcdfac00] New frame, type: I
+[h264 @ 0x55e7dcdfac00] I  i  i  i  i  i  
+[h264 @ 0x55e7dcdfac00] I  I  i  i  i  i  
+[h264 @ 0x55e7dcdfac00] I  I  I  I  I  i  
+[h264 @ 0x55e7dcdfac00] I  I  I  I  I  I  
+[h264 @ 0x55e7dcdfac00] I  I  I  I  I  I  
+[h264 @ 0x55e7dcdfac00] I  I  I  I  I  I  
+[h264 @ 0x55e7dcdf1cc0] Probe buffer size limit of 32 bytes reached
+[h264 @ 0x55e7dcdf1cc0] Stream #0: not enough frames to estimate rate; consider increasing probesize
+[h264 @ 0x55e7dcdf1cc0] After avformat_find_stream_info() pos: 2048 bytes read:9427 seeks:0 frames:1
+Input #0, h264, from '/workspace/scratch/9c62166e5fd0/recap/ivo-java-complet-2026-10-04/research-results/2026-10-04/mp4-cabac-motion/detail/source.h264':
+  Duration: N/A, bitrate: N/A
+  Stream #0:0, 1, 1/1200000: Video: h264 (High), 1 reference frame, yuv420p(progressive, left), 96x96 [SAR 1:1 DAR 1:1], 0/1, 25 fps, 30 tbr, 1200k tbn
+Successfully opened the file.
+Parsing a group of options: output url -.
+Applying option map (set input stream mapping) with argument 0:v:0.
+Applying option an (disable audio) with argument 1.
+Applying option f (force format) with argument null.
+Successfully parsed a group of options.
+Opening an output file: -.
+[out#0/null @ 0x55e7dce12740] Adding streams from explicit maps...
+[vost#0:0/wrapped_avframe @ 0x55e7dce42c00] Created video stream from input stream 0:0
+[h264 @ 0x55e7dce41540] nal_unit_type: 7(SPS), nal_ref_idc: 3
+[h264 @ 0x55e7dce41540] nal_unit_type: 8(PPS), nal_ref_idc: 3
+[h264 @ 0x55e7dce41540] Decoding VUI
+Successfully opened the file.
+Stream mapping:
+  Stream #0:0 -> #0:0 (h264 (native) -> wrapped_avframe (native))
+Press [q] to stop, [?] for help
+[h264 @ 0x55e7dce41540] nal_unit_type: 6(SEI), nal_ref_idc: 0
+[h264 @ 0x55e7dce41540] nal_unit_type: 7(SPS), nal_ref_idc: 3
+[h264 @ 0x55e7dce41540] nal_unit_type: 8(PPS), nal_ref_idc: 3
+[h264 @ 0x55e7dce41540] nal_unit_type: 5(IDR), nal_ref_idc: 3
+[h264 @ 0x55e7dce41540] Decoding VUI
+[h264 @ 0x55e7dce41540] Format yuv420p chosen by get_format().
+[h264 @ 0x55e7dce41540] Reinit context to 96x96, pix_fmt: yuv420p
+[h264 @ 0x55e7dce41540] New frame, type: I
+[h264 @ 0x55e7dce41540] I  i  i  i  i  i  
+[h264 @ 0x55e7dce41540] I  I  i  i  i  i  
+[h264 @ 0x55e7dce41540] I  I  I  I  I  i  
+[h264 @ 0x55e7dce41540] I  I  I  I  I  I  
+[h264 @ 0x55e7dce41540] I  I  I  I  I  I  
+[h264 @ 0x55e7dce41540] I  I  I  I  I  I  
+detected 9 logical cores
+[graph 0 input from stream 0:0 @ 0x55e7dce78380] Setting 'video_size' to value '96x96'
+[graph 0 input from stream 0:0 @ 0x55e7dce78380] Setting 'pix_fmt' to value '0'
+[graph 0 input from stream 0:0 @ 0x55e7dce78380] Setting 'time_base' to value '1/1200000'
+[graph 0 input from stream 0:0 @ 0x55e7dce78380] Setting 'pixel_aspect' to value '1/1'
+[graph 0 input from stream 0:0 @ 0x55e7dce78380] Setting 'frame_rate' to value '15/1'
+[graph 0 input from stream 0:0 @ 0x55e7dce78380] w:96 h:96 pixfmt:yuv420p tb:1/1200000 fr:15/1 sar:1/1
+[AVFilterGraph @ 0x55e7dcdf2100] query_formats: 3 queried, 2 merged, 0 already done, 0 delayed
+Output #0, null, to 'pipe:':
+  Metadata:
+    encoder         : Lavf60.16.100
+  Stream #0:0, 0, 1/15: Video: wrapped_avframe, 1 reference frame, yuv420p(progressive, left), 96x96 (0x0) [SAR 1:1 DAR 1:1], 0/1, q=2-31, 200 kb/s, 15 fps, 15 tbn
+    Metadata:
+      encoder         : Lavc60.31.102 wrapped_avframe
+frame=    0 fps=0.0 q=-0.0 size=       0kB time=00:00:00.00 bitrate=N/A speed=N/A    [h264 @ 0x55e7dce41540] nal_unit_type: 1(Coded slice of a non-IDR picture), nal_ref_idc: 2
+[h264 @ 0x55e7dce41540] New frame, type: P
+[h264 @ 0x55e7dce41540] >+ >+ >+ >+ >  >  
+[h264 @ 0x55e7dce41540] S  >| >  >  >  >  
+[h264 @ 0x55e7dce41540] S  S  >  S  >  >  
+[h264 @ 0x55e7dce41540] S  S  >  S  S  S  
+[h264 @ 0x55e7dce41540] S  S  >  S  S  S  
+[h264 @ 0x55e7dce41540] S  S  >  S  S  S  
+[h264 @ 0x55e7dce41540] nal_unit_type: 1(Coded slice of a non-IDR picture), nal_ref_idc: 2
+[h264 @ 0x55e7dce41540] New frame, type: P
+[h264 @ 0x55e7dce41540] >  >+ >- >+ S  S  
+[h264 @ 0x55e7dce41540] >| >  >- >- >  >  
+[h264 @ 0x55e7dce41540] S  >  S  >  >  >  
+[h264 @ 0x55e7dce41540] S  >  S  S  S  >  
+[h264 @ 0x55e7dce41540] S  >  S  S  S  S  
+[h264 @ 0x55e7dce41540] S  >  S  S  S  S  
+[h264 @ 0x55e7dce41540] nal_unit_type: 1(Coded slice of a non-IDR picture), nal_ref_idc: 2
+[h264 @ 0x55e7dce41540] New frame, type: P
+[h264 @ 0x55e7dce41540] >+ >- >+ >+ >  >  
+[h264 @ 0x55e7dce41540] >  >+ >+ >  >  I  
+[h264 @ 0x55e7dce41540] >  S  >+ >+ >+ >+ 
+[h264 @ 0x55e7dce41540] >  S  S  S  >- >  
+[h264 @ 0x55e7dce41540] >  S  S  S  S  S  
+[h264 @ 0x55e7dce41540] >  S  S  S  S  S  
+[h264 @ 0x55e7dce41540] nal_unit_type: 1(Coded slice of a non-IDR picture), nal_ref_idc: 2
+[h264 @ 0x55e7dce41540] New frame, type: P
+[h264 @ 0x55e7dce41540] >+ >  S  >+ S  S  
+[h264 @ 0x55e7dce41540] >+ >+ >| >| I  S  
+[h264 @ 0x55e7dce41540] >  >+ >- >+ >+ >+ 
+[h264 @ 0x55e7dce41540] >  S  S  S  >+ >+ 
+[h264 @ 0x55e7dce41540] >  S  S  S  S  I  
+[h264 @ 0x55e7dce41540] >  S  S  S  S  I  
+[h264 @ 0x55e7dce41540] nal_unit_type: 1(Coded slice of a non-IDR picture), nal_ref_idc: 2
+[h264 @ 0x55e7dce41540] New frame, type: P
+[h264 @ 0x55e7dce41540] >- I  S  >+ >  >  
+[h264 @ 0x55e7dce41540] >+ >+ >+ I  I  S  
+[h264 @ 0x55e7dce41540] >  >+ >+ >- >  >+ 
+[h264 @ 0x55e7dce41540] >  S  >  >  >+ >  
+[h264 @ 0x55e7dce41540] >  S  S  S  S  >  
+[h264 @ 0x55e7dce41540] >  S  S  S  S  S  
+[h264 @ 0x55e7dce41540] nal_unit_type: 1(Coded slice of a non-IDR picture), nal_ref_idc: 2
+[h264 @ 0x55e7dce41540] New frame, type: P
+[h264 @ 0x55e7dce41540] >+ S  S  S  S  S  
+[h264 @ 0x55e7dce41540] >+ >  I  S  S  S  
+[h264 @ 0x55e7dce41540] >+ >- >+ >  >  I  
+[h264 @ 0x55e7dce41540] >  S  >+ >  >+ >  
+[h264 @ 0x55e7dce41540] >  S  S  S  S  >  
+[h264 @ 0x55e7dce41540] >  S  S  S  S  S  
+[h264 @ 0x55e7dce41540] nal_unit_type: 1(Coded slice of a non-IDR picture), nal_ref_idc: 2
+[h264 @ 0x55e7dce41540] New frame, type: P
+[h264 @ 0x55e7dce41540] S  S  S  >+ S  S  
+[h264 @ 0x55e7dce41540] >  I  S  S  S  S  
+[h264 @ 0x55e7dce41540] >+ >+ >  >  I  S  
+[h264 @ 0x55e7dce41540] >  >  >- >+ >+ >  
+[h264 @ 0x55e7dce41540] >  S  S  >  >  >  
+[h264 @ 0x55e7dce41540] >  S  S  S  S  >  
+[h264 @ 0x55e7dce41540] nal_unit_type: 1(Coded slice of a non-IDR picture), nal_ref_idc: 2
+[h264 @ 0x55e7dce41540] New frame, type: P
+[h264 @ 0x55e7dce41540] S  S  S  >+ S  S  
+[h264 @ 0x55e7dce41540] I  S  S  S  S  S  
+[h264 @ 0x55e7dce41540] >- >+ I  I  S  S  
+[h264 @ 0x55e7dce41540] >  >- >+ >+ >  >  
+[h264 @ 0x55e7dce41540] >  S  >  >  >+ >  
+[h264 @ 0x55e7dce41540] >  S  S  S  S  >+ 
+[h264 @ 0x55e7dce41540] nal_unit_type: 1(Coded slice of a non-IDR picture), nal_ref_idc: 2
+[h264 @ 0x55e7dce41540] New frame, type: P
+[h264 @ 0x55e7dce41540] >  S  S  >  S  S  
+[h264 @ 0x55e7dce41540] >  S  S  S  S  S  
+[h264 @ 0x55e7dce41540] >+ >  I  S  S  S  
+[h264 @ 0x55e7dce41540] >+ >+ >| >  >  I  
+[h264 @ 0x55e7dce41540] S  >  >- >+ >  >  
+[h264 @ 0x55e7dce41540] S  >  S  S  >  >  
+[h264 @ 0x55e7dce41540] nal_unit_type: 1(Coded slice of a non-IDR picture), nal_ref_idc: 2
+[h264 @ 0x55e7dce41540] New frame, type: P
+[h264 @ 0x55e7dce41540] >  S  >  >+ S  S  
+[h264 @ 0x55e7dce41540] >+ S  S  S  S  S  
+[h264 @ 0x55e7dce41540] >  I  S  S  S  S  
+[h264 @ 0x55e7dce41540] >+ >+ >  >  I  S  
+[h264 @ 0x55e7dce41540] >  >  >- >+ >+ >  
+[h264 @ 0x55e7dce41540] >  S  S  >  >+ >  
+[h264 @ 0x55e7dce41540] nal_unit_type: 1(Coded slice of a non-IDR picture), nal_ref_idc: 2
+[h264 @ 0x55e7dce41540] New frame, type: P
+[h264 @ 0x55e7dce41540] S  S  S  >  S  S  
+[h264 @ 0x55e7dce41540] >  S  S  S  S  S  
+[h264 @ 0x55e7dce41540] >  S  S  S  S  S  
+[h264 @ 0x55e7dce41540] >+ >| I  I  S  S  
+[h264 @ 0x55e7dce41540] >  >+ >- >  >  I  
+[h264 @ 0x55e7dce41540] >  S  >  >+ >+ >  
+[h264 @ 0x55e7dce41540] nal_unit_type: 1(Coded slice of a non-IDR picture), nal_ref_idc: 2
+[h264 @ 0x55e7dce41540] New frame, type: P
+[h264 @ 0x55e7dce41540] S  S  S  >  S  S  
+[h264 @ 0x55e7dce41540] >- S  S  S  S  S  
+[h264 @ 0x55e7dce41540] >| S  S  S  S  S  
+[h264 @ 0x55e7dce41540] >+ >- S  S  S  S  
+[h264 @ 0x55e7dce41540] >+ >  >- >+ I  S  
+[h264 @ 0x55e7dce41540] >  S  >+ >+ >+ >+ 
+[h264 @ 0x55e7dce41540] nal_unit_type: 1(Coded slice of a non-IDR picture), nal_ref_idc: 2
+[h264 @ 0x55e7dce41540] New frame, type: P
+[h264 @ 0x55e7dce41540] S  S  S  >+ >  >  
+[h264 @ 0x55e7dce41540] >+ >  S  S  >  S  
+[h264 @ 0x55e7dce41540] >+ >| S  S  >  S  
+[h264 @ 0x55e7dce41540] >  S  S  S  >  S  
+[h264 @ 0x55e7dce41540] >  >- >  I  I  S  
+[h264 @ 0x55e7dce41540] >+ >+ >+ >- >+ >  
+[h264 @ 0x55e7dce41540] nal_unit_type: 1(Coded slice of a non-IDR picture), nal_ref_idc: 2
+[h264 @ 0x55e7dce41540] New frame, type: P
+[h264 @ 0x55e7dce41540] S  S  S  >  S  S  
+[h264 @ 0x55e7dce41540] I  I  S  S  S  S  
+[h264 @ 0x55e7dce41540] >| >| S  S  S  S  
+[h264 @ 0x55e7dce41540] I  S  S  S  S  S  
+[h264 @ 0x55e7dce41540] >- >+ >  S  S  S  
+[h264 @ 0x55e7dce41540] >  >  >- >+ >  I  
+[h264 @ 0x55e7dce41540] nal_unit_type: 1(Coded slice of a non-IDR picture), nal_ref_idc: 2
+[h264 @ 0x55e7dce41540] New frame, type: P
+[h264 @ 0x55e7dce41540] S  S  S  >  S  S  
+[h264 @ 0x55e7dce41540] S  S  S  S  S  S  
+[h264 @ 0x55e7dce41540] I  >- S  S  S  S  
+[h264 @ 0x55e7dce41540] I  S  S  S  S  S  
+[h264 @ 0x55e7dce41540] >  i  S  S  S  S  
+[h264 @ 0x55e7dce41540] >+ >+ >+ >  I  S  
+[h264 @ 0x55e7dce41540] nal_unit_type: 1(Coded slice of a non-IDR picture), nal_ref_idc: 2
+[h264 @ 0x55e7dce41540] New frame, type: P
+[h264 @ 0x55e7dce41540] S  S  S  >  S  S  
+[h264 @ 0x55e7dce41540] S  S  S  S  S  S  
+[h264 @ 0x55e7dce41540] S  >  S  S  S  S  
+[h264 @ 0x55e7dce41540] S  >+ S  S  S  S  
+[h264 @ 0x55e7dce41540] I  S  S  S  S  S  
+[h264 @ 0x55e7dce41540] >+ >- >  I  S  S  
+[h264 @ 0x55e7dce41540] nal_unit_type: 1(Coded slice of a non-IDR picture), nal_ref_idc: 2
+[h264 @ 0x55e7dce41540] New frame, type: P
+[h264 @ 0x55e7dce41540] S  S  S  >  S  S  
+[h264 @ 0x55e7dce41540] S  S  S  S  S  S  
+[h264 @ 0x55e7dce41540] S  I  S  S  S  S  
+[h264 @ 0x55e7dce41540] S  >  >| S  S  S  
+[h264 @ 0x55e7dce41540] S  I  S  S  S  S  
+[h264 @ 0x55e7dce41540] >  >  I  S  S  S  
+[h264 @ 0x55e7dce41540] nal_unit_type: 1(Coded slice of a non-IDR picture), nal_ref_idc: 2
+[h264 @ 0x55e7dce41540] New frame, type: P
+[h264 @ 0x55e7dce41540] S  S  S  >+ S  S  
+[h264 @ 0x55e7dce41540] S  S  S  S  S  S  
+[h264 @ 0x55e7dce41540] S  S  S  S  S  S  
+[h264 @ 0x55e7dce41540] S  >  >| S  S  S  
+[h264 @ 0x55e7dce41540] S  >  >| S  S  S  
+[h264 @ 0x55e7dce41540] >| i  S  S  S  S  
+[h264 @ 0x55e7dce41540] nal_unit_type: 1(Coded slice of a non-IDR picture), nal_ref_idc: 2
+[h264 @ 0x55e7dce41540] New frame, type: P
+[h264 @ 0x55e7dce41540] S  S  S  >  S  S  
+[h264 @ 0x55e7dce41540] S  S  S  S  S  S  
+[h264 @ 0x55e7dce41540] S  S  S  S  S  S  
+[h264 @ 0x55e7dce41540] S  I  >  S  S  S  
+[h264 @ 0x55e7dce41540] S  S  >+ S  S  S  
+[h264 @ 0x55e7dce41540] I  >  S  S  S  S  
+[h264 @ 0x55e7dce41540] nal_unit_type: 1(Coded slice of a non-IDR picture), nal_ref_idc: 2
+[h264 @ 0x55e7dce41540] New frame, type: P
+[h264 @ 0x55e7dce41540] S  S  >+ >+ S  S  
+[h264 @ 0x55e7dce41540] S  S  S  S  S  S  
+[h264 @ 0x55e7dce41540] S  S  S  S  S  S  
+[h264 @ 0x55e7dce41540] S  S  I  S  S  S  
+[h264 @ 0x55e7dce41540] S  S  >- S  S  S  
+[h264 @ 0x55e7dce41540] S  >  S  S  S  S  
+[h264 @ 0x55e7dce41540] nal_unit_type: 1(Coded slice of a non-IDR picture), nal_ref_idc: 2
+[h264 @ 0x55e7dce41540] New frame, type: P
+[h264 @ 0x55e7dce41540] S  S  S  >  S  S  
+[h264 @ 0x55e7dce41540] S  S  S  S  S  S  
+[h264 @ 0x55e7dce41540] S  S  S  S  S  S  
+[h264 @ 0x55e7dce41540] S  S  S  S  S  S  
+[h264 @ 0x55e7dce41540] S  >  >  >  S  S  
+[h264 @ 0x55e7dce41540] S  S  >  S  S  S  
+[h264 @ 0x55e7dce41540] nal_unit_type: 1(Coded slice of a non-IDR picture), nal_ref_idc: 2
+[h264 @ 0x55e7dce41540] New frame, type: P
+[h264 @ 0x55e7dce41540] S  S  S  >  S  S  
+[h264 @ 0x55e7dce41540] S  S  S  S  S  S  
+[h264 @ 0x55e7dce41540] S  S  S  S  S  S  
+[h264 @ 0x55e7dce41540] S  S  S  S  S  S  
+[h264 @ 0x55e7dce41540] S  >  >+ >- S  S  
+[h264 @ 0x55e7dce41540] S  S  S  S  S  S  
+[h264 @ 0x55e7dce41540] nal_unit_type: 1(Coded slice of a non-IDR picture), nal_ref_idc: 2
+[h264 @ 0x55e7dce41540] New frame, type: P
+[h264 @ 0x55e7dce41540] S  S  S  >+ >  >  
+[h264 @ 0x55e7dce41540] S  S  S  S  >  S  
+[h264 @ 0x55e7dce41540] S  S  S  S  >  S  
+[h264 @ 0x55e7dce41540] S  S  S  S  >  S  
+[h264 @ 0x55e7dce41540] S  S  I  >- >  S  
+[h264 @ 0x55e7dce41540] S  S  S  >- S  S  
+[h264 @ 0x55e7dce41540] nal_unit_type: 1(Coded slice of a non-IDR picture), nal_ref_idc: 2
+[h264 @ 0x55e7dce41540] New frame, type: P
+[h264 @ 0x55e7dce41540] S  S  S  >  S  S  
+[h264 @ 0x55e7dce41540] S  S  S  S  S  S  
+[h264 @ 0x55e7dce41540] S  S  S  S  S  S  
+[h264 @ 0x55e7dce41540] S  S  S  S  S  S  
+[h264 @ 0x55e7dce41540] S  >  S  I  S  S  
+[h264 @ 0x55e7dce41540] S  S  S  >+ S  S  
+[h264 @ 0x55e7dce41540] nal_unit_type: 1(Coded slice of a non-IDR picture), nal_ref_idc: 2
+[h264 @ 0x55e7dce41540] New frame, type: P
+[h264 @ 0x55e7dce41540] S  S  S  >  S  S  
+[h264 @ 0x55e7dce41540] S  S  S  S  S  S  
+[h264 @ 0x55e7dce41540] S  S  S  S  S  S  
+[h264 @ 0x55e7dce41540] S  S  S  S  S  S  
+[h264 @ 0x55e7dce41540] S  I  S  S  S  S  
+[h264 @ 0x55e7dce41540] S  S  S  >| >  S  
+[h264 @ 0x55e7dce41540] nal_unit_type: 1(Coded slice of a non-IDR picture), nal_ref_idc: 2
+[h264 @ 0x55e7dce41540] New frame, type: P
+[h264 @ 0x55e7dce41540] S  S  S  S  S  S  
+[h264 @ 0x55e7dce41540] S  S  S  S  S  S  
+[h264 @ 0x55e7dce41540] S  S  S  S  S  S  
+[h264 @ 0x55e7dce41540] S  S  S  S  S  S  
+[h264 @ 0x55e7dce41540] S  S  S  S  S  S  
+[h264 @ 0x55e7dce41540] S  >  S  >  >  S  
+[h264 @ 0x55e7dce41540] nal_unit_type: 1(Coded slice of a non-IDR picture), nal_ref_idc: 2
+[h264 @ 0x55e7dce41540] New frame, type: P
+[h264 @ 0x55e7dce41540] S  S  S  >  S  S  
+[h264 @ 0x55e7dce41540] S  S  S  S  S  S  
+[h264 @ 0x55e7dce41540] S  S  S  S  S  S  
+[h264 @ 0x55e7dce41540] S  S  S  S  S  S  
+[h264 @ 0x55e7dce41540] S  S  S  S  S  S  
+[h264 @ 0x55e7dce41540] S  >  S  I  I  S  
+[h264 @ 0x55e7dce41540] nal_unit_type: 1(Coded slice of a non-IDR picture), nal_ref_idc: 2
+[h264 @ 0x55e7dce41540] New frame, type: P
+[h264 @ 0x55e7dce41540] S  S  S  >  S  S  
+[h264 @ 0x55e7dce41540] S  S  S  S  S  S  
+[h264 @ 0x55e7dce41540] S  S  S  S  S  S  
+[h264 @ 0x55e7dce41540] S  S  S  S  S  S  
+[h264 @ 0x55e7dce41540] S  S  S  S  S  S  
+[h264 @ 0x55e7dce41540] S  I  S  S  S  S  
+[h264 @ 0x55e7dce41540] nal_unit_type: 1(Coded slice of a non-IDR picture), nal_ref_idc: 2
+[h264 @ 0x55e7dce41540] New frame, type: P
+[h264 @ 0x55e7dce41540] S  S  S  >  S  S  
+[h264 @ 0x55e7dce41540] S  S  S  S  S  S  
+[h264 @ 0x55e7dce41540] S  S  S  S  S  S  
+[h264 @ 0x55e7dce41540] S  S  S  S  S  S  
+[h264 @ 0x55e7dce41540] S  S  S  S  S  S  
+[h264 @ 0x55e7dce41540] S  S  S  S  S  S  
+[h264 @ 0x55e7dce41540] nal_unit_type: 1(Coded slice of a non-IDR picture), nal_ref_idc: 2
+[h264 @ 0x55e7dce41540] New frame, type: P
+[h264 @ 0x55e7dce41540] S  S  >+ >+ S  S  
+[h264 @ 0x55e7dce41540] S  S  S  S  S  S  
+[h264 @ 0x55e7dce41540] S  S  S  S  S  S  
+[h264 @ 0x55e7dce41540] S  S  S  S  S  S  
+[h264 @ 0x55e7dce41540] S  S  S  S  S  S  
+[h264 @ 0x55e7dce41540] S  S  S  S  S  S  
+[h264 @ 0x55e7dce41540] nal_unit_type: 1(Coded slice of a non-IDR picture), nal_ref_idc: 2
+[h264 @ 0x55e7dce41540] New frame, type: P
+[h264 @ 0x55e7dce41540] S  S  S  >  S  S  
+[h264 @ 0x55e7dce41540] S  S  S  S  S  S  
+[h264 @ 0x55e7dce41540] S  S  S  S  S  S  
+[h264 @ 0x55e7dce41540] S  S  S  S  S  S  
+[h264 @ 0x55e7dce41540] S  S  S  S  S  S  
+[h264 @ 0x55e7dce41540] S  S  S  S  S  i  
+[h264 @ 0x55e7dce41540] nal_unit_type: 1(Coded slice of a non-IDR picture), nal_ref_idc: 2
+[h264 @ 0x55e7dce41540] New frame, type: P
+[h264 @ 0x55e7dce41540] S  S  S  >  S  S  
+[h264 @ 0x55e7dce41540] S  S  S  S  S  S  
+[h264 @ 0x55e7dce41540] S  S  S  S  S  S  
+[h264 @ 0x55e7dce41540] S  S  S  S  S  S  
+[h264 @ 0x55e7dce41540] S  S  S  S  S  S  
+[h264 @ 0x55e7dce41540] S  S  S  S  >+ >+ 
+[h264 @ 0x55e7dce41540] nal_unit_type: 1(Coded slice of a non-IDR picture), nal_ref_idc: 2
+[h264 @ 0x55e7dce41540] New frame, type: P
+[h264 @ 0x55e7dce41540] S  S  S  >  S  S  
+[h264 @ 0x55e7dce41540] S  S  S  S  S  S  
+[h264 @ 0x55e7dce41540] S  S  S  S  S  S  
+[h264 @ 0x55e7dce41540] S  S  S  S  S  S  
+[h264 @ 0x55e7dce41540] S  S  S  S  S  >  
+[h264 @ 0x55e7dce41540] S  i  S  >+ >| >+ 
+[h264 @ 0x55e7dce41540] nal_unit_type: 1(Coded slice of a non-IDR picture), nal_ref_idc: 2
+[h264 @ 0x55e7dce41540] New frame, type: P
+[h264 @ 0x55e7dce41540] S  S  S  >  S  S  
+[h264 @ 0x55e7dce41540] S  S  S  S  S  S  
+[h264 @ 0x55e7dce41540] S  S  S  S  S  S  
+[h264 @ 0x55e7dce41540] S  S  S  S  S  S  
+[h264 @ 0x55e7dce41540] S  S  S  S  S  >| 
+[h264 @ 0x55e7dce41540] S  >  i  >+ >+ >  
+[h264 @ 0x55e7dce41540] nal_unit_type: 1(Coded slice of a non-IDR picture), nal_ref_idc: 2
+[h264 @ 0x55e7dce41540] New frame, type: P
+[h264 @ 0x55e7dce41540] S  S  S  >  S  S  
+[h264 @ 0x55e7dce41540] S  S  S  S  S  S  
+[h264 @ 0x55e7dce41540] S  S  S  S  S  S  
+[h264 @ 0x55e7dce41540] S  S  S  S  S  S  
+[h264 @ 0x55e7dce41540] S  S  S  S  >  >+ 
+[h264 @ 0x55e7dce41540] S  >  >+ >  >+ >  
+[h264 @ 0x55e7dce41540] nal_unit_type: 1(Coded slice of a non-IDR picture), nal_ref_idc: 2
+[h264 @ 0x55e7dce41540] New frame, type: P
+[h264 @ 0x55e7dce41540] S  S  S  S  S  S  
+[h264 @ 0x55e7dce41540] S  S  S  S  S  S  
+[h264 @ 0x55e7dce41540] S  S  S  S  S  S  
+[h264 @ 0x55e7dce41540] S  S  S  S  S  >| 
+[h264 @ 0x55e7dce41540] S  >  S  >- >  >+ 
+[h264 @ 0x55e7dce41540] >  S  >  >+ >  S  
+[h264 @ 0x55e7dce41540] nal_unit_type: 1(Coded slice of a non-IDR picture), nal_ref_idc: 2
+[h264 @ 0x55e7dce41540] New frame, type: P
+[h264 @ 0x55e7dce41540] S  S  S  >  S  S  
+[h264 @ 0x55e7dce41540] S  S  S  S  S  S  
+[h264 @ 0x55e7dce41540] S  S  S  S  S  S  
+[h264 @ 0x55e7dce41540] S  S  S  S  >| >- 
+[h264 @ 0x55e7dce41540] S  >  >  >  >  >  
+[h264 @ 0x55e7dce41540] >+ S  >  >  S  S  
+[in#0/h264 @ 0x55e7dcdf1bc0] EOF while reading input
+[in#0/h264 @ 0x55e7dcdf1bc0] Terminating demuxer thread
+[h264 @ 0x55e7dce41540] nal_unit_type: 1(Coded slice of a non-IDR picture), nal_ref_idc: 2
+[h264 @ 0x55e7dce41540] New frame, type: P
+[h264 @ 0x55e7dce41540] S  S  S  >  S  S  
+[h264 @ 0x55e7dce41540] S  S  S  S  S  S  
+[h264 @ 0x55e7dce41540] S  S  S  S  S  S  
+[h264 @ 0x55e7dce41540] S  S  S  >| >- >  
+[h264 @ 0x55e7dce41540] S  S  >  >  >  >  
+[h264 @ 0x55e7dce41540] >  >  >+ >  I  S  
+[h264 @ 0x55e7dce41540] nal_unit_type: 1(Coded slice of a non-IDR picture), nal_ref_idc: 2
+[h264 @ 0x55e7dce41540] New frame, type: P
+[h264 @ 0x55e7dce41540] S  S  S  >  S  S  
+[h264 @ 0x55e7dce41540] S  S  S  S  S  S  
+[h264 @ 0x55e7dce41540] S  S  S  S  S  >  
+[h264 @ 0x55e7dce41540] S  S  >| >- >+ >  
+[h264 @ 0x55e7dce41540] >  >+ >  >  >  S  
+[h264 @ 0x55e7dce41540] >- S  >  I  S  S  
+[vist#0:0/h264 @ 0x55e7dcdfea00] Decoder thread received EOF packet
+[vist#0:0/h264 @ 0x55e7dcdfea00] Decoder returned EOF, finishing
+[vist#0:0/h264 @ 0x55e7dcdfea00] Terminating decoder thread
+[out_0_0 @ 0x55e7dce41e80] EOF on sink link out_0_0:default.
+No more output streams to write to, finishing.
+[out#0/null @ 0x55e7dce12740] All streams finished
+[out#0/null @ 0x55e7dce12740] Terminating muxer thread
+[out#0/null @ 0x55e7dce12740] Output file #0 (pipe:):
+[out#0/null @ 0x55e7dce12740]   Output stream #0:0 (video): 40 frames encoded; 40 packets muxed (19200 bytes); 
+[out#0/null @ 0x55e7dce12740]   Total: 40 packets (19200 bytes) muxed
+[out#0/null @ 0x55e7dce12740] video:19kB audio:0kB subtitle:0kB other streams:0kB global headers:0kB muxing overhead: unknown
+frame=   40 fps=0.0 q=-0.0 Lsize=N/A time=00:00:02.60 bitrate=N/A speed= 517x    
+[in#0/h264 @ 0x55e7dcdf1bc0] Input file #0 (/workspace/scratch/9c62166e5fd0/recap/ivo-java-complet-2026-10-04/research-results/2026-10-04/mp4-cabac-motion/detail/source.h264):
+[in#0/h264 @ 0x55e7dcdf1bc0]   Input stream #0:0 (video): 40 packets read (9427 bytes); 40 frames decoded; 0 decode errors; 
+[in#0/h264 @ 0x55e7dcdf1bc0]   Total: 40 packets (9427 bytes) demuxed
+[AVIOContext @ 0x55e7dcdfa540] Statistics: 9427 bytes read, 0 seeks

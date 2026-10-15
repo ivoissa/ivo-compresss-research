@@ -1,0 +1,62 @@
+[
+  {
+    "archive": "body-m0.ivo",
+    "size": 5414864,
+    "sha256": "d380c5363fe26eec871b6c71fad63c19f99e4b3ba7add602b92edeeb22ae8ed1",
+    "fresh_cli_exact": true
+  },
+  {
+    "archive": "body-m1.ivo",
+    "size": 5414959,
+    "sha256": "dffc51a70013315535900217be30c58258d3238801557480f906af4d13edf6c5",
+    "fresh_cli_exact": true
+  },
+  {
+    "archive": "body-m2.ivo",
+    "size": 5414803,
+    "sha256": "f8f034b887f5a631e6f2a95aaf2763a91f23ec1cee89bc0103565997d55e4fb6",
+    "fresh_cli_exact": true
+  },
+  {
+    "archive": "body-m3.ivo",
+    "size": 5414803,
+    "sha256": "b40dac4b2770f825770bdc57d2628e0ff3e1669dd97359e03bbdb778ce9dd345",
+    "fresh_cli_exact": true
+  },
+  {
+    "archive": "body-m4.ivo",
+    "size": 5414803,
+    "sha256": "6bbbf3447bcb56adffb1c07df751b45abc492694883700a120303ccd22756bb0",
+    "fresh_cli_exact": true
+  },
+  {
+    "archive": "body-m5.ivo",
+    "size": 5415737,
+    "sha256": "dff6cfdeb78161d4a189b43c28a68f5b4cf3d7539a9fdc78f3263717b17bb9f1",
+    "fresh_cli_exact": true
+  },
+  {
+    "archive": "previous-m0.ivo",
+    "size": 5414918,
+    "sha256": "c436dd834820542804f3cdb5250fe7d2c9de6c392596027131a3bc9dbb2fad20",
+    "fresh_cli_exact": true
+  },
+  {
+    "archive": "previous-m1.ivo",
+    "size": 5414825,
+    "sha256": "aa938865af178dc18e88996f7becb8b435f3fed081d1716d8d2750ea0cb04708",
+    "fresh_cli_exact": true
+  },
+  {
+    "archive": "previous-m2.ivo",
+    "size": 5414956,
+    "sha256": "8b6a22eb23ca6e41245bbce6ae185316ed645fe333313c609ded1346fc6f7275",
+    "fresh_cli_exact": true
+  },
+  {
+    "archive": "previous-m3.ivo",
+    "size": 5414863,
+    "sha256": "eefb2cff59ef6044bde0fca97b98900b523aa3743d67c65ff8473df35347de18",
+    "fresh_cli_exact": true
+  }
+]

@@ -1,0 +1,9 @@
+/tmp/ivo-jpeg-external-inputs/pytorch_dog2.jpg: 90,796 -> 90,857 bytes (100.07%), engine=STORE
+Engine                         valid   payload       IVO       ms  note
+STORE                          true       90,796    90,857        3  verbatim
+N&C contextuel                 true      124,714   124,775      220  PPM-like sparse contexts, order<=4
+REF + N&C                      true      124,252   124,313      198  REF minMatch=8 then N&C; REF size=87954
+JPEG oracle exact (structure/scans) true       90,903    90,964      177  JPEG exact; segments=29; scans=10; progressive=true; meta=17867; entropy=72929; modes=[0, 0, 0]
+JPEG frozen portfolio (ABC, spatial, directional, similarity) false           -         -        4  IllegalArgumentException: Progressive JPEG excluded from V0/V1
+JPEG boundary portfolio (physical + presence control) false           -         -        1  IllegalArgumentException: No supported exact JPEG boundary candidate
+Written: /tmp/ivo-jpeg-integration-results/pytorch_dog2.jpg/automatic.ivo

@@ -1,0 +1,470 @@
+BLOCK_SIDE scheme=2 coded=1230 exact=true
+META side_format=6 field_sizes=[22, 39, 21, 2, 1230, 0, 2]
+CODER file=cord-0.bin raw=155 selected=2 candidates=[155, 100, 81, -1, 99] total=84
+CODER file=cord-1.bin raw=203 selected=2 candidates=[203, 72, 48, -1, 70] total=51
+CODER file=cord-2.bin raw=5116 selected=1 candidates=[5116, 448, 538, 727, 548] total=451
+CODER file=cord-3.bin raw=0 selected=0 candidates=[0, -1, -1, -1, -1] total=2
+CODER file=cord-4.bin raw=32268 selected=2 candidates=[32268, 8859, 7034, 10015, 9487] total=7038
+CODER file=cord-5.bin raw=46292 selected=1 candidates=[46292, 12645, 13382, 18171, 14190] total=12649
+CODER file=cord-6.bin raw=5819 selected=1 candidates=[5819, 5796, 7978, 7984, 7894] total=5799
+CODER file=cord-7.bin raw=653 selected=1 candidates=[653, 345, 399, -1, 468] total=348
+CODER file=cord-0.bin raw=155 selected=2 candidates=[155, 100, 81, -1, 99] total=84
+CODER file=cord-1.bin raw=203 selected=2 candidates=[203, 72, 48, -1, 70] total=51
+CODER file=cord-2.bin raw=5116 selected=1 candidates=[5116, 448, 538, 727, 548] total=451
+CODER file=cord-3.bin raw=0 selected=0 candidates=[0, -1, -1, -1, -1] total=2
+CODER file=cord-4.bin raw=32268 selected=2 candidates=[32268, 8859, 7034, 10015, 9487] total=7038
+CODER file=cord-5.bin raw=46292 selected=1 candidates=[46292, 12645, 13382, 18171, 14190] total=12649
+CODER file=cord-6.bin raw=5819 selected=1 candidates=[5819, 5796, 7978, 7984, 7894] total=5799
+CODER file=cord-7.bin raw=653 selected=1 candidates=[653, 345, 399, -1, 468] total=348
+CODER file=cord-8.bin raw=0 selected=0 candidates=[0, -1, -1, -1, -1] total=2
+CODER file=cord-9.bin raw=0 selected=0 candidates=[0, -1, -1, -1, -1] total=2
+CODER file=cord-10.bin raw=0 selected=0 candidates=[0, -1, -1, -1, -1] total=2
+CODER file=cord-11.bin raw=0 selected=0 candidates=[0, -1, -1, -1, -1] total=2
+CODER file=cord-12.bin raw=0 selected=0 candidates=[0, -1, -1, -1, -1] total=2
+CODER file=cord-13.bin raw=0 selected=0 candidates=[0, -1, -1, -1, -1] total=2
+CODER file=cord-14.bin raw=0 selected=0 candidates=[0, -1, -1, -1, -1] total=2
+CODER file=cord-15.bin raw=0 selected=0 candidates=[0, -1, -1, -1, -1] total=2
+CODER file=cord-0.bin raw=155 selected=2 candidates=[155, 100, 81, -1, 99] total=84
+CODER file=cord-1.bin raw=203 selected=2 candidates=[203, 72, 48, -1, 70] total=51
+CODER file=cord-2.bin raw=5116 selected=1 candidates=[5116, 448, 538, 727, 548] total=451
+CODER file=cord-3.bin raw=0 selected=0 candidates=[0, -1, -1, -1, -1] total=2
+CODER file=cord-4.bin raw=1240 selected=2 candidates=[1240, 296, 212, 476, 384] total=215
+CODER file=cord-5.bin raw=2087 selected=1 candidates=[2087, 1184, 1335, 1401, 1607] total=1187
+CODER file=cord-6.bin raw=260 selected=0 candidates=[260, 271, 359, -1, 360] total=263
+CODER file=cord-7.bin raw=0 selected=0 candidates=[0, -1, -1, -1, -1] total=2
+CODER file=cord-8.bin raw=3720 selected=2 candidates=[3720, 694, 540, 1057, 860] total=543
+CODER file=cord-9.bin raw=7090 selected=1 candidates=[7090, 4898, 6185, 6405, 6436] total=4901
+CODER file=cord-10.bin raw=788 selected=1 candidates=[788, 764, 925, -1, 946] total=767
+CODER file=cord-11.bin raw=0 selected=0 candidates=[0, -1, -1, -1, -1] total=2
+CODER file=cord-12.bin raw=14666 selected=2 candidates=[14666, 4286, 3336, 4940, 5152] total=3339
+CODER file=cord-13.bin raw=19847 selected=2 candidates=[19847, 3476, 2700, 5702, 3478] total=2704
+CODER file=cord-14.bin raw=2493 selected=0 candidates=[2493, 2504, 3384, 3391, 3368] total=2496
+CODER file=cord-15.bin raw=108 selected=2 candidates=[108, 69, 62, -1, 72] total=64
+CODER file=cord-16.bin raw=12642 selected=2 candidates=[12642, 3710, 2865, 4255, 4557] total=2868
+CODER file=cord-17.bin raw=17268 selected=2 candidates=[17268, 2631, 1958, 4663, 2408] total=1962
+CODER file=cord-18.bin raw=2279 selected=0 candidates=[2279, 2290, 3087, 3094, 3076] total=2282
+CODER file=cord-19.bin raw=545 selected=1 candidates=[545, 297, 351, -1, 401] total=300
+CODER file=cord-20.bin raw=0 selected=0 candidates=[0, -1, -1, -1, -1] total=2
+CODER file=cord-21.bin raw=0 selected=0 candidates=[0, -1, -1, -1, -1] total=2
+CODER file=cord-22.bin raw=0 selected=0 candidates=[0, -1, -1, -1, -1] total=2
+CODER file=cord-23.bin raw=0 selected=0 candidates=[0, -1, -1, -1, -1] total=2
+CODER file=cord-24.bin raw=0 selected=0 candidates=[0, -1, -1, -1, -1] total=2
+CODER file=cord-25.bin raw=0 selected=0 candidates=[0, -1, -1, -1, -1] total=2
+CODER file=cord-26.bin raw=0 selected=0 candidates=[0, -1, -1, -1, -1] total=2
+CODER file=cord-27.bin raw=0 selected=0 candidates=[0, -1, -1, -1, -1] total=2
+CODER file=cord-28.bin raw=0 selected=0 candidates=[0, -1, -1, -1, -1] total=2
+CODER file=cord-29.bin raw=0 selected=0 candidates=[0, -1, -1, -1, -1] total=2
+CODER file=cord-30.bin raw=0 selected=0 candidates=[0, -1, -1, -1, -1] total=2
+CODER file=cord-31.bin raw=0 selected=0 candidates=[0, -1, -1, -1, -1] total=2
+CODER file=cord-32.bin raw=0 selected=0 candidates=[0, -1, -1, -1, -1] total=2
+CODER file=cord-33.bin raw=0 selected=0 candidates=[0, -1, -1, -1, -1] total=2
+CODER file=cord-34.bin raw=0 selected=0 candidates=[0, -1, -1, -1, -1] total=2
+CODER file=cord-35.bin raw=0 selected=0 candidates=[0, -1, -1, -1, -1] total=2
+CODER file=cord-36.bin raw=0 selected=0 candidates=[0, -1, -1, -1, -1] total=2
+CODER file=cord-37.bin raw=0 selected=0 candidates=[0, -1, -1, -1, -1] total=2
+CODER file=cord-38.bin raw=0 selected=0 candidates=[0, -1, -1, -1, -1] total=2
+CODER file=cord-39.bin raw=0 selected=0 candidates=[0, -1, -1, -1, -1] total=2
+CODER file=cord-0.bin raw=78 selected=2 candidates=[78, 60, 41, -1, 49] total=43
+CODER file=cord-1.bin raw=118 selected=2 candidates=[118, 39, 23, -1, 30] total=25
+CODER file=cord-2.bin raw=5116 selected=1 candidates=[5116, 448, 538, 727, 548] total=451
+CODER file=cord-3.bin raw=0 selected=0 candidates=[0, -1, -1, -1, -1] total=2
+CODER file=cord-4.bin raw=16153 selected=2 candidates=[16153, 4533, 3556, 5218, 5354] total=3559
+CODER file=cord-5.bin raw=23064 selected=1 candidates=[23064, 6355, 6842, 9298, 7491] total=6359
+CODER file=cord-6.bin raw=2901 selected=0 candidates=[2901, 2912, 3879, 3886, 3862] total=2904
+CODER file=cord-7.bin raw=373 selected=1 candidates=[373, 197, 233, -1, 267] total=200
+CODER file=cord-8.bin raw=0 selected=0 candidates=[0, -1, -1, -1, -1] total=2
+CODER file=cord-9.bin raw=0 selected=0 candidates=[0, -1, -1, -1, -1] total=2
+CODER file=cord-10.bin raw=0 selected=0 candidates=[0, -1, -1, -1, -1] total=2
+CODER file=cord-11.bin raw=0 selected=0 candidates=[0, -1, -1, -1, -1] total=2
+CODER file=cord-12.bin raw=0 selected=0 candidates=[0, -1, -1, -1, -1] total=2
+CODER file=cord-13.bin raw=0 selected=0 candidates=[0, -1, -1, -1, -1] total=2
+CODER file=cord-14.bin raw=0 selected=0 candidates=[0, -1, -1, -1, -1] total=2
+CODER file=cord-15.bin raw=0 selected=0 candidates=[0, -1, -1, -1, -1] total=2
+CODER file=cord-16.bin raw=77 selected=2 candidates=[77, 61, 47, -1, 53] total=49
+CODER file=cord-17.bin raw=85 selected=2 candidates=[85, 46, 32, -1, 46] total=34
+CODER file=cord-18.bin raw=0 selected=0 candidates=[0, -1, -1, -1, -1] total=2
+CODER file=cord-19.bin raw=0 selected=0 candidates=[0, -1, -1, -1, -1] total=2
+CODER file=cord-20.bin raw=16115 selected=2 candidates=[16115, 4463, 3495, 5206, 5290] total=3498
+CODER file=cord-21.bin raw=23228 selected=1 candidates=[23228, 6520, 7023, 9504, 7691] total=6524
+CODER file=cord-22.bin raw=2918 selected=0 candidates=[2918, 2929, 3890, 3897, 3882] total=2921
+CODER file=cord-23.bin raw=280 selected=1 candidates=[280, 166, 203, -1, 219] total=169
+CODER file=cord-24.bin raw=0 selected=0 candidates=[0, -1, -1, -1, -1] total=2
+CODER file=cord-25.bin raw=0 selected=0 candidates=[0, -1, -1, -1, -1] total=2
+CODER file=cord-26.bin raw=0 selected=0 candidates=[0, -1, -1, -1, -1] total=2
+CODER file=cord-27.bin raw=0 selected=0 candidates=[0, -1, -1, -1, -1] total=2
+CODER file=cord-28.bin raw=0 selected=0 candidates=[0, -1, -1, -1, -1] total=2
+CODER file=cord-29.bin raw=0 selected=0 candidates=[0, -1, -1, -1, -1] total=2
+CODER file=cord-30.bin raw=0 selected=0 candidates=[0, -1, -1, -1, -1] total=2
+CODER file=cord-31.bin raw=0 selected=0 candidates=[0, -1, -1, -1, -1] total=2
+BLOCK_SIDE scheme=2 coded=1230 exact=true
+META side_format=6 field_sizes=[22, 39, 21, 2, 1230, 0, 2]
+CODER file=cord-0.bin raw=155 selected=2 candidates=[155, 100, 81, -1, 99] total=84
+CODER file=cord-1.bin raw=203 selected=2 candidates=[203, 72, 48, -1, 70] total=51
+CODER file=cord-2.bin raw=5116 selected=1 candidates=[5116, 448, 538, 727, 548] total=451
+CODER file=cord-3.bin raw=0 selected=0 candidates=[0, -1, -1, -1, -1] total=2
+CODER file=cord-4.bin raw=32268 selected=2 candidates=[32268, 8859, 7034, 10015, 9487] total=7038
+CODER file=cord-5.bin raw=46292 selected=1 candidates=[46292, 12645, 13382, 18171, 14190] total=12649
+CODER file=cord-6.bin raw=5819 selected=1 candidates=[5819, 5796, 7978, 7984, 7894] total=5799
+CODER file=cord-7.bin raw=653 selected=1 candidates=[653, 345, 399, -1, 468] total=348
+CODER file=cord-0.bin raw=155 selected=2 candidates=[155, 100, 81, -1, 99] total=84
+CODER file=cord-1.bin raw=203 selected=2 candidates=[203, 72, 48, -1, 70] total=51
+CODER file=cord-2.bin raw=5116 selected=1 candidates=[5116, 448, 538, 727, 548] total=451
+CODER file=cord-3.bin raw=0 selected=0 candidates=[0, -1, -1, -1, -1] total=2
+CODER file=cord-4.bin raw=1240 selected=2 candidates=[1240, 296, 212, 476, 384] total=215
+CODER file=cord-5.bin raw=2087 selected=1 candidates=[2087, 1184, 1335, 1401, 1607] total=1187
+CODER file=cord-6.bin raw=260 selected=0 candidates=[260, 271, 359, -1, 360] total=263
+CODER file=cord-7.bin raw=0 selected=0 candidates=[0, -1, -1, -1, -1] total=2
+CODER file=cord-8.bin raw=3720 selected=2 candidates=[3720, 694, 540, 1057, 860] total=543
+CODER file=cord-9.bin raw=7090 selected=1 candidates=[7090, 4898, 6185, 6405, 6436] total=4901
+CODER file=cord-10.bin raw=788 selected=1 candidates=[788, 764, 925, -1, 946] total=767
+CODER file=cord-11.bin raw=0 selected=0 candidates=[0, -1, -1, -1, -1] total=2
+CODER file=cord-12.bin raw=14666 selected=2 candidates=[14666, 4286, 3336, 4940, 5152] total=3339
+CODER file=cord-13.bin raw=19847 selected=2 candidates=[19847, 3476, 2700, 5702, 3478] total=2704
+CODER file=cord-14.bin raw=2493 selected=0 candidates=[2493, 2504, 3384, 3391, 3368] total=2496
+CODER file=cord-15.bin raw=108 selected=2 candidates=[108, 69, 62, -1, 72] total=64
+CODER file=cord-16.bin raw=12642 selected=2 candidates=[12642, 3710, 2865, 4255, 4557] total=2868
+CODER file=cord-17.bin raw=17268 selected=2 candidates=[17268, 2631, 1958, 4663, 2408] total=1962
+CODER file=cord-18.bin raw=2279 selected=0 candidates=[2279, 2290, 3087, 3094, 3076] total=2282
+CODER file=cord-19.bin raw=545 selected=1 candidates=[545, 297, 351, -1, 401] total=300
+CODER file=cord-20.bin raw=0 selected=0 candidates=[0, -1, -1, -1, -1] total=2
+CODER file=cord-21.bin raw=0 selected=0 candidates=[0, -1, -1, -1, -1] total=2
+CODER file=cord-22.bin raw=0 selected=0 candidates=[0, -1, -1, -1, -1] total=2
+CODER file=cord-23.bin raw=0 selected=0 candidates=[0, -1, -1, -1, -1] total=2
+CODER file=cord-24.bin raw=0 selected=0 candidates=[0, -1, -1, -1, -1] total=2
+CODER file=cord-25.bin raw=0 selected=0 candidates=[0, -1, -1, -1, -1] total=2
+CODER file=cord-26.bin raw=0 selected=0 candidates=[0, -1, -1, -1, -1] total=2
+CODER file=cord-27.bin raw=0 selected=0 candidates=[0, -1, -1, -1, -1] total=2
+CODER file=cord-28.bin raw=0 selected=0 candidates=[0, -1, -1, -1, -1] total=2
+CODER file=cord-29.bin raw=0 selected=0 candidates=[0, -1, -1, -1, -1] total=2
+CODER file=cord-30.bin raw=0 selected=0 candidates=[0, -1, -1, -1, -1] total=2
+CODER file=cord-31.bin raw=0 selected=0 candidates=[0, -1, -1, -1, -1] total=2
+CODER file=cord-32.bin raw=0 selected=0 candidates=[0, -1, -1, -1, -1] total=2
+CODER file=cord-33.bin raw=0 selected=0 candidates=[0, -1, -1, -1, -1] total=2
+CODER file=cord-34.bin raw=0 selected=0 candidates=[0, -1, -1, -1, -1] total=2
+CODER file=cord-35.bin raw=0 selected=0 candidates=[0, -1, -1, -1, -1] total=2
+CODER file=cord-36.bin raw=0 selected=0 candidates=[0, -1, -1, -1, -1] total=2
+CODER file=cord-37.bin raw=0 selected=0 candidates=[0, -1, -1, -1, -1] total=2
+CODER file=cord-38.bin raw=0 selected=0 candidates=[0, -1, -1, -1, -1] total=2
+CODER file=cord-39.bin raw=0 selected=0 candidates=[0, -1, -1, -1, -1] total=2
+CODER file=cord-40.bin raw=2087 selected=1 candidates=[2087, 1184, 1335, 1401, 1607] total=1187
+CODER file=cord-41.bin raw=0 selected=0 candidates=[0, -1, -1, -1, -1] total=2
+CODER file=cord-42.bin raw=0 selected=0 candidates=[0, -1, -1, -1, -1] total=2
+CODER file=cord-43.bin raw=0 selected=0 candidates=[0, -1, -1, -1, -1] total=2
+CODER file=cord-44.bin raw=7090 selected=1 candidates=[7090, 4898, 6185, 6405, 6436] total=4901
+CODER file=cord-45.bin raw=0 selected=0 candidates=[0, -1, -1, -1, -1] total=2
+CODER file=cord-46.bin raw=0 selected=0 candidates=[0, -1, -1, -1, -1] total=2
+CODER file=cord-47.bin raw=0 selected=0 candidates=[0, -1, -1, -1, -1] total=2
+CODER file=cord-48.bin raw=19847 selected=2 candidates=[19847, 3476, 2700, 5702, 3478] total=2704
+CODER file=cord-49.bin raw=0 selected=0 candidates=[0, -1, -1, -1, -1] total=2
+CODER file=cord-50.bin raw=0 selected=0 candidates=[0, -1, -1, -1, -1] total=2
+CODER file=cord-51.bin raw=0 selected=0 candidates=[0, -1, -1, -1, -1] total=2
+CODER file=cord-52.bin raw=17268 selected=2 candidates=[17268, 2631, 1958, 4663, 2408] total=1962
+CODER file=cord-53.bin raw=0 selected=0 candidates=[0, -1, -1, -1, -1] total=2
+CODER file=cord-54.bin raw=0 selected=0 candidates=[0, -1, -1, -1, -1] total=2
+CODER file=cord-55.bin raw=0 selected=0 candidates=[0, -1, -1, -1, -1] total=2
+CODER file=cord-56.bin raw=0 selected=0 candidates=[0, -1, -1, -1, -1] total=2
+CODER file=cord-57.bin raw=0 selected=0 candidates=[0, -1, -1, -1, -1] total=2
+CODER file=cord-58.bin raw=0 selected=0 candidates=[0, -1, -1, -1, -1] total=2
+CODER file=cord-59.bin raw=0 selected=0 candidates=[0, -1, -1, -1, -1] total=2
+CODER file=cord-60.bin raw=0 selected=0 candidates=[0, -1, -1, -1, -1] total=2
+CODER file=cord-61.bin raw=0 selected=0 candidates=[0, -1, -1, -1, -1] total=2
+CODER file=cord-62.bin raw=0 selected=0 candidates=[0, -1, -1, -1, -1] total=2
+CODER file=cord-63.bin raw=0 selected=0 candidates=[0, -1, -1, -1, -1] total=2
+CODER file=cord-64.bin raw=0 selected=0 candidates=[0, -1, -1, -1, -1] total=2
+CODER file=cord-65.bin raw=0 selected=0 candidates=[0, -1, -1, -1, -1] total=2
+CODER file=cord-66.bin raw=0 selected=0 candidates=[0, -1, -1, -1, -1] total=2
+CODER file=cord-67.bin raw=0 selected=0 candidates=[0, -1, -1, -1, -1] total=2
+CODER file=cord-68.bin raw=0 selected=0 candidates=[0, -1, -1, -1, -1] total=2
+CODER file=cord-69.bin raw=0 selected=0 candidates=[0, -1, -1, -1, -1] total=2
+CODER file=cord-70.bin raw=0 selected=0 candidates=[0, -1, -1, -1, -1] total=2
+CODER file=cord-71.bin raw=0 selected=0 candidates=[0, -1, -1, -1, -1] total=2
+CODER file=cord-40.bin raw=2048 selected=1 candidates=[2048, 1131, 1278, 1346, 1553] total=1134
+CODER file=cord-41.bin raw=39 selected=0 candidates=[39, 48, 45, -1, 45] total=41
+CODER file=cord-42.bin raw=0 selected=0 candidates=[0, -1, -1, -1, -1] total=2
+CODER file=cord-43.bin raw=7003 selected=1 candidates=[7003, 4823, 6092, 6315, 6357] total=4826
+CODER file=cord-44.bin raw=87 selected=0 candidates=[87, 98, 116, -1, 117] total=89
+CODER file=cord-45.bin raw=0 selected=0 candidates=[0, -1, -1, -1, -1] total=2
+CODER file=cord-46.bin raw=19659 selected=2 candidates=[19659, 3320, 2527, 5554, 3291] total=2531
+CODER file=cord-47.bin raw=188 selected=1 candidates=[188, 139, 150, -1, 161] total=142
+CODER file=cord-48.bin raw=0 selected=0 candidates=[0, -1, -1, -1, -1] total=2
+CODER file=cord-49.bin raw=17170 selected=2 candidates=[17170, 2563, 1887, 4593, 2330] total=1891
+CODER file=cord-50.bin raw=98 selected=2 candidates=[98, 59, 51, -1, 59] total=53
+CODER file=cord-51.bin raw=0 selected=0 candidates=[0, -1, -1, -1, -1] total=2
+CODER file=cord-52.bin raw=0 selected=0 candidates=[0, -1, -1, -1, -1] total=2
+CODER file=cord-53.bin raw=0 selected=0 candidates=[0, -1, -1, -1, -1] total=2
+CODER file=cord-54.bin raw=0 selected=0 candidates=[0, -1, -1, -1, -1] total=2
+CODER file=cord-55.bin raw=0 selected=0 candidates=[0, -1, -1, -1, -1] total=2
+CODER file=cord-56.bin raw=0 selected=0 candidates=[0, -1, -1, -1, -1] total=2
+CODER file=cord-57.bin raw=0 selected=0 candidates=[0, -1, -1, -1, -1] total=2
+CODER file=cord-58.bin raw=0 selected=0 candidates=[0, -1, -1, -1, -1] total=2
+CODER file=cord-59.bin raw=0 selected=0 candidates=[0, -1, -1, -1, -1] total=2
+CODER file=cord-60.bin raw=0 selected=0 candidates=[0, -1, -1, -1, -1] total=2
+CODER file=cord-61.bin raw=0 selected=0 candidates=[0, -1, -1, -1, -1] total=2
+CODER file=cord-62.bin raw=0 selected=0 candidates=[0, -1, -1, -1, -1] total=2
+CODER file=cord-63.bin raw=0 selected=0 candidates=[0, -1, -1, -1, -1] total=2
+CODER file=cord-40.bin raw=2071 selected=1 candidates=[2071, 1164, 1312, 1378, 1584] total=1167
+CODER file=cord-41.bin raw=16 selected=0 candidates=[16, 24, 24, -1, 24] total=18
+CODER file=cord-42.bin raw=0 selected=0 candidates=[0, -1, -1, -1, -1] total=2
+CODER file=cord-43.bin raw=0 selected=0 candidates=[0, -1, -1, -1, -1] total=2
+CODER file=cord-44.bin raw=7033 selected=1 candidates=[7033, 4846, 6109, 6334, 6360] total=4849
+CODER file=cord-45.bin raw=57 selected=0 candidates=[57, 65, 77, -1, 77] total=59
+CODER file=cord-46.bin raw=0 selected=0 candidates=[0, -1, -1, -1, -1] total=2
+CODER file=cord-47.bin raw=0 selected=0 candidates=[0, -1, -1, -1, -1] total=2
+CODER file=cord-48.bin raw=19672 selected=2 candidates=[19672, 3349, 2553, 5569, 3299] total=2557
+CODER file=cord-49.bin raw=175 selected=1 candidates=[175, 123, 125, -1, 132] total=126
+CODER file=cord-50.bin raw=0 selected=0 candidates=[0, -1, -1, -1, -1] total=2
+CODER file=cord-51.bin raw=0 selected=0 candidates=[0, -1, -1, -1, -1] total=2
+CODER file=cord-52.bin raw=17215 selected=2 candidates=[17215, 2627, 1955, 4655, 2403] total=1959
+CODER file=cord-53.bin raw=53 selected=2 candidates=[53, 19, 8, -1, 14] total=10
+CODER file=cord-54.bin raw=0 selected=0 candidates=[0, -1, -1, -1, -1] total=2
+CODER file=cord-55.bin raw=0 selected=0 candidates=[0, -1, -1, -1, -1] total=2
+CODER file=cord-56.bin raw=0 selected=0 candidates=[0, -1, -1, -1, -1] total=2
+CODER file=cord-57.bin raw=0 selected=0 candidates=[0, -1, -1, -1, -1] total=2
+CODER file=cord-58.bin raw=0 selected=0 candidates=[0, -1, -1, -1, -1] total=2
+CODER file=cord-59.bin raw=0 selected=0 candidates=[0, -1, -1, -1, -1] total=2
+CODER file=cord-60.bin raw=0 selected=0 candidates=[0, -1, -1, -1, -1] total=2
+CODER file=cord-61.bin raw=0 selected=0 candidates=[0, -1, -1, -1, -1] total=2
+CODER file=cord-62.bin raw=0 selected=0 candidates=[0, -1, -1, -1, -1] total=2
+CODER file=cord-63.bin raw=0 selected=0 candidates=[0, -1, -1, -1, -1] total=2
+CODER file=cord-64.bin raw=0 selected=0 candidates=[0, -1, -1, -1, -1] total=2
+CODER file=cord-65.bin raw=0 selected=0 candidates=[0, -1, -1, -1, -1] total=2
+CODER file=cord-66.bin raw=0 selected=0 candidates=[0, -1, -1, -1, -1] total=2
+CODER file=cord-67.bin raw=0 selected=0 candidates=[0, -1, -1, -1, -1] total=2
+CODER file=cord-68.bin raw=0 selected=0 candidates=[0, -1, -1, -1, -1] total=2
+CODER file=cord-69.bin raw=0 selected=0 candidates=[0, -1, -1, -1, -1] total=2
+CODER file=cord-70.bin raw=0 selected=0 candidates=[0, -1, -1, -1, -1] total=2
+CODER file=cord-71.bin raw=0 selected=0 candidates=[0, -1, -1, -1, -1] total=2
+CODER file=cord-40.bin raw=2048 selected=1 candidates=[2048, 1131, 1278, 1346, 1553] total=1134
+CODER file=cord-41.bin raw=39 selected=0 candidates=[39, 48, 45, -1, 45] total=41
+CODER file=cord-42.bin raw=0 selected=0 candidates=[0, -1, -1, -1, -1] total=2
+CODER file=cord-43.bin raw=0 selected=0 candidates=[0, -1, -1, -1, -1] total=2
+CODER file=cord-44.bin raw=0 selected=0 candidates=[0, -1, -1, -1, -1] total=2
+CODER file=cord-45.bin raw=0 selected=0 candidates=[0, -1, -1, -1, -1] total=2
+CODER file=cord-46.bin raw=0 selected=0 candidates=[0, -1, -1, -1, -1] total=2
+CODER file=cord-47.bin raw=0 selected=0 candidates=[0, -1, -1, -1, -1] total=2
+CODER file=cord-48.bin raw=7003 selected=1 candidates=[7003, 4823, 6092, 6315, 6357] total=4826
+CODER file=cord-49.bin raw=87 selected=0 candidates=[87, 98, 116, -1, 117] total=89
+CODER file=cord-50.bin raw=0 selected=0 candidates=[0, -1, -1, -1, -1] total=2
+CODER file=cord-51.bin raw=0 selected=0 candidates=[0, -1, -1, -1, -1] total=2
+CODER file=cord-52.bin raw=0 selected=0 candidates=[0, -1, -1, -1, -1] total=2
+CODER file=cord-53.bin raw=0 selected=0 candidates=[0, -1, -1, -1, -1] total=2
+CODER file=cord-54.bin raw=0 selected=0 candidates=[0, -1, -1, -1, -1] total=2
+CODER file=cord-55.bin raw=0 selected=0 candidates=[0, -1, -1, -1, -1] total=2
+CODER file=cord-56.bin raw=19659 selected=2 candidates=[19659, 3320, 2527, 5554, 3291] total=2531
+CODER file=cord-57.bin raw=188 selected=1 candidates=[188, 139, 150, -1, 161] total=142
+CODER file=cord-58.bin raw=0 selected=0 candidates=[0, -1, -1, -1, -1] total=2
+CODER file=cord-59.bin raw=0 selected=0 candidates=[0, -1, -1, -1, -1] total=2
+CODER file=cord-60.bin raw=0 selected=0 candidates=[0, -1, -1, -1, -1] total=2
+CODER file=cord-61.bin raw=0 selected=0 candidates=[0, -1, -1, -1, -1] total=2
+CODER file=cord-62.bin raw=0 selected=0 candidates=[0, -1, -1, -1, -1] total=2
+CODER file=cord-63.bin raw=0 selected=0 candidates=[0, -1, -1, -1, -1] total=2
+CODER file=cord-64.bin raw=17170 selected=2 candidates=[17170, 2563, 1887, 4593, 2330] total=1891
+CODER file=cord-65.bin raw=98 selected=2 candidates=[98, 59, 51, -1, 59] total=53
+CODER file=cord-66.bin raw=0 selected=0 candidates=[0, -1, -1, -1, -1] total=2
+CODER file=cord-67.bin raw=0 selected=0 candidates=[0, -1, -1, -1, -1] total=2
+CODER file=cord-68.bin raw=0 selected=0 candidates=[0, -1, -1, -1, -1] total=2
+CODER file=cord-69.bin raw=0 selected=0 candidates=[0, -1, -1, -1, -1] total=2
+CODER file=cord-70.bin raw=0 selected=0 candidates=[0, -1, -1, -1, -1] total=2
+CODER file=cord-71.bin raw=0 selected=0 candidates=[0, -1, -1, -1, -1] total=2
+CODER file=cord-72.bin raw=0 selected=0 candidates=[0, -1, -1, -1, -1] total=2
+CODER file=cord-73.bin raw=0 selected=0 candidates=[0, -1, -1, -1, -1] total=2
+CODER file=cord-74.bin raw=0 selected=0 candidates=[0, -1, -1, -1, -1] total=2
+CODER file=cord-75.bin raw=0 selected=0 candidates=[0, -1, -1, -1, -1] total=2
+CODER file=cord-76.bin raw=0 selected=0 candidates=[0, -1, -1, -1, -1] total=2
+CODER file=cord-77.bin raw=0 selected=0 candidates=[0, -1, -1, -1, -1] total=2
+CODER file=cord-78.bin raw=0 selected=0 candidates=[0, -1, -1, -1, -1] total=2
+CODER file=cord-79.bin raw=0 selected=0 candidates=[0, -1, -1, -1, -1] total=2
+CODER file=cord-80.bin raw=0 selected=0 candidates=[0, -1, -1, -1, -1] total=2
+CODER file=cord-81.bin raw=0 selected=0 candidates=[0, -1, -1, -1, -1] total=2
+CODER file=cord-82.bin raw=0 selected=0 candidates=[0, -1, -1, -1, -1] total=2
+CODER file=cord-83.bin raw=0 selected=0 candidates=[0, -1, -1, -1, -1] total=2
+CODER file=cord-84.bin raw=0 selected=0 candidates=[0, -1, -1, -1, -1] total=2
+CODER file=cord-85.bin raw=0 selected=0 candidates=[0, -1, -1, -1, -1] total=2
+CODER file=cord-86.bin raw=0 selected=0 candidates=[0, -1, -1, -1, -1] total=2
+CODER file=cord-87.bin raw=0 selected=0 candidates=[0, -1, -1, -1, -1] total=2
+CODER file=cord-88.bin raw=0 selected=0 candidates=[0, -1, -1, -1, -1] total=2
+CODER file=cord-89.bin raw=0 selected=0 candidates=[0, -1, -1, -1, -1] total=2
+CODER file=cord-90.bin raw=0 selected=0 candidates=[0, -1, -1, -1, -1] total=2
+CODER file=cord-91.bin raw=0 selected=0 candidates=[0, -1, -1, -1, -1] total=2
+CODER file=cord-92.bin raw=0 selected=0 candidates=[0, -1, -1, -1, -1] total=2
+CODER file=cord-93.bin raw=0 selected=0 candidates=[0, -1, -1, -1, -1] total=2
+CODER file=cord-94.bin raw=0 selected=0 candidates=[0, -1, -1, -1, -1] total=2
+CODER file=cord-95.bin raw=0 selected=0 candidates=[0, -1, -1, -1, -1] total=2
+CODER file=cord-96.bin raw=0 selected=0 candidates=[0, -1, -1, -1, -1] total=2
+CODER file=cord-97.bin raw=0 selected=0 candidates=[0, -1, -1, -1, -1] total=2
+CODER file=cord-98.bin raw=0 selected=0 candidates=[0, -1, -1, -1, -1] total=2
+CODER file=cord-99.bin raw=0 selected=0 candidates=[0, -1, -1, -1, -1] total=2
+CODER file=cord-100.bin raw=0 selected=0 candidates=[0, -1, -1, -1, -1] total=2
+CODER file=cord-101.bin raw=0 selected=0 candidates=[0, -1, -1, -1, -1] total=2
+CODER file=cord-102.bin raw=0 selected=0 candidates=[0, -1, -1, -1, -1] total=2
+CODER file=cord-103.bin raw=0 selected=0 candidates=[0, -1, -1, -1, -1] total=2
+CACHE magnitude=0:0 identical_raw=true coded=1187
+CACHE magnitude=0:1 identical_raw=true coded=2
+CACHE magnitude=0:2 identical_raw=true coded=2
+CACHE magnitude=0:3 identical_raw=true coded=2
+CACHE magnitude=0:4 identical_raw=true coded=4901
+CACHE magnitude=0:5 identical_raw=true coded=2
+CACHE magnitude=0:6 identical_raw=true coded=2
+CACHE magnitude=0:7 identical_raw=true coded=2
+CACHE magnitude=0:8 identical_raw=true coded=2704
+CACHE magnitude=0:9 identical_raw=true coded=2
+CACHE magnitude=0:10 identical_raw=true coded=2
+CACHE magnitude=0:11 identical_raw=true coded=2
+CACHE magnitude=0:12 identical_raw=true coded=1962
+CACHE magnitude=0:13 identical_raw=true coded=2
+CACHE magnitude=0:14 identical_raw=true coded=2
+CACHE magnitude=0:15 identical_raw=true coded=2
+CACHE magnitude=0:16 identical_raw=true coded=2
+CACHE magnitude=0:17 identical_raw=true coded=2
+CACHE magnitude=0:18 identical_raw=true coded=2
+CACHE magnitude=0:19 identical_raw=true coded=2
+CACHE magnitude=0:20 identical_raw=true coded=2
+CACHE magnitude=0:21 identical_raw=true coded=2
+CACHE magnitude=0:22 identical_raw=true coded=2
+CACHE magnitude=0:23 identical_raw=true coded=2
+CACHE magnitude=0:24 identical_raw=true coded=2
+CACHE magnitude=0:25 identical_raw=true coded=2
+CACHE magnitude=0:26 identical_raw=true coded=2
+CACHE magnitude=0:27 identical_raw=true coded=2
+CACHE magnitude=0:28 identical_raw=true coded=2
+CACHE magnitude=0:29 identical_raw=true coded=2
+CACHE magnitude=0:30 identical_raw=true coded=2
+CACHE magnitude=0:31 identical_raw=true coded=2
+CACHE magnitude=1:0 identical_raw=true coded=1134
+CACHE magnitude=1:1 identical_raw=true coded=41
+CACHE magnitude=1:2 identical_raw=true coded=2
+CACHE magnitude=1:3 identical_raw=true coded=4826
+CACHE magnitude=1:4 identical_raw=true coded=89
+CACHE magnitude=1:5 identical_raw=true coded=2
+CACHE magnitude=1:6 identical_raw=true coded=2531
+CACHE magnitude=1:7 identical_raw=true coded=142
+CACHE magnitude=1:8 identical_raw=true coded=2
+CACHE magnitude=1:9 identical_raw=true coded=1891
+CACHE magnitude=1:10 identical_raw=true coded=53
+CACHE magnitude=1:11 identical_raw=true coded=2
+CACHE magnitude=1:12 identical_raw=true coded=2
+CACHE magnitude=1:13 identical_raw=true coded=2
+CACHE magnitude=1:14 identical_raw=true coded=2
+CACHE magnitude=1:15 identical_raw=true coded=2
+CACHE magnitude=1:16 identical_raw=true coded=2
+CACHE magnitude=1:17 identical_raw=true coded=2
+CACHE magnitude=1:18 identical_raw=true coded=2
+CACHE magnitude=1:19 identical_raw=true coded=2
+CACHE magnitude=1:20 identical_raw=true coded=2
+CACHE magnitude=1:21 identical_raw=true coded=2
+CACHE magnitude=1:22 identical_raw=true coded=2
+CACHE magnitude=1:23 identical_raw=true coded=2
+CACHE magnitude=2:0 identical_raw=true coded=1167
+CACHE magnitude=2:1 identical_raw=true coded=18
+CACHE magnitude=2:2 identical_raw=true coded=2
+CACHE magnitude=2:3 identical_raw=true coded=2
+CACHE magnitude=2:4 identical_raw=true coded=4849
+CACHE magnitude=2:5 identical_raw=true coded=59
+CACHE magnitude=2:6 identical_raw=true coded=2
+CACHE magnitude=2:7 identical_raw=true coded=2
+CACHE magnitude=2:8 identical_raw=true coded=2557
+CACHE magnitude=2:9 identical_raw=true coded=126
+CACHE magnitude=2:10 identical_raw=true coded=2
+CACHE magnitude=2:11 identical_raw=true coded=2
+CACHE magnitude=2:12 identical_raw=true coded=1959
+CACHE magnitude=2:13 identical_raw=true coded=10
+CACHE magnitude=2:14 identical_raw=true coded=2
+CACHE magnitude=2:15 identical_raw=true coded=2
+CACHE magnitude=2:16 identical_raw=true coded=2
+CACHE magnitude=2:17 identical_raw=true coded=2
+CACHE magnitude=2:18 identical_raw=true coded=2
+CACHE magnitude=2:19 identical_raw=true coded=2
+CACHE magnitude=2:20 identical_raw=true coded=2
+CACHE magnitude=2:21 identical_raw=true coded=2
+CACHE magnitude=2:22 identical_raw=true coded=2
+CACHE magnitude=2:23 identical_raw=true coded=2
+CACHE magnitude=2:24 identical_raw=true coded=2
+CACHE magnitude=2:25 identical_raw=true coded=2
+CACHE magnitude=2:26 identical_raw=true coded=2
+CACHE magnitude=2:27 identical_raw=true coded=2
+CACHE magnitude=2:28 identical_raw=true coded=2
+CACHE magnitude=2:29 identical_raw=true coded=2
+CACHE magnitude=2:30 identical_raw=true coded=2
+CACHE magnitude=2:31 identical_raw=true coded=2
+CACHE magnitude=3:0 identical_raw=true coded=1134
+CACHE magnitude=3:1 identical_raw=true coded=41
+CACHE magnitude=3:2 identical_raw=true coded=2
+CACHE magnitude=3:3 identical_raw=true coded=2
+CACHE magnitude=3:4 identical_raw=true coded=2
+CACHE magnitude=3:5 identical_raw=true coded=2
+CACHE magnitude=3:6 identical_raw=true coded=2
+CACHE magnitude=3:7 identical_raw=true coded=2
+CACHE magnitude=3:8 identical_raw=true coded=4826
+CACHE magnitude=3:9 identical_raw=true coded=89
+CACHE magnitude=3:10 identical_raw=true coded=2
+CACHE magnitude=3:11 identical_raw=true coded=2
+CACHE magnitude=3:12 identical_raw=true coded=2
+CACHE magnitude=3:13 identical_raw=true coded=2
+CACHE magnitude=3:14 identical_raw=true coded=2
+CACHE magnitude=3:15 identical_raw=true coded=2
+CACHE magnitude=3:16 identical_raw=true coded=2531
+CACHE magnitude=3:17 identical_raw=true coded=142
+CACHE magnitude=3:18 identical_raw=true coded=2
+CACHE magnitude=3:19 identical_raw=true coded=2
+CACHE magnitude=3:20 identical_raw=true coded=2
+CACHE magnitude=3:21 identical_raw=true coded=2
+CACHE magnitude=3:22 identical_raw=true coded=2
+CACHE magnitude=3:23 identical_raw=true coded=2
+CACHE magnitude=3:24 identical_raw=true coded=1891
+CACHE magnitude=3:25 identical_raw=true coded=53
+CACHE magnitude=3:26 identical_raw=true coded=2
+CACHE magnitude=3:27 identical_raw=true coded=2
+CACHE magnitude=3:28 identical_raw=true coded=2
+CACHE magnitude=3:29 identical_raw=true coded=2
+CACHE magnitude=3:30 identical_raw=true coded=2
+CACHE magnitude=3:31 identical_raw=true coded=2
+CACHE magnitude=3:32 identical_raw=true coded=2
+CACHE magnitude=3:33 identical_raw=true coded=2
+CACHE magnitude=3:34 identical_raw=true coded=2
+CACHE magnitude=3:35 identical_raw=true coded=2
+CACHE magnitude=3:36 identical_raw=true coded=2
+CACHE magnitude=3:37 identical_raw=true coded=2
+CACHE magnitude=3:38 identical_raw=true coded=2
+CACHE magnitude=3:39 identical_raw=true coded=2
+CACHE magnitude=3:40 identical_raw=true coded=2
+CACHE magnitude=3:41 identical_raw=true coded=2
+CACHE magnitude=3:42 identical_raw=true coded=2
+CACHE magnitude=3:43 identical_raw=true coded=2
+CACHE magnitude=3:44 identical_raw=true coded=2
+CACHE magnitude=3:45 identical_raw=true coded=2
+CACHE magnitude=3:46 identical_raw=true coded=2
+CACHE magnitude=3:47 identical_raw=true coded=2
+CACHE magnitude=3:48 identical_raw=true coded=2
+CACHE magnitude=3:49 identical_raw=true coded=2
+CACHE magnitude=3:50 identical_raw=true coded=2
+CACHE magnitude=3:51 identical_raw=true coded=2
+CACHE magnitude=3:52 identical_raw=true coded=2
+CACHE magnitude=3:53 identical_raw=true coded=2
+CACHE magnitude=3:54 identical_raw=true coded=2
+CACHE magnitude=3:55 identical_raw=true coded=2
+CACHE magnitude=3:56 identical_raw=true coded=2
+CACHE magnitude=3:57 identical_raw=true coded=2
+CACHE magnitude=3:58 identical_raw=true coded=2
+CACHE magnitude=3:59 identical_raw=true coded=2
+CACHE magnitude=3:60 identical_raw=true coded=2
+CACHE magnitude=3:61 identical_raw=true coded=2
+CACHE magnitude=3:62 identical_raw=true coded=2
+CACHE magnitude=3:63 identical_raw=true coded=2
+RESULT kind=MP3 file=synthetic-stereo.mp3 raw=33062 candidate_payload=23321 candidate_container_size=23384 exact=true baseline_payload=23321 same_payload=true reference_best=23386 winner=USER_MP3_RESEARCH new_ms=629 old_ms=430 error= old_error=
+
+STDERR
+frames=79 granules=316 modeled=155 explicit=161
+gaps=79 nonZeroGaps=79 nzBytes=5146
+meta(deflated)=615 (raw 5592, prefix 45) payload=22700
+cost bytes: mags=12542 esc=3476 quads=341 sf=37 signs=5819 sideinfo=445 quadflags=40
+side bytes by field: f0=6 f1=2 f2=0 f3=35 f4=10 f5=43 f6=1 f7=1 f8=1 f9=23 f10=13 f11=6 f12=3 f13=22 f14=17 f15=45 f16=114 f17=10 f18=2 f19=3 f20=73 f21=0 f22=15
+frames=79 granules=316 modeled=155 explicit=161
+gaps=79 nonZeroGaps=79 nzBytes=5146
+meta(deflated)=615 (raw 5592, prefix 45) payload=22700
+cost bytes: mags=12542 esc=3476 quads=341 sf=37 signs=5819 sideinfo=445 quadflags=40
+side bytes by field: f0=6 f1=2 f2=0 f3=35 f4=10 f5=43 f6=1 f7=1 f8=1 f9=23 f10=13 f11=6 f12=3 f13=22 f14=17 f15=45 f16=114 f17=10 f18=2 f19=3 f20=73 f21=0 f22=15
+frames=79 granules=316 modeled=155 explicit=161
+gaps=79 nonZeroGaps=79 nzBytes=5146
+meta(deflated)=615 (raw 5592, prefix 45) payload=22700
+cost bytes: mags=12542 esc=3476 quads=341 sf=37 signs=5819 sideinfo=445 quadflags=40
+side bytes by field: f0=6 f1=2 f2=0 f3=35 f4=10 f5=43 f6=1 f7=1 f8=1 f9=23 f10=13 f11=6 f12=3 f13=22 f14=17 f15=45 f16=114 f17=10 f18=2 f19=3 f20=73 f21=0 f22=15

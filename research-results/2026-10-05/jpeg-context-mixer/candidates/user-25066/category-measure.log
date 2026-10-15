@@ -1,0 +1,5 @@
+REFERENCE original=119935 ivo=93714 engine=JPEG_NEIGHBOUR_RESEARCH sha256=b2b17bc5f4aaa5760688efa0d739ea5198771f3ab76c1949263146edb58abe2a
+RESULT mode=13 original=119935 ivo=92600 gain_reference=1114 exact=true ms=642
+RESULT mode=14 original=119935 ivo=92676 gain_reference=1038 exact=true ms=757
+RESULT mode=15 original=119935 ivo=92572 gain_reference=1142 exact=true ms=887
+RESULT mode=16 original=119935 ivo=92560 gain_reference=1154 exact=true ms=728

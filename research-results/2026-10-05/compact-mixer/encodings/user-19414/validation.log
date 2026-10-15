@@ -1,0 +1,11 @@
+/workspace/scratch/9c62166e5fd0/recap/ivo-java-complet-2026-10-04/research-results/2026-10-05/jpeg-context-mixer/inputs/19414.jpg: 198,464 -> 160,911 bytes (81.08%), engine=JPEG_NEIGHBOUR_RESEARCH
+Engine                         valid   payload       IVO       ms  note
+STORE                          true      198,464   198,518        4  verbatim
+N&C contextuel                 true      251,573   251,627      307  PPM-like sparse contexts, order<=4
+REF + N&C                      true      251,444   251,498      294  REF minMatch=8 then N&C; REF size=198349
+JPEG oracle exact (structure/scans) true      198,339   198,393      252  JPEG exact; segments=12; scans=1; progressive=false; meta=909; entropy=197555; modes=[0, 2, 0]
+JPEG frozen portfolio (ABC, spatial, directional, similarity) true      176,703   176,757     4711  DCT coefficients + exact entropy patch
+JPEG boundary + mixed-context trials true      160,857   160,911     3964  Causal AC category/presence; mode=15; exact entropy patch
+Written: /workspace/scratch/9c62166e5fd0/recap/ivo-java-complet-2026-10-04/research-results/2026-10-05/compact-mixer/encodings/user-19414/compact.ivo
+Restored 198,464 bytes with SHA-256 verification: /tmp/ivo-v29-user-19414-v28
+Restored 198,464 bytes with SHA-256 verification: /tmp/ivo-v29-user-19414-compact

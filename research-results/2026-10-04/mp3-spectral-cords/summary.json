@@ -1,0 +1,52 @@
+{
+  "files": 13,
+  "exact_archives": 52,
+  "wins": 6,
+  "losses": 7,
+  "production_cli_integrated": false,
+  "experimental_engine_id": 18,
+  "goldens_checked": true,
+  "oracle_files": 12,
+  "large_bit_cords_policy": "RAW/zlib only above 1 MiB; NC7 only at most 256 KiB",
+  "tao": {
+    "name": "Tao",
+    "original": 95634889,
+    "sha256": "c6e361e833559e842390da8541480ce47096baf61b405da64d9ef10188a2f40c",
+    "previous_mp37_ivo": 87297487,
+    "previous_origin": "MP37 mesur\u00e9 le 2026-10-03, m\u00eame SHA-256",
+    "previous_mp38_ivo": 99286987,
+    "previous_best_ivo": 87297487,
+    "candidates": {
+      "0": {
+        "ivo": 86402411,
+        "fresh_decode_validation_ms": 29081,
+        "exact": true,
+        "spectral_golden": true
+      },
+      "1": {
+        "ivo": 86030518,
+        "fresh_decode_validation_ms": 28975,
+        "exact": true,
+        "spectral_golden": true
+      },
+      "2": {
+        "ivo": 83508548,
+        "fresh_decode_validation_ms": 29035,
+        "exact": true,
+        "spectral_golden": true
+      },
+      "3": {
+        "ivo": 86306235,
+        "fresh_decode_validation_ms": 29559,
+        "exact": true,
+        "spectral_golden": true
+      }
+    },
+    "best_scheme": 2,
+    "new_ivo": 83508548,
+    "extra_bytes": 3788939,
+    "selected_ivo": 83508548,
+    "gain_vs_original_pct": 12.679829638323724,
+    "independent_spectral_oracle": true
+  }
+}

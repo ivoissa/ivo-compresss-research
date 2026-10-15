@@ -1,0 +1,9 @@
+/tmp/ivo-jpeg-external-inputs/libjxl_sideways_bench.jpg: 15,252 -> 14,959 bytes (98.08%), engine=JPEG_NEIGHBOUR_RESEARCH
+Engine                         valid   payload       IVO       ms  note
+STORE                          true       15,252    15,320        1  verbatim
+N&C contextuel                 true       22,220    22,289       80  PPM-like sparse contexts, order<=4
+REF + N&C                      true       22,057    22,126      100  REF minMatch=8 then N&C; REF size=15025
+JPEG oracle exact (structure/scans) true       15,295    15,363       61  JPEG exact; segments=13; scans=1; progressive=false; meta=3197; entropy=12055; modes=[0, 0, 0]
+JPEG frozen portfolio (ABC, spatial, directional, similarity) true       15,549    15,617      687  DCT coefficients + exact entropy patch
+JPEG boundary portfolio (physical + presence control) true       14,891    14,959      367  Causal AC category/presence; mode=9; exact entropy patch
+Written: /tmp/ivo-jpeg-integration-results/libjxl_sideways_bench.jpg/automatic.ivo

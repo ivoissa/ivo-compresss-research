@@ -1,0 +1,5 @@
+TRACE slices=20 total_header_bits=1216
+RESULT mode=0 original=2143 ivo=1355 exact=true
+RESULT mode=1 original=2143 ivo=1341 exact=true
+RESULT mode=2 original=2143 ivo=1349 exact=true
+RESULT mode=3 original=2143 ivo=1335 exact=true

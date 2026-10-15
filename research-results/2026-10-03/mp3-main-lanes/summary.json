@@ -1,0 +1,21 @@
+{
+  "corpus_files": 26,
+  "supported": 25,
+  "exact_archives_corpus": 150,
+  "wins": 5,
+  "extra_bytes_selected": 3825,
+  "tao_original": 95634889,
+  "tao_previous": 87439040,
+  "tao_candidates": {
+    "0": 87297487,
+    "1": 87501474,
+    "2": 87377309,
+    "3": 87475224,
+    "4": 87690999,
+    "5": 87550313
+  },
+  "tao_best": 87297487,
+  "tao_extra_bytes": 141553,
+  "exact_archives_total": 156,
+  "production_cli_integrated": false
+}

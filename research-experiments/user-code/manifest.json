@@ -1,0 +1,37 @@
+[
+  {
+    "name": "C.java",
+    "original_sha256": "d3a0c193d25be4408a13844fbbf4bcbac6bdf61f5821f31f238f3dda5f10d2a2",
+    "adapted_sha256": "9587b785ad72003b9170655bd6a2bb51eedc3221ff7b76d4730453951c33cfbc"
+  },
+  {
+    "name": "H.java",
+    "original_sha256": "d976220bf0f3742f73e9ad38b01ce09f455f1bac56a0e34feea4b6d01c0ea0cd",
+    "adapted_sha256": "0f90491eb8571fa1976af0616ff6c010fc09782db327ef6f9429a6ba0aa50151"
+  },
+  {
+    "name": "Ivo.java",
+    "original_sha256": "783c0e2a237f11e73fb2d144601c93405d7e7697f9387c1d40b43943a8aab88a",
+    "adapted_sha256": "c3c570bdde1c8a148087e7cefc898db36260b18f8c5184a3174d3abb34f8952b"
+  },
+  {
+    "name": "Mp3.java",
+    "original_sha256": "66e283510f9496846324c8ffa37410ee4130f073c00058544f9e38592f95a341",
+    "adapted_sha256": "6673276a4c2d11a29fc0284d522911524830e9ae44092c00159351236450b0dc"
+  },
+  {
+    "name": "Mp4.java",
+    "original_sha256": "77f6cfd0d9143328bbf5b4a88d0c876ece93fe79acfa63f6d064f2e7ee0738fd",
+    "adapted_sha256": "58d5ad6a37e304c66afa325863bb1e9080a61e38373357de5adbac68cff95c82"
+  },
+  {
+    "name": "T.java",
+    "original_sha256": "b69534bfe708c1913166f1f10a90f6d38df5da29a7a0912d4ba61c0f6515e98b",
+    "adapted_sha256": "ee22bca04dcb288a442512b1c6e42d465187705ac0541cfbbd89fcaf7fb549d2"
+  },
+  {
+    "name": "Vp8.java",
+    "original_sha256": "ebc71a26962cdc778af2b97aa7fd7daeaab4d37d436e34b7dfdf2649cb07fa47",
+    "adapted_sha256": "9c075a604c6dac6d4d600efbb5cf525be96a28da5069c56a77150e254dd1f3c7"
+  }
+]

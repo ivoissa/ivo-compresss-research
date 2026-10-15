@@ -1,0 +1,1 @@
+1057 local ZIP entries readable before truncation; 0 Java files match the preserved v30 source tree exactly.

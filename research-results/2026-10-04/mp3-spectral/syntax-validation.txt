@@ -1,0 +1,1 @@
+PASS spectral pairs=99260 quads=162 known_scalefactor_cases=7 malformed_rejections=165 exact_integer_and_bits=true

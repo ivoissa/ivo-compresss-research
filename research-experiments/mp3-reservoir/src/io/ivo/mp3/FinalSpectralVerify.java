@@ -1,0 +1,5 @@
+package io.ivo.mp3;
+import io.ivo.container.*;import io.ivo.util.*;import java.nio.file.*;import java.util.*;
+public class FinalSpectralVerify {
+ public static void main(String[] args)throws Exception{Path input=Path.of(args[0]),archive=Path.of(args[1]);byte[] original=Files.readAllBytes(input);IvoArchive a=IvoContainer.unpack(Files.readAllBytes(archive));String name=input.getFileName().toString();if(!a.originalName().equals(name)){byte[] repacked=IvoContainer.pack(new IvoArchive(a.engineId(),a.originalSize(),name,a.sha256(),a.payload()));Files.write(archive,repacked);a=IvoContainer.unpack(Files.readAllBytes(archive));}SpectralIr.Counts counts=new SpectralIr.Counts();byte[] b=SpectralMeasure.decode(a.payload(),counts);if(!Arrays.equals(original,b)||!Arrays.equals(a.sha256(),Hashing.sha256(b)))throw new AssertionError("Final original bytes");System.out.println("FINAL input="+name+" original="+original.length+" ivo="+Files.size(archive)+" exact=true same_name=true sha="+HexFormat.of().formatHex(Hashing.sha256(b)));System.out.println("SPECTRAL "+counts.stats());}
+}

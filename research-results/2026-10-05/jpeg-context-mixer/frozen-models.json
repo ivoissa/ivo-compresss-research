@@ -1,0 +1,16 @@
+{
+  "profile_parameters": {
+    "table_bits": 16,
+    "presence_experts": 8,
+    "category_experts": 10,
+    "limit": 1023,
+    "learning_rate": 8,
+    "ap_rate": 6
+  },
+  "source_sha256": {
+    "src/main/java/io/ivo/usercode/MixedPresenceCodec.java": "28083d6480fd28df257d84c5219dbad249b14574acc912026c7c3b144dfe3b6c",
+    "src/main/java/io/ivo/usercode/MixedCategoryCodec.java": "024896dc5fcf0a4e6bd98b5dacbd672322a40b6f6a189632019c47d28d2955be",
+    "src/main/java/io/ivo/usercode/Ivo.java": "b1e399de7e733c3380ee83e5a495bbd90bd93d9115fa0c575527484234a7ba43",
+    "src/main/java/io/ivo/jpeg/QualityContextCodec.java": "d11e934a4b415acd435f1fbb8a3f55dfaf19a057b98c6a3fa05e2a2571c80eb3"
+  }
+}

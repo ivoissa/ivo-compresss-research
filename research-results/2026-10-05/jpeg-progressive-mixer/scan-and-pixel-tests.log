@@ -1,0 +1,4 @@
+PASS scan_syntax cases=24 independent_pixel_oracles=5 odd_dimensions=true progressive_refinement=true restart=true malformed=20 trailing_bytes=true
+ORACLE pixels_exact=true file=research-results/2026-10-04/validation-v21/jpeg-inputs/is-progressive_kitten-progressive.jpg
+ORACLE pixels_exact=true file=research-results/2026-10-04/validation-v21/jpeg-inputs/image-rs_tower_progressive.jpg
+ORACLE pixels_exact=true file=research-results/2026-10-05/jpeg-context-mixer/inputs/pytorch_dog1.jpg

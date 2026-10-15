@@ -1,0 +1,1922 @@
+{
+  "00": [
+    {
+      "field": "main_data_begin",
+      "predictor": 1,
+      "coder": "zlib",
+      "coded_bytes": 4308
+    },
+    {
+      "field": "private_bits",
+      "predictor": 0,
+      "coder": "NC",
+      "coded_bytes": 7
+    },
+    {
+      "field": "scfsi",
+      "predictor": 0,
+      "coder": "zlib",
+      "coded_bytes": 425
+    },
+    {
+      "field": "part2_3_length",
+      "predictor": 0,
+      "coder": "zlib",
+      "coded_bytes": 22236
+    },
+    {
+      "field": "big_values",
+      "predictor": 0,
+      "coder": "NC_PROFILE",
+      "coded_bytes": 1818
+    },
+    {
+      "field": "global_gain",
+      "predictor": 0,
+      "coder": "NC_PROFILE",
+      "coded_bytes": 2630
+    },
+    {
+      "field": "scalefac_compress",
+      "predictor": 0,
+      "coder": "zlib",
+      "coded_bytes": 1937
+    },
+    {
+      "field": "window_switching_flag",
+      "predictor": 1,
+      "coder": "REF_NC",
+      "coded_bytes": 62
+    },
+    {
+      "field": "block_type",
+      "predictor": 0,
+      "coder": "NC_PROFILE",
+      "coded_bytes": 15
+    },
+    {
+      "field": "mixed_block_flag",
+      "predictor": 0,
+      "coder": "NC",
+      "coded_bytes": 7
+    },
+    {
+      "field": "table_select_0",
+      "predictor": 0,
+      "coder": "NC_PROFILE",
+      "coded_bytes": 4885
+    },
+    {
+      "field": "table_select_1",
+      "predictor": 0,
+      "coder": "NC_PROFILE",
+      "coded_bytes": 6305
+    },
+    {
+      "field": "table_select_2",
+      "predictor": 0,
+      "coder": "NC_PROFILE",
+      "coded_bytes": 1605
+    },
+    {
+      "field": "subblock_gain_0",
+      "predictor": 0,
+      "coder": "NC",
+      "coded_bytes": 7
+    },
+    {
+      "field": "subblock_gain_1",
+      "predictor": 0,
+      "coder": "NC",
+      "coded_bytes": 7
+    },
+    {
+      "field": "subblock_gain_2",
+      "predictor": 0,
+      "coder": "NC",
+      "coded_bytes": 7
+    },
+    {
+      "field": "region0_count",
+      "predictor": 0,
+      "coder": "zlib",
+      "coded_bytes": 7019
+    },
+    {
+      "field": "region1_count",
+      "predictor": 0,
+      "coder": "zlib",
+      "coded_bytes": 5288
+    },
+    {
+      "field": "preflag",
+      "predictor": 0,
+      "coder": "NC",
+      "coded_bytes": 7
+    },
+    {
+      "field": "scalefac_scale",
+      "predictor": 0,
+      "coder": "NC_PROFILE",
+      "coded_bytes": 593
+    },
+    {
+      "field": "count1table_select",
+      "predictor": 0,
+      "coder": "NC_PROFILE",
+      "coded_bytes": 910
+    }
+  ],
+  "01": [
+    {
+      "field": "main_data_begin",
+      "predictor": 0,
+      "coder": "RAW",
+      "coded_bytes": 474
+    },
+    {
+      "field": "private_bits",
+      "predictor": 0,
+      "coder": "NC",
+      "coded_bytes": 7
+    },
+    {
+      "field": "scfsi",
+      "predictor": 0,
+      "coder": "NC",
+      "coded_bytes": 90
+    },
+    {
+      "field": "part2_3_length",
+      "predictor": 0,
+      "coder": "zlib",
+      "coded_bytes": 2361
+    },
+    {
+      "field": "big_values",
+      "predictor": 0,
+      "coder": "NC_PROFILE",
+      "coded_bytes": 361
+    },
+    {
+      "field": "global_gain",
+      "predictor": 0,
+      "coder": "zlib",
+      "coded_bytes": 527
+    },
+    {
+      "field": "scalefac_compress",
+      "predictor": 0,
+      "coder": "NC_PROFILE",
+      "coded_bytes": 308
+    },
+    {
+      "field": "window_switching_flag",
+      "predictor": 0,
+      "coder": "NC_PROFILE",
+      "coded_bytes": 61
+    },
+    {
+      "field": "block_type",
+      "predictor": 0,
+      "coder": "NC_PROFILE",
+      "coded_bytes": 18
+    },
+    {
+      "field": "mixed_block_flag",
+      "predictor": 0,
+      "coder": "NC",
+      "coded_bytes": 6
+    },
+    {
+      "field": "table_select_0",
+      "predictor": 0,
+      "coder": "zlib",
+      "coded_bytes": 875
+    },
+    {
+      "field": "table_select_1",
+      "predictor": 0,
+      "coder": "NC_PROFILE",
+      "coded_bytes": 850
+    },
+    {
+      "field": "table_select_2",
+      "predictor": 0,
+      "coder": "NC_PROFILE",
+      "coded_bytes": 274
+    },
+    {
+      "field": "subblock_gain_0",
+      "predictor": 0,
+      "coder": "NC",
+      "coded_bytes": 7
+    },
+    {
+      "field": "subblock_gain_1",
+      "predictor": 0,
+      "coder": "NC",
+      "coded_bytes": 7
+    },
+    {
+      "field": "subblock_gain_2",
+      "predictor": 0,
+      "coder": "NC",
+      "coded_bytes": 7
+    },
+    {
+      "field": "region0_count",
+      "predictor": 0,
+      "coder": "RAW",
+      "coded_bytes": 625
+    },
+    {
+      "field": "region1_count",
+      "predictor": 0,
+      "coder": "RAW",
+      "coded_bytes": 470
+    },
+    {
+      "field": "preflag",
+      "predictor": 0,
+      "coder": "NC",
+      "coded_bytes": 7
+    },
+    {
+      "field": "scalefac_scale",
+      "predictor": 0,
+      "coder": "NC_PROFILE",
+      "coded_bytes": 62
+    },
+    {
+      "field": "count1table_select",
+      "predictor": 0,
+      "coder": "NC_PROFILE",
+      "coded_bytes": 125
+    }
+  ],
+  "03": [
+    {
+      "field": "main_data_begin",
+      "predictor": 0,
+      "coder": "RAW",
+      "coded_bytes": 388
+    },
+    {
+      "field": "private_bits",
+      "predictor": 0,
+      "coder": "NC",
+      "coded_bytes": 7
+    },
+    {
+      "field": "scfsi",
+      "predictor": 0,
+      "coder": "NC_PROFILE",
+      "coded_bytes": 56
+    },
+    {
+      "field": "part2_3_length",
+      "predictor": 0,
+      "coder": "zlib",
+      "coded_bytes": 1909
+    },
+    {
+      "field": "big_values",
+      "predictor": 0,
+      "coder": "NC_PROFILE",
+      "coded_bytes": 281
+    },
+    {
+      "field": "global_gain",
+      "predictor": 0,
+      "coder": "NC_PROFILE",
+      "coded_bytes": 313
+    },
+    {
+      "field": "scalefac_compress",
+      "predictor": 0,
+      "coder": "NC_PROFILE",
+      "coded_bytes": 221
+    },
+    {
+      "field": "window_switching_flag",
+      "predictor": 0,
+      "coder": "NC_PROFILE",
+      "coded_bytes": 39
+    },
+    {
+      "field": "block_type",
+      "predictor": 0,
+      "coder": "NC",
+      "coded_bytes": 9
+    },
+    {
+      "field": "mixed_block_flag",
+      "predictor": 0,
+      "coder": "NC",
+      "coded_bytes": 6
+    },
+    {
+      "field": "table_select_0",
+      "predictor": 0,
+      "coder": "NC_PROFILE",
+      "coded_bytes": 591
+    },
+    {
+      "field": "table_select_1",
+      "predictor": 0,
+      "coder": "zlib",
+      "coded_bytes": 706
+    },
+    {
+      "field": "table_select_2",
+      "predictor": 0,
+      "coder": "NC_PROFILE",
+      "coded_bytes": 222
+    },
+    {
+      "field": "subblock_gain_0",
+      "predictor": 0,
+      "coder": "NC",
+      "coded_bytes": 6
+    },
+    {
+      "field": "subblock_gain_1",
+      "predictor": 0,
+      "coder": "NC",
+      "coded_bytes": 6
+    },
+    {
+      "field": "subblock_gain_2",
+      "predictor": 0,
+      "coder": "NC",
+      "coded_bytes": 6
+    },
+    {
+      "field": "region0_count",
+      "predictor": 0,
+      "coder": "RAW",
+      "coded_bytes": 607
+    },
+    {
+      "field": "region1_count",
+      "predictor": 0,
+      "coder": "RAW",
+      "coded_bytes": 456
+    },
+    {
+      "field": "preflag",
+      "predictor": 0,
+      "coder": "NC",
+      "coded_bytes": 7
+    },
+    {
+      "field": "scalefac_scale",
+      "predictor": 0,
+      "coder": "NC_PROFILE",
+      "coded_bytes": 65
+    },
+    {
+      "field": "count1table_select",
+      "predictor": 0,
+      "coder": "NC_PROFILE",
+      "coded_bytes": 95
+    }
+  ],
+  "04": [
+    {
+      "field": "main_data_begin",
+      "predictor": 0,
+      "coder": "RAW",
+      "coded_bytes": 474
+    },
+    {
+      "field": "private_bits",
+      "predictor": 0,
+      "coder": "NC",
+      "coded_bytes": 7
+    },
+    {
+      "field": "scfsi",
+      "predictor": 0,
+      "coder": "zlib",
+      "coded_bytes": 145
+    },
+    {
+      "field": "part2_3_length",
+      "predictor": 0,
+      "coder": "zlib",
+      "coded_bytes": 2375
+    },
+    {
+      "field": "big_values",
+      "predictor": 0,
+      "coder": "NC_PROFILE",
+      "coded_bytes": 584
+    },
+    {
+      "field": "global_gain",
+      "predictor": 0,
+      "coder": "zlib",
+      "coded_bytes": 581
+    },
+    {
+      "field": "scalefac_compress",
+      "predictor": 0,
+      "coder": "NC_PROFILE",
+      "coded_bytes": 411
+    },
+    {
+      "field": "window_switching_flag",
+      "predictor": 0,
+      "coder": "REF_NC",
+      "coded_bytes": 34
+    },
+    {
+      "field": "block_type",
+      "predictor": 0,
+      "coder": "NC_PROFILE",
+      "coded_bytes": 14
+    },
+    {
+      "field": "mixed_block_flag",
+      "predictor": 0,
+      "coder": "NC",
+      "coded_bytes": 6
+    },
+    {
+      "field": "table_select_0",
+      "predictor": 0,
+      "coder": "zlib",
+      "coded_bytes": 902
+    },
+    {
+      "field": "table_select_1",
+      "predictor": 0,
+      "coder": "NC_PROFILE",
+      "coded_bytes": 793
+    },
+    {
+      "field": "table_select_2",
+      "predictor": 0,
+      "coder": "NC_PROFILE",
+      "coded_bytes": 170
+    },
+    {
+      "field": "subblock_gain_0",
+      "predictor": 0,
+      "coder": "NC",
+      "coded_bytes": 7
+    },
+    {
+      "field": "subblock_gain_1",
+      "predictor": 0,
+      "coder": "NC",
+      "coded_bytes": 7
+    },
+    {
+      "field": "subblock_gain_2",
+      "predictor": 0,
+      "coder": "NC",
+      "coded_bytes": 7
+    },
+    {
+      "field": "region0_count",
+      "predictor": 0,
+      "coder": "RAW",
+      "coded_bytes": 336
+    },
+    {
+      "field": "region1_count",
+      "predictor": 0,
+      "coder": "NC_PROFILE",
+      "coded_bytes": 252
+    },
+    {
+      "field": "preflag",
+      "predictor": 0,
+      "coder": "NC",
+      "coded_bytes": 7
+    },
+    {
+      "field": "scalefac_scale",
+      "predictor": 0,
+      "coder": "NC_PROFILE",
+      "coded_bytes": 106
+    },
+    {
+      "field": "count1table_select",
+      "predictor": 0,
+      "coder": "NC_PROFILE",
+      "coded_bytes": 168
+    }
+  ],
+  "07": [
+    {
+      "field": "main_data_begin",
+      "predictor": 0,
+      "coder": "RAW",
+      "coded_bytes": 285
+    },
+    {
+      "field": "private_bits",
+      "predictor": 0,
+      "coder": "NC",
+      "coded_bytes": 6
+    },
+    {
+      "field": "scfsi",
+      "predictor": 0,
+      "coder": "RAW",
+      "coded_bytes": 2
+    },
+    {
+      "field": "part2_3_length",
+      "predictor": 0,
+      "coder": "RAW",
+      "coded_bytes": 426
+    },
+    {
+      "field": "big_values",
+      "predictor": 2,
+      "coder": "NC_PROFILE",
+      "coded_bytes": 117
+    },
+    {
+      "field": "global_gain",
+      "predictor": 1,
+      "coder": "NC_PROFILE",
+      "coded_bytes": 188
+    },
+    {
+      "field": "scalefac_compress",
+      "predictor": 0,
+      "coder": "NC_PROFILE",
+      "coded_bytes": 255
+    },
+    {
+      "field": "window_switching_flag",
+      "predictor": 0,
+      "coder": "NC_PROFILE",
+      "coded_bytes": 24
+    },
+    {
+      "field": "block_type",
+      "predictor": 0,
+      "coder": "RAW",
+      "coded_bytes": 11
+    },
+    {
+      "field": "mixed_block_flag",
+      "predictor": 0,
+      "coder": "NC",
+      "coded_bytes": 5
+    },
+    {
+      "field": "table_select_0",
+      "predictor": 2,
+      "coder": "NC_PROFILE",
+      "coded_bytes": 132
+    },
+    {
+      "field": "table_select_1",
+      "predictor": 2,
+      "coder": "NC_PROFILE",
+      "coded_bytes": 160
+    },
+    {
+      "field": "table_select_2",
+      "predictor": 0,
+      "coder": "RAW",
+      "coded_bytes": 158
+    },
+    {
+      "field": "subblock_gain_0",
+      "predictor": 0,
+      "coder": "NC",
+      "coded_bytes": 5
+    },
+    {
+      "field": "subblock_gain_1",
+      "predictor": 0,
+      "coder": "NC",
+      "coded_bytes": 5
+    },
+    {
+      "field": "subblock_gain_2",
+      "predictor": 0,
+      "coder": "NC",
+      "coded_bytes": 5
+    },
+    {
+      "field": "region0_count",
+      "predictor": 0,
+      "coder": "RAW",
+      "coded_bytes": 126
+    },
+    {
+      "field": "region1_count",
+      "predictor": 0,
+      "coder": "RAW",
+      "coded_bytes": 95
+    },
+    {
+      "field": "preflag",
+      "predictor": 0,
+      "coder": "RAW",
+      "coded_bytes": 2
+    },
+    {
+      "field": "scalefac_scale",
+      "predictor": 0,
+      "coder": "NC_PROFILE",
+      "coded_bytes": 36
+    },
+    {
+      "field": "count1table_select",
+      "predictor": 0,
+      "coder": "NC_PROFILE",
+      "coded_bytes": 36
+    }
+  ],
+  "10": [
+    {
+      "field": "main_data_begin",
+      "predictor": 0,
+      "coder": "RAW",
+      "coded_bytes": 193
+    },
+    {
+      "field": "private_bits",
+      "predictor": 0,
+      "coder": "NC",
+      "coded_bytes": 6
+    },
+    {
+      "field": "scfsi",
+      "predictor": 0,
+      "coder": "RAW",
+      "coded_bytes": 2
+    },
+    {
+      "field": "part2_3_length",
+      "predictor": 0,
+      "coder": "RAW",
+      "coded_bytes": 288
+    },
+    {
+      "field": "big_values",
+      "predictor": 2,
+      "coder": "NC_PROFILE",
+      "coded_bytes": 51
+    },
+    {
+      "field": "global_gain",
+      "predictor": 1,
+      "coder": "NC_PROFILE",
+      "coded_bytes": 134
+    },
+    {
+      "field": "scalefac_compress",
+      "predictor": 0,
+      "coder": "NC_PROFILE",
+      "coded_bytes": 176
+    },
+    {
+      "field": "window_switching_flag",
+      "predictor": 1,
+      "coder": "NC_PROFILE",
+      "coded_bytes": 13
+    },
+    {
+      "field": "block_type",
+      "predictor": 0,
+      "coder": "RAW",
+      "coded_bytes": 6
+    },
+    {
+      "field": "mixed_block_flag",
+      "predictor": 0,
+      "coder": "RAW",
+      "coded_bytes": 4
+    },
+    {
+      "field": "table_select_0",
+      "predictor": 2,
+      "coder": "NC_PROFILE",
+      "coded_bytes": 114
+    },
+    {
+      "field": "table_select_1",
+      "predictor": 1,
+      "coder": "NC_PROFILE",
+      "coded_bytes": 117
+    },
+    {
+      "field": "table_select_2",
+      "predictor": 0,
+      "coder": "RAW",
+      "coded_bytes": 112
+    },
+    {
+      "field": "subblock_gain_0",
+      "predictor": 0,
+      "coder": "NC",
+      "coded_bytes": 5
+    },
+    {
+      "field": "subblock_gain_1",
+      "predictor": 0,
+      "coder": "NC",
+      "coded_bytes": 5
+    },
+    {
+      "field": "subblock_gain_2",
+      "predictor": 0,
+      "coder": "NC",
+      "coded_bytes": 5
+    },
+    {
+      "field": "region0_count",
+      "predictor": 0,
+      "coder": "RAW",
+      "coded_bytes": 90
+    },
+    {
+      "field": "region1_count",
+      "predictor": 0,
+      "coder": "RAW",
+      "coded_bytes": 68
+    },
+    {
+      "field": "preflag",
+      "predictor": 0,
+      "coder": "RAW",
+      "coded_bytes": 2
+    },
+    {
+      "field": "scalefac_scale",
+      "predictor": 0,
+      "coder": "NC_PROFILE",
+      "coded_bytes": 14
+    },
+    {
+      "field": "count1table_select",
+      "predictor": 0,
+      "coder": "NC_PROFILE",
+      "coded_bytes": 16
+    }
+  ],
+  "13": [
+    {
+      "field": "main_data_begin",
+      "predictor": 0,
+      "coder": "RAW",
+      "coded_bytes": 391
+    },
+    {
+      "field": "private_bits",
+      "predictor": 0,
+      "coder": "NC",
+      "coded_bytes": 6
+    },
+    {
+      "field": "scfsi",
+      "predictor": 0,
+      "coder": "RAW",
+      "coded_bytes": 2
+    },
+    {
+      "field": "part2_3_length",
+      "predictor": 0,
+      "coder": "RAW",
+      "coded_bytes": 585
+    },
+    {
+      "field": "big_values",
+      "predictor": 1,
+      "coder": "NC_PROFILE",
+      "coded_bytes": 276
+    },
+    {
+      "field": "global_gain",
+      "predictor": 1,
+      "coder": "NC_PROFILE",
+      "coded_bytes": 277
+    },
+    {
+      "field": "scalefac_compress",
+      "predictor": 0,
+      "coder": "NC_PROFILE",
+      "coded_bytes": 382
+    },
+    {
+      "field": "window_switching_flag",
+      "predictor": 0,
+      "coder": "NC_PROFILE",
+      "coded_bytes": 28
+    },
+    {
+      "field": "block_type",
+      "predictor": 0,
+      "coder": "RAW",
+      "coded_bytes": 15
+    },
+    {
+      "field": "mixed_block_flag",
+      "predictor": 0,
+      "coder": "NC",
+      "coded_bytes": 5
+    },
+    {
+      "field": "table_select_0",
+      "predictor": 1,
+      "coder": "NC_PROFILE",
+      "coded_bytes": 219
+    },
+    {
+      "field": "table_select_1",
+      "predictor": 0,
+      "coder": "RAW",
+      "coded_bytes": 246
+    },
+    {
+      "field": "table_select_2",
+      "predictor": 0,
+      "coder": "RAW",
+      "coded_bytes": 215
+    },
+    {
+      "field": "subblock_gain_0",
+      "predictor": 0,
+      "coder": "NC",
+      "coded_bytes": 6
+    },
+    {
+      "field": "subblock_gain_1",
+      "predictor": 0,
+      "coder": "NC",
+      "coded_bytes": 6
+    },
+    {
+      "field": "subblock_gain_2",
+      "predictor": 0,
+      "coder": "NC",
+      "coded_bytes": 6
+    },
+    {
+      "field": "region0_count",
+      "predictor": 0,
+      "coder": "RAW",
+      "coded_bytes": 172
+    },
+    {
+      "field": "region1_count",
+      "predictor": 0,
+      "coder": "RAW",
+      "coded_bytes": 129
+    },
+    {
+      "field": "preflag",
+      "predictor": 0,
+      "coder": "RAW",
+      "coded_bytes": 2
+    },
+    {
+      "field": "scalefac_scale",
+      "predictor": 0,
+      "coder": "NC_PROFILE",
+      "coded_bytes": 29
+    },
+    {
+      "field": "count1table_select",
+      "predictor": 0,
+      "coder": "RAW",
+      "coded_bytes": 51
+    }
+  ],
+  "14": [
+    {
+      "field": "main_data_begin",
+      "predictor": 2,
+      "coder": "RAW",
+      "coded_bytes": 389
+    },
+    {
+      "field": "private_bits",
+      "predictor": 2,
+      "coder": "NC",
+      "coded_bytes": 6
+    },
+    {
+      "field": "scfsi",
+      "predictor": 2,
+      "coder": "RAW",
+      "coded_bytes": 2
+    },
+    {
+      "field": "part2_3_length",
+      "predictor": 2,
+      "coder": "RAW",
+      "coded_bytes": 582
+    },
+    {
+      "field": "big_values",
+      "predictor": 2,
+      "coder": "NC_PROFILE",
+      "coded_bytes": 301
+    },
+    {
+      "field": "global_gain",
+      "predictor": 2,
+      "coder": "NC_PROFILE",
+      "coded_bytes": 218
+    },
+    {
+      "field": "scalefac_compress",
+      "predictor": 2,
+      "coder": "NC_PROFILE",
+      "coded_bytes": 25
+    },
+    {
+      "field": "window_switching_flag",
+      "predictor": 2,
+      "coder": "NC_PROFILE",
+      "coded_bytes": 18
+    },
+    {
+      "field": "block_type",
+      "predictor": 2,
+      "coder": "RAW",
+      "coded_bytes": 6
+    },
+    {
+      "field": "mixed_block_flag",
+      "predictor": 2,
+      "coder": "RAW",
+      "coded_bytes": 4
+    },
+    {
+      "field": "table_select_0",
+      "predictor": 2,
+      "coder": "NC_PROFILE",
+      "coded_bytes": 176
+    },
+    {
+      "field": "table_select_1",
+      "predictor": 2,
+      "coder": "NC_PROFILE",
+      "coded_bytes": 212
+    },
+    {
+      "field": "table_select_2",
+      "predictor": 2,
+      "coder": "RAW",
+      "coded_bytes": 235
+    },
+    {
+      "field": "subblock_gain_0",
+      "predictor": 2,
+      "coder": "NC",
+      "coded_bytes": 5
+    },
+    {
+      "field": "subblock_gain_1",
+      "predictor": 2,
+      "coder": "NC",
+      "coded_bytes": 5
+    },
+    {
+      "field": "subblock_gain_2",
+      "predictor": 2,
+      "coder": "NC",
+      "coded_bytes": 5
+    },
+    {
+      "field": "region0_count",
+      "predictor": 2,
+      "coder": "RAW",
+      "coded_bytes": 188
+    },
+    {
+      "field": "region1_count",
+      "predictor": 2,
+      "coder": "RAW",
+      "coded_bytes": 142
+    },
+    {
+      "field": "preflag",
+      "predictor": 2,
+      "coder": "RAW",
+      "coded_bytes": 2
+    },
+    {
+      "field": "scalefac_scale",
+      "predictor": 2,
+      "coder": "NC",
+      "coded_bytes": 6
+    },
+    {
+      "field": "count1table_select",
+      "predictor": 2,
+      "coder": "RAW",
+      "coded_bytes": 51
+    }
+  ],
+  "15": [
+    {
+      "field": "main_data_begin",
+      "predictor": 2,
+      "coder": "RAW",
+      "coded_bytes": 389
+    },
+    {
+      "field": "private_bits",
+      "predictor": 2,
+      "coder": "NC",
+      "coded_bytes": 6
+    },
+    {
+      "field": "scfsi",
+      "predictor": 2,
+      "coder": "RAW",
+      "coded_bytes": 2
+    },
+    {
+      "field": "part2_3_length",
+      "predictor": 2,
+      "coder": "RAW",
+      "coded_bytes": 582
+    },
+    {
+      "field": "big_values",
+      "predictor": 2,
+      "coder": "NC_PROFILE",
+      "coded_bytes": 370
+    },
+    {
+      "field": "global_gain",
+      "predictor": 2,
+      "coder": "NC_PROFILE",
+      "coded_bytes": 204
+    },
+    {
+      "field": "scalefac_compress",
+      "predictor": 2,
+      "coder": "NC_PROFILE",
+      "coded_bytes": 68
+    },
+    {
+      "field": "window_switching_flag",
+      "predictor": 2,
+      "coder": "NC_PROFILE",
+      "coded_bytes": 11
+    },
+    {
+      "field": "block_type",
+      "predictor": 2,
+      "coder": "RAW",
+      "coded_bytes": 4
+    },
+    {
+      "field": "mixed_block_flag",
+      "predictor": 2,
+      "coder": "RAW",
+      "coded_bytes": 3
+    },
+    {
+      "field": "table_select_0",
+      "predictor": 2,
+      "coder": "NC_PROFILE",
+      "coded_bytes": 119
+    },
+    {
+      "field": "table_select_1",
+      "predictor": 2,
+      "coder": "NC_PROFILE",
+      "coded_bytes": 175
+    },
+    {
+      "field": "table_select_2",
+      "predictor": 2,
+      "coder": "RAW",
+      "coded_bytes": 241
+    },
+    {
+      "field": "subblock_gain_0",
+      "predictor": 2,
+      "coder": "RAW",
+      "coded_bytes": 5
+    },
+    {
+      "field": "subblock_gain_1",
+      "predictor": 2,
+      "coder": "RAW",
+      "coded_bytes": 5
+    },
+    {
+      "field": "subblock_gain_2",
+      "predictor": 2,
+      "coder": "RAW",
+      "coded_bytes": 5
+    },
+    {
+      "field": "region0_count",
+      "predictor": 2,
+      "coder": "RAW",
+      "coded_bytes": 193
+    },
+    {
+      "field": "region1_count",
+      "predictor": 2,
+      "coder": "RAW",
+      "coded_bytes": 146
+    },
+    {
+      "field": "preflag",
+      "predictor": 2,
+      "coder": "RAW",
+      "coded_bytes": 2
+    },
+    {
+      "field": "scalefac_scale",
+      "predictor": 2,
+      "coder": "NC_PROFILE",
+      "coded_bytes": 25
+    },
+    {
+      "field": "count1table_select",
+      "predictor": 2,
+      "coder": "RAW",
+      "coded_bytes": 51
+    }
+  ],
+  "19": [
+    {
+      "field": "main_data_begin",
+      "predictor": 0,
+      "coder": "RAW",
+      "coded_bytes": 281
+    },
+    {
+      "field": "private_bits",
+      "predictor": 0,
+      "coder": "NC",
+      "coded_bytes": 6
+    },
+    {
+      "field": "scfsi",
+      "predictor": 0,
+      "coder": "NC_PROFILE",
+      "coded_bytes": 118
+    },
+    {
+      "field": "part2_3_length",
+      "predictor": 0,
+      "coder": "NC_PROFILE",
+      "coded_bytes": 895
+    },
+    {
+      "field": "big_values",
+      "predictor": 1,
+      "coder": "NC_PROFILE",
+      "coded_bytes": 541
+    },
+    {
+      "field": "global_gain",
+      "predictor": 0,
+      "coder": "NC_PROFILE",
+      "coded_bytes": 300
+    },
+    {
+      "field": "scalefac_compress",
+      "predictor": 0,
+      "coder": "NC_PROFILE",
+      "coded_bytes": 219
+    },
+    {
+      "field": "window_switching_flag",
+      "predictor": 0,
+      "coder": "NC_PROFILE",
+      "coded_bytes": 14
+    },
+    {
+      "field": "block_type",
+      "predictor": 0,
+      "coder": "RAW",
+      "coded_bytes": 5
+    },
+    {
+      "field": "mixed_block_flag",
+      "predictor": 0,
+      "coder": "RAW",
+      "coded_bytes": 4
+    },
+    {
+      "field": "table_select_0",
+      "predictor": 0,
+      "coder": "NC_PROFILE",
+      "coded_bytes": 189
+    },
+    {
+      "field": "table_select_1",
+      "predictor": 0,
+      "coder": "NC_PROFILE",
+      "coded_bytes": 202
+    },
+    {
+      "field": "table_select_2",
+      "predictor": 0,
+      "coder": "NC_PROFILE",
+      "coded_bytes": 321
+    },
+    {
+      "field": "subblock_gain_0",
+      "predictor": 0,
+      "coder": "NC",
+      "coded_bytes": 5
+    },
+    {
+      "field": "subblock_gain_1",
+      "predictor": 0,
+      "coder": "NC",
+      "coded_bytes": 5
+    },
+    {
+      "field": "subblock_gain_2",
+      "predictor": 0,
+      "coder": "NC",
+      "coded_bytes": 5
+    },
+    {
+      "field": "region0_count",
+      "predictor": 0,
+      "coder": "NC_PROFILE",
+      "coded_bytes": 208
+    },
+    {
+      "field": "region1_count",
+      "predictor": 2,
+      "coder": "NC_PROFILE",
+      "coded_bytes": 272
+    },
+    {
+      "field": "preflag",
+      "predictor": 0,
+      "coder": "NC_PROFILE",
+      "coded_bytes": 12
+    },
+    {
+      "field": "scalefac_scale",
+      "predictor": 0,
+      "coder": "NC_PROFILE",
+      "coded_bytes": 36
+    },
+    {
+      "field": "count1table_select",
+      "predictor": 0,
+      "coder": "NC_PROFILE",
+      "coded_bytes": 75
+    }
+  ],
+  "20": [
+    {
+      "field": "main_data_begin",
+      "predictor": 1,
+      "coder": "zlib",
+      "coded_bytes": 388
+    },
+    {
+      "field": "private_bits",
+      "predictor": 0,
+      "coder": "NC",
+      "coded_bytes": 7
+    },
+    {
+      "field": "scfsi",
+      "predictor": 0,
+      "coder": "NC_PROFILE",
+      "coded_bytes": 234
+    },
+    {
+      "field": "part2_3_length",
+      "predictor": 0,
+      "coder": "zlib",
+      "coded_bytes": 1686
+    },
+    {
+      "field": "big_values",
+      "predictor": 0,
+      "coder": "zlib",
+      "coded_bytes": 1336
+    },
+    {
+      "field": "global_gain",
+      "predictor": 0,
+      "coder": "zlib",
+      "coded_bytes": 890
+    },
+    {
+      "field": "scalefac_compress",
+      "predictor": 0,
+      "coder": "zlib",
+      "coded_bytes": 525
+    },
+    {
+      "field": "window_switching_flag",
+      "predictor": 0,
+      "coder": "NC_PROFILE",
+      "coded_bytes": 47
+    },
+    {
+      "field": "block_type",
+      "predictor": 0,
+      "coder": "NC_PROFILE",
+      "coded_bytes": 15
+    },
+    {
+      "field": "mixed_block_flag",
+      "predictor": 0,
+      "coder": "NC",
+      "coded_bytes": 6
+    },
+    {
+      "field": "table_select_0",
+      "predictor": 1,
+      "coder": "zlib",
+      "coded_bytes": 687
+    },
+    {
+      "field": "table_select_1",
+      "predictor": 0,
+      "coder": "REF_CORDS",
+      "coded_bytes": 781
+    },
+    {
+      "field": "table_select_2",
+      "predictor": 0,
+      "coder": "zlib",
+      "coded_bytes": 647
+    },
+    {
+      "field": "subblock_gain_0",
+      "predictor": 0,
+      "coder": "NC_PROFILE",
+      "coded_bytes": 15
+    },
+    {
+      "field": "subblock_gain_1",
+      "predictor": 0,
+      "coder": "NC_PROFILE",
+      "coded_bytes": 11
+    },
+    {
+      "field": "subblock_gain_2",
+      "predictor": 0,
+      "coder": "NC",
+      "coded_bytes": 6
+    },
+    {
+      "field": "region0_count",
+      "predictor": 0,
+      "coder": "zlib",
+      "coded_bytes": 487
+    },
+    {
+      "field": "region1_count",
+      "predictor": 0,
+      "coder": "zlib",
+      "coded_bytes": 421
+    },
+    {
+      "field": "preflag",
+      "predictor": 0,
+      "coder": "NC_PROFILE",
+      "coded_bytes": 159
+    },
+    {
+      "field": "scalefac_scale",
+      "predictor": 0,
+      "coder": "zlib",
+      "coded_bytes": 178
+    },
+    {
+      "field": "count1table_select",
+      "predictor": 0,
+      "coder": "NC_PROFILE",
+      "coded_bytes": 144
+    }
+  ],
+  "21": [
+    {
+      "field": "main_data_begin",
+      "predictor": 0,
+      "coder": "zlib",
+      "coded_bytes": 2034
+    },
+    {
+      "field": "private_bits",
+      "predictor": 0,
+      "coder": "NC",
+      "coded_bytes": 7
+    },
+    {
+      "field": "scfsi",
+      "predictor": 0,
+      "coder": "RAW",
+      "coded_bytes": 2
+    },
+    {
+      "field": "part2_3_length",
+      "predictor": 0,
+      "coder": "zlib",
+      "coded_bytes": 3354
+    },
+    {
+      "field": "big_values",
+      "predictor": 0,
+      "coder": "NC_PROFILE",
+      "coded_bytes": 230
+    },
+    {
+      "field": "global_gain",
+      "predictor": 1,
+      "coder": "NC_PROFILE",
+      "coded_bytes": 1418
+    },
+    {
+      "field": "scalefac_compress",
+      "predictor": 0,
+      "coder": "NC_PROFILE",
+      "coded_bytes": 1747
+    },
+    {
+      "field": "window_switching_flag",
+      "predictor": 0,
+      "coder": "NC_PROFILE",
+      "coded_bytes": 157
+    },
+    {
+      "field": "block_type",
+      "predictor": 0,
+      "coder": "NC_PROFILE",
+      "coded_bytes": 34
+    },
+    {
+      "field": "mixed_block_flag",
+      "predictor": 0,
+      "coder": "NC",
+      "coded_bytes": 6
+    },
+    {
+      "field": "table_select_0",
+      "predictor": 0,
+      "coder": "zlib",
+      "coded_bytes": 1044
+    },
+    {
+      "field": "table_select_1",
+      "predictor": 2,
+      "coder": "zlib",
+      "coded_bytes": 1168
+    },
+    {
+      "field": "table_select_2",
+      "predictor": 0,
+      "coder": "zlib",
+      "coded_bytes": 984
+    },
+    {
+      "field": "subblock_gain_0",
+      "predictor": 0,
+      "coder": "NC",
+      "coded_bytes": 7
+    },
+    {
+      "field": "subblock_gain_1",
+      "predictor": 0,
+      "coder": "NC",
+      "coded_bytes": 7
+    },
+    {
+      "field": "subblock_gain_2",
+      "predictor": 0,
+      "coder": "NC",
+      "coded_bytes": 7
+    },
+    {
+      "field": "region0_count",
+      "predictor": 0,
+      "coder": "zlib",
+      "coded_bytes": 917
+    },
+    {
+      "field": "region1_count",
+      "predictor": 0,
+      "coder": "RAW",
+      "coded_bytes": 699
+    },
+    {
+      "field": "preflag",
+      "predictor": 0,
+      "coder": "RAW",
+      "coded_bytes": 2
+    },
+    {
+      "field": "scalefac_scale",
+      "predictor": 0,
+      "coder": "NC_PROFILE",
+      "coded_bytes": 175
+    },
+    {
+      "field": "count1table_select",
+      "predictor": 0,
+      "coder": "NC_PROFILE",
+      "coded_bytes": 66
+    }
+  ],
+  "22": [
+    {
+      "field": "main_data_begin",
+      "predictor": 0,
+      "coder": "zlib",
+      "coded_bytes": 633
+    },
+    {
+      "field": "private_bits",
+      "predictor": 0,
+      "coder": "NC",
+      "coded_bytes": 7
+    },
+    {
+      "field": "scfsi",
+      "predictor": 0,
+      "coder": "NC_PROFILE",
+      "coded_bytes": 257
+    },
+    {
+      "field": "part2_3_length",
+      "predictor": 0,
+      "coder": "NC_PROFILE",
+      "coded_bytes": 2081
+    },
+    {
+      "field": "big_values",
+      "predictor": 0,
+      "coder": "NC_PROFILE",
+      "coded_bytes": 1533
+    },
+    {
+      "field": "global_gain",
+      "predictor": 0,
+      "coder": "NC_PROFILE",
+      "coded_bytes": 853
+    },
+    {
+      "field": "scalefac_compress",
+      "predictor": 0,
+      "coder": "NC_PROFILE",
+      "coded_bytes": 559
+    },
+    {
+      "field": "window_switching_flag",
+      "predictor": 0,
+      "coder": "NC",
+      "coded_bytes": 53
+    },
+    {
+      "field": "block_type",
+      "predictor": 0,
+      "coder": "NC_PROFILE",
+      "coded_bytes": 24
+    },
+    {
+      "field": "mixed_block_flag",
+      "predictor": 0,
+      "coder": "NC",
+      "coded_bytes": 6
+    },
+    {
+      "field": "table_select_0",
+      "predictor": 0,
+      "coder": "NC_PROFILE",
+      "coded_bytes": 532
+    },
+    {
+      "field": "table_select_1",
+      "predictor": 0,
+      "coder": "NC_PROFILE",
+      "coded_bytes": 693
+    },
+    {
+      "field": "table_select_2",
+      "predictor": 0,
+      "coder": "NC_PROFILE",
+      "coded_bytes": 552
+    },
+    {
+      "field": "subblock_gain_0",
+      "predictor": 0,
+      "coder": "NC_PROFILE",
+      "coded_bytes": 15
+    },
+    {
+      "field": "subblock_gain_1",
+      "predictor": 0,
+      "coder": "NC_PROFILE",
+      "coded_bytes": 11
+    },
+    {
+      "field": "subblock_gain_2",
+      "predictor": 0,
+      "coder": "NC",
+      "coded_bytes": 7
+    },
+    {
+      "field": "region0_count",
+      "predictor": 0,
+      "coder": "NC_PROFILE",
+      "coded_bytes": 425
+    },
+    {
+      "field": "region1_count",
+      "predictor": 0,
+      "coder": "NC_PROFILE",
+      "coded_bytes": 472
+    },
+    {
+      "field": "preflag",
+      "predictor": 0,
+      "coder": "NC",
+      "coded_bytes": 77
+    },
+    {
+      "field": "scalefac_scale",
+      "predictor": 0,
+      "coder": "NC_PROFILE",
+      "coded_bytes": 122
+    },
+    {
+      "field": "count1table_select",
+      "predictor": 0,
+      "coder": "NC_PROFILE",
+      "coded_bytes": 165
+    }
+  ],
+  "23": [
+    {
+      "field": "main_data_begin",
+      "predictor": 0,
+      "coder": "RAW",
+      "coded_bytes": 653
+    },
+    {
+      "field": "private_bits",
+      "predictor": 0,
+      "coder": "NC",
+      "coded_bytes": 7
+    },
+    {
+      "field": "scfsi",
+      "predictor": 0,
+      "coder": "NC_PROFILE",
+      "coded_bytes": 140
+    },
+    {
+      "field": "part2_3_length",
+      "predictor": 0,
+      "coder": "NC_PROFILE",
+      "coded_bytes": 1971
+    },
+    {
+      "field": "big_values",
+      "predictor": 0,
+      "coder": "NC_PROFILE",
+      "coded_bytes": 1430
+    },
+    {
+      "field": "global_gain",
+      "predictor": 0,
+      "coder": "NC_PROFILE",
+      "coded_bytes": 725
+    },
+    {
+      "field": "scalefac_compress",
+      "predictor": 0,
+      "coder": "NC_PROFILE",
+      "coded_bytes": 238
+    },
+    {
+      "field": "window_switching_flag",
+      "predictor": 0,
+      "coder": "NC_PROFILE",
+      "coded_bytes": 52
+    },
+    {
+      "field": "block_type",
+      "predictor": 0,
+      "coder": "NC_PROFILE",
+      "coded_bytes": 24
+    },
+    {
+      "field": "mixed_block_flag",
+      "predictor": 0,
+      "coder": "NC",
+      "coded_bytes": 6
+    },
+    {
+      "field": "table_select_0",
+      "predictor": 0,
+      "coder": "NC_PROFILE",
+      "coded_bytes": 430
+    },
+    {
+      "field": "table_select_1",
+      "predictor": 0,
+      "coder": "NC_PROFILE",
+      "coded_bytes": 604
+    },
+    {
+      "field": "table_select_2",
+      "predictor": 0,
+      "coder": "NC_PROFILE",
+      "coded_bytes": 456
+    },
+    {
+      "field": "subblock_gain_0",
+      "predictor": 0,
+      "coder": "NC_PROFILE",
+      "coded_bytes": 75
+    },
+    {
+      "field": "subblock_gain_1",
+      "predictor": 0,
+      "coder": "NC_PROFILE",
+      "coded_bytes": 55
+    },
+    {
+      "field": "subblock_gain_2",
+      "predictor": 0,
+      "coder": "NC_PROFILE",
+      "coded_bytes": 21
+    },
+    {
+      "field": "region0_count",
+      "predictor": 0,
+      "coder": "NC_PROFILE",
+      "coded_bytes": 383
+    },
+    {
+      "field": "region1_count",
+      "predictor": 0,
+      "coder": "NC_PROFILE",
+      "coded_bytes": 479
+    },
+    {
+      "field": "preflag",
+      "predictor": 0,
+      "coder": "NC_PROFILE",
+      "coded_bytes": 155
+    },
+    {
+      "field": "scalefac_scale",
+      "predictor": 0,
+      "coder": "NC",
+      "coded_bytes": 7
+    },
+    {
+      "field": "count1table_select",
+      "predictor": 0,
+      "coder": "NC_PROFILE",
+      "coded_bytes": 165
+    }
+  ],
+  "25": [
+    {
+      "field": "main_data_begin",
+      "predictor": 1,
+      "coder": "zlib",
+      "coded_bytes": 246
+    },
+    {
+      "field": "private_bits",
+      "predictor": 1,
+      "coder": "NC",
+      "coded_bytes": 6
+    },
+    {
+      "field": "scfsi",
+      "predictor": 1,
+      "coder": "RAW",
+      "coded_bytes": 2
+    },
+    {
+      "field": "part2_3_length",
+      "predictor": 1,
+      "coder": "zlib",
+      "coded_bytes": 716
+    },
+    {
+      "field": "big_values",
+      "predictor": 1,
+      "coder": "NC_PROFILE",
+      "coded_bytes": 281
+    },
+    {
+      "field": "global_gain",
+      "predictor": 1,
+      "coder": "NC_PROFILE",
+      "coded_bytes": 255
+    },
+    {
+      "field": "scalefac_compress",
+      "predictor": 1,
+      "coder": "NC_PROFILE",
+      "coded_bytes": 420
+    },
+    {
+      "field": "window_switching_flag",
+      "predictor": 1,
+      "coder": "NC_PROFILE",
+      "coded_bytes": 8
+    },
+    {
+      "field": "block_type",
+      "predictor": 1,
+      "coder": "NC",
+      "coded_bytes": 7
+    },
+    {
+      "field": "mixed_block_flag",
+      "predictor": 1,
+      "coder": "NC",
+      "coded_bytes": 6
+    },
+    {
+      "field": "table_select_0",
+      "predictor": 1,
+      "coder": "NC_PROFILE",
+      "coded_bytes": 182
+    },
+    {
+      "field": "table_select_1",
+      "predictor": 1,
+      "coder": "NC_PROFILE",
+      "coded_bytes": 215
+    },
+    {
+      "field": "table_select_2",
+      "predictor": 1,
+      "coder": "NC_PROFILE",
+      "coded_bytes": 128
+    },
+    {
+      "field": "subblock_gain_0",
+      "predictor": 1,
+      "coder": "NC",
+      "coded_bytes": 6
+    },
+    {
+      "field": "subblock_gain_1",
+      "predictor": 1,
+      "coder": "NC",
+      "coded_bytes": 6
+    },
+    {
+      "field": "subblock_gain_2",
+      "predictor": 1,
+      "coder": "NC",
+      "coded_bytes": 6
+    },
+    {
+      "field": "region0_count",
+      "predictor": 1,
+      "coder": "NC_PROFILE",
+      "coded_bytes": 33
+    },
+    {
+      "field": "region1_count",
+      "predictor": 1,
+      "coder": "NC_PROFILE",
+      "coded_bytes": 31
+    },
+    {
+      "field": "preflag",
+      "predictor": 1,
+      "coder": "RAW",
+      "coded_bytes": 2
+    },
+    {
+      "field": "scalefac_scale",
+      "predictor": 1,
+      "coder": "NC_PROFILE",
+      "coded_bytes": 14
+    },
+    {
+      "field": "count1table_select",
+      "predictor": 1,
+      "coder": "NC_PROFILE",
+      "coded_bytes": 34
+    }
+  ]
+}

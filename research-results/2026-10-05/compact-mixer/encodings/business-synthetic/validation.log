@@ -1,0 +1,9 @@
+/workspace/scratch/9c62166e5fd0/recap/ivo-java-complet-2026-10-04/research-results/2026-10-05/performance-fast/inputs/business-synthetic.json: 96,019 -> 6,088 bytes (6.34%), engine=REF_NC
+Engine                         valid   payload       IVO       ms  note
+STORE                          true       96,019    96,087        2  verbatim
+N&C contextuel                 true        7,978     8,045      114  PPM-like sparse contexts, order<=4
+REF + N&C                      true        6,021     6,088       48  REF minMatch=8 then N&C; REF size=16490
+JSON token streams + N&C       true        9,503     9,570      101  exact lexical JSON stream split
+Written: /workspace/scratch/9c62166e5fd0/recap/ivo-java-complet-2026-10-04/research-results/2026-10-05/compact-mixer/encodings/business-synthetic/compact.ivo
+Restored 96,019 bytes with SHA-256 verification: /tmp/ivo-v29-business-synthetic-v28
+Restored 96,019 bytes with SHA-256 verification: /tmp/ivo-v29-business-synthetic-compact

@@ -1,0 +1,98 @@
+[
+  {
+    "name": "ljt-monkey12.jpg",
+    "url": "https://raw.githubusercontent.com/libjpeg-turbo/libjpeg-turbo/main/testimages/monkey12.jpg",
+    "bytes": 32831,
+    "sha256": "a3cb218412cecfa877a4adee520aa3d58ac0d6d0f36a7a2541e598324ce481e3"
+  },
+  {
+    "name": "ljt-testimgari.jpg",
+    "url": "https://raw.githubusercontent.com/libjpeg-turbo/libjpeg-turbo/main/testimages/testimgari.jpg",
+    "bytes": 5126,
+    "sha256": "4672c7f08864cd0a8c73a4fa4b66ca32b635d38464551c1ecf06564ae8c89b38"
+  },
+  {
+    "name": "ljt-testimgint.jpg",
+    "url": "https://raw.githubusercontent.com/libjpeg-turbo/libjpeg-turbo/main/testimages/testimgint.jpg",
+    "bytes": 5756,
+    "sha256": "491679b8057739b3c8e5bacd1e918efb1691d271cbbd69820ff8d480dcb90963"
+  },
+  {
+    "name": "ljt-testorig.jpg",
+    "url": "https://raw.githubusercontent.com/libjpeg-turbo/libjpeg-turbo/main/testimages/testorig.jpg",
+    "bytes": 5770,
+    "sha256": "acc6ec555d41d15b368320edaa3b20958ee6fa97cb6e4a18d1213d5ae8bec73b"
+  },
+  {
+    "name": "pillow-app13-multiple.jpg",
+    "url": "https://raw.githubusercontent.com/python-pillow/Pillow/main/Tests/images/app13-multiple.jpg",
+    "bytes": 80337,
+    "sha256": "1fbf57a5ef811845df2795ff91269fe248dc6e98386b7c2b42dc1cd3a7aaa55b"
+  },
+  {
+    "name": "pillow-exif-72dpi-int.jpg",
+    "url": "https://raw.githubusercontent.com/python-pillow/Pillow/main/Tests/images/exif-72dpi-int.jpg",
+    "bytes": 71056,
+    "sha256": "9a77846a19a58f29bae67233c99f29fd2361536044176077c1ea4a2507c79b68"
+  },
+  {
+    "name": "pillow-flower.jpg",
+    "url": "https://raw.githubusercontent.com/python-pillow/Pillow/main/Tests/images/flower.jpg",
+    "bytes": 32764,
+    "sha256": "8a9d04b92d0de5836c59ede8ae421235488e4031e893e07b1fe7e4b78f6a9901"
+  },
+  {
+    "name": "pillow-flower2.jpg",
+    "url": "https://raw.githubusercontent.com/python-pillow/Pillow/main/Tests/images/flower2.jpg",
+    "bytes": 86491,
+    "sha256": "4462d640037c4040c39695b6fbd8203d539ad371e30ec35b663801b8d6621dc2"
+  },
+  {
+    "name": "pillow-hopper.jpg",
+    "url": "https://raw.githubusercontent.com/python-pillow/Pillow/main/Tests/images/hopper.jpg",
+    "bytes": 6412,
+    "sha256": "ffe89a0ab0e94114e10777e7313d7fa83d634e34ebc2ea7479085cffa504c920"
+  },
+  {
+    "name": "pillow-hopper_16bit_qtables.jpg",
+    "url": "https://raw.githubusercontent.com/python-pillow/Pillow/main/Tests/images/hopper_16bit_qtables.jpg",
+    "bytes": 2044,
+    "sha256": "541ceb40f9340de2ab1d6972653237b154454a1fb8fdd7c0203057d027c82c3f"
+  },
+  {
+    "name": "pillow-hopper_gray.jpg",
+    "url": "https://raw.githubusercontent.com/python-pillow/Pillow/main/Tests/images/hopper_gray.jpg",
+    "bytes": 5353,
+    "sha256": "4cfdb8492e03e6040bcb25b1bf8e8c7b4147ee1ca3cf9e12223157acaaa101f0"
+  },
+  {
+    "name": "pillow-icc_profile_big.jpg",
+    "url": "https://raw.githubusercontent.com/python-pillow/Pillow/main/Tests/images/icc_profile_big.jpg",
+    "bytes": 511999,
+    "sha256": "9329fadea9654d127bdf1f5c31d0583a5797282ffc45d668662da4df6ee4c3dd"
+  },
+  {
+    "name": "pillow-pil_sample_cmyk.jpg",
+    "url": "https://raw.githubusercontent.com/python-pillow/Pillow/main/Tests/images/pil_sample_cmyk.jpg",
+    "bytes": 29364,
+    "sha256": "1086f923d60bb5d6c4f2d3f7f56ba5d315d98e6f19ee8c8797dabac630c8ae80"
+  },
+  {
+    "name": "pillow-pil_sample_rgb.jpg",
+    "url": "https://raw.githubusercontent.com/python-pillow/Pillow/main/Tests/images/pil_sample_rgb.jpg",
+    "bytes": 29342,
+    "sha256": "d9d59e2c2304818ee421dddc7ac52d5830d37458cc18185ba3b2920dd6363fd4"
+  },
+  {
+    "name": "pillow-rgb.jpg",
+    "url": "https://raw.githubusercontent.com/python-pillow/Pillow/main/Tests/images/rgb.jpg",
+    "bytes": 20230,
+    "sha256": "5bfb9390be297169d3f7507ffc23cbf0bd2418ffa58c819bc108c6ac05967e49"
+  },
+  {
+    "name": "pillow-ultrahdr.jpg",
+    "url": "https://raw.githubusercontent.com/python-pillow/Pillow/main/Tests/images/ultrahdr.jpg",
+    "bytes": 48197,
+    "sha256": "50f8cdfc216b5b760b07f99a5a8cb17a2960a7e4bd1b4f9eeb2cc84e9a16a693"
+  }
+]

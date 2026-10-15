@@ -1,0 +1,9 @@
+/tmp/ivo-jpeg-neighbour-inputs/hdr_iphone_hdr_YES.jpg: 1,976,579 -> 1,539,895 bytes (77.91%), engine=JPEG_NEIGHBOUR_RESEARCH
+Engine                         valid   payload       IVO       ms  note
+STORE                          true    1,976,579 1,976,646       15  verbatim
+N&C contextuel                 true    2,183,854 2,183,922     2620  PPM-like sparse contexts, order<=4
+REF + N&C                      true    2,181,876 2,181,944     2862  REF minMatch=8 then N&C; REF size=1973351
+JPEG oracle exact (structure/scans) true    1,976,618 1,976,685     2854  JPEG exact; segments=8; scans=1; progressive=false; meta=21077; entropy=1955502; modes=[0, 0, 0]
+JPEG frozen portfolio (ABC, spatial, directional, similarity) true    1,671,090 1,671,157    33657  DCT coefficients + exact entropy patch
+JPEG boundary portfolio (physical + presence control) true    1,539,828 1,539,895    15494  Causal AC category/presence; mode=9; exact entropy patch
+Written: /tmp/ivo-jpeg-integration-results/hdr_iphone_hdr_YES.jpg/automatic.ivo

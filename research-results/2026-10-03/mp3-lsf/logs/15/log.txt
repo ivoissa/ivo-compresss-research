@@ -1,0 +1,7 @@
+INPUT /tmp/ivo-musical-corpus/samples/mp3/wavenet_unconditional/maestro/sample-1.mp3 bytes=121044 sha=55ffd36d28f55de309ba1f355abc7f2b74cab30f8439d986000606782fc1959a store=121101
+SIDE_PORTFOLIO direct=2785 transposed=2725 selected=true
+BASE v1=117292 v3=117233 exact=true
+MAIN_SPLIT mode=1 used_raw=115359 unused_raw=622 coded=114539
+RESULT mode=1 ivo=117454 delta_vs_v3=221 exact=true
+MAIN_SPLIT mode=2 used_raw=115186 unused_raw=796 coded=114495
+RESULT mode=2 ivo=117410 delta_vs_v3=177 exact=true

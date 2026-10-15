@@ -1,0 +1,17 @@
+{
+  "corpus_files": 26,
+  "corpus_exact_archives": 78,
+  "corpus_wins": 4,
+  "corpus_losses": 22,
+  "corpus_extra_bytes_with_selection": 999,
+  "tao_exact_archives": 3,
+  "tao_original": 95634889,
+  "tao_previous": 87538951,
+  "tao_candidates": {
+    "0": 87507554,
+    "1": 87509597,
+    "2": 87439040
+  },
+  "tao_new": 87439040,
+  "tao_gain": 99911
+}

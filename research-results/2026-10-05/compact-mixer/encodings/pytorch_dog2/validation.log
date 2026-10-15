@@ -1,0 +1,12 @@
+/workspace/scratch/9c62166e5fd0/recap/ivo-java-complet-2026-10-04/research-results/2026-10-05/jpeg-context-mixer/inputs/pytorch_dog2.jpg: 90,796 -> 81,761 bytes (90.05%), engine=JPEG_SCAN_RESEARCH
+Engine                         valid   payload       IVO       ms  note
+STORE                          true       90,796    90,857        3  verbatim
+N&C contextuel                 true      124,714   124,775      262  PPM-like sparse contexts, order<=4
+REF + N&C                      true      124,252   124,313      170  REF minMatch=8 then N&C; REF size=87954
+JPEG oracle exact (structure/scans) true       90,903    90,964      143  JPEG exact; segments=29; scans=10; progressive=true; meta=17867; entropy=72929; modes=[0, 0, 0]
+JPEG frozen portfolio (ABC, spatial, directional, similarity) false           -         -        3  IllegalArgumentException: Progressive JPEG excluded from V0/V1
+JPEG boundary + mixed-context trials false           -         -        1  IllegalArgumentException: No supported exact JPEG boundary candidate
+JPEG progressive/multiscan syntax research true       81,700    81,761     2476  exact scan syntax; mixed refinement/symbol trials; mode=4
+Written: /workspace/scratch/9c62166e5fd0/recap/ivo-java-complet-2026-10-04/research-results/2026-10-05/compact-mixer/encodings/pytorch_dog2/compact.ivo
+Restored 90,796 bytes with SHA-256 verification: /tmp/ivo-v29-pytorch_dog2-v28
+Restored 90,796 bytes with SHA-256 verification: /tmp/ivo-v29-pytorch_dog2-compact

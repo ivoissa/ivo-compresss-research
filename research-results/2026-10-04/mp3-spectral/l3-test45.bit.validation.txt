@@ -1,0 +1,2 @@
+RESULT input=mp3-spectral-work/corpus/l3-test45.bit original=391105 ivo=343560 exact=true sha=384ccca2d558a3505bb2e7c2860e12aa3b651473ace655cda3a2c8cfb1b2fc53 ms=311
+SPECTRAL Stats[parts=1644, pairs=252320, quads=3141, scalefactorBits=126961, residualBits=168816, unusedBits=6419, bigHash=3528351053876419162, quadHash=-2665366271962508319]

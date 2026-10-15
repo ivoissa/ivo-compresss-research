@@ -1,0 +1,24 @@
+{
+  "version": 24,
+  "fresh_cli_exact_archives": 10,
+  "automatic_compression_enabled": false,
+  "fixed_default_models_ignore_system_properties": true,
+  "original_attachments_preserved_unchanged": true,
+  "mp4_format": "M4V2",
+  "mp4_modeled_slices": 709,
+  "mp4_raw_slice_fallbacks": 0,
+  "mp4_exact_ebsp_suffix_fixups": true,
+  "whole_video_exact": true,
+  "best_previous_mp4_ivo_bytes": 5414803,
+  "new_mp4_ivo_bytes": 4777717,
+  "additional_mp4_gain_bytes": 637086,
+  "mp3_validation_scope": "ten-second excerpt plus two synthetic MPEG-1 files, no full Tao measurement",
+  "webp_validation_scope": "three generated lossy VP8 WebP inputs, recompressed byte-exactly",
+  "limitations": [
+    "additional independent natural-video corpus required",
+    "prototype parser boundaries and metadata allocation limits need hardening",
+    "original MP4 supports progressive I/P CABAC 4:2:0, excludes B syntax, weighted P, scaling matrices, fragmented container",
+    "MP3 modeled syntax is MPEG-1 Layer III; other data can pass through generic metadata path",
+    "model memory and concurrency review required before automatic promotion"
+  ]
+}

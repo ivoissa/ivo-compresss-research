@@ -1,0 +1,9 @@
+source=research-results/2026-10-04/jpeg-neighbour/fixtures/fixture-3.jpg
+sha256=d993d8c7092b7dae859ffce117484c5afa6676a13f8dfffb275f885c1435eae5
+java=17.0.20+8-1-24.04-Ubuntu
+vm=OpenJDK 64-Bit Server VM
+flags=[-Xms64m, -Xmx2g, -XX:+UseG1GC]
+os=Linux amd64
+processors=8
+warmups=1
+repetitions=3

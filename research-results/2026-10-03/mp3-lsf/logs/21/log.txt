@@ -1,0 +1,7 @@
+INPUT /tmp/ivo-sample-speech-1m.mp3 bytes=961350 sha=49938eb3edf4e8d80ee06e9832fda5dd248cfebeacc023816050f18a393e2e64 store=961419
+SIDE_PORTFOLIO direct=16291 transposed=15608 selected=true
+BASE v1=930878 v3=930196 exact=true
+MAIN_SPLIT mode=1 used_raw=919263 unused_raw=12142 coded=912224
+RESULT mode=1 ivo=928025 delta_vs_v3=-2171 exact=true
+MAIN_SPLIT mode=2 used_raw=918246 unused_raw=13160 coded=911815
+RESULT mode=2 ivo=927616 delta_vs_v3=-2580 exact=true

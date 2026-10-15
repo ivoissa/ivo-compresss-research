@@ -1,0 +1,9 @@
+supports=false
+INTEGRATED file=av44100.mp4 raw=47481 archive=46171 winner=USER_MP4_CABAC_RESEARCH
+
+slice fallback: cabac mismatch
+slice fallback: cabac mismatch
+slice fallback: cabac mismatch
+slices modeled=15 raw=15 | modeled NAL bytes=9253 header bytes=48 tail bytes=0 | skeleton=38228
+model bytes by group: skip=69 mbtype=143 mvd=561 ref=170 intra/chroma/t8=64 cbp=271 qpdelta=208 cbf=555 sig=1987 last=779 abs=2371 bypass=1689 term=0
+meta(deflated)=37239 (raw 38430) payload=8869

@@ -1,0 +1,112 @@
+[
+  {
+    "name": "fixture-0",
+    "split": "development",
+    "source": "research-results/2026-10-04/jpeg-neighbour/fixtures/fixture-0.jpg",
+    "bytes": 353,
+    "sha256": "fd4168c059bccb6371ed9b64f96f90601bb8169709b93dae0a3e941e73861789",
+    "reference_ivo_bytes": 409,
+    "winner_mode": 15,
+    "winner_ivo_bytes": 409,
+    "candidate_winner_ivo_bytes": 461
+  },
+  {
+    "name": "fixture-1",
+    "split": "development",
+    "source": "research-results/2026-10-04/jpeg-neighbour/fixtures/fixture-1.jpg",
+    "bytes": 371,
+    "sha256": "8656dca5cdd5db601750bc91ad9ea45af32905e69b95d57ccbd26b09848860cb",
+    "reference_ivo_bytes": 427,
+    "winner_mode": 13,
+    "winner_ivo_bytes": 427,
+    "candidate_winner_ivo_bytes": 478
+  },
+  {
+    "name": "fixture-2",
+    "split": "development",
+    "source": "research-results/2026-10-04/jpeg-neighbour/fixtures/fixture-2.jpg",
+    "bytes": 970,
+    "sha256": "2bceac200fa29db746eca48baf107bcd70a6e9567a1787fe570200797caca53b",
+    "reference_ivo_bytes": 869,
+    "winner_mode": 15,
+    "winner_ivo_bytes": 854,
+    "candidate_winner_ivo_bytes": 854
+  },
+  {
+    "name": "fixture-3",
+    "split": "development",
+    "source": "research-results/2026-10-04/jpeg-neighbour/fixtures/fixture-3.jpg",
+    "bytes": 3075,
+    "sha256": "d993d8c7092b7dae859ffce117484c5afa6676a13f8dfffb275f885c1435eae5",
+    "reference_ivo_bytes": 2996,
+    "winner_mode": 14,
+    "winner_ivo_bytes": 2968,
+    "candidate_winner_ivo_bytes": 2968
+  },
+  {
+    "name": "user-25060",
+    "split": "natural",
+    "source": "research-results/2026-10-05/jpeg-context-mixer/inputs/01-25060.jpg",
+    "bytes": 204196,
+    "sha256": "5d0b5cb9ea9069ae14c2a92951ed86c0ae56c3e2598bb10ef5e3300b785f5668",
+    "reference_ivo_bytes": 169080,
+    "winner_mode": 15,
+    "winner_ivo_bytes": 166708,
+    "candidate_winner_ivo_bytes": 166708
+  },
+  {
+    "name": "user-25066",
+    "split": "natural",
+    "source": "research-results/2026-10-05/jpeg-context-mixer/inputs/01-25066.jpg",
+    "bytes": 119935,
+    "sha256": "b2b17bc5f4aaa5760688efa0d739ea5198771f3ab76c1949263146edb58abe2a",
+    "reference_ivo_bytes": 93714,
+    "winner_mode": 16,
+    "winner_ivo_bytes": 92560,
+    "candidate_winner_ivo_bytes": 92560
+  },
+  {
+    "name": "user-19414",
+    "split": "natural",
+    "source": "research-results/2026-10-05/jpeg-context-mixer/inputs/19414.jpg",
+    "bytes": 198464,
+    "sha256": "02818f5c18b3972a6695e0b2a9428fa59b1df213838c1bd622eaa11220db2379",
+    "reference_ivo_bytes": 165913,
+    "winner_mode": 15,
+    "winner_ivo_bytes": 160911,
+    "candidate_winner_ivo_bytes": 160911
+  },
+  {
+    "name": "user-22626",
+    "split": "natural",
+    "source": "research-results/2026-10-05/jpeg-context-mixer/inputs/22626.jpg",
+    "bytes": 579569,
+    "sha256": "b553c7053ab5a57ca3451c65d6fff419c83e14c5afb0d45ea14c064029e2134b",
+    "reference_ivo_bytes": 508989,
+    "winner_mode": 15,
+    "winner_ivo_bytes": 497727,
+    "candidate_winner_ivo_bytes": 497727
+  },
+  {
+    "name": "user-24792",
+    "split": "natural",
+    "source": "research-results/2026-10-05/jpeg-context-mixer/inputs/24792.jpg",
+    "bytes": 138706,
+    "sha256": "25a42abba4e4490c7c2d2dbeecc8394e4c998ef1c02bfa67f1601efee428c42a",
+    "reference_ivo_bytes": 116393,
+    "winner_mode": 15,
+    "winner_ivo_bytes": 114476,
+    "candidate_winner_ivo_bytes": 114476
+  },
+  {
+    "name": "holdout-24790",
+    "split": "extra-after-profile-freeze",
+    "source": "research-results/2026-10-05/jpeg-context-mixer/inputs/24790.jpg",
+    "bytes": 117634,
+    "sha256": "81009d700ca3aabe50816006a4c1f97498b13a31d491931b0d1494fccdf66d71",
+    "reference_ivo_bytes": 97200,
+    "winner_mode": 15,
+    "winner_ivo_bytes": 95471,
+    "candidate_winner_ivo_bytes": 95471
+  }
+]

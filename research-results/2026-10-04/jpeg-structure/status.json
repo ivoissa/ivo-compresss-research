@@ -1,0 +1,152 @@
+[
+  {
+    "source": "01-25060.jpg",
+    "cohort": "initial",
+    "exit_code": 0
+  },
+  {
+    "source": "01-25066.jpg",
+    "cohort": "initial",
+    "exit_code": 0
+  },
+  {
+    "source": "Canon_40D.jpg",
+    "cohort": "initial",
+    "exit_code": 0
+  },
+  {
+    "source": "Canon_DIGITAL_IXUS_400.jpg",
+    "cohort": "initial",
+    "exit_code": 0
+  },
+  {
+    "source": "Nikon_D70.jpg",
+    "cohort": "initial",
+    "exit_code": 0
+  },
+  {
+    "source": "Pentax_K10D.jpg",
+    "cohort": "initial",
+    "exit_code": 0
+  },
+  {
+    "source": "Reconyx_HC500_Hyperfire.jpg",
+    "cohort": "initial",
+    "exit_code": 0
+  },
+  {
+    "source": "Samsung_Digimax_i50_MP3.jpg",
+    "cohort": "initial",
+    "exit_code": 0
+  },
+  {
+    "source": "fixture-0.jpg",
+    "cohort": "initial",
+    "exit_code": 0
+  },
+  {
+    "source": "fixture-1.jpg",
+    "cohort": "initial",
+    "exit_code": 0
+  },
+  {
+    "source": "fixture-2.jpg",
+    "cohort": "initial",
+    "exit_code": 0
+  },
+  {
+    "source": "fixture-3.jpg",
+    "cohort": "initial",
+    "exit_code": 0
+  },
+  {
+    "source": "hdr_canon_hdr_NO.jpg",
+    "cohort": "initial",
+    "exit_code": 0
+  },
+  {
+    "source": "hdr_iphone_hdr_NO.jpg",
+    "cohort": "initial",
+    "exit_code": 0
+  },
+  {
+    "source": "hdr_iphone_hdr_YES.jpg",
+    "cohort": "initial",
+    "exit_code": 0
+  },
+  {
+    "source": "mobile_jolla.jpg",
+    "cohort": "initial",
+    "exit_code": 0
+  },
+  {
+    "source": "Canon_40D_photoshop_import.jpg",
+    "cohort": "heldout",
+    "exit_code": 0
+  },
+  {
+    "source": "Canon_PowerShot_S40.jpg",
+    "cohort": "heldout",
+    "exit_code": 0
+  },
+  {
+    "source": "Fujifilm_FinePix6900ZOOM.jpg",
+    "cohort": "heldout",
+    "exit_code": 0
+  },
+  {
+    "source": "Fujifilm_FinePix_E500.jpg",
+    "cohort": "heldout",
+    "exit_code": 0
+  },
+  {
+    "source": "Kodak_CX7530.jpg",
+    "cohort": "heldout",
+    "exit_code": 0
+  },
+  {
+    "source": "Konica_Minolta_DiMAGE_Z3.jpg",
+    "cohort": "heldout",
+    "exit_code": 0
+  },
+  {
+    "source": "Nikon_COOLPIX_P1.jpg",
+    "cohort": "heldout",
+    "exit_code": 0
+  },
+  {
+    "source": "Olympus_C8080WZ.jpg",
+    "cohort": "heldout",
+    "exit_code": 0
+  },
+  {
+    "source": "PaintTool_sample.jpg",
+    "cohort": "heldout",
+    "exit_code": 0
+  },
+  {
+    "source": "Panasonic_DMC-FZ30.jpg",
+    "cohort": "heldout",
+    "exit_code": 0
+  },
+  {
+    "source": "gps_DSCN0010.jpg",
+    "cohort": "heldout",
+    "exit_code": 0
+  },
+  {
+    "source": "gps_DSCN0012.jpg",
+    "cohort": "heldout",
+    "exit_code": 0
+  },
+  {
+    "source": "mobile_HMD_Nokia_8.3_5G.jpg",
+    "cohort": "heldout",
+    "exit_code": 0
+  },
+  {
+    "source": "mobile_HMD_Nokia_8.3_5G_hdr.jpg",
+    "cohort": "heldout",
+    "exit_code": 0
+  }
+]

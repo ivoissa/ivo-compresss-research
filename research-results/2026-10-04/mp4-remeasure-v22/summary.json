@@ -1,0 +1,19 @@
+{
+  "original_file": "VID-20260930-WA0003.mp4",
+  "original_bytes": 5427643,
+  "original_sha256": "604f5646ea19d34261f0942f922399ecc90787fa244e719515e81103180998c8",
+  "automatic_ivo_bytes": 5415863,
+  "nal_ivo_bytes": 5415405,
+  "best_previous_ivo_bytes": 5414825,
+  "best_video_body_ivo_bytes": 5414803,
+  "additional_gain_bytes": 22,
+  "additional_gain_percent": 0.000406291985428892,
+  "total_gain_bytes": 12840,
+  "total_gain_percent": 0.23656677493342876,
+  "fresh_cli_exact_archives": 10,
+  "models_changed": false,
+  "new_independent_sources": 0,
+  "trace_sha256": "30eff582dbabe4d014f42fa7caf9236c2fe07b4b601323a3b8d294e11282dbf6",
+  "reproduces_version20": true,
+  "automatic_router_changed": false
+}

@@ -1,0 +1,9 @@
+/tmp/ivo-jpeg-neighbour-inputs/Pentax_K10D.jpg: 12,077 -> 10,194 bytes (84.41%), engine=JPEG_IR
+Engine                         valid   payload       IVO       ms  note
+STORE                          true       12,077    12,135        1  verbatim
+N&C contextuel                 true       11,069    11,127       42  PPM-like sparse contexts, order<=4
+REF + N&C                      true       11,276    11,334       54  REF minMatch=8 then N&C; REF size=9324
+JPEG oracle exact (structure/scans) true       10,136    10,194       82  JPEG exact; segments=14; scans=1; progressive=false; meta=10511; entropy=1566; modes=[0, 1, 0]
+JPEG frozen portfolio (ABC, spatial, directional, similarity) true       10,458    10,516      352  DCT coefficients + exact entropy patch
+JPEG boundary portfolio (physical + presence control) true       10,227    10,285       93  Causal AC category/presence; mode=9; exact entropy patch
+Written: /tmp/ivo-jpeg-integration-results/Pentax_K10D.jpg/automatic.ivo

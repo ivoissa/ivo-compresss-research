@@ -1,0 +1,12 @@
+run=0 ms=5386.85691 size=505582
+Result[engine=STORE, valid=true, payloadBytes=597558, ivoBytes=597612, note=verbatim, millis=7]
+Result[engine=JPEG oracle exact (structure/scans), valid=true, payloadBytes=597442, ivoBytes=597496, note=JPEG exact; segments=12; scans=1; progressive=false; meta=928; entropy=596630; modes=[0, 2, 0], millis=875]
+Result[engine=JPEG preferred mixed-context profiles 15/16, valid=true, payloadBytes=505528, ivoBytes=505582, note=Causal AC category/presence; mode=15; shared exact portfolio; exact entropy patch, millis=4453]
+run=1 ms=5117.416844 size=505582
+Result[engine=STORE, valid=true, payloadBytes=597558, ivoBytes=597612, note=verbatim, millis=0]
+Result[engine=JPEG oracle exact (structure/scans), valid=true, payloadBytes=597442, ivoBytes=597496, note=JPEG exact; segments=12; scans=1; progressive=false; meta=928; entropy=596630; modes=[0, 2, 0], millis=906]
+Result[engine=JPEG preferred mixed-context profiles 15/16, valid=true, payloadBytes=505528, ivoBytes=505582, note=Causal AC category/presence; mode=15; shared exact portfolio; exact entropy patch, millis=4209]
+run=2 ms=5279.920736 size=505582
+Result[engine=STORE, valid=true, payloadBytes=597558, ivoBytes=597612, note=verbatim, millis=0]
+Result[engine=JPEG oracle exact (structure/scans), valid=true, payloadBytes=597442, ivoBytes=597496, note=JPEG exact; segments=12; scans=1; progressive=false; meta=928; entropy=596630; modes=[0, 2, 0], millis=942]
+Result[engine=JPEG preferred mixed-context profiles 15/16, valid=true, payloadBytes=505528, ivoBytes=505582, note=Causal AC category/presence; mode=15; shared exact portfolio; exact entropy patch, millis=4335]

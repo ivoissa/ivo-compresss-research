@@ -1,0 +1,4 @@
+DECODED sub_mb_types=44 counts={0=30, 1=3, 2=5, 3=6}; external_geometry_comparison_required
+PASS mb_type_categories=39 counts={P_8x8=11, P_L0_16x16=26, P_L0_16x8=1, P_L0_8x16=1} mismatches=0; intra16 prediction/cbp not independently checked
+PASS frames=40 skip_flags=178 skip_ones=139 termination_flags=139 terminal_ones=0 longest_skip_run=31 mismatches=0 external_reference=FFmpeg_mb_type prefix=true
+NOT_DONE: remaining macroblocks, CABAC encoder, byte-exact CABAC roundtrip, new compression measurement

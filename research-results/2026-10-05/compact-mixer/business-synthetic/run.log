@@ -1,0 +1,8 @@
+SAMPLE variant=int32 iteration=-1 ms=49.288 allocation_bytes=4748352 exact=true
+SAMPLE variant=uint16 iteration=-1 ms=24.226 allocation_bytes=4391160 exact=true
+SAMPLE variant=uint16 iteration=0 ms=52.966 allocation_bytes=4338096 exact=true
+SAMPLE variant=int32 iteration=0 ms=26.888 allocation_bytes=4337824 exact=true
+SAMPLE variant=int32 iteration=1 ms=33.920 allocation_bytes=4337552 exact=true
+SAMPLE variant=uint16 iteration=1 ms=22.192 allocation_bytes=4337552 exact=true
+SAMPLE variant=uint16 iteration=2 ms=7.248 allocation_bytes=4337552 exact=true
+SAMPLE variant=int32 iteration=2 ms=7.084 allocation_bytes=4337552 exact=true

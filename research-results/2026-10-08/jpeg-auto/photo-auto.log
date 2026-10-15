@@ -1,0 +1,23 @@
+AUTO repeat=0 bytes=505582 comp_ms=7473.376 dec_ms=1207.578 exact=true same_as_FAST=true
+Result[engine=STORE, valid=true, payloadBytes=597558, ivoBytes=597612, note=verbatim, millis=7]
+Result[engine=JPEG oracle exact (structure/scans), valid=true, payloadBytes=597442, ivoBytes=597496, note=JPEG exact; segments=12; scans=1; progressive=false; meta=928; entropy=596630; modes=[0, 2, 0], millis=886]
+Result[engine=JPEG preferred mixed-context profiles 15/16, valid=true, payloadBytes=505528, ivoBytes=505582, note=Causal AC category/presence; mode=15; exact entropy patch, millis=6532]
+AUTO repeat=1 bytes=505582 comp_ms=6761.029 dec_ms=1118.517 exact=true same_as_FAST=true
+Result[engine=STORE, valid=true, payloadBytes=597558, ivoBytes=597612, note=verbatim, millis=0]
+Result[engine=JPEG oracle exact (structure/scans), valid=true, payloadBytes=597442, ivoBytes=597496, note=JPEG exact; segments=12; scans=1; progressive=false; meta=928; entropy=596630; modes=[0, 2, 0], millis=725]
+Result[engine=JPEG preferred mixed-context profiles 15/16, valid=true, payloadBytes=505528, ivoBytes=505582, note=Causal AC category/presence; mode=15; exact entropy patch, millis=6033]
+AUTO repeat=2 bytes=505582 comp_ms=6855.941 dec_ms=1113.680 exact=true same_as_FAST=true
+Result[engine=STORE, valid=true, payloadBytes=597558, ivoBytes=597612, note=verbatim, millis=0]
+Result[engine=JPEG oracle exact (structure/scans), valid=true, payloadBytes=597442, ivoBytes=597496, note=JPEG exact; segments=12; scans=1; progressive=false; meta=928; entropy=596630; modes=[0, 2, 0], millis=740]
+Result[engine=JPEG preferred mixed-context profiles 15/16, valid=true, payloadBytes=505528, ivoBytes=505582, note=Causal AC category/presence; mode=15; exact entropy patch, millis=6113]
+AUTO repeat=3 bytes=505582 comp_ms=7100.891 dec_ms=1088.213 exact=true same_as_FAST=true
+Result[engine=STORE, valid=true, payloadBytes=597558, ivoBytes=597612, note=verbatim, millis=0]
+Result[engine=JPEG oracle exact (structure/scans), valid=true, payloadBytes=597442, ivoBytes=597496, note=JPEG exact; segments=12; scans=1; progressive=false; meta=928; entropy=596630; modes=[0, 2, 0], millis=699]
+Result[engine=JPEG preferred mixed-context profiles 15/16, valid=true, payloadBytes=505528, ivoBytes=505582, note=Causal AC category/presence; mode=15; exact entropy patch, millis=6400]
+ENHANCED bytes=505582 comp_ms=38350.786 same_as_AUTO=true
+Result[engine=STORE, valid=true, payloadBytes=597558, ivoBytes=597612, note=verbatim, millis=0]
+Result[engine=N&C contextuel, valid=true, payloadBytes=692756, ivoBytes=692810, note=PPM-like sparse contexts, order<=4, millis=588]
+Result[engine=REF + N&C, valid=true, payloadBytes=691451, ivoBytes=691505, note=REF minMatch=8 then N&C; REF size=595200, millis=640]
+Result[engine=JPEG oracle exact (structure/scans), valid=true, payloadBytes=597442, ivoBytes=597496, note=JPEG exact; segments=12; scans=1; progressive=false; meta=928; entropy=596630; modes=[0, 2, 0], millis=622]
+Result[engine=JPEG frozen portfolio (ABC, spatial, directional, similarity), valid=true, payloadBytes=533945, ivoBytes=533999, note=DCT coefficients + exact entropy patch, millis=14825]
+Result[engine=JPEG boundary + mixed-context trials, valid=true, payloadBytes=505528, ivoBytes=505582, note=Causal AC category/presence; mode=15; exact entropy patch, millis=21662]

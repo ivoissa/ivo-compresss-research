@@ -1,0 +1,4 @@
+slices modeled=709 raw=0 | modeled NAL bytes=5065804 header bytes=2049 tail bytes=5311 | skeleton=361839
+model bytes by group: skip=25203 mbtype=80342 mvd=196096 ref=0 intra/chroma/t8=64632 cbp=165977 qpdelta=37459 cbf=418951 sig=1359452 last=504277 abs=668973 bypass=896311 term=38
+meta(deflated)=359929 (raw 378291) payload=4417711
+RESULT kind=MP4 original=5427643 payload=4777647 ivo=4777717 whole_file_exact=true elapsed_ms=49487

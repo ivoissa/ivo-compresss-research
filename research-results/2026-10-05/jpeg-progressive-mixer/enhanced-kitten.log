@@ -1,0 +1,10 @@
+research-results/2026-10-04/validation-v21/jpeg-inputs/is-progressive_kitten-progressive.jpg: 83,845 -> 76,496 bytes (91.24%), engine=JPEG_SCAN_RESEARCH
+Engine                         valid   payload       IVO       ms  note
+STORE                          true       83,845    83,927        2  verbatim
+N&C contextuel                 true      118,824   118,906      204  PPM-like sparse contexts, order<=4
+REF + N&C                      true      118,796   118,878      224  REF minMatch=8 then N&C; REF size=83786
+JPEG oracle exact (structure/scans) true       83,749    83,831      144  JPEG exact; segments=25; scans=10; progressive=true; meta=676; entropy=83169; modes=[0, 1, 0]
+JPEG frozen portfolio (ABC, spatial, directional, similarity) false           -         -        4  IllegalArgumentException: Progressive JPEG excluded from V0/V1
+JPEG boundary + mixed-context trials false           -         -        1  IllegalArgumentException: No supported exact JPEG boundary candidate
+JPEG progressive/multiscan syntax research true       76,414    76,496     7251  exact scan syntax; mixed refinement/symbol trials; mode=4
+Written: /tmp/ivo-v27-enhanced-kitten.ivo

@@ -1,0 +1,9 @@
+/tmp/ivo-jpeg-external-inputs/pytorch_person1.jpg: 70,126 -> 62,507 bytes (89.14%), engine=JPEG_NEIGHBOUR_RESEARCH
+Engine                         valid   payload       IVO       ms  note
+STORE                          true       70,126    70,190        3  verbatim
+N&C contextuel                 true       99,652    99,716      192  PPM-like sparse contexts, order<=4
+REF + N&C                      true       99,635    99,699      145  REF minMatch=8 then N&C; REF size=70090
+JPEG oracle exact (structure/scans) true       70,155    70,219      169  JPEG exact; segments=13; scans=1; progressive=false; meta=636; entropy=69490; modes=[0, 1, 0]
+JPEG frozen portfolio (ABC, spatial, directional, similarity) true       66,312    66,376     2438  DCT coefficients + exact entropy patch
+JPEG boundary portfolio (physical + presence control) true       62,443    62,507     1057  Causal AC category/presence; mode=9; exact entropy patch
+Written: /tmp/ivo-jpeg-integration-results/pytorch_person1.jpg/automatic.ivo

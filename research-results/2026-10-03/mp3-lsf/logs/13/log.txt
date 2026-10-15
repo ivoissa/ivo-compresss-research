@@ -1,0 +1,7 @@
+INPUT /tmp/ivo-musical-corpus/samples/mp3/blizzard_primed/sample-1.mp3 bytes=121671 sha=e00ebcb6c23f14a39b5014f5dce461c74c517c9626d662ca0540789d562ba89d store=121728
+SIDE_PORTFOLIO direct=3202 transposed=3119 selected=true
+BASE v1=118346 v3=118264 exact=true
+MAIN_SPLIT mode=1 used_raw=114671 unused_raw=1911 coded=114937
+RESULT mode=1 ivo=118246 delta_vs_v3=-18 exact=true
+MAIN_SPLIT mode=2 used_raw=114492 unused_raw=2091 coded=114882
+RESULT mode=2 ivo=118191 delta_vs_v3=-73 exact=true

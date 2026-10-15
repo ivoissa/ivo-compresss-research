@@ -1,0 +1,338 @@
+[
+  {
+    "source": "Canon_40D_photoshop_import.jpg",
+    "archive": "amplitude-m5.ivo",
+    "kind": "heldout-amplitude",
+    "bytes": 9911,
+    "sha256": "40a7aa2cc28d8544b31408e6d54c568e6b749a8faf239c7a6234b315e953b9d5",
+    "exact": true
+  },
+  {
+    "source": "Canon_40D_photoshop_import.jpg",
+    "archive": "amplitude-m6.ivo",
+    "kind": "heldout-amplitude",
+    "bytes": 9911,
+    "sha256": "40a7aa2cc28d8544b31408e6d54c568e6b749a8faf239c7a6234b315e953b9d5",
+    "exact": true
+  },
+  {
+    "source": "Canon_40D_photoshop_import.jpg",
+    "archive": "previous-v15-best.ivo",
+    "kind": "heldout-v15",
+    "bytes": 9759,
+    "sha256": "40a7aa2cc28d8544b31408e6d54c568e6b749a8faf239c7a6234b315e953b9d5",
+    "exact": true
+  },
+  {
+    "source": "Canon_PowerShot_S40.jpg",
+    "archive": "amplitude-m5.ivo",
+    "kind": "heldout-amplitude",
+    "bytes": 31740,
+    "sha256": "8a9d04b92d0de5836c59ede8ae421235488e4031e893e07b1fe7e4b78f6a9901",
+    "exact": true
+  },
+  {
+    "source": "Canon_PowerShot_S40.jpg",
+    "archive": "amplitude-m6.ivo",
+    "kind": "heldout-amplitude",
+    "bytes": 31765,
+    "sha256": "8a9d04b92d0de5836c59ede8ae421235488e4031e893e07b1fe7e4b78f6a9901",
+    "exact": true
+  },
+  {
+    "source": "Canon_PowerShot_S40.jpg",
+    "archive": "previous-v15-best.ivo",
+    "kind": "heldout-v15",
+    "bytes": 31768,
+    "sha256": "8a9d04b92d0de5836c59ede8ae421235488e4031e893e07b1fe7e4b78f6a9901",
+    "exact": true
+  },
+  {
+    "source": "Fujifilm_FinePix6900ZOOM.jpg",
+    "archive": "amplitude-m5.ivo",
+    "kind": "heldout-amplitude",
+    "bytes": 4545,
+    "sha256": "40afc753b4e83d72cfa1080ae7a10310e0fcbb9e4f6ebdf32c7b2f1553c83fe3",
+    "exact": true
+  },
+  {
+    "source": "Fujifilm_FinePix6900ZOOM.jpg",
+    "archive": "amplitude-m6.ivo",
+    "kind": "heldout-amplitude",
+    "bytes": 4547,
+    "sha256": "40afc753b4e83d72cfa1080ae7a10310e0fcbb9e4f6ebdf32c7b2f1553c83fe3",
+    "exact": true
+  },
+  {
+    "source": "Fujifilm_FinePix6900ZOOM.jpg",
+    "archive": "previous-v15-best.ivo",
+    "kind": "heldout-v15",
+    "bytes": 4242,
+    "sha256": "40afc753b4e83d72cfa1080ae7a10310e0fcbb9e4f6ebdf32c7b2f1553c83fe3",
+    "exact": true
+  },
+  {
+    "source": "Fujifilm_FinePix_E500.jpg",
+    "archive": "amplitude-m5.ivo",
+    "kind": "heldout-amplitude",
+    "bytes": 2226,
+    "sha256": "ffbee7b07bf267dc0fb52817f8866df647758f7d48ac93e7a73d1914fb4c74da",
+    "exact": true
+  },
+  {
+    "source": "Fujifilm_FinePix_E500.jpg",
+    "archive": "amplitude-m6.ivo",
+    "kind": "heldout-amplitude",
+    "bytes": 2226,
+    "sha256": "ffbee7b07bf267dc0fb52817f8866df647758f7d48ac93e7a73d1914fb4c74da",
+    "exact": true
+  },
+  {
+    "source": "Fujifilm_FinePix_E500.jpg",
+    "archive": "previous-v15-best.ivo",
+    "kind": "heldout-v15",
+    "bytes": 1954,
+    "sha256": "ffbee7b07bf267dc0fb52817f8866df647758f7d48ac93e7a73d1914fb4c74da",
+    "exact": true
+  },
+  {
+    "source": "Kodak_CX7530.jpg",
+    "archive": "amplitude-m5.ivo",
+    "kind": "heldout-amplitude",
+    "bytes": 6368,
+    "sha256": "ac759931999a215ef78469a82bdfc382ccba96eb8d039ec9e81e53a9a419d35e",
+    "exact": true
+  },
+  {
+    "source": "Kodak_CX7530.jpg",
+    "archive": "amplitude-m6.ivo",
+    "kind": "heldout-amplitude",
+    "bytes": 6369,
+    "sha256": "ac759931999a215ef78469a82bdfc382ccba96eb8d039ec9e81e53a9a419d35e",
+    "exact": true
+  },
+  {
+    "source": "Kodak_CX7530.jpg",
+    "archive": "previous-v15-best.ivo",
+    "kind": "heldout-v15",
+    "bytes": 6017,
+    "sha256": "ac759931999a215ef78469a82bdfc382ccba96eb8d039ec9e81e53a9a419d35e",
+    "exact": true
+  },
+  {
+    "source": "Konica_Minolta_DiMAGE_Z3.jpg",
+    "archive": "amplitude-m5.ivo",
+    "kind": "heldout-amplitude",
+    "bytes": 11356,
+    "sha256": "b1b914f47528384e6252fa7caabb489f123b88c81ebd62ecb8eacdf64c46fd5e",
+    "exact": true
+  },
+  {
+    "source": "Konica_Minolta_DiMAGE_Z3.jpg",
+    "archive": "amplitude-m6.ivo",
+    "kind": "heldout-amplitude",
+    "bytes": 11357,
+    "sha256": "b1b914f47528384e6252fa7caabb489f123b88c81ebd62ecb8eacdf64c46fd5e",
+    "exact": true
+  },
+  {
+    "source": "Konica_Minolta_DiMAGE_Z3.jpg",
+    "archive": "previous-v15-best.ivo",
+    "kind": "heldout-v15",
+    "bytes": 11057,
+    "sha256": "b1b914f47528384e6252fa7caabb489f123b88c81ebd62ecb8eacdf64c46fd5e",
+    "exact": true
+  },
+  {
+    "source": "Nikon_COOLPIX_P1.jpg",
+    "archive": "amplitude-m5.ivo",
+    "kind": "heldout-amplitude",
+    "bytes": 6279,
+    "sha256": "896b47424dc1c87154a50b40394ae887a0b0d7d830f38a9d969295995f27ef43",
+    "exact": true
+  },
+  {
+    "source": "Nikon_COOLPIX_P1.jpg",
+    "archive": "amplitude-m6.ivo",
+    "kind": "heldout-amplitude",
+    "bytes": 6279,
+    "sha256": "896b47424dc1c87154a50b40394ae887a0b0d7d830f38a9d969295995f27ef43",
+    "exact": true
+  },
+  {
+    "source": "Nikon_COOLPIX_P1.jpg",
+    "archive": "previous-v15-best.ivo",
+    "kind": "heldout-v15",
+    "bytes": 5969,
+    "sha256": "896b47424dc1c87154a50b40394ae887a0b0d7d830f38a9d969295995f27ef43",
+    "exact": true
+  },
+  {
+    "source": "Olympus_C8080WZ.jpg",
+    "archive": "amplitude-m5.ivo",
+    "kind": "heldout-amplitude",
+    "bytes": 3353,
+    "sha256": "3495de26279d8d1e442177ba43cef855438e3b321481b9ee2ff513decb13ed9c",
+    "exact": true
+  },
+  {
+    "source": "Olympus_C8080WZ.jpg",
+    "archive": "amplitude-m6.ivo",
+    "kind": "heldout-amplitude",
+    "bytes": 3353,
+    "sha256": "3495de26279d8d1e442177ba43cef855438e3b321481b9ee2ff513decb13ed9c",
+    "exact": true
+  },
+  {
+    "source": "Olympus_C8080WZ.jpg",
+    "archive": "previous-v15-best.ivo",
+    "kind": "heldout-v15",
+    "bytes": 3041,
+    "sha256": "3495de26279d8d1e442177ba43cef855438e3b321481b9ee2ff513decb13ed9c",
+    "exact": true
+  },
+  {
+    "source": "PaintTool_sample.jpg",
+    "archive": "amplitude-m5.ivo",
+    "kind": "heldout-amplitude",
+    "bytes": 6178,
+    "sha256": "45e3aa44357a4b05d78b3fc51d0732be0ddf5a544b732b0134778b146380291a",
+    "exact": true
+  },
+  {
+    "source": "PaintTool_sample.jpg",
+    "archive": "amplitude-m6.ivo",
+    "kind": "heldout-amplitude",
+    "bytes": 6180,
+    "sha256": "45e3aa44357a4b05d78b3fc51d0732be0ddf5a544b732b0134778b146380291a",
+    "exact": true
+  },
+  {
+    "source": "PaintTool_sample.jpg",
+    "archive": "previous-v15-best.ivo",
+    "kind": "heldout-v15",
+    "bytes": 5801,
+    "sha256": "45e3aa44357a4b05d78b3fc51d0732be0ddf5a544b732b0134778b146380291a",
+    "exact": true
+  },
+  {
+    "source": "Panasonic_DMC-FZ30.jpg",
+    "archive": "amplitude-m5.ivo",
+    "kind": "heldout-amplitude",
+    "bytes": 8847,
+    "sha256": "c092a4ade7ae7b63ac13d50c3dc9da51ce2fb465caf7d1b6193d4c53f59e8ad8",
+    "exact": true
+  },
+  {
+    "source": "Panasonic_DMC-FZ30.jpg",
+    "archive": "amplitude-m6.ivo",
+    "kind": "heldout-amplitude",
+    "bytes": 8847,
+    "sha256": "c092a4ade7ae7b63ac13d50c3dc9da51ce2fb465caf7d1b6193d4c53f59e8ad8",
+    "exact": true
+  },
+  {
+    "source": "Panasonic_DMC-FZ30.jpg",
+    "archive": "previous-v15-best.ivo",
+    "kind": "heldout-v15",
+    "bytes": 8614,
+    "sha256": "c092a4ade7ae7b63ac13d50c3dc9da51ce2fb465caf7d1b6193d4c53f59e8ad8",
+    "exact": true
+  },
+  {
+    "source": "gps_DSCN0010.jpg",
+    "archive": "amplitude-m5.ivo",
+    "kind": "heldout-amplitude",
+    "bytes": 142224,
+    "sha256": "17307b1207eb6487d7908e9d154890b46e3d2e0192369cfd3f4c33d5a5af4035",
+    "exact": true
+  },
+  {
+    "source": "gps_DSCN0010.jpg",
+    "archive": "amplitude-m6.ivo",
+    "kind": "heldout-amplitude",
+    "bytes": 142283,
+    "sha256": "17307b1207eb6487d7908e9d154890b46e3d2e0192369cfd3f4c33d5a5af4035",
+    "exact": true
+  },
+  {
+    "source": "gps_DSCN0010.jpg",
+    "archive": "previous-v15-best.ivo",
+    "kind": "heldout-v15",
+    "bytes": 142293,
+    "sha256": "17307b1207eb6487d7908e9d154890b46e3d2e0192369cfd3f4c33d5a5af4035",
+    "exact": true
+  },
+  {
+    "source": "gps_DSCN0012.jpg",
+    "archive": "amplitude-m5.ivo",
+    "kind": "heldout-amplitude",
+    "bytes": 143724,
+    "sha256": "84d60184ac4098b7967e2ef6dae6b03fc0d98b24624d2b57412dbcd7cb864680",
+    "exact": true
+  },
+  {
+    "source": "gps_DSCN0012.jpg",
+    "archive": "amplitude-m6.ivo",
+    "kind": "heldout-amplitude",
+    "bytes": 143799,
+    "sha256": "84d60184ac4098b7967e2ef6dae6b03fc0d98b24624d2b57412dbcd7cb864680",
+    "exact": true
+  },
+  {
+    "source": "gps_DSCN0012.jpg",
+    "archive": "previous-v15-best.ivo",
+    "kind": "heldout-v15",
+    "bytes": 143797,
+    "sha256": "84d60184ac4098b7967e2ef6dae6b03fc0d98b24624d2b57412dbcd7cb864680",
+    "exact": true
+  },
+  {
+    "source": "mobile_HMD_Nokia_8.3_5G.jpg",
+    "archive": "amplitude-m5.ivo",
+    "kind": "heldout-amplitude",
+    "bytes": 1789947,
+    "sha256": "9be023624ccd5846beeb5b02d9b571251ef5bd8ed820389a430d114029f58eda",
+    "exact": true
+  },
+  {
+    "source": "mobile_HMD_Nokia_8.3_5G.jpg",
+    "archive": "amplitude-m6.ivo",
+    "kind": "heldout-amplitude",
+    "bytes": 1792120,
+    "sha256": "9be023624ccd5846beeb5b02d9b571251ef5bd8ed820389a430d114029f58eda",
+    "exact": true
+  },
+  {
+    "source": "mobile_HMD_Nokia_8.3_5G.jpg",
+    "archive": "previous-v15-best.ivo",
+    "kind": "heldout-v15",
+    "bytes": 1792138,
+    "sha256": "9be023624ccd5846beeb5b02d9b571251ef5bd8ed820389a430d114029f58eda",
+    "exact": true
+  },
+  {
+    "source": "mobile_HMD_Nokia_8.3_5G_hdr.jpg",
+    "archive": "amplitude-m5.ivo",
+    "kind": "heldout-amplitude",
+    "bytes": 4224993,
+    "sha256": "b150f64e631b0df0f70cdbb88ddcbb73c5536fcb840ace8d0e71f8d58d997bc1",
+    "exact": true
+  },
+  {
+    "source": "mobile_HMD_Nokia_8.3_5G_hdr.jpg",
+    "archive": "amplitude-m6.ivo",
+    "kind": "heldout-amplitude",
+    "bytes": 4230081,
+    "sha256": "b150f64e631b0df0f70cdbb88ddcbb73c5536fcb840ace8d0e71f8d58d997bc1",
+    "exact": true
+  },
+  {
+    "source": "mobile_HMD_Nokia_8.3_5G_hdr.jpg",
+    "archive": "previous-v15-best.ivo",
+    "kind": "heldout-v15",
+    "bytes": 4229822,
+    "sha256": "b150f64e631b0df0f70cdbb88ddcbb73c5536fcb840ace8d0e71f8d58d997bc1",
+    "exact": true
+  }
+]

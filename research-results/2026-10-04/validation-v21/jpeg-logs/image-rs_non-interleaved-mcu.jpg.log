@@ -1,0 +1,3 @@
+CSV file,mode,original,baseline,candidate,retained,scans,progressive_scans,blocks,symbols,correction_bits,coefficient_hash,exact
+CSV image-rs_non-interleaved-mcu.jpg,0,572,343,509,343,10,10,128,36,24,a756e7f19869bb25,true
+CSV image-rs_non-interleaved-mcu.jpg,1,572,343,511,343,10,10,128,36,24,a756e7f19869bb25,true

@@ -1,0 +1,12 @@
+[
+  {
+    "name": "dog1",
+    "reason": "Progressive JPEG excluded from this baseline coefficient experiment",
+    "sha256": "828986ba0cdd909e3f6029d357938efba67d236350f724224b2e45cf0af0841f"
+  },
+  {
+    "name": "dog2",
+    "reason": "Progressive JPEG excluded from this baseline coefficient experiment",
+    "sha256": "91c383f13fe7baf1c5306def5f50cc5bb0241e64065c081ad57671d33c503891"
+  }
+]

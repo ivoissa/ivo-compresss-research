@@ -1,0 +1,9 @@
+{
+  "files": 4,
+  "fresh_exact_archives": 16,
+  "wins": 2,
+  "compression_trace_dependency": "FFmpeg trace_headers",
+  "decoder": "Java standalone",
+  "full_h264_syntax_ir": false,
+  "auto_compression_enabled": false
+}

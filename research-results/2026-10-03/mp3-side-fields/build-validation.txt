@@ -1,0 +1,8 @@
+ALL SELF TESTS OK
+DEFLATE EXACT OK: 1750 reconstructions; 9 malformed/truncated rejected; stored/fixed/dynamic/multiblock covered
+Built target/ivo-0.8.0-research.jar and target/ivo-research-1.5.0.jar
+PASS 24 known-offset side-info cases, offset cases and 5 rejection cases
+SIDE_MODEL predictor=0 field_cords_complete=true
+SIDE_MODEL predictor=1 field_cords_complete=true
+SIDE_MODEL predictor=2 field_cords_complete=true
+PASS residual bijection pairs=22369620; mixed geometry frames=48; exact profiles=4; malformed profiles rejected=8

@@ -1,0 +1,9 @@
+/tmp/ivo-jpeg-external-inputs/libjxl_bicycles_restarts.jpg: 87,478 -> 77,314 bytes (88.38%), engine=JPEG_NEIGHBOUR_RESEARCH
+Engine                         valid   payload       IVO       ms  note
+STORE                          true       87,478    87,551        3  verbatim
+N&C contextuel                 true      121,437   121,510      242  PPM-like sparse contexts, order<=4
+REF + N&C                      true      121,334   121,407      207  REF minMatch=8 then N&C; REF size=87356
+JPEG oracle exact (structure/scans) true       87,497    87,570      183  JPEG exact; segments=12; scans=1; progressive=false; meta=631; entropy=86847; modes=[0, 1, 0]
+JPEG frozen portfolio (ABC, spatial, directional, similarity) true       82,212    82,285     2376  DCT coefficients + exact entropy patch
+JPEG boundary portfolio (physical + presence control) true       77,241    77,314     1037  Causal AC category/presence; mode=9; exact entropy patch
+Written: /tmp/ivo-jpeg-integration-results/libjxl_bicycles_restarts.jpg/automatic.ivo

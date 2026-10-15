@@ -1,0 +1,7 @@
+INPUT /tmp/ivo-musical-corpus/samples/mp3/music_primed/sample-0.mp3 bytes=121437 sha=b193486b19d5b95682c5add8669c2e830a3ae50c508f476b508bde3393a14c38 store=121494
+SIDE_PORTFOLIO direct=2151 transposed=2132 selected=true
+BASE v1=115576 v3=115558 exact=true
+MAIN_SPLIT mode=1 used_raw=113835 unused_raw=3904 coded=113193
+RESULT mode=1 ivo=115475 delta_vs_v3=-83 exact=true
+MAIN_SPLIT mode=2 used_raw=113715 unused_raw=4025 coded=113162
+RESULT mode=2 ivo=115444 delta_vs_v3=-114 exact=true

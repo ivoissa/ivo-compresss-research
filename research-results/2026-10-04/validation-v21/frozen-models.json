@@ -1,0 +1,16 @@
+{
+  "reference": "source ZIP version 20",
+  "files": {
+    "src/main/java/io/ivo/jpeg/ProgressiveScanCodec.java": "18c23b86a969b506b0406284d29f90d2e98c5dbe2e17296b175675bd9fd44b98",
+    "src/main/java/io/ivo/mp3/EnergyContext.java": "38a977fe2ced06899c389935351ffb8db6749fa2bb70954adc9dc402930867cb",
+    "src/main/java/io/ivo/mp3/SpectralCords.java": "4219097bfad65a84e4a1915fd27e774824d5f63f419788207bedf0af9d98d8d3",
+    "src/main/java/io/ivo/mp3/SpectralCordCoding.java": "01cc240d9265b0742683970cdb56a309a764985e9debaae35bb511b6b11cc591",
+    "src/main/java/io/ivo/mp3/ContextScheme.java": "36d43cc93370106b92b63b99b44f2e49379131ace752bd2a33438fd7bd13cc6a",
+    "src/main/java/io/ivo/nc/NcCodec.java": "02e5f62655c6ab82263d045ceecd932b6a3347e3611a638b70182e0caf9d9c03",
+    "src/main/java/io/ivo/research/ResearchCordCodec.java": "16d0a6c0a08c9109aa20eed8ad7329a1f47b178872ac02c2f853ae9d92f004fe",
+    "src/main/java/io/ivo/ref/RefTransform.java": "85f51f465d0456833eb669c5e76f37bacbe2504fa8bbab37a383d500cfe2fae1",
+    "src/main/java/io/ivo/mp3/TemporalScale.java": "aebd94d90b33909f6b0f51e20c04b560999aad2278e024b8e0fc8e32fb3ae5f3"
+  },
+  "all_identical_to_version20": true,
+  "reference_archive_sha256": "41f1f7f284ccba3d7c51bfe4d3acb5403913550efcec5e28b5a89de78cf9106a"
+}

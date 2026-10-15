@@ -1,0 +1,9 @@
+BLOCK_SIDE scheme=0 coded=80 exact=true
+BLOCK_SIDE scheme=1 coded=80 exact=true
+BLOCK_SIDE scheme=2 coded=80 exact=true
+BLOCK_FIELDS scheme=0 previous=20 semantic=80
+BLOCK_FIELDS scheme=1 previous=20 semantic=80
+BLOCK_FIELDS scheme=2 previous=20 semantic=80
+RESULT scheme=0 ivo=345 exact=true sha=9f5b4baaefc5403c2b55ad5a52c8d7e812ba9e25638f8b674a0d01df6008a7c7
+RESULT scheme=1 ivo=345 exact=true sha=9f5b4baaefc5403c2b55ad5a52c8d7e812ba9e25638f8b674a0d01df6008a7c7
+RESULT scheme=2 ivo=345 exact=true sha=9f5b4baaefc5403c2b55ad5a52c8d7e812ba9e25638f8b674a0d01df6008a7c7

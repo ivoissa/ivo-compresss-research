@@ -1,0 +1,31 @@
+{
+  "original": 95634889,
+  "v2_ivo": 90916311,
+  "v1_bounded_ivo": 87774500,
+  "v1_unbounded_heap_2GiB": "OutOfMemoryError; no valid compressed size",
+  "v1_bounded_exact": true,
+  "v2_exact": true,
+  "sha256": "c6e361e833559e842390da8541480ce47096baf61b405da64d9ef10188a2f40c",
+  "reservoir_audit": {
+    "declared_bits": 693447633,
+    "covered_bits": 693447633,
+    "full_unused_bytes": 397289,
+    "unused_zero_bytes": 217,
+    "partial_bytes": 196198,
+    "overlaps": 0,
+    "invalid": 0
+  },
+  "v1_encoded_cords": {
+    "layout": 51824,
+    "prefix": 189425,
+    "headers": 52059,
+    "crc": 2,
+    "side": 3416416,
+    "main": 84064652,
+    "trailing": 2
+  },
+  "v3_ivo": 87681423,
+  "v3_exact": true,
+  "v3_transposed_side_cord": 3323338,
+  "v3_gain_vs_v1": 93077
+}

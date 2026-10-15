@@ -1,0 +1,3 @@
+CSV file,mode,original,baseline,candidate,retained,scans,progressive_scans,blocks,symbols,correction_bits,coefficient_hash,exact
+CSV is-progressive_progressive.jpg,0,24654,24416,24501,24416,14,14,7650,33835,30817,0be14e903ed0fe0e,true
+CSV is-progressive_progressive.jpg,1,24654,24416,24327,24327,14,14,7650,33835,30817,0be14e903ed0fe0e,true

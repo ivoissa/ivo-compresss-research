@@ -1,0 +1,1286 @@
+[
+  {
+    "index": "00",
+    "path": "/tmp/ivo-minimp3/vectors/performance/MEANDR_PHASE0.mp3",
+    "original": 4001280,
+    "sha256": "55d7dd3b6cbdb82e5eae523e23f155040a13ce0be159140e93de590efdce7b0c",
+    "store": 4001344,
+    "v1": 3903351,
+    "v3": 3894684,
+    "modes": {
+      "1": 3894506,
+      "2": 3892658
+    },
+    "best": 3892658,
+    "gain_pct": 2.714681301983368,
+    "extra_bytes": -2026,
+    "unsupported": [],
+    "audit": {
+      "capacity_bits": "30743168",
+      "declared_bits": "30720125",
+      "back_sum": "1736132",
+      "covered_bits": "30720125",
+      "full_unused_bytes": "1073",
+      "unused_zero_bytes": "0",
+      "partial_bytes": "3621",
+      "mpeg1_frames": "4168",
+      "mpeg2_frames": "0",
+      "mpeg25_frames": "0"
+    },
+    "previous_best": 3892658,
+    "newly_supported": false,
+    "side_candidates": {
+      "0": 3876395,
+      "1": 3888777,
+      "2": 3886973,
+      "3": 3876219
+    },
+    "side_profile": 3,
+    "side_best": 3876219,
+    "selected_best": 3876219,
+    "delta": -16439,
+    "block_candidates": {
+      "0": 3876281,
+      "1": 3877587,
+      "2": 3875852
+    },
+    "block_best": 3875852,
+    "block_scheme": 2,
+    "block_gain": 367,
+    "new_selected": 3875852
+  },
+  {
+    "index": "01",
+    "path": "/tmp/ivo-minimp3/vectors/performance/MEANDR_PHASE90.mp3",
+    "original": 401280,
+    "sha256": "b8a8f2b38e2cacc42849af754a926552b87478003738a9f40c86ff0e22f555a1",
+    "store": 401343,
+    "v1": 393387,
+    "v3": 392857,
+    "modes": {
+      "1": 392838,
+      "2": 392662
+    },
+    "best": 392662,
+    "gain_pct": 2.1476275917065357,
+    "extra_bytes": -195,
+    "unsupported": [],
+    "audit": {
+      "capacity_bits": "3083168",
+      "declared_bits": "3075906",
+      "back_sum": "168452",
+      "covered_bits": "3075906",
+      "full_unused_bytes": "718",
+      "unused_zero_bytes": "0",
+      "partial_bytes": "369",
+      "mpeg1_frames": "418",
+      "mpeg2_frames": "0",
+      "mpeg25_frames": "0"
+    },
+    "previous_best": 392662,
+    "newly_supported": false,
+    "side_candidates": {
+      "0": 390805,
+      "1": 391798,
+      "2": 391636,
+      "3": 390826
+    },
+    "side_profile": 0,
+    "side_best": 390805,
+    "selected_best": 390805,
+    "delta": -1857,
+    "block_candidates": {
+      "0": 390847,
+      "1": 390875,
+      "2": 391080
+    },
+    "block_best": 390847,
+    "block_scheme": 0,
+    "block_gain": -42,
+    "new_selected": 390805
+  },
+  {
+    "index": "02",
+    "path": "/tmp/ivo-minimp3/vectors/performance/MEANDR90.mp3",
+    "original": 9601,
+    "sha256": "f252e5a6f10ffbef00d80095aa6ffefa231ad7232b8e37aeea7cffd760de0713",
+    "store": 9656,
+    "v1": 9653,
+    "v3": 9654,
+    "modes": {},
+    "best": 9653,
+    "gain_pct": -0.5416102489324004,
+    "extra_bytes": null,
+    "unsupported": [
+      "Invalid reservoir interval"
+    ],
+    "audit": {},
+    "previous_best": 9653,
+    "newly_supported": false,
+    "side_candidates": {
+      "0": 9676,
+      "1": 9685,
+      "2": 9690,
+      "3": 9693
+    },
+    "side_profile": 0,
+    "side_best": 9676,
+    "selected_best": 9653,
+    "delta": 23,
+    "block_candidates": {
+      "0": 9676,
+      "1": 9676,
+      "2": 9814
+    },
+    "block_best": 9676,
+    "block_scheme": 0,
+    "block_gain": -23,
+    "new_selected": 9653
+  },
+  {
+    "index": "03",
+    "path": "/tmp/ivo-minimp3/vectors/performance/MIPSTest.mp3",
+    "original": 328320,
+    "sha256": "197265fa09d1b6777b71269d986055035f3e9e1f4d74e4cbaa0e55034447a9ca",
+    "store": 328377,
+    "v1": 321627,
+    "v3": 321043,
+    "modes": {
+      "1": 321045,
+      "2": 320911
+    },
+    "best": 320911,
+    "gain_pct": 2.2566398635477602,
+    "extra_bytes": -132,
+    "unsupported": [],
+    "audit": {
+      "capacity_bits": "2522592",
+      "declared_bits": "2517137",
+      "back_sum": "142093",
+      "covered_bits": "2517137",
+      "full_unused_bytes": "528",
+      "unused_zero_bytes": "4",
+      "partial_bytes": "296",
+      "mpeg1_frames": "342",
+      "mpeg2_frames": "0",
+      "mpeg25_frames": "0"
+    },
+    "previous_best": 320911,
+    "newly_supported": false,
+    "side_candidates": {
+      "0": 319465,
+      "1": 320335,
+      "2": 320200,
+      "3": 319484
+    },
+    "side_profile": 0,
+    "side_best": 319465,
+    "selected_best": 319465,
+    "delta": -1446,
+    "block_candidates": {
+      "0": 319480,
+      "1": 319632,
+      "2": 319614
+    },
+    "block_best": 319480,
+    "block_scheme": 0,
+    "block_gain": -15,
+    "new_selected": 319465
+  },
+  {
+    "index": "04",
+    "path": "/tmp/ivo-minimp3/vectors/performance/noise_meandr.mp3",
+    "original": 401280,
+    "sha256": "423a97ef5b01c8253940d04bf93ee0d9508b77ef17608c69a1b3c09ae8667c0d",
+    "store": 401341,
+    "v1": 392782,
+    "v3": 392120,
+    "modes": {
+      "1": 392086,
+      "2": 392002
+    },
+    "best": 392002,
+    "gain_pct": 2.3121012759170667,
+    "extra_bytes": -118,
+    "unsupported": [],
+    "audit": {
+      "capacity_bits": "3083168",
+      "declared_bits": "3077637",
+      "back_sum": "67623",
+      "covered_bits": "3077637",
+      "full_unused_bytes": "515",
+      "unused_zero_bytes": "0",
+      "partial_bytes": "360",
+      "mpeg1_frames": "418",
+      "mpeg2_frames": "0",
+      "mpeg25_frames": "0"
+    },
+    "previous_best": 392002,
+    "newly_supported": false,
+    "side_candidates": {
+      "0": 390291,
+      "1": 391845,
+      "2": 391849,
+      "3": 390312
+    },
+    "side_profile": 0,
+    "side_best": 390291,
+    "selected_best": 390291,
+    "delta": -1711,
+    "block_candidates": {
+      "0": 390162,
+      "1": 390262,
+      "2": 390494
+    },
+    "block_best": 390162,
+    "block_scheme": 0,
+    "block_gain": 129,
+    "new_selected": 390162
+  },
+  {
+    "index": "05",
+    "path": "/tmp/ivo-minimp3/vectors/fuzz/l3-compl-cut.mp3",
+    "original": 192,
+    "sha256": "9f5b4baaefc5403c2b55ad5a52c8d7e812ba9e25638f8b674a0d01df6008a7c7",
+    "store": 251,
+    "v1": 283,
+    "v3": 284,
+    "modes": {
+      "1": 287,
+      "2": 287
+    },
+    "best": 251,
+    "gain_pct": -30.729166666666675,
+    "extra_bytes": 3,
+    "unsupported": [],
+    "audit": {
+      "capacity_bits": "1368",
+      "declared_bits": "1304",
+      "back_sum": "0",
+      "covered_bits": "1304",
+      "full_unused_bytes": "8",
+      "unused_zero_bytes": "0",
+      "partial_bytes": "0",
+      "mpeg1_frames": "1",
+      "mpeg2_frames": "0",
+      "mpeg25_frames": "0"
+    },
+    "previous_best": 251,
+    "newly_supported": false,
+    "side_candidates": {
+      "0": 354,
+      "1": 354,
+      "2": 354,
+      "3": 375
+    },
+    "side_profile": 0,
+    "side_best": 354,
+    "selected_best": 251,
+    "delta": 103,
+    "block_candidates": {
+      "0": 345,
+      "1": 345,
+      "2": 345
+    },
+    "block_best": 345,
+    "block_scheme": 0,
+    "block_gain": -94,
+    "new_selected": 251
+  },
+  {
+    "index": "06",
+    "path": "/tmp/ivo-musical-corpus/samples/mp3/music/sample-0.mp3",
+    "original": 121869,
+    "sha256": "81c369b1bedc8af5fb43e791e72710af4836967643967ccd15aab1c78555b8c5",
+    "store": 121926,
+    "v1": 116906,
+    "v3": 116840,
+    "modes": {
+      "1": 116773,
+      "2": 116798
+    },
+    "best": 116773,
+    "gain_pct": 4.181539193724404,
+    "extra_bytes": -67,
+    "unsupported": [],
+    "audit": {
+      "capacity_bits": "945264",
+      "declared_bits": "922434",
+      "back_sum": "61278",
+      "covered_bits": "922434",
+      "full_unused_bytes": "2738",
+      "unused_zero_bytes": "291",
+      "partial_bytes": "247",
+      "mpeg1_frames": "0",
+      "mpeg2_frames": "282",
+      "mpeg25_frames": "0"
+    },
+    "previous_best": 116840,
+    "newly_supported": true,
+    "side_candidates": {
+      "0": 116845,
+      "1": 116882,
+      "2": 116844,
+      "3": 116797
+    },
+    "side_profile": 3,
+    "side_best": 116797,
+    "selected_best": 116773,
+    "delta": 24,
+    "block_candidates": {
+      "0": 116853,
+      "1": 116853,
+      "2": 116968
+    },
+    "block_best": 116853,
+    "block_scheme": 0,
+    "block_gain": -80,
+    "new_selected": 116773
+  },
+  {
+    "index": "07",
+    "path": "/tmp/ivo-musical-corpus/samples/mp3/music/sample-1.mp3",
+    "original": 121869,
+    "sha256": "5eebbbcbee93f3798bc58c39ec56490bd77f1715cb61110a803a9030297845d5",
+    "store": 121926,
+    "v1": 117061,
+    "v3": 117005,
+    "modes": {
+      "1": 116879,
+      "2": 116913
+    },
+    "best": 116879,
+    "gain_pct": 4.094560552724646,
+    "extra_bytes": -126,
+    "unsupported": [],
+    "audit": {
+      "capacity_bits": "945264",
+      "declared_bits": "921619",
+      "back_sum": "56693",
+      "covered_bits": "921619",
+      "full_unused_bytes": "2836",
+      "unused_zero_bytes": "291",
+      "partial_bytes": "239",
+      "mpeg1_frames": "0",
+      "mpeg2_frames": "282",
+      "mpeg25_frames": "0"
+    },
+    "previous_best": 117005,
+    "newly_supported": true,
+    "side_candidates": {
+      "0": 116910,
+      "1": 116928,
+      "2": 116893,
+      "3": 116853
+    },
+    "side_profile": 3,
+    "side_best": 116853,
+    "selected_best": 116853,
+    "delta": -26,
+    "block_candidates": {
+      "0": 116910,
+      "1": 116910,
+      "2": 117072
+    },
+    "block_best": 116910,
+    "block_scheme": 0,
+    "block_gain": -57,
+    "new_selected": 116853
+  },
+  {
+    "index": "08",
+    "path": "/tmp/ivo-musical-corpus/samples/mp3/music_primed/sample-0.mp3",
+    "original": 121437,
+    "sha256": "b193486b19d5b95682c5add8669c2e830a3ae50c508f476b508bde3393a14c38",
+    "store": 121494,
+    "v1": 115576,
+    "v3": 115558,
+    "modes": {
+      "1": 115475,
+      "2": 115444
+    },
+    "best": 115444,
+    "gain_pct": 4.935069212842869,
+    "extra_bytes": -114,
+    "unsupported": [],
+    "audit": {
+      "capacity_bits": "941912",
+      "declared_bits": "909715",
+      "back_sum": "58930",
+      "covered_bits": "909715",
+      "full_unused_bytes": "3904",
+      "unused_zero_bytes": "291",
+      "partial_bytes": "247",
+      "mpeg1_frames": "0",
+      "mpeg2_frames": "281",
+      "mpeg25_frames": "0"
+    },
+    "previous_best": 115558,
+    "newly_supported": true,
+    "side_candidates": {
+      "0": 115515,
+      "1": 115537,
+      "2": 115510,
+      "3": 115498
+    },
+    "side_profile": 3,
+    "side_best": 115498,
+    "selected_best": 115444,
+    "delta": 54,
+    "block_candidates": {
+      "0": 115496,
+      "1": 115496,
+      "2": 115608
+    },
+    "block_best": 115496,
+    "block_scheme": 0,
+    "block_gain": -52,
+    "new_selected": 115444
+  },
+  {
+    "index": "09",
+    "path": "/tmp/ivo-musical-corpus/samples/mp3/music_primed/sample-1.mp3",
+    "original": 121437,
+    "sha256": "b712a9d03f02dcd00fb21a5766bd13d9f595d948614a34fc197326b83d8d6bd0",
+    "store": 121494,
+    "v1": 115633,
+    "v3": 115568,
+    "modes": {
+      "1": 115371,
+      "2": 115408
+    },
+    "best": 115371,
+    "gain_pct": 4.995182687319355,
+    "extra_bytes": -197,
+    "unsupported": [],
+    "audit": {
+      "capacity_bits": "941912",
+      "declared_bits": "909575",
+      "back_sum": "60779",
+      "covered_bits": "909575",
+      "full_unused_bytes": "3920",
+      "unused_zero_bytes": "291",
+      "partial_bytes": "250",
+      "mpeg1_frames": "0",
+      "mpeg2_frames": "281",
+      "mpeg25_frames": "0"
+    },
+    "previous_best": 115568,
+    "newly_supported": true,
+    "side_candidates": {
+      "0": 115422,
+      "1": 115487,
+      "2": 115431,
+      "3": 115394
+    },
+    "side_profile": 3,
+    "side_best": 115394,
+    "selected_best": 115371,
+    "delta": 23,
+    "block_candidates": {
+      "0": 115432,
+      "1": 115432,
+      "2": 115536
+    },
+    "block_best": 115432,
+    "block_scheme": 0,
+    "block_gain": -61,
+    "new_selected": 115371
+  },
+  {
+    "index": "10",
+    "path": "/tmp/ivo-musical-corpus/samples/mp3/ted_val/sample-0.mp3",
+    "original": 82125,
+    "sha256": "07647268ad09fb8bdb22df5046de772d7043183362be75a2e976fa98ba91e0e9",
+    "store": 82182,
+    "v1": 79360,
+    "v3": 79294,
+    "modes": {
+      "1": 79290,
+      "2": 79323
+    },
+    "best": 79290,
+    "gain_pct": 3.4520547945205426,
+    "extra_bytes": -4,
+    "unsupported": [],
+    "audit": {
+      "capacity_bits": "636880",
+      "declared_bits": "626038",
+      "back_sum": "37702",
+      "covered_bits": "626038",
+      "full_unused_bytes": "1274",
+      "unused_zero_bytes": "292",
+      "partial_bytes": "166",
+      "mpeg1_frames": "0",
+      "mpeg2_frames": "190",
+      "mpeg25_frames": "0"
+    },
+    "previous_best": 79294,
+    "newly_supported": true,
+    "side_candidates": {
+      "0": 79304,
+      "1": 79324,
+      "2": 79316,
+      "3": 79287
+    },
+    "side_profile": 3,
+    "side_best": 79287,
+    "selected_best": 79287,
+    "delta": -3,
+    "block_candidates": {
+      "0": 79304,
+      "1": 79304,
+      "2": 79422
+    },
+    "block_best": 79304,
+    "block_scheme": 0,
+    "block_gain": -17,
+    "new_selected": 79287
+  },
+  {
+    "index": "11",
+    "path": "/tmp/ivo-musical-corpus/samples/mp3/ted_val/sample-1.mp3",
+    "original": 51885,
+    "sha256": "c914226a5009cfb79bcad56b6ecafcfd9ecf56eb9b1aab5b8074abe0c0afa2e7",
+    "store": 51942,
+    "v1": 49994,
+    "v3": 49947,
+    "modes": {
+      "1": 49818,
+      "2": 49853
+    },
+    "best": 49818,
+    "gain_pct": 3.983810349812089,
+    "extra_bytes": -129,
+    "unsupported": [],
+    "audit": {
+      "capacity_bits": "402240",
+      "declared_bits": "390820",
+      "back_sum": "23332",
+      "covered_bits": "390820",
+      "full_unused_bytes": "1372",
+      "unused_zero_bytes": "294",
+      "partial_bytes": "110",
+      "mpeg1_frames": "0",
+      "mpeg2_frames": "120",
+      "mpeg25_frames": "0"
+    },
+    "previous_best": 49947,
+    "newly_supported": true,
+    "side_candidates": {
+      "0": 49853,
+      "1": 49845,
+      "2": 49852,
+      "3": 49849
+    },
+    "side_profile": 1,
+    "side_best": 49845,
+    "selected_best": 49818,
+    "delta": 27,
+    "block_candidates": {
+      "0": 49844,
+      "1": 49844,
+      "2": 49962
+    },
+    "block_best": 49844,
+    "block_scheme": 0,
+    "block_gain": -26,
+    "new_selected": 49818
+  },
+  {
+    "index": "12",
+    "path": "/tmp/ivo-musical-corpus/samples/mp3/blizzard_primed/sample-0.mp3",
+    "original": 121671,
+    "sha256": "1ce55aa785d37f6394e51d6e99d0fd1f2d7203bb5c38e2156864bd14e68d8e2e",
+    "store": 121728,
+    "v1": 118982,
+    "v3": 118894,
+    "modes": {
+      "1": 118848,
+      "2": 118803
+    },
+    "best": 118803,
+    "gain_pct": 2.3571763197475115,
+    "extra_bytes": -91,
+    "unsupported": [],
+    "audit": {
+      "capacity_bits": "932656",
+      "declared_bits": "922831",
+      "back_sum": "69487",
+      "covered_bits": "922831",
+      "full_unused_bytes": "1061",
+      "unused_zero_bytes": "172",
+      "partial_bytes": "336",
+      "mpeg1_frames": "0",
+      "mpeg2_frames": "388",
+      "mpeg25_frames": "0"
+    },
+    "previous_best": 118894,
+    "newly_supported": true,
+    "side_candidates": {
+      "0": 118852,
+      "1": 118847,
+      "2": 118867,
+      "3": 118809
+    },
+    "side_profile": 3,
+    "side_best": 118809,
+    "selected_best": 118803,
+    "delta": 6,
+    "block_candidates": {
+      "0": 118839,
+      "1": 118839,
+      "2": 118966
+    },
+    "block_best": 118839,
+    "block_scheme": 0,
+    "block_gain": -36,
+    "new_selected": 118803
+  },
+  {
+    "index": "13",
+    "path": "/tmp/ivo-musical-corpus/samples/mp3/blizzard_primed/sample-1.mp3",
+    "original": 121671,
+    "sha256": "e00ebcb6c23f14a39b5014f5dce461c74c517c9626d662ca0540789d562ba89d",
+    "store": 121728,
+    "v1": 118346,
+    "v3": 118264,
+    "modes": {
+      "1": 118246,
+      "2": 118191
+    },
+    "best": 118191,
+    "gain_pct": 2.860172103459324,
+    "extra_bytes": -73,
+    "unsupported": [],
+    "audit": {
+      "capacity_bits": "932656",
+      "declared_bits": "915933",
+      "back_sum": "71509",
+      "covered_bits": "915933",
+      "full_unused_bytes": "1911",
+      "unused_zero_bytes": "172",
+      "partial_bytes": "353",
+      "mpeg1_frames": "0",
+      "mpeg2_frames": "388",
+      "mpeg25_frames": "0"
+    },
+    "previous_best": 118264,
+    "newly_supported": true,
+    "side_candidates": {
+      "0": 118205,
+      "1": 118213,
+      "2": 118243,
+      "3": 118173
+    },
+    "side_profile": 3,
+    "side_best": 118173,
+    "selected_best": 118173,
+    "delta": -18,
+    "block_candidates": {
+      "0": 118214,
+      "1": 118214,
+      "2": 118381
+    },
+    "block_best": 118214,
+    "block_scheme": 0,
+    "block_gain": -41,
+    "new_selected": 118173
+  },
+  {
+    "index": "14",
+    "path": "/tmp/ivo-musical-corpus/samples/mp3/wavenet_unconditional/maestro/sample-0.mp3",
+    "original": 121044,
+    "sha256": "73ea9f32778168c60385e44248f04cfb1f73dd532b0d9298a1029f6af9717118",
+    "store": 121101,
+    "v1": 117118,
+    "v3": 117028,
+    "modes": {
+      "1": 117288,
+      "2": 117193
+    },
+    "best": 117028,
+    "gain_pct": 3.3178017910842295,
+    "extra_bytes": 165,
+    "unsupported": [],
+    "audit": {
+      "capacity_bits": "927848",
+      "declared_bits": "922041",
+      "back_sum": "71730",
+      "covered_bits": "922041",
+      "full_unused_bytes": "561",
+      "unused_zero_bytes": "172",
+      "partial_bytes": "334",
+      "mpeg1_frames": "0",
+      "mpeg2_frames": "386",
+      "mpeg25_frames": "0"
+    },
+    "previous_best": 117028,
+    "newly_supported": true,
+    "side_candidates": {
+      "0": 117007,
+      "1": 116885,
+      "2": 116877,
+      "3": 116882
+    },
+    "side_profile": 2,
+    "side_best": 116877,
+    "selected_best": 116877,
+    "delta": -151,
+    "block_candidates": {
+      "0": 117007,
+      "1": 117007,
+      "2": 117126
+    },
+    "block_best": 117007,
+    "block_scheme": 0,
+    "block_gain": -130,
+    "new_selected": 116877
+  },
+  {
+    "index": "15",
+    "path": "/tmp/ivo-musical-corpus/samples/mp3/wavenet_unconditional/maestro/sample-1.mp3",
+    "original": 121044,
+    "sha256": "55ffd36d28f55de309ba1f355abc7f2b74cab30f8439d986000606782fc1959a",
+    "store": 121101,
+    "v1": 117292,
+    "v3": 117233,
+    "modes": {
+      "1": 117454,
+      "2": 117410
+    },
+    "best": 117233,
+    "gain_pct": 3.1484418888999,
+    "extra_bytes": 177,
+    "unsupported": [],
+    "audit": {
+      "capacity_bits": "927848",
+      "declared_bits": "921482",
+      "back_sum": "76159",
+      "covered_bits": "921482",
+      "full_unused_bytes": "622",
+      "unused_zero_bytes": "172",
+      "partial_bytes": "340",
+      "mpeg1_frames": "0",
+      "mpeg2_frames": "386",
+      "mpeg25_frames": "0"
+    },
+    "previous_best": 117233,
+    "newly_supported": true,
+    "side_candidates": {
+      "0": 117308,
+      "1": 117181,
+      "2": 117144,
+      "3": 117155
+    },
+    "side_profile": 2,
+    "side_best": 117144,
+    "selected_best": 117144,
+    "delta": -89,
+    "block_candidates": {
+      "0": 117305,
+      "1": 117305,
+      "2": 117409
+    },
+    "block_best": 117305,
+    "block_scheme": 0,
+    "block_gain": -161,
+    "new_selected": 117144
+  },
+  {
+    "index": "16",
+    "path": "/tmp/ivo-audio-corpus/1-second-of-silence.mp3",
+    "original": 37206,
+    "sha256": "2901ef99fc052e8da6896e00470b08e3176666a53fe8f49a84f3ff3ab577445d",
+    "store": 37274,
+    "v1": 28266,
+    "v3": 28267,
+    "modes": {
+      "1": 28254,
+      "2": 28254
+    },
+    "best": 28254,
+    "gain_pct": 24.060635381390092,
+    "extra_bytes": -13,
+    "unsupported": [],
+    "audit": {
+      "capacity_bits": "8024",
+      "declared_bits": "5458",
+      "back_sum": "2624",
+      "covered_bits": "5458",
+      "full_unused_bytes": "314",
+      "unused_zero_bytes": "0",
+      "partial_bytes": "13",
+      "mpeg1_frames": "0",
+      "mpeg2_frames": "0",
+      "mpeg25_frames": "17"
+    },
+    "previous_best": 28266,
+    "newly_supported": true,
+    "side_candidates": {
+      "0": 28319,
+      "1": 28321,
+      "2": 28323,
+      "3": 28340
+    },
+    "side_profile": 0,
+    "side_best": 28319,
+    "selected_best": 28254,
+    "delta": 65,
+    "block_candidates": {
+      "0": 28304,
+      "1": 28304,
+      "2": 28304
+    },
+    "block_best": 28304,
+    "block_scheme": 0,
+    "block_gain": -50,
+    "new_selected": 28254
+  },
+  {
+    "index": "17",
+    "path": "/tmp/ivo-audio-corpus/10-seconds-of-silence.mp3",
+    "original": 46208,
+    "sha256": "8d0ffce3eaa1a14489d3cd3745c9ac35652f2af7562a81ca45ff925256332a16",
+    "store": 46278,
+    "v1": 36330,
+    "v3": 36301,
+    "modes": {
+      "1": 36284,
+      "2": 36271
+    },
+    "best": 36271,
+    "gain_pct": 21.504934210526315,
+    "extra_bytes": -30,
+    "unsupported": [],
+    "audit": {
+      "capacity_bits": "67024",
+      "declared_bits": "63024",
+      "back_sum": "33618",
+      "covered_bits": "63024",
+      "full_unused_bytes": "438",
+      "unused_zero_bytes": "0",
+      "partial_bytes": "122",
+      "mpeg1_frames": "0",
+      "mpeg2_frames": "0",
+      "mpeg25_frames": "142"
+    },
+    "previous_best": 36301,
+    "newly_supported": true,
+    "side_candidates": {
+      "0": 36394,
+      "1": 36453,
+      "2": 36440,
+      "3": 36381
+    },
+    "side_profile": 3,
+    "side_best": 36381,
+    "selected_best": 36271,
+    "delta": 110,
+    "block_candidates": {
+      "0": 36379,
+      "1": 36379,
+      "2": 36379
+    },
+    "block_best": 36379,
+    "block_scheme": 0,
+    "block_gain": -108,
+    "new_selected": 36271
+  },
+  {
+    "index": "18",
+    "path": "/tmp/ivo-sample-3s.mp3",
+    "original": 52079,
+    "sha256": "0244590f2b4bcb62352b574e78bea940e8d89cfa69823b5208ef4c43e0abcb44",
+    "store": 52141,
+    "v1": 49138,
+    "v3": 48940,
+    "modes": {
+      "1": 48840,
+      "2": 48858
+    },
+    "best": 48840,
+    "gain_pct": 6.219397453868158,
+    "extra_bytes": -100,
+    "unsupported": [],
+    "audit": {
+      "capacity_bits": "380272",
+      "declared_bits": "370158",
+      "back_sum": "58087",
+      "covered_bits": "370158",
+      "full_unused_bytes": "1209",
+      "unused_zero_bytes": "47",
+      "partial_bytes": "110",
+      "mpeg1_frames": "125",
+      "mpeg2_frames": "0",
+      "mpeg25_frames": "0"
+    },
+    "previous_best": 48840,
+    "newly_supported": false,
+    "side_candidates": {
+      "0": 48933,
+      "1": 49062,
+      "2": 48989,
+      "3": 48883
+    },
+    "side_profile": 3,
+    "side_best": 48883,
+    "selected_best": 48840,
+    "delta": 43,
+    "block_candidates": {
+      "0": 48929,
+      "1": 48894,
+      "2": 49059
+    },
+    "block_best": 48894,
+    "block_scheme": 1,
+    "block_gain": -54,
+    "new_selected": 48840
+  },
+  {
+    "index": "19",
+    "path": "/tmp/ivo-sample-6s.mp3",
+    "original": 103070,
+    "sha256": "ccc7f50e7adc3625d978a483766fe40e5c7e6a74ce8d992cf13b6cf3cd0e706f",
+    "store": 103132,
+    "v1": 97460,
+    "v3": 97157,
+    "modes": {
+      "1": 96914,
+      "2": 96924
+    },
+    "best": 96914,
+    "gain_pct": 5.972639953429704,
+    "extra_bytes": -243,
+    "unsupported": [],
+    "audit": {
+      "capacity_bits": "753064",
+      "declared_bits": "739026",
+      "back_sum": "117834",
+      "covered_bits": "739026",
+      "full_unused_bytes": "1652",
+      "unused_zero_bytes": "45",
+      "partial_bytes": "210",
+      "mpeg1_frames": "247",
+      "mpeg2_frames": "0",
+      "mpeg25_frames": "0"
+    },
+    "previous_best": 96914,
+    "newly_supported": false,
+    "side_candidates": {
+      "0": 96756,
+      "1": 97068,
+      "2": 96965,
+      "3": 96726
+    },
+    "side_profile": 3,
+    "side_best": 96726,
+    "selected_best": 96726,
+    "delta": -188,
+    "block_candidates": {
+      "0": 96764,
+      "1": 96816,
+      "2": 96884
+    },
+    "block_best": 96764,
+    "block_scheme": 0,
+    "block_gain": -38,
+    "new_selected": 96726
+  },
+  {
+    "index": "20",
+    "path": "/tmp/ivo-sample-9s.mp3",
+    "original": 154062,
+    "sha256": "b11bda5c0f2e7e2a67a388412909f0b5c53606253ad14a86a32b21a28b5bbb5c",
+    "store": 154124,
+    "v1": 121070,
+    "v3": 121071,
+    "modes": {
+      "1": 121201,
+      "2": 121143
+    },
+    "best": 121070,
+    "gain_pct": 21.41475509859667,
+    "extra_bytes": 72,
+    "unsupported": [],
+    "audit": {
+      "capacity_bits": "1125864",
+      "declared_bits": "893172",
+      "back_sum": "68452",
+      "covered_bits": "893172",
+      "full_unused_bytes": "28956",
+      "unused_zero_bytes": "44",
+      "partial_bytes": "261",
+      "mpeg1_frames": "369",
+      "mpeg2_frames": "0",
+      "mpeg25_frames": "0"
+    },
+    "previous_best": 121070,
+    "newly_supported": false,
+    "side_candidates": {
+      "0": 120856,
+      "1": 121256,
+      "2": 121612,
+      "3": 120834
+    },
+    "side_profile": 3,
+    "side_best": 120834,
+    "selected_best": 120834,
+    "delta": -236,
+    "block_candidates": {
+      "0": 120915,
+      "1": 121042,
+      "2": 121100
+    },
+    "block_best": 120915,
+    "block_scheme": 0,
+    "block_gain": -81,
+    "new_selected": 120834
+  },
+  {
+    "index": "21",
+    "path": "/tmp/ivo-sample-speech-1m.mp3",
+    "original": 961350,
+    "sha256": "49938eb3edf4e8d80ee06e9832fda5dd248cfebeacc023816050f18a393e2e64",
+    "store": 961419,
+    "v1": 930878,
+    "v3": 930196,
+    "modes": {
+      "1": 928025,
+      "2": 927616
+    },
+    "best": 927616,
+    "gain_pct": 3.509023768658659,
+    "extra_bytes": -2580,
+    "unsupported": [],
+    "audit": {
+      "capacity_bits": "7451240",
+      "declared_bits": "7345966",
+      "back_sum": "454240",
+      "covered_bits": "7345966",
+      "full_unused_bytes": "12142",
+      "unused_zero_bytes": "285",
+      "partial_bytes": "2008",
+      "mpeg1_frames": "0",
+      "mpeg2_frames": "2300",
+      "mpeg25_frames": "0"
+    },
+    "previous_best": 930196,
+    "newly_supported": true,
+    "side_candidates": {
+      "0": 926233,
+      "1": 926956,
+      "2": 927227,
+      "3": 926128
+    },
+    "side_profile": 3,
+    "side_best": 926128,
+    "selected_best": 926128,
+    "delta": -1488,
+    "block_candidates": {
+      "0": 926222,
+      "1": 926222,
+      "2": 926724
+    },
+    "block_best": 926222,
+    "block_scheme": 0,
+    "block_gain": -94,
+    "new_selected": 926128
+  },
+  {
+    "index": "22",
+    "path": "/tmp/ivo-sample-15s-cbr-128kbps.mp3",
+    "original": 241206,
+    "sha256": "7142d6e0e015ff0e981de2d6131d6504036d532f2f4a6b73078bf949aa0c140b",
+    "store": 241281,
+    "v1": 218019,
+    "v3": 217475,
+    "modes": {
+      "1": 216672,
+      "2": 216845
+    },
+    "best": 216672,
+    "gain_pct": 10.171388771423596,
+    "extra_bytes": -803,
+    "unsupported": [],
+    "audit": {
+      "capacity_bits": "1763112",
+      "declared_bits": "1646880",
+      "back_sum": "271209",
+      "covered_bits": "1646880",
+      "full_unused_bytes": "14285",
+      "unused_zero_bytes": "253",
+      "partial_bytes": "505",
+      "mpeg1_frames": "577",
+      "mpeg2_frames": "0",
+      "mpeg25_frames": "0"
+    },
+    "previous_best": 216672,
+    "newly_supported": false,
+    "side_candidates": {
+      "0": 216148,
+      "1": 217204,
+      "2": 217112,
+      "3": 216169
+    },
+    "side_profile": 0,
+    "side_best": 216148,
+    "selected_best": 216148,
+    "delta": -524,
+    "block_candidates": {
+      "0": 216201,
+      "1": 215798,
+      "2": 216635
+    },
+    "block_best": 215798,
+    "block_scheme": 1,
+    "block_gain": 350,
+    "new_selected": 215798
+  },
+  {
+    "index": "23",
+    "path": "/tmp/ivo-sample-15s-vbr-v2.mp3",
+    "original": 220560,
+    "sha256": "7bac5e0d7a57e6bb3bfb4a99e24e87c65de6c64e7f017360acd0d0aa6c4cbf9b",
+    "store": 220630,
+    "v1": 208759,
+    "v3": 208018,
+    "modes": {
+      "1": 208361,
+      "2": 208117
+    },
+    "best": 208018,
+    "gain_pct": 5.686434530286544,
+    "extra_bytes": 99,
+    "unsupported": [],
+    "audit": {
+      "capacity_bits": "1597944",
+      "declared_bits": "1590528",
+      "back_sum": "275336",
+      "covered_bits": "1590528",
+      "full_unused_bytes": "669",
+      "unused_zero_bytes": "44",
+      "partial_bytes": "505",
+      "mpeg1_frames": "577",
+      "mpeg2_frames": "0",
+      "mpeg25_frames": "0"
+    },
+    "previous_best": 208018,
+    "newly_supported": false,
+    "side_candidates": {
+      "0": 207336,
+      "1": 208678,
+      "2": 208494,
+      "3": 207357
+    },
+    "side_profile": 0,
+    "side_best": 207336,
+    "selected_best": 207336,
+    "delta": -682,
+    "block_candidates": {
+      "0": 207322,
+      "1": 207183,
+      "2": 207604
+    },
+    "block_best": 207183,
+    "block_scheme": 1,
+    "block_gain": 153,
+    "new_selected": 207183
+  },
+  {
+    "index": "24",
+    "path": "/tmp/ivo-minimp3/vectors/l3-test45.bit",
+    "original": 391105,
+    "sha256": "384ccca2d558a3505bb2e7c2860e12aa3b651473ace655cda3a2c8cfb1b2fc53",
+    "store": 391163,
+    "v1": 347019,
+    "v3": 346000,
+    "modes": {
+      "1": 346003,
+      "2": 346052
+    },
+    "best": 346000,
+    "gain_pct": 11.5327086076629,
+    "extra_bytes": 3,
+    "unsupported": [],
+    "audit": {
+      "capacity_bits": "2990744",
+      "declared_bits": "2984325",
+      "back_sum": "154006",
+      "covered_bits": "2984325",
+      "full_unused_bytes": "510",
+      "unused_zero_bytes": "0",
+      "partial_bytes": "670",
+      "mpeg1_frames": "0",
+      "mpeg2_frames": "822",
+      "mpeg25_frames": "0"
+    },
+    "side_candidates": {
+      "0": 347300,
+      "1": 346089,
+      "2": 346588,
+      "3": 346105
+    },
+    "side_profile": 1,
+    "side_best": 346089,
+    "selected_best": 346000,
+    "delta": 89,
+    "block_candidates": {
+      "0": 347294,
+      "1": 346715,
+      "2": 347592
+    },
+    "block_best": 346715,
+    "block_scheme": 1,
+    "block_gain": -715,
+    "new_selected": 346000
+  },
+  {
+    "index": "25",
+    "path": "/tmp/ivo-minimp3/vectors/l3-test46.bit",
+    "original": 130613,
+    "sha256": "c44f835c6efbfad67359aa327d78f0feaf22c443e191d68f80e6d2fefd6d8af5",
+    "store": 130671,
+    "v1": 122073,
+    "v3": 121849,
+    "modes": {
+      "1": 121881,
+      "2": 121833
+    },
+    "best": 121833,
+    "gain_pct": 6.722148637578185,
+    "extra_bytes": -16,
+    "unsupported": [],
+    "audit": {
+      "capacity_bits": "1002904",
+      "declared_bits": "998136",
+      "back_sum": "46373",
+      "covered_bits": "998136",
+      "full_unused_bytes": "510",
+      "unused_zero_bytes": "0",
+      "partial_bytes": "194",
+      "mpeg1_frames": "0",
+      "mpeg2_frames": "250",
+      "mpeg25_frames": "0"
+    },
+    "side_candidates": {
+      "0": 122145,
+      "1": 121731,
+      "2": 122050,
+      "3": 121751
+    },
+    "side_profile": 1,
+    "side_best": 121731,
+    "selected_best": 121731,
+    "delta": -102,
+    "block_candidates": {
+      "0": 122139,
+      "1": 122194,
+      "2": 122258
+    },
+    "block_best": 122139,
+    "block_scheme": 0,
+    "block_gain": -408,
+    "new_selected": 121731
+  }
+]

@@ -1,0 +1,27 @@
+[
+  {
+    "name": "av-poc0-24000.mp4",
+    "exit": 0,
+    "stdout": "supports=true\nINTEGRATED file=av-poc0-24000.mp4 raw=58028 archive=50867 winner=MP4_AUDIO_RESEARCH\n"
+  },
+  {
+    "name": "speech-22050.mp4",
+    "exit": 0,
+    "stdout": "supports=true\nINTEGRATED file=speech-22050.mp4 raw=96397 archive=87874 winner=MP4_AUDIO_RESEARCH\n"
+  },
+  {
+    "name": "speech-24000.mp4",
+    "exit": 0,
+    "stdout": "supports=true\nINTEGRATED file=speech-24000.mp4 raw=96330 archive=88007 winner=MP4_AUDIO_RESEARCH\n"
+  },
+  {
+    "name": "av-poc0-44100.mp4",
+    "exit": 0,
+    "stdout": "supports=false\nINTEGRATED file=av-poc0-44100.mp4 raw=59073 archive=57210 winner=MP4_V1\n"
+  },
+  {
+    "name": "av44100.mp4",
+    "exit": 0,
+    "stdout": "supports=false\nINTEGRATED file=av44100.mp4 raw=47481 archive=46171 winner=USER_MP4_CABAC_RESEARCH\n"
+  }
+]

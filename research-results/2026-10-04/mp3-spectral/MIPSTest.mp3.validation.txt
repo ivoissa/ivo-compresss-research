@@ -1,0 +1,2 @@
+RESULT input=mp3-spectral-work/corpus/MIPSTest.mp3 original=328320 ivo=367186 exact=true sha=197265fa09d1b6777b71269d986055035f3e9e1f4d74e4cbaa0e55034447a9ca ms=499
+SPECTRAL Stats[parts=1368, pairs=393296, quads=153, scalefactorBits=21907, residualBits=0, unusedBits=5455, bigHash=121488091691856870, quadHash=-3467438108158253616]

@@ -1,0 +1,9 @@
+/tmp/ivo-mp4-corpus/whatsapp-fragmented-excerpt.mp4: 389,896 -> 388,552 bytes (99.66%), engine=MP4_V3
+Engine                         valid   payload       IVO       ms  note
+STORE                          true      389,896   389,972        5  verbatim
+N&C contextuel                 true      470,227   470,303      566  PPM-like sparse contexts, order<=4
+REF + N&C                      true      469,767   469,843      597  REF minMatch=8 then N&C; REF size=389239
+MP4 V1 (boîtes + cordes exactes) true      388,562   388,638     1150  top-level ISO-BMFF layout + four exact cords
+MP4 V2 (échantillons + cordes exactes) true      388,579   388,655     1210  sample map + video/audio/other/gap exact cords
+MP4 V3 (échantillons + NAL exacts) true      388,476   388,552     1186  sample map + reversible NAL length/header/payload cords
+Written: /tmp/whatsapp-fragmented-excerpt.ivo

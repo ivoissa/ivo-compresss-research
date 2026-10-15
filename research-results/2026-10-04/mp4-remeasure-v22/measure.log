@@ -1,0 +1,6 @@
+RESULT mode=0 original=5427643 slice_baseline=5414825 ivo=5414864 exact=true
+RESULT mode=1 original=5427643 slice_baseline=5414825 ivo=5414959 exact=true
+RESULT mode=2 original=5427643 slice_baseline=5414825 ivo=5414803 exact=true
+RESULT mode=3 original=5427643 slice_baseline=5414825 ivo=5414803 exact=true
+RESULT mode=4 original=5427643 slice_baseline=5414825 ivo=5414803 exact=true
+RESULT mode=5 original=5427643 slice_baseline=5414825 ivo=5415737 exact=true

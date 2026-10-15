@@ -1,0 +1,1202 @@
+[
+  {
+    "source": "01-25060.jpg",
+    "archive": "structure-m7.ivo",
+    "kind": "structure",
+    "bytes": 169851,
+    "sha256": "5d0b5cb9ea9069ae14c2a92951ed86c0ae56c3e2598bb10ef5e3300b785f5668",
+    "exact": true
+  },
+  {
+    "source": "01-25060.jpg",
+    "archive": "structure-m8.ivo",
+    "kind": "structure",
+    "bytes": 169549,
+    "sha256": "5d0b5cb9ea9069ae14c2a92951ed86c0ae56c3e2598bb10ef5e3300b785f5668",
+    "exact": true
+  },
+  {
+    "source": "01-25060.jpg",
+    "archive": "structure-m9.ivo",
+    "kind": "structure",
+    "bytes": 169080,
+    "sha256": "5d0b5cb9ea9069ae14c2a92951ed86c0ae56c3e2598bb10ef5e3300b785f5668",
+    "exact": true
+  },
+  {
+    "source": "01-25060.jpg",
+    "archive": "structure-m10.ivo",
+    "kind": "structure",
+    "bytes": 169285,
+    "sha256": "5d0b5cb9ea9069ae14c2a92951ed86c0ae56c3e2598bb10ef5e3300b785f5668",
+    "exact": true
+  },
+  {
+    "source": "01-25060.jpg",
+    "archive": "previous-v16-best.ivo",
+    "kind": "v16-regression",
+    "bytes": 169926,
+    "sha256": "5d0b5cb9ea9069ae14c2a92951ed86c0ae56c3e2598bb10ef5e3300b785f5668",
+    "exact": true
+  },
+  {
+    "source": "01-25066.jpg",
+    "archive": "structure-m7.ivo",
+    "kind": "structure",
+    "bytes": 94279,
+    "sha256": "b2b17bc5f4aaa5760688efa0d739ea5198771f3ab76c1949263146edb58abe2a",
+    "exact": true
+  },
+  {
+    "source": "01-25066.jpg",
+    "archive": "structure-m8.ivo",
+    "kind": "structure",
+    "bytes": 94091,
+    "sha256": "b2b17bc5f4aaa5760688efa0d739ea5198771f3ab76c1949263146edb58abe2a",
+    "exact": true
+  },
+  {
+    "source": "01-25066.jpg",
+    "archive": "structure-m9.ivo",
+    "kind": "structure",
+    "bytes": 93714,
+    "sha256": "b2b17bc5f4aaa5760688efa0d739ea5198771f3ab76c1949263146edb58abe2a",
+    "exact": true
+  },
+  {
+    "source": "01-25066.jpg",
+    "archive": "structure-m10.ivo",
+    "kind": "structure",
+    "bytes": 93790,
+    "sha256": "b2b17bc5f4aaa5760688efa0d739ea5198771f3ab76c1949263146edb58abe2a",
+    "exact": true
+  },
+  {
+    "source": "01-25066.jpg",
+    "archive": "previous-v16-best.ivo",
+    "kind": "v16-regression",
+    "bytes": 94329,
+    "sha256": "b2b17bc5f4aaa5760688efa0d739ea5198771f3ab76c1949263146edb58abe2a",
+    "exact": true
+  },
+  {
+    "source": "Canon_40D.jpg",
+    "archive": "structure-m7.ivo",
+    "kind": "structure",
+    "bytes": 8368,
+    "sha256": "6bfdabd4fc33d112283c147acccc574e770bbe6fbdbc3d4da968ba7b606ecc2f",
+    "exact": true
+  },
+  {
+    "source": "Canon_40D.jpg",
+    "archive": "structure-m8.ivo",
+    "kind": "structure",
+    "bytes": 8363,
+    "sha256": "6bfdabd4fc33d112283c147acccc574e770bbe6fbdbc3d4da968ba7b606ecc2f",
+    "exact": true
+  },
+  {
+    "source": "Canon_40D.jpg",
+    "archive": "structure-m9.ivo",
+    "kind": "structure",
+    "bytes": 8140,
+    "sha256": "6bfdabd4fc33d112283c147acccc574e770bbe6fbdbc3d4da968ba7b606ecc2f",
+    "exact": true
+  },
+  {
+    "source": "Canon_40D.jpg",
+    "archive": "structure-m10.ivo",
+    "kind": "structure",
+    "bytes": 8142,
+    "sha256": "6bfdabd4fc33d112283c147acccc574e770bbe6fbdbc3d4da968ba7b606ecc2f",
+    "exact": true
+  },
+  {
+    "source": "Canon_40D.jpg",
+    "archive": "previous-v16-best.ivo",
+    "kind": "v16-regression",
+    "bytes": 8014,
+    "sha256": "6bfdabd4fc33d112283c147acccc574e770bbe6fbdbc3d4da968ba7b606ecc2f",
+    "exact": true
+  },
+  {
+    "source": "Canon_DIGITAL_IXUS_400.jpg",
+    "archive": "structure-m7.ivo",
+    "kind": "structure",
+    "bytes": 8066,
+    "sha256": "23c1ec51c075d6864862412d07b9d0f07e84237af68972c1d1293e4c28f73e4f",
+    "exact": true
+  },
+  {
+    "source": "Canon_DIGITAL_IXUS_400.jpg",
+    "archive": "structure-m8.ivo",
+    "kind": "structure",
+    "bytes": 8063,
+    "sha256": "23c1ec51c075d6864862412d07b9d0f07e84237af68972c1d1293e4c28f73e4f",
+    "exact": true
+  },
+  {
+    "source": "Canon_DIGITAL_IXUS_400.jpg",
+    "archive": "structure-m9.ivo",
+    "kind": "structure",
+    "bytes": 7795,
+    "sha256": "23c1ec51c075d6864862412d07b9d0f07e84237af68972c1d1293e4c28f73e4f",
+    "exact": true
+  },
+  {
+    "source": "Canon_DIGITAL_IXUS_400.jpg",
+    "archive": "structure-m10.ivo",
+    "kind": "structure",
+    "bytes": 7802,
+    "sha256": "23c1ec51c075d6864862412d07b9d0f07e84237af68972c1d1293e4c28f73e4f",
+    "exact": true
+  },
+  {
+    "source": "Canon_DIGITAL_IXUS_400.jpg",
+    "archive": "previous-v16-best.ivo",
+    "kind": "v16-regression",
+    "bytes": 7755,
+    "sha256": "23c1ec51c075d6864862412d07b9d0f07e84237af68972c1d1293e4c28f73e4f",
+    "exact": true
+  },
+  {
+    "source": "Nikon_D70.jpg",
+    "archive": "structure-m7.ivo",
+    "kind": "structure",
+    "bytes": 12510,
+    "sha256": "8e2a627b96ca71c20129161f46bda3d338407da99bd11b1055adb27af27d7ef5",
+    "exact": true
+  },
+  {
+    "source": "Nikon_D70.jpg",
+    "archive": "structure-m8.ivo",
+    "kind": "structure",
+    "bytes": 12503,
+    "sha256": "8e2a627b96ca71c20129161f46bda3d338407da99bd11b1055adb27af27d7ef5",
+    "exact": true
+  },
+  {
+    "source": "Nikon_D70.jpg",
+    "archive": "structure-m9.ivo",
+    "kind": "structure",
+    "bytes": 12248,
+    "sha256": "8e2a627b96ca71c20129161f46bda3d338407da99bd11b1055adb27af27d7ef5",
+    "exact": true
+  },
+  {
+    "source": "Nikon_D70.jpg",
+    "archive": "structure-m10.ivo",
+    "kind": "structure",
+    "bytes": 12259,
+    "sha256": "8e2a627b96ca71c20129161f46bda3d338407da99bd11b1055adb27af27d7ef5",
+    "exact": true
+  },
+  {
+    "source": "Nikon_D70.jpg",
+    "archive": "previous-v16-best.ivo",
+    "kind": "v16-regression",
+    "bytes": 12284,
+    "sha256": "8e2a627b96ca71c20129161f46bda3d338407da99bd11b1055adb27af27d7ef5",
+    "exact": true
+  },
+  {
+    "source": "Pentax_K10D.jpg",
+    "archive": "structure-m7.ivo",
+    "kind": "structure",
+    "bytes": 10496,
+    "sha256": "146601c9d406410abdaa832508ee4ccddbc7ad54530e81d57962c1b7728e2e6d",
+    "exact": true
+  },
+  {
+    "source": "Pentax_K10D.jpg",
+    "archive": "structure-m8.ivo",
+    "kind": "structure",
+    "bytes": 10493,
+    "sha256": "146601c9d406410abdaa832508ee4ccddbc7ad54530e81d57962c1b7728e2e6d",
+    "exact": true
+  },
+  {
+    "source": "Pentax_K10D.jpg",
+    "archive": "structure-m9.ivo",
+    "kind": "structure",
+    "bytes": 10285,
+    "sha256": "146601c9d406410abdaa832508ee4ccddbc7ad54530e81d57962c1b7728e2e6d",
+    "exact": true
+  },
+  {
+    "source": "Pentax_K10D.jpg",
+    "archive": "structure-m10.ivo",
+    "kind": "structure",
+    "bytes": 10288,
+    "sha256": "146601c9d406410abdaa832508ee4ccddbc7ad54530e81d57962c1b7728e2e6d",
+    "exact": true
+  },
+  {
+    "source": "Pentax_K10D.jpg",
+    "archive": "previous-v16-best.ivo",
+    "kind": "v16-regression",
+    "bytes": 10194,
+    "sha256": "146601c9d406410abdaa832508ee4ccddbc7ad54530e81d57962c1b7728e2e6d",
+    "exact": true
+  },
+  {
+    "source": "Reconyx_HC500_Hyperfire.jpg",
+    "archive": "structure-m7.ivo",
+    "kind": "structure",
+    "bytes": 362351,
+    "sha256": "d7ba6bc532a225c955411cb96c733a45ee39403fa973312bded7732e6f8e4b3c",
+    "exact": true
+  },
+  {
+    "source": "Reconyx_HC500_Hyperfire.jpg",
+    "archive": "structure-m8.ivo",
+    "kind": "structure",
+    "bytes": 366223,
+    "sha256": "d7ba6bc532a225c955411cb96c733a45ee39403fa973312bded7732e6f8e4b3c",
+    "exact": true
+  },
+  {
+    "source": "Reconyx_HC500_Hyperfire.jpg",
+    "archive": "structure-m9.ivo",
+    "kind": "structure",
+    "bytes": 356364,
+    "sha256": "d7ba6bc532a225c955411cb96c733a45ee39403fa973312bded7732e6f8e4b3c",
+    "exact": true
+  },
+  {
+    "source": "Reconyx_HC500_Hyperfire.jpg",
+    "archive": "structure-m10.ivo",
+    "kind": "structure",
+    "bytes": 360883,
+    "sha256": "d7ba6bc532a225c955411cb96c733a45ee39403fa973312bded7732e6f8e4b3c",
+    "exact": true
+  },
+  {
+    "source": "Reconyx_HC500_Hyperfire.jpg",
+    "archive": "previous-v16-best.ivo",
+    "kind": "v16-regression",
+    "bytes": 366166,
+    "sha256": "d7ba6bc532a225c955411cb96c733a45ee39403fa973312bded7732e6f8e4b3c",
+    "exact": true
+  },
+  {
+    "source": "Samsung_Digimax_i50_MP3.jpg",
+    "archive": "structure-m7.ivo",
+    "kind": "structure",
+    "bytes": 43898,
+    "sha256": "e61da5ee8d7ba1726bd0a887216ed5ae7ca38c97fcf7aac11b808e1c269e1722",
+    "exact": true
+  },
+  {
+    "source": "Samsung_Digimax_i50_MP3.jpg",
+    "archive": "structure-m8.ivo",
+    "kind": "structure",
+    "bytes": 43893,
+    "sha256": "e61da5ee8d7ba1726bd0a887216ed5ae7ca38c97fcf7aac11b808e1c269e1722",
+    "exact": true
+  },
+  {
+    "source": "Samsung_Digimax_i50_MP3.jpg",
+    "archive": "structure-m9.ivo",
+    "kind": "structure",
+    "bytes": 43692,
+    "sha256": "e61da5ee8d7ba1726bd0a887216ed5ae7ca38c97fcf7aac11b808e1c269e1722",
+    "exact": true
+  },
+  {
+    "source": "Samsung_Digimax_i50_MP3.jpg",
+    "archive": "structure-m10.ivo",
+    "kind": "structure",
+    "bytes": 43701,
+    "sha256": "e61da5ee8d7ba1726bd0a887216ed5ae7ca38c97fcf7aac11b808e1c269e1722",
+    "exact": true
+  },
+  {
+    "source": "Samsung_Digimax_i50_MP3.jpg",
+    "archive": "previous-v16-best.ivo",
+    "kind": "v16-regression",
+    "bytes": 43628,
+    "sha256": "e61da5ee8d7ba1726bd0a887216ed5ae7ca38c97fcf7aac11b808e1c269e1722",
+    "exact": true
+  },
+  {
+    "source": "fixture-0.jpg",
+    "archive": "structure-m7.ivo",
+    "kind": "structure",
+    "bytes": 491,
+    "sha256": "fd4168c059bccb6371ed9b64f96f90601bb8169709b93dae0a3e941e73861789",
+    "exact": true
+  },
+  {
+    "source": "fixture-0.jpg",
+    "archive": "structure-m8.ivo",
+    "kind": "structure",
+    "bytes": 491,
+    "sha256": "fd4168c059bccb6371ed9b64f96f90601bb8169709b93dae0a3e941e73861789",
+    "exact": true
+  },
+  {
+    "source": "fixture-0.jpg",
+    "archive": "structure-m9.ivo",
+    "kind": "structure",
+    "bytes": 463,
+    "sha256": "fd4168c059bccb6371ed9b64f96f90601bb8169709b93dae0a3e941e73861789",
+    "exact": true
+  },
+  {
+    "source": "fixture-0.jpg",
+    "archive": "structure-m10.ivo",
+    "kind": "structure",
+    "bytes": 463,
+    "sha256": "fd4168c059bccb6371ed9b64f96f90601bb8169709b93dae0a3e941e73861789",
+    "exact": true
+  },
+  {
+    "source": "fixture-0.jpg",
+    "archive": "previous-v16-best.ivo",
+    "kind": "v16-regression",
+    "bytes": 409,
+    "sha256": "fd4168c059bccb6371ed9b64f96f90601bb8169709b93dae0a3e941e73861789",
+    "exact": true
+  },
+  {
+    "source": "fixture-1.jpg",
+    "archive": "structure-m7.ivo",
+    "kind": "structure",
+    "bytes": 509,
+    "sha256": "8656dca5cdd5db601750bc91ad9ea45af32905e69b95d57ccbd26b09848860cb",
+    "exact": true
+  },
+  {
+    "source": "fixture-1.jpg",
+    "archive": "structure-m8.ivo",
+    "kind": "structure",
+    "bytes": 509,
+    "sha256": "8656dca5cdd5db601750bc91ad9ea45af32905e69b95d57ccbd26b09848860cb",
+    "exact": true
+  },
+  {
+    "source": "fixture-1.jpg",
+    "archive": "structure-m9.ivo",
+    "kind": "structure",
+    "bytes": 480,
+    "sha256": "8656dca5cdd5db601750bc91ad9ea45af32905e69b95d57ccbd26b09848860cb",
+    "exact": true
+  },
+  {
+    "source": "fixture-1.jpg",
+    "archive": "structure-m10.ivo",
+    "kind": "structure",
+    "bytes": 480,
+    "sha256": "8656dca5cdd5db601750bc91ad9ea45af32905e69b95d57ccbd26b09848860cb",
+    "exact": true
+  },
+  {
+    "source": "fixture-1.jpg",
+    "archive": "previous-v16-best.ivo",
+    "kind": "v16-regression",
+    "bytes": 427,
+    "sha256": "8656dca5cdd5db601750bc91ad9ea45af32905e69b95d57ccbd26b09848860cb",
+    "exact": true
+  },
+  {
+    "source": "fixture-2.jpg",
+    "archive": "structure-m7.ivo",
+    "kind": "structure",
+    "bytes": 939,
+    "sha256": "2bceac200fa29db746eca48baf107bcd70a6e9567a1787fe570200797caca53b",
+    "exact": true
+  },
+  {
+    "source": "fixture-2.jpg",
+    "archive": "structure-m8.ivo",
+    "kind": "structure",
+    "bytes": 938,
+    "sha256": "2bceac200fa29db746eca48baf107bcd70a6e9567a1787fe570200797caca53b",
+    "exact": true
+  },
+  {
+    "source": "fixture-2.jpg",
+    "archive": "structure-m9.ivo",
+    "kind": "structure",
+    "bytes": 870,
+    "sha256": "2bceac200fa29db746eca48baf107bcd70a6e9567a1787fe570200797caca53b",
+    "exact": true
+  },
+  {
+    "source": "fixture-2.jpg",
+    "archive": "structure-m10.ivo",
+    "kind": "structure",
+    "bytes": 869,
+    "sha256": "2bceac200fa29db746eca48baf107bcd70a6e9567a1787fe570200797caca53b",
+    "exact": true
+  },
+  {
+    "source": "fixture-2.jpg",
+    "archive": "previous-v16-best.ivo",
+    "kind": "v16-regression",
+    "bytes": 938,
+    "sha256": "2bceac200fa29db746eca48baf107bcd70a6e9567a1787fe570200797caca53b",
+    "exact": true
+  },
+  {
+    "source": "fixture-3.jpg",
+    "archive": "structure-m7.ivo",
+    "kind": "structure",
+    "bytes": 3233,
+    "sha256": "d993d8c7092b7dae859ffce117484c5afa6676a13f8dfffb275f885c1435eae5",
+    "exact": true
+  },
+  {
+    "source": "fixture-3.jpg",
+    "archive": "structure-m8.ivo",
+    "kind": "structure",
+    "bytes": 3212,
+    "sha256": "d993d8c7092b7dae859ffce117484c5afa6676a13f8dfffb275f885c1435eae5",
+    "exact": true
+  },
+  {
+    "source": "fixture-3.jpg",
+    "archive": "structure-m9.ivo",
+    "kind": "structure",
+    "bytes": 2999,
+    "sha256": "d993d8c7092b7dae859ffce117484c5afa6676a13f8dfffb275f885c1435eae5",
+    "exact": true
+  },
+  {
+    "source": "fixture-3.jpg",
+    "archive": "structure-m10.ivo",
+    "kind": "structure",
+    "bytes": 2996,
+    "sha256": "d993d8c7092b7dae859ffce117484c5afa6676a13f8dfffb275f885c1435eae5",
+    "exact": true
+  },
+  {
+    "source": "fixture-3.jpg",
+    "archive": "previous-v16-best.ivo",
+    "kind": "v16-regression",
+    "bytes": 3131,
+    "sha256": "d993d8c7092b7dae859ffce117484c5afa6676a13f8dfffb275f885c1435eae5",
+    "exact": true
+  },
+  {
+    "source": "hdr_canon_hdr_NO.jpg",
+    "archive": "structure-m7.ivo",
+    "kind": "structure",
+    "bytes": 659973,
+    "sha256": "fa2127ebab1b3930c998ab262795044262f41dda7eaf0f7a21a773cff48c8696",
+    "exact": true
+  },
+  {
+    "source": "hdr_canon_hdr_NO.jpg",
+    "archive": "structure-m8.ivo",
+    "kind": "structure",
+    "bytes": 664538,
+    "sha256": "fa2127ebab1b3930c998ab262795044262f41dda7eaf0f7a21a773cff48c8696",
+    "exact": true
+  },
+  {
+    "source": "hdr_canon_hdr_NO.jpg",
+    "archive": "structure-m9.ivo",
+    "kind": "structure",
+    "bytes": 650070,
+    "sha256": "fa2127ebab1b3930c998ab262795044262f41dda7eaf0f7a21a773cff48c8696",
+    "exact": true
+  },
+  {
+    "source": "hdr_canon_hdr_NO.jpg",
+    "archive": "structure-m10.ivo",
+    "kind": "structure",
+    "bytes": 655675,
+    "sha256": "fa2127ebab1b3930c998ab262795044262f41dda7eaf0f7a21a773cff48c8696",
+    "exact": true
+  },
+  {
+    "source": "hdr_canon_hdr_NO.jpg",
+    "archive": "previous-v16-best.ivo",
+    "kind": "v16-regression",
+    "bytes": 664401,
+    "sha256": "fa2127ebab1b3930c998ab262795044262f41dda7eaf0f7a21a773cff48c8696",
+    "exact": true
+  },
+  {
+    "source": "hdr_iphone_hdr_NO.jpg",
+    "archive": "structure-m7.ivo",
+    "kind": "structure",
+    "bytes": 1540955,
+    "sha256": "eb81d33a9b1d1bea5d133483f918c2cc927161c0dda44c9fedfa4da87c8b1cc3",
+    "exact": true
+  },
+  {
+    "source": "hdr_iphone_hdr_NO.jpg",
+    "archive": "structure-m8.ivo",
+    "kind": "structure",
+    "bytes": 1575249,
+    "sha256": "eb81d33a9b1d1bea5d133483f918c2cc927161c0dda44c9fedfa4da87c8b1cc3",
+    "exact": true
+  },
+  {
+    "source": "hdr_iphone_hdr_NO.jpg",
+    "archive": "structure-m9.ivo",
+    "kind": "structure",
+    "bytes": 1520247,
+    "sha256": "eb81d33a9b1d1bea5d133483f918c2cc927161c0dda44c9fedfa4da87c8b1cc3",
+    "exact": true
+  },
+  {
+    "source": "hdr_iphone_hdr_NO.jpg",
+    "archive": "structure-m10.ivo",
+    "kind": "structure",
+    "bytes": 1531344,
+    "sha256": "eb81d33a9b1d1bea5d133483f918c2cc927161c0dda44c9fedfa4da87c8b1cc3",
+    "exact": true
+  },
+  {
+    "source": "hdr_iphone_hdr_NO.jpg",
+    "archive": "previous-v16-best.ivo",
+    "kind": "v16-regression",
+    "bytes": 1575113,
+    "sha256": "eb81d33a9b1d1bea5d133483f918c2cc927161c0dda44c9fedfa4da87c8b1cc3",
+    "exact": true
+  },
+  {
+    "source": "hdr_iphone_hdr_YES.jpg",
+    "archive": "structure-m7.ivo",
+    "kind": "structure",
+    "bytes": 1561696,
+    "sha256": "5125870f6f4a94a2329bc9f53482680772d3277399aed71c2f0636cb07870533",
+    "exact": true
+  },
+  {
+    "source": "hdr_iphone_hdr_YES.jpg",
+    "archive": "structure-m8.ivo",
+    "kind": "structure",
+    "bytes": 1594813,
+    "sha256": "5125870f6f4a94a2329bc9f53482680772d3277399aed71c2f0636cb07870533",
+    "exact": true
+  },
+  {
+    "source": "hdr_iphone_hdr_YES.jpg",
+    "archive": "structure-m9.ivo",
+    "kind": "structure",
+    "bytes": 1539895,
+    "sha256": "5125870f6f4a94a2329bc9f53482680772d3277399aed71c2f0636cb07870533",
+    "exact": true
+  },
+  {
+    "source": "hdr_iphone_hdr_YES.jpg",
+    "archive": "structure-m10.ivo",
+    "kind": "structure",
+    "bytes": 1551946,
+    "sha256": "5125870f6f4a94a2329bc9f53482680772d3277399aed71c2f0636cb07870533",
+    "exact": true
+  },
+  {
+    "source": "hdr_iphone_hdr_YES.jpg",
+    "archive": "previous-v16-best.ivo",
+    "kind": "v16-regression",
+    "bytes": 1594612,
+    "sha256": "5125870f6f4a94a2329bc9f53482680772d3277399aed71c2f0636cb07870533",
+    "exact": true
+  },
+  {
+    "source": "mobile_jolla.jpg",
+    "archive": "structure-m7.ivo",
+    "kind": "structure",
+    "bytes": 637646,
+    "sha256": "ee6bc1200cf8b1b26f5b60d8294d9617e8099f6dfdd7a4757a424f332360f5e3",
+    "exact": true
+  },
+  {
+    "source": "mobile_jolla.jpg",
+    "archive": "structure-m8.ivo",
+    "kind": "structure",
+    "bytes": 649473,
+    "sha256": "ee6bc1200cf8b1b26f5b60d8294d9617e8099f6dfdd7a4757a424f332360f5e3",
+    "exact": true
+  },
+  {
+    "source": "mobile_jolla.jpg",
+    "archive": "structure-m9.ivo",
+    "kind": "structure",
+    "bytes": 629435,
+    "sha256": "ee6bc1200cf8b1b26f5b60d8294d9617e8099f6dfdd7a4757a424f332360f5e3",
+    "exact": true
+  },
+  {
+    "source": "mobile_jolla.jpg",
+    "archive": "structure-m10.ivo",
+    "kind": "structure",
+    "bytes": 632961,
+    "sha256": "ee6bc1200cf8b1b26f5b60d8294d9617e8099f6dfdd7a4757a424f332360f5e3",
+    "exact": true
+  },
+  {
+    "source": "mobile_jolla.jpg",
+    "archive": "previous-v16-best.ivo",
+    "kind": "v16-regression",
+    "bytes": 649550,
+    "sha256": "ee6bc1200cf8b1b26f5b60d8294d9617e8099f6dfdd7a4757a424f332360f5e3",
+    "exact": true
+  },
+  {
+    "source": "Canon_40D_photoshop_import.jpg",
+    "archive": "structure-m7.ivo",
+    "kind": "structure",
+    "bytes": 9902,
+    "sha256": "40a7aa2cc28d8544b31408e6d54c568e6b749a8faf239c7a6234b315e953b9d5",
+    "exact": true
+  },
+  {
+    "source": "Canon_40D_photoshop_import.jpg",
+    "archive": "structure-m8.ivo",
+    "kind": "structure",
+    "bytes": 9901,
+    "sha256": "40a7aa2cc28d8544b31408e6d54c568e6b749a8faf239c7a6234b315e953b9d5",
+    "exact": true
+  },
+  {
+    "source": "Canon_40D_photoshop_import.jpg",
+    "archive": "structure-m9.ivo",
+    "kind": "structure",
+    "bytes": 9635,
+    "sha256": "40a7aa2cc28d8544b31408e6d54c568e6b749a8faf239c7a6234b315e953b9d5",
+    "exact": true
+  },
+  {
+    "source": "Canon_40D_photoshop_import.jpg",
+    "archive": "structure-m10.ivo",
+    "kind": "structure",
+    "bytes": 9640,
+    "sha256": "40a7aa2cc28d8544b31408e6d54c568e6b749a8faf239c7a6234b315e953b9d5",
+    "exact": true
+  },
+  {
+    "source": "Canon_40D_photoshop_import.jpg",
+    "archive": "previous-v16-best.ivo",
+    "kind": "v16-regression",
+    "bytes": 9759,
+    "sha256": "40a7aa2cc28d8544b31408e6d54c568e6b749a8faf239c7a6234b315e953b9d5",
+    "exact": true
+  },
+  {
+    "source": "Canon_PowerShot_S40.jpg",
+    "archive": "structure-m7.ivo",
+    "kind": "structure",
+    "bytes": 31466,
+    "sha256": "8a9d04b92d0de5836c59ede8ae421235488e4031e893e07b1fe7e4b78f6a9901",
+    "exact": true
+  },
+  {
+    "source": "Canon_PowerShot_S40.jpg",
+    "archive": "structure-m8.ivo",
+    "kind": "structure",
+    "bytes": 31738,
+    "sha256": "8a9d04b92d0de5836c59ede8ae421235488e4031e893e07b1fe7e4b78f6a9901",
+    "exact": true
+  },
+  {
+    "source": "Canon_PowerShot_S40.jpg",
+    "archive": "structure-m9.ivo",
+    "kind": "structure",
+    "bytes": 30783,
+    "sha256": "8a9d04b92d0de5836c59ede8ae421235488e4031e893e07b1fe7e4b78f6a9901",
+    "exact": true
+  },
+  {
+    "source": "Canon_PowerShot_S40.jpg",
+    "archive": "structure-m10.ivo",
+    "kind": "structure",
+    "bytes": 31025,
+    "sha256": "8a9d04b92d0de5836c59ede8ae421235488e4031e893e07b1fe7e4b78f6a9901",
+    "exact": true
+  },
+  {
+    "source": "Canon_PowerShot_S40.jpg",
+    "archive": "previous-v16-best.ivo",
+    "kind": "v16-regression",
+    "bytes": 31740,
+    "sha256": "8a9d04b92d0de5836c59ede8ae421235488e4031e893e07b1fe7e4b78f6a9901",
+    "exact": true
+  },
+  {
+    "source": "Fujifilm_FinePix6900ZOOM.jpg",
+    "archive": "structure-m7.ivo",
+    "kind": "structure",
+    "bytes": 4541,
+    "sha256": "40afc753b4e83d72cfa1080ae7a10310e0fcbb9e4f6ebdf32c7b2f1553c83fe3",
+    "exact": true
+  },
+  {
+    "source": "Fujifilm_FinePix6900ZOOM.jpg",
+    "archive": "structure-m8.ivo",
+    "kind": "structure",
+    "bytes": 4536,
+    "sha256": "40afc753b4e83d72cfa1080ae7a10310e0fcbb9e4f6ebdf32c7b2f1553c83fe3",
+    "exact": true
+  },
+  {
+    "source": "Fujifilm_FinePix6900ZOOM.jpg",
+    "archive": "structure-m9.ivo",
+    "kind": "structure",
+    "bytes": 4343,
+    "sha256": "40afc753b4e83d72cfa1080ae7a10310e0fcbb9e4f6ebdf32c7b2f1553c83fe3",
+    "exact": true
+  },
+  {
+    "source": "Fujifilm_FinePix6900ZOOM.jpg",
+    "archive": "structure-m10.ivo",
+    "kind": "structure",
+    "bytes": 4349,
+    "sha256": "40afc753b4e83d72cfa1080ae7a10310e0fcbb9e4f6ebdf32c7b2f1553c83fe3",
+    "exact": true
+  },
+  {
+    "source": "Fujifilm_FinePix6900ZOOM.jpg",
+    "archive": "previous-v16-best.ivo",
+    "kind": "v16-regression",
+    "bytes": 4242,
+    "sha256": "40afc753b4e83d72cfa1080ae7a10310e0fcbb9e4f6ebdf32c7b2f1553c83fe3",
+    "exact": true
+  },
+  {
+    "source": "Fujifilm_FinePix_E500.jpg",
+    "archive": "structure-m7.ivo",
+    "kind": "structure",
+    "bytes": 2225,
+    "sha256": "ffbee7b07bf267dc0fb52817f8866df647758f7d48ac93e7a73d1914fb4c74da",
+    "exact": true
+  },
+  {
+    "source": "Fujifilm_FinePix_E500.jpg",
+    "archive": "structure-m8.ivo",
+    "kind": "structure",
+    "bytes": 2220,
+    "sha256": "ffbee7b07bf267dc0fb52817f8866df647758f7d48ac93e7a73d1914fb4c74da",
+    "exact": true
+  },
+  {
+    "source": "Fujifilm_FinePix_E500.jpg",
+    "archive": "structure-m9.ivo",
+    "kind": "structure",
+    "bytes": 2069,
+    "sha256": "ffbee7b07bf267dc0fb52817f8866df647758f7d48ac93e7a73d1914fb4c74da",
+    "exact": true
+  },
+  {
+    "source": "Fujifilm_FinePix_E500.jpg",
+    "archive": "structure-m10.ivo",
+    "kind": "structure",
+    "bytes": 2069,
+    "sha256": "ffbee7b07bf267dc0fb52817f8866df647758f7d48ac93e7a73d1914fb4c74da",
+    "exact": true
+  },
+  {
+    "source": "Fujifilm_FinePix_E500.jpg",
+    "archive": "previous-v16-best.ivo",
+    "kind": "v16-regression",
+    "bytes": 1954,
+    "sha256": "ffbee7b07bf267dc0fb52817f8866df647758f7d48ac93e7a73d1914fb4c74da",
+    "exact": true
+  },
+  {
+    "source": "Kodak_CX7530.jpg",
+    "archive": "structure-m7.ivo",
+    "kind": "structure",
+    "bytes": 6364,
+    "sha256": "ac759931999a215ef78469a82bdfc382ccba96eb8d039ec9e81e53a9a419d35e",
+    "exact": true
+  },
+  {
+    "source": "Kodak_CX7530.jpg",
+    "archive": "structure-m8.ivo",
+    "kind": "structure",
+    "bytes": 6361,
+    "sha256": "ac759931999a215ef78469a82bdfc382ccba96eb8d039ec9e81e53a9a419d35e",
+    "exact": true
+  },
+  {
+    "source": "Kodak_CX7530.jpg",
+    "archive": "structure-m9.ivo",
+    "kind": "structure",
+    "bytes": 6101,
+    "sha256": "ac759931999a215ef78469a82bdfc382ccba96eb8d039ec9e81e53a9a419d35e",
+    "exact": true
+  },
+  {
+    "source": "Kodak_CX7530.jpg",
+    "archive": "structure-m10.ivo",
+    "kind": "structure",
+    "bytes": 6108,
+    "sha256": "ac759931999a215ef78469a82bdfc382ccba96eb8d039ec9e81e53a9a419d35e",
+    "exact": true
+  },
+  {
+    "source": "Kodak_CX7530.jpg",
+    "archive": "previous-v16-best.ivo",
+    "kind": "v16-regression",
+    "bytes": 6017,
+    "sha256": "ac759931999a215ef78469a82bdfc382ccba96eb8d039ec9e81e53a9a419d35e",
+    "exact": true
+  },
+  {
+    "source": "Konica_Minolta_DiMAGE_Z3.jpg",
+    "archive": "structure-m7.ivo",
+    "kind": "structure",
+    "bytes": 11356,
+    "sha256": "b1b914f47528384e6252fa7caabb489f123b88c81ebd62ecb8eacdf64c46fd5e",
+    "exact": true
+  },
+  {
+    "source": "Konica_Minolta_DiMAGE_Z3.jpg",
+    "archive": "structure-m8.ivo",
+    "kind": "structure",
+    "bytes": 11347,
+    "sha256": "b1b914f47528384e6252fa7caabb489f123b88c81ebd62ecb8eacdf64c46fd5e",
+    "exact": true
+  },
+  {
+    "source": "Konica_Minolta_DiMAGE_Z3.jpg",
+    "archive": "structure-m9.ivo",
+    "kind": "structure",
+    "bytes": 11178,
+    "sha256": "b1b914f47528384e6252fa7caabb489f123b88c81ebd62ecb8eacdf64c46fd5e",
+    "exact": true
+  },
+  {
+    "source": "Konica_Minolta_DiMAGE_Z3.jpg",
+    "archive": "structure-m10.ivo",
+    "kind": "structure",
+    "bytes": 11178,
+    "sha256": "b1b914f47528384e6252fa7caabb489f123b88c81ebd62ecb8eacdf64c46fd5e",
+    "exact": true
+  },
+  {
+    "source": "Konica_Minolta_DiMAGE_Z3.jpg",
+    "archive": "previous-v16-best.ivo",
+    "kind": "v16-regression",
+    "bytes": 11057,
+    "sha256": "b1b914f47528384e6252fa7caabb489f123b88c81ebd62ecb8eacdf64c46fd5e",
+    "exact": true
+  },
+  {
+    "source": "Nikon_COOLPIX_P1.jpg",
+    "archive": "structure-m7.ivo",
+    "kind": "structure",
+    "bytes": 6271,
+    "sha256": "896b47424dc1c87154a50b40394ae887a0b0d7d830f38a9d969295995f27ef43",
+    "exact": true
+  },
+  {
+    "source": "Nikon_COOLPIX_P1.jpg",
+    "archive": "structure-m8.ivo",
+    "kind": "structure",
+    "bytes": 6270,
+    "sha256": "896b47424dc1c87154a50b40394ae887a0b0d7d830f38a9d969295995f27ef43",
+    "exact": true
+  },
+  {
+    "source": "Nikon_COOLPIX_P1.jpg",
+    "archive": "structure-m9.ivo",
+    "kind": "structure",
+    "bytes": 6053,
+    "sha256": "896b47424dc1c87154a50b40394ae887a0b0d7d830f38a9d969295995f27ef43",
+    "exact": true
+  },
+  {
+    "source": "Nikon_COOLPIX_P1.jpg",
+    "archive": "structure-m10.ivo",
+    "kind": "structure",
+    "bytes": 6057,
+    "sha256": "896b47424dc1c87154a50b40394ae887a0b0d7d830f38a9d969295995f27ef43",
+    "exact": true
+  },
+  {
+    "source": "Nikon_COOLPIX_P1.jpg",
+    "archive": "previous-v16-best.ivo",
+    "kind": "v16-regression",
+    "bytes": 5969,
+    "sha256": "896b47424dc1c87154a50b40394ae887a0b0d7d830f38a9d969295995f27ef43",
+    "exact": true
+  },
+  {
+    "source": "Olympus_C8080WZ.jpg",
+    "archive": "structure-m7.ivo",
+    "kind": "structure",
+    "bytes": 3353,
+    "sha256": "3495de26279d8d1e442177ba43cef855438e3b321481b9ee2ff513decb13ed9c",
+    "exact": true
+  },
+  {
+    "source": "Olympus_C8080WZ.jpg",
+    "archive": "structure-m8.ivo",
+    "kind": "structure",
+    "bytes": 3343,
+    "sha256": "3495de26279d8d1e442177ba43cef855438e3b321481b9ee2ff513decb13ed9c",
+    "exact": true
+  },
+  {
+    "source": "Olympus_C8080WZ.jpg",
+    "archive": "structure-m9.ivo",
+    "kind": "structure",
+    "bytes": 3172,
+    "sha256": "3495de26279d8d1e442177ba43cef855438e3b321481b9ee2ff513decb13ed9c",
+    "exact": true
+  },
+  {
+    "source": "Olympus_C8080WZ.jpg",
+    "archive": "structure-m10.ivo",
+    "kind": "structure",
+    "bytes": 3170,
+    "sha256": "3495de26279d8d1e442177ba43cef855438e3b321481b9ee2ff513decb13ed9c",
+    "exact": true
+  },
+  {
+    "source": "Olympus_C8080WZ.jpg",
+    "archive": "previous-v16-best.ivo",
+    "kind": "v16-regression",
+    "bytes": 3041,
+    "sha256": "3495de26279d8d1e442177ba43cef855438e3b321481b9ee2ff513decb13ed9c",
+    "exact": true
+  },
+  {
+    "source": "PaintTool_sample.jpg",
+    "archive": "structure-m7.ivo",
+    "kind": "structure",
+    "bytes": 6167,
+    "sha256": "45e3aa44357a4b05d78b3fc51d0732be0ddf5a544b732b0134778b146380291a",
+    "exact": true
+  },
+  {
+    "source": "PaintTool_sample.jpg",
+    "archive": "structure-m8.ivo",
+    "kind": "structure",
+    "bytes": 6168,
+    "sha256": "45e3aa44357a4b05d78b3fc51d0732be0ddf5a544b732b0134778b146380291a",
+    "exact": true
+  },
+  {
+    "source": "PaintTool_sample.jpg",
+    "archive": "structure-m9.ivo",
+    "kind": "structure",
+    "bytes": 5899,
+    "sha256": "45e3aa44357a4b05d78b3fc51d0732be0ddf5a544b732b0134778b146380291a",
+    "exact": true
+  },
+  {
+    "source": "PaintTool_sample.jpg",
+    "archive": "structure-m10.ivo",
+    "kind": "structure",
+    "bytes": 5899,
+    "sha256": "45e3aa44357a4b05d78b3fc51d0732be0ddf5a544b732b0134778b146380291a",
+    "exact": true
+  },
+  {
+    "source": "PaintTool_sample.jpg",
+    "archive": "previous-v16-best.ivo",
+    "kind": "v16-regression",
+    "bytes": 5801,
+    "sha256": "45e3aa44357a4b05d78b3fc51d0732be0ddf5a544b732b0134778b146380291a",
+    "exact": true
+  },
+  {
+    "source": "Panasonic_DMC-FZ30.jpg",
+    "archive": "structure-m7.ivo",
+    "kind": "structure",
+    "bytes": 8846,
+    "sha256": "c092a4ade7ae7b63ac13d50c3dc9da51ce2fb465caf7d1b6193d4c53f59e8ad8",
+    "exact": true
+  },
+  {
+    "source": "Panasonic_DMC-FZ30.jpg",
+    "archive": "structure-m8.ivo",
+    "kind": "structure",
+    "bytes": 8840,
+    "sha256": "c092a4ade7ae7b63ac13d50c3dc9da51ce2fb465caf7d1b6193d4c53f59e8ad8",
+    "exact": true
+  },
+  {
+    "source": "Panasonic_DMC-FZ30.jpg",
+    "archive": "structure-m9.ivo",
+    "kind": "structure",
+    "bytes": 8633,
+    "sha256": "c092a4ade7ae7b63ac13d50c3dc9da51ce2fb465caf7d1b6193d4c53f59e8ad8",
+    "exact": true
+  },
+  {
+    "source": "Panasonic_DMC-FZ30.jpg",
+    "archive": "structure-m10.ivo",
+    "kind": "structure",
+    "bytes": 8638,
+    "sha256": "c092a4ade7ae7b63ac13d50c3dc9da51ce2fb465caf7d1b6193d4c53f59e8ad8",
+    "exact": true
+  },
+  {
+    "source": "Panasonic_DMC-FZ30.jpg",
+    "archive": "previous-v16-best.ivo",
+    "kind": "v16-regression",
+    "bytes": 8614,
+    "sha256": "c092a4ade7ae7b63ac13d50c3dc9da51ce2fb465caf7d1b6193d4c53f59e8ad8",
+    "exact": true
+  },
+  {
+    "source": "gps_DSCN0010.jpg",
+    "archive": "structure-m7.ivo",
+    "kind": "structure",
+    "bytes": 142006,
+    "sha256": "17307b1207eb6487d7908e9d154890b46e3d2e0192369cfd3f4c33d5a5af4035",
+    "exact": true
+  },
+  {
+    "source": "gps_DSCN0010.jpg",
+    "archive": "structure-m8.ivo",
+    "kind": "structure",
+    "bytes": 142115,
+    "sha256": "17307b1207eb6487d7908e9d154890b46e3d2e0192369cfd3f4c33d5a5af4035",
+    "exact": true
+  },
+  {
+    "source": "gps_DSCN0010.jpg",
+    "archive": "structure-m9.ivo",
+    "kind": "structure",
+    "bytes": 140533,
+    "sha256": "17307b1207eb6487d7908e9d154890b46e3d2e0192369cfd3f4c33d5a5af4035",
+    "exact": true
+  },
+  {
+    "source": "gps_DSCN0010.jpg",
+    "archive": "structure-m10.ivo",
+    "kind": "structure",
+    "bytes": 140791,
+    "sha256": "17307b1207eb6487d7908e9d154890b46e3d2e0192369cfd3f4c33d5a5af4035",
+    "exact": true
+  },
+  {
+    "source": "gps_DSCN0010.jpg",
+    "archive": "previous-v16-best.ivo",
+    "kind": "v16-regression",
+    "bytes": 142224,
+    "sha256": "17307b1207eb6487d7908e9d154890b46e3d2e0192369cfd3f4c33d5a5af4035",
+    "exact": true
+  },
+  {
+    "source": "gps_DSCN0012.jpg",
+    "archive": "structure-m7.ivo",
+    "kind": "structure",
+    "bytes": 143552,
+    "sha256": "84d60184ac4098b7967e2ef6dae6b03fc0d98b24624d2b57412dbcd7cb864680",
+    "exact": true
+  },
+  {
+    "source": "gps_DSCN0012.jpg",
+    "archive": "structure-m8.ivo",
+    "kind": "structure",
+    "bytes": 143714,
+    "sha256": "84d60184ac4098b7967e2ef6dae6b03fc0d98b24624d2b57412dbcd7cb864680",
+    "exact": true
+  },
+  {
+    "source": "gps_DSCN0012.jpg",
+    "archive": "structure-m9.ivo",
+    "kind": "structure",
+    "bytes": 142371,
+    "sha256": "84d60184ac4098b7967e2ef6dae6b03fc0d98b24624d2b57412dbcd7cb864680",
+    "exact": true
+  },
+  {
+    "source": "gps_DSCN0012.jpg",
+    "archive": "structure-m10.ivo",
+    "kind": "structure",
+    "bytes": 142760,
+    "sha256": "84d60184ac4098b7967e2ef6dae6b03fc0d98b24624d2b57412dbcd7cb864680",
+    "exact": true
+  },
+  {
+    "source": "gps_DSCN0012.jpg",
+    "archive": "previous-v16-best.ivo",
+    "kind": "v16-regression",
+    "bytes": 143724,
+    "sha256": "84d60184ac4098b7967e2ef6dae6b03fc0d98b24624d2b57412dbcd7cb864680",
+    "exact": true
+  },
+  {
+    "source": "mobile_HMD_Nokia_8.3_5G.jpg",
+    "archive": "structure-m7.ivo",
+    "kind": "structure",
+    "bytes": 1781109,
+    "sha256": "9be023624ccd5846beeb5b02d9b571251ef5bd8ed820389a430d114029f58eda",
+    "exact": true
+  },
+  {
+    "source": "mobile_HMD_Nokia_8.3_5G.jpg",
+    "archive": "structure-m8.ivo",
+    "kind": "structure",
+    "bytes": 1785899,
+    "sha256": "9be023624ccd5846beeb5b02d9b571251ef5bd8ed820389a430d114029f58eda",
+    "exact": true
+  },
+  {
+    "source": "mobile_HMD_Nokia_8.3_5G.jpg",
+    "archive": "structure-m9.ivo",
+    "kind": "structure",
+    "bytes": 1757227,
+    "sha256": "9be023624ccd5846beeb5b02d9b571251ef5bd8ed820389a430d114029f58eda",
+    "exact": true
+  },
+  {
+    "source": "mobile_HMD_Nokia_8.3_5G.jpg",
+    "archive": "structure-m10.ivo",
+    "kind": "structure",
+    "bytes": 1768459,
+    "sha256": "9be023624ccd5846beeb5b02d9b571251ef5bd8ed820389a430d114029f58eda",
+    "exact": true
+  },
+  {
+    "source": "mobile_HMD_Nokia_8.3_5G.jpg",
+    "archive": "previous-v16-best.ivo",
+    "kind": "v16-regression",
+    "bytes": 1789947,
+    "sha256": "9be023624ccd5846beeb5b02d9b571251ef5bd8ed820389a430d114029f58eda",
+    "exact": true
+  },
+  {
+    "source": "mobile_HMD_Nokia_8.3_5G_hdr.jpg",
+    "archive": "structure-m7.ivo",
+    "kind": "structure",
+    "bytes": 4193437,
+    "sha256": "b150f64e631b0df0f70cdbb88ddcbb73c5536fcb840ace8d0e71f8d58d997bc1",
+    "exact": true
+  },
+  {
+    "source": "mobile_HMD_Nokia_8.3_5G_hdr.jpg",
+    "archive": "structure-m8.ivo",
+    "kind": "structure",
+    "bytes": 4225768,
+    "sha256": "b150f64e631b0df0f70cdbb88ddcbb73c5536fcb840ace8d0e71f8d58d997bc1",
+    "exact": true
+  },
+  {
+    "source": "mobile_HMD_Nokia_8.3_5G_hdr.jpg",
+    "archive": "structure-m9.ivo",
+    "kind": "structure",
+    "bytes": 4150179,
+    "sha256": "b150f64e631b0df0f70cdbb88ddcbb73c5536fcb840ace8d0e71f8d58d997bc1",
+    "exact": true
+  },
+  {
+    "source": "mobile_HMD_Nokia_8.3_5G_hdr.jpg",
+    "archive": "structure-m10.ivo",
+    "kind": "structure",
+    "bytes": 4175837,
+    "sha256": "b150f64e631b0df0f70cdbb88ddcbb73c5536fcb840ace8d0e71f8d58d997bc1",
+    "exact": true
+  },
+  {
+    "source": "mobile_HMD_Nokia_8.3_5G_hdr.jpg",
+    "archive": "previous-v16-best.ivo",
+    "kind": "v16-regression",
+    "bytes": 4224993,
+    "sha256": "b150f64e631b0df0f70cdbb88ddcbb73c5536fcb840ace8d0e71f8d58d997bc1",
+    "exact": true
+  }
+]

@@ -1,0 +1,4 @@
+BASELINE_V14 original=425890 ivo=378957
+RESULT mode=2 ivo=367074 gain_v14=11883 exact=true ms=2299
+RESULT mode=3 ivo=366697 gain_v14=12260 exact=true ms=2323
+RESULT mode=4 ivo=378889 gain_v14=68 exact=true ms=2194

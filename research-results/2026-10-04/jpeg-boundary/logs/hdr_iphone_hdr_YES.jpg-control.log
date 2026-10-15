@@ -1,0 +1,2 @@
+BASELINE original=1976579 ivo=1671157 engine=JPEG_V61
+RESULT backend=2 mode=4 original=1976579 ivo=1670481 extra=676 exact=true ms=8539

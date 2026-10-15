@@ -1,0 +1,6 @@
+ORACLE independent_pixels_exact=true source=research-results/2026-10-04/validation-v21/jpeg-inputs/is-progressive_kitten-progressive.jpg
+ORACLE independent_pixels_exact=true source=research-results/2026-10-04/validation-v21/jpeg-inputs/image-rs_tower_progressive.jpg
+ORACLE independent_pixels_exact=true source=research-results/2026-10-04/validation-v21/jpeg-inputs/image-rs_progressive3.jpg
+ORACLE independent_pixels_exact=true source=research-results/2026-10-04/validation-v21/jpeg-inputs/image-rs_jpg-progressive.jpg
+ORACLE independent_pixels_exact=true source=research-results/2026-10-05/jpeg-context-mixer/inputs/pytorch_dog1.jpg
+ORACLE independent_pixels_exact=true source=research-results/2026-10-05/jpeg-context-mixer/inputs/pytorch_dog2.jpg

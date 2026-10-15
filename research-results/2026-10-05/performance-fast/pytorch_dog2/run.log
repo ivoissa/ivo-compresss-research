@@ -1,0 +1,8 @@
+SAMPLE mode=enhanced iteration=-1 bytes=81761 compression_ms=7813.314 decompression_ms=282.303 exact=true
+SAMPLE mode=fast iteration=-1 bytes=81761 compression_ms=2753.702 decompression_ms=300.952 exact=true
+SAMPLE mode=fast iteration=0 bytes=81761 compression_ms=2938.511 decompression_ms=290.713 exact=true
+SAMPLE mode=enhanced iteration=0 bytes=81761 compression_ms=7236.549 decompression_ms=294.904 exact=true
+SAMPLE mode=enhanced iteration=1 bytes=81761 compression_ms=7031.618 decompression_ms=276.397 exact=true
+SAMPLE mode=fast iteration=1 bytes=81761 compression_ms=2867.223 decompression_ms=267.084 exact=true
+SAMPLE mode=fast iteration=2 bytes=81761 compression_ms=2926.891 decompression_ms=275.915 exact=true
+SAMPLE mode=enhanced iteration=2 bytes=81761 compression_ms=7560.715 decompression_ms=285.514 exact=true

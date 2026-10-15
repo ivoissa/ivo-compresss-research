@@ -1,0 +1,10 @@
+PASS mb_type_categories=706 counts={I_16x16=35, I_NxN=6, P_8x8=53, P_L0_16x16=524, P_L0_16x8=44, P_L0_8x16=44} mismatches=0; intra16 prediction/cbp not independently checked
+PASS frames=709 skip_flags=910 skip_ones=204 termination_flags=204 terminal_ones=0 longest_skip_run=6 mismatches=0 external_reference=FFmpeg_mb_type prefix=true
+NOT_DONE: remaining macroblocks, CABAC encoder, byte-exact CABAC roundtrip, new compression measurement
+PASS mb_type_categories=0 counts={} mismatches=0; intra16 prediction/cbp not independently checked
+PASS frames=10 skip_flags=144 skip_ones=144 termination_flags=144 terminal_ones=9 longest_skip_run=16 mismatches=0 external_reference=FFmpeg_mb_type prefix=true
+NOT_DONE: remaining macroblocks, CABAC encoder, byte-exact CABAC roundtrip, new compression measurement
+PASS mb_type_categories=11 counts={P_8x8=2, P_L0_16x16=9} mismatches=0; intra16 prediction/cbp not independently checked
+PASS frames=12 skip_flags=23 skip_ones=12 termination_flags=12 terminal_ones=0 longest_skip_run=4 mismatches=0 external_reference=FFmpeg_mb_type prefix=true
+NOT_DONE: remaining macroblocks, CABAC encoder, byte-exact CABAC roundtrip, new compression measurement
+PASS altered_partition_only_rejected=true

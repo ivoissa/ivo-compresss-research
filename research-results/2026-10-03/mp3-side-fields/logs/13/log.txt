@@ -1,0 +1,8 @@
+SIDE_FIELDS profile=0 previous=3120 semantic=3133
+SIDE_FIELDS profile=1 previous=3120 semantic=3141
+SIDE_FIELDS profile=2 previous=3120 semantic=3171
+SIDE_FIELDS profile=3 previous=3120 semantic=3101
+RESULT profile=0 ivo=118205 exact=true sha=e00ebcb6c23f14a39b5014f5dce461c74c517c9626d662ca0540789d562ba89d
+RESULT profile=1 ivo=118213 exact=true sha=e00ebcb6c23f14a39b5014f5dce461c74c517c9626d662ca0540789d562ba89d
+RESULT profile=2 ivo=118243 exact=true sha=e00ebcb6c23f14a39b5014f5dce461c74c517c9626d662ca0540789d562ba89d
+RESULT profile=3 ivo=118173 exact=true sha=e00ebcb6c23f14a39b5014f5dce461c74c517c9626d662ca0540789d562ba89d

@@ -1,0 +1,7 @@
+INPUT /tmp/ivo-sample-3s.mp3 bytes=52079 sha=0244590f2b4bcb62352b574e78bea940e8d89cfa69823b5208ef4c43e0abcb44 store=52141
+SIDE_PORTFOLIO direct=2313 transposed=2114 selected=true
+BASE v1=49138 v3=48940 exact=true
+MAIN_SPLIT mode=1 used_raw=46325 unused_raw=1209 coded=46553
+RESULT mode=1 ivo=48840 delta_vs_v3=-100 exact=true
+MAIN_SPLIT mode=2 used_raw=46270 unused_raw=1265 coded=46571
+RESULT mode=2 ivo=48858 delta_vs_v3=-82 exact=true

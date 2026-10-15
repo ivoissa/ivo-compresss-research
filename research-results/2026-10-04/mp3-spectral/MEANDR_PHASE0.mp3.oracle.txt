@@ -1,0 +1,1 @@
+ORACLE frames=4168 parts=16672 pairs=4792599 scalefactorBits=263381 bigHash=e605bf130fc8d606 quads=1737 quadHash=141f329bdc2e4cc4

@@ -1,0 +1,9 @@
+source=research-results/2026-10-05/jpeg-context-mixer/inputs/01-25066.jpg
+sha256=b2b17bc5f4aaa5760688efa0d739ea5198771f3ab76c1949263146edb58abe2a
+java=17.0.20+8-1-24.04-Ubuntu
+vm=OpenJDK 64-Bit Server VM
+flags=[-Xms64m, -Xmx2g, -XX:+UseG1GC]
+os=Linux amd64
+processors=8
+warmups=1
+repetitions=3

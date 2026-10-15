@@ -1,0 +1,9 @@
+/tmp/ivo-jpeg-amplitude-heldout/Olympus_C8080WZ.jpg: 3,224 -> 3,041 bytes (94.32%), engine=JPEG_IR
+Engine                         valid   payload       IVO       ms  note
+STORE                          true        3,224     3,286        1  verbatim
+N&C contextuel                 true        3,328     3,390       21  PPM-like sparse contexts, order<=4
+REF + N&C                      true        3,321     3,383       21  REF minMatch=8 then N&C; REF size=2735
+JPEG oracle exact (structure/scans) true        2,979     3,041       32  JPEG exact; segments=12; scans=1; progressive=false; meta=2355; entropy=869; modes=[0, 1, 0]
+JPEG frozen portfolio (ABC, spatial, directional, similarity) true        3,297     3,359      254  DCT coefficients + exact entropy patch
+JPEG boundary portfolio (physical + presence control) true        3,108     3,170       57  Causal AC category/presence; mode=10; exact entropy patch
+Written: /tmp/ivo-jpeg-integration-results/Olympus_C8080WZ.jpg/automatic.ivo

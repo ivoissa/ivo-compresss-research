@@ -1,0 +1,11 @@
+name,baseline,energy_best,scheme,extra_saved_bytes,forced_change
+google_brooklyn_bridge.mp3,26313,27511,15,0,1198
+librivox_wonderland_ch01.mp3,4971610,4961589,15,10021,-10021
+mdn_bassguitar.mp3,472775,525522,15,0,52747
+mdn_clav.mp3,583476,594308,16,0,10832
+mdn_concert-crowd.mp3,183185,183023,15,162,-162
+mdn_drums.mp3,607073,606639,15,434,-434
+mdn_horns.mp3,564364,563812,15,552,-552
+mdn_leadguitar.mp3,585627,584630,16,997,-997
+mdn_outfoxing.mp3,1766982,1760846,16,6136,-6136
+mdn_viper.mp3,634697,631121,15,3576,-3576

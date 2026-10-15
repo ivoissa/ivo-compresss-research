@@ -1,0 +1,9 @@
+source=research-results/2026-10-04/validation-v21/jpeg-inputs/image-rs_jpg-progressive.jpg
+sha256=1cbff16cd9651840f660914eb8cd0cb29d248cf113081d75bd4476b4d18a5460
+java=17.0.20+8-1-24.04-Ubuntu
+vm=OpenJDK 64-Bit Server VM
+flags=[-Xms64m, -Xmx2g, -XX:+UseG1GC]
+os=Linux amd64
+processors=8
+warmups=1
+repetitions=3

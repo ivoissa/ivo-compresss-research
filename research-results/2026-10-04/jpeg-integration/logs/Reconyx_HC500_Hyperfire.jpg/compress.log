@@ -1,0 +1,9 @@
+/tmp/ivo-jpeg-neighbour-inputs/Reconyx_HC500_Hyperfire.jpg: 425,890 -> 356,364 bytes (83.68%), engine=JPEG_NEIGHBOUR_RESEARCH
+Engine                         valid   payload       IVO       ms  note
+STORE                          true      425,890   425,962        5  verbatim
+N&C contextuel                 true      492,417   492,489      697  PPM-like sparse contexts, order<=4
+REF + N&C                      true      490,370   490,442      709  REF minMatch=8 then N&C; REF size=421605
+JPEG oracle exact (structure/scans) true      425,631   425,703      628  JPEG exact; segments=10; scans=1; progressive=false; meta=1539; entropy=424351; modes=[0, 2, 0]
+JPEG frozen portfolio (ABC, spatial, directional, similarity) true      379,159   379,231    10099  DCT coefficients + exact entropy patch
+JPEG boundary portfolio (physical + presence control) true      356,292   356,364     4841  Causal AC category/presence; mode=9; exact entropy patch
+Written: /tmp/ivo-jpeg-integration-results/Reconyx_HC500_Hyperfire.jpg/automatic.ivo

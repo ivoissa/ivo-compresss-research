@@ -1,0 +1,7 @@
+mode,iteration,original_bytes,ivo_bytes,engine,compression_verified_ms,decompression_ms,compression_heap_pool_peak_sum_bytes,decompression_heap_pool_peak_sum_bytes,compression_gc_ms,decompression_gc_ms,exact
+fast,0,96019,6088,REF_NC,84.895401,5.559531,42465096,6108488,1,0,true
+enhanced,0,96019,6088,REF_NC,70.174704,6.367471,42584424,6226224,2,0,true
+enhanced,1,96019,6088,REF_NC,70.869287,4.584480,42358232,6227040,1,0,true
+fast,1,96019,6088,REF_NC,73.587044,5.126077,42351936,6227040,2,0,true
+fast,2,96019,6088,REF_NC,67.052231,4.419250,42358728,6229120,1,0,true
+enhanced,2,96019,6088,REF_NC,69.646987,6.350434,42355032,6229120,1,0,true

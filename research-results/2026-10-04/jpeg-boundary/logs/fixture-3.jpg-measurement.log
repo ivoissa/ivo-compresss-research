@@ -1,0 +1,3 @@
+BASELINE original=3075 ivo=3131 engine=STORE
+RESULT backend=2 mode=2 original=3075 ivo=3233 extra=-102 exact=true ms=49
+RESULT backend=2 mode=3 original=3075 ivo=3233 extra=-102 exact=true ms=32

@@ -1,0 +1,37 @@
+[
+  {
+    "repo": "libjpeg-turbo/libjpeg-turbo",
+    "files": 4,
+    "supported": 2,
+    "gain_bytes": 338,
+    "supported_previous_bytes": 11666
+  },
+  {
+    "repo": "libjxl/testdata",
+    "files": 8,
+    "supported": 6,
+    "gain_bytes": 58910,
+    "supported_previous_bytes": 1660506
+  },
+  {
+    "repo": "python-pillow/Pillow",
+    "files": 7,
+    "supported": 7,
+    "gain_bytes": 19709,
+    "supported_previous_bytes": 1694453
+  },
+  {
+    "repo": "pytorch/hub",
+    "files": 1,
+    "supported": 1,
+    "gain_bytes": 10977,
+    "supported_previous_bytes": 572169
+  },
+  {
+    "repo": "pytorch/vision",
+    "files": 6,
+    "supported": 3,
+    "gain_bytes": 4789,
+    "supported_previous_bytes": 180712
+  }
+]

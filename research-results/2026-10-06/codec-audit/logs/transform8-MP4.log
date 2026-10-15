@@ -1,0 +1,15 @@
+RESULT kind=MP4 file=transform8.mp4 raw=6553 candidate_payload=-1 candidate_container_size=-1 exact=false baseline_payload=5808 same_payload=false reference_best=5785 winner=MP4_V3 new_ms=18 old_ms=195 error=RuntimeException:poc_type old_error=
+
+STDERR
+slice fallback: cabac mismatch
+slice fallback: weighted
+slice fallback: weighted
+slices modeled=0 raw=60 | modeled NAL bytes=0 header bytes=0 tail bytes=0 | skeleton=6553
+model bytes by group: skip=0 mbtype=0 mvd=0 ref=0 intra/chroma/t8=0 cbp=0 qpdelta=0 cbf=0 sig=0 last=0 abs=0 bypass=0 term=0
+meta(deflated)=5801 (raw 6587) payload=1
+slice fallback: cabac mismatch
+slice fallback: weighted
+slice fallback: weighted
+slices modeled=0 raw=60 | modeled NAL bytes=0 header bytes=0 tail bytes=0 | skeleton=6553
+model bytes by group: skip=0 mbtype=0 mvd=0 ref=0 intra/chroma/t8=0 cbp=0 qpdelta=0 cbf=0 sig=0 last=0 abs=0 bypass=0 term=0
+meta(deflated)=5801 (raw 6587) payload=1

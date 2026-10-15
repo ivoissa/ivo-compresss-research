@@ -1,0 +1,1 @@
+PASS prefix_replay_streams=200 reconstructed_bits=29360 terminal_ones=21 altered_prefixes_rejected=200; observer-state diagnostic, not syntax encoder

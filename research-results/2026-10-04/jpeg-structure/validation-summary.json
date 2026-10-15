@@ -1,0 +1,17 @@
+{
+  "files": 30,
+  "new_candidates": 120,
+  "fresh_cli_archives": 150,
+  "previous_v16_bytes": 11589959,
+  "retained_bytes": 11322768,
+  "gain_bytes": 267191,
+  "winners": 16,
+  "physical_model_winners": 14,
+  "control_winners": 2,
+  "category_gain_vs_control_all_trials": 124765,
+  "presence_gain_vs_control_all_trials": 74911,
+  "truncated_rejected": 4,
+  "wrong_reference_rejected": true,
+  "automatic_compression_enabled": false,
+  "wrong_reference_name_rejected": true
+}

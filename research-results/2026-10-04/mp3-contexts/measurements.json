@@ -1,0 +1,795 @@
+[
+  {
+    "name": "MEANDR_PHASE0.mp3",
+    "original": 4001280,
+    "sha256": "55d7dd3b6cbdb82e5eae523e23f155040a13ce0be159140e93de590efdce7b0c",
+    "previous_best_ivo": 3795012,
+    "mp39_best_ivo": 3795012,
+    "mp40_best_ivo": 3759232,
+    "best_scheme": 9,
+    "extra_bytes": 35780,
+    "selected_ivo": 3759232,
+    "candidates": {
+      "4": {
+        "ivo": 3787182,
+        "fresh_decode_ms": 1561,
+        "byte_exact": true,
+        "spectral_golden": true
+      },
+      "5": {
+        "ivo": 3759354,
+        "fresh_decode_ms": 1227,
+        "byte_exact": true,
+        "spectral_golden": true
+      },
+      "6": {
+        "ivo": 3802949,
+        "fresh_decode_ms": 1298,
+        "byte_exact": true,
+        "spectral_golden": true
+      },
+      "7": {
+        "ivo": 3759493,
+        "fresh_decode_ms": 1162,
+        "byte_exact": true,
+        "spectral_golden": true
+      },
+      "8": {
+        "ivo": 3787060,
+        "fresh_decode_ms": 1290,
+        "byte_exact": true,
+        "spectral_golden": true
+      },
+      "9": {
+        "ivo": 3759232,
+        "fresh_decode_ms": 1139,
+        "byte_exact": true,
+        "spectral_golden": true
+      },
+      "10": {
+        "ivo": 3802827,
+        "fresh_decode_ms": 1267,
+        "byte_exact": true,
+        "spectral_golden": true
+      },
+      "11": {
+        "ivo": 3759371,
+        "fresh_decode_ms": 1135,
+        "byte_exact": true,
+        "spectral_golden": true
+      }
+    }
+  },
+  {
+    "name": "MIPSTest.mp3",
+    "original": 328320,
+    "sha256": "197265fa09d1b6777b71269d986055035f3e9e1f4d74e4cbaa0e55034447a9ca",
+    "previous_best_ivo": 314563,
+    "mp39_best_ivo": 314563,
+    "mp40_best_ivo": 311621,
+    "best_scheme": 9,
+    "extra_bytes": 2942,
+    "selected_ivo": 311621,
+    "candidates": {
+      "4": {
+        "ivo": 316420,
+        "fresh_decode_ms": 102,
+        "byte_exact": true,
+        "spectral_golden": true
+      },
+      "5": {
+        "ivo": 311933,
+        "fresh_decode_ms": 94,
+        "byte_exact": true,
+        "spectral_golden": true
+      },
+      "6": {
+        "ivo": 318073,
+        "fresh_decode_ms": 105,
+        "byte_exact": true,
+        "spectral_golden": true
+      },
+      "7": {
+        "ivo": 312123,
+        "fresh_decode_ms": 95,
+        "byte_exact": true,
+        "spectral_golden": true
+      },
+      "8": {
+        "ivo": 316108,
+        "fresh_decode_ms": 98,
+        "byte_exact": true,
+        "spectral_golden": true
+      },
+      "9": {
+        "ivo": 311621,
+        "fresh_decode_ms": 90,
+        "byte_exact": true,
+        "spectral_golden": true
+      },
+      "10": {
+        "ivo": 317761,
+        "fresh_decode_ms": 101,
+        "byte_exact": true,
+        "spectral_golden": true
+      },
+      "11": {
+        "ivo": 311811,
+        "fresh_decode_ms": 93,
+        "byte_exact": true,
+        "spectral_golden": true
+      }
+    }
+  },
+  {
+    "name": "generated-22050-1.mp3",
+    "original": 16762,
+    "sha256": "9813703e0df7dceb1910175fba04c748bb05aa3dc6d6a9a40cb52617fcec5646",
+    "previous_best_ivo": 8415,
+    "mp39_best_ivo": 8677,
+    "mp40_best_ivo": 8788,
+    "best_scheme": 9,
+    "extra_bytes": -373,
+    "selected_ivo": 8415,
+    "candidates": {
+      "4": {
+        "ivo": 9018,
+        "fresh_decode_ms": 3,
+        "byte_exact": true,
+        "spectral_golden": true
+      },
+      "5": {
+        "ivo": 8949,
+        "fresh_decode_ms": 3,
+        "byte_exact": true,
+        "spectral_golden": true
+      },
+      "6": {
+        "ivo": 9064,
+        "fresh_decode_ms": 2,
+        "byte_exact": true,
+        "spectral_golden": true
+      },
+      "7": {
+        "ivo": 9063,
+        "fresh_decode_ms": 2,
+        "byte_exact": true,
+        "spectral_golden": true
+      },
+      "8": {
+        "ivo": 8857,
+        "fresh_decode_ms": 2,
+        "byte_exact": true,
+        "spectral_golden": true
+      },
+      "9": {
+        "ivo": 8788,
+        "fresh_decode_ms": 1,
+        "byte_exact": true,
+        "spectral_golden": true
+      },
+      "10": {
+        "ivo": 8903,
+        "fresh_decode_ms": 1,
+        "byte_exact": true,
+        "spectral_golden": true
+      },
+      "11": {
+        "ivo": 8902,
+        "fresh_decode_ms": 2,
+        "byte_exact": true,
+        "spectral_golden": true
+      }
+    }
+  },
+  {
+    "name": "generated-22050-2.mp3",
+    "original": 16762,
+    "sha256": "c3f400dc8b3483f22ac3284912274bee16e42b51f103930eb79d85e897198c19",
+    "previous_best_ivo": 7178,
+    "mp39_best_ivo": 7680,
+    "mp40_best_ivo": 7781,
+    "best_scheme": 8,
+    "extra_bytes": -603,
+    "selected_ivo": 7178,
+    "candidates": {
+      "4": {
+        "ivo": 7948,
+        "fresh_decode_ms": 2,
+        "byte_exact": true,
+        "spectral_golden": true
+      },
+      "5": {
+        "ivo": 7949,
+        "fresh_decode_ms": 2,
+        "byte_exact": true,
+        "spectral_golden": true
+      },
+      "6": {
+        "ivo": 8067,
+        "fresh_decode_ms": 2,
+        "byte_exact": true,
+        "spectral_golden": true
+      },
+      "7": {
+        "ivo": 8132,
+        "fresh_decode_ms": 2,
+        "byte_exact": true,
+        "spectral_golden": true
+      },
+      "8": {
+        "ivo": 7781,
+        "fresh_decode_ms": 2,
+        "byte_exact": true,
+        "spectral_golden": true
+      },
+      "9": {
+        "ivo": 7782,
+        "fresh_decode_ms": 1,
+        "byte_exact": true,
+        "spectral_golden": true
+      },
+      "10": {
+        "ivo": 7900,
+        "fresh_decode_ms": 2,
+        "byte_exact": true,
+        "spectral_golden": true
+      },
+      "11": {
+        "ivo": 7965,
+        "fresh_decode_ms": 2,
+        "byte_exact": true,
+        "spectral_golden": true
+      }
+    }
+  },
+  {
+    "name": "generated-44100-1.mp3",
+    "original": 33062,
+    "sha256": "d4f398cbd10b9aee9d760b536f484686cda8782a139aa15c86be7304d6879d3d",
+    "previous_best_ivo": 13474,
+    "mp39_best_ivo": 13474,
+    "mp40_best_ivo": 13257,
+    "best_scheme": 9,
+    "extra_bytes": 217,
+    "selected_ivo": 13257,
+    "candidates": {
+      "4": {
+        "ivo": 13611,
+        "fresh_decode_ms": 2,
+        "byte_exact": true,
+        "spectral_golden": true
+      },
+      "5": {
+        "ivo": 13535,
+        "fresh_decode_ms": 2,
+        "byte_exact": true,
+        "spectral_golden": true
+      },
+      "6": {
+        "ivo": 13632,
+        "fresh_decode_ms": 2,
+        "byte_exact": true,
+        "spectral_golden": true
+      },
+      "7": {
+        "ivo": 13655,
+        "fresh_decode_ms": 2,
+        "byte_exact": true,
+        "spectral_golden": true
+      },
+      "8": {
+        "ivo": 13333,
+        "fresh_decode_ms": 2,
+        "byte_exact": true,
+        "spectral_golden": true
+      },
+      "9": {
+        "ivo": 13257,
+        "fresh_decode_ms": 2,
+        "byte_exact": true,
+        "spectral_golden": true
+      },
+      "10": {
+        "ivo": 13354,
+        "fresh_decode_ms": 2,
+        "byte_exact": true,
+        "spectral_golden": true
+      },
+      "11": {
+        "ivo": 13377,
+        "fresh_decode_ms": 2,
+        "byte_exact": true,
+        "spectral_golden": true
+      }
+    }
+  },
+  {
+    "name": "generated-44100-2.mp3",
+    "original": 33062,
+    "sha256": "855df8a0bf6b3676b44c2e84fd12243bebb06edd256c7052eedc67c9de069184",
+    "previous_best_ivo": 12078,
+    "mp39_best_ivo": 12323,
+    "mp40_best_ivo": 12231,
+    "best_scheme": 9,
+    "extra_bytes": -153,
+    "selected_ivo": 12078,
+    "candidates": {
+      "4": {
+        "ivo": 12502,
+        "fresh_decode_ms": 2,
+        "byte_exact": true,
+        "spectral_golden": true
+      },
+      "5": {
+        "ivo": 12488,
+        "fresh_decode_ms": 2,
+        "byte_exact": true,
+        "spectral_golden": true
+      },
+      "6": {
+        "ivo": 12677,
+        "fresh_decode_ms": 2,
+        "byte_exact": true,
+        "spectral_golden": true
+      },
+      "7": {
+        "ivo": 12673,
+        "fresh_decode_ms": 2,
+        "byte_exact": true,
+        "spectral_golden": true
+      },
+      "8": {
+        "ivo": 12245,
+        "fresh_decode_ms": 2,
+        "byte_exact": true,
+        "spectral_golden": true
+      },
+      "9": {
+        "ivo": 12231,
+        "fresh_decode_ms": 2,
+        "byte_exact": true,
+        "spectral_golden": true
+      },
+      "10": {
+        "ivo": 12420,
+        "fresh_decode_ms": 2,
+        "byte_exact": true,
+        "spectral_golden": true
+      },
+      "11": {
+        "ivo": 12416,
+        "fresh_decode_ms": 2,
+        "byte_exact": true,
+        "spectral_golden": true
+      }
+    }
+  },
+  {
+    "name": "generated-8000-1.mp3",
+    "original": 6741,
+    "sha256": "4ae7e5dc38211876e2492f2ebaea36dd6a42bf38610a93a7e41643a2e63ed169",
+    "previous_best_ivo": 6169,
+    "mp39_best_ivo": 6351,
+    "mp40_best_ivo": 6529,
+    "best_scheme": 9,
+    "extra_bytes": -360,
+    "selected_ivo": 6169,
+    "candidates": {
+      "4": {
+        "ivo": 6761,
+        "fresh_decode_ms": 1,
+        "byte_exact": true,
+        "spectral_golden": true
+      },
+      "5": {
+        "ivo": 6690,
+        "fresh_decode_ms": 1,
+        "byte_exact": true,
+        "spectral_golden": true
+      },
+      "6": {
+        "ivo": 6876,
+        "fresh_decode_ms": 1,
+        "byte_exact": true,
+        "spectral_golden": true
+      },
+      "7": {
+        "ivo": 6885,
+        "fresh_decode_ms": 1,
+        "byte_exact": true,
+        "spectral_golden": true
+      },
+      "8": {
+        "ivo": 6600,
+        "fresh_decode_ms": 1,
+        "byte_exact": true,
+        "spectral_golden": true
+      },
+      "9": {
+        "ivo": 6529,
+        "fresh_decode_ms": 1,
+        "byte_exact": true,
+        "spectral_golden": true
+      },
+      "10": {
+        "ivo": 6715,
+        "fresh_decode_ms": 1,
+        "byte_exact": true,
+        "spectral_golden": true
+      },
+      "11": {
+        "ivo": 6724,
+        "fresh_decode_ms": 1,
+        "byte_exact": true,
+        "spectral_golden": true
+      }
+    }
+  },
+  {
+    "name": "generated-8000-2.mp3",
+    "original": 6741,
+    "sha256": "ee10bdd6713f72be090909b558e47e30c0b003009d5a8a1670537a28c25aa270",
+    "previous_best_ivo": 5188,
+    "mp39_best_ivo": 5692,
+    "mp40_best_ivo": 5872,
+    "best_scheme": 9,
+    "extra_bytes": -684,
+    "selected_ivo": 5188,
+    "candidates": {
+      "4": {
+        "ivo": 6031,
+        "fresh_decode_ms": 1,
+        "byte_exact": true,
+        "spectral_golden": true
+      },
+      "5": {
+        "ivo": 6028,
+        "fresh_decode_ms": 1,
+        "byte_exact": true,
+        "spectral_golden": true
+      },
+      "6": {
+        "ivo": 6092,
+        "fresh_decode_ms": 1,
+        "byte_exact": true,
+        "spectral_golden": true
+      },
+      "7": {
+        "ivo": 6148,
+        "fresh_decode_ms": 1,
+        "byte_exact": true,
+        "spectral_golden": true
+      },
+      "8": {
+        "ivo": 5875,
+        "fresh_decode_ms": 1,
+        "byte_exact": true,
+        "spectral_golden": true
+      },
+      "9": {
+        "ivo": 5872,
+        "fresh_decode_ms": 1,
+        "byte_exact": true,
+        "spectral_golden": true
+      },
+      "10": {
+        "ivo": 5936,
+        "fresh_decode_ms": 1,
+        "byte_exact": true,
+        "spectral_golden": true
+      },
+      "11": {
+        "ivo": 5992,
+        "fresh_decode_ms": 1,
+        "byte_exact": true,
+        "spectral_golden": true
+      }
+    }
+  },
+  {
+    "name": "l3-compl-cut.mp3",
+    "original": 192,
+    "sha256": "9f5b4baaefc5403c2b55ad5a52c8d7e812ba9e25638f8b674a0d01df6008a7c7",
+    "previous_best_ivo": 251,
+    "mp39_best_ivo": 432,
+    "mp40_best_ivo": 499,
+    "best_scheme": 9,
+    "extra_bytes": -248,
+    "selected_ivo": 251,
+    "candidates": {
+      "4": {
+        "ivo": 633,
+        "fresh_decode_ms": 0,
+        "byte_exact": true,
+        "spectral_golden": true
+      },
+      "5": {
+        "ivo": 609,
+        "fresh_decode_ms": 0,
+        "byte_exact": true,
+        "spectral_golden": true
+      },
+      "6": {
+        "ivo": 640,
+        "fresh_decode_ms": 0,
+        "byte_exact": true,
+        "spectral_golden": true
+      },
+      "7": {
+        "ivo": 729,
+        "fresh_decode_ms": 0,
+        "byte_exact": true,
+        "spectral_golden": true
+      },
+      "8": {
+        "ivo": 523,
+        "fresh_decode_ms": 0,
+        "byte_exact": true,
+        "spectral_golden": true
+      },
+      "9": {
+        "ivo": 499,
+        "fresh_decode_ms": 0,
+        "byte_exact": true,
+        "spectral_golden": true
+      },
+      "10": {
+        "ivo": 530,
+        "fresh_decode_ms": 0,
+        "byte_exact": true,
+        "spectral_golden": true
+      },
+      "11": {
+        "ivo": 619,
+        "fresh_decode_ms": 0,
+        "byte_exact": true,
+        "spectral_golden": true
+      }
+    }
+  },
+  {
+    "name": "l3-test45.bit",
+    "original": 391105,
+    "sha256": "384ccca2d558a3505bb2e7c2860e12aa3b651473ace655cda3a2c8cfb1b2fc53",
+    "previous_best_ivo": 325370,
+    "mp39_best_ivo": 325370,
+    "mp40_best_ivo": 327455,
+    "best_scheme": 11,
+    "extra_bytes": -2085,
+    "selected_ivo": 325370,
+    "candidates": {
+      "4": {
+        "ivo": 331076,
+        "fresh_decode_ms": 151,
+        "byte_exact": true,
+        "spectral_golden": true
+      },
+      "5": {
+        "ivo": 327626,
+        "fresh_decode_ms": 141,
+        "byte_exact": true,
+        "spectral_golden": true
+      },
+      "6": {
+        "ivo": 330515,
+        "fresh_decode_ms": 134,
+        "byte_exact": true,
+        "spectral_golden": true
+      },
+      "7": {
+        "ivo": 327480,
+        "fresh_decode_ms": 147,
+        "byte_exact": true,
+        "spectral_golden": true
+      },
+      "8": {
+        "ivo": 331051,
+        "fresh_decode_ms": 143,
+        "byte_exact": true,
+        "spectral_golden": true
+      },
+      "9": {
+        "ivo": 327601,
+        "fresh_decode_ms": 141,
+        "byte_exact": true,
+        "spectral_golden": true
+      },
+      "10": {
+        "ivo": 330490,
+        "fresh_decode_ms": 133,
+        "byte_exact": true,
+        "spectral_golden": true
+      },
+      "11": {
+        "ivo": 327455,
+        "fresh_decode_ms": 139,
+        "byte_exact": true,
+        "spectral_golden": true
+      }
+    }
+  },
+  {
+    "name": "l3-test46.bit",
+    "original": 130613,
+    "sha256": "c44f835c6efbfad67359aa327d78f0feaf22c443e191d68f80e6d2fefd6d8af5",
+    "previous_best_ivo": 109287,
+    "mp39_best_ivo": 109287,
+    "mp40_best_ivo": 119509,
+    "best_scheme": 8,
+    "extra_bytes": -10222,
+    "selected_ivo": 109287,
+    "candidates": {
+      "4": {
+        "ivo": 120552,
+        "fresh_decode_ms": 33,
+        "byte_exact": true,
+        "spectral_golden": true
+      },
+      "5": {
+        "ivo": 124792,
+        "fresh_decode_ms": 34,
+        "byte_exact": true,
+        "spectral_golden": true
+      },
+      "6": {
+        "ivo": 124167,
+        "fresh_decode_ms": 32,
+        "byte_exact": true,
+        "spectral_golden": true
+      },
+      "7": {
+        "ivo": 125130,
+        "fresh_decode_ms": 35,
+        "byte_exact": true,
+        "spectral_golden": true
+      },
+      "8": {
+        "ivo": 119509,
+        "fresh_decode_ms": 27,
+        "byte_exact": true,
+        "spectral_golden": true
+      },
+      "9": {
+        "ivo": 123749,
+        "fresh_decode_ms": 32,
+        "byte_exact": true,
+        "spectral_golden": true
+      },
+      "10": {
+        "ivo": 123124,
+        "fresh_decode_ms": 28,
+        "byte_exact": true,
+        "spectral_golden": true
+      },
+      "11": {
+        "ivo": 124087,
+        "fresh_decode_ms": 28,
+        "byte_exact": true,
+        "spectral_golden": true
+      }
+    }
+  },
+  {
+    "name": "noise_meandr.mp3",
+    "original": 401280,
+    "sha256": "423a97ef5b01c8253940d04bf93ee0d9508b77ef17608c69a1b3c09ae8667c0d",
+    "previous_best_ivo": 390162,
+    "mp39_best_ivo": 392987,
+    "mp40_best_ivo": 391976,
+    "best_scheme": 9,
+    "extra_bytes": -1814,
+    "selected_ivo": 390162,
+    "candidates": {
+      "4": {
+        "ivo": 397005,
+        "fresh_decode_ms": 141,
+        "byte_exact": true,
+        "spectral_golden": true
+      },
+      "5": {
+        "ivo": 392305,
+        "fresh_decode_ms": 131,
+        "byte_exact": true,
+        "spectral_golden": true
+      },
+      "6": {
+        "ivo": 399430,
+        "fresh_decode_ms": 156,
+        "byte_exact": true,
+        "spectral_golden": true
+      },
+      "7": {
+        "ivo": 392548,
+        "fresh_decode_ms": 136,
+        "byte_exact": true,
+        "spectral_golden": true
+      },
+      "8": {
+        "ivo": 396676,
+        "fresh_decode_ms": 141,
+        "byte_exact": true,
+        "spectral_golden": true
+      },
+      "9": {
+        "ivo": 391976,
+        "fresh_decode_ms": 141,
+        "byte_exact": true,
+        "spectral_golden": true
+      },
+      "10": {
+        "ivo": 399101,
+        "fresh_decode_ms": 145,
+        "byte_exact": true,
+        "spectral_golden": true
+      },
+      "11": {
+        "ivo": 392219,
+        "fresh_decode_ms": 137,
+        "byte_exact": true,
+        "spectral_golden": true
+      }
+    }
+  },
+  {
+    "name": "Tao",
+    "original": 95634889,
+    "sha256": "c6e361e833559e842390da8541480ce47096baf61b405da64d9ef10188a2f40c",
+    "previous_best_ivo": 83508548,
+    "mp39_best_ivo": 83508548,
+    "mp40_best_ivo": 82851262,
+    "best_scheme": 7,
+    "extra_bytes": 657286,
+    "selected_ivo": 82851262,
+    "candidates": {
+      "4": {
+        "ivo": 83510105,
+        "fresh_decode_ms": 29752,
+        "byte_exact": true,
+        "spectral_golden": true
+      },
+      "5": {
+        "ivo": 82909977,
+        "fresh_decode_ms": 29010,
+        "byte_exact": true,
+        "spectral_golden": true
+      },
+      "6": {
+        "ivo": 83302639,
+        "fresh_decode_ms": 30028,
+        "byte_exact": true,
+        "spectral_golden": true
+      },
+      "7": {
+        "ivo": 82851262,
+        "fresh_decode_ms": 29038,
+        "byte_exact": true,
+        "spectral_golden": true
+      },
+      "8": {
+        "ivo": 84555661,
+        "fresh_decode_ms": 29323,
+        "byte_exact": true,
+        "spectral_golden": true
+      },
+      "9": {
+        "ivo": 83955533,
+        "fresh_decode_ms": 29074,
+        "byte_exact": true,
+        "spectral_golden": true
+      },
+      "10": {
+        "ivo": 84348195,
+        "fresh_decode_ms": 29664,
+        "byte_exact": true,
+        "spectral_golden": true
+      },
+      "11": {
+        "ivo": 83896818,
+        "fresh_decode_ms": 28757,
+        "byte_exact": true,
+        "spectral_golden": true
+      }
+    }
+  }
+]

@@ -1,0 +1,514 @@
+[
+  {
+    "source": "01-25060.jpg",
+    "archive": "neighbour-b2-m5.ivo",
+    "kind": "amplitude",
+    "bytes": 169926,
+    "sha256": "5d0b5cb9ea9069ae14c2a92951ed86c0ae56c3e2598bb10ef5e3300b785f5668",
+    "exact": true
+  },
+  {
+    "source": "01-25060.jpg",
+    "archive": "neighbour-b2-m6.ivo",
+    "kind": "amplitude",
+    "bytes": 169975,
+    "sha256": "5d0b5cb9ea9069ae14c2a92951ed86c0ae56c3e2598bb10ef5e3300b785f5668",
+    "exact": true
+  },
+  {
+    "source": "01-25060.jpg",
+    "archive": "neighbour-b2-m2.ivo",
+    "kind": "v15-regression",
+    "bytes": 169955,
+    "sha256": "5d0b5cb9ea9069ae14c2a92951ed86c0ae56c3e2598bb10ef5e3300b785f5668",
+    "exact": true
+  },
+  {
+    "source": "01-25060.jpg",
+    "archive": "neighbour-b2-m3.ivo",
+    "kind": "v15-regression",
+    "bytes": 169983,
+    "sha256": "5d0b5cb9ea9069ae14c2a92951ed86c0ae56c3e2598bb10ef5e3300b785f5668",
+    "exact": true
+  },
+  {
+    "source": "01-25066.jpg",
+    "archive": "neighbour-b2-m5.ivo",
+    "kind": "amplitude",
+    "bytes": 94329,
+    "sha256": "b2b17bc5f4aaa5760688efa0d739ea5198771f3ab76c1949263146edb58abe2a",
+    "exact": true
+  },
+  {
+    "source": "01-25066.jpg",
+    "archive": "neighbour-b2-m6.ivo",
+    "kind": "amplitude",
+    "bytes": 94364,
+    "sha256": "b2b17bc5f4aaa5760688efa0d739ea5198771f3ab76c1949263146edb58abe2a",
+    "exact": true
+  },
+  {
+    "source": "01-25066.jpg",
+    "archive": "neighbour-b2-m2.ivo",
+    "kind": "v15-regression",
+    "bytes": 94356,
+    "sha256": "b2b17bc5f4aaa5760688efa0d739ea5198771f3ab76c1949263146edb58abe2a",
+    "exact": true
+  },
+  {
+    "source": "01-25066.jpg",
+    "archive": "neighbour-b2-m3.ivo",
+    "kind": "v15-regression",
+    "bytes": 94361,
+    "sha256": "b2b17bc5f4aaa5760688efa0d739ea5198771f3ab76c1949263146edb58abe2a",
+    "exact": true
+  },
+  {
+    "source": "Canon_40D.jpg",
+    "archive": "neighbour-b2-m5.ivo",
+    "kind": "amplitude",
+    "bytes": 8370,
+    "sha256": "6bfdabd4fc33d112283c147acccc574e770bbe6fbdbc3d4da968ba7b606ecc2f",
+    "exact": true
+  },
+  {
+    "source": "Canon_40D.jpg",
+    "archive": "neighbour-b2-m6.ivo",
+    "kind": "amplitude",
+    "bytes": 8371,
+    "sha256": "6bfdabd4fc33d112283c147acccc574e770bbe6fbdbc3d4da968ba7b606ecc2f",
+    "exact": true
+  },
+  {
+    "source": "Canon_40D.jpg",
+    "archive": "neighbour-b2-m2.ivo",
+    "kind": "v15-regression",
+    "bytes": 8370,
+    "sha256": "6bfdabd4fc33d112283c147acccc574e770bbe6fbdbc3d4da968ba7b606ecc2f",
+    "exact": true
+  },
+  {
+    "source": "Canon_40D.jpg",
+    "archive": "neighbour-b2-m3.ivo",
+    "kind": "v15-regression",
+    "bytes": 8371,
+    "sha256": "6bfdabd4fc33d112283c147acccc574e770bbe6fbdbc3d4da968ba7b606ecc2f",
+    "exact": true
+  },
+  {
+    "source": "Canon_DIGITAL_IXUS_400.jpg",
+    "archive": "neighbour-b2-m5.ivo",
+    "kind": "amplitude",
+    "bytes": 8073,
+    "sha256": "23c1ec51c075d6864862412d07b9d0f07e84237af68972c1d1293e4c28f73e4f",
+    "exact": true
+  },
+  {
+    "source": "Canon_DIGITAL_IXUS_400.jpg",
+    "archive": "neighbour-b2-m6.ivo",
+    "kind": "amplitude",
+    "bytes": 8073,
+    "sha256": "23c1ec51c075d6864862412d07b9d0f07e84237af68972c1d1293e4c28f73e4f",
+    "exact": true
+  },
+  {
+    "source": "Canon_DIGITAL_IXUS_400.jpg",
+    "archive": "neighbour-b2-m2.ivo",
+    "kind": "v15-regression",
+    "bytes": 8071,
+    "sha256": "23c1ec51c075d6864862412d07b9d0f07e84237af68972c1d1293e4c28f73e4f",
+    "exact": true
+  },
+  {
+    "source": "Canon_DIGITAL_IXUS_400.jpg",
+    "archive": "neighbour-b2-m3.ivo",
+    "kind": "v15-regression",
+    "bytes": 8072,
+    "sha256": "23c1ec51c075d6864862412d07b9d0f07e84237af68972c1d1293e4c28f73e4f",
+    "exact": true
+  },
+  {
+    "source": "Nikon_D70.jpg",
+    "archive": "neighbour-b2-m5.ivo",
+    "kind": "amplitude",
+    "bytes": 12515,
+    "sha256": "8e2a627b96ca71c20129161f46bda3d338407da99bd11b1055adb27af27d7ef5",
+    "exact": true
+  },
+  {
+    "source": "Nikon_D70.jpg",
+    "archive": "neighbour-b2-m6.ivo",
+    "kind": "amplitude",
+    "bytes": 12516,
+    "sha256": "8e2a627b96ca71c20129161f46bda3d338407da99bd11b1055adb27af27d7ef5",
+    "exact": true
+  },
+  {
+    "source": "Nikon_D70.jpg",
+    "archive": "neighbour-b2-m2.ivo",
+    "kind": "v15-regression",
+    "bytes": 12513,
+    "sha256": "8e2a627b96ca71c20129161f46bda3d338407da99bd11b1055adb27af27d7ef5",
+    "exact": true
+  },
+  {
+    "source": "Nikon_D70.jpg",
+    "archive": "neighbour-b2-m3.ivo",
+    "kind": "v15-regression",
+    "bytes": 12516,
+    "sha256": "8e2a627b96ca71c20129161f46bda3d338407da99bd11b1055adb27af27d7ef5",
+    "exact": true
+  },
+  {
+    "source": "Pentax_K10D.jpg",
+    "archive": "neighbour-b2-m5.ivo",
+    "kind": "amplitude",
+    "bytes": 10501,
+    "sha256": "146601c9d406410abdaa832508ee4ccddbc7ad54530e81d57962c1b7728e2e6d",
+    "exact": true
+  },
+  {
+    "source": "Pentax_K10D.jpg",
+    "archive": "neighbour-b2-m6.ivo",
+    "kind": "amplitude",
+    "bytes": 10502,
+    "sha256": "146601c9d406410abdaa832508ee4ccddbc7ad54530e81d57962c1b7728e2e6d",
+    "exact": true
+  },
+  {
+    "source": "Pentax_K10D.jpg",
+    "archive": "neighbour-b2-m2.ivo",
+    "kind": "v15-regression",
+    "bytes": 10500,
+    "sha256": "146601c9d406410abdaa832508ee4ccddbc7ad54530e81d57962c1b7728e2e6d",
+    "exact": true
+  },
+  {
+    "source": "Pentax_K10D.jpg",
+    "archive": "neighbour-b2-m3.ivo",
+    "kind": "v15-regression",
+    "bytes": 10502,
+    "sha256": "146601c9d406410abdaa832508ee4ccddbc7ad54530e81d57962c1b7728e2e6d",
+    "exact": true
+  },
+  {
+    "source": "Reconyx_HC500_Hyperfire.jpg",
+    "archive": "neighbour-b2-m5.ivo",
+    "kind": "amplitude",
+    "bytes": 366166,
+    "sha256": "d7ba6bc532a225c955411cb96c733a45ee39403fa973312bded7732e6f8e4b3c",
+    "exact": true
+  },
+  {
+    "source": "Reconyx_HC500_Hyperfire.jpg",
+    "archive": "neighbour-b2-m6.ivo",
+    "kind": "amplitude",
+    "bytes": 366779,
+    "sha256": "d7ba6bc532a225c955411cb96c733a45ee39403fa973312bded7732e6f8e4b3c",
+    "exact": true
+  },
+  {
+    "source": "Reconyx_HC500_Hyperfire.jpg",
+    "archive": "neighbour-b2-m2.ivo",
+    "kind": "v15-regression",
+    "bytes": 367074,
+    "sha256": "d7ba6bc532a225c955411cb96c733a45ee39403fa973312bded7732e6f8e4b3c",
+    "exact": true
+  },
+  {
+    "source": "Reconyx_HC500_Hyperfire.jpg",
+    "archive": "neighbour-b2-m3.ivo",
+    "kind": "v15-regression",
+    "bytes": 366697,
+    "sha256": "d7ba6bc532a225c955411cb96c733a45ee39403fa973312bded7732e6f8e4b3c",
+    "exact": true
+  },
+  {
+    "source": "Samsung_Digimax_i50_MP3.jpg",
+    "archive": "neighbour-b2-m5.ivo",
+    "kind": "amplitude",
+    "bytes": 43901,
+    "sha256": "e61da5ee8d7ba1726bd0a887216ed5ae7ca38c97fcf7aac11b808e1c269e1722",
+    "exact": true
+  },
+  {
+    "source": "Samsung_Digimax_i50_MP3.jpg",
+    "archive": "neighbour-b2-m6.ivo",
+    "kind": "amplitude",
+    "bytes": 43901,
+    "sha256": "e61da5ee8d7ba1726bd0a887216ed5ae7ca38c97fcf7aac11b808e1c269e1722",
+    "exact": true
+  },
+  {
+    "source": "Samsung_Digimax_i50_MP3.jpg",
+    "archive": "neighbour-b2-m2.ivo",
+    "kind": "v15-regression",
+    "bytes": 43903,
+    "sha256": "e61da5ee8d7ba1726bd0a887216ed5ae7ca38c97fcf7aac11b808e1c269e1722",
+    "exact": true
+  },
+  {
+    "source": "Samsung_Digimax_i50_MP3.jpg",
+    "archive": "neighbour-b2-m3.ivo",
+    "kind": "v15-regression",
+    "bytes": 43902,
+    "sha256": "e61da5ee8d7ba1726bd0a887216ed5ae7ca38c97fcf7aac11b808e1c269e1722",
+    "exact": true
+  },
+  {
+    "source": "fixture-0.jpg",
+    "archive": "neighbour-b2-m5.ivo",
+    "kind": "amplitude",
+    "bytes": 491,
+    "sha256": "fd4168c059bccb6371ed9b64f96f90601bb8169709b93dae0a3e941e73861789",
+    "exact": true
+  },
+  {
+    "source": "fixture-0.jpg",
+    "archive": "neighbour-b2-m6.ivo",
+    "kind": "amplitude",
+    "bytes": 490,
+    "sha256": "fd4168c059bccb6371ed9b64f96f90601bb8169709b93dae0a3e941e73861789",
+    "exact": true
+  },
+  {
+    "source": "fixture-0.jpg",
+    "archive": "neighbour-b2-m2.ivo",
+    "kind": "v15-regression",
+    "bytes": 490,
+    "sha256": "fd4168c059bccb6371ed9b64f96f90601bb8169709b93dae0a3e941e73861789",
+    "exact": true
+  },
+  {
+    "source": "fixture-0.jpg",
+    "archive": "neighbour-b2-m3.ivo",
+    "kind": "v15-regression",
+    "bytes": 490,
+    "sha256": "fd4168c059bccb6371ed9b64f96f90601bb8169709b93dae0a3e941e73861789",
+    "exact": true
+  },
+  {
+    "source": "fixture-1.jpg",
+    "archive": "neighbour-b2-m5.ivo",
+    "kind": "amplitude",
+    "bytes": 509,
+    "sha256": "8656dca5cdd5db601750bc91ad9ea45af32905e69b95d57ccbd26b09848860cb",
+    "exact": true
+  },
+  {
+    "source": "fixture-1.jpg",
+    "archive": "neighbour-b2-m6.ivo",
+    "kind": "amplitude",
+    "bytes": 509,
+    "sha256": "8656dca5cdd5db601750bc91ad9ea45af32905e69b95d57ccbd26b09848860cb",
+    "exact": true
+  },
+  {
+    "source": "fixture-1.jpg",
+    "archive": "neighbour-b2-m2.ivo",
+    "kind": "v15-regression",
+    "bytes": 509,
+    "sha256": "8656dca5cdd5db601750bc91ad9ea45af32905e69b95d57ccbd26b09848860cb",
+    "exact": true
+  },
+  {
+    "source": "fixture-1.jpg",
+    "archive": "neighbour-b2-m3.ivo",
+    "kind": "v15-regression",
+    "bytes": 509,
+    "sha256": "8656dca5cdd5db601750bc91ad9ea45af32905e69b95d57ccbd26b09848860cb",
+    "exact": true
+  },
+  {
+    "source": "fixture-2.jpg",
+    "archive": "neighbour-b2-m5.ivo",
+    "kind": "amplitude",
+    "bytes": 938,
+    "sha256": "2bceac200fa29db746eca48baf107bcd70a6e9567a1787fe570200797caca53b",
+    "exact": true
+  },
+  {
+    "source": "fixture-2.jpg",
+    "archive": "neighbour-b2-m6.ivo",
+    "kind": "amplitude",
+    "bytes": 939,
+    "sha256": "2bceac200fa29db746eca48baf107bcd70a6e9567a1787fe570200797caca53b",
+    "exact": true
+  },
+  {
+    "source": "fixture-2.jpg",
+    "archive": "neighbour-b2-m2.ivo",
+    "kind": "v15-regression",
+    "bytes": 941,
+    "sha256": "2bceac200fa29db746eca48baf107bcd70a6e9567a1787fe570200797caca53b",
+    "exact": true
+  },
+  {
+    "source": "fixture-2.jpg",
+    "archive": "neighbour-b2-m3.ivo",
+    "kind": "v15-regression",
+    "bytes": 941,
+    "sha256": "2bceac200fa29db746eca48baf107bcd70a6e9567a1787fe570200797caca53b",
+    "exact": true
+  },
+  {
+    "source": "fixture-3.jpg",
+    "archive": "neighbour-b2-m5.ivo",
+    "kind": "amplitude",
+    "bytes": 3233,
+    "sha256": "d993d8c7092b7dae859ffce117484c5afa6676a13f8dfffb275f885c1435eae5",
+    "exact": true
+  },
+  {
+    "source": "fixture-3.jpg",
+    "archive": "neighbour-b2-m6.ivo",
+    "kind": "amplitude",
+    "bytes": 3233,
+    "sha256": "d993d8c7092b7dae859ffce117484c5afa6676a13f8dfffb275f885c1435eae5",
+    "exact": true
+  },
+  {
+    "source": "fixture-3.jpg",
+    "archive": "neighbour-b2-m2.ivo",
+    "kind": "v15-regression",
+    "bytes": 3233,
+    "sha256": "d993d8c7092b7dae859ffce117484c5afa6676a13f8dfffb275f885c1435eae5",
+    "exact": true
+  },
+  {
+    "source": "fixture-3.jpg",
+    "archive": "neighbour-b2-m3.ivo",
+    "kind": "v15-regression",
+    "bytes": 3233,
+    "sha256": "d993d8c7092b7dae859ffce117484c5afa6676a13f8dfffb275f885c1435eae5",
+    "exact": true
+  },
+  {
+    "source": "hdr_canon_hdr_NO.jpg",
+    "archive": "neighbour-b2-m5.ivo",
+    "kind": "amplitude",
+    "bytes": 664401,
+    "sha256": "fa2127ebab1b3930c998ab262795044262f41dda7eaf0f7a21a773cff48c8696",
+    "exact": true
+  },
+  {
+    "source": "hdr_canon_hdr_NO.jpg",
+    "archive": "neighbour-b2-m6.ivo",
+    "kind": "amplitude",
+    "bytes": 665448,
+    "sha256": "fa2127ebab1b3930c998ab262795044262f41dda7eaf0f7a21a773cff48c8696",
+    "exact": true
+  },
+  {
+    "source": "hdr_canon_hdr_NO.jpg",
+    "archive": "neighbour-b2-m2.ivo",
+    "kind": "v15-regression",
+    "bytes": 666870,
+    "sha256": "fa2127ebab1b3930c998ab262795044262f41dda7eaf0f7a21a773cff48c8696",
+    "exact": true
+  },
+  {
+    "source": "hdr_canon_hdr_NO.jpg",
+    "archive": "neighbour-b2-m3.ivo",
+    "kind": "v15-regression",
+    "bytes": 665479,
+    "sha256": "fa2127ebab1b3930c998ab262795044262f41dda7eaf0f7a21a773cff48c8696",
+    "exact": true
+  },
+  {
+    "source": "hdr_iphone_hdr_NO.jpg",
+    "archive": "neighbour-b2-m5.ivo",
+    "kind": "amplitude",
+    "bytes": 1575113,
+    "sha256": "eb81d33a9b1d1bea5d133483f918c2cc927161c0dda44c9fedfa4da87c8b1cc3",
+    "exact": true
+  },
+  {
+    "source": "hdr_iphone_hdr_NO.jpg",
+    "archive": "neighbour-b2-m6.ivo",
+    "kind": "amplitude",
+    "bytes": 1577879,
+    "sha256": "eb81d33a9b1d1bea5d133483f918c2cc927161c0dda44c9fedfa4da87c8b1cc3",
+    "exact": true
+  },
+  {
+    "source": "hdr_iphone_hdr_NO.jpg",
+    "archive": "neighbour-b2-m2.ivo",
+    "kind": "v15-regression",
+    "bytes": 1582156,
+    "sha256": "eb81d33a9b1d1bea5d133483f918c2cc927161c0dda44c9fedfa4da87c8b1cc3",
+    "exact": true
+  },
+  {
+    "source": "hdr_iphone_hdr_NO.jpg",
+    "archive": "neighbour-b2-m3.ivo",
+    "kind": "v15-regression",
+    "bytes": 1578126,
+    "sha256": "eb81d33a9b1d1bea5d133483f918c2cc927161c0dda44c9fedfa4da87c8b1cc3",
+    "exact": true
+  },
+  {
+    "source": "hdr_iphone_hdr_YES.jpg",
+    "archive": "neighbour-b2-m5.ivo",
+    "kind": "amplitude",
+    "bytes": 1594612,
+    "sha256": "5125870f6f4a94a2329bc9f53482680772d3277399aed71c2f0636cb07870533",
+    "exact": true
+  },
+  {
+    "source": "hdr_iphone_hdr_YES.jpg",
+    "archive": "neighbour-b2-m6.ivo",
+    "kind": "amplitude",
+    "bytes": 1597358,
+    "sha256": "5125870f6f4a94a2329bc9f53482680772d3277399aed71c2f0636cb07870533",
+    "exact": true
+  },
+  {
+    "source": "hdr_iphone_hdr_YES.jpg",
+    "archive": "neighbour-b2-m2.ivo",
+    "kind": "v15-regression",
+    "bytes": 1601408,
+    "sha256": "5125870f6f4a94a2329bc9f53482680772d3277399aed71c2f0636cb07870533",
+    "exact": true
+  },
+  {
+    "source": "hdr_iphone_hdr_YES.jpg",
+    "archive": "neighbour-b2-m3.ivo",
+    "kind": "v15-regression",
+    "bytes": 1597608,
+    "sha256": "5125870f6f4a94a2329bc9f53482680772d3277399aed71c2f0636cb07870533",
+    "exact": true
+  },
+  {
+    "source": "mobile_jolla.jpg",
+    "archive": "neighbour-b2-m5.ivo",
+    "kind": "amplitude",
+    "bytes": 649550,
+    "sha256": "ee6bc1200cf8b1b26f5b60d8294d9617e8099f6dfdd7a4757a424f332360f5e3",
+    "exact": true
+  },
+  {
+    "source": "mobile_jolla.jpg",
+    "archive": "neighbour-b2-m6.ivo",
+    "kind": "amplitude",
+    "bytes": 651233,
+    "sha256": "ee6bc1200cf8b1b26f5b60d8294d9617e8099f6dfdd7a4757a424f332360f5e3",
+    "exact": true
+  },
+  {
+    "source": "mobile_jolla.jpg",
+    "archive": "neighbour-b2-m2.ivo",
+    "kind": "v15-regression",
+    "bytes": 653517,
+    "sha256": "ee6bc1200cf8b1b26f5b60d8294d9617e8099f6dfdd7a4757a424f332360f5e3",
+    "exact": true
+  },
+  {
+    "source": "mobile_jolla.jpg",
+    "archive": "neighbour-b2-m3.ivo",
+    "kind": "v15-regression",
+    "bytes": 651569,
+    "sha256": "ee6bc1200cf8b1b26f5b60d8294d9617e8099f6dfdd7a4757a424f332360f5e3",
+    "exact": true
+  }
+]

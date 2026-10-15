@@ -1,0 +1,13 @@
+slices modeled=709 raw=0 | modeled NAL bytes=5065804 header bytes=2049 tail bytes=5311 | skeleton=361839
+model bytes by group: skip=25203 mbtype=80342 mvd=196096 ref=0 intra/chroma/t8=64632 cbp=165977 qpdelta=37459 cbf=418951 sig=1359452 last=504277 abs=668973 bypass=896311 term=38
+meta(deflated)=359929 (raw 378291) payload=4417711
+/workspace/scratch/9c62166e5fd0/integration-inputs/VID-20260930-WA0003.mp4: 5,427,643 -> 4,777,717 bytes (88.03%), engine=USER_MP4_CABAC_RESEARCH
+Engine                         valid   payload       IVO       ms  note
+STORE                          true    5,427,643 5,427,713       16  verbatim
+N&C contextuel                 true    6,073,528 6,073,598     6380  PPM-like sparse contexts, order<=4
+REF + N&C                      true    6,068,934 6,069,004     7754  REF minMatch=8 then N&C; REF size=5424707
+MP4 V1 (boîtes + cordes exactes) true    5,418,477 5,418,547    21285  top-level ISO-BMFF layout + four exact cords
+MP4 V2 (échantillons + cordes exactes) true    5,418,223 5,418,293    21527  sample map + video/audio/other/gap exact cords
+MP4 V3 (échantillons + NAL exacts) true    5,415,793 5,415,863    20925  sample map + reversible NAL length/header/payload cords
+User MP4 frozen-model research true    4,777,647 4,777,717    52911  frozen profile; exactness checked by Router
+Written: /tmp/ivo-v25-whatsapp.ivo

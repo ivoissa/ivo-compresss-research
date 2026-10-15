@@ -1,0 +1,3 @@
+CSV file,mode,original,baseline,candidate,retained,scans,progressive_scans,blocks,symbols,correction_bits,coefficient_hash,exact
+CSV is-progressive_kitten-progressive.jpg,0,83845,83831,81892,81892,10,10,88064,147643,84780,3255823658a62942,true
+CSV is-progressive_kitten-progressive.jpg,1,83845,83831,81702,81702,10,10,88064,147643,84780,3255823658a62942,true

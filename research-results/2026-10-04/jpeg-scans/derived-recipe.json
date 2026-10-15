@@ -1,0 +1,10 @@
+{
+  "tool": "Pillow",
+  "version": "12.3.0",
+  "parameters": {
+    "quality": 85,
+    "progressive": true,
+    "restart_marker_blocks": 7
+  },
+  "note": "Derived from external images; not independent holdouts. Multiscans use GenerateScanFixtures and the same hopper coefficients."
+}

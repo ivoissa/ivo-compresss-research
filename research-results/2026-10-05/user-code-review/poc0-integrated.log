@@ -1,0 +1,7 @@
+RESULT kind=MP4 original=27245 payload=26663 ivo=26716 whole_file_exact=true elapsed_ms=217
+slice fallback: cabac mismatch
+slice fallback: weighted
+slice fallback: slice type 1
+slices modeled=0 raw=30 | modeled NAL bytes=0 header bytes=0 tail bytes=0 | skeleton=27245
+model bytes by group: skip=0 mbtype=0 mvd=0 ref=0 intra/chroma/t8=0 cbp=0 qpdelta=0 cbf=0 sig=0 last=0 abs=0 bypass=0 term=0
+meta(deflated)=26655 (raw 27280) payload=1

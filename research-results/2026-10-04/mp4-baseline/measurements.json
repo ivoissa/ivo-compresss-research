@@ -1,0 +1,30 @@
+[
+  {
+    "name": "detail-h264.mp4",
+    "origin": "synthetic",
+    "original": 17203,
+    "ivo": 16704,
+    "fresh_cli_byte_exact": true
+  },
+  {
+    "name": "smooth-h264.mp4",
+    "origin": "synthetic",
+    "original": 2143,
+    "ivo": 1318,
+    "fresh_cli_byte_exact": true
+  },
+  {
+    "name": "whatsapp-fragmented-excerpt.mp4",
+    "origin": "remuxed real excerpt",
+    "original": 389896,
+    "ivo": 388552,
+    "fresh_cli_byte_exact": true
+  },
+  {
+    "name": "VID-20260930-WA0003.mp4",
+    "origin": "user original",
+    "original": 5427643,
+    "ivo": 5415863,
+    "fresh_cli_byte_exact": true
+  }
+]

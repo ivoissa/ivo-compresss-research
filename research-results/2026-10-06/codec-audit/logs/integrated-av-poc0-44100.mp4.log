@@ -1,0 +1,9 @@
+supports=false
+INTEGRATED file=av-poc0-44100.mp4 raw=59073 archive=57210 winner=MP4_V1
+
+slice fallback: slice type 1
+slice fallback: slice type 1
+slice fallback: cabac mismatch
+slices modeled=8 raw=37 | modeled NAL bytes=8189 header bytes=46 tail bytes=0 | skeleton=50884
+model bytes by group: skip=40 mbtype=94 mvd=276 ref=77 intra/chroma/t8=177 cbp=152 qpdelta=132 cbf=449 sig=1608 last=644 abs=2852 bypass=1564 term=0
+meta(deflated)=49147 (raw 51027) payload=8065

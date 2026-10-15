@@ -1,0 +1,23 @@
+RESULT kind=MP4 file=poc0.mp4 raw=27245 candidate_payload=26665 candidate_container_size=26716 exact=true baseline_payload=26663 same_payload=false reference_best=26611 winner=MP4_V3 new_ms=333 old_ms=189 error= old_error=
+
+STDERR
+no audio: no audio track
+slice fallback: cabac mismatch
+slice fallback: weighted
+slice fallback: slice type 1
+slices modeled=0 raw=30 | modeled NAL bytes=0 header bytes=0 tail bytes=0 | skeleton=27245
+audio frames modeled=0 raw=0 bytes=0 -> 1
+model bytes by group: skip=0 mbtype=0 mvd=0 ref=0 intra/chroma/t8=0 cbp=0 qpdelta=0 cbf=0 sig=0 last=0 abs=0 bypass=0 term=0
+meta(deflated)=26655 (raw 27280) payload=1 audio=1
+slice fallback: cabac mismatch
+slice fallback: weighted
+slice fallback: slice type 1
+slices modeled=0 raw=30 | modeled NAL bytes=0 header bytes=0 tail bytes=0 | skeleton=27245
+model bytes by group: skip=0 mbtype=0 mvd=0 ref=0 intra/chroma/t8=0 cbp=0 qpdelta=0 cbf=0 sig=0 last=0 abs=0 bypass=0 term=0
+meta(deflated)=26655 (raw 27280) payload=1
+slice fallback: cabac mismatch
+slice fallback: weighted
+slice fallback: slice type 1
+slices modeled=0 raw=30 | modeled NAL bytes=0 header bytes=0 tail bytes=0 | skeleton=27245
+model bytes by group: skip=0 mbtype=0 mvd=0 ref=0 intra/chroma/t8=0 cbp=0 qpdelta=0 cbf=0 sig=0 last=0 abs=0 bypass=0 term=0
+meta(deflated)=26655 (raw 27280) payload=1

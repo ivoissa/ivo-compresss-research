@@ -1,0 +1,132 @@
+[
+  {
+    "path": "Canon_40D.jpg",
+    "original": 7958,
+    "sha256": "6bfdabd4fc33d112283c147acccc574e770bbe6fbdbc3d4da968ba7b606ecc2f"
+  },
+  {
+    "path": "Canon_40D_photoshop_import.jpg",
+    "original": 9686,
+    "sha256": "40a7aa2cc28d8544b31408e6d54c568e6b749a8faf239c7a6234b315e953b9d5"
+  },
+  {
+    "path": "Canon_DIGITAL_IXUS_400.jpg",
+    "original": 9198,
+    "sha256": "23c1ec51c075d6864862412d07b9d0f07e84237af68972c1d1293e4c28f73e4f"
+  },
+  {
+    "path": "Fujifilm_FinePix6900ZOOM.jpg",
+    "original": 4278,
+    "sha256": "40afc753b4e83d72cfa1080ae7a10310e0fcbb9e4f6ebdf32c7b2f1553c83fe3"
+  },
+  {
+    "path": "Fujifilm_FinePix_E500.jpg",
+    "original": 2241,
+    "sha256": "ffbee7b07bf267dc0fb52817f8866df647758f7d48ac93e7a73d1914fb4c74da"
+  },
+  {
+    "path": "Kodak_CX7530.jpg",
+    "original": 5958,
+    "sha256": "ac759931999a215ef78469a82bdfc382ccba96eb8d039ec9e81e53a9a419d35e"
+  },
+  {
+    "path": "Konica_Minolta_DiMAGE_Z3.jpg",
+    "original": 36971,
+    "sha256": "b1b914f47528384e6252fa7caabb489f123b88c81ebd62ecb8eacdf64c46fd5e"
+  },
+  {
+    "path": "Nikon_COOLPIX_P1.jpg",
+    "original": 7068,
+    "sha256": "896b47424dc1c87154a50b40394ae887a0b0d7d830f38a9d969295995f27ef43"
+  },
+  {
+    "path": "Nikon_D70.jpg",
+    "original": 14034,
+    "sha256": "8e2a627b96ca71c20129161f46bda3d338407da99bd11b1055adb27af27d7ef5"
+  },
+  {
+    "path": "Olympus_C8080WZ.jpg",
+    "original": 3224,
+    "sha256": "3495de26279d8d1e442177ba43cef855438e3b321481b9ee2ff513decb13ed9c"
+  },
+  {
+    "path": "PaintTool_sample.jpg",
+    "original": 5738,
+    "sha256": "45e3aa44357a4b05d78b3fc51d0732be0ddf5a544b732b0134778b146380291a"
+  },
+  {
+    "path": "Panasonic_DMC-FZ30.jpg",
+    "original": 10769,
+    "sha256": "c092a4ade7ae7b63ac13d50c3dc9da51ce2fb465caf7d1b6193d4c53f59e8ad8"
+  },
+  {
+    "path": "Pentax_K10D.jpg",
+    "original": 12077,
+    "sha256": "146601c9d406410abdaa832508ee4ccddbc7ad54530e81d57962c1b7728e2e6d"
+  },
+  {
+    "path": "Reconyx_HC500_Hyperfire.jpg",
+    "original": 425890,
+    "sha256": "d7ba6bc532a225c955411cb96c733a45ee39403fa973312bded7732e6f8e4b3c"
+  },
+  {
+    "path": "Ricoh_Caplio_RR330.jpg",
+    "original": 3662,
+    "sha256": "e920d750c491f3088eeb0f31fb4659164755af11e4bbbe269430f32c3ae10928"
+  },
+  {
+    "path": "Samsung_Digimax_i50_MP3.jpg",
+    "original": 45286,
+    "sha256": "e61da5ee8d7ba1726bd0a887216ed5ae7ca38c97fcf7aac11b808e1c269e1722"
+  },
+  {
+    "path": "Sony_HDR-HC3.jpg",
+    "original": 3565,
+    "sha256": "4f707d9b40d423a5246748bc1e05b66c4b87e30863f7a51ce18904a7ec43a39e"
+  },
+  {
+    "path": "WWL_(Polaroid)_ION230.jpg",
+    "original": 3998,
+    "sha256": "27532bdce8a2ad2afc1e392f4d24105867eec0b1ba126b01b3e398100daab664"
+  },
+  {
+    "path": "long_description.jpg",
+    "original": 7585,
+    "sha256": "1a6e4a1b7fab604027cbb52b6cde75f6966c8b9a2eb3ea0fba5e1bf59605a339"
+  },
+  {
+    "path": "hdr/canon_hdr_NO.jpg",
+    "original": 784371,
+    "sha256": "fa2127ebab1b3930c998ab262795044262f41dda7eaf0f7a21a773cff48c8696"
+  },
+  {
+    "path": "hdr/canon_hdr_YES.jpg",
+    "original": 722875,
+    "sha256": "30603e14619140acaea51bee6fecab4a72956d1aa570e20f5b9b3d9271b8bdf4"
+  },
+  {
+    "path": "hdr/iphone_hdr_NO.jpg",
+    "original": 1957448,
+    "sha256": "eb81d33a9b1d1bea5d133483f918c2cc927161c0dda44c9fedfa4da87c8b1cc3"
+  },
+  {
+    "path": "hdr/iphone_hdr_YES.jpg",
+    "original": 1976579,
+    "sha256": "5125870f6f4a94a2329bc9f53482680772d3277399aed71c2f0636cb07870533"
+  },
+  {
+    "path": "mobile/HMD_Nokia_8.3_5G.jpg",
+    "original": 2190194,
+    "sha256": "9be023624ccd5846beeb5b02d9b571251ef5bd8ed820389a430d114029f58eda"
+  },
+  {
+    "path": "mobile/HMD_Nokia_8.3_5G_hdr.jpg",
+    "original": 5168013,
+    "sha256": "b150f64e631b0df0f70cdbb88ddcbb73c5536fcb840ace8d0e71f8d58d997bc1"
+  },
+  {
+    "path": "mobile/jolla.jpg",
+    "original": 811904,
+    "sha256": "ee6bc1200cf8b1b26f5b60d8294d9617e8099f6dfdd7a4757a424f332360f5e3"
+  }
+]

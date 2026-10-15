@@ -1,0 +1,9 @@
+/workspace/scratch/9c62166e5fd0/recap/ivo-java-complet-2026-10-04/research-results/2026-10-05/jpeg-progressive-mixer/summary.json: 862 -> 554 bytes (64.27%), engine=NC_CONTEXT
+Engine                         valid   payload       IVO       ms  note
+STORE                          true          862       917        1  verbatim
+N&C contextuel                 true          499       554        7  PPM-like sparse contexts, order<=4
+REF + N&C                      true          593       648        9  REF minMatch=8 then N&C; REF size=696
+JSON token streams + N&C       true          584       639        2  exact lexical JSON stream split
+Written: /workspace/scratch/9c62166e5fd0/recap/ivo-java-complet-2026-10-04/research-results/2026-10-05/compact-mixer/encodings/progressive-report/compact.ivo
+Restored 862 bytes with SHA-256 verification: /tmp/ivo-v29-progressive-report-v28
+Restored 862 bytes with SHA-256 verification: /tmp/ivo-v29-progressive-report-compact

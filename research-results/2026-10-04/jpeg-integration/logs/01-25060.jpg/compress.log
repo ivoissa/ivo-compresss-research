@@ -1,0 +1,9 @@
+upload/01-25060.jpg: 204,196 -> 169,080 bytes (82.80%), engine=JPEG_NEIGHBOUR_RESEARCH
+Engine                         valid   payload       IVO       ms  note
+STORE                          true      204,196   204,253        4  verbatim
+N&C contextuel                 true      250,364   250,421      428  PPM-like sparse contexts, order<=4
+REF + N&C                      true      248,835   248,892      378  REF minMatch=8 then N&C; REF size=194625
+JPEG oracle exact (structure/scans) true      204,086   204,143      424  JPEG exact; segments=12; scans=1; progressive=false; meta=857; entropy=203339; modes=[0, 2, 0]
+JPEG frozen portfolio (ABC, spatial, directional, similarity) true      171,411   171,468     5303  DCT coefficients + exact entropy patch
+JPEG boundary portfolio (physical + presence control) true      169,023   169,080     2135  Causal AC category/presence; mode=9; exact entropy patch
+Written: /tmp/ivo-jpeg-integration-results/01-25060.jpg/automatic.ivo

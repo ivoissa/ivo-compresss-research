@@ -1,0 +1,94 @@
+install prefix            /usr/local
+source path               .
+C compiler                gcc
+C library                 glibc
+ARCH                      x86 (generic)
+big-endian                no
+runtime cpu detection     yes
+standalone assembly       no
+x86 assembler             nasm
+MMX enabled               yes
+MMXEXT enabled            yes
+3DNow! enabled            yes
+3DNow! extended enabled   yes
+SSE enabled               yes
+SSSE3 enabled             yes
+AESNI enabled             yes
+AVX enabled               yes
+AVX2 enabled              yes
+AVX-512 enabled           yes
+AVX-512ICL enabled        yes
+XOP enabled               yes
+FMA3 enabled              yes
+FMA4 enabled              yes
+i686 features enabled     yes
+CMOV is fast              yes
+EBX available             yes
+EBP available             yes
+debug symbols             yes
+strip symbols             yes
+optimize for size         no
+optimizations             yes
+static                    yes
+shared                    no
+postprocessing support    no
+network support           no
+threading support         pthreads
+safe bitstream reader     yes
+texi2html enabled         no
+perl enabled              yes
+pod2man enabled           yes
+makeinfo enabled          no
+makeinfo supports HTML    no
+xmllint enabled           no
+
+External libraries:
+iconv                   zlib
+
+External libraries providing hardware acceleration:
+v4l2_m2m
+
+Libraries:
+avcodec                 avformat                swscale
+avdevice                avutil
+avfilter                swresample
+
+Programs:
+ffmpeg
+
+Enabled decoders:
+h264
+
+Enabled encoders:
+wrapped_avframe
+
+Enabled hwaccels:
+
+Enabled parsers:
+h264
+
+Enabled demuxers:
+h264
+
+Enabled muxers:
+null
+
+Enabled protocols:
+file
+
+Enabled filters:
+aformat                 format                  transpose
+anull                   hflip                   trim
+atrim                   null                    vflip
+
+Enabled bsfs:
+
+Enabled indevs:
+
+Enabled outdevs:
+
+License: LGPL version 2.1 or later
+
+WARNING: Option --enable-filter=buffer did not match anything
+WARNING: Option --enable-filter=buffersink did not match anything
+WARNING: pkg-config not found, library detection may fail.

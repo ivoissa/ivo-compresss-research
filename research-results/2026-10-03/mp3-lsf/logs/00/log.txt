@@ -1,0 +1,7 @@
+INPUT /tmp/ivo-minimp3/vectors/performance/MEANDR_PHASE0.mp3 bytes=4001280 sha=55d7dd3b6cbdb82e5eae523e23f155040a13ce0be159140e93de590efdce7b0c store=4001344
+SIDE_PORTFOLIO direct=85242 transposed=76574 selected=true
+BASE v1=3903351 v3=3894684 exact=true
+MAIN_SPLIT mode=1 used_raw=3841823 unused_raw=1073 coded=3809471
+RESULT mode=1 ivo=3894506 delta_vs_v3=-178 exact=true
+MAIN_SPLIT mode=2 used_raw=3840016 unused_raw=2881 coded=3807623
+RESULT mode=2 ivo=3892658 delta_vs_v3=-2026 exact=true

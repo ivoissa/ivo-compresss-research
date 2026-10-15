@@ -1,0 +1,2 @@
+PASS frames=10 skip_flags=144 skip_ones=144 termination_flags=144 terminal_ones=9 longest_skip_run=16 mismatches=0 external_reference=FFmpeg_mb_type prefix=true
+NOT_DONE: remaining macroblocks, CABAC encoder, byte-exact CABAC roundtrip, new compression measurement

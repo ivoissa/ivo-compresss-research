@@ -1,0 +1,26 @@
+{
+  "version": 26,
+  "new_profiles": [
+    11,
+    12,
+    13,
+    14,
+    15,
+    16
+  ],
+  "default_compression_changed": false,
+  "enhanced_cli_includes_mixed_jpeg": true,
+  "baseline": "unchanged ordinary automatic portfolio, including JPEG boundary modes 9/10",
+  "natural_files": 6,
+  "development_fixtures": 4,
+  "progressive_inputs_excluded": 2,
+  "fresh_process_exact_candidate_archives": 60,
+  "natural_original_bytes": 1358504,
+  "natural_reference_ivo_bytes": 1151289,
+  "natural_winner_ivo_bytes": 1127853,
+  "additional_gain_bytes": 23436,
+  "additional_gain_percent": 2.0356313662338477,
+  "gain_over_original_percent": 16.978308492282686,
+  "extra_after_profile_freeze_gain_bytes": 1729,
+  "scope": "sequential baseline JPEG only; finite profile portfolio; no general compression percentage claim"
+}

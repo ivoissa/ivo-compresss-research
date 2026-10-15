@@ -1,0 +1,62 @@
+[
+  {
+    "archive": "spectral-s0.ivo",
+    "original": 17180,
+    "ivo": 16046,
+    "fresh_cli_byte_exact": true
+  },
+  {
+    "archive": "spectral-s2.ivo",
+    "original": 17180,
+    "ivo": 14956,
+    "fresh_cli_byte_exact": true
+  },
+  {
+    "archive": "context-s10.ivo",
+    "original": 17180,
+    "ivo": 15061,
+    "fresh_cli_byte_exact": true
+  },
+  {
+    "archive": "context-s11.ivo",
+    "original": 17180,
+    "ivo": 15139,
+    "fresh_cli_byte_exact": true
+  },
+  {
+    "archive": "context-s4.ivo",
+    "original": 17180,
+    "ivo": 15052,
+    "fresh_cli_byte_exact": true
+  },
+  {
+    "archive": "context-s5.ivo",
+    "original": 17180,
+    "ivo": 15015,
+    "fresh_cli_byte_exact": true
+  },
+  {
+    "archive": "context-s6.ivo",
+    "original": 17180,
+    "ivo": 15063,
+    "fresh_cli_byte_exact": true
+  },
+  {
+    "archive": "context-s7.ivo",
+    "original": 17180,
+    "ivo": 15141,
+    "fresh_cli_byte_exact": true
+  },
+  {
+    "archive": "context-s8.ivo",
+    "original": 17180,
+    "ivo": 15050,
+    "fresh_cli_byte_exact": true
+  },
+  {
+    "archive": "context-s9.ivo",
+    "original": 17180,
+    "ivo": 15013,
+    "fresh_cli_byte_exact": true
+  }
+]

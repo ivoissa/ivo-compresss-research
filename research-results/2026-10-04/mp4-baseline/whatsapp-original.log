@@ -1,0 +1,9 @@
+integration-inputs/VID-20260930-WA0003.mp4: 5,427,643 -> 5,415,863 bytes (99.78%), engine=MP4_V3
+Engine                         valid   payload       IVO       ms  note
+STORE                          true    5,427,643 5,427,713       14  verbatim
+N&C contextuel                 true    6,073,528 6,073,598     5700  PPM-like sparse contexts, order<=4
+REF + N&C                      true    6,068,934 6,069,004     6701  REF minMatch=8 then N&C; REF size=5424707
+MP4 V1 (boîtes + cordes exactes) true    5,418,477 5,418,547    17810  top-level ISO-BMFF layout + four exact cords
+MP4 V2 (échantillons + cordes exactes) true    5,418,223 5,418,293    17237  sample map + video/audio/other/gap exact cords
+MP4 V3 (échantillons + NAL exacts) true    5,415,793 5,415,863    17300  sample map + reversible NAL length/header/payload cords
+Written: /tmp/ivo-mp4-baseline.ivo

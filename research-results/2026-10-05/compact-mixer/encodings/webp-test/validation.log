@@ -1,0 +1,32 @@
+  zero/EOB(nd0): 423 bytes
+  nd1: 635 bytes
+  nd2: 502 bytes
+  nd3-5: 494 bytes
+  nd6-15: 349 bytes
+  sign: 582 bytes
+  modes: 290 bytes
+meta(deflated)=55 payload=3544
+/workspace/scratch/9c62166e5fd0/recap/ivo-java-complet-2026-10-04/research-results/2026-10-05/user-code-review/small-cases/test.webp: 3,932 -> 3,656 bytes (92.98%), engine=USER_WEBP_RESEARCH
+Engine                         valid   payload       IVO       ms  note
+STORE                          true        3,932     3,984        1  verbatim
+N&C contextuel                 true        5,434     5,486       22  PPM-like sparse contexts, order<=4
+REF + N&C                      true        5,441     5,493       34  REF minMatch=8 then N&C; REF size=3937
+User WEBP frozen-model research true        3,604     3,656      298  frozen profile; exactness checked by Router
+Written: /workspace/scratch/9c62166e5fd0/recap/ivo-java-complet-2026-10-04/research-results/2026-10-05/compact-mixer/encodings/webp-test/fast.ivo
+  zero/EOB(nd0): 423 bytes
+  nd1: 635 bytes
+  nd2: 502 bytes
+  nd3-5: 494 bytes
+  nd6-15: 349 bytes
+  sign: 582 bytes
+  modes: 290 bytes
+meta(deflated)=55 payload=3544
+/workspace/scratch/9c62166e5fd0/recap/ivo-java-complet-2026-10-04/research-results/2026-10-05/user-code-review/small-cases/test.webp: 3,932 -> 3,656 bytes (92.98%), engine=USER_WEBP_RESEARCH
+Engine                         valid   payload       IVO       ms  note
+STORE                          true        3,932     3,984        1  verbatim
+N&C contextuel                 true        5,434     5,486       19  PPM-like sparse contexts, order<=4
+REF + N&C                      true        5,441     5,493       21  REF minMatch=8 then N&C; REF size=3937
+User WEBP frozen-model research true        3,604     3,656      296  frozen profile; exactness checked by Router
+Written: /workspace/scratch/9c62166e5fd0/recap/ivo-java-complet-2026-10-04/research-results/2026-10-05/compact-mixer/encodings/webp-test/compact.ivo
+Restored 3,932 bytes with SHA-256 verification: /tmp/ivo-v29-webp-test-v28
+Restored 3,932 bytes with SHA-256 verification: /tmp/ivo-v29-webp-test-compact

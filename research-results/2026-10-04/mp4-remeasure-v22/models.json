@@ -1,0 +1,13 @@
+{
+  "src/main/java/io/ivo/mp4/Mp4NalTypesDecoder.java": "4b222402de765ca0853c317c5d92fea4bffe5f7952d0603da393086695eb5bb2",
+  "src/main/java/io/ivo/mp4/Mp4SliceDecoder.java": "809f5213bda759b933396a0ce22b4bca48cffd41fadb9e29828cdffe893932a6",
+  "src/main/java/io/ivo/mp4/Mp4V0Experiment.java": "a5e6cfa1e1376823948bcfae767ef54a34d6210d58711561cdd8a85b12b62813",
+  "src/main/java/io/ivo/mp4/Mp4V1Engine.java": "ff5fcf15cda1a58fd04386fff962657ba75bd14513170e8f55c2736a37ca0d3a",
+  "src/main/java/io/ivo/mp4/Mp4V2Engine.java": "8f7d567d9bb86968ae7018abe0c7e2ac2adc11cf6bab5924133830afd48a06b5",
+  "src/main/java/io/ivo/mp4/Mp4V3Engine.java": "bfd98a2ba49114b047930b1c2f5b3de1d2dfaf407c611b2568689ee3073fb7f3",
+  "src/main/java/io/ivo/mp4/Mp4V4Engine.java": "b2dcc142ecc080a245ce3a4fca85e49cff5770a41201ad098b8d372a3c486cc1",
+  "src/main/java/io/ivo/mp4/Mp4VideoBodyDecoder.java": "6bb4d5e27fe37a439ad0f75a396870befdba0abdc278933bafb5d59a643511c2",
+  "src/main/java/io/ivo/mp4/NalTypeCodec.java": "9da9583581b906556f94dd03ac4921662b3546f87f65833944ceabbb2a5c5bf2",
+  "src/main/java/io/ivo/mp4/SliceHeaderCodec.java": "bb42f470856dd40ce476ba67f7753260d242ca537361f3b651bda2f543418ebd",
+  "src/main/java/io/ivo/mp4/VideoBodyCodec.java": "583c37c41a773c070f7a4d5243fffe3770209960f6cfb12a475ea4a24a66550d"
+}

@@ -1,0 +1,53 @@
+ALL SELF TESTS OK
+DEFLATE EXACT OK: 1750 reconstructions; 9 malformed/truncated rejected; stored/fixed/dynamic/multiblock covered
+Built target/ivo-0.8.0-research.jar and target/ivo-research-1.5.0.jar
+PASS 24 known-offset side-info cases, offset cases and 5 rejection cases
+SIDE_MODEL predictor=0 field_cords_complete=true
+SIDE_MODEL predictor=1 field_cords_complete=true
+SIDE_MODEL predictor=2 field_cords_complete=true
+PASS residual bijection pairs=22369620; mixed geometry frames=48; exact profiles=4; malformed profiles rejected=8
+BLOCK_SIDE scheme=0 coded=540 exact=true
+BLOCK_SIDE scheme=1 coded=638 exact=true
+BLOCK_SIDE scheme=2 coded=1341 exact=true
+PASS block context schemes=3; mixed geometry frames=90; context classes=5; malformed cases=6
+MAIN_LANES scheme=0 raw_cord_bytes=[63, 64, 1074] coded=1209 exact=true
+MAIN_LANES scheme=1 raw_cord_bytes=[59, 68, 1074] coded=1209 exact=true
+MAIN_LANES scheme=2 raw_cord_bytes=[31, 28, 32, 36, 1074] coded=1213 exact=true
+MAIN_LANES scheme=3 raw_cord_bytes=[67, 68, 1074] coded=1217 exact=true
+MAIN_LANES scheme=4 raw_cord_bytes=[63, 72, 1074] coded=1217 exact=true
+MAIN_LANES scheme=5 raw_cord_bytes=[33, 30, 34, 38, 1074] coded=1221 exact=true
+MAIN_LANES scheme=0 raw_cord_bytes=[59, 0, 1142] coded=1209 exact=true
+MAIN_LANES scheme=1 raw_cord_bytes=[31, 28, 1142] coded=1209 exact=true
+MAIN_LANES scheme=2 raw_cord_bytes=[31, 0, 28, 0, 1142] coded=1213 exact=true
+MAIN_LANES scheme=3 raw_cord_bytes=[63, 0, 1142] coded=1213 exact=true
+MAIN_LANES scheme=4 raw_cord_bytes=[33, 30, 1142] coded=1213 exact=true
+MAIN_LANES scheme=5 raw_cord_bytes=[33, 0, 30, 0, 1142] coded=1217 exact=true
+MAIN_LANES scheme=0 raw_cord_bytes=[31, 28, 1142] coded=1209 exact=true
+MAIN_LANES scheme=1 raw_cord_bytes=[59, 0, 1142] coded=1209 exact=true
+MAIN_LANES scheme=2 raw_cord_bytes=[31, 28, 0, 0, 1142] coded=1213 exact=true
+MAIN_LANES scheme=3 raw_cord_bytes=[33, 30, 1142] coded=1213 exact=true
+MAIN_LANES scheme=4 raw_cord_bytes=[63, 0, 1142] coded=1213 exact=true
+MAIN_LANES scheme=5 raw_cord_bytes=[33, 30, 0, 0, 1142] coded=1217 exact=true
+MAIN_LANES scheme=0 raw_cord_bytes=[31, 0, 1170] coded=1209 exact=true
+MAIN_LANES scheme=1 raw_cord_bytes=[31, 0, 1170] coded=1209 exact=true
+MAIN_LANES scheme=2 raw_cord_bytes=[31, 0, 0, 0, 1170] coded=1213 exact=true
+MAIN_LANES scheme=3 raw_cord_bytes=[33, 0, 1170] coded=1211 exact=true
+MAIN_LANES scheme=4 raw_cord_bytes=[33, 0, 1170] coded=1211 exact=true
+MAIN_LANES scheme=5 raw_cord_bytes=[33, 0, 0, 0, 1170] coded=1215 exact=true
+MAIN_LANES scheme=0 raw_cord_bytes=[31, 28, 1142] coded=1209 exact=true
+MAIN_LANES scheme=1 raw_cord_bytes=[59, 0, 1142] coded=1209 exact=true
+MAIN_LANES scheme=2 raw_cord_bytes=[31, 28, 0, 0, 1142] coded=1213 exact=true
+MAIN_LANES scheme=3 raw_cord_bytes=[33, 30, 1142] coded=1213 exact=true
+MAIN_LANES scheme=4 raw_cord_bytes=[63, 0, 1142] coded=1213 exact=true
+MAIN_LANES scheme=5 raw_cord_bytes=[33, 30, 0, 0, 1142] coded=1217 exact=true
+MAIN_LANES scheme=0 raw_cord_bytes=[31, 0, 1170] coded=1209 exact=true
+MAIN_LANES scheme=1 raw_cord_bytes=[31, 0, 1170] coded=1209 exact=true
+MAIN_LANES scheme=2 raw_cord_bytes=[31, 0, 0, 0, 1170] coded=1213 exact=true
+MAIN_LANES scheme=3 raw_cord_bytes=[33, 0, 1170] coded=1211 exact=true
+MAIN_LANES scheme=4 raw_cord_bytes=[33, 0, 1170] coded=1211 exact=true
+MAIN_LANES scheme=5 raw_cord_bytes=[33, 0, 0, 0, 1170] coded=1215 exact=true
+PASS granule cases=36; 6 geometries; 6 schemes; reservoir back-references; zero/non-byte-aligned parts; padding and malformed cases
+PASS tables=30 exact_pair_cases=99260; values, sign and linbits; no MP3 compression claim
+PASS spectral pairs=99260 quads=162 known_scalefactor_cases=7 malformed_rejections=165 exact_integer_and_bits=true
+PASS coders=5 cross_block=true malformed=4 spectral_differential_reconstructions=0
+PASS global_gain_known_offsets=16

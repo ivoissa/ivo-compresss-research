@@ -1,0 +1,9 @@
+/tmp/ivo-jpeg-amplitude-heldout/mobile_HMD_Nokia_8.3_5G.jpg: 2,190,194 -> 1,757,227 bytes (80.23%), engine=JPEG_NEIGHBOUR_RESEARCH
+Engine                         valid   payload       IVO       ms  note
+STORE                          true    2,190,194 2,190,268       11  verbatim
+N&C contextuel                 true    2,415,841 2,415,915     2508  PPM-like sparse contexts, order<=4
+REF + N&C                      true    2,416,031 2,416,105     2705  REF minMatch=8 then N&C; REF size=2190531
+JPEG oracle exact (structure/scans) true    2,190,057 2,190,131     2807  JPEG exact; segments=12; scans=1; progressive=false; meta=1189; entropy=2189005; modes=[1, 1, 0]
+JPEG frozen portfolio (ABC, spatial, directional, similarity) true    1,840,349 1,840,422    37768  DCT coefficients + exact entropy patch
+JPEG boundary portfolio (physical + presence control) true    1,757,154 1,757,227    18891  Causal AC category/presence; mode=9; exact entropy patch
+Written: /tmp/ivo-jpeg-integration-results/mobile_HMD_Nokia_8.3_5G.jpg/automatic.ivo

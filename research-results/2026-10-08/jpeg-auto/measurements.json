@@ -1,0 +1,61 @@
+{
+  "source_bytes": 597558,
+  "width": 1536,
+  "height": 1152,
+  "jpeg_progressive": false,
+  "source_sha256": "15476ee34ae786f94bac6477bb0a86836d3ed779c1b2b2eebc45adb35c62b7a7",
+  "java": "OpenJDK 17.0.20",
+  "heap": "64 MiB initial / 2 GiB max for comparison",
+  "platform": "Linux-6.18.44-x86_64-with-glibc2.39",
+  "rows": [
+    {
+      "mode": "STANDARD",
+      "bytes": 519596,
+      "compression_ms": 17066.918,
+      "decompression_ms": 886.635,
+      "repeat": 0
+    },
+    {
+      "mode": "FAST",
+      "bytes": 505582,
+      "compression_ms": 19971.402,
+      "decompression_ms": 1125.204,
+      "repeat": 0
+    },
+    {
+      "mode": "AUTO",
+      "bytes": 505582,
+      "compression_ms": 7473.376,
+      "decompression_ms": 1207.578,
+      "repeat": 0
+    },
+    {
+      "mode": "AUTO",
+      "bytes": 505582,
+      "compression_ms": 6761.029,
+      "decompression_ms": 1118.517,
+      "repeat": 1
+    },
+    {
+      "mode": "AUTO",
+      "bytes": 505582,
+      "compression_ms": 6855.941,
+      "decompression_ms": 1113.68,
+      "repeat": 2
+    },
+    {
+      "mode": "AUTO",
+      "bytes": 505582,
+      "compression_ms": 7100.891,
+      "decompression_ms": 1088.213,
+      "repeat": 3
+    },
+    {
+      "mode": "ENHANCED",
+      "bytes": 505582,
+      "compression_ms": 38350.786,
+      "same_archive_as_auto": true,
+      "repeat": 0
+    }
+  ]
+}

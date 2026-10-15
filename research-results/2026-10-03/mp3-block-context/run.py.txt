@@ -1,0 +1,12 @@
+import pathlib,subprocess,concurrent.futures,json,hashlib
+root=pathlib.Path('trials/mp3-block-context');rows=json.loads(pathlib.Path('trials/mp3-side/measurements.json').read_text());cp='trials/mp3-block-context/classes:trials/mp3-bounded/classes:ivo-mp3-side-fields-2026-10-03/target/classes'
+def run(r):
+ i=r['index'];dest=root/'results'/i;dest.mkdir(exist_ok=True);input=pathlib.Path('trials/mp3-side/inputs')/i/pathlib.Path(r['path']).name
+ if hashlib.sha256(input.read_bytes()).hexdigest()!=r['sha256']:raise AssertionError('Input changed')
+ if r['delta']<0:base=pathlib.Path('trials/mp3-side/results')/i/f'side-p{r["side_profile"]}.ivo'
+ else:base=pathlib.Path(json.loads((pathlib.Path('trials/mp3-side/results')/i/'base.json').read_text())['seed'])
+ (dest/'base.json').write_text(json.dumps(dict(reference_best=r['selected_best'],seed=str(base),sha256=r['sha256']),indent=2))
+ p=subprocess.run(['java','-Xmx1024m','-cp',cp,'io.ivo.mp3.BlockMeasure',str(input),str(base),str(dest)],capture_output=True,text=True)
+ (dest/'log.txt').write_text(p.stdout+p.stderr);print(i,p.returncode,p.stdout[-650:],flush=True)
+ if p.returncode:raise RuntimeError(p.stderr)
+with concurrent.futures.ThreadPoolExecutor(max_workers=2) as pool:list(pool.map(run,rows))

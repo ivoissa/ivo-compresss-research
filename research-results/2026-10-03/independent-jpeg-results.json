@@ -1,0 +1,548 @@
+[
+  {
+    "file": "Canon_40D.jpg",
+    "variant": "direction",
+    "bytes": 8390,
+    "original": 7958,
+    "log": "file,bytes,blocks,dc_jpeg_bytes,var_chain,var_median,cat_chain,cat_left,cat_gradient,cat_median,best_cat\nV61BENCH Canon_40D.jpg original=7958 ivo=8390 gain=-5.4285% enc_ms=161.094 dec_ms=27.097 exact=true\n"
+  },
+  {
+    "file": "Canon_40D.jpg",
+    "variant": "A-quality",
+    "bytes": 8388,
+    "original": 7958,
+    "log": "file,bytes,blocks,dc_jpeg_bytes,var_chain,var_median,cat_chain,cat_left,cat_gradient,cat_median,best_cat\nV61BENCH Canon_40D.jpg original=7958 ivo=8388 gain=-5.4034% enc_ms=179.579 dec_ms=29.994 exact=true\n"
+  },
+  {
+    "file": "Canon_40D.jpg",
+    "variant": "A-quality-B",
+    "bytes": 8396,
+    "original": 7958,
+    "log": "file,bytes,blocks,dc_jpeg_bytes,var_chain,var_median,cat_chain,cat_left,cat_gradient,cat_median,best_cat\nV61BENCH Canon_40D.jpg original=7958 ivo=8396 gain=-5.5039% enc_ms=136.114 dec_ms=21.196 exact=true\n"
+  },
+  {
+    "file": "Canon_40D_photoshop_import.jpg",
+    "variant": "direction",
+    "bytes": 9957,
+    "original": 9686,
+    "log": "file,bytes,blocks,dc_jpeg_bytes,var_chain,var_median,cat_chain,cat_left,cat_gradient,cat_median,best_cat\nV61BENCH Canon_40D_photoshop_import.jpg original=9686 ivo=9957 gain=-2.7979% enc_ms=168.299 dec_ms=23.203 exact=true\n"
+  },
+  {
+    "file": "Canon_40D_photoshop_import.jpg",
+    "variant": "A-quality",
+    "bytes": 9956,
+    "original": 9686,
+    "log": "file,bytes,blocks,dc_jpeg_bytes,var_chain,var_median,cat_chain,cat_left,cat_gradient,cat_median,best_cat\nV61BENCH Canon_40D_photoshop_import.jpg original=9686 ivo=9956 gain=-2.7875% enc_ms=136.730 dec_ms=25.823 exact=true\n"
+  },
+  {
+    "file": "Canon_40D_photoshop_import.jpg",
+    "variant": "A-quality-B",
+    "bytes": 9966,
+    "original": 9686,
+    "log": "file,bytes,blocks,dc_jpeg_bytes,var_chain,var_median,cat_chain,cat_left,cat_gradient,cat_median,best_cat\nV61BENCH Canon_40D_photoshop_import.jpg original=9686 ivo=9966 gain=-2.8908% enc_ms=200.163 dec_ms=23.653 exact=true\n"
+  },
+  {
+    "file": "Canon_DIGITAL_IXUS_400.jpg",
+    "variant": "direction",
+    "bytes": 8096,
+    "original": 9198,
+    "log": "file,bytes,blocks,dc_jpeg_bytes,var_chain,var_median,cat_chain,cat_left,cat_gradient,cat_median,best_cat\nV61BENCH Canon_DIGITAL_IXUS_400.jpg original=9198 ivo=8096 gain=11.9809% enc_ms=133.862 dec_ms=42.710 exact=true\n"
+  },
+  {
+    "file": "Canon_DIGITAL_IXUS_400.jpg",
+    "variant": "A-quality",
+    "bytes": 8096,
+    "original": 9198,
+    "log": "file,bytes,blocks,dc_jpeg_bytes,var_chain,var_median,cat_chain,cat_left,cat_gradient,cat_median,best_cat\nV61BENCH Canon_DIGITAL_IXUS_400.jpg original=9198 ivo=8096 gain=11.9809% enc_ms=163.016 dec_ms=52.101 exact=true\n"
+  },
+  {
+    "file": "Canon_DIGITAL_IXUS_400.jpg",
+    "variant": "A-quality-B",
+    "bytes": 8109,
+    "original": 9198,
+    "log": "file,bytes,blocks,dc_jpeg_bytes,var_chain,var_median,cat_chain,cat_left,cat_gradient,cat_median,best_cat\nV61BENCH Canon_DIGITAL_IXUS_400.jpg original=9198 ivo=8109 gain=11.8395% enc_ms=172.616 dec_ms=41.964 exact=true\n"
+  },
+  {
+    "file": "Fujifilm_FinePix6900ZOOM.jpg",
+    "variant": "direction",
+    "bytes": 4577,
+    "original": 4278,
+    "log": "file,bytes,blocks,dc_jpeg_bytes,var_chain,var_median,cat_chain,cat_left,cat_gradient,cat_median,best_cat\nV61BENCH Fujifilm_FinePix6900ZOOM.jpg original=4278 ivo=4577 gain=-6.9892% enc_ms=120.589 dec_ms=27.960 exact=true\n"
+  },
+  {
+    "file": "Fujifilm_FinePix6900ZOOM.jpg",
+    "variant": "A-quality",
+    "bytes": 4575,
+    "original": 4278,
+    "log": "file,bytes,blocks,dc_jpeg_bytes,var_chain,var_median,cat_chain,cat_left,cat_gradient,cat_median,best_cat\nV61BENCH Fujifilm_FinePix6900ZOOM.jpg original=4278 ivo=4575 gain=-6.9425% enc_ms=104.519 dec_ms=22.840 exact=true\n"
+  },
+  {
+    "file": "Fujifilm_FinePix6900ZOOM.jpg",
+    "variant": "A-quality-B",
+    "bytes": 4581,
+    "original": 4278,
+    "log": "file,bytes,blocks,dc_jpeg_bytes,var_chain,var_median,cat_chain,cat_left,cat_gradient,cat_median,best_cat\nV61BENCH Fujifilm_FinePix6900ZOOM.jpg original=4278 ivo=4581 gain=-7.0827% enc_ms=95.696 dec_ms=17.425 exact=true\n"
+  },
+  {
+    "file": "Fujifilm_FinePix_E500.jpg",
+    "variant": "direction",
+    "bytes": 2248,
+    "original": 2241,
+    "log": "file,bytes,blocks,dc_jpeg_bytes,var_chain,var_median,cat_chain,cat_left,cat_gradient,cat_median,best_cat\nV61BENCH Fujifilm_FinePix_E500.jpg original=2241 ivo=2248 gain=-0.3124% enc_ms=83.538 dec_ms=14.088 exact=true\n"
+  },
+  {
+    "file": "Fujifilm_FinePix_E500.jpg",
+    "variant": "A-quality",
+    "bytes": 2247,
+    "original": 2241,
+    "log": "file,bytes,blocks,dc_jpeg_bytes,var_chain,var_median,cat_chain,cat_left,cat_gradient,cat_median,best_cat\nV61BENCH Fujifilm_FinePix_E500.jpg original=2241 ivo=2247 gain=-0.2677% enc_ms=105.706 dec_ms=15.765 exact=true\n"
+  },
+  {
+    "file": "Fujifilm_FinePix_E500.jpg",
+    "variant": "A-quality-B",
+    "bytes": 2249,
+    "original": 2241,
+    "log": "file,bytes,blocks,dc_jpeg_bytes,var_chain,var_median,cat_chain,cat_left,cat_gradient,cat_median,best_cat\nV61BENCH Fujifilm_FinePix_E500.jpg original=2241 ivo=2249 gain=-0.3570% enc_ms=75.457 dec_ms=12.905 exact=true\n"
+  },
+  {
+    "file": "Kodak_CX7530.jpg",
+    "variant": "direction",
+    "bytes": 6399,
+    "original": 5958,
+    "log": "file,bytes,blocks,dc_jpeg_bytes,var_chain,var_median,cat_chain,cat_left,cat_gradient,cat_median,best_cat\nV61BENCH Kodak_CX7530.jpg original=5958 ivo=6399 gain=-7.4018% enc_ms=116.887 dec_ms=28.902 exact=true\n"
+  },
+  {
+    "file": "Kodak_CX7530.jpg",
+    "variant": "A-quality",
+    "bytes": 6400,
+    "original": 5958,
+    "log": "file,bytes,blocks,dc_jpeg_bytes,var_chain,var_median,cat_chain,cat_left,cat_gradient,cat_median,best_cat\nV61BENCH Kodak_CX7530.jpg original=5958 ivo=6400 gain=-7.4186% enc_ms=125.709 dec_ms=29.643 exact=true\n"
+  },
+  {
+    "file": "Kodak_CX7530.jpg",
+    "variant": "A-quality-B",
+    "bytes": 6412,
+    "original": 5958,
+    "log": "file,bytes,blocks,dc_jpeg_bytes,var_chain,var_median,cat_chain,cat_left,cat_gradient,cat_median,best_cat\nV61BENCH Kodak_CX7530.jpg original=5958 ivo=6412 gain=-7.6200% enc_ms=143.733 dec_ms=33.631 exact=true\n"
+  },
+  {
+    "file": "Konica_Minolta_DiMAGE_Z3.jpg",
+    "variant": "direction",
+    "bytes": 11366,
+    "original": 36971,
+    "log": "file,bytes,blocks,dc_jpeg_bytes,var_chain,var_median,cat_chain,cat_left,cat_gradient,cat_median,best_cat\nV61BENCH Konica_Minolta_DiMAGE_Z3.jpg original=36971 ivo=11366 gain=69.2570% enc_ms=153.801 dec_ms=33.349 exact=true\n"
+  },
+  {
+    "file": "Konica_Minolta_DiMAGE_Z3.jpg",
+    "variant": "A-quality",
+    "bytes": 11367,
+    "original": 36971,
+    "log": "file,bytes,blocks,dc_jpeg_bytes,var_chain,var_median,cat_chain,cat_left,cat_gradient,cat_median,best_cat\nV61BENCH Konica_Minolta_DiMAGE_Z3.jpg original=36971 ivo=11367 gain=69.2543% enc_ms=181.636 dec_ms=29.299 exact=true\n"
+  },
+  {
+    "file": "Konica_Minolta_DiMAGE_Z3.jpg",
+    "variant": "A-quality-B",
+    "bytes": 11370,
+    "original": 36971,
+    "log": "file,bytes,blocks,dc_jpeg_bytes,var_chain,var_median,cat_chain,cat_left,cat_gradient,cat_median,best_cat\nV61BENCH Konica_Minolta_DiMAGE_Z3.jpg original=36971 ivo=11370 gain=69.2462% enc_ms=151.665 dec_ms=30.555 exact=true\n"
+  },
+  {
+    "file": "Nikon_COOLPIX_P1.jpg",
+    "variant": "direction",
+    "bytes": 6300,
+    "original": 7068,
+    "log": "file,bytes,blocks,dc_jpeg_bytes,var_chain,var_median,cat_chain,cat_left,cat_gradient,cat_median,best_cat\nV61BENCH Nikon_COOLPIX_P1.jpg original=7068 ivo=6300 gain=10.8659% enc_ms=111.892 dec_ms=31.845 exact=true\n"
+  },
+  {
+    "file": "Nikon_COOLPIX_P1.jpg",
+    "variant": "A-quality",
+    "bytes": 6300,
+    "original": 7068,
+    "log": "file,bytes,blocks,dc_jpeg_bytes,var_chain,var_median,cat_chain,cat_left,cat_gradient,cat_median,best_cat\nV61BENCH Nikon_COOLPIX_P1.jpg original=7068 ivo=6300 gain=10.8659% enc_ms=126.633 dec_ms=30.544 exact=true\n"
+  },
+  {
+    "file": "Nikon_COOLPIX_P1.jpg",
+    "variant": "A-quality-B",
+    "bytes": 6309,
+    "original": 7068,
+    "log": "file,bytes,blocks,dc_jpeg_bytes,var_chain,var_median,cat_chain,cat_left,cat_gradient,cat_median,best_cat\nV61BENCH Nikon_COOLPIX_P1.jpg original=7068 ivo=6309 gain=10.7385% enc_ms=111.997 dec_ms=28.099 exact=true\n"
+  },
+  {
+    "file": "Nikon_D70.jpg",
+    "variant": "direction",
+    "bytes": 12550,
+    "original": 14034,
+    "log": "file,bytes,blocks,dc_jpeg_bytes,var_chain,var_median,cat_chain,cat_left,cat_gradient,cat_median,best_cat\nV61BENCH Nikon_D70.jpg original=14034 ivo=12550 gain=10.5743% enc_ms=186.594 dec_ms=35.667 exact=true\n"
+  },
+  {
+    "file": "Nikon_D70.jpg",
+    "variant": "A-quality",
+    "bytes": 12550,
+    "original": 14034,
+    "log": "file,bytes,blocks,dc_jpeg_bytes,var_chain,var_median,cat_chain,cat_left,cat_gradient,cat_median,best_cat\nV61BENCH Nikon_D70.jpg original=14034 ivo=12550 gain=10.5743% enc_ms=174.196 dec_ms=33.626 exact=true\n"
+  },
+  {
+    "file": "Nikon_D70.jpg",
+    "variant": "A-quality-B",
+    "bytes": 12562,
+    "original": 14034,
+    "log": "file,bytes,blocks,dc_jpeg_bytes,var_chain,var_median,cat_chain,cat_left,cat_gradient,cat_median,best_cat\nV61BENCH Nikon_D70.jpg original=14034 ivo=12562 gain=10.4888% enc_ms=172.877 dec_ms=53.901 exact=true\n"
+  },
+  {
+    "file": "Olympus_C8080WZ.jpg",
+    "variant": "direction",
+    "bytes": 3361,
+    "original": 3224,
+    "log": "file,bytes,blocks,dc_jpeg_bytes,var_chain,var_median,cat_chain,cat_left,cat_gradient,cat_median,best_cat\nV61BENCH Olympus_C8080WZ.jpg original=3224 ivo=3361 gain=-4.2494% enc_ms=83.474 dec_ms=13.875 exact=true\n"
+  },
+  {
+    "file": "Olympus_C8080WZ.jpg",
+    "variant": "A-quality",
+    "bytes": 3359,
+    "original": 3224,
+    "log": "file,bytes,blocks,dc_jpeg_bytes,var_chain,var_median,cat_chain,cat_left,cat_gradient,cat_median,best_cat\nV61BENCH Olympus_C8080WZ.jpg original=3224 ivo=3359 gain=-4.1873% enc_ms=81.225 dec_ms=15.673 exact=true\n"
+  },
+  {
+    "file": "Olympus_C8080WZ.jpg",
+    "variant": "A-quality-B",
+    "bytes": 3363,
+    "original": 3224,
+    "log": "file,bytes,blocks,dc_jpeg_bytes,var_chain,var_median,cat_chain,cat_left,cat_gradient,cat_median,best_cat\nV61BENCH Olympus_C8080WZ.jpg original=3224 ivo=3363 gain=-4.3114% enc_ms=87.064 dec_ms=15.950 exact=true\n"
+  },
+  {
+    "file": "PaintTool_sample.jpg",
+    "variant": "direction",
+    "bytes": 6211,
+    "original": 5738,
+    "log": "file,bytes,blocks,dc_jpeg_bytes,var_chain,var_median,cat_chain,cat_left,cat_gradient,cat_median,best_cat\nV61BENCH PaintTool_sample.jpg original=5738 ivo=6211 gain=-8.2433% enc_ms=102.766 dec_ms=23.908 exact=true\n"
+  },
+  {
+    "file": "PaintTool_sample.jpg",
+    "variant": "A-quality",
+    "bytes": 6213,
+    "original": 5738,
+    "log": "file,bytes,blocks,dc_jpeg_bytes,var_chain,var_median,cat_chain,cat_left,cat_gradient,cat_median,best_cat\nV61BENCH PaintTool_sample.jpg original=5738 ivo=6213 gain=-8.2781% enc_ms=116.924 dec_ms=24.528 exact=true\n"
+  },
+  {
+    "file": "PaintTool_sample.jpg",
+    "variant": "A-quality-B",
+    "bytes": 6221,
+    "original": 5738,
+    "log": "file,bytes,blocks,dc_jpeg_bytes,var_chain,var_median,cat_chain,cat_left,cat_gradient,cat_median,best_cat\nV61BENCH PaintTool_sample.jpg original=5738 ivo=6221 gain=-8.4176% enc_ms=130.518 dec_ms=34.155 exact=true\n"
+  },
+  {
+    "file": "Panasonic_DMC-FZ30.jpg",
+    "variant": "direction",
+    "bytes": 8859,
+    "original": 10769,
+    "log": "file,bytes,blocks,dc_jpeg_bytes,var_chain,var_median,cat_chain,cat_left,cat_gradient,cat_median,best_cat\nV61BENCH Panasonic_DMC-FZ30.jpg original=10769 ivo=8859 gain=17.7361% enc_ms=145.591 dec_ms=26.477 exact=true\n"
+  },
+  {
+    "file": "Panasonic_DMC-FZ30.jpg",
+    "variant": "A-quality",
+    "bytes": 8860,
+    "original": 10769,
+    "log": "file,bytes,blocks,dc_jpeg_bytes,var_chain,var_median,cat_chain,cat_left,cat_gradient,cat_median,best_cat\nV61BENCH Panasonic_DMC-FZ30.jpg original=10769 ivo=8860 gain=17.7268% enc_ms=119.729 dec_ms=30.277 exact=true\n"
+  },
+  {
+    "file": "Panasonic_DMC-FZ30.jpg",
+    "variant": "A-quality-B",
+    "bytes": 8864,
+    "original": 10769,
+    "log": "file,bytes,blocks,dc_jpeg_bytes,var_chain,var_median,cat_chain,cat_left,cat_gradient,cat_median,best_cat\nV61BENCH Panasonic_DMC-FZ30.jpg original=10769 ivo=8864 gain=17.6897% enc_ms=111.800 dec_ms=33.836 exact=true\n"
+  },
+  {
+    "file": "Pentax_K10D.jpg",
+    "variant": "direction",
+    "bytes": 10518,
+    "original": 12077,
+    "log": "file,bytes,blocks,dc_jpeg_bytes,var_chain,var_median,cat_chain,cat_left,cat_gradient,cat_median,best_cat\nV61BENCH Pentax_K10D.jpg original=12077 ivo=10518 gain=12.9088% enc_ms=105.972 dec_ms=46.506 exact=true\n"
+  },
+  {
+    "file": "Pentax_K10D.jpg",
+    "variant": "A-quality",
+    "bytes": 10516,
+    "original": 12077,
+    "log": "file,bytes,blocks,dc_jpeg_bytes,var_chain,var_median,cat_chain,cat_left,cat_gradient,cat_median,best_cat\nV61BENCH Pentax_K10D.jpg original=12077 ivo=10516 gain=12.9254% enc_ms=158.659 dec_ms=48.324 exact=true\n"
+  },
+  {
+    "file": "Pentax_K10D.jpg",
+    "variant": "A-quality-B",
+    "bytes": 10528,
+    "original": 12077,
+    "log": "file,bytes,blocks,dc_jpeg_bytes,var_chain,var_median,cat_chain,cat_left,cat_gradient,cat_median,best_cat\nV61BENCH Pentax_K10D.jpg original=12077 ivo=10528 gain=12.8260% enc_ms=133.460 dec_ms=30.951 exact=true\n"
+  },
+  {
+    "file": "Reconyx_HC500_Hyperfire.jpg",
+    "variant": "direction",
+    "bytes": 380453,
+    "original": 425890,
+    "log": "file,bytes,blocks,dc_jpeg_bytes,var_chain,var_median,cat_chain,cat_left,cat_gradient,cat_median,best_cat\nV61BENCH Reconyx_HC500_Hyperfire.jpg original=425890 ivo=380453 gain=10.6687% enc_ms=1262.745 dec_ms=744.552 exact=true\n"
+  },
+  {
+    "file": "Reconyx_HC500_Hyperfire.jpg",
+    "variant": "A-quality",
+    "bytes": 379231,
+    "original": 425890,
+    "log": "file,bytes,blocks,dc_jpeg_bytes,var_chain,var_median,cat_chain,cat_left,cat_gradient,cat_median,best_cat\nV61BENCH Reconyx_HC500_Hyperfire.jpg original=425890 ivo=379231 gain=10.9556% enc_ms=1471.334 dec_ms=933.455 exact=true\n"
+  },
+  {
+    "file": "Reconyx_HC500_Hyperfire.jpg",
+    "variant": "A-quality-B",
+    "bytes": 379020,
+    "original": 425890,
+    "log": "file,bytes,blocks,dc_jpeg_bytes,var_chain,var_median,cat_chain,cat_left,cat_gradient,cat_median,best_cat\nV61BENCH Reconyx_HC500_Hyperfire.jpg original=425890 ivo=379020 gain=11.0052% enc_ms=1696.908 dec_ms=958.995 exact=true\n"
+  },
+  {
+    "file": "Ricoh_Caplio_RR330.jpg",
+    "variant": "direction",
+    "bytes": 4021,
+    "original": 3662,
+    "log": "file,bytes,blocks,dc_jpeg_bytes,var_chain,var_median,cat_chain,cat_left,cat_gradient,cat_median,best_cat\nV61BENCH Ricoh_Caplio_RR330.jpg original=3662 ivo=4021 gain=-9.8034% enc_ms=88.683 dec_ms=15.849 exact=true\n"
+  },
+  {
+    "file": "Ricoh_Caplio_RR330.jpg",
+    "variant": "A-quality",
+    "bytes": 4020,
+    "original": 3662,
+    "log": "file,bytes,blocks,dc_jpeg_bytes,var_chain,var_median,cat_chain,cat_left,cat_gradient,cat_median,best_cat\nV61BENCH Ricoh_Caplio_RR330.jpg original=3662 ivo=4020 gain=-9.7761% enc_ms=107.904 dec_ms=18.769 exact=true\n"
+  },
+  {
+    "file": "Ricoh_Caplio_RR330.jpg",
+    "variant": "A-quality-B",
+    "bytes": 4024,
+    "original": 3662,
+    "log": "file,bytes,blocks,dc_jpeg_bytes,var_chain,var_median,cat_chain,cat_left,cat_gradient,cat_median,best_cat\nV61BENCH Ricoh_Caplio_RR330.jpg original=3662 ivo=4024 gain=-9.8853% enc_ms=101.831 dec_ms=24.709 exact=true\n"
+  },
+  {
+    "file": "Samsung_Digimax_i50_MP3.jpg",
+    "variant": "direction",
+    "bytes": 43920,
+    "original": 45286,
+    "log": "file,bytes,blocks,dc_jpeg_bytes,var_chain,var_median,cat_chain,cat_left,cat_gradient,cat_median,best_cat\nV61BENCH Samsung_Digimax_i50_MP3.jpg original=45286 ivo=43920 gain=3.0164% enc_ms=190.915 dec_ms=112.026 exact=true\n"
+  },
+  {
+    "file": "Samsung_Digimax_i50_MP3.jpg",
+    "variant": "A-quality",
+    "bytes": 43922,
+    "original": 45286,
+    "log": "file,bytes,blocks,dc_jpeg_bytes,var_chain,var_median,cat_chain,cat_left,cat_gradient,cat_median,best_cat\nV61BENCH Samsung_Digimax_i50_MP3.jpg original=45286 ivo=43922 gain=3.0120% enc_ms=235.792 dec_ms=85.760 exact=true\n"
+  },
+  {
+    "file": "Samsung_Digimax_i50_MP3.jpg",
+    "variant": "A-quality-B",
+    "bytes": 43926,
+    "original": 45286,
+    "log": "file,bytes,blocks,dc_jpeg_bytes,var_chain,var_median,cat_chain,cat_left,cat_gradient,cat_median,best_cat\nV61BENCH Samsung_Digimax_i50_MP3.jpg original=45286 ivo=43926 gain=3.0031% enc_ms=220.627 dec_ms=111.667 exact=true\n"
+  },
+  {
+    "file": "Sony_HDR-HC3.jpg",
+    "variant": "direction",
+    "bytes": 3768,
+    "original": 3565,
+    "log": "file,bytes,blocks,dc_jpeg_bytes,var_chain,var_median,cat_chain,cat_left,cat_gradient,cat_median,best_cat\nV61BENCH Sony_HDR-HC3.jpg original=3565 ivo=3768 gain=-5.6942% enc_ms=103.847 dec_ms=19.887 exact=true\n"
+  },
+  {
+    "file": "Sony_HDR-HC3.jpg",
+    "variant": "A-quality",
+    "bytes": 3769,
+    "original": 3565,
+    "log": "file,bytes,blocks,dc_jpeg_bytes,var_chain,var_median,cat_chain,cat_left,cat_gradient,cat_median,best_cat\nV61BENCH Sony_HDR-HC3.jpg original=3565 ivo=3769 gain=-5.7223% enc_ms=87.124 dec_ms=20.135 exact=true\n"
+  },
+  {
+    "file": "Sony_HDR-HC3.jpg",
+    "variant": "A-quality-B",
+    "bytes": 3774,
+    "original": 3565,
+    "log": "file,bytes,blocks,dc_jpeg_bytes,var_chain,var_median,cat_chain,cat_left,cat_gradient,cat_median,best_cat\nV61BENCH Sony_HDR-HC3.jpg original=3565 ivo=3774 gain=-5.8626% enc_ms=116.292 dec_ms=23.463 exact=true\n"
+  },
+  {
+    "file": "WWL_(Polaroid)_ION230.jpg",
+    "variant": "direction",
+    "bytes": 4256,
+    "original": 3998,
+    "log": "file,bytes,blocks,dc_jpeg_bytes,var_chain,var_median,cat_chain,cat_left,cat_gradient,cat_median,best_cat\nV61BENCH WWL_(Polaroid)_ION230.jpg original=3998 ivo=4256 gain=-6.4532% enc_ms=103.251 dec_ms=16.466 exact=true\n"
+  },
+  {
+    "file": "WWL_(Polaroid)_ION230.jpg",
+    "variant": "A-quality",
+    "bytes": 4256,
+    "original": 3998,
+    "log": "file,bytes,blocks,dc_jpeg_bytes,var_chain,var_median,cat_chain,cat_left,cat_gradient,cat_median,best_cat\nV61BENCH WWL_(Polaroid)_ION230.jpg original=3998 ivo=4256 gain=-6.4532% enc_ms=109.369 dec_ms=17.352 exact=true\n"
+  },
+  {
+    "file": "WWL_(Polaroid)_ION230.jpg",
+    "variant": "A-quality-B",
+    "bytes": 4262,
+    "original": 3998,
+    "log": "file,bytes,blocks,dc_jpeg_bytes,var_chain,var_median,cat_chain,cat_left,cat_gradient,cat_median,best_cat\nV61BENCH WWL_(Polaroid)_ION230.jpg original=3998 ivo=4262 gain=-6.6033% enc_ms=108.987 dec_ms=25.580 exact=true\n"
+  },
+  {
+    "file": "long_description.jpg",
+    "variant": "direction",
+    "bytes": 5913,
+    "original": 7585,
+    "log": "file,bytes,blocks,dc_jpeg_bytes,var_chain,var_median,cat_chain,cat_left,cat_gradient,cat_median,best_cat\nV61BENCH long_description.jpg original=7585 ivo=5913 gain=22.0435% enc_ms=123.239 dec_ms=22.276 exact=true\n"
+  },
+  {
+    "file": "long_description.jpg",
+    "variant": "A-quality",
+    "bytes": 5911,
+    "original": 7585,
+    "log": "file,bytes,blocks,dc_jpeg_bytes,var_chain,var_median,cat_chain,cat_left,cat_gradient,cat_median,best_cat\nV61BENCH long_description.jpg original=7585 ivo=5911 gain=22.0699% enc_ms=110.368 dec_ms=38.135 exact=true\n"
+  },
+  {
+    "file": "long_description.jpg",
+    "variant": "A-quality-B",
+    "bytes": 5919,
+    "original": 7585,
+    "log": "file,bytes,blocks,dc_jpeg_bytes,var_chain,var_median,cat_chain,cat_left,cat_gradient,cat_median,best_cat\nV61BENCH long_description.jpg original=7585 ivo=5919 gain=21.9644% enc_ms=126.201 dec_ms=21.794 exact=true\n"
+  },
+  {
+    "file": "hdr/canon_hdr_NO.jpg",
+    "variant": "direction",
+    "bytes": 677151,
+    "original": 784371,
+    "log": "file,bytes,blocks,dc_jpeg_bytes,var_chain,var_median,cat_chain,cat_left,cat_gradient,cat_median,best_cat\nV61BENCH canon_hdr_NO.jpg original=784371 ivo=677151 gain=13.6696% enc_ms=1751.098 dec_ms=1085.789 exact=true\n"
+  },
+  {
+    "file": "hdr/canon_hdr_NO.jpg",
+    "variant": "A-quality",
+    "bytes": 675755,
+    "original": 784371,
+    "log": "file,bytes,blocks,dc_jpeg_bytes,var_chain,var_median,cat_chain,cat_left,cat_gradient,cat_median,best_cat\nV61BENCH canon_hdr_NO.jpg original=784371 ivo=675755 gain=13.8475% enc_ms=1871.552 dec_ms=1265.580 exact=true\n"
+  },
+  {
+    "file": "hdr/canon_hdr_NO.jpg",
+    "variant": "A-quality-B",
+    "bytes": 675339,
+    "original": 784371,
+    "log": "file,bytes,blocks,dc_jpeg_bytes,var_chain,var_median,cat_chain,cat_left,cat_gradient,cat_median,best_cat\nV61BENCH canon_hdr_NO.jpg original=784371 ivo=675339 gain=13.9006% enc_ms=2064.416 dec_ms=1333.350 exact=true\n"
+  },
+  {
+    "file": "hdr/canon_hdr_YES.jpg",
+    "variant": "direction",
+    "bytes": 617064,
+    "original": 722875,
+    "log": "file,bytes,blocks,dc_jpeg_bytes,var_chain,var_median,cat_chain,cat_left,cat_gradient,cat_median,best_cat\nV61BENCH canon_hdr_YES.jpg original=722875 ivo=617064 gain=14.6375% enc_ms=1699.388 dec_ms=988.658 exact=true\n"
+  },
+  {
+    "file": "hdr/canon_hdr_YES.jpg",
+    "variant": "A-quality",
+    "bytes": 615916,
+    "original": 722875,
+    "log": "file,bytes,blocks,dc_jpeg_bytes,var_chain,var_median,cat_chain,cat_left,cat_gradient,cat_median,best_cat\nV61BENCH canon_hdr_YES.jpg original=722875 ivo=615916 gain=14.7963% enc_ms=1837.550 dec_ms=1188.973 exact=true\n"
+  },
+  {
+    "file": "hdr/canon_hdr_YES.jpg",
+    "variant": "A-quality-B",
+    "bytes": 615484,
+    "original": 722875,
+    "log": "file,bytes,blocks,dc_jpeg_bytes,var_chain,var_median,cat_chain,cat_left,cat_gradient,cat_median,best_cat\nV61BENCH canon_hdr_YES.jpg original=722875 ivo=615484 gain=14.8561% enc_ms=1915.772 dec_ms=1494.962 exact=true\n"
+  },
+  {
+    "file": "hdr/iphone_hdr_NO.jpg",
+    "variant": "direction",
+    "bytes": 1653947,
+    "original": 1957448,
+    "log": "file,bytes,blocks,dc_jpeg_bytes,var_chain,var_median,cat_chain,cat_left,cat_gradient,cat_median,best_cat\nV61BENCH iphone_hdr_NO.jpg original=1957448 ivo=1653947 gain=15.5049% enc_ms=3453.558 dec_ms=2109.687 exact=true\n"
+  },
+  {
+    "file": "hdr/iphone_hdr_NO.jpg",
+    "variant": "A-quality",
+    "bytes": 1652925,
+    "original": 1957448,
+    "log": "file,bytes,blocks,dc_jpeg_bytes,var_chain,var_median,cat_chain,cat_left,cat_gradient,cat_median,best_cat\nV61BENCH iphone_hdr_NO.jpg original=1957448 ivo=1652925 gain=15.5571% enc_ms=3653.742 dec_ms=2401.499 exact=true\n"
+  },
+  {
+    "file": "hdr/iphone_hdr_NO.jpg",
+    "variant": "A-quality-B",
+    "bytes": 1653725,
+    "original": 1957448,
+    "log": "file,bytes,blocks,dc_jpeg_bytes,var_chain,var_median,cat_chain,cat_left,cat_gradient,cat_median,best_cat\nV61BENCH iphone_hdr_NO.jpg original=1957448 ivo=1653725 gain=15.5163% enc_ms=4221.293 dec_ms=3427.509 exact=true\n"
+  },
+  {
+    "file": "hdr/iphone_hdr_YES.jpg",
+    "variant": "direction",
+    "bytes": 1672219,
+    "original": 1976579,
+    "log": "file,bytes,blocks,dc_jpeg_bytes,var_chain,var_median,cat_chain,cat_left,cat_gradient,cat_median,best_cat\nV61BENCH iphone_hdr_YES.jpg original=1976579 ivo=1672219 gain=15.3983% enc_ms=3317.493 dec_ms=2483.380 exact=true\n"
+  },
+  {
+    "file": "hdr/iphone_hdr_YES.jpg",
+    "variant": "A-quality",
+    "bytes": 1671153,
+    "original": 1976579,
+    "log": "file,bytes,blocks,dc_jpeg_bytes,var_chain,var_median,cat_chain,cat_left,cat_gradient,cat_median,best_cat\nV61BENCH iphone_hdr_YES.jpg original=1976579 ivo=1671153 gain=15.4523% enc_ms=3900.395 dec_ms=2818.474 exact=true\n"
+  },
+  {
+    "file": "hdr/iphone_hdr_YES.jpg",
+    "variant": "A-quality-B",
+    "bytes": 1671821,
+    "original": 1976579,
+    "log": "file,bytes,blocks,dc_jpeg_bytes,var_chain,var_median,cat_chain,cat_left,cat_gradient,cat_median,best_cat\nV61BENCH iphone_hdr_YES.jpg original=1976579 ivo=1671821 gain=15.4185% enc_ms=4413.979 dec_ms=3252.490 exact=true\n"
+  },
+  {
+    "file": "mobile/HMD_Nokia_8.3_5G.jpg",
+    "variant": "direction",
+    "bytes": 1842500,
+    "original": 2190194,
+    "log": "file,bytes,blocks,dc_jpeg_bytes,var_chain,var_median,cat_chain,cat_left,cat_gradient,cat_median,best_cat\nV61BENCH HMD_Nokia_8.3_5G.jpg original=2190194 ivo=1842500 gain=15.8750% enc_ms=3769.769 dec_ms=2628.767 exact=true\n"
+  },
+  {
+    "file": "mobile/HMD_Nokia_8.3_5G.jpg",
+    "variant": "A-quality",
+    "bytes": 1840415,
+    "original": 2190194,
+    "log": "file,bytes,blocks,dc_jpeg_bytes,var_chain,var_median,cat_chain,cat_left,cat_gradient,cat_median,best_cat\nV61BENCH HMD_Nokia_8.3_5G.jpg original=2190194 ivo=1840415 gain=15.9702% enc_ms=4325.853 dec_ms=3346.898 exact=true\n"
+  },
+  {
+    "file": "mobile/HMD_Nokia_8.3_5G.jpg",
+    "variant": "A-quality-B",
+    "bytes": 1842187,
+    "original": 2190194,
+    "log": "file,bytes,blocks,dc_jpeg_bytes,var_chain,var_median,cat_chain,cat_left,cat_gradient,cat_median,best_cat\nV61BENCH HMD_Nokia_8.3_5G.jpg original=2190194 ivo=1842187 gain=15.8893% enc_ms=5007.987 dec_ms=3727.838 exact=true\n"
+  },
+  {
+    "file": "mobile/HMD_Nokia_8.3_5G_hdr.jpg",
+    "variant": "direction",
+    "bytes": 4332547,
+    "original": 5168013,
+    "log": "file,bytes,blocks,dc_jpeg_bytes,var_chain,var_median,cat_chain,cat_left,cat_gradient,cat_median,best_cat\nV61BENCH HMD_Nokia_8.3_5G_hdr.jpg original=5168013 ivo=4332547 gain=16.1661% enc_ms=7844.821 dec_ms=5735.080 exact=true\n"
+  },
+  {
+    "file": "mobile/HMD_Nokia_8.3_5G_hdr.jpg",
+    "variant": "A-quality",
+    "bytes": 4328688,
+    "original": 5168013,
+    "log": "file,bytes,blocks,dc_jpeg_bytes,var_chain,var_median,cat_chain,cat_left,cat_gradient,cat_median,best_cat\nV61BENCH HMD_Nokia_8.3_5G_hdr.jpg original=5168013 ivo=4328688 gain=16.2408% enc_ms=8700.797 dec_ms=7113.465 exact=true\n"
+  },
+  {
+    "file": "mobile/HMD_Nokia_8.3_5G_hdr.jpg",
+    "variant": "A-quality-B",
+    "bytes": 4328549,
+    "original": 5168013,
+    "log": "file,bytes,blocks,dc_jpeg_bytes,var_chain,var_median,cat_chain,cat_left,cat_gradient,cat_median,best_cat\nV61BENCH HMD_Nokia_8.3_5G_hdr.jpg original=5168013 ivo=4328549 gain=16.2435% enc_ms=10423.844 dec_ms=8800.695 exact=true\n"
+  },
+  {
+    "file": "mobile/jolla.jpg",
+    "variant": "direction",
+    "bytes": 681344,
+    "original": 811904,
+    "log": "file,bytes,blocks,dc_jpeg_bytes,var_chain,var_median,cat_chain,cat_left,cat_gradient,cat_median,best_cat\nV61BENCH jolla.jpg original=811904 ivo=681344 gain=16.0807% enc_ms=2384.273 dec_ms=1280.100 exact=true\n"
+  },
+  {
+    "file": "mobile/jolla.jpg",
+    "variant": "A-quality",
+    "bytes": 681247,
+    "original": 811904,
+    "log": "file,bytes,blocks,dc_jpeg_bytes,var_chain,var_median,cat_chain,cat_left,cat_gradient,cat_median,best_cat\nV61BENCH jolla.jpg original=811904 ivo=681247 gain=16.0927% enc_ms=2352.791 dec_ms=1436.139 exact=true\n"
+  },
+  {
+    "file": "mobile/jolla.jpg",
+    "variant": "A-quality-B",
+    "bytes": 681287,
+    "original": 811904,
+    "log": "file,bytes,blocks,dc_jpeg_bytes,var_chain,var_median,cat_chain,cat_left,cat_gradient,cat_median,best_cat\nV61BENCH jolla.jpg original=811904 ivo=681287 gain=16.0877% enc_ms=2569.928 dec_ms=1638.721 exact=true\n"
+  }
+]

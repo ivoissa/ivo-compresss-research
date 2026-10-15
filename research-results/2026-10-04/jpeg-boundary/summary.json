@@ -1,0 +1,130 @@
+[
+  {
+    "source": "01-25060.jpg",
+    "previous_v14_bytes": 171403,
+    "best_trial_bytes": 169955,
+    "retained_bytes": 169955,
+    "gain_bytes": 1448,
+    "mode": 2
+  },
+  {
+    "source": "01-25066.jpg",
+    "previous_v14_bytes": 94696,
+    "best_trial_bytes": 94356,
+    "retained_bytes": 94356,
+    "gain_bytes": 340,
+    "mode": 2
+  },
+  {
+    "source": "Canon_40D.jpg",
+    "previous_v14_bytes": 8014,
+    "best_trial_bytes": 8370,
+    "retained_bytes": 8014,
+    "gain_bytes": 0,
+    "mode": 2
+  },
+  {
+    "source": "Canon_DIGITAL_IXUS_400.jpg",
+    "previous_v14_bytes": 7755,
+    "best_trial_bytes": 8071,
+    "retained_bytes": 7755,
+    "gain_bytes": 0,
+    "mode": 2
+  },
+  {
+    "source": "Nikon_D70.jpg",
+    "previous_v14_bytes": 12284,
+    "best_trial_bytes": 12513,
+    "retained_bytes": 12284,
+    "gain_bytes": 0,
+    "mode": 2
+  },
+  {
+    "source": "Pentax_K10D.jpg",
+    "previous_v14_bytes": 10194,
+    "best_trial_bytes": 10500,
+    "retained_bytes": 10194,
+    "gain_bytes": 0,
+    "mode": 2
+  },
+  {
+    "source": "Reconyx_HC500_Hyperfire.jpg",
+    "previous_v14_bytes": 378957,
+    "best_trial_bytes": 366697,
+    "retained_bytes": 366697,
+    "gain_bytes": 12260,
+    "mode": 3
+  },
+  {
+    "source": "Samsung_Digimax_i50_MP3.jpg",
+    "previous_v14_bytes": 43628,
+    "best_trial_bytes": 43902,
+    "retained_bytes": 43628,
+    "gain_bytes": 0,
+    "mode": 3
+  },
+  {
+    "source": "fixture-0.jpg",
+    "previous_v14_bytes": 409,
+    "best_trial_bytes": 490,
+    "retained_bytes": 409,
+    "gain_bytes": 0,
+    "mode": 2
+  },
+  {
+    "source": "fixture-1.jpg",
+    "previous_v14_bytes": 427,
+    "best_trial_bytes": 509,
+    "retained_bytes": 427,
+    "gain_bytes": 0,
+    "mode": 2
+  },
+  {
+    "source": "fixture-2.jpg",
+    "previous_v14_bytes": 938,
+    "best_trial_bytes": 941,
+    "retained_bytes": 938,
+    "gain_bytes": 0,
+    "mode": 2
+  },
+  {
+    "source": "fixture-3.jpg",
+    "previous_v14_bytes": 3131,
+    "best_trial_bytes": 3233,
+    "retained_bytes": 3131,
+    "gain_bytes": 0,
+    "mode": 2
+  },
+  {
+    "source": "hdr_canon_hdr_NO.jpg",
+    "previous_v14_bytes": 675615,
+    "best_trial_bytes": 665479,
+    "retained_bytes": 665479,
+    "gain_bytes": 10136,
+    "mode": 3
+  },
+  {
+    "source": "hdr_iphone_hdr_NO.jpg",
+    "previous_v14_bytes": 1652706,
+    "best_trial_bytes": 1578126,
+    "retained_bytes": 1578126,
+    "gain_bytes": 74580,
+    "mode": 3
+  },
+  {
+    "source": "hdr_iphone_hdr_YES.jpg",
+    "previous_v14_bytes": 1670996,
+    "best_trial_bytes": 1597608,
+    "retained_bytes": 1597608,
+    "gain_bytes": 73388,
+    "mode": 3
+  },
+  {
+    "source": "mobile_jolla.jpg",
+    "previous_v14_bytes": 681165,
+    "best_trial_bytes": 651569,
+    "retained_bytes": 651569,
+    "gain_bytes": 29596,
+    "mode": 3
+  }
+]

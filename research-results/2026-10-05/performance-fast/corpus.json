@@ -1,0 +1,121 @@
+[
+  {
+    "label": "user-25060",
+    "format": "JPEG-baseline",
+    "source": "research-results/2026-10-05/jpeg-context-mixer/inputs/01-25060.jpg",
+    "original_bytes": 204196,
+    "sha256": "5d0b5cb9ea9069ae14c2a92951ed86c0ae56c3e2598bb10ef5e3300b785f5668"
+  },
+  {
+    "label": "user-25066",
+    "format": "JPEG-baseline",
+    "source": "research-results/2026-10-05/jpeg-context-mixer/inputs/01-25066.jpg",
+    "original_bytes": 119935,
+    "sha256": "b2b17bc5f4aaa5760688efa0d739ea5198771f3ab76c1949263146edb58abe2a"
+  },
+  {
+    "label": "user-19414",
+    "format": "JPEG-baseline",
+    "source": "research-results/2026-10-05/jpeg-context-mixer/inputs/19414.jpg",
+    "original_bytes": 198464,
+    "sha256": "02818f5c18b3972a6695e0b2a9428fa59b1df213838c1bd622eaa11220db2379"
+  },
+  {
+    "label": "user-22626",
+    "format": "JPEG-baseline",
+    "source": "research-results/2026-10-05/jpeg-context-mixer/inputs/22626.jpg",
+    "original_bytes": 579569,
+    "sha256": "b553c7053ab5a57ca3451c65d6fff419c83e14c5afb0d45ea14c064029e2134b"
+  },
+  {
+    "label": "user-24792",
+    "format": "JPEG-baseline",
+    "source": "research-results/2026-10-05/jpeg-context-mixer/inputs/24792.jpg",
+    "original_bytes": 138706,
+    "sha256": "25a42abba4e4490c7c2d2dbeecc8394e4c998ef1c02bfa67f1601efee428c42a"
+  },
+  {
+    "label": "holdout-24790",
+    "format": "JPEG-baseline",
+    "source": "research-results/2026-10-05/jpeg-context-mixer/inputs/24790.jpg",
+    "original_bytes": 117634,
+    "sha256": "81009d700ca3aabe50816006a4c1f97498b13a31d491931b0d1494fccdf66d71"
+  },
+  {
+    "label": "is-progressive_kitten-progressive",
+    "format": "JPEG-progressive",
+    "source": "research-results/2026-10-04/validation-v21/jpeg-inputs/is-progressive_kitten-progressive.jpg",
+    "original_bytes": 83845,
+    "sha256": "d9955d4b9bfd4804b911ef38c5c3d80b665377b42041ba4400fc3fb1486869b8"
+  },
+  {
+    "label": "image-rs_tower_progressive",
+    "format": "JPEG-progressive",
+    "source": "research-results/2026-10-04/validation-v21/jpeg-inputs/image-rs_tower_progressive.jpg",
+    "original_bytes": 68149,
+    "sha256": "e87bac231e2c11b1aef6981358189ad5c51f67069a43131b1512ed823a7607c6"
+  },
+  {
+    "label": "image-rs_progressive3",
+    "format": "JPEG-progressive",
+    "source": "research-results/2026-10-04/validation-v21/jpeg-inputs/image-rs_progressive3.jpg",
+    "original_bytes": 91072,
+    "sha256": "d19ebc7245629cc1e55cd0876fe671bde324893e73a75f3c467b8b4991214837"
+  },
+  {
+    "label": "image-rs_jpg-progressive",
+    "format": "JPEG-progressive",
+    "source": "research-results/2026-10-04/validation-v21/jpeg-inputs/image-rs_jpg-progressive.jpg",
+    "original_bytes": 979,
+    "sha256": "1cbff16cd9651840f660914eb8cd0cb29d248cf113081d75bd4476b4d18a5460"
+  },
+  {
+    "label": "pytorch_dog1",
+    "format": "JPEG-progressive",
+    "source": "research-results/2026-10-05/jpeg-context-mixer/inputs/pytorch_dog1.jpg",
+    "original_bytes": 97422,
+    "sha256": "828986ba0cdd909e3f6029d357938efba67d236350f724224b2e45cf0af0841f"
+  },
+  {
+    "label": "pytorch_dog2",
+    "format": "JPEG-progressive",
+    "source": "research-results/2026-10-05/jpeg-context-mixer/inputs/pytorch_dog2.jpg",
+    "original_bytes": 90796,
+    "sha256": "91c383f13fe7baf1c5306def5f50cc5bb0241e64065c081ad57671d33c503891"
+  },
+  {
+    "label": "tao-10s",
+    "format": "MP3",
+    "source": "research-results/2026-10-05/user-code-review/small-cases/tao-10s.mp3",
+    "original_bytes": 357362,
+    "sha256": "d7968356ef193ef8ae9ddd93d1b3e27a27819925f858e849d1221cf2dc264b97"
+  },
+  {
+    "label": "business-synthetic",
+    "format": "JSON-synthetic",
+    "source": "research-results/2026-10-05/performance-fast/inputs/business-synthetic.json",
+    "original_bytes": 96019,
+    "sha256": "755e242a49a3761a11001cbadb51c126d6b3603cdbeedcb3f7f4f2242f0ae121"
+  },
+  {
+    "label": "progressive-report",
+    "format": "JSON-report",
+    "source": "research-results/2026-10-05/jpeg-progressive-mixer/summary.json",
+    "original_bytes": 862,
+    "sha256": "45b05ebb03442c9f6d43d1dc8362c7cf191c3701753dd6c83dec38400482e679"
+  },
+  {
+    "label": "whatsapp",
+    "format": "MP4",
+    "source": "/workspace/scratch/9c62166e5fd0/integration-inputs/VID-20260930-WA0003.mp4",
+    "original_bytes": 5427643,
+    "sha256": "604f5646ea19d34261f0942f922399ecc90787fa244e719515e81103180998c8"
+  },
+  {
+    "label": "fixture-3-tradeoff",
+    "format": "JPEG-fixture",
+    "source": "research-results/2026-10-04/jpeg-neighbour/fixtures/fixture-3.jpg",
+    "original_bytes": 3075,
+    "sha256": "d993d8c7092b7dae859ffce117484c5afa6676a13f8dfffb275f885c1435eae5"
+  }
+]

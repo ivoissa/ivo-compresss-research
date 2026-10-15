@@ -1,0 +1,9 @@
+source=research-results/2026-10-04/validation-v21/jpeg-inputs/is-progressive_kitten-progressive.jpg
+sha256=d9955d4b9bfd4804b911ef38c5c3d80b665377b42041ba4400fc3fb1486869b8
+java=17.0.20+8-1-24.04-Ubuntu
+vm=OpenJDK 64-Bit Server VM
+flags=[-Xms64m, -Xmx2g, -XX:+UseG1GC]
+os=Linux amd64
+processors=8
+warmups=1
+repetitions=3

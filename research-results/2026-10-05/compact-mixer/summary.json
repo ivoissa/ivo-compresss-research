@@ -1,0 +1,93 @@
+[
+  {
+    "case": "selected-business-synthetic",
+    "variants": {
+      "uint16": {
+        "decompression_ms": 18.155298,
+        "thread_allocated_bytes": 4337608.0
+      },
+      "int32": {
+        "decompression_ms": 24.240902,
+        "thread_allocated_bytes": 4337552.0
+      }
+    }
+  },
+  {
+    "case": "selected-default-whatsapp",
+    "variants": {
+      "int32-current": {
+        "decompression_ms": 22713.10749,
+        "thread_allocated_bytes": 344506088.0
+      },
+      "int32": {
+        "decompression_ms": 22749.211461,
+        "thread_allocated_bytes": 344506080.0
+      }
+    }
+  },
+  {
+    "case": "selected-is-progressive_kitten-progressive",
+    "variants": {
+      "uint16": {
+        "decompression_ms": 300.29663,
+        "thread_allocated_bytes": 21163920.0
+      },
+      "int32": {
+        "decompression_ms": 329.295438,
+        "thread_allocated_bytes": 23084872.0
+      }
+    }
+  },
+  {
+    "case": "selected-kitten-webp",
+    "variants": {
+      "uint16": {
+        "decompression_ms": 324.320031,
+        "thread_allocated_bytes": 146919080.0
+      },
+      "int32": {
+        "decompression_ms": 341.398035,
+        "thread_allocated_bytes": 190959200.0
+      }
+    }
+  },
+  {
+    "case": "selected-tao-10s",
+    "variants": {
+      "uint16": {
+        "decompression_ms": 1148.711601,
+        "thread_allocated_bytes": 219551272.0
+      },
+      "int32": {
+        "decompression_ms": 1073.163832,
+        "thread_allocated_bytes": 283514336.0
+      }
+    }
+  },
+  {
+    "case": "selected-user-22626",
+    "variants": {
+      "uint16": {
+        "decompression_ms": 1226.794837,
+        "thread_allocated_bytes": 224909600.0
+      },
+      "int32": {
+        "decompression_ms": 1255.25023,
+        "thread_allocated_bytes": 218964768.0
+      }
+    }
+  },
+  {
+    "case": "selected-whatsapp",
+    "variants": {
+      "uint16": {
+        "decompression_ms": 23257.334383,
+        "thread_allocated_bytes": 294174496.0
+      },
+      "int32": {
+        "decompression_ms": 23531.249769,
+        "thread_allocated_bytes": 344506080.0
+      }
+    }
+  }
+]

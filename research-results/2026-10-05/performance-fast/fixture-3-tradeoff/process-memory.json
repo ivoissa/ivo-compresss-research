@@ -1,0 +1,5 @@
+{
+  "sampled_process_rss_peak_bytes": null,
+  "valid_jvm_identification": false,
+  "reason": "Initial sampler did not identify the actual JVM; initial RSS values excluded."
+}

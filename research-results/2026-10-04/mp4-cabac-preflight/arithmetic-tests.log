@@ -1,0 +1,1 @@
+PASS bypass_steps=1020 termination_boundaries=3 renormalization=true forbidden_offsets=2; not a full CABAC decoder/encoder

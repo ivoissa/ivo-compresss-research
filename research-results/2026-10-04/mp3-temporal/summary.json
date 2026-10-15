@@ -1,0 +1,20 @@
+{
+  "files": 12,
+  "candidates": 36,
+  "fresh_cli_byte_exact_archives": 36,
+  "all_scale_hashes_match_minimp3": true,
+  "wins": 4,
+  "public_test_vector_wins": 2,
+  "new_synthetic_wins": 2,
+  "tao_previous_retained": 82851262,
+  "auto_compression_enabled": false,
+  "payload": "MP41",
+  "engine_id": 23,
+  "schemes": [
+    12,
+    13,
+    14
+  ],
+  "truncated_archive_rejected": true,
+  "best_previous_tao_percent_reduction": 13.367116471479356
+}

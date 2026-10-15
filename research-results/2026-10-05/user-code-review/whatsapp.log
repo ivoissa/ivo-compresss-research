@@ -1,0 +1,4 @@
+Exception in thread "main" java.lang.RuntimeException: poc type
+	at Mp4.parseSps(Mp4.java:51)
+	at Mp4.compress(Mp4.java:563)
+	at Mp4.main(Mp4.java:630)

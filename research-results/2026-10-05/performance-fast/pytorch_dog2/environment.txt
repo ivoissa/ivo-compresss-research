@@ -1,0 +1,9 @@
+source=research-results/2026-10-05/jpeg-context-mixer/inputs/pytorch_dog2.jpg
+sha256=91c383f13fe7baf1c5306def5f50cc5bb0241e64065c081ad57671d33c503891
+java=17.0.20+8-1-24.04-Ubuntu
+vm=OpenJDK 64-Bit Server VM
+flags=[-Xms64m, -Xmx2g, -XX:+UseG1GC]
+os=Linux amd64
+processors=8
+warmups=1
+repetitions=3

@@ -1,0 +1,32 @@
+[
+  {
+    "source": "src/main/java/io/ivo/jpeg/QualityContextCodec.java",
+    "sha256": "fe2d6f19798d7373eed626a8c4e30f9d071f60eb1bd898e458f5d5b47fcfb586",
+    "identical_to_v17": true
+  },
+  {
+    "source": "src/main/java/io/ivo/jpeg/BoundarySigns.java",
+    "sha256": "ac38d70cb2d196ce58919174ee3bee4e1c36229666a35f5e9dc8f339de029723",
+    "identical_to_v17": true
+  },
+  {
+    "source": "src/main/java/io/ivo/jpeg/BoundaryValues.java",
+    "sha256": "2c82f2e3b0e44fd0cdcbffdbc34d4b90adc84a388af8f03f9c981da81ad77130",
+    "identical_to_v17": true
+  },
+  {
+    "source": "src/main/java/io/ivo/jpeg/SpatialAmplitude.java",
+    "sha256": "6e001df9455a6d0d7e28a199b77e0d376e510e33c51637823470dffa86baf7db",
+    "identical_to_v17": true
+  },
+  {
+    "source": "src/main/java/io/ivo/nc/BoundaryCategory.java",
+    "sha256": "54c6ee005225edfbe2d80895edd4f53cb9b61431550f5c0afb867f4c155f0fb1",
+    "identical_to_v17": true
+  },
+  {
+    "source": "src/main/java/io/ivo/nc/SpatialTailMixture.java",
+    "sha256": "81a0517d64f1d10824b8fd945b6b4fd83b63451d5213c20359270b1cf5f1565b",
+    "identical_to_v17": true
+  }
+]

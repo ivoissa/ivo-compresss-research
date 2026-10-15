@@ -1,0 +1,9 @@
+/tmp/ivo-jpeg-external-inputs/python-pillow_xmp_test.jpg: 1,798,984 -> 1,544,426 bytes (85.85%), engine=JPEG_NEIGHBOUR_RESEARCH
+Engine                         valid   payload       IVO       ms  note
+STORE                          true    1,798,984 1,799,055        9  verbatim
+N&C contextuel                 true    1,985,015 1,985,086     2142  PPM-like sparse contexts, order<=4
+REF + N&C                      true    1,961,510 1,961,581     2401  REF minMatch=8 then N&C; REF size=1776193
+JPEG oracle exact (structure/scans) true    1,781,362 1,781,433     2259  JPEG exact; segments=12; scans=1; progressive=false; meta=42642; entropy=1756342; modes=[0, 2, 0]
+JPEG frozen portfolio (ABC, spatial, directional, similarity) true    1,590,003 1,590,074    29886  DCT coefficients + exact entropy patch
+JPEG boundary portfolio (physical + presence control) true    1,544,355 1,544,426    15829  Causal AC category/presence; mode=9; exact entropy patch
+Written: /tmp/ivo-jpeg-integration-results/python-pillow_xmp_test.jpg/automatic.ivo

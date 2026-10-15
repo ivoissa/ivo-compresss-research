@@ -1,0 +1,5 @@
+package io.ivo.mp3;
+import io.ivo.container.*;import io.ivo.util.*;import java.nio.file.*;import java.util.*;
+public class MeasureReservoir{
+ public static void main(String[] a)throws Exception{byte[] input=Files.readAllBytes(Path.of(a[0]));IvoArchive base=IvoContainer.unpack(Files.readAllBytes(Path.of(a[1])));if(input.length!=base.originalSize()||!Arrays.equals(Hashing.sha256(input),base.sha256()))throw new IllegalArgumentException("Input differs from reference");for(int mode=1;mode<=2;mode++){byte[] payload=ReservoirTrial.encodeV4(input,base.payload(),mode);byte[] packed=IvoContainer.pack(new IvoArchive(base.engineId(),input.length,base.originalName(),Hashing.sha256(input),payload));Path file=Path.of(a[2]+mode+".ivo");Files.write(file,packed);IvoArchive read=IvoContainer.unpack(Files.readAllBytes(file));byte[] restored=ReservoirTrial.decodeV4(read.payload());if(!Arrays.equals(input,restored)||!Arrays.equals(read.sha256(),Hashing.sha256(restored)))throw new AssertionError();System.out.println("V4 mode="+mode+" original="+input.length+" ivo="+packed.length+" exact=true");}}
+}

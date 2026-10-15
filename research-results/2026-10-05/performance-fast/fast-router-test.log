@@ -1,0 +1,12 @@
+frames=79 granules=158 modeled=155 explicit=3
+gaps=78 nonZeroGaps=77 nzBytes=6198
+meta(deflated)=634 (raw 6642, prefix 45) payload=21961
+cost bytes: mags=11677 esc=3561 quads=770 sf=4 signs=5519 sideinfo=389 quadflags=41
+side bytes by field: f0=4 f1=1 f2=0 f3=33 f4=12 f5=36 f6=1 f7=1 f8=1 f9=23 f10=10 f11=2 f12=0 f13=19 f14=5 f15=35 f16=124 f17=3 f18=2 f19=7 f20=66 f21=1 f22=5
+slice fallback: cabac mismatch
+slice fallback: weighted
+slice fallback: weighted
+slices modeled=0 raw=20 | modeled NAL bytes=0 header bytes=0 tail bytes=0 | skeleton=2015
+model bytes by group: skip=0 mbtype=0 mvd=0 ref=0 intra/chroma/t8=0 cbp=0 qpdelta=0 cbf=0 sig=0 last=0 abs=0 bypass=0 term=0
+meta(deflated)=1369 (raw 2047) payload=1
+PASS FastRouterTest cases=6 preferred=2 fallback=1 unchanged=2 progressive=1 integrity=1

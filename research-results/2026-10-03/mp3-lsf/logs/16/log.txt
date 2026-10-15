@@ -1,0 +1,7 @@
+INPUT /tmp/ivo-audio-corpus/1-second-of-silence.mp3 bytes=37206 sha=2901ef99fc052e8da6896e00470b08e3176666a53fe8f49a84f3ff3ab577445d store=37274
+SIDE_PORTFOLIO direct=147 transposed=148 selected=false
+BASE v1=28266 v3=28267 exact=true
+MAIN_SPLIT mode=1 used_raw=689 unused_raw=314 coded=722
+RESULT mode=1 ivo=28254 delta_vs_v3=-13 exact=true
+MAIN_SPLIT mode=2 used_raw=683 unused_raw=321 coded=722
+RESULT mode=2 ivo=28254 delta_vs_v3=-13 exact=true

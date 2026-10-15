@@ -1,0 +1,17 @@
+{
+  "files": 26,
+  "repositories": 5,
+  "excluded_previous_duplicate": 1,
+  "supported": 19,
+  "supported_winners": 19,
+  "unsupported_retained": 7,
+  "new_candidates": 76,
+  "fresh_cli_archives": 102,
+  "gain_bytes": 94723,
+  "supported_previous_v16_bytes": 4119506,
+  "supported_retained_bytes": 4024783,
+  "all_previous_bytes": 6225408,
+  "all_retained_bytes": 6130685,
+  "model_sources_identical_to_v17": true,
+  "automatic_compression_enabled": false
+}

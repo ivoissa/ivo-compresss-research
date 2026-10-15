@@ -1,0 +1,1572 @@
+[
+  {
+    "source": {
+      "name": "google_brooklyn_bridge.mp3",
+      "url": "https://storage.googleapis.com/cloud-samples-data/speech/brooklyn_bridge.mp3",
+      "cohort": "mp3",
+      "content": "human speech",
+      "bytes": 29928,
+      "sha256": "836c6691b3e638d54743132f74115af9a85e2b08d0004ae455dcc8df652953cf",
+      "downloaded": true,
+      "ffprobe": {
+        "programs": [],
+        "streams": [
+          {
+            "codec_name": "mp3",
+            "sample_rate": "44100",
+            "channels": 2,
+            "bit_rate": "128000"
+          }
+        ],
+        "format": {
+          "duration": "1.854694"
+        }
+      },
+      "seen_in_previous_reports": false,
+      "duplicate_in_new_batch": false,
+      "scene_group": "google_brooklyn_bridge.mp3"
+    },
+    "variants": [
+      {
+        "scheme": 15,
+        "original": 29928,
+        "baseline": 26313,
+        "candidate": 27511,
+        "retained": 26313,
+        "archive": "/tmp/ivo-v21-mp3-results/google_brooklyn_bridge.mp3/energy-s15.ivo",
+        "fresh_cli_exact": true,
+        "archive_sha256": "39679a11cffa0afc6257e23cbb4ac9877961d9f3e97499fa6a7c4434e1227e1a"
+      },
+      {
+        "scheme": 16,
+        "original": 29928,
+        "baseline": 26313,
+        "candidate": 27972,
+        "retained": 26313,
+        "archive": "/tmp/ivo-v21-mp3-results/google_brooklyn_bridge.mp3/energy-s16.ivo",
+        "fresh_cli_exact": true,
+        "archive_sha256": "5ea7ee91eb57336080258395bc0007be202b89df0bc72d92446b2b66a736b890"
+      },
+      {
+        "scheme": 17,
+        "original": 29928,
+        "baseline": 26313,
+        "candidate": 28683,
+        "retained": 26313,
+        "archive": "/tmp/ivo-v21-mp3-results/google_brooklyn_bridge.mp3/energy-s17.ivo",
+        "fresh_cli_exact": true,
+        "archive_sha256": "c1c876bf1d1bfba3feffda7a71c1365df9cd520cb308df09b2bc12b4edcc4fcf"
+      },
+      {
+        "scheme": 18,
+        "original": 29928,
+        "baseline": 26313,
+        "candidate": 28199,
+        "retained": 26313,
+        "archive": "/tmp/ivo-v21-mp3-results/google_brooklyn_bridge.mp3/energy-s18.ivo",
+        "fresh_cli_exact": true,
+        "archive_sha256": "240c79019486d41a4e51f4b873f0f1c01e9f016a02b2b06ab2e811aa18831e2e"
+      }
+    ],
+    "baseline_fresh_cli_exact": true,
+    "name": "google_brooklyn_bridge.mp3",
+    "baseline": 26313,
+    "energy_best": 27511,
+    "scheme": 15,
+    "extra_saved_bytes": 0,
+    "forced_change": 1198,
+    "historical_variants": [
+      {
+        "scheme": 0,
+        "ivo_bytes": 28502,
+        "same_process_exact_and_spectral_stats": true
+      },
+      {
+        "scheme": 1,
+        "ivo_bytes": 28526,
+        "same_process_exact_and_spectral_stats": true
+      },
+      {
+        "scheme": 2,
+        "ivo_bytes": 28103,
+        "same_process_exact_and_spectral_stats": true
+      },
+      {
+        "scheme": 3,
+        "ivo_bytes": 28875,
+        "same_process_exact_and_spectral_stats": true
+      },
+      {
+        "scheme": 4,
+        "ivo_bytes": 28199,
+        "same_process_exact_and_spectral_stats": true
+      },
+      {
+        "scheme": 5,
+        "ivo_bytes": 28246,
+        "same_process_exact_and_spectral_stats": true
+      },
+      {
+        "scheme": 6,
+        "ivo_bytes": 28490,
+        "same_process_exact_and_spectral_stats": true
+      },
+      {
+        "scheme": 7,
+        "ivo_bytes": 28475,
+        "same_process_exact_and_spectral_stats": true
+      },
+      {
+        "scheme": 8,
+        "ivo_bytes": 28001,
+        "same_process_exact_and_spectral_stats": true
+      },
+      {
+        "scheme": 9,
+        "ivo_bytes": 28048,
+        "same_process_exact_and_spectral_stats": true
+      },
+      {
+        "scheme": 10,
+        "ivo_bytes": 28292,
+        "same_process_exact_and_spectral_stats": true
+      },
+      {
+        "scheme": 11,
+        "ivo_bytes": 28277,
+        "same_process_exact_and_spectral_stats": true
+      },
+      {
+        "scheme": 12,
+        "ivo_bytes": 28515,
+        "same_process_exact_and_spectral_stats": true
+      },
+      {
+        "scheme": 13,
+        "ivo_bytes": 31047,
+        "same_process_exact_and_spectral_stats": true
+      },
+      {
+        "scheme": 14,
+        "ivo_bytes": 30521,
+        "same_process_exact_and_spectral_stats": true
+      }
+    ]
+  },
+  {
+    "source": {
+      "name": "librivox_wonderland_ch01.mp3",
+      "url": "https://archive.org/download/alice_in_wonderland_librivox/wonderland_ch_01_64kb.mp3",
+      "cohort": "mp3",
+      "content": "human speech",
+      "bytes": 5124992,
+      "sha256": "fca40613cd198eb2b3e3b36e087b6cbaf22be8d143951d744670973a3c26d0d1",
+      "downloaded": true,
+      "ffprobe": {
+        "programs": [],
+        "streams": [
+          {
+            "codec_name": "mp3",
+            "sample_rate": "24000",
+            "channels": 2,
+            "bit_rate": "64000",
+            "side_data_list": [
+              {}
+            ]
+          }
+        ],
+        "format": {
+          "duration": "640.584000"
+        }
+      },
+      "seen_in_previous_reports": false,
+      "duplicate_in_new_batch": false,
+      "scene_group": "librivox_wonderland_ch01.mp3"
+    },
+    "variants": [
+      {
+        "scheme": 15,
+        "original": 5124992,
+        "baseline": 4971610,
+        "candidate": 4961589,
+        "retained": 4961589,
+        "archive": "/tmp/ivo-v21-mp3-results/librivox_wonderland_ch01.mp3/energy-s15.ivo",
+        "fresh_cli_exact": true,
+        "archive_sha256": "904647162e7aa1834dd9622465b61420d13b004b1a08a92f1e927a3ac5d41332"
+      },
+      {
+        "scheme": 16,
+        "original": 5124992,
+        "baseline": 4971610,
+        "candidate": 4968123,
+        "retained": 4968123,
+        "archive": "/tmp/ivo-v21-mp3-results/librivox_wonderland_ch01.mp3/energy-s16.ivo",
+        "fresh_cli_exact": true,
+        "archive_sha256": "e52f099e4bd786cc74f4c94d8584fd97ba1c48d0ae657a29b9bc96858f31f793"
+      },
+      {
+        "scheme": 17,
+        "original": 5124992,
+        "baseline": 4971610,
+        "candidate": 4982144,
+        "retained": 4971610,
+        "archive": "/tmp/ivo-v21-mp3-results/librivox_wonderland_ch01.mp3/energy-s17.ivo",
+        "fresh_cli_exact": true,
+        "archive_sha256": "feaf95fb71cb637e222e8d6e4970576719e30a98f070b6ba5a413a346015e139"
+      },
+      {
+        "scheme": 18,
+        "original": 5124992,
+        "baseline": 4971610,
+        "candidate": 4979728,
+        "retained": 4971610,
+        "archive": "/tmp/ivo-v21-mp3-results/librivox_wonderland_ch01.mp3/energy-s18.ivo",
+        "fresh_cli_exact": true,
+        "archive_sha256": "a1137ed09333d00434bf7c45f0cb8826682bdd211627113a8738fee252a2a75d"
+      }
+    ],
+    "baseline_fresh_cli_exact": true,
+    "name": "librivox_wonderland_ch01.mp3",
+    "baseline": 4971610,
+    "energy_best": 4961589,
+    "scheme": 15,
+    "extra_saved_bytes": 10021,
+    "forced_change": -10021,
+    "historical_variants": [
+      {
+        "scheme": 0,
+        "ivo_bytes": 5070011,
+        "same_process_exact_and_spectral_stats": true
+      },
+      {
+        "scheme": 1,
+        "ivo_bytes": 5042773,
+        "same_process_exact_and_spectral_stats": true
+      },
+      {
+        "scheme": 2,
+        "ivo_bytes": 4979632,
+        "same_process_exact_and_spectral_stats": true
+      },
+      {
+        "scheme": 3,
+        "ivo_bytes": 5042821,
+        "same_process_exact_and_spectral_stats": true
+      },
+      {
+        "scheme": 4,
+        "ivo_bytes": 4977523,
+        "same_process_exact_and_spectral_stats": true
+      },
+      {
+        "scheme": 5,
+        "ivo_bytes": 4979010,
+        "same_process_exact_and_spectral_stats": true
+      },
+      {
+        "scheme": 6,
+        "ivo_bytes": 4979813,
+        "same_process_exact_and_spectral_stats": true
+      },
+      {
+        "scheme": 7,
+        "ivo_bytes": 4979948,
+        "same_process_exact_and_spectral_stats": true
+      },
+      {
+        "scheme": 8,
+        "ivo_bytes": 5027061,
+        "same_process_exact_and_spectral_stats": true
+      },
+      {
+        "scheme": 9,
+        "ivo_bytes": 5028548,
+        "same_process_exact_and_spectral_stats": true
+      },
+      {
+        "scheme": 10,
+        "ivo_bytes": 5029351,
+        "same_process_exact_and_spectral_stats": true
+      },
+      {
+        "scheme": 11,
+        "ivo_bytes": 5029486,
+        "same_process_exact_and_spectral_stats": true
+      },
+      {
+        "scheme": 12,
+        "ivo_bytes": 4980193,
+        "same_process_exact_and_spectral_stats": true
+      },
+      {
+        "scheme": 13,
+        "ivo_bytes": 5340956,
+        "same_process_exact_and_spectral_stats": true
+      },
+      {
+        "scheme": 14,
+        "ivo_bytes": 5434585,
+        "same_process_exact_and_spectral_stats": true
+      }
+    ]
+  },
+  {
+    "source": {
+      "name": "mdn_bassguitar.mp3",
+      "repo": "mdn/webaudio-examples",
+      "commit": "5582dbc39f241117c27c516b21243b041dc69fcb",
+      "path": "multi-track/bassguitar.mp3",
+      "url": "https://raw.githubusercontent.com/mdn/webaudio-examples/5582dbc39f241117c27c516b21243b041dc69fcb/multi-track/bassguitar.mp3",
+      "cohort": "mp3",
+      "bytes": 646500,
+      "sha256": "3d96b24a0201f5df8254011ad3238d2582a4e982d32a32869db45cd62ff9e10d",
+      "downloaded": true,
+      "seen_in_previous_reports": false,
+      "ffprobe": {
+        "programs": [],
+        "streams": [
+          {
+            "codec_name": "mp3",
+            "sample_rate": "44100",
+            "channels": 2,
+            "bit_rate": "64000"
+          }
+        ],
+        "format": {
+          "duration": "80.300500"
+        }
+      },
+      "duplicate_in_new_batch": false,
+      "content": "music / instrumental example",
+      "scene_group": "mdn-multitrack-stems"
+    },
+    "variants": [
+      {
+        "scheme": 15,
+        "original": 646500,
+        "baseline": 472775,
+        "candidate": 525522,
+        "retained": 472775,
+        "archive": "/tmp/ivo-v21-mp3-results/mdn_bassguitar.mp3/energy-s15.ivo",
+        "fresh_cli_exact": true,
+        "archive_sha256": "0042fb53a5ba3bff563b3cae71adc8f451b64fc3cf737454c34d3354772dad0e"
+      },
+      {
+        "scheme": 16,
+        "original": 646500,
+        "baseline": 472775,
+        "candidate": 526461,
+        "retained": 472775,
+        "archive": "/tmp/ivo-v21-mp3-results/mdn_bassguitar.mp3/energy-s16.ivo",
+        "fresh_cli_exact": true,
+        "archive_sha256": "aac6e9740ee777a7677f65e65ca75e6f146b93c6b92b88a604df719f871bd80f"
+      },
+      {
+        "scheme": 17,
+        "original": 646500,
+        "baseline": 472775,
+        "candidate": 525966,
+        "retained": 472775,
+        "archive": "/tmp/ivo-v21-mp3-results/mdn_bassguitar.mp3/energy-s17.ivo",
+        "fresh_cli_exact": true,
+        "archive_sha256": "71eb76b057234a6c5f92f9d9a233ffc52d3f4ef66f4533703ee8c9aec0475f99"
+      },
+      {
+        "scheme": 18,
+        "original": 646500,
+        "baseline": 472775,
+        "candidate": 526271,
+        "retained": 472775,
+        "archive": "/tmp/ivo-v21-mp3-results/mdn_bassguitar.mp3/energy-s18.ivo",
+        "fresh_cli_exact": true,
+        "archive_sha256": "2baabbf26c005d822c80548fa7e26ffb1eae9932bdca27e3f1cf5dea592f9ca3"
+      }
+    ],
+    "baseline_fresh_cli_exact": true,
+    "name": "mdn_bassguitar.mp3",
+    "baseline": 472775,
+    "energy_best": 525522,
+    "scheme": 15,
+    "extra_saved_bytes": 0,
+    "forced_change": 52747,
+    "historical_variants": [
+      {
+        "scheme": 0,
+        "ivo_bytes": 472775,
+        "same_process_exact_and_spectral_stats": true
+      },
+      {
+        "scheme": 1,
+        "ivo_bytes": 557134,
+        "same_process_exact_and_spectral_stats": true
+      },
+      {
+        "scheme": 2,
+        "ivo_bytes": 526175,
+        "same_process_exact_and_spectral_stats": true
+      },
+      {
+        "scheme": 3,
+        "ivo_bytes": 558012,
+        "same_process_exact_and_spectral_stats": true
+      },
+      {
+        "scheme": 4,
+        "ivo_bytes": 526271,
+        "same_process_exact_and_spectral_stats": true
+      },
+      {
+        "scheme": 5,
+        "ivo_bytes": 526154,
+        "same_process_exact_and_spectral_stats": true
+      },
+      {
+        "scheme": 6,
+        "ivo_bytes": 526649,
+        "same_process_exact_and_spectral_stats": true
+      },
+      {
+        "scheme": 7,
+        "ivo_bytes": 526626,
+        "same_process_exact_and_spectral_stats": true
+      },
+      {
+        "scheme": 8,
+        "ivo_bytes": 516748,
+        "same_process_exact_and_spectral_stats": true
+      },
+      {
+        "scheme": 9,
+        "ivo_bytes": 516631,
+        "same_process_exact_and_spectral_stats": true
+      },
+      {
+        "scheme": 10,
+        "ivo_bytes": 517126,
+        "same_process_exact_and_spectral_stats": true
+      },
+      {
+        "scheme": 11,
+        "ivo_bytes": 517103,
+        "same_process_exact_and_spectral_stats": true
+      },
+      {
+        "scheme": 12,
+        "ivo_bytes": 526416,
+        "same_process_exact_and_spectral_stats": true
+      },
+      {
+        "scheme": 13,
+        "ivo_bytes": 547577,
+        "same_process_exact_and_spectral_stats": true
+      },
+      {
+        "scheme": 14,
+        "ivo_bytes": 542455,
+        "same_process_exact_and_spectral_stats": true
+      }
+    ]
+  },
+  {
+    "source": {
+      "name": "mdn_clav.mp3",
+      "repo": "mdn/webaudio-examples",
+      "commit": "5582dbc39f241117c27c516b21243b041dc69fcb",
+      "path": "multi-track/clav.mp3",
+      "url": "https://raw.githubusercontent.com/mdn/webaudio-examples/5582dbc39f241117c27c516b21243b041dc69fcb/multi-track/clav.mp3",
+      "cohort": "mp3",
+      "bytes": 670114,
+      "sha256": "8ba6d9552a7d888140b71fa8d5ce536bb8ab56556387d81f5a0c89d6a2ce976e",
+      "downloaded": true,
+      "seen_in_previous_reports": false,
+      "ffprobe": {
+        "programs": [],
+        "streams": [
+          {
+            "codec_name": "mp3",
+            "sample_rate": "44100",
+            "channels": 2,
+            "bit_rate": "64000"
+          }
+        ],
+        "format": {
+          "duration": "83.252250"
+        }
+      },
+      "duplicate_in_new_batch": false,
+      "content": "music / instrumental example",
+      "scene_group": "mdn-multitrack-stems"
+    },
+    "variants": [
+      {
+        "scheme": 15,
+        "original": 670114,
+        "baseline": 583476,
+        "candidate": 599873,
+        "retained": 583476,
+        "archive": "/tmp/ivo-v21-mp3-results/mdn_clav.mp3/energy-s15.ivo",
+        "fresh_cli_exact": true,
+        "archive_sha256": "0a79389ef0f4ec627e949267c0942e5271dc4c84614795f003f67d8267083898"
+      },
+      {
+        "scheme": 16,
+        "original": 670114,
+        "baseline": 583476,
+        "candidate": 594308,
+        "retained": 583476,
+        "archive": "/tmp/ivo-v21-mp3-results/mdn_clav.mp3/energy-s16.ivo",
+        "fresh_cli_exact": true,
+        "archive_sha256": "cf56abd0dcd77cd7cc4a853f6227a4c9601acd9b0866c5d0964c7356ba261be3"
+      },
+      {
+        "scheme": 17,
+        "original": 670114,
+        "baseline": 583476,
+        "candidate": 596639,
+        "retained": 583476,
+        "archive": "/tmp/ivo-v21-mp3-results/mdn_clav.mp3/energy-s17.ivo",
+        "fresh_cli_exact": true,
+        "archive_sha256": "e1839c2089fd01d726539e9d2c5db6a701249b173b44ff3397ff1a32bf2ee626"
+      },
+      {
+        "scheme": 18,
+        "original": 670114,
+        "baseline": 583476,
+        "candidate": 597324,
+        "retained": 583476,
+        "archive": "/tmp/ivo-v21-mp3-results/mdn_clav.mp3/energy-s18.ivo",
+        "fresh_cli_exact": true,
+        "archive_sha256": "d87ee8176249efbd6f7327032845bb320b26b45d978dfc2affca3d1289b7c94a"
+      }
+    ],
+    "baseline_fresh_cli_exact": true,
+    "name": "mdn_clav.mp3",
+    "baseline": 583476,
+    "energy_best": 594308,
+    "scheme": 16,
+    "extra_saved_bytes": 0,
+    "forced_change": 10832,
+    "historical_variants": [
+      {
+        "scheme": 0,
+        "ivo_bytes": 608569,
+        "same_process_exact_and_spectral_stats": true
+      },
+      {
+        "scheme": 1,
+        "ivo_bytes": 607160,
+        "same_process_exact_and_spectral_stats": true
+      },
+      {
+        "scheme": 2,
+        "ivo_bytes": 597228,
+        "same_process_exact_and_spectral_stats": true
+      },
+      {
+        "scheme": 3,
+        "ivo_bytes": 611092,
+        "same_process_exact_and_spectral_stats": true
+      },
+      {
+        "scheme": 4,
+        "ivo_bytes": 597336,
+        "same_process_exact_and_spectral_stats": true
+      },
+      {
+        "scheme": 5,
+        "ivo_bytes": 597411,
+        "same_process_exact_and_spectral_stats": true
+      },
+      {
+        "scheme": 6,
+        "ivo_bytes": 600221,
+        "same_process_exact_and_spectral_stats": true
+      },
+      {
+        "scheme": 7,
+        "ivo_bytes": 598907,
+        "same_process_exact_and_spectral_stats": true
+      },
+      {
+        "scheme": 8,
+        "ivo_bytes": 609011,
+        "same_process_exact_and_spectral_stats": true
+      },
+      {
+        "scheme": 9,
+        "ivo_bytes": 609086,
+        "same_process_exact_and_spectral_stats": true
+      },
+      {
+        "scheme": 10,
+        "ivo_bytes": 611896,
+        "same_process_exact_and_spectral_stats": true
+      },
+      {
+        "scheme": 11,
+        "ivo_bytes": 610582,
+        "same_process_exact_and_spectral_stats": true
+      },
+      {
+        "scheme": 12,
+        "ivo_bytes": 598520,
+        "same_process_exact_and_spectral_stats": true
+      },
+      {
+        "scheme": 13,
+        "ivo_bytes": 640120,
+        "same_process_exact_and_spectral_stats": true
+      },
+      {
+        "scheme": 14,
+        "ivo_bytes": 629799,
+        "same_process_exact_and_spectral_stats": true
+      }
+    ]
+  },
+  {
+    "source": {
+      "name": "mdn_concert-crowd.mp3",
+      "repo": "mdn/webaudio-examples",
+      "commit": "5582dbc39f241117c27c516b21243b041dc69fcb",
+      "path": "voice-change-o-matic/audio/concert-crowd.mp3",
+      "url": "https://raw.githubusercontent.com/mdn/webaudio-examples/5582dbc39f241117c27c516b21243b041dc69fcb/voice-change-o-matic/audio/concert-crowd.mp3",
+      "cohort": "mp3",
+      "bytes": 187920,
+      "sha256": "fc3b82f2b7942eb15b9d2688f5d1e1c3efcd4657738c2817fcf1467bf0ea1c68",
+      "downloaded": true,
+      "seen_in_previous_reports": false,
+      "ffprobe": {
+        "programs": [],
+        "streams": [
+          {
+            "codec_name": "mp3",
+            "sample_rate": "32000",
+            "channels": 2,
+            "bit_rate": "96000",
+            "side_data_list": [
+              {}
+            ]
+          }
+        ],
+        "format": {
+          "duration": "15.624000"
+        }
+      },
+      "duplicate_in_new_batch": false,
+      "content": "ambient crowd",
+      "scene_group": "mdn_concert-crowd.mp3"
+    },
+    "variants": [
+      {
+        "scheme": 15,
+        "original": 187920,
+        "baseline": 183185,
+        "candidate": 183023,
+        "retained": 183023,
+        "archive": "/tmp/ivo-v21-mp3-results/mdn_concert-crowd.mp3/energy-s15.ivo",
+        "fresh_cli_exact": true,
+        "archive_sha256": "0e8e611f57dc0a9658f5111721b14cddffcf00852ef7af628222df60298f776d"
+      },
+      {
+        "scheme": 16,
+        "original": 187920,
+        "baseline": 183185,
+        "candidate": 183953,
+        "retained": 183185,
+        "archive": "/tmp/ivo-v21-mp3-results/mdn_concert-crowd.mp3/energy-s16.ivo",
+        "fresh_cli_exact": true,
+        "archive_sha256": "0949c7646e7ef297d9773e13d488acf00ebf5ba11e0bcb5c60bd968ff010efc6"
+      },
+      {
+        "scheme": 17,
+        "original": 187920,
+        "baseline": 183185,
+        "candidate": 183669,
+        "retained": 183185,
+        "archive": "/tmp/ivo-v21-mp3-results/mdn_concert-crowd.mp3/energy-s17.ivo",
+        "fresh_cli_exact": true,
+        "archive_sha256": "afb207927fe221f7a048db3deedf657702a3372ceb043858a3a09b71ca9d8a29"
+      },
+      {
+        "scheme": 18,
+        "original": 187920,
+        "baseline": 183185,
+        "candidate": 183606,
+        "retained": 183185,
+        "archive": "/tmp/ivo-v21-mp3-results/mdn_concert-crowd.mp3/energy-s18.ivo",
+        "fresh_cli_exact": true,
+        "archive_sha256": "f7f74a806d826ee1fd9caee400d0f99cf5ae58b9e2cb3099add34a721207acd6"
+      }
+    ],
+    "baseline_fresh_cli_exact": true,
+    "name": "mdn_concert-crowd.mp3",
+    "baseline": 183185,
+    "energy_best": 183023,
+    "scheme": 15,
+    "extra_saved_bytes": 162,
+    "forced_change": -162,
+    "historical_variants": [
+      {
+        "scheme": 0,
+        "ivo_bytes": 186327,
+        "same_process_exact_and_spectral_stats": true
+      },
+      {
+        "scheme": 1,
+        "ivo_bytes": 185701,
+        "same_process_exact_and_spectral_stats": true
+      },
+      {
+        "scheme": 2,
+        "ivo_bytes": 183510,
+        "same_process_exact_and_spectral_stats": true
+      },
+      {
+        "scheme": 3,
+        "ivo_bytes": 186651,
+        "same_process_exact_and_spectral_stats": true
+      },
+      {
+        "scheme": 4,
+        "ivo_bytes": 183185,
+        "same_process_exact_and_spectral_stats": true
+      },
+      {
+        "scheme": 5,
+        "ivo_bytes": 183582,
+        "same_process_exact_and_spectral_stats": true
+      },
+      {
+        "scheme": 6,
+        "ivo_bytes": 183942,
+        "same_process_exact_and_spectral_stats": true
+      },
+      {
+        "scheme": 7,
+        "ivo_bytes": 183751,
+        "same_process_exact_and_spectral_stats": true
+      },
+      {
+        "scheme": 8,
+        "ivo_bytes": 184531,
+        "same_process_exact_and_spectral_stats": true
+      },
+      {
+        "scheme": 9,
+        "ivo_bytes": 184928,
+        "same_process_exact_and_spectral_stats": true
+      },
+      {
+        "scheme": 10,
+        "ivo_bytes": 185288,
+        "same_process_exact_and_spectral_stats": true
+      },
+      {
+        "scheme": 11,
+        "ivo_bytes": 185097,
+        "same_process_exact_and_spectral_stats": true
+      },
+      {
+        "scheme": 12,
+        "ivo_bytes": 183757,
+        "same_process_exact_and_spectral_stats": true
+      },
+      {
+        "scheme": 13,
+        "ivo_bytes": 194763,
+        "same_process_exact_and_spectral_stats": true
+      },
+      {
+        "scheme": 14,
+        "ivo_bytes": 195283,
+        "same_process_exact_and_spectral_stats": true
+      }
+    ]
+  },
+  {
+    "source": {
+      "name": "mdn_drums.mp3",
+      "repo": "mdn/webaudio-examples",
+      "commit": "5582dbc39f241117c27c516b21243b041dc69fcb",
+      "path": "multi-track/drums.mp3",
+      "url": "https://raw.githubusercontent.com/mdn/webaudio-examples/5582dbc39f241117c27c516b21243b041dc69fcb/multi-track/drums.mp3",
+      "cohort": "mp3",
+      "bytes": 670114,
+      "sha256": "6024d80d742daff9f067bed60358915f6b1bcb8d5210c16a186aa48fea0f7649",
+      "downloaded": true,
+      "seen_in_previous_reports": false,
+      "ffprobe": {
+        "programs": [],
+        "streams": [
+          {
+            "codec_name": "mp3",
+            "sample_rate": "44100",
+            "channels": 2,
+            "bit_rate": "64000"
+          }
+        ],
+        "format": {
+          "duration": "83.252250"
+        }
+      },
+      "duplicate_in_new_batch": false,
+      "content": "music / instrumental example",
+      "scene_group": "mdn-multitrack-stems"
+    },
+    "variants": [
+      {
+        "scheme": 15,
+        "original": 670114,
+        "baseline": 607073,
+        "candidate": 606639,
+        "retained": 606639,
+        "archive": "/tmp/ivo-v21-mp3-results/mdn_drums.mp3/energy-s15.ivo",
+        "fresh_cli_exact": true,
+        "archive_sha256": "b51de5c5302e2efdaa7d6a120d9758af21c0b424b0167b88a841cfae3f511e8a"
+      },
+      {
+        "scheme": 16,
+        "original": 670114,
+        "baseline": 607073,
+        "candidate": 607053,
+        "retained": 607053,
+        "archive": "/tmp/ivo-v21-mp3-results/mdn_drums.mp3/energy-s16.ivo",
+        "fresh_cli_exact": true,
+        "archive_sha256": "2b82869a8d13ccef7e4c33a0d0157183c0a2a1eec2cae2ce089862133e04bbca"
+      },
+      {
+        "scheme": 17,
+        "original": 670114,
+        "baseline": 607073,
+        "candidate": 608482,
+        "retained": 607073,
+        "archive": "/tmp/ivo-v21-mp3-results/mdn_drums.mp3/energy-s17.ivo",
+        "fresh_cli_exact": true,
+        "archive_sha256": "f94baceb6b93cc49a7654ced01d4d19e8068a947fa10f0096b4e4c7b81bfe548"
+      },
+      {
+        "scheme": 18,
+        "original": 670114,
+        "baseline": 607073,
+        "candidate": 607363,
+        "retained": 607073,
+        "archive": "/tmp/ivo-v21-mp3-results/mdn_drums.mp3/energy-s18.ivo",
+        "fresh_cli_exact": true,
+        "archive_sha256": "11215c4302ee2fbb73ecac9137eec742662632f4431345ee49c2b9be9c5ea44a"
+      }
+    ],
+    "baseline_fresh_cli_exact": true,
+    "name": "mdn_drums.mp3",
+    "baseline": 607073,
+    "energy_best": 606639,
+    "scheme": 15,
+    "extra_saved_bytes": 434,
+    "forced_change": -434,
+    "historical_variants": [
+      {
+        "scheme": 0,
+        "ivo_bytes": 615060,
+        "same_process_exact_and_spectral_stats": true
+      },
+      {
+        "scheme": 1,
+        "ivo_bytes": 615728,
+        "same_process_exact_and_spectral_stats": true
+      },
+      {
+        "scheme": 2,
+        "ivo_bytes": 607267,
+        "same_process_exact_and_spectral_stats": true
+      },
+      {
+        "scheme": 3,
+        "ivo_bytes": 618053,
+        "same_process_exact_and_spectral_stats": true
+      },
+      {
+        "scheme": 4,
+        "ivo_bytes": 607612,
+        "same_process_exact_and_spectral_stats": true
+      },
+      {
+        "scheme": 5,
+        "ivo_bytes": 607073,
+        "same_process_exact_and_spectral_stats": true
+      },
+      {
+        "scheme": 6,
+        "ivo_bytes": 607885,
+        "same_process_exact_and_spectral_stats": true
+      },
+      {
+        "scheme": 7,
+        "ivo_bytes": 607398,
+        "same_process_exact_and_spectral_stats": true
+      },
+      {
+        "scheme": 8,
+        "ivo_bytes": 613347,
+        "same_process_exact_and_spectral_stats": true
+      },
+      {
+        "scheme": 9,
+        "ivo_bytes": 612808,
+        "same_process_exact_and_spectral_stats": true
+      },
+      {
+        "scheme": 10,
+        "ivo_bytes": 613620,
+        "same_process_exact_and_spectral_stats": true
+      },
+      {
+        "scheme": 11,
+        "ivo_bytes": 613133,
+        "same_process_exact_and_spectral_stats": true
+      },
+      {
+        "scheme": 12,
+        "ivo_bytes": 608149,
+        "same_process_exact_and_spectral_stats": true
+      },
+      {
+        "scheme": 13,
+        "ivo_bytes": 623904,
+        "same_process_exact_and_spectral_stats": true
+      },
+      {
+        "scheme": 14,
+        "ivo_bytes": 627696,
+        "same_process_exact_and_spectral_stats": true
+      }
+    ]
+  },
+  {
+    "source": {
+      "name": "mdn_horns.mp3",
+      "repo": "mdn/webaudio-examples",
+      "commit": "5582dbc39f241117c27c516b21243b041dc69fcb",
+      "path": "multi-track/horns.mp3",
+      "url": "https://raw.githubusercontent.com/mdn/webaudio-examples/5582dbc39f241117c27c516b21243b041dc69fcb/multi-track/horns.mp3",
+      "cohort": "mp3",
+      "bytes": 670114,
+      "sha256": "76debbdb27ae5430e1367e3dfee49cca3d00628456e9a4f49081893cd0c5d5aa",
+      "downloaded": true,
+      "seen_in_previous_reports": false,
+      "ffprobe": {
+        "programs": [],
+        "streams": [
+          {
+            "codec_name": "mp3",
+            "sample_rate": "44100",
+            "channels": 2,
+            "bit_rate": "64000"
+          }
+        ],
+        "format": {
+          "duration": "83.252250"
+        }
+      },
+      "duplicate_in_new_batch": false,
+      "content": "music / instrumental example",
+      "scene_group": "mdn-multitrack-stems"
+    },
+    "variants": [
+      {
+        "scheme": 15,
+        "original": 670114,
+        "baseline": 564364,
+        "candidate": 563812,
+        "retained": 563812,
+        "archive": "/tmp/ivo-v21-mp3-results/mdn_horns.mp3/energy-s15.ivo",
+        "fresh_cli_exact": true,
+        "archive_sha256": "ff9ceef8b49492a92fef593bf1dd6e8160f2a358209470c4cf5d9ba0523255bc"
+      },
+      {
+        "scheme": 16,
+        "original": 670114,
+        "baseline": 564364,
+        "candidate": 563902,
+        "retained": 563902,
+        "archive": "/tmp/ivo-v21-mp3-results/mdn_horns.mp3/energy-s16.ivo",
+        "fresh_cli_exact": true,
+        "archive_sha256": "b5041fc86ad9beea87e8430c8c98242a3846e8ed9deaadfe18d06e749c54900d"
+      },
+      {
+        "scheme": 17,
+        "original": 670114,
+        "baseline": 564364,
+        "candidate": 564702,
+        "retained": 564364,
+        "archive": "/tmp/ivo-v21-mp3-results/mdn_horns.mp3/energy-s17.ivo",
+        "fresh_cli_exact": true,
+        "archive_sha256": "0f19f9adb8d6df9d8212c78650b579812f93770535289f110ddefbb894a3780c"
+      },
+      {
+        "scheme": 18,
+        "original": 670114,
+        "baseline": 564364,
+        "candidate": 564460,
+        "retained": 564364,
+        "archive": "/tmp/ivo-v21-mp3-results/mdn_horns.mp3/energy-s18.ivo",
+        "fresh_cli_exact": true,
+        "archive_sha256": "95442ed1c83f328189911f8fe5288accdb072dcffc92b436736fef2f2de06aaf"
+      }
+    ],
+    "baseline_fresh_cli_exact": true,
+    "name": "mdn_horns.mp3",
+    "baseline": 564364,
+    "energy_best": 563812,
+    "scheme": 15,
+    "extra_saved_bytes": 552,
+    "forced_change": -552,
+    "historical_variants": [
+      {
+        "scheme": 0,
+        "ivo_bytes": 568152,
+        "same_process_exact_and_spectral_stats": true
+      },
+      {
+        "scheme": 1,
+        "ivo_bytes": 569102,
+        "same_process_exact_and_spectral_stats": true
+      },
+      {
+        "scheme": 2,
+        "ivo_bytes": 564364,
+        "same_process_exact_and_spectral_stats": true
+      },
+      {
+        "scheme": 3,
+        "ivo_bytes": 570808,
+        "same_process_exact_and_spectral_stats": true
+      },
+      {
+        "scheme": 4,
+        "ivo_bytes": 564757,
+        "same_process_exact_and_spectral_stats": true
+      },
+      {
+        "scheme": 5,
+        "ivo_bytes": 564486,
+        "same_process_exact_and_spectral_stats": true
+      },
+      {
+        "scheme": 6,
+        "ivo_bytes": 564863,
+        "same_process_exact_and_spectral_stats": true
+      },
+      {
+        "scheme": 7,
+        "ivo_bytes": 564767,
+        "same_process_exact_and_spectral_stats": true
+      },
+      {
+        "scheme": 8,
+        "ivo_bytes": 567888,
+        "same_process_exact_and_spectral_stats": true
+      },
+      {
+        "scheme": 9,
+        "ivo_bytes": 567617,
+        "same_process_exact_and_spectral_stats": true
+      },
+      {
+        "scheme": 10,
+        "ivo_bytes": 567994,
+        "same_process_exact_and_spectral_stats": true
+      },
+      {
+        "scheme": 11,
+        "ivo_bytes": 567898,
+        "same_process_exact_and_spectral_stats": true
+      },
+      {
+        "scheme": 12,
+        "ivo_bytes": 564983,
+        "same_process_exact_and_spectral_stats": true
+      },
+      {
+        "scheme": 13,
+        "ivo_bytes": 584798,
+        "same_process_exact_and_spectral_stats": true
+      },
+      {
+        "scheme": 14,
+        "ivo_bytes": 584330,
+        "same_process_exact_and_spectral_stats": true
+      }
+    ]
+  },
+  {
+    "source": {
+      "name": "mdn_leadguitar.mp3",
+      "repo": "mdn/webaudio-examples",
+      "commit": "5582dbc39f241117c27c516b21243b041dc69fcb",
+      "path": "multi-track/leadguitar.mp3",
+      "url": "https://raw.githubusercontent.com/mdn/webaudio-examples/5582dbc39f241117c27c516b21243b041dc69fcb/multi-track/leadguitar.mp3",
+      "cohort": "mp3",
+      "bytes": 670114,
+      "sha256": "05bdf41a05ce7297bc7ae5fc683752834011a7ebbaec3361c78360ac6adb5997",
+      "downloaded": true,
+      "seen_in_previous_reports": false,
+      "ffprobe": {
+        "programs": [],
+        "streams": [
+          {
+            "codec_name": "mp3",
+            "sample_rate": "44100",
+            "channels": 2,
+            "bit_rate": "64000"
+          }
+        ],
+        "format": {
+          "duration": "83.252250"
+        }
+      },
+      "duplicate_in_new_batch": false,
+      "content": "music / instrumental example",
+      "scene_group": "mdn-multitrack-stems"
+    },
+    "variants": [
+      {
+        "scheme": 15,
+        "original": 670114,
+        "baseline": 585627,
+        "candidate": 584755,
+        "retained": 584755,
+        "archive": "/tmp/ivo-v21-mp3-results/mdn_leadguitar.mp3/energy-s15.ivo",
+        "fresh_cli_exact": true,
+        "archive_sha256": "d1e55757eb17623758f24045af4432c7ecac91462747e7daa542ab55d14b1cc2"
+      },
+      {
+        "scheme": 16,
+        "original": 670114,
+        "baseline": 585627,
+        "candidate": 584630,
+        "retained": 584630,
+        "archive": "/tmp/ivo-v21-mp3-results/mdn_leadguitar.mp3/energy-s16.ivo",
+        "fresh_cli_exact": true,
+        "archive_sha256": "3db8279d16622f203840fe48fe34b5de557c6a17a78f958cc98e8e832b3f977f"
+      },
+      {
+        "scheme": 17,
+        "original": 670114,
+        "baseline": 585627,
+        "candidate": 584982,
+        "retained": 584982,
+        "archive": "/tmp/ivo-v21-mp3-results/mdn_leadguitar.mp3/energy-s17.ivo",
+        "fresh_cli_exact": true,
+        "archive_sha256": "527825eec4e259378d96719505ea9fe9a0d77827c3af12492a14d5feb226ec70"
+      },
+      {
+        "scheme": 18,
+        "original": 670114,
+        "baseline": 585627,
+        "candidate": 585723,
+        "retained": 585627,
+        "archive": "/tmp/ivo-v21-mp3-results/mdn_leadguitar.mp3/energy-s18.ivo",
+        "fresh_cli_exact": true,
+        "archive_sha256": "a8f0e673bc7cf2e7057c5fec6463dc7be7d5f2dea9362b27cac4b6416647e6a8"
+      }
+    ],
+    "baseline_fresh_cli_exact": true,
+    "name": "mdn_leadguitar.mp3",
+    "baseline": 585627,
+    "energy_best": 584630,
+    "scheme": 16,
+    "extra_saved_bytes": 997,
+    "forced_change": -997,
+    "historical_variants": [
+      {
+        "scheme": 0,
+        "ivo_bytes": 598389,
+        "same_process_exact_and_spectral_stats": true
+      },
+      {
+        "scheme": 1,
+        "ivo_bytes": 598273,
+        "same_process_exact_and_spectral_stats": true
+      },
+      {
+        "scheme": 2,
+        "ivo_bytes": 585627,
+        "same_process_exact_and_spectral_stats": true
+      },
+      {
+        "scheme": 3,
+        "ivo_bytes": 600463,
+        "same_process_exact_and_spectral_stats": true
+      },
+      {
+        "scheme": 4,
+        "ivo_bytes": 585708,
+        "same_process_exact_and_spectral_stats": true
+      },
+      {
+        "scheme": 5,
+        "ivo_bytes": 585859,
+        "same_process_exact_and_spectral_stats": true
+      },
+      {
+        "scheme": 6,
+        "ivo_bytes": 587373,
+        "same_process_exact_and_spectral_stats": true
+      },
+      {
+        "scheme": 7,
+        "ivo_bytes": 586796,
+        "same_process_exact_and_spectral_stats": true
+      },
+      {
+        "scheme": 8,
+        "ivo_bytes": 597707,
+        "same_process_exact_and_spectral_stats": true
+      },
+      {
+        "scheme": 9,
+        "ivo_bytes": 597858,
+        "same_process_exact_and_spectral_stats": true
+      },
+      {
+        "scheme": 10,
+        "ivo_bytes": 599372,
+        "same_process_exact_and_spectral_stats": true
+      },
+      {
+        "scheme": 11,
+        "ivo_bytes": 598795,
+        "same_process_exact_and_spectral_stats": true
+      },
+      {
+        "scheme": 12,
+        "ivo_bytes": 586750,
+        "same_process_exact_and_spectral_stats": true
+      },
+      {
+        "scheme": 13,
+        "ivo_bytes": 624668,
+        "same_process_exact_and_spectral_stats": true
+      },
+      {
+        "scheme": 14,
+        "ivo_bytes": 632884,
+        "same_process_exact_and_spectral_stats": true
+      }
+    ]
+  },
+  {
+    "source": {
+      "name": "mdn_outfoxing.mp3",
+      "repo": "mdn/webaudio-examples",
+      "commit": "5582dbc39f241117c27c516b21243b041dc69fcb",
+      "path": "audio-basics/outfoxing.mp3",
+      "url": "https://raw.githubusercontent.com/mdn/webaudio-examples/5582dbc39f241117c27c516b21243b041dc69fcb/audio-basics/outfoxing.mp3",
+      "cohort": "mp3",
+      "bytes": 1831788,
+      "sha256": "7f00803ccfb5be334f83e570aa58a1f7860e1fed9a5d8cec07b12d0e480c9fe7",
+      "downloaded": true,
+      "seen_in_previous_reports": false,
+      "ffprobe": {
+        "programs": [],
+        "streams": [
+          {
+            "codec_name": "mp3",
+            "sample_rate": "44100",
+            "channels": 2,
+            "bit_rate": "150357"
+          }
+        ],
+        "format": {
+          "duration": "97.436735"
+        }
+      },
+      "duplicate_in_new_batch": false,
+      "content": "music / instrumental example",
+      "scene_group": "mdn_outfoxing.mp3"
+    },
+    "variants": [
+      {
+        "scheme": 15,
+        "original": 1831788,
+        "baseline": 1766982,
+        "candidate": 1761583,
+        "retained": 1761583,
+        "archive": "/tmp/ivo-v21-mp3-results/mdn_outfoxing.mp3/energy-s15.ivo",
+        "fresh_cli_exact": true,
+        "archive_sha256": "edfcb8a255e0f13cf3ff9a66010f729d7daa64f0d3ce2300016f6e94a01b2e56"
+      },
+      {
+        "scheme": 16,
+        "original": 1831788,
+        "baseline": 1766982,
+        "candidate": 1760846,
+        "retained": 1760846,
+        "archive": "/tmp/ivo-v21-mp3-results/mdn_outfoxing.mp3/energy-s16.ivo",
+        "fresh_cli_exact": true,
+        "archive_sha256": "e6b24dc9cb96826a20059838d15e10e99372f5edd8885339dfa8bc4b497df0f1"
+      },
+      {
+        "scheme": 17,
+        "original": 1831788,
+        "baseline": 1766982,
+        "candidate": 1774335,
+        "retained": 1766982,
+        "archive": "/tmp/ivo-v21-mp3-results/mdn_outfoxing.mp3/energy-s17.ivo",
+        "fresh_cli_exact": true,
+        "archive_sha256": "8b2cc8c0ec38aa0cd201a61fb7b43a9532470b5cdb7dc11f0fb8cabbde70d0e9"
+      },
+      {
+        "scheme": 18,
+        "original": 1831788,
+        "baseline": 1766982,
+        "candidate": 1777839,
+        "retained": 1766982,
+        "archive": "/tmp/ivo-v21-mp3-results/mdn_outfoxing.mp3/energy-s18.ivo",
+        "fresh_cli_exact": true,
+        "archive_sha256": "e0e3af15e27b6de96867f19df63102fd493b949384d1348862ea66805144b088"
+      }
+    ],
+    "baseline_fresh_cli_exact": true,
+    "name": "mdn_outfoxing.mp3",
+    "baseline": 1766982,
+    "energy_best": 1760846,
+    "scheme": 16,
+    "extra_saved_bytes": 6136,
+    "forced_change": -6136,
+    "historical_variants": [
+      {
+        "scheme": 0,
+        "ivo_bytes": 1849472,
+        "same_process_exact_and_spectral_stats": true
+      },
+      {
+        "scheme": 1,
+        "ivo_bytes": 1855508,
+        "same_process_exact_and_spectral_stats": true
+      },
+      {
+        "scheme": 2,
+        "ivo_bytes": 1777743,
+        "same_process_exact_and_spectral_stats": true
+      },
+      {
+        "scheme": 3,
+        "ivo_bytes": 1864006,
+        "same_process_exact_and_spectral_stats": true
+      },
+      {
+        "scheme": 4,
+        "ivo_bytes": 1778831,
+        "same_process_exact_and_spectral_stats": true
+      },
+      {
+        "scheme": 5,
+        "ivo_bytes": 1766982,
+        "same_process_exact_and_spectral_stats": true
+      },
+      {
+        "scheme": 6,
+        "ivo_bytes": 1782878,
+        "same_process_exact_and_spectral_stats": true
+      },
+      {
+        "scheme": 7,
+        "ivo_bytes": 1768612,
+        "same_process_exact_and_spectral_stats": true
+      },
+      {
+        "scheme": 8,
+        "ivo_bytes": 1803348,
+        "same_process_exact_and_spectral_stats": true
+      },
+      {
+        "scheme": 9,
+        "ivo_bytes": 1791499,
+        "same_process_exact_and_spectral_stats": true
+      },
+      {
+        "scheme": 10,
+        "ivo_bytes": 1807395,
+        "same_process_exact_and_spectral_stats": true
+      },
+      {
+        "scheme": 11,
+        "ivo_bytes": 1793129,
+        "same_process_exact_and_spectral_stats": true
+      },
+      {
+        "scheme": 12,
+        "ivo_bytes": 1778539,
+        "same_process_exact_and_spectral_stats": true
+      },
+      {
+        "scheme": 13,
+        "ivo_bytes": 1905148,
+        "same_process_exact_and_spectral_stats": true
+      },
+      {
+        "scheme": 14,
+        "ivo_bytes": 1903200,
+        "same_process_exact_and_spectral_stats": true
+      }
+    ]
+  },
+  {
+    "source": {
+      "name": "mdn_viper.mp3",
+      "repo": "mdn/webaudio-examples",
+      "commit": "5582dbc39f241117c27c516b21243b041dc69fcb",
+      "path": "audio-analyser/viper.mp3",
+      "url": "https://raw.githubusercontent.com/mdn/webaudio-examples/5582dbc39f241117c27c516b21243b041dc69fcb/audio-analyser/viper.mp3",
+      "cohort": "mp3",
+      "bytes": 654942,
+      "sha256": "2850fdcd9b90b8de55acf01856bbfc39ff8b704edc522cadace27af5ba17224b",
+      "downloaded": true,
+      "seen_in_previous_reports": false,
+      "ffprobe": {
+        "programs": [],
+        "streams": [
+          {
+            "codec_name": "mp3",
+            "sample_rate": "44100",
+            "channels": 2,
+            "bit_rate": "128000"
+          }
+        ],
+        "format": {
+          "duration": "40.933875"
+        }
+      },
+      "duplicate_in_new_batch": false,
+      "content": "music / instrumental example",
+      "scene_group": "mdn_viper.mp3"
+    },
+    "variants": [
+      {
+        "scheme": 15,
+        "original": 654942,
+        "baseline": 634697,
+        "candidate": 631121,
+        "retained": 631121,
+        "archive": "/tmp/ivo-v21-mp3-results/mdn_viper.mp3/energy-s15.ivo",
+        "fresh_cli_exact": true,
+        "archive_sha256": "4db47414c1a88060c4013c2bd43a3d0a994c49a3344078d33a8da6e2ef5f3eca"
+      },
+      {
+        "scheme": 16,
+        "original": 654942,
+        "baseline": 634697,
+        "candidate": 634032,
+        "retained": 634032,
+        "archive": "/tmp/ivo-v21-mp3-results/mdn_viper.mp3/energy-s16.ivo",
+        "fresh_cli_exact": true,
+        "archive_sha256": "4f6eb84301308f5366b19a0e6da87887a4ae15da817c292b7ca8b06ccd17f9e1"
+      },
+      {
+        "scheme": 17,
+        "original": 654942,
+        "baseline": 634697,
+        "candidate": 634588,
+        "retained": 634588,
+        "archive": "/tmp/ivo-v21-mp3-results/mdn_viper.mp3/energy-s17.ivo",
+        "fresh_cli_exact": true,
+        "archive_sha256": "945fcdd41e2ce6e054b5e54d8bea3ba4f33547935fbffccb485074af5a746c2b"
+      },
+      {
+        "scheme": 18,
+        "original": 654942,
+        "baseline": 634697,
+        "candidate": 635783,
+        "retained": 634697,
+        "archive": "/tmp/ivo-v21-mp3-results/mdn_viper.mp3/energy-s18.ivo",
+        "fresh_cli_exact": true,
+        "archive_sha256": "97130c409d2d2a14a4edf2400e987bcab5b9e85c1463493cbd24851a05112853"
+      }
+    ],
+    "baseline_fresh_cli_exact": true,
+    "name": "mdn_viper.mp3",
+    "baseline": 634697,
+    "energy_best": 631121,
+    "scheme": 15,
+    "extra_saved_bytes": 3576,
+    "forced_change": -3576,
+    "historical_variants": [
+      {
+        "scheme": 0,
+        "ivo_bytes": 659495,
+        "same_process_exact_and_spectral_stats": true
+      },
+      {
+        "scheme": 1,
+        "ivo_bytes": 659179,
+        "same_process_exact_and_spectral_stats": true
+      },
+      {
+        "scheme": 2,
+        "ivo_bytes": 635687,
+        "same_process_exact_and_spectral_stats": true
+      },
+      {
+        "scheme": 3,
+        "ivo_bytes": 661270,
+        "same_process_exact_and_spectral_stats": true
+      },
+      {
+        "scheme": 4,
+        "ivo_bytes": 635912,
+        "same_process_exact_and_spectral_stats": true
+      },
+      {
+        "scheme": 5,
+        "ivo_bytes": 635703,
+        "same_process_exact_and_spectral_stats": true
+      },
+      {
+        "scheme": 6,
+        "ivo_bytes": 637075,
+        "same_process_exact_and_spectral_stats": true
+      },
+      {
+        "scheme": 7,
+        "ivo_bytes": 636250,
+        "same_process_exact_and_spectral_stats": true
+      },
+      {
+        "scheme": 8,
+        "ivo_bytes": 645583,
+        "same_process_exact_and_spectral_stats": true
+      },
+      {
+        "scheme": 9,
+        "ivo_bytes": 645374,
+        "same_process_exact_and_spectral_stats": true
+      },
+      {
+        "scheme": 10,
+        "ivo_bytes": 646746,
+        "same_process_exact_and_spectral_stats": true
+      },
+      {
+        "scheme": 11,
+        "ivo_bytes": 645921,
+        "same_process_exact_and_spectral_stats": true
+      },
+      {
+        "scheme": 12,
+        "ivo_bytes": 634697,
+        "same_process_exact_and_spectral_stats": true
+      },
+      {
+        "scheme": 13,
+        "ivo_bytes": 684286,
+        "same_process_exact_and_spectral_stats": true
+      },
+      {
+        "scheme": 14,
+        "ivo_bytes": 676727,
+        "same_process_exact_and_spectral_stats": true
+      }
+    ]
+  }
+]

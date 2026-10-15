@@ -1,0 +1,7 @@
+INPUT /tmp/ivo-audio-corpus/10-seconds-of-silence.mp3 bytes=46208 sha=8d0ffce3eaa1a14489d3cd3745c9ac35652f2af7562a81ca45ff925256332a16 store=46278
+SIDE_PORTFOLIO direct=884 transposed=854 selected=true
+BASE v1=36330 v3=36301 exact=true
+MAIN_SPLIT mode=1 used_raw=7940 unused_raw=438 coded=8034
+RESULT mode=1 ivo=36284 delta_vs_v3=-17 exact=true
+MAIN_SPLIT mode=2 used_raw=7878 unused_raw=500 coded=8021
+RESULT mode=2 ivo=36271 delta_vs_v3=-30 exact=true

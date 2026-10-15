@@ -1,0 +1,1206 @@
+ffmpeg version 6.1.1-3ubuntu5 Copyright (c) 2000-2023 the FFmpeg developers
+  built with gcc 13 (Ubuntu 13.2.0-23ubuntu3)
+  configuration: --prefix=/usr --extra-version=3ubuntu5 --toolchain=hardened --libdir=/usr/lib/x86_64-linux-gnu --incdir=/usr/include/x86_64-linux-gnu --arch=amd64 --enable-gpl --disable-stripping --disable-omx --enable-gnutls --enable-libaom --enable-libass --enable-libbs2b --enable-libcaca --enable-libcdio --enable-libcodec2 --enable-libdav1d --enable-libflite --enable-libfontconfig --enable-libfreetype --enable-libfribidi --enable-libglslang --enable-libgme --enable-libgsm --enable-libharfbuzz --enable-libmp3lame --enable-libmysofa --enable-libopenjpeg --enable-libopenmpt --enable-libopus --enable-librubberband --enable-libshine --enable-libsnappy --enable-libsoxr --enable-libspeex --enable-libtheora --enable-libtwolame --enable-libvidstab --enable-libvorbis --enable-libvpx --enable-libwebp --enable-libx265 --enable-libxml2 --enable-libxvid --enable-libzimg --enable-openal --enable-opencl --enable-opengl --disable-sndio --enable-libvpl --disable-libmfx --enable-libdc1394 --enable-libdrm --enable-libiec61883 --enable-chromaprint --enable-frei0r --enable-ladspa --enable-libbluray --enable-libjack --enable-libpulse --enable-librabbitmq --enable-librist --enable-libsrt --enable-libssh --enable-libsvtav1 --enable-libx264 --enable-libzmq --enable-libzvbi --enable-lv2 --enable-sdl2 --enable-libplacebo --enable-librav1e --enable-pocketsphinx --enable-librsvg --enable-libjxl --enable-shared
+  libavutil      58. 29.100 / 58. 29.100
+  libavcodec     60. 31.102 / 60. 31.102
+  libavformat    60. 16.100 / 60. 16.100
+  libavdevice    60.  3.100 / 60.  3.100
+  libavfilter     9. 12.100 /  9. 12.100
+  libswscale      7.  5.100 /  7.  5.100
+  libswresample   4. 12.100 /  4. 12.100
+  libpostproc    57.  3.100 / 57.  3.100
+Splitting the commandline.
+Reading option '-v' ... matched as option 'v' (set logging level) with argument 'trace'.
+Reading option '-i' ... matched as output url with argument '/tmp/ivo-cabac-prefix/flat.mp4'.
+Reading option '-map' ... matched as option 'map' (set input stream mapping) with argument '0:v:0'.
+Reading option '-c' ... matched as option 'c' (codec name) with argument 'copy'.
+Reading option '-bsf:v' ... matched as option 'bsf' (A comma-separated list of bitstream filters) with argument 'trace_headers'.
+Reading option '-f' ... matched as option 'f' (force format) with argument 'null'.
+Reading option '-' ... matched as output url.
+Finished splitting the commandline.
+Parsing a group of options: global .
+Applying option v (set logging level) with argument trace.
+Successfully parsed a group of options.
+Parsing a group of options: input url /tmp/ivo-cabac-prefix/flat.mp4.
+Successfully parsed a group of options.
+Opening an input file: /tmp/ivo-cabac-prefix/flat.mp4.
+[AVFormatContext @ 0x555777b03c80] Opening '/tmp/ivo-cabac-prefix/flat.mp4' for reading
+[file @ 0x555777ac1540] Setting default whitelist 'file,crypto,data'
+Probing mov,mp4,m4a,3gp,3g2,mj2 score:100 size:1635
+[mov,mp4,m4a,3gp,3g2,mj2 @ 0x555777b03c80] Format mov,mp4,m4a,3gp,3g2,mj2 probed with size=2048 and score=100
+[mov,mp4,m4a,3gp,3g2,mj2 @ 0x555777b03c80] type:'ftyp' parent:'root' sz: 32 8 1635
+[mov,mp4,m4a,3gp,3g2,mj2 @ 0x555777b03c80] ISO: File Type Major Brand: isom
+[mov,mp4,m4a,3gp,3g2,mj2 @ 0x555777b03c80] type:'free' parent:'root' sz: 8 40 1635
+[mov,mp4,m4a,3gp,3g2,mj2 @ 0x555777b03c80] type:'mdat' parent:'root' sz: 745 48 1635
+[mov,mp4,m4a,3gp,3g2,mj2 @ 0x555777b03c80] type:'moov' parent:'root' sz: 850 793 1635
+[mov,mp4,m4a,3gp,3g2,mj2 @ 0x555777b03c80] type:'mvhd' parent:'moov' sz: 108 8 842
+[mov,mp4,m4a,3gp,3g2,mj2 @ 0x555777b03c80] time scale = 1000
+[mov,mp4,m4a,3gp,3g2,mj2 @ 0x555777b03c80] type:'trak' parent:'moov' sz: 636 116 842
+[mov,mp4,m4a,3gp,3g2,mj2 @ 0x555777b03c80] type:'tkhd' parent:'trak' sz: 92 8 628
+[mov,mp4,m4a,3gp,3g2,mj2 @ 0x555777b03c80] type:'edts' parent:'trak' sz: 36 100 628
+[mov,mp4,m4a,3gp,3g2,mj2 @ 0x555777b03c80] type:'elst' parent:'edts' sz: 28 8 28
+[mov,mp4,m4a,3gp,3g2,mj2 @ 0x555777b03c80] track[0].edit_count = 1
+[mov,mp4,m4a,3gp,3g2,mj2 @ 0x555777b03c80] duration=1000 time=0 rate=1.000000
+[mov,mp4,m4a,3gp,3g2,mj2 @ 0x555777b03c80] type:'mdia' parent:'trak' sz: 500 136 628
+[mov,mp4,m4a,3gp,3g2,mj2 @ 0x555777b03c80] type:'mdhd' parent:'mdia' sz: 32 8 492
+[mov,mp4,m4a,3gp,3g2,mj2 @ 0x555777b03c80] type:'hdlr' parent:'mdia' sz: 45 40 492
+[mov,mp4,m4a,3gp,3g2,mj2 @ 0x555777b03c80] ctype=[0][0][0][0]
+[mov,mp4,m4a,3gp,3g2,mj2 @ 0x555777b03c80] stype=vide
+[mov,mp4,m4a,3gp,3g2,mj2 @ 0x555777b03c80] type:'minf' parent:'mdia' sz: 415 85 492
+[mov,mp4,m4a,3gp,3g2,mj2 @ 0x555777b03c80] type:'vmhd' parent:'minf' sz: 20 8 407
+[mov,mp4,m4a,3gp,3g2,mj2 @ 0x555777b03c80] type:'dinf' parent:'minf' sz: 36 28 407
+[mov,mp4,m4a,3gp,3g2,mj2 @ 0x555777b03c80] type:'dref' parent:'dinf' sz: 28 8 28
+[mov,mp4,m4a,3gp,3g2,mj2 @ 0x555777b03c80] Unknown dref type 0x206c7275 size 12
+[mov,mp4,m4a,3gp,3g2,mj2 @ 0x555777b03c80] type:'stbl' parent:'minf' sz: 351 64 407
+[mov,mp4,m4a,3gp,3g2,mj2 @ 0x555777b03c80] type:'stsd' parent:'stbl' sz: 191 8 343
+[mov,mp4,m4a,3gp,3g2,mj2 @ 0x555777b03c80] size=175 4CC=avc1 codec_type=0
+[mov,mp4,m4a,3gp,3g2,mj2 @ 0x555777b03c80] type:'avcC' parent:'stsd' sz: 53 8 89
+[mov,mp4,m4a,3gp,3g2,mj2 @ 0x555777b03c80] type:'pasp' parent:'stsd' sz: 16 61 89
+[mov,mp4,m4a,3gp,3g2,mj2 @ 0x555777b03c80] type:'btrt' parent:'stsd' sz: 20 77 89
+[mov,mp4,m4a,3gp,3g2,mj2 @ 0x555777b03c80] type:'stts' parent:'stbl' sz: 24 199 343
+[mov,mp4,m4a,3gp,3g2,mj2 @ 0x555777b03c80] track[0].stts.entries = 1
+[mov,mp4,m4a,3gp,3g2,mj2 @ 0x555777b03c80] sample_count=10, sample_duration=1024
+[mov,mp4,m4a,3gp,3g2,mj2 @ 0x555777b03c80] type:'stss' parent:'stbl' sz: 20 223 343
+[mov,mp4,m4a,3gp,3g2,mj2 @ 0x555777b03c80] keyframe_count = 1
+[mov,mp4,m4a,3gp,3g2,mj2 @ 0x555777b03c80] type:'stsc' parent:'stbl' sz: 28 243 343
+[mov,mp4,m4a,3gp,3g2,mj2 @ 0x555777b03c80] track[0].stsc.entries = 1
+[mov,mp4,m4a,3gp,3g2,mj2 @ 0x555777b03c80] type:'stsz' parent:'stbl' sz: 60 271 343
+[mov,mp4,m4a,3gp,3g2,mj2 @ 0x555777b03c80] sample_size = 0 sample_count = 10
+[mov,mp4,m4a,3gp,3g2,mj2 @ 0x555777b03c80] type:'stco' parent:'stbl' sz: 20 331 343
+[mov,mp4,m4a,3gp,3g2,mj2 @ 0x555777b03c80] AVIndex stream 0, sample 0, offset 30, dts 0, size 599, distance 0, keyframe 1
+[mov,mp4,m4a,3gp,3g2,mj2 @ 0x555777b03c80] AVIndex stream 0, sample 1, offset 287, dts 1024, size 11, distance 1, keyframe 0
+[mov,mp4,m4a,3gp,3g2,mj2 @ 0x555777b03c80] AVIndex stream 0, sample 2, offset 292, dts 2048, size 15, distance 2, keyframe 0
+[mov,mp4,m4a,3gp,3g2,mj2 @ 0x555777b03c80] AVIndex stream 0, sample 3, offset 2a1, dts 3072, size 16, distance 3, keyframe 0
+[mov,mp4,m4a,3gp,3g2,mj2 @ 0x555777b03c80] AVIndex stream 0, sample 4, offset 2b1, dts 4096, size 16, distance 4, keyframe 0
+[mov,mp4,m4a,3gp,3g2,mj2 @ 0x555777b03c80] AVIndex stream 0, sample 5, offset 2c1, dts 5120, size 16, distance 5, keyframe 0
+[mov,mp4,m4a,3gp,3g2,mj2 @ 0x555777b03c80] AVIndex stream 0, sample 6, offset 2d1, dts 6144, size 16, distance 6, keyframe 0
+[mov,mp4,m4a,3gp,3g2,mj2 @ 0x555777b03c80] AVIndex stream 0, sample 7, offset 2e1, dts 7168, size 16, distance 7, keyframe 0
+[mov,mp4,m4a,3gp,3g2,mj2 @ 0x555777b03c80] AVIndex stream 0, sample 8, offset 2f1, dts 8192, size 16, distance 8, keyframe 0
+[mov,mp4,m4a,3gp,3g2,mj2 @ 0x555777b03c80] AVIndex stream 0, sample 9, offset 301, dts 9216, size 16, distance 9, keyframe 0
+[mov,mp4,m4a,3gp,3g2,mj2 @ 0x555777b03c80] Processing st: 0, edit list 0 - media time: 0, duration: 10240
+[mov,mp4,m4a,3gp,3g2,mj2 @ 0x555777b03c80] type:'udta' parent:'moov' sz: 98 752 842
+[mov,mp4,m4a,3gp,3g2,mj2 @ 0x555777b03c80] type:'meta' parent:'udta' sz: 90 8 90
+[mov,mp4,m4a,3gp,3g2,mj2 @ 0x555777b03c80] type:'hdlr' parent:'meta' sz: 33 8 78
+[mov,mp4,m4a,3gp,3g2,mj2 @ 0x555777b03c80] ctype=[0][0][0][0]
+[mov,mp4,m4a,3gp,3g2,mj2 @ 0x555777b03c80] stype=mdir
+[mov,mp4,m4a,3gp,3g2,mj2 @ 0x555777b03c80] type:'ilst' parent:'meta' sz: 45 41 78
+[mov,mp4,m4a,3gp,3g2,mj2 @ 0x555777b03c80] type:'[169]too' parent:'ilst' sz: 37 8 37
+[mov,mp4,m4a,3gp,3g2,mj2 @ 0x555777b03c80] on_parse_exit_offset=1635
+[mov,mp4,m4a,3gp,3g2,mj2 @ 0x555777b03c80] Before avformat_find_stream_info() pos: 1635 bytes read:1635 seeks:0 nb_streams:1
+[h264 @ 0x555777b04ac0] nal_unit_type: 7(SPS), nal_ref_idc: 3
+[h264 @ 0x555777b04ac0] Decoding VUI
+[h264 @ 0x555777b04ac0] nal_unit_type: 8(PPS), nal_ref_idc: 3
+[mov,mp4,m4a,3gp,3g2,mj2 @ 0x555777b03c80] stream 0, sample 0, dts 0
+[h264 @ 0x555777b04ac0] nal_unit_type: 7(SPS), nal_ref_idc: 3
+[h264 @ 0x555777b04ac0] Decoding VUI
+[h264 @ 0x555777b04ac0] nal_unit_type: 8(PPS), nal_ref_idc: 3
+[h264 @ 0x555777b04ac0] nal_unit_type: 6(SEI), nal_ref_idc: 0
+[h264 @ 0x555777b04ac0] nal_unit_type: 5(IDR), nal_ref_idc: 3
+[h264 @ 0x555777b04ac0] Format yuv420p chosen by get_format().
+[h264 @ 0x555777b04ac0] Reinit context to 64x64, pix_fmt: yuv420p
+[mov,mp4,m4a,3gp,3g2,mj2 @ 0x555777b03c80] All info found
+[mov,mp4,m4a,3gp,3g2,mj2 @ 0x555777b03c80] stream 0: start_time: 0 duration: 1
+[mov,mp4,m4a,3gp,3g2,mj2 @ 0x555777b03c80] format: start_time: 0 duration: 1 (estimate from stream) bitrate=13 kb/s
+[mov,mp4,m4a,3gp,3g2,mj2 @ 0x555777b03c80] After avformat_find_stream_info() pos: 647 bytes read:1635 seeks:0 frames:1
+Input #0, mov,mp4,m4a,3gp,3g2,mj2, from '/tmp/ivo-cabac-prefix/flat.mp4':
+  Metadata:
+    major_brand     : isom
+    minor_version   : 512
+    compatible_brands: isomiso2avc1mp41
+    encoder         : Lavf60.16.100
+  Duration: 00:00:01.00, start: 0.000000, bitrate: 13 kb/s
+  Stream #0:0[0x1](und), 1, 1/10240: Video: h264 (High), 1 reference frame (avc1 / 0x31637661), yuv420p(progressive, left), 64x64 [SAR 1:1 DAR 1:1], 0/1, 5 kb/s, 10 fps, 10 tbr, 10240 tbn (default)
+    Metadata:
+      handler_name    : VideoHandler
+      vendor_id       : [0][0][0][0]
+      encoder         : Lavc60.31.102 libx264
+Successfully opened the file.
+Parsing a group of options: output url -.
+Applying option map (set input stream mapping) with argument 0:v:0.
+Applying option c (codec name) with argument copy.
+Applying option bsf:v (A comma-separated list of bitstream filters) with argument trace_headers.
+Applying option f (force format) with argument null.
+Successfully parsed a group of options.
+Opening an output file: -.
+[out#0/null @ 0x555777b06180] Adding streams from explicit maps...
+[vost#0:0/copy @ 0x555777b81c80] Created video stream from input stream 0:0
+[trace_headers @ 0x555777b7f400] Extradata
+[trace_headers @ 0x555777b7f400] nal_unit_type: 7(SPS), nal_ref_idc: 3
+[trace_headers @ 0x555777b7f400] nal_unit_type: 8(PPS), nal_ref_idc: 3
+[trace_headers @ 0x555777b7f400] 4 bytes left at end of AVCC header.
+[trace_headers @ 0x555777b7f400] Sequence Parameter Set
+[trace_headers @ 0x555777b7f400] 0           forbidden_zero_bit                                          0 = 0
+[trace_headers @ 0x555777b7f400] 1           nal_ref_idc                                                11 = 3
+[trace_headers @ 0x555777b7f400] 3           nal_unit_type                                           00111 = 7
+[trace_headers @ 0x555777b7f400] 8           profile_idc                                          01100100 = 100
+[trace_headers @ 0x555777b7f400] 16          constraint_set0_flag                                        0 = 0
+[trace_headers @ 0x555777b7f400] 17          constraint_set1_flag                                        0 = 0
+[trace_headers @ 0x555777b7f400] 18          constraint_set2_flag                                        0 = 0
+[trace_headers @ 0x555777b7f400] 19          constraint_set3_flag                                        0 = 0
+[trace_headers @ 0x555777b7f400] 20          constraint_set4_flag                                        0 = 0
+[trace_headers @ 0x555777b7f400] 21          constraint_set5_flag                                        0 = 0
+[trace_headers @ 0x555777b7f400] 22          reserved_zero_2bits                                        00 = 0
+[trace_headers @ 0x555777b7f400] 24          level_idc                                            00001010 = 10
+[trace_headers @ 0x555777b7f400] 32          seq_parameter_set_id                                        1 = 0
+[trace_headers @ 0x555777b7f400] 33          chroma_format_idc                                         010 = 1
+[trace_headers @ 0x555777b7f400] 36          bit_depth_luma_minus8                                       1 = 0
+[trace_headers @ 0x555777b7f400] 37          bit_depth_chroma_minus8                                     1 = 0
+[trace_headers @ 0x555777b7f400] 38          qpprime_y_zero_transform_bypass_flag                        0 = 0
+[trace_headers @ 0x555777b7f400] 39          seq_scaling_matrix_present_flag                             0 = 0
+[trace_headers @ 0x555777b7f400] 40          log2_max_frame_num_minus4                                   1 = 0
+[trace_headers @ 0x555777b7f400] 41          pic_order_cnt_type                                        011 = 2
+[trace_headers @ 0x555777b7f400] 44          max_num_ref_frames                                      00100 = 3
+[trace_headers @ 0x555777b7f400] 49          gaps_in_frame_num_allowed_flag                              0 = 0
+[trace_headers @ 0x555777b7f400] 50          pic_width_in_mbs_minus1                                 00100 = 3
+[trace_headers @ 0x555777b7f400] 55          pic_height_in_map_units_minus1                          00100 = 3
+[trace_headers @ 0x555777b7f400] 60          frame_mbs_only_flag                                         1 = 1
+[trace_headers @ 0x555777b7f400] 61          direct_8x8_inference_flag                                   1 = 1
+[trace_headers @ 0x555777b7f400] 62          frame_cropping_flag                                         0 = 0
+[trace_headers @ 0x555777b7f400] 63          vui_parameters_present_flag                                 1 = 1
+[trace_headers @ 0x555777b7f400] 64          aspect_ratio_info_present_flag                              1 = 1
+[trace_headers @ 0x555777b7f400] 65          aspect_ratio_idc                                     00000001 = 1
+[trace_headers @ 0x555777b7f400] 73          overscan_info_present_flag                                  0 = 0
+[trace_headers @ 0x555777b7f400] 74          video_signal_type_present_flag                              0 = 0
+[trace_headers @ 0x555777b7f400] 75          chroma_loc_info_present_flag                                0 = 0
+[trace_headers @ 0x555777b7f400] 76          timing_info_present_flag                                    1 = 1
+[trace_headers @ 0x555777b7f400] 77          num_units_in_tick            00000000000000000000000000000001 = 1
+[trace_headers @ 0x555777b7f400] 109         time_scale                   00000000000000000000000000010100 = 20
+[trace_headers @ 0x555777b7f400] 141         fixed_frame_rate_flag                                       0 = 0
+[trace_headers @ 0x555777b7f400] 142         nal_hrd_parameters_present_flag                             0 = 0
+[trace_headers @ 0x555777b7f400] 143         vcl_hrd_parameters_present_flag                             0 = 0
+[trace_headers @ 0x555777b7f400] 144         pic_struct_present_flag                                     0 = 0
+[trace_headers @ 0x555777b7f400] 145         bitstream_restriction_flag                                  1 = 1
+[trace_headers @ 0x555777b7f400] 146         motion_vectors_over_pic_boundaries_flag                     1 = 1
+[trace_headers @ 0x555777b7f400] 147         max_bytes_per_pic_denom                                     1 = 0
+[trace_headers @ 0x555777b7f400] 148         max_bits_per_mb_denom                                       1 = 0
+[trace_headers @ 0x555777b7f400] 149         log2_max_mv_length_horizontal                         0001001 = 8
+[trace_headers @ 0x555777b7f400] 156         log2_max_mv_length_vertical                           0001001 = 8
+[trace_headers @ 0x555777b7f400] 163         max_num_reorder_frames                                      1 = 0
+[trace_headers @ 0x555777b7f400] 164         max_dec_frame_buffering                                 00100 = 3
+[trace_headers @ 0x555777b7f400] 169         rbsp_stop_one_bit                                           1 = 1
+[trace_headers @ 0x555777b7f400] 170         rbsp_alignment_zero_bit                                     0 = 0
+[trace_headers @ 0x555777b7f400] 171         rbsp_alignment_zero_bit                                     0 = 0
+[trace_headers @ 0x555777b7f400] 172         rbsp_alignment_zero_bit                                     0 = 0
+[trace_headers @ 0x555777b7f400] 173         rbsp_alignment_zero_bit                                     0 = 0
+[trace_headers @ 0x555777b7f400] 174         rbsp_alignment_zero_bit                                     0 = 0
+[trace_headers @ 0x555777b7f400] 175         rbsp_alignment_zero_bit                                     0 = 0
+[trace_headers @ 0x555777b7f400] Picture Parameter Set
+[trace_headers @ 0x555777b7f400] 0           forbidden_zero_bit                                          0 = 0
+[trace_headers @ 0x555777b7f400] 1           nal_ref_idc                                                11 = 3
+[trace_headers @ 0x555777b7f400] 3           nal_unit_type                                           01000 = 8
+[trace_headers @ 0x555777b7f400] 8           pic_parameter_set_id                                        1 = 0
+[trace_headers @ 0x555777b7f400] 9           seq_parameter_set_id                                        1 = 0
+[trace_headers @ 0x555777b7f400] 10          entropy_coding_mode_flag                                    1 = 1
+[trace_headers @ 0x555777b7f400] 11          bottom_field_pic_order_in_frame_present_flag                0 = 0
+[trace_headers @ 0x555777b7f400] 12          num_slice_groups_minus1                                     1 = 0
+[trace_headers @ 0x555777b7f400] 13          num_ref_idx_l0_default_active_minus1                      011 = 2
+[trace_headers @ 0x555777b7f400] 16          num_ref_idx_l1_default_active_minus1                        1 = 0
+[trace_headers @ 0x555777b7f400] 17          weighted_pred_flag                                          1 = 1
+[trace_headers @ 0x555777b7f400] 18          weighted_bipred_idc                                        00 = 0
+[trace_headers @ 0x555777b7f400] 20          pic_init_qp_minus26                                   0001001 = -4
+[trace_headers @ 0x555777b7f400] 27          pic_init_qs_minus26                                         1 = 0
+[trace_headers @ 0x555777b7f400] 28          chroma_qp_index_offset                                  00101 = -2
+[trace_headers @ 0x555777b7f400] 33          deblocking_filter_control_present_flag                      1 = 1
+[trace_headers @ 0x555777b7f400] 34          constrained_intra_pred_flag                                 0 = 0
+[trace_headers @ 0x555777b7f400] 35          redundant_pic_cnt_present_flag                              0 = 0
+[trace_headers @ 0x555777b7f400] 36          transform_8x8_mode_flag                                     1 = 1
+[trace_headers @ 0x555777b7f400] 37          pic_scaling_matrix_present_flag                             0 = 0
+[trace_headers @ 0x555777b7f400] 38          second_chroma_qp_index_offset                           00101 = -2
+[trace_headers @ 0x555777b7f400] 43          rbsp_stop_one_bit                                           1 = 1
+[trace_headers @ 0x555777b7f400] 44          rbsp_alignment_zero_bit                                     0 = 0
+[trace_headers @ 0x555777b7f400] 45          rbsp_alignment_zero_bit                                     0 = 0
+[trace_headers @ 0x555777b7f400] 46          rbsp_alignment_zero_bit                                     0 = 0
+[trace_headers @ 0x555777b7f400] 47          rbsp_alignment_zero_bit                                     0 = 0
+Output #0, null, to 'pipe:':
+  Metadata:
+    major_brand     : isom
+    minor_version   : 512
+    compatible_brands: isomiso2avc1mp41
+    encoder         : Lavf60.16.100
+  Stream #0:0(und), 0, 1/10240: Video: h264 (High), 1 reference frame (avc1 / 0x31637661), yuv420p(progressive, left), 64x64 (0x0) [SAR 1:1 DAR 1:1], 0/1, q=2-31, 5 kb/s, 10 fps, 10 tbr, 10240 tbn (default)
+    Metadata:
+      handler_name    : VideoHandler
+      vendor_id       : [0][0][0][0]
+      encoder         : Lavc60.31.102 libx264
+Successfully opened the file.
+Stream mapping:
+  Stream #0:0 -> #0:0 (copy)
+Press [q] to stop, [?] for help
+[mov,mp4,m4a,3gp,3g2,mj2 @ 0x555777b03c80] stream 0, sample 1, dts 100000
+[trace_headers @ 0x555777b7f400] Packet: 599 bytes, key frame, pts 0, dts 0, duration 1024.
+[trace_headers @ 0x555777b7f400] nal_unit_type: 6(SEI), nal_ref_idc: 0
+[mov,mp4,m4a,3gp,3g2,mj2 @ 0x555777b03c80] stream 0, sample 2, dts 200000
+[trace_headers @ 0x555777b7f400] nal_unit_type: 5(IDR), nal_ref_idc: 3
+[trace_headers @ 0x555777b7f400] Supplemental Enhancement Information
+[trace_headers @ 0x555777b7f400] 0           forbidden_zero_bit                                          0 = 0
+[trace_headers @ 0x555777b7f400] 1           nal_ref_idc                                                00 = 0
+[trace_headers @ 0x555777b7f400] 3           nal_unit_type                                           00110 = 6
+[trace_headers @ 0x555777b7f400] 8           last_payload_type_byte                               00000101 = 5
+[trace_headers @ 0x555777b7f400] 16          ff_byte                                              11111111 = 255
+[trace_headers @ 0x555777b7f400] 24          ff_byte                                              11111111 = 255
+[trace_headers @ 0x555777b7f400] 32          last_payload_size_byte                               00101111 = 47
+[trace_headers @ 0x555777b7f400] User Data Unregistered
+[trace_headers @ 0x555777b7f400] 40          uuid_iso_iec_11578[0]                                11011100 = 220
+[trace_headers @ 0x555777b7f400] 48          uuid_iso_iec_11578[1]                                01000101 = 69
+[trace_headers @ 0x555777b7f400] 56          uuid_iso_iec_11578[2]                                11101001 = 233
+[trace_headers @ 0x555777b7f400] 64          uuid_iso_iec_11578[3]                                10111101 = 189
+[trace_headers @ 0x555777b7f400] 72          uuid_iso_iec_11578[4]                                11100110 = 230
+[trace_headers @ 0x555777b7f400] 80          uuid_iso_iec_11578[5]                                11011001 = 217
+[trace_headers @ 0x555777b7f400] 88          uuid_iso_iec_11578[6]                                01001000 = 72
+[trace_headers @ 0x555777b7f400] 96          uuid_iso_iec_11578[7]                                10110111 = 183
+[trace_headers @ 0x555777b7f400] 104         uuid_iso_iec_11578[8]                                10010110 = 150
+[trace_headers @ 0x555777b7f400] 112         uuid_iso_iec_11578[9]                                00101100 = 44
+[trace_headers @ 0x555777b7f400] 120         uuid_iso_iec_11578[10]                               11011000 = 216
+[trace_headers @ 0x555777b7f400] 128         uuid_iso_iec_11578[11]                               00100000 = 32
+[trace_headers @ 0x555777b7f400] 136         uuid_iso_iec_11578[12]                               11011001 = 217
+[trace_headers @ 0x555777b7f400] 144         uuid_iso_iec_11578[13]                               00100011 = 35
+[trace_headers @ 0x555777b7f400] 152         uuid_iso_iec_11578[14]                               11101110 = 238
+[trace_headers @ 0x555777b7f400] 160         uuid_iso_iec_11578[15]                               11101111 = 239
+[trace_headers @ 0x555777b7f400] 168         user_data_payload_byte[0]                            01111000 = 120
+[trace_headers @ 0x555777b7f400] 176         user_data_payload_byte[1]                            00110010 = 50
+[trace_headers @ 0x555777b7f400] 184         user_data_payload_byte[2]                            00110110 = 54
+[trace_headers @ 0x555777b7f400] 192         user_data_payload_byte[3]                            00110100 = 52
+[trace_headers @ 0x555777b7f400] 200         user_data_payload_byte[4]                            00100000 = 32
+[trace_headers @ 0x555777b7f400] 208         user_data_payload_byte[5]                            00101101 = 45
+[trace_headers @ 0x555777b7f400] 216         user_data_payload_byte[6]                            00100000 = 32
+[trace_headers @ 0x555777b7f400] 224         user_data_payload_byte[7]                            01100011 = 99
+[trace_headers @ 0x555777b7f400] 232         user_data_payload_byte[8]                            01101111 = 111
+[trace_headers @ 0x555777b7f400] 240         user_data_payload_byte[9]                            01110010 = 114
+[trace_headers @ 0x555777b7f400] 248         user_data_payload_byte[10]                           01100101 = 101
+[trace_headers @ 0x555777b7f400] 256         user_data_payload_byte[11]                           00100000 = 32
+[trace_headers @ 0x555777b7f400] 264         user_data_payload_byte[12]                           00110001 = 49
+[trace_headers @ 0x555777b7f400] 272         user_data_payload_byte[13]                           00110110 = 54
+[trace_headers @ 0x555777b7f400] 280         user_data_payload_byte[14]                           00110100 = 52
+[trace_headers @ 0x555777b7f400] 288         user_data_payload_byte[15]                           00100000 = 32
+[trace_headers @ 0x555777b7f400] 296         user_data_payload_byte[16]                           01110010 = 114
+[trace_headers @ 0x555777b7f400] 304         user_data_payload_byte[17]                           00110011 = 51
+[trace_headers @ 0x555777b7f400] 312         user_data_payload_byte[18]                           00110001 = 49
+[trace_headers @ 0x555777b7f400] 320         user_data_payload_byte[19]                           00110000 = 48
+[trace_headers @ 0x555777b7f400] 328         user_data_payload_byte[20]                           00111000 = 56
+[trace_headers @ 0x555777b7f400] 336         user_data_payload_byte[21]                           00100000 = 32
+[trace_headers @ 0x555777b7f400] 344         user_data_payload_byte[22]                           00110011 = 51
+[trace_headers @ 0x555777b7f400] 352         user_data_payload_byte[23]                           00110001 = 49
+[trace_headers @ 0x555777b7f400] 360         user_data_payload_byte[24]                           01100101 = 101
+[trace_headers @ 0x555777b7f400] 368         user_data_payload_byte[25]                           00110001 = 49
+[trace_headers @ 0x555777b7f400] 376         user_data_payload_byte[26]                           00111001 = 57
+[trace_headers @ 0x555777b7f400] 384         user_data_payload_byte[27]                           01100110 = 102
+[trace_headers @ 0x555777b7f400] 392         user_data_payload_byte[28]                           00111001 = 57
+[trace_headers @ 0x555777b7f400] 400         user_data_payload_byte[29]                           00100000 = 32
+[trace_headers @ 0x555777b7f400] 408         user_data_payload_byte[30]                           00101101 = 45
+[trace_headers @ 0x555777b7f400] 416         user_data_payload_byte[31]                           00100000 = 32
+[trace_headers @ 0x555777b7f400] 424         user_data_payload_byte[32]                           01001000 = 72
+[trace_headers @ 0x555777b7f400] 432         user_data_payload_byte[33]                           00101110 = 46
+[trace_headers @ 0x555777b7f400] 440         user_data_payload_byte[34]                           00110010 = 50
+[trace_headers @ 0x555777b7f400] 448         user_data_payload_byte[35]                           00110110 = 54
+[trace_headers @ 0x555777b7f400] 456         user_data_payload_byte[36]                           00110100 = 52
+[trace_headers @ 0x555777b7f400] 464         user_data_payload_byte[37]                           00101111 = 47
+[trace_headers @ 0x555777b7f400] 472         user_data_payload_byte[38]                           01001101 = 77
+[trace_headers @ 0x555777b7f400] 480         user_data_payload_byte[39]                           01010000 = 80
+[trace_headers @ 0x555777b7f400] 488         user_data_payload_byte[40]                           01000101 = 69
+[trace_headers @ 0x555777b7f400] 496         user_data_payload_byte[41]                           01000111 = 71
+[trace_headers @ 0x555777b7f400] 504         user_data_payload_byte[42]                           00101101 = 45
+[trace_headers @ 0x555777b7f400] 512         user_data_payload_byte[43]                           00110100 = 52
+[trace_headers @ 0x555777b7f400] 520         user_data_payload_byte[44]                           00100000 = 32
+[trace_headers @ 0x555777b7f400] 528         user_data_payload_byte[45]                           01000001 = 65
+[trace_headers @ 0x555777b7f400] 536         user_data_payload_byte[46]                           01010110 = 86
+[trace_headers @ 0x555777b7f400] 544         user_data_payload_byte[47]                           01000011 = 67
+[trace_headers @ 0x555777b7f400] 552         user_data_payload_byte[48]                           00100000 = 32
+[trace_headers @ 0x555777b7f400] 560         user_data_payload_byte[49]                           01100011 = 99
+[trace_headers @ 0x555777b7f400] 568         user_data_payload_byte[50]                           01101111 = 111
+[trace_headers @ 0x555777b7f400] 576         user_data_payload_byte[51]                           01100100 = 100
+[trace_headers @ 0x555777b7f400] 584         user_data_payload_byte[52]                           01100101 = 101
+[trace_headers @ 0x555777b7f400] 592         user_data_payload_byte[53]                           01100011 = 99
+[trace_headers @ 0x555777b7f400] 600         user_data_payload_byte[54]                           00100000 = 32
+[trace_headers @ 0x555777b7f400] 608         user_data_payload_byte[55]                           00101101 = 45
+[trace_headers @ 0x555777b7f400] 616         user_data_payload_byte[56]                           00100000 = 32
+[trace_headers @ 0x555777b7f400] 624         user_data_payload_byte[57]                           01000011 = 67
+[trace_headers @ 0x555777b7f400] 632         user_data_payload_byte[58]                           01101111 = 111
+[trace_headers @ 0x555777b7f400] 640         user_data_payload_byte[59]                           01110000 = 112
+[trace_headers @ 0x555777b7f400] 648         user_data_payload_byte[60]                           01111001 = 121
+[trace_headers @ 0x555777b7f400] 656         user_data_payload_byte[61]                           01101100 = 108
+[trace_headers @ 0x555777b7f400] 664         user_data_payload_byte[62]                           01100101 = 101
+[trace_headers @ 0x555777b7f400] 672         user_data_payload_byte[63]                           01100110 = 102
+[trace_headers @ 0x555777b7f400] 680         user_data_payload_byte[64]                           01110100 = 116
+[trace_headers @ 0x555777b7f400] 688         user_data_payload_byte[65]                           00100000 = 32
+[trace_headers @ 0x555777b7f400] 696         user_data_payload_byte[66]                           00110010 = 50
+[trace_headers @ 0x555777b7f400] 704         user_data_payload_byte[67]                           00110000 = 48
+[trace_headers @ 0x555777b7f400] 712         user_data_payload_byte[68]                           00110000 = 48
+[trace_headers @ 0x555777b7f400] 720         user_data_payload_byte[69]                           00110011 = 51
+[trace_headers @ 0x555777b7f400] 728         user_data_payload_byte[70]                           00101101 = 45
+[trace_headers @ 0x555777b7f400] 736         user_data_payload_byte[71]                           00110010 = 50
+[trace_headers @ 0x555777b7f400] 744         user_data_payload_byte[72]                           00110000 = 48
+[trace_headers @ 0x555777b7f400] 752         user_data_payload_byte[73]                           00110010 = 50
+[trace_headers @ 0x555777b7f400] 760         user_data_payload_byte[74]                           00110011 = 51
+[trace_headers @ 0x555777b7f400] 768         user_data_payload_byte[75]                           00100000 = 32
+[trace_headers @ 0x555777b7f400] 776         user_data_payload_byte[76]                           00101101 = 45
+[trace_headers @ 0x555777b7f400] 784         user_data_payload_byte[77]                           00100000 = 32
+[trace_headers @ 0x555777b7f400] 792         user_data_payload_byte[78]                           01101000 = 104
+[trace_headers @ 0x555777b7f400] 800         user_data_payload_byte[79]                           01110100 = 116
+[trace_headers @ 0x555777b7f400] 808         user_data_payload_byte[80]                           01110100 = 116
+[trace_headers @ 0x555777b7f400] 816         user_data_payload_byte[81]                           01110000 = 112
+[trace_headers @ 0x555777b7f400] 824         user_data_payload_byte[82]                           00111010 = 58
+[trace_headers @ 0x555777b7f400] 832         user_data_payload_byte[83]                           00101111 = 47
+[trace_headers @ 0x555777b7f400] 840         user_data_payload_byte[84]                           00101111 = 47
+[trace_headers @ 0x555777b7f400] 848         user_data_payload_byte[85]                           01110111 = 119
+[trace_headers @ 0x555777b7f400] 856         user_data_payload_byte[86]                           01110111 = 119
+[trace_headers @ 0x555777b7f400] 864         user_data_payload_byte[87]                           01110111 = 119
+[trace_headers @ 0x555777b7f400] 872         user_data_payload_byte[88]                           00101110 = 46
+[trace_headers @ 0x555777b7f400] 880         user_data_payload_byte[89]                           01110110 = 118
+[trace_headers @ 0x555777b7f400] 888         user_data_payload_byte[90]                           01101001 = 105
+[trace_headers @ 0x555777b7f400] 896         user_data_payload_byte[91]                           01100100 = 100
+[trace_headers @ 0x555777b7f400] 904         user_data_payload_byte[92]                           01100101 = 101
+[trace_headers @ 0x555777b7f400] 912         user_data_payload_byte[93]                           01101111 = 111
+[trace_headers @ 0x555777b7f400] 920         user_data_payload_byte[94]                           01101100 = 108
+[trace_headers @ 0x555777b7f400] 928         user_data_payload_byte[95]                           01100001 = 97
+[trace_headers @ 0x555777b7f400] 936         user_data_payload_byte[96]                           01101110 = 110
+[trace_headers @ 0x555777b7f400] 944         user_data_payload_byte[97]                           00101110 = 46
+[trace_headers @ 0x555777b7f400] 952         user_data_payload_byte[98]                           01101111 = 111
+[trace_headers @ 0x555777b7f400] 960         user_data_payload_byte[99]                           01110010 = 114
+[trace_headers @ 0x555777b7f400] 968         user_data_payload_byte[100]                          01100111 = 103
+[trace_headers @ 0x555777b7f400] 976         user_data_payload_byte[101]                          00101111 = 47
+[trace_headers @ 0x555777b7f400] 984         user_data_payload_byte[102]                          01111000 = 120
+[trace_headers @ 0x555777b7f400] 992         user_data_payload_byte[103]                          00110010 = 50
+[trace_headers @ 0x555777b7f400] 1000        user_data_payload_byte[104]                          00110110 = 54
+[trace_headers @ 0x555777b7f400] 1008        user_data_payload_byte[105]                          00110100 = 52
+[trace_headers @ 0x555777b7f400] 1016        user_data_payload_byte[106]                          00101110 = 46
+[trace_headers @ 0x555777b7f400] 1024        user_data_payload_byte[107]                          01101000 = 104
+[trace_headers @ 0x555777b7f400] 1032        user_data_payload_byte[108]                          01110100 = 116
+[trace_headers @ 0x555777b7f400] 1040        user_data_payload_byte[109]                          01101101 = 109
+[trace_headers @ 0x555777b7f400] 1048        user_data_payload_byte[110]                          01101100 = 108
+[trace_headers @ 0x555777b7f400] 1056        user_data_payload_byte[111]                          00100000 = 32
+[trace_headers @ 0x555777b7f400] 1064        user_data_payload_byte[112]                          00101101 = 45
+[trace_headers @ 0x555777b7f400] 1072        user_data_payload_byte[113]                          00100000 = 32
+[trace_headers @ 0x555777b7f400] 1080        user_data_payload_byte[114]                          01101111 = 111
+[trace_headers @ 0x555777b7f400] 1088        user_data_payload_byte[115]                          01110000 = 112
+[trace_headers @ 0x555777b7f400] 1096        user_data_payload_byte[116]                          01110100 = 116
+[trace_headers @ 0x555777b7f400] 1104        user_data_payload_byte[117]                          01101001 = 105
+[trace_headers @ 0x555777b7f400] 1112        user_data_payload_byte[118]                          01101111 = 111
+[trace_headers @ 0x555777b7f400] 1120        user_data_payload_byte[119]                          01101110 = 110
+[trace_headers @ 0x555777b7f400] 1128        user_data_payload_byte[120]                          01110011 = 115
+[trace_headers @ 0x555777b7f400] 1136        user_data_payload_byte[121]                          00111010 = 58
+[trace_headers @ 0x555777b7f400] 1144        user_data_payload_byte[122]                          00100000 = 32
+[trace_headers @ 0x555777b7f400] 1152        user_data_payload_byte[123]                          01100011 = 99
+[trace_headers @ 0x555777b7f400] 1160        user_data_payload_byte[124]                          01100001 = 97
+[trace_headers @ 0x555777b7f400] 1168        user_data_payload_byte[125]                          01100010 = 98
+[trace_headers @ 0x555777b7f400] 1176        user_data_payload_byte[126]                          01100001 = 97
+[trace_headers @ 0x555777b7f400] 1184        user_data_payload_byte[127]                          01100011 = 99
+[trace_headers @ 0x555777b7f400] 1192        user_data_payload_byte[128]                          00111101 = 61
+[trace_headers @ 0x555777b7f400] 1200        user_data_payload_byte[129]                          00110001 = 49
+[trace_headers @ 0x555777b7f400] 1208        user_data_payload_byte[130]                          00100000 = 32
+[trace_headers @ 0x555777b7f400] 1216        user_data_payload_byte[131]                          01110010 = 114
+[trace_headers @ 0x555777b7f400] 1224        user_data_payload_byte[132]                          01100101 = 101
+[trace_headers @ 0x555777b7f400] 1232        user_data_payload_byte[133]                          01100110 = 102
+[trace_headers @ 0x555777b7f400] 1240        user_data_payload_byte[134]                          00111101 = 61
+[trace_headers @ 0x555777b7f400] 1248        user_data_payload_byte[135]                          00110011 = 51
+[trace_headers @ 0x555777b7f400] 1256        user_data_payload_byte[136]                          00100000 = 32
+[trace_headers @ 0x555777b7f400] 1264        user_data_payload_byte[137]                          01100100 = 100
+[trace_headers @ 0x555777b7f400] 1272        user_data_payload_byte[138]                          01100101 = 101
+[trace_headers @ 0x555777b7f400] 1280        user_data_payload_byte[139]                          01100010 = 98
+[trace_headers @ 0x555777b7f400] 1288        user_data_payload_byte[140]                          01101100 = 108
+[trace_headers @ 0x555777b7f400] 1296        user_data_payload_byte[141]                          01101111 = 111
+[trace_headers @ 0x555777b7f400] 1304        user_data_payload_byte[142]                          01100011 = 99
+[trace_headers @ 0x555777b7f400] 1312        user_data_payload_byte[143]                          01101011 = 107
+[trace_headers @ 0x555777b7f400] 1320        user_data_payload_byte[144]                          00111101 = 61
+[trace_headers @ 0x555777b7f400] 1328        user_data_payload_byte[145]                          00110001 = 49
+[trace_headers @ 0x555777b7f400] 1336        user_data_payload_byte[146]                          00111010 = 58
+[trace_headers @ 0x555777b7f400] 1344        user_data_payload_byte[147]                          00110000 = 48
+[trace_headers @ 0x555777b7f400] 1352        user_data_payload_byte[148]                          00111010 = 58
+[trace_headers @ 0x555777b7f400] 1360        user_data_payload_byte[149]                          00110000 = 48
+[trace_headers @ 0x555777b7f400] 1368        user_data_payload_byte[150]                          00100000 = 32
+[trace_headers @ 0x555777b7f400] 1376        user_data_payload_byte[151]                          01100001 = 97
+[trace_headers @ 0x555777b7f400] 1384        user_data_payload_byte[152]                          01101110 = 110
+[trace_headers @ 0x555777b7f400] 1392        user_data_payload_byte[153]                          01100001 = 97
+[trace_headers @ 0x555777b7f400] 1400        user_data_payload_byte[154]                          01101100 = 108
+[trace_headers @ 0x555777b7f400] 1408        user_data_payload_byte[155]                          01111001 = 121
+[trace_headers @ 0x555777b7f400] 1416        user_data_payload_byte[156]                          01110011 = 115
+[trace_headers @ 0x555777b7f400] 1424        user_data_payload_byte[157]                          01100101 = 101
+[trace_headers @ 0x555777b7f400] 1432        user_data_payload_byte[158]                          00111101 = 61
+[trace_headers @ 0x555777b7f400] 1440        user_data_payload_byte[159]                          00110000 = 48
+[trace_headers @ 0x555777b7f400] 1448        user_data_payload_byte[160]                          01111000 = 120
+[trace_headers @ 0x555777b7f400] 1456        user_data_payload_byte[161]                          00110011 = 51
+[trace_headers @ 0x555777b7f400] 1464        user_data_payload_byte[162]                          00111010 = 58
+[trace_headers @ 0x555777b7f400] 1472        user_data_payload_byte[163]                          00110000 = 48
+[trace_headers @ 0x555777b7f400] 1480        user_data_payload_byte[164]                          01111000 = 120
+[trace_headers @ 0x555777b7f400] 1488        user_data_payload_byte[165]                          00110001 = 49
+[trace_headers @ 0x555777b7f400] 1496        user_data_payload_byte[166]                          00110001 = 49
+[trace_headers @ 0x555777b7f400] 1504        user_data_payload_byte[167]                          00110011 = 51
+[trace_headers @ 0x555777b7f400] 1512        user_data_payload_byte[168]                          00100000 = 32
+[trace_headers @ 0x555777b7f400] 1520        user_data_payload_byte[169]                          01101101 = 109
+[trace_headers @ 0x555777b7f400] 1528        user_data_payload_byte[170]                          01100101 = 101
+[trace_headers @ 0x555777b7f400] 1536        user_data_payload_byte[171]                          00111101 = 61
+[trace_headers @ 0x555777b7f400] 1544        user_data_payload_byte[172]                          01101000 = 104
+[trace_headers @ 0x555777b7f400] 1552        user_data_payload_byte[173]                          01100101 = 101
+[trace_headers @ 0x555777b7f400] 1560        user_data_payload_byte[174]                          01111000 = 120
+[trace_headers @ 0x555777b7f400] 1568        user_data_payload_byte[175]                          00100000 = 32
+[trace_headers @ 0x555777b7f400] 1576        user_data_payload_byte[176]                          01110011 = 115
+[trace_headers @ 0x555777b7f400] 1584        user_data_payload_byte[177]                          01110101 = 117
+[trace_headers @ 0x555777b7f400] 1592        user_data_payload_byte[178]                          01100010 = 98
+[trace_headers @ 0x555777b7f400] 1600        user_data_payload_byte[179]                          01101101 = 109
+[trace_headers @ 0x555777b7f400] 1608        user_data_payload_byte[180]                          01100101 = 101
+[trace_headers @ 0x555777b7f400] 1616        user_data_payload_byte[181]                          00111101 = 61
+[trace_headers @ 0x555777b7f400] 1624        user_data_payload_byte[182]                          00110111 = 55
+[trace_headers @ 0x555777b7f400] 1632        user_data_payload_byte[183]                          00100000 = 32
+[trace_headers @ 0x555777b7f400] 1640        user_data_payload_byte[184]                          01110000 = 112
+[trace_headers @ 0x555777b7f400] 1648        user_data_payload_byte[185]                          01110011 = 115
+[trace_headers @ 0x555777b7f400] 1656        user_data_payload_byte[186]                          01111001 = 121
+[trace_headers @ 0x555777b7f400] 1664        user_data_payload_byte[187]                          00111101 = 61
+[trace_headers @ 0x555777b7f400] 1672        user_data_payload_byte[188]                          00110001 = 49
+[trace_headers @ 0x555777b7f400] 1680        user_data_payload_byte[189]                          00100000 = 32
+[trace_headers @ 0x555777b7f400] 1688        user_data_payload_byte[190]                          01110000 = 112
+[trace_headers @ 0x555777b7f400] 1696        user_data_payload_byte[191]                          01110011 = 115
+[trace_headers @ 0x555777b7f400] 1704        user_data_payload_byte[192]                          01111001 = 121
+[trace_headers @ 0x555777b7f400] 1712        user_data_payload_byte[193]                          01011111 = 95
+[trace_headers @ 0x555777b7f400] 1720        user_data_payload_byte[194]                          01110010 = 114
+[trace_headers @ 0x555777b7f400] 1728        user_data_payload_byte[195]                          01100100 = 100
+[trace_headers @ 0x555777b7f400] 1736        user_data_payload_byte[196]                          00111101 = 61
+[trace_headers @ 0x555777b7f400] 1744        user_data_payload_byte[197]                          00110001 = 49
+[trace_headers @ 0x555777b7f400] 1752        user_data_payload_byte[198]                          00101110 = 46
+[trace_headers @ 0x555777b7f400] 1760        user_data_payload_byte[199]                          00110000 = 48
+[trace_headers @ 0x555777b7f400] 1768        user_data_payload_byte[200]                          00110000 = 48
+[trace_headers @ 0x555777b7f400] 1776        user_data_payload_byte[201]                          00111010 = 58
+[trace_headers @ 0x555777b7f400] 1784        user_data_payload_byte[202]                          00110000 = 48
+[trace_headers @ 0x555777b7f400] 1792        user_data_payload_byte[203]                          00101110 = 46
+[trace_headers @ 0x555777b7f400] 1800        user_data_payload_byte[204]                          00110000 = 48
+[trace_headers @ 0x555777b7f400] 1808        user_data_payload_byte[205]                          00110000 = 48
+[trace_headers @ 0x555777b7f400] 1816        user_data_payload_byte[206]                          00100000 = 32
+[trace_headers @ 0x555777b7f400] 1824        user_data_payload_byte[207]                          01101101 = 109
+[trace_headers @ 0x555777b7f400] 1832        user_data_payload_byte[208]                          01101001 = 105
+[trace_headers @ 0x555777b7f400] 1840        user_data_payload_byte[209]                          01111000 = 120
+[trace_headers @ 0x555777b7f400] 1848        user_data_payload_byte[210]                          01100101 = 101
+[trace_headers @ 0x555777b7f400] 1856        user_data_payload_byte[211]                          01100100 = 100
+[trace_headers @ 0x555777b7f400] 1864        user_data_payload_byte[212]                          01011111 = 95
+[trace_headers @ 0x555777b7f400] 1872        user_data_payload_byte[213]                          01110010 = 114
+[trace_headers @ 0x555777b7f400] 1880        user_data_payload_byte[214]                          01100101 = 101
+[trace_headers @ 0x555777b7f400] 1888        user_data_payload_byte[215]                          01100110 = 102
+[trace_headers @ 0x555777b7f400] 1896        user_data_payload_byte[216]                          00111101 = 61
+[trace_headers @ 0x555777b7f400] 1904        user_data_payload_byte[217]                          00110001 = 49
+[trace_headers @ 0x555777b7f400] 1912        user_data_payload_byte[218]                          00100000 = 32
+[trace_headers @ 0x555777b7f400] 1920        user_data_payload_byte[219]                          01101101 = 109
+[trace_headers @ 0x555777b7f400] 1928        user_data_payload_byte[220]                          01100101 = 101
+[trace_headers @ 0x555777b7f400] 1936        user_data_payload_byte[221]                          01011111 = 95
+[trace_headers @ 0x555777b7f400] 1944        user_data_payload_byte[222]                          01110010 = 114
+[trace_headers @ 0x555777b7f400] 1952        user_data_payload_byte[223]                          01100001 = 97
+[trace_headers @ 0x555777b7f400] 1960        user_data_payload_byte[224]                          01101110 = 110
+[trace_headers @ 0x555777b7f400] 1968        user_data_payload_byte[225]                          01100111 = 103
+[trace_headers @ 0x555777b7f400] 1976        user_data_payload_byte[226]                          01100101 = 101
+[trace_headers @ 0x555777b7f400] 1984        user_data_payload_byte[227]                          00111101 = 61
+[trace_headers @ 0x555777b7f400] 1992        user_data_payload_byte[228]                          00110001 = 49
+[trace_headers @ 0x555777b7f400] 2000        user_data_payload_byte[229]                          00110110 = 54
+[trace_headers @ 0x555777b7f400] 2008        user_data_payload_byte[230]                          00100000 = 32
+[trace_headers @ 0x555777b7f400] 2016        user_data_payload_byte[231]                          01100011 = 99
+[trace_headers @ 0x555777b7f400] 2024        user_data_payload_byte[232]                          01101000 = 104
+[trace_headers @ 0x555777b7f400] 2032        user_data_payload_byte[233]                          01110010 = 114
+[trace_headers @ 0x555777b7f400] 2040        user_data_payload_byte[234]                          01101111 = 111
+[trace_headers @ 0x555777b7f400] 2048        user_data_payload_byte[235]                          01101101 = 109
+[trace_headers @ 0x555777b7f400] 2056        user_data_payload_byte[236]                          01100001 = 97
+[trace_headers @ 0x555777b7f400] 2064        user_data_payload_byte[237]                          01011111 = 95
+[trace_headers @ 0x555777b7f400] 2072        user_data_payload_byte[238]                          01101101 = 109
+[trace_headers @ 0x555777b7f400] 2080        user_data_payload_byte[239]                          01100101 = 101
+[trace_headers @ 0x555777b7f400] 2088        user_data_payload_byte[240]                          00111101 = 61
+[trace_headers @ 0x555777b7f400] 2096        user_data_payload_byte[241]                          00110001 = 49
+[trace_headers @ 0x555777b7f400] 2104        user_data_payload_byte[242]                          00100000 = 32
+[trace_headers @ 0x555777b7f400] 2112        user_data_payload_byte[243]                          01110100 = 116
+[trace_headers @ 0x555777b7f400] 2120        user_data_payload_byte[244]                          01110010 = 114
+[trace_headers @ 0x555777b7f400] 2128        user_data_payload_byte[245]                          01100101 = 101
+[trace_headers @ 0x555777b7f400] 2136        user_data_payload_byte[246]                          01101100 = 108
+[trace_headers @ 0x555777b7f400] 2144        user_data_payload_byte[247]                          01101100 = 108
+[trace_headers @ 0x555777b7f400] 2152        user_data_payload_byte[248]                          01101001 = 105
+[trace_headers @ 0x555777b7f400] 2160        user_data_payload_byte[249]                          01110011 = 115
+[trace_headers @ 0x555777b7f400] 2168        user_data_payload_byte[250]                          00111101 = 61
+[trace_headers @ 0x555777b7f400] 2176        user_data_payload_byte[251]                          00110001 = 49
+[trace_headers @ 0x555777b7f400] 2184        user_data_payload_byte[252]                          00100000 = 32
+[trace_headers @ 0x555777b7f400] 2192        user_data_payload_byte[253]                          00111000 = 56
+[trace_headers @ 0x555777b7f400] 2200        user_data_payload_byte[254]                          01111000 = 120
+[trace_headers @ 0x555777b7f400] 2208        user_data_payload_byte[255]                          00111000 = 56
+[trace_headers @ 0x555777b7f400] 2216        user_data_payload_byte[256]                          01100100 = 100
+[trace_headers @ 0x555777b7f400] 2224        user_data_payload_byte[257]                          01100011 = 99
+[trace_headers @ 0x555777b7f400] 2232        user_data_payload_byte[258]                          01110100 = 116
+[trace_headers @ 0x555777b7f400] 2240        user_data_payload_byte[259]                          00111101 = 61
+[trace_headers @ 0x555777b7f400] 2248        user_data_payload_byte[260]                          00110001 = 49
+[trace_headers @ 0x555777b7f400] 2256        user_data_payload_byte[261]                          00100000 = 32
+[trace_headers @ 0x555777b7f400] 2264        user_data_payload_byte[262]                          01100011 = 99
+[trace_headers @ 0x555777b7f400] 2272        user_data_payload_byte[263]                          01110001 = 113
+[trace_headers @ 0x555777b7f400] 2280        user_data_payload_byte[264]                          01101101 = 109
+[trace_headers @ 0x555777b7f400] 2288        user_data_payload_byte[265]                          00111101 = 61
+[trace_headers @ 0x555777b7f400] 2296        user_data_payload_byte[266]                          00110000 = 48
+[trace_headers @ 0x555777b7f400] 2304        user_data_payload_byte[267]                          00100000 = 32
+[trace_headers @ 0x555777b7f400] 2312        user_data_payload_byte[268]                          01100100 = 100
+[trace_headers @ 0x555777b7f400] 2320        user_data_payload_byte[269]                          01100101 = 101
+[trace_headers @ 0x555777b7f400] 2328        user_data_payload_byte[270]                          01100001 = 97
+[trace_headers @ 0x555777b7f400] 2336        user_data_payload_byte[271]                          01100100 = 100
+[trace_headers @ 0x555777b7f400] 2344        user_data_payload_byte[272]                          01111010 = 122
+[trace_headers @ 0x555777b7f400] 2352        user_data_payload_byte[273]                          01101111 = 111
+[trace_headers @ 0x555777b7f400] 2360        user_data_payload_byte[274]                          01101110 = 110
+[trace_headers @ 0x555777b7f400] 2368        user_data_payload_byte[275]                          01100101 = 101
+[trace_headers @ 0x555777b7f400] 2376        user_data_payload_byte[276]                          00111101 = 61
+[trace_headers @ 0x555777b7f400] 2384        user_data_payload_byte[277]                          00110010 = 50
+[trace_headers @ 0x555777b7f400] 2392        user_data_payload_byte[278]                          00110001 = 49
+[trace_headers @ 0x555777b7f400] 2400        user_data_payload_byte[279]                          00101100 = 44
+[trace_headers @ 0x555777b7f400] 2408        user_data_payload_byte[280]                          00110001 = 49
+[trace_headers @ 0x555777b7f400] 2416        user_data_payload_byte[281]                          00110001 = 49
+[trace_headers @ 0x555777b7f400] 2424        user_data_payload_byte[282]                          00100000 = 32
+[trace_headers @ 0x555777b7f400] 2432        user_data_payload_byte[283]                          01100110 = 102
+[trace_headers @ 0x555777b7f400] 2440        user_data_payload_byte[284]                          01100001 = 97
+[trace_headers @ 0x555777b7f400] 2448        user_data_payload_byte[285]                          01110011 = 115
+[trace_headers @ 0x555777b7f400] 2456        user_data_payload_byte[286]                          01110100 = 116
+[trace_headers @ 0x555777b7f400] 2464        user_data_payload_byte[287]                          01011111 = 95
+[trace_headers @ 0x555777b7f400] 2472        user_data_payload_byte[288]                          01110000 = 112
+[trace_headers @ 0x555777b7f400] 2480        user_data_payload_byte[289]                          01110011 = 115
+[trace_headers @ 0x555777b7f400] 2488        user_data_payload_byte[290]                          01101011 = 107
+[trace_headers @ 0x555777b7f400] 2496        user_data_payload_byte[291]                          01101001 = 105
+[trace_headers @ 0x555777b7f400] 2504        user_data_payload_byte[292]                          01110000 = 112
+[trace_headers @ 0x555777b7f400] 2512        user_data_payload_byte[293]                          00111101 = 61
+[trace_headers @ 0x555777b7f400] 2520        user_data_payload_byte[294]                          00110001 = 49
+[trace_headers @ 0x555777b7f400] 2528        user_data_payload_byte[295]                          00100000 = 32
+[trace_headers @ 0x555777b7f400] 2536        user_data_payload_byte[296]                          01100011 = 99
+[trace_headers @ 0x555777b7f400] 2544        user_data_payload_byte[297]                          01101000 = 104
+[trace_headers @ 0x555777b7f400] 2552        user_data_payload_byte[298]                          01110010 = 114
+[trace_headers @ 0x555777b7f400] 2560        user_data_payload_byte[299]                          01101111 = 111
+[trace_headers @ 0x555777b7f400] 2568        user_data_payload_byte[300]                          01101101 = 109
+[trace_headers @ 0x555777b7f400] 2576        user_data_payload_byte[301]                          01100001 = 97
+[trace_headers @ 0x555777b7f400] 2584        user_data_payload_byte[302]                          01011111 = 95
+[trace_headers @ 0x555777b7f400] 2592        user_data_payload_byte[303]                          01110001 = 113
+[trace_headers @ 0x555777b7f400] 2600        user_data_payload_byte[304]                          01110000 = 112
+[trace_headers @ 0x555777b7f400] 2608        user_data_payload_byte[305]                          01011111 = 95
+[trace_headers @ 0x555777b7f400] 2616        user_data_payload_byte[306]                          01101111 = 111
+[trace_headers @ 0x555777b7f400] 2624        user_data_payload_byte[307]                          01100110 = 102
+[trace_headers @ 0x555777b7f400] 2632        user_data_payload_byte[308]                          01100110 = 102
+[trace_headers @ 0x555777b7f400] 2640        user_data_payload_byte[309]                          01110011 = 115
+[trace_headers @ 0x555777b7f400] 2648        user_data_payload_byte[310]                          01100101 = 101
+[trace_headers @ 0x555777b7f400] 2656        user_data_payload_byte[311]                          01110100 = 116
+[trace_headers @ 0x555777b7f400] 2664        user_data_payload_byte[312]                          00111101 = 61
+[trace_headers @ 0x555777b7f400] 2672        user_data_payload_byte[313]                          00101101 = 45
+[trace_headers @ 0x555777b7f400] 2680        user_data_payload_byte[314]                          00110010 = 50
+[trace_headers @ 0x555777b7f400] 2688        user_data_payload_byte[315]                          00100000 = 32
+[trace_headers @ 0x555777b7f400] 2696        user_data_payload_byte[316]                          01110100 = 116
+[trace_headers @ 0x555777b7f400] 2704        user_data_payload_byte[317]                          01101000 = 104
+[trace_headers @ 0x555777b7f400] 2712        user_data_payload_byte[318]                          01110010 = 114
+[trace_headers @ 0x555777b7f400] 2720        user_data_payload_byte[319]                          01100101 = 101
+[trace_headers @ 0x555777b7f400] 2728        user_data_payload_byte[320]                          01100001 = 97
+[trace_headers @ 0x555777b7f400] 2736        user_data_payload_byte[321]                          01100100 = 100
+[trace_headers @ 0x555777b7f400] 2744        user_data_payload_byte[322]                          01110011 = 115
+[trace_headers @ 0x555777b7f400] 2752        user_data_payload_byte[323]                          00111101 = 61
+[trace_headers @ 0x555777b7f400] 2760        user_data_payload_byte[324]                          00110001 = 49
+[trace_headers @ 0x555777b7f400] 2768        user_data_payload_byte[325]                          00100000 = 32
+[trace_headers @ 0x555777b7f400] 2776        user_data_payload_byte[326]                          01101100 = 108
+[trace_headers @ 0x555777b7f400] 2784        user_data_payload_byte[327]                          01101111 = 111
+[trace_headers @ 0x555777b7f400] 2792        user_data_payload_byte[328]                          01101111 = 111
+[trace_headers @ 0x555777b7f400] 2800        user_data_payload_byte[329]                          01101011 = 107
+[trace_headers @ 0x555777b7f400] 2808        user_data_payload_byte[330]                          01100001 = 97
+[trace_headers @ 0x555777b7f400] 2816        user_data_payload_byte[331]                          01101000 = 104
+[trace_headers @ 0x555777b7f400] 2824        user_data_payload_byte[332]                          01100101 = 101
+[trace_headers @ 0x555777b7f400] 2832        user_data_payload_byte[333]                          01100001 = 97
+[trace_headers @ 0x555777b7f400] 2840        user_data_payload_byte[334]                          01100100 = 100
+[trace_headers @ 0x555777b7f400] 2848        user_data_payload_byte[335]                          01011111 = 95
+[trace_headers @ 0x555777b7f400] 2856        user_data_payload_byte[336]                          01110100 = 116
+[trace_headers @ 0x555777b7f400] 2864        user_data_payload_byte[337]                          01101000 = 104
+[trace_headers @ 0x555777b7f400] 2872        user_data_payload_byte[338]                          01110010 = 114
+[trace_headers @ 0x555777b7f400] 2880        user_data_payload_byte[339]                          01100101 = 101
+[trace_headers @ 0x555777b7f400] 2888        user_data_payload_byte[340]                          01100001 = 97
+[trace_headers @ 0x555777b7f400] 2896        user_data_payload_byte[341]                          01100100 = 100
+[trace_headers @ 0x555777b7f400] 2904        user_data_payload_byte[342]                          01110011 = 115
+[trace_headers @ 0x555777b7f400] 2912        user_data_payload_byte[343]                          00111101 = 61
+[trace_headers @ 0x555777b7f400] 2920        user_data_payload_byte[344]                          00110001 = 49
+[trace_headers @ 0x555777b7f400] 2928        user_data_payload_byte[345]                          00100000 = 32
+[trace_headers @ 0x555777b7f400] 2936        user_data_payload_byte[346]                          01110011 = 115
+[trace_headers @ 0x555777b7f400] 2944        user_data_payload_byte[347]                          01101100 = 108
+[trace_headers @ 0x555777b7f400] 2952        user_data_payload_byte[348]                          01101001 = 105
+[trace_headers @ 0x555777b7f400] 2960        user_data_payload_byte[349]                          01100011 = 99
+[trace_headers @ 0x555777b7f400] 2968        user_data_payload_byte[350]                          01100101 = 101
+[trace_headers @ 0x555777b7f400] 2976        user_data_payload_byte[351]                          01100100 = 100
+[trace_headers @ 0x555777b7f400] 2984        user_data_payload_byte[352]                          01011111 = 95
+[trace_headers @ 0x555777b7f400] 2992        user_data_payload_byte[353]                          01110100 = 116
+[trace_headers @ 0x555777b7f400] 3000        user_data_payload_byte[354]                          01101000 = 104
+[trace_headers @ 0x555777b7f400] 3008        user_data_payload_byte[355]                          01110010 = 114
+[trace_headers @ 0x555777b7f400] 3016        user_data_payload_byte[356]                          01100101 = 101
+[trace_headers @ 0x555777b7f400] 3024        user_data_payload_byte[357]                          01100001 = 97
+[trace_headers @ 0x555777b7f400] 3032        user_data_payload_byte[358]                          01100100 = 100
+[trace_headers @ 0x555777b7f400] 3040        user_data_payload_byte[359]                          01110011 = 115
+[trace_headers @ 0x555777b7f400] 3048        user_data_payload_byte[360]                          00111101 = 61
+[trace_headers @ 0x555777b7f400] 3056        user_data_payload_byte[361]                          00110000 = 48
+[trace_headers @ 0x555777b7f400] 3064        user_data_payload_byte[362]                          00100000 = 32
+[trace_headers @ 0x555777b7f400] 3072        user_data_payload_byte[363]                          01101110 = 110
+[trace_headers @ 0x555777b7f400] 3080        user_data_payload_byte[364]                          01110010 = 114
+[trace_headers @ 0x555777b7f400] 3088        user_data_payload_byte[365]                          00111101 = 61
+[trace_headers @ 0x555777b7f400] 3096        user_data_payload_byte[366]                          00110000 = 48
+[trace_headers @ 0x555777b7f400] 3104        user_data_payload_byte[367]                          00100000 = 32
+[trace_headers @ 0x555777b7f400] 3112        user_data_payload_byte[368]                          01100100 = 100
+[trace_headers @ 0x555777b7f400] 3120        user_data_payload_byte[369]                          01100101 = 101
+[trace_headers @ 0x555777b7f400] 3128        user_data_payload_byte[370]                          01100011 = 99
+[trace_headers @ 0x555777b7f400] 3136        user_data_payload_byte[371]                          01101001 = 105
+[trace_headers @ 0x555777b7f400] 3144        user_data_payload_byte[372]                          01101101 = 109
+[trace_headers @ 0x555777b7f400] 3152        user_data_payload_byte[373]                          01100001 = 97
+[trace_headers @ 0x555777b7f400] 3160        user_data_payload_byte[374]                          01110100 = 116
+[trace_headers @ 0x555777b7f400] 3168        user_data_payload_byte[375]                          01100101 = 101
+[trace_headers @ 0x555777b7f400] 3176        user_data_payload_byte[376]                          00111101 = 61
+[trace_headers @ 0x555777b7f400] 3184        user_data_payload_byte[377]                          00110001 = 49
+[trace_headers @ 0x555777b7f400] 3192        user_data_payload_byte[378]                          00100000 = 32
+[trace_headers @ 0x555777b7f400] 3200        user_data_payload_byte[379]                          01101001 = 105
+[trace_headers @ 0x555777b7f400] 3208        user_data_payload_byte[380]                          01101110 = 110
+[trace_headers @ 0x555777b7f400] 3216        user_data_payload_byte[381]                          01110100 = 116
+[trace_headers @ 0x555777b7f400] 3224        user_data_payload_byte[382]                          01100101 = 101
+[trace_headers @ 0x555777b7f400] 3232        user_data_payload_byte[383]                          01110010 = 114
+[trace_headers @ 0x555777b7f400] 3240        user_data_payload_byte[384]                          01101100 = 108
+[trace_headers @ 0x555777b7f400] 3248        user_data_payload_byte[385]                          01100001 = 97
+[trace_headers @ 0x555777b7f400] 3256        user_data_payload_byte[386]                          01100011 = 99
+[trace_headers @ 0x555777b7f400] 3264        user_data_payload_byte[387]                          01100101 = 101
+[trace_headers @ 0x555777b7f400] 3272        user_data_payload_byte[388]                          01100100 = 100
+[trace_headers @ 0x555777b7f400] 3280        user_data_payload_byte[389]                          00111101 = 61
+[trace_headers @ 0x555777b7f400] 3288        user_data_payload_byte[390]                          00110000 = 48
+[trace_headers @ 0x555777b7f400] 3296        user_data_payload_byte[391]                          00100000 = 32
+[trace_headers @ 0x555777b7f400] 3304        user_data_payload_byte[392]                          01100010 = 98
+[trace_headers @ 0x555777b7f400] 3312        user_data_payload_byte[393]                          01101100 = 108
+[trace_headers @ 0x555777b7f400] 3320        user_data_payload_byte[394]                          01110101 = 117
+[trace_headers @ 0x555777b7f400] 3328        user_data_payload_byte[395]                          01110010 = 114
+[trace_headers @ 0x555777b7f400] 3336        user_data_payload_byte[396]                          01100001 = 97
+[trace_headers @ 0x555777b7f400] 3344        user_data_payload_byte[397]                          01111001 = 121
+[trace_headers @ 0x555777b7f400] 3352        user_data_payload_byte[398]                          01011111 = 95
+[trace_headers @ 0x555777b7f400] 3360        user_data_payload_byte[399]                          01100011 = 99
+[trace_headers @ 0x555777b7f400] 3368        user_data_payload_byte[400]                          01101111 = 111
+[trace_headers @ 0x555777b7f400] 3376        user_data_payload_byte[401]                          01101101 = 109
+[trace_headers @ 0x555777b7f400] 3384        user_data_payload_byte[402]                          01110000 = 112
+[trace_headers @ 0x555777b7f400] 3392        user_data_payload_byte[403]                          01100001 = 97
+[trace_headers @ 0x555777b7f400] 3400        user_data_payload_byte[404]                          01110100 = 116
+[trace_headers @ 0x555777b7f400] 3408        user_data_payload_byte[405]                          00111101 = 61
+[trace_headers @ 0x555777b7f400] 3416        user_data_payload_byte[406]                          00110000 = 48
+[trace_headers @ 0x555777b7f400] 3424        user_data_payload_byte[407]                          00100000 = 32
+[trace_headers @ 0x555777b7f400] 3432        user_data_payload_byte[408]                          01100011 = 99
+[trace_headers @ 0x555777b7f400] 3440        user_data_payload_byte[409]                          01101111 = 111
+[trace_headers @ 0x555777b7f400] 3448        user_data_payload_byte[410]                          01101110 = 110
+[trace_headers @ 0x555777b7f400] 3456        user_data_payload_byte[411]                          01110011 = 115
+[trace_headers @ 0x555777b7f400] 3464        user_data_payload_byte[412]                          01110100 = 116
+[trace_headers @ 0x555777b7f400] 3472        user_data_payload_byte[413]                          01110010 = 114
+[trace_headers @ 0x555777b7f400] 3480        user_data_payload_byte[414]                          01100001 = 97
+[trace_headers @ 0x555777b7f400] 3488        user_data_payload_byte[415]                          01101001 = 105
+[trace_headers @ 0x555777b7f400] 3496        user_data_payload_byte[416]                          01101110 = 110
+[trace_headers @ 0x555777b7f400] 3504        user_data_payload_byte[417]                          01100101 = 101
+[trace_headers @ 0x555777b7f400] 3512        user_data_payload_byte[418]                          01100100 = 100
+[trace_headers @ 0x555777b7f400] 3520        user_data_payload_byte[419]                          01011111 = 95
+[trace_headers @ 0x555777b7f400] 3528        user_data_payload_byte[420]                          01101001 = 105
+[trace_headers @ 0x555777b7f400] 3536        user_data_payload_byte[421]                          01101110 = 110
+[trace_headers @ 0x555777b7f400] 3544        user_data_payload_byte[422]                          01110100 = 116
+[trace_headers @ 0x555777b7f400] 3552        user_data_payload_byte[423]                          01110010 = 114
+[trace_headers @ 0x555777b7f400] 3560        user_data_payload_byte[424]                          01100001 = 97
+[trace_headers @ 0x555777b7f400] 3568        user_data_payload_byte[425]                          00111101 = 61
+[trace_headers @ 0x555777b7f400] 3576        user_data_payload_byte[426]                          00110000 = 48
+[trace_headers @ 0x555777b7f400] 3584        user_data_payload_byte[427]                          00100000 = 32
+[trace_headers @ 0x555777b7f400] 3592        user_data_payload_byte[428]                          01100010 = 98
+[trace_headers @ 0x555777b7f400] 3600        user_data_payload_byte[429]                          01100110 = 102
+[trace_headers @ 0x555777b7f400] 3608        user_data_payload_byte[430]                          01110010 = 114
+[trace_headers @ 0x555777b7f400] 3616        user_data_payload_byte[431]                          01100001 = 97
+[trace_headers @ 0x555777b7f400] 3624        user_data_payload_byte[432]                          01101101 = 109
+[trace_headers @ 0x555777b7f400] 3632        user_data_payload_byte[433]                          01100101 = 101
+[trace_headers @ 0x555777b7f400] 3640        user_data_payload_byte[434]                          01110011 = 115
+[trace_headers @ 0x555777b7f400] 3648        user_data_payload_byte[435]                          00111101 = 61
+[trace_headers @ 0x555777b7f400] 3656        user_data_payload_byte[436]                          00110000 = 48
+[trace_headers @ 0x555777b7f400] 3664        user_data_payload_byte[437]                          00100000 = 32
+[trace_headers @ 0x555777b7f400] 3672        user_data_payload_byte[438]                          01110111 = 119
+[trace_headers @ 0x555777b7f400] 3680        user_data_payload_byte[439]                          01100101 = 101
+[trace_headers @ 0x555777b7f400] 3688        user_data_payload_byte[440]                          01101001 = 105
+[trace_headers @ 0x555777b7f400] 3696        user_data_payload_byte[441]                          01100111 = 103
+[trace_headers @ 0x555777b7f400] 3704        user_data_payload_byte[442]                          01101000 = 104
+[trace_headers @ 0x555777b7f400] 3712        user_data_payload_byte[443]                          01110100 = 116
+[trace_headers @ 0x555777b7f400] 3720        user_data_payload_byte[444]                          01110000 = 112
+[trace_headers @ 0x555777b7f400] 3728        user_data_payload_byte[445]                          00111101 = 61
+[trace_headers @ 0x555777b7f400] 3736        user_data_payload_byte[446]                          00110010 = 50
+[trace_headers @ 0x555777b7f400] 3744        user_data_payload_byte[447]                          00100000 = 32
+[trace_headers @ 0x555777b7f400] 3752        user_data_payload_byte[448]                          01101011 = 107
+[trace_headers @ 0x555777b7f400] 3760        user_data_payload_byte[449]                          01100101 = 101
+[trace_headers @ 0x555777b7f400] 3768        user_data_payload_byte[450]                          01111001 = 121
+[trace_headers @ 0x555777b7f400] 3776        user_data_payload_byte[451]                          01101001 = 105
+[trace_headers @ 0x555777b7f400] 3784        user_data_payload_byte[452]                          01101110 = 110
+[trace_headers @ 0x555777b7f400] 3792        user_data_payload_byte[453]                          01110100 = 116
+[trace_headers @ 0x555777b7f400] 3800        user_data_payload_byte[454]                          00111101 = 61
+[trace_headers @ 0x555777b7f400] 3808        user_data_payload_byte[455]                          00110001 = 49
+[trace_headers @ 0x555777b7f400] 3816        user_data_payload_byte[456]                          00110000 = 48
+[trace_headers @ 0x555777b7f400] 3824        user_data_payload_byte[457]                          00110000 = 48
+[trace_headers @ 0x555777b7f400] 3832        user_data_payload_byte[458]                          00100000 = 32
+[trace_headers @ 0x555777b7f400] 3840        user_data_payload_byte[459]                          01101011 = 107
+[trace_headers @ 0x555777b7f400] 3848        user_data_payload_byte[460]                          01100101 = 101
+[trace_headers @ 0x555777b7f400] 3856        user_data_payload_byte[461]                          01111001 = 121
+[trace_headers @ 0x555777b7f400] 3864        user_data_payload_byte[462]                          01101001 = 105
+[trace_headers @ 0x555777b7f400] 3872        user_data_payload_byte[463]                          01101110 = 110
+[trace_headers @ 0x555777b7f400] 3880        user_data_payload_byte[464]                          01110100 = 116
+[trace_headers @ 0x555777b7f400] 3888        user_data_payload_byte[465]                          01011111 = 95
+[trace_headers @ 0x555777b7f400] 3896        user_data_payload_byte[466]                          01101101 = 109
+[trace_headers @ 0x555777b7f400] 3904        user_data_payload_byte[467]                          01101001 = 105
+[trace_headers @ 0x555777b7f400] 3912        user_data_payload_byte[468]                          01101110 = 110
+[trace_headers @ 0x555777b7f400] 3920        user_data_payload_byte[469]                          00111101 = 61
+[trace_headers @ 0x555777b7f400] 3928        user_data_payload_byte[470]                          00110001 = 49
+[trace_headers @ 0x555777b7f400] 3936        user_data_payload_byte[471]                          00110000 = 48
+[trace_headers @ 0x555777b7f400] 3944        user_data_payload_byte[472]                          00100000 = 32
+[trace_headers @ 0x555777b7f400] 3952        user_data_payload_byte[473]                          01110011 = 115
+[trace_headers @ 0x555777b7f400] 3960        user_data_payload_byte[474]                          01100011 = 99
+[trace_headers @ 0x555777b7f400] 3968        user_data_payload_byte[475]                          01100101 = 101
+[trace_headers @ 0x555777b7f400] 3976        user_data_payload_byte[476]                          01101110 = 110
+[trace_headers @ 0x555777b7f400] 3984        user_data_payload_byte[477]                          01100101 = 101
+[trace_headers @ 0x555777b7f400] 3992        user_data_payload_byte[478]                          01100011 = 99
+[trace_headers @ 0x555777b7f400] 4000        user_data_payload_byte[479]                          01110101 = 117
+[trace_headers @ 0x555777b7f400] 4008        user_data_payload_byte[480]                          01110100 = 116
+[trace_headers @ 0x555777b7f400] 4016        user_data_payload_byte[481]                          00111101 = 61
+[trace_headers @ 0x555777b7f400] 4024        user_data_payload_byte[482]                          00110000 = 48
+[trace_headers @ 0x555777b7f400] 4032        user_data_payload_byte[483]                          00100000 = 32
+[trace_headers @ 0x555777b7f400] 4040        user_data_payload_byte[484]                          01101001 = 105
+[trace_headers @ 0x555777b7f400] 4048        user_data_payload_byte[485]                          01101110 = 110
+[trace_headers @ 0x555777b7f400] 4056        user_data_payload_byte[486]                          01110100 = 116
+[trace_headers @ 0x555777b7f400] 4064        user_data_payload_byte[487]                          01110010 = 114
+[trace_headers @ 0x555777b7f400] 4072        user_data_payload_byte[488]                          01100001 = 97
+[trace_headers @ 0x555777b7f400] 4080        user_data_payload_byte[489]                          01011111 = 95
+[trace_headers @ 0x555777b7f400] 4088        user_data_payload_byte[490]                          01110010 = 114
+[trace_headers @ 0x555777b7f400] 4096        user_data_payload_byte[491]                          01100101 = 101
+[trace_headers @ 0x555777b7f400] 4104        user_data_payload_byte[492]                          01100110 = 102
+[trace_headers @ 0x555777b7f400] 4112        user_data_payload_byte[493]                          01110010 = 114
+[trace_headers @ 0x555777b7f400] 4120        user_data_payload_byte[494]                          01100101 = 101
+[trace_headers @ 0x555777b7f400] 4128        user_data_payload_byte[495]                          01110011 = 115
+[trace_headers @ 0x555777b7f400] 4136        user_data_payload_byte[496]                          01101000 = 104
+[trace_headers @ 0x555777b7f400] 4144        user_data_payload_byte[497]                          00111101 = 61
+[trace_headers @ 0x555777b7f400] 4152        user_data_payload_byte[498]                          00110000 = 48
+[trace_headers @ 0x555777b7f400] 4160        user_data_payload_byte[499]                          00100000 = 32
+[trace_headers @ 0x555777b7f400] 4168        user_data_payload_byte[500]                          01110010 = 114
+[trace_headers @ 0x555777b7f400] 4176        user_data_payload_byte[501]                          01100011 = 99
+[trace_headers @ 0x555777b7f400] 4184        user_data_payload_byte[502]                          00111101 = 61
+[trace_headers @ 0x555777b7f400] 4192        user_data_payload_byte[503]                          01100011 = 99
+[trace_headers @ 0x555777b7f400] 4200        user_data_payload_byte[504]                          01110001 = 113
+[trace_headers @ 0x555777b7f400] 4208        user_data_payload_byte[505]                          01110000 = 112
+[trace_headers @ 0x555777b7f400] 4216        user_data_payload_byte[506]                          00100000 = 32
+[trace_headers @ 0x555777b7f400] 4224        user_data_payload_byte[507]                          01101101 = 109
+[trace_headers @ 0x555777b7f400] 4232        user_data_payload_byte[508]                          01100010 = 98
+[trace_headers @ 0x555777b7f400] 4240        user_data_payload_byte[509]                          01110100 = 116
+[trace_headers @ 0x555777b7f400] 4248        user_data_payload_byte[510]                          01110010 = 114
+[trace_headers @ 0x555777b7f400] 4256        user_data_payload_byte[511]                          01100101 = 101
+[trace_headers @ 0x555777b7f400] 4264        user_data_payload_byte[512]                          01100101 = 101
+[trace_headers @ 0x555777b7f400] 4272        user_data_payload_byte[513]                          00111101 = 61
+[trace_headers @ 0x555777b7f400] 4280        user_data_payload_byte[514]                          00110000 = 48
+[trace_headers @ 0x555777b7f400] 4288        user_data_payload_byte[515]                          00100000 = 32
+[trace_headers @ 0x555777b7f400] 4296        user_data_payload_byte[516]                          01110001 = 113
+[trace_headers @ 0x555777b7f400] 4304        user_data_payload_byte[517]                          01110000 = 112
+[trace_headers @ 0x555777b7f400] 4312        user_data_payload_byte[518]                          00111101 = 61
+[trace_headers @ 0x555777b7f400] 4320        user_data_payload_byte[519]                          00110010 = 50
+[trace_headers @ 0x555777b7f400] 4328        user_data_payload_byte[520]                          00110010 = 50
+[trace_headers @ 0x555777b7f400] 4336        user_data_payload_byte[521]                          00100000 = 32
+[trace_headers @ 0x555777b7f400] 4344        user_data_payload_byte[522]                          01101001 = 105
+[trace_headers @ 0x555777b7f400] 4352        user_data_payload_byte[523]                          01110000 = 112
+[trace_headers @ 0x555777b7f400] 4360        user_data_payload_byte[524]                          01011111 = 95
+[trace_headers @ 0x555777b7f400] 4368        user_data_payload_byte[525]                          01110010 = 114
+[trace_headers @ 0x555777b7f400] 4376        user_data_payload_byte[526]                          01100001 = 97
+[trace_headers @ 0x555777b7f400] 4384        user_data_payload_byte[527]                          01110100 = 116
+[trace_headers @ 0x555777b7f400] 4392        user_data_payload_byte[528]                          01101001 = 105
+[trace_headers @ 0x555777b7f400] 4400        user_data_payload_byte[529]                          01101111 = 111
+[trace_headers @ 0x555777b7f400] 4408        user_data_payload_byte[530]                          00111101 = 61
+[trace_headers @ 0x555777b7f400] 4416        user_data_payload_byte[531]                          00110001 = 49
+[trace_headers @ 0x555777b7f400] 4424        user_data_payload_byte[532]                          00101110 = 46
+[trace_headers @ 0x555777b7f400] 4432        user_data_payload_byte[533]                          00110100 = 52
+[trace_headers @ 0x555777b7f400] 4440        user_data_payload_byte[534]                          00110000 = 48
+[trace_headers @ 0x555777b7f400] 4448        user_data_payload_byte[535]                          00100000 = 32
+[trace_headers @ 0x555777b7f400] 4456        user_data_payload_byte[536]                          01100001 = 97
+[trace_headers @ 0x555777b7f400] 4464        user_data_payload_byte[537]                          01110001 = 113
+[trace_headers @ 0x555777b7f400] 4472        user_data_payload_byte[538]                          00111101 = 61
+[trace_headers @ 0x555777b7f400] 4480        user_data_payload_byte[539]                          00110000 = 48
+[trace_headers @ 0x555777b7f400] 4488        user_data_payload_byte[540]                          00000000 = 0
+[trace_headers @ 0x555777b7f400] 4496        rbsp_stop_one_bit                                           1 = 1
+[trace_headers @ 0x555777b7f400] 4497        rbsp_alignment_zero_bit                                     0 = 0
+[trace_headers @ 0x555777b7f400] 4498        rbsp_alignment_zero_bit                                     0 = 0
+[trace_headers @ 0x555777b7f400] 4499        rbsp_alignment_zero_bit                                     0 = 0
+[trace_headers @ 0x555777b7f400] 4500        rbsp_alignment_zero_bit                                     0 = 0
+[trace_headers @ 0x555777b7f400] 4501        rbsp_alignment_zero_bit                                     0 = 0
+[trace_headers @ 0x555777b7f400] 4502        rbsp_alignment_zero_bit                                     0 = 0
+[trace_headers @ 0x555777b7f400] 4503        rbsp_alignment_zero_bit                                     0 = 0
+[trace_headers @ 0x555777b7f400] Slice Header
+[trace_headers @ 0x555777b7f400] 0           forbidden_zero_bit                                          0 = 0
+[trace_headers @ 0x555777b7f400] 1           nal_ref_idc                                                11 = 3
+[trace_headers @ 0x555777b7f400] 3           nal_unit_type                                           00101 = 5
+[trace_headers @ 0x555777b7f400] 8           first_mb_in_slice                                           1 = 0
+[trace_headers @ 0x555777b7f400] 9           slice_type                                            0001000 = 7
+[trace_headers @ 0x555777b7f400] 16          pic_parameter_set_id                                        1 = 0
+[trace_headers @ 0x555777b7f400] 17          frame_num                                                0000 = 0
+[trace_headers @ 0x555777b7f400] 21          idr_pic_id                                                  1 = 0
+[trace_headers @ 0x555777b7f400] 22          no_output_of_prior_pics_flag                                0 = 0
+[trace_headers @ 0x555777b7f400] 23          long_term_reference_flag                                    0 = 0
+[trace_headers @ 0x555777b7f400] 24          slice_qp_delta                                          00111 = -3
+[trace_headers @ 0x555777b7f400] 29          disable_deblocking_filter_idc                               1 = 0
+[trace_headers @ 0x555777b7f400] 30          slice_alpha_c0_offset_div2                                  1 = 0
+[trace_headers @ 0x555777b7f400] 31          slice_beta_offset_div2                                      1 = 0
+size=       0kB time=00:00:00.00 bitrate=N/A speed=N/A    [trace_headers @ 0x555777b7f400] Packet: 11 bytes, pts 1024, dts 1024, duration 1024.
+[trace_headers @ 0x555777b7f400] nal_unit_type: 1(Coded slice of a non-IDR picture), nal_ref_idc: 2
+[trace_headers @ 0x555777b7f400] Slice Header
+[trace_headers @ 0x555777b7f400] 0           forbidden_zero_bit                                          0 = 0
+[trace_headers @ 0x555777b7f400] 1           nal_ref_idc                                                10 = 2
+[trace_headers @ 0x555777b7f400] 3           nal_unit_type                                           00001 = 1
+[trace_headers @ 0x555777b7f400] 8           first_mb_in_slice                                           1 = 0
+[trace_headers @ 0x555777b7f400] 9           slice_type                                              00110 = 5
+[trace_headers @ 0x555777b7f400] 14          pic_parameter_set_id                                        1 = 0
+[trace_headers @ 0x555777b7f400] 15          frame_num                                                0001 = 1
+[trace_headers @ 0x555777b7f400] 19          num_ref_idx_active_override_flag                            1 = 1
+[trace_headers @ 0x555777b7f400] 20          num_ref_idx_l0_active_minus1                                1 = 0
+[trace_headers @ 0x555777b7f400] 21          ref_pic_list_modification_flag_l0                           0 = 0
+[trace_headers @ 0x555777b7f400] 22          luma_log2_weight_denom                                      1 = 0
+[trace_headers @ 0x555777b7f400] 23          chroma_log2_weight_denom                                    1 = 0
+[trace_headers @ 0x555777b7f400] 24          luma_weight_l0_flag[0]                                      0 = 0
+[trace_headers @ 0x555777b7f400] 25          chroma_weight_l0_flag[0]                                    0 = 0
+[trace_headers @ 0x555777b7f400] 26          adaptive_ref_pic_marking_mode_flag                          0 = 0
+[trace_headers @ 0x555777b7f400] 27          cabac_init_idc                                              1 = 0
+[trace_headers @ 0x555777b7f400] 28          slice_qp_delta                                              1 = 0
+[trace_headers @ 0x555777b7f400] 29          disable_deblocking_filter_idc                               1 = 0
+[trace_headers @ 0x555777b7f400] 30          slice_alpha_c0_offset_div2                                  1 = 0
+[trace_headers @ 0x555777b7f400] 31          slice_beta_offset_div2                                      1 = 0
+[trace_headers @ 0x555777b7f400] Packet: 15 bytes, pts 2048, dts 2048, duration 1024.
+[trace_headers @ 0x555777b7f400] nal_unit_type: 1(Coded slice of a non-IDR picture), nal_ref_idc: 2
+[trace_headers @ 0x555777b7f400] Slice Header
+[trace_headers @ 0x555777b7f400] 0           forbidden_zero_bit                                          0 = 0
+[trace_headers @ 0x555777b7f400] 1           nal_ref_idc                                                10 = 2
+[trace_headers @ 0x555777b7f400] 3           nal_unit_type                                           00001 = 1
+[trace_headers @ 0x555777b7f400] 8           first_mb_in_slice                                           1 = 0
+[trace_headers @ 0x555777b7f400] 9           slice_type                                              00110 = 5
+[trace_headers @ 0x555777b7f400] 14          pic_parameter_set_id                                        1 = 0
+[trace_headers @ 0x555777b7f400] 15          frame_num                                                0010 = 2
+[trace_headers @ 0x555777b7f400] 19          num_ref_idx_active_override_flag                            0 = 0
+[trace_headers @ 0x555777b7f400] 20          ref_pic_list_modification_flag_l0                           1 = 1
+[trace_headers @ 0x555777b7f400] 21          modification_of_pic_nums_idc                                1 = 0
+[trace_headers @ 0x555777b7f400] 22          abs_diff_pic_num_minus1                                     1 = 0
+[trace_headers @ 0x555777b7f400] 23          modification_of_pic_nums_idc                                1 = 0
+[trace_headers @ 0x555777b7f400] 24          abs_diff_pic_num_minus1                             000010000 = 15
+[trace_headers @ 0x555777b7f400] 33          modification_of_pic_nums_idc                                1 = 0
+[trace_headers @ 0x555777b7f400] 34          abs_diff_pic_num_minus1                                     1 = 0
+[trace_headers @ 0x555777b7f400] 35          modification_of_pic_nums_idc                            00100 = 3
+[trace_headers @ 0x555777b7f400] 40          luma_log2_weight_denom                                      1 = 0
+[trace_headers @ 0x555777b7f400] 41          chroma_log2_weight_denom                                    1 = 0
+[trace_headers @ 0x555777b7f400] 42          luma_weight_l0_flag[0]                                      0 = 0
+[trace_headers @ 0x555777b7f400] 43          chroma_weight_l0_flag[0]                                    0 = 0
+[trace_headers @ 0x555777b7f400] 44          luma_weight_l0_flag[1]                                      1 = 1
+[trace_headers @ 0x555777b7f400] 45          luma_weight_l0[1]                                         010 = 1
+[trace_headers @ 0x555777b7f400] 48          luma_offset_l0[1]                                         011 = -1
+[trace_headers @ 0x555777b7f400] 51          chroma_weight_l0_flag[1]                                    0 = 0
+[trace_headers @ 0x555777b7f400] 52          luma_weight_l0_flag[2]                                      0 = 0
+[trace_headers @ 0x555777b7f400] 53          chroma_weight_l0_flag[2]                                    0 = 0
+[trace_headers @ 0x555777b7f400] 54          adaptive_ref_pic_marking_mode_flag                          0 = 0
+[trace_headers @ 0x555777b7f400] 55          cabac_init_idc                                              1 = 0
+[trace_headers @ 0x555777b7f400] 56          slice_qp_delta                                              1 = 0
+[trace_headers @ 0x555777b7f400] 57          disable_deblocking_filter_idc                               1 = 0
+[trace_headers @ 0x555777b7f400] 58          slice_alpha_c0_offset_div2                                  1 = 0
+[trace_headers @ 0x555777b7f400] 59          slice_beta_offset_div2                                      1 = 0
+[trace_headers @ 0x555777b7f400] 60          cabac_alignment_one_bit                                     1 = 1
+[trace_headers @ 0x555777b7f400] 61          cabac_alignment_one_bit                                     1 = 1
+[trace_headers @ 0x555777b7f400] 62          cabac_alignment_one_bit                                     1 = 1
+[trace_headers @ 0x555777b7f400] 63          cabac_alignment_one_bit                                     1 = 1
+[mov,mp4,m4a,3gp,3g2,mj2 @ 0x555777b03c80] stream 0, sample 3, dts 300000
+[mov,mp4,m4a,3gp,3g2,mj2 @ 0x555777b03c80] stream 0, sample 4, dts 400000
+[trace_headers @ 0x555777b7f400] Packet: 16 bytes, pts 3072, dts 3072, duration 1024.
+[trace_headers @ 0x555777b7f400] nal_unit_type: 1(Coded slice of a non-IDR picture), nal_ref_idc: 2
+[trace_headers @ 0x555777b7f400] Slice Header
+[trace_headers @ 0x555777b7f400] 0           forbidden_zero_bit                                          0 = 0
+[trace_headers @ 0x555777b7f400] 1           nal_ref_idc                                                10 = 2
+[trace_headers @ 0x555777b7f400] 3           nal_unit_type                                           00001 = 1
+[trace_headers @ 0x555777b7f400] 8           first_mb_in_slice                                           1 = 0
+[trace_headers @ 0x555777b7f400] 9           slice_type                                              00110 = 5
+[trace_headers @ 0x555777b7f400] 14          pic_parameter_set_id                                        1 = 0
+[trace_headers @ 0x555777b7f400] 15          frame_num                                                0011 = 3
+[trace_headers @ 0x555777b7f400] 19          num_ref_idx_active_override_flag                            1 = 1
+[trace_headers @ 0x555777b7f400] 20          num_ref_idx_l0_active_minus1                            00100 = 3
+[trace_headers @ 0x555777b7f400] 25          ref_pic_list_modification_flag_l0                           1 = 1
+[trace_headers @ 0x555777b7f400] 26          modification_of_pic_nums_idc                                1 = 0
+[trace_headers @ 0x555777b7f400] 27          abs_diff_pic_num_minus1                                     1 = 0
+[trace_headers @ 0x555777b7f400] 28          modification_of_pic_nums_idc                                1 = 0
+[trace_headers @ 0x555777b7f400] 29          abs_diff_pic_num_minus1                             000010000 = 15
+[trace_headers @ 0x555777b7f400] 38          modification_of_pic_nums_idc                                1 = 0
+[trace_headers @ 0x555777b7f400] 39          abs_diff_pic_num_minus1                                     1 = 0
+[trace_headers @ 0x555777b7f400] 40          modification_of_pic_nums_idc                                1 = 0
+[mov,mp4,m4a,3gp,3g2,mj2 @ 0x555777b03c80] stream 0, sample 5, dts 500000
+[trace_headers @ 0x555777b7f400] 41          abs_diff_pic_num_minus1                                     1 = 0
+[trace_headers @ 0x555777b7f400] 42          modification_of_pic_nums_idc                            00100 = 3
+[trace_headers @ 0x555777b7f400] 47          luma_log2_weight_denom                                      1 = 0
+[trace_headers @ 0x555777b7f400] 48          chroma_log2_weight_denom                                    1 = 0
+[trace_headers @ 0x555777b7f400] 49          luma_weight_l0_flag[0]                                      0 = 0
+[trace_headers @ 0x555777b7f400] 50          chroma_weight_l0_flag[0]                                    0 = 0
+[trace_headers @ 0x555777b7f400] 51          luma_weight_l0_flag[1]                                      1 = 1
+[trace_headers @ 0x555777b7f400] 52          luma_weight_l0[1]                                         010 = 1
+[trace_headers @ 0x555777b7f400] 55          luma_offset_l0[1]                                         011 = -1
+[trace_headers @ 0x555777b7f400] 58          chroma_weight_l0_flag[1]                                    0 = 0
+[trace_headers @ 0x555777b7f400] 59          luma_weight_l0_flag[2]                                      0 = 0
+[trace_headers @ 0x555777b7f400] 60          chroma_weight_l0_flag[2]                                    0 = 0
+[trace_headers @ 0x555777b7f400] 61          luma_weight_l0_flag[3]                                      0 = 0
+[trace_headers @ 0x555777b7f400] 62          chroma_weight_l0_flag[3]                                    0 = 0
+[trace_headers @ 0x555777b7f400] 63          adaptive_ref_pic_marking_mode_flag                          0 = 0
+[trace_headers @ 0x555777b7f400] 64          cabac_init_idc                                              1 = 0
+[trace_headers @ 0x555777b7f400] 65          slice_qp_delta                                              1 = 0
+[trace_headers @ 0x555777b7f400] 66          disable_deblocking_filter_idc                               1 = 0
+[trace_headers @ 0x555777b7f400] 67          slice_alpha_c0_offset_div2                                  1 = 0
+[trace_headers @ 0x555777b7f400] 68          slice_beta_offset_div2                                      1 = 0
+[trace_headers @ 0x555777b7f400] 69          cabac_alignment_one_bit                                     1 = 1
+[trace_headers @ 0x555777b7f400] 70          cabac_alignment_one_bit                                     1 = 1
+[trace_headers @ 0x555777b7f400] 71          cabac_alignment_one_bit                                     1 = 1
+[trace_headers @ 0x555777b7f400] Packet: 16 bytes, pts 4096, dts 4096, duration 1024.
+[trace_headers @ 0x555777b7f400] nal_unit_type: 1(Coded slice of a non-IDR picture), nal_ref_idc: 2
+[trace_headers @ 0x555777b7f400] Slice Header
+[trace_headers @ 0x555777b7f400] 0           forbidden_zero_bit                                          0 = 0
+[trace_headers @ 0x555777b7f400] 1           nal_ref_idc                                                10 = 2
+[trace_headers @ 0x555777b7f400] 3           nal_unit_type                                           00001 = 1
+[trace_headers @ 0x555777b7f400] 8           first_mb_in_slice                                           1 = 0
+[trace_headers @ 0x555777b7f400] 9           slice_type                                              00110 = 5
+[trace_headers @ 0x555777b7f400] 14          pic_parameter_set_id                                        1 = 0
+[trace_headers @ 0x555777b7f400] 15          frame_num                                                0100 = 4
+[trace_headers @ 0x555777b7f400] 19          num_ref_idx_active_override_flag                            1 = 1
+[trace_headers @ 0x555777b7f400] 20          num_ref_idx_l0_active_minus1                            00100 = 3
+[trace_headers @ 0x555777b7f400] 25          ref_pic_list_modification_flag_l0                           1 = 1
+[trace_headers @ 0x555777b7f400] 26          modification_of_pic_nums_idc                                1 = 0
+[trace_headers @ 0x555777b7f400] 27          abs_diff_pic_num_minus1                                     1 = 0
+[trace_headers @ 0x555777b7f400] 28          modification_of_pic_nums_idc                                1 = 0
+[trace_headers @ 0x555777b7f400] 29          abs_diff_pic_num_minus1                             000010000 = 15
+[trace_headers @ 0x555777b7f400] 38          modification_of_pic_nums_idc                                1 = 0
+[trace_headers @ 0x555777b7f400] 39          abs_diff_pic_num_minus1                                     1 = 0
+[trace_headers @ 0x555777b7f400] 40          modification_of_pic_nums_idc                                1 = 0
+[trace_headers @ 0x555777b7f400] 41          abs_diff_pic_num_minus1                                     1 = 0
+[trace_headers @ 0x555777b7f400] 42          modification_of_pic_nums_idc                            00100 = 3
+[trace_headers @ 0x555777b7f400] 47          luma_log2_weight_denom                                      1 = 0
+[trace_headers @ 0x555777b7f400] 48          chroma_log2_weight_denom                                    1 = 0
+[trace_headers @ 0x555777b7f400] 49          luma_weight_l0_flag[0]                                      0 = 0
+[trace_headers @ 0x555777b7f400] 50          chroma_weight_l0_flag[0]                                    0 = 0
+[trace_headers @ 0x555777b7f400] 51          luma_weight_l0_flag[1]                                      1 = 1
+[mov,mp4,m4a,3gp,3g2,mj2 @ 0x555777b03c80] stream 0, sample 6, dts 600000
+[trace_headers @ 0x555777b7f400] 52          luma_weight_l0[1]                                         010 = 1
+[trace_headers @ 0x555777b7f400] 55          luma_offset_l0[1]                                         011 = -1
+[trace_headers @ 0x555777b7f400] 58          chroma_weight_l0_flag[1]                                    0 = 0
+[trace_headers @ 0x555777b7f400] 59          luma_weight_l0_flag[2]                                      0 = 0
+[trace_headers @ 0x555777b7f400] 60          chroma_weight_l0_flag[2]                                    0 = 0
+[trace_headers @ 0x555777b7f400] 61          luma_weight_l0_flag[3]                                      0 = 0
+[trace_headers @ 0x555777b7f400] 62          chroma_weight_l0_flag[3]                                    0 = 0
+[trace_headers @ 0x555777b7f400] 63          adaptive_ref_pic_marking_mode_flag                          0 = 0
+[trace_headers @ 0x555777b7f400] 64          cabac_init_idc                                              1 = 0
+[trace_headers @ 0x555777b7f400] 65          slice_qp_delta                                              1 = 0
+[trace_headers @ 0x555777b7f400] 66          disable_deblocking_filter_idc                               1 = 0
+[trace_headers @ 0x555777b7f400] 67          slice_alpha_c0_offset_div2                                  1 = 0
+[trace_headers @ 0x555777b7f400] 68          slice_beta_offset_div2                                      1 = 0
+[trace_headers @ 0x555777b7f400] 69          cabac_alignment_one_bit                                     1 = 1
+[trace_headers @ 0x555777b7f400] 70          cabac_alignment_one_bit                                     1 = 1
+[trace_headers @ 0x555777b7f400] 71          cabac_alignment_one_bit                                     1 = 1
+[trace_headers @ 0x555777b7f400] Packet: 16 bytes, pts 5120, dts 5120, duration 1024.
+[trace_headers @ 0x555777b7f400] nal_unit_type: 1(Coded slice of a non-IDR picture), nal_ref_idc: 2
+[trace_headers @ 0x555777b7f400] Slice Header
+[trace_headers @ 0x555777b7f400] 0           forbidden_zero_bit                                          0 = 0
+[trace_headers @ 0x555777b7f400] 1           nal_ref_idc                                                10 = 2
+[trace_headers @ 0x555777b7f400] 3           nal_unit_type                                           00001 = 1
+[trace_headers @ 0x555777b7f400] 8           first_mb_in_slice                                           1 = 0
+[trace_headers @ 0x555777b7f400] 9           slice_type                                              00110 = 5
+[trace_headers @ 0x555777b7f400] 14          pic_parameter_set_id                                        1 = 0
+[trace_headers @ 0x555777b7f400] 15          frame_num                                                0101 = 5
+[trace_headers @ 0x555777b7f400] 19          num_ref_idx_active_override_flag                            1 = 1
+[trace_headers @ 0x555777b7f400] 20          num_ref_idx_l0_active_minus1                            00100 = 3
+[trace_headers @ 0x555777b7f400] 25          ref_pic_list_modification_flag_l0                           1 = 1
+[trace_headers @ 0x555777b7f400] 26          modification_of_pic_nums_idc                                1 = 0
+[trace_headers @ 0x555777b7f400] 27          abs_diff_pic_num_minus1                                     1 = 0
+[trace_headers @ 0x555777b7f400] 28          modification_of_pic_nums_idc                                1 = 0
+[trace_headers @ 0x555777b7f400] 29          abs_diff_pic_num_minus1                             000010000 = 15
+[trace_headers @ 0x555777b7f400] 38          modification_of_pic_nums_idc                                1 = 0
+[trace_headers @ 0x555777b7f400] 39          abs_diff_pic_num_minus1                                     1 = 0
+[trace_headers @ 0x555777b7f400] 40          modification_of_pic_nums_idc                                1 = 0
+[trace_headers @ 0x555777b7f400] 41          abs_diff_pic_num_minus1                                     1 = 0
+[trace_headers @ 0x555777b7f400] 42          modification_of_pic_nums_idc                            00100 = 3
+[trace_headers @ 0x555777b7f400] 47          luma_log2_weight_denom                                      1 = 0
+[trace_headers @ 0x555777b7f400] 48          chroma_log2_weight_denom                                    1 = 0
+[trace_headers @ 0x555777b7f400] 49          luma_weight_l0_flag[0]                                      0 = 0
+[trace_headers @ 0x555777b7f400] 50          chroma_weight_l0_flag[0]                                    0 = 0
+[trace_headers @ 0x555777b7f400] 51          luma_weight_l0_flag[1]                                      1 = 1
+[trace_headers @ 0x555777b7f400] 52          luma_weight_l0[1]                                         010 = 1
+[trace_headers @ 0x555777b7f400] 55          luma_offset_l0[1]                                         011 = -1
+[trace_headers @ 0x555777b7f400] 58          chroma_weight_l0_flag[1]                                    0 = 0
+[trace_headers @ 0x555777b7f400] 59          luma_weight_l0_flag[2]                                      0 = 0
+[trace_headers @ 0x555777b7f400] 60          chroma_weight_l0_flag[2]                                    0 = 0
+[trace_headers @ 0x555777b7f400] 61          luma_weight_l0_flag[3]                                      0 = 0
+[trace_headers @ 0x555777b7f400] 62          chroma_weight_l0_flag[3]                                    0 = 0
+[trace_headers @ 0x555777b7f400] 63          adaptive_ref_pic_marking_mode_flag                          0 = 0
+[trace_headers @ 0x555777b7f400] 64          cabac_init_idc                                              1 = 0
+[trace_headers @ 0x555777b7f400] 65          slice_qp_delta                                              1 = 0
+[trace_headers @ 0x555777b7f400] 66          disable_deblocking_filter_idc                               1 = 0
+[trace_headers @ 0x555777b7f400] 67          slice_alpha_c0_offset_div2                                  1 = 0
+[trace_headers @ 0x555777b7f400] 68          slice_beta_offset_div2                                      1 = 0
+[trace_headers @ 0x555777b7f400] 69          cabac_alignment_one_bit                                     1 = 1
+[trace_headers @ 0x555777b7f400] 70          cabac_alignment_one_bit                                     1 = 1
+[trace_headers @ 0x555777b7f400] 71          cabac_alignment_one_bit                                     1 = 1
+[mov,mp4,m4a,3gp,3g2,mj2 @ 0x555777b03c80] stream 0, sample 7, dts 700000
+[trace_headers @ 0x555777b7f400] Packet: 16 bytes, pts 6144, dts 6144, duration 1024.
+[trace_headers @ 0x555777b7f400] nal_unit_type: 1(Coded slice of a non-IDR picture), nal_ref_idc: 2
+[trace_headers @ 0x555777b7f400] Slice Header
+[trace_headers @ 0x555777b7f400] 0           forbidden_zero_bit                                          0 = 0
+[trace_headers @ 0x555777b7f400] 1           nal_ref_idc                                                10 = 2
+[trace_headers @ 0x555777b7f400] 3           nal_unit_type                                           00001 = 1
+[trace_headers @ 0x555777b7f400] 8           first_mb_in_slice                                           1 = 0
+[trace_headers @ 0x555777b7f400] 9           slice_type                                              00110 = 5
+[trace_headers @ 0x555777b7f400] 14          pic_parameter_set_id                                        1 = 0
+[trace_headers @ 0x555777b7f400] 15          frame_num                                                0110 = 6
+[trace_headers @ 0x555777b7f400] 19          num_ref_idx_active_override_flag                            1 = 1
+[trace_headers @ 0x555777b7f400] 20          num_ref_idx_l0_active_minus1                            00100 = 3
+[trace_headers @ 0x555777b7f400] 25          ref_pic_list_modification_flag_l0                           1 = 1
+[trace_headers @ 0x555777b7f400] 26          modification_of_pic_nums_idc                                1 = 0
+[trace_headers @ 0x555777b7f400] 27          abs_diff_pic_num_minus1                                     1 = 0
+[trace_headers @ 0x555777b7f400] 28          modification_of_pic_nums_idc                                1 = 0
+[trace_headers @ 0x555777b7f400] 29          abs_diff_pic_num_minus1                             000010000 = 15
+[trace_headers @ 0x555777b7f400] 38          modification_of_pic_nums_idc                                1 = 0
+[trace_headers @ 0x555777b7f400] 39          abs_diff_pic_num_minus1                                     1 = 0
+[trace_headers @ 0x555777b7f400] 40          modification_of_pic_nums_idc                                1 = 0
+[trace_headers @ 0x555777b7f400] 41          abs_diff_pic_num_minus1                                     1 = 0
+[trace_headers @ 0x555777b7f400] 42          modification_of_pic_nums_idc                            00100 = 3
+[trace_headers @ 0x555777b7f400] 47          luma_log2_weight_denom                                      1 = 0
+[trace_headers @ 0x555777b7f400] 48          chroma_log2_weight_denom                                    1 = 0
+[trace_headers @ 0x555777b7f400] 49          luma_weight_l0_flag[0]                                      0 = 0
+[trace_headers @ 0x555777b7f400] 50          chroma_weight_l0_flag[0]                                    0 = 0
+[trace_headers @ 0x555777b7f400] 51          luma_weight_l0_flag[1]                                      1 = 1
+[trace_headers @ 0x555777b7f400] 52          luma_weight_l0[1]                                         010 = 1
+[trace_headers @ 0x555777b7f400] 55          luma_offset_l0[1]                                         011 = -1
+[trace_headers @ 0x555777b7f400] 58          chroma_weight_l0_flag[1]                                    0 = 0
+[trace_headers @ 0x555777b7f400] 59          luma_weight_l0_flag[2]                                      0 = 0
+[trace_headers @ 0x555777b7f400] 60          chroma_weight_l0_flag[2]                                    0 = 0
+[trace_headers @ 0x555777b7f400] 61          luma_weight_l0_flag[3]                                      0 = 0
+[trace_headers @ 0x555777b7f400] 62          chroma_weight_l0_flag[3]                                    0 = 0
+[trace_headers @ 0x555777b7f400] 63          adaptive_ref_pic_marking_mode_flag                          0 = 0
+[trace_headers @ 0x555777b7f400] 64          cabac_init_idc                                              1 = 0
+[trace_headers @ 0x555777b7f400] 65          slice_qp_delta                                              1 = 0
+[trace_headers @ 0x555777b7f400] 66          disable_deblocking_filter_idc                               1 = 0
+[trace_headers @ 0x555777b7f400] 67          slice_alpha_c0_offset_div2                                  1 = 0
+[trace_headers @ 0x555777b7f400] 68          slice_beta_offset_div2                                      1 = 0
+[trace_headers @ 0x555777b7f400] 69          cabac_alignment_one_bit                                     1 = 1
+[trace_headers @ 0x555777b7f400] 70          cabac_alignment_one_bit                                     1 = 1
+[trace_headers @ 0x555777b7f400] 71          cabac_alignment_one_bit                                     1 = 1
+[mov,mp4,m4a,3gp,3g2,mj2 @ 0x555777b03c80] stream 0, sample 8, dts 800000
+[trace_headers @ 0x555777b7f400] Packet: 16 bytes, pts 7168, dts 7168, duration 1024.
+[trace_headers @ 0x555777b7f400] nal_unit_type: 1(Coded slice of a non-IDR picture), nal_ref_idc: 2
+[trace_headers @ 0x555777b7f400] Slice Header
+[trace_headers @ 0x555777b7f400] 0           forbidden_zero_bit                                          0 = 0
+[trace_headers @ 0x555777b7f400] 1           nal_ref_idc                                                10 = 2
+[trace_headers @ 0x555777b7f400] 3           nal_unit_type                                           00001 = 1
+[mov,mp4,m4a,3gp,3g2,mj2 @ 0x555777b03c80] stream 0, sample 9, dts 900000
+[trace_headers @ 0x555777b7f400] 8           first_mb_in_slice                                           1 = 0
+[trace_headers @ 0x555777b7f400] 9           slice_type                                              00110 = 5
+[trace_headers @ 0x555777b7f400] 14          pic_parameter_set_id                                        1 = 0
+[trace_headers @ 0x555777b7f400] 15          frame_num                                                0111 = 7
+[trace_headers @ 0x555777b7f400] 19          num_ref_idx_active_override_flag                            1 = 1
+[trace_headers @ 0x555777b7f400] 20          num_ref_idx_l0_active_minus1                            00100 = 3
+[trace_headers @ 0x555777b7f400] 25          ref_pic_list_modification_flag_l0                           1 = 1
+[trace_headers @ 0x555777b7f400] 26          modification_of_pic_nums_idc                                1 = 0
+[trace_headers @ 0x555777b7f400] 27          abs_diff_pic_num_minus1                                     1 = 0
+[trace_headers @ 0x555777b7f400] 28          modification_of_pic_nums_idc                                1 = 0
+[trace_headers @ 0x555777b7f400] 29          abs_diff_pic_num_minus1                             000010000 = 15
+[trace_headers @ 0x555777b7f400] 38          modification_of_pic_nums_idc                                1 = 0
+[trace_headers @ 0x555777b7f400] 39          abs_diff_pic_num_minus1                                     1 = 0
+[trace_headers @ 0x555777b7f400] 40          modification_of_pic_nums_idc                                1 = 0
+[trace_headers @ 0x555777b7f400] 41          abs_diff_pic_num_minus1                                     1 = 0
+[trace_headers @ 0x555777b7f400] 42          modification_of_pic_nums_idc                            00100 = 3
+[trace_headers @ 0x555777b7f400] 47          luma_log2_weight_denom                                      1 = 0
+[trace_headers @ 0x555777b7f400] 48          chroma_log2_weight_denom                                    1 = 0
+[trace_headers @ 0x555777b7f400] 49          luma_weight_l0_flag[0]                                      0 = 0
+[trace_headers @ 0x555777b7f400] 50          chroma_weight_l0_flag[0]                                    0 = 0
+[trace_headers @ 0x555777b7f400] 51          luma_weight_l0_flag[1]                                      1 = 1
+[trace_headers @ 0x555777b7f400] 52          luma_weight_l0[1]                                         010 = 1
+[trace_headers @ 0x555777b7f400] 55          luma_offset_l0[1]                                         011 = -1
+[trace_headers @ 0x555777b7f400] 58          chroma_weight_l0_flag[1]                                    0 = 0
+[trace_headers @ 0x555777b7f400] 59          luma_weight_l0_flag[2]                                      0 = 0
+[trace_headers @ 0x555777b7f400] 60          chroma_weight_l0_flag[2]                                    0 = 0
+[trace_headers @ 0x555777b7f400] 61          luma_weight_l0_flag[3]                                      0 = 0
+[trace_headers @ 0x555777b7f400] 62          chroma_weight_l0_flag[3]                                    0 = 0
+[trace_headers @ 0x555777b7f400] 63          adaptive_ref_pic_marking_mode_flag                          0 = 0
+[trace_headers @ 0x555777b7f400] 64          cabac_init_idc                                              1 = 0
+[trace_headers @ 0x555777b7f400] 65          slice_qp_delta                                              1 = 0
+[trace_headers @ 0x555777b7f400] 66          disable_deblocking_filter_idc                               1 = 0
+[trace_headers @ 0x555777b7f400] 67          slice_alpha_c0_offset_div2                                  1 = 0
+[trace_headers @ 0x555777b7f400] 68          slice_beta_offset_div2                                      1 = 0
+[trace_headers @ 0x555777b7f400] 69          cabac_alignment_one_bit                                     1 = 1
+[trace_headers @ 0x555777b7f400] 70          cabac_alignment_one_bit                                     1 = 1
+[trace_headers @ 0x555777b7f400] 71          cabac_alignment_one_bit                                     1 = 1
+[trace_headers @ 0x555777b7f400] Packet: 16 bytes, pts 8192, dts 8192, duration 1024.
+[trace_headers @ 0x555777b7f400] nal_unit_type: 1(Coded slice of a non-IDR picture), nal_ref_idc: 2
+[trace_headers @ 0x555777b7f400] Slice Header
+[trace_headers @ 0x555777b7f400] 0           forbidden_zero_bit                                          0 = 0
+[trace_headers @ 0x555777b7f400] 1           nal_ref_idc                                                10 = 2
+[trace_headers @ 0x555777b7f400] 3           nal_unit_type                                           00001 = 1
+[trace_headers @ 0x555777b7f400] 8           first_mb_in_slice                                           1 = 0
+[trace_headers @ 0x555777b7f400] 9           slice_type                                              00110 = 5
+[trace_headers @ 0x555777b7f400] 14          pic_parameter_set_id                                        1 = 0
+[trace_headers @ 0x555777b7f400] 15          frame_num                                                1000 = 8
+[trace_headers @ 0x555777b7f400] 19          num_ref_idx_active_override_flag                            1 = 1
+[trace_headers @ 0x555777b7f400] 20          num_ref_idx_l0_active_minus1                            00100 = 3
+[trace_headers @ 0x555777b7f400] 25          ref_pic_list_modification_flag_l0                           1 = 1
+[trace_headers @ 0x555777b7f400] 26          modification_of_pic_nums_idc                                1 = 0
+[trace_headers @ 0x555777b7f400] 27          abs_diff_pic_num_minus1                                     1 = 0
+[trace_headers @ 0x555777b7f400] 28          modification_of_pic_nums_idc                                1 = 0
+[trace_headers @ 0x555777b7f400] 29          abs_diff_pic_num_minus1                             000010000 = 15
+[trace_headers @ 0x555777b7f400] 38          modification_of_pic_nums_idc                                1 = 0
+[in#0/mov,mp4,m4a,3gp,3g2,mj2 @ 0x555777b03b80] EOF while reading input
+[in#0/mov,mp4,m4a,3gp,3g2,mj2 @ 0x555777b03b80] Terminating demuxer thread
+[trace_headers @ 0x555777b7f400] 39          abs_diff_pic_num_minus1                                     1 = 0
+[trace_headers @ 0x555777b7f400] 40          modification_of_pic_nums_idc                                1 = 0
+[trace_headers @ 0x555777b7f400] 41          abs_diff_pic_num_minus1                                     1 = 0
+[trace_headers @ 0x555777b7f400] 42          modification_of_pic_nums_idc                            00100 = 3
+[trace_headers @ 0x555777b7f400] 47          luma_log2_weight_denom                                      1 = 0
+[trace_headers @ 0x555777b7f400] 48          chroma_log2_weight_denom                                    1 = 0
+[trace_headers @ 0x555777b7f400] 49          luma_weight_l0_flag[0]                                      0 = 0
+[trace_headers @ 0x555777b7f400] 50          chroma_weight_l0_flag[0]                                    0 = 0
+[trace_headers @ 0x555777b7f400] 51          luma_weight_l0_flag[1]                                      1 = 1
+[trace_headers @ 0x555777b7f400] 52          luma_weight_l0[1]                                         010 = 1
+[trace_headers @ 0x555777b7f400] 55          luma_offset_l0[1]                                         011 = -1
+[trace_headers @ 0x555777b7f400] 58          chroma_weight_l0_flag[1]                                    0 = 0
+[trace_headers @ 0x555777b7f400] 59          luma_weight_l0_flag[2]                                      0 = 0
+[trace_headers @ 0x555777b7f400] 60          chroma_weight_l0_flag[2]                                    0 = 0
+[trace_headers @ 0x555777b7f400] 61          luma_weight_l0_flag[3]                                      0 = 0
+[trace_headers @ 0x555777b7f400] 62          chroma_weight_l0_flag[3]                                    0 = 0
+[trace_headers @ 0x555777b7f400] 63          adaptive_ref_pic_marking_mode_flag                          0 = 0
+[trace_headers @ 0x555777b7f400] 64          cabac_init_idc                                              1 = 0
+[trace_headers @ 0x555777b7f400] 65          slice_qp_delta                                              1 = 0
+[trace_headers @ 0x555777b7f400] 66          disable_deblocking_filter_idc                               1 = 0
+[trace_headers @ 0x555777b7f400] 67          slice_alpha_c0_offset_div2                                  1 = 0
+[trace_headers @ 0x555777b7f400] 68          slice_beta_offset_div2                                      1 = 0
+[trace_headers @ 0x555777b7f400] 69          cabac_alignment_one_bit                                     1 = 1
+[trace_headers @ 0x555777b7f400] 70          cabac_alignment_one_bit                                     1 = 1
+[trace_headers @ 0x555777b7f400] 71          cabac_alignment_one_bit                                     1 = 1
+[trace_headers @ 0x555777b7f400] Packet: 16 bytes, pts 9216, dts 9216, duration 1024.
+[trace_headers @ 0x555777b7f400] nal_unit_type: 1(Coded slice of a non-IDR picture), nal_ref_idc: 2
+[trace_headers @ 0x555777b7f400] Slice Header
+[trace_headers @ 0x555777b7f400] 0           forbidden_zero_bit                                          0 = 0
+[trace_headers @ 0x555777b7f400] 1           nal_ref_idc                                                10 = 2
+[trace_headers @ 0x555777b7f400] 3           nal_unit_type                                           00001 = 1
+[trace_headers @ 0x555777b7f400] 8           first_mb_in_slice                                           1 = 0
+[trace_headers @ 0x555777b7f400] 9           slice_type                                              00110 = 5
+[trace_headers @ 0x555777b7f400] 14          pic_parameter_set_id                                        1 = 0
+[trace_headers @ 0x555777b7f400] 15          frame_num                                                1001 = 9
+[trace_headers @ 0x555777b7f400] 19          num_ref_idx_active_override_flag                            1 = 1
+[trace_headers @ 0x555777b7f400] 20          num_ref_idx_l0_active_minus1                            00100 = 3
+[trace_headers @ 0x555777b7f400] 25          ref_pic_list_modification_flag_l0                           1 = 1
+[trace_headers @ 0x555777b7f400] 26          modification_of_pic_nums_idc                                1 = 0
+[trace_headers @ 0x555777b7f400] 27          abs_diff_pic_num_minus1                                     1 = 0
+[trace_headers @ 0x555777b7f400] 28          modification_of_pic_nums_idc                                1 = 0
+[trace_headers @ 0x555777b7f400] 29          abs_diff_pic_num_minus1                             000010000 = 15
+[trace_headers @ 0x555777b7f400] 38          modification_of_pic_nums_idc                                1 = 0
+[trace_headers @ 0x555777b7f400] 39          abs_diff_pic_num_minus1                                     1 = 0
+[trace_headers @ 0x555777b7f400] 40          modification_of_pic_nums_idc                                1 = 0
+[trace_headers @ 0x555777b7f400] 41          abs_diff_pic_num_minus1                                     1 = 0
+[trace_headers @ 0x555777b7f400] 42          modification_of_pic_nums_idc                            00100 = 3
+[trace_headers @ 0x555777b7f400] 47          luma_log2_weight_denom                                      1 = 0
+[trace_headers @ 0x555777b7f400] 48          chroma_log2_weight_denom                                    1 = 0
+[trace_headers @ 0x555777b7f400] 49          luma_weight_l0_flag[0]                                      0 = 0
+[trace_headers @ 0x555777b7f400] 50          chroma_weight_l0_flag[0]                                    0 = 0
+[trace_headers @ 0x555777b7f400] 51          luma_weight_l0_flag[1]                                      1 = 1
+[trace_headers @ 0x555777b7f400] 52          luma_weight_l0[1]                                         010 = 1
+[trace_headers @ 0x555777b7f400] 55          luma_offset_l0[1]                                         011 = -1
+[trace_headers @ 0x555777b7f400] 58          chroma_weight_l0_flag[1]                                    0 = 0
+[trace_headers @ 0x555777b7f400] 59          luma_weight_l0_flag[2]                                      0 = 0
+[trace_headers @ 0x555777b7f400] 60          chroma_weight_l0_flag[2]                                    0 = 0
+[trace_headers @ 0x555777b7f400] 61          luma_weight_l0_flag[3]                                      0 = 0
+[trace_headers @ 0x555777b7f400] 62          chroma_weight_l0_flag[3]                                    0 = 0
+[trace_headers @ 0x555777b7f400] 63          adaptive_ref_pic_marking_mode_flag                          0 = 0
+[trace_headers @ 0x555777b7f400] 64          cabac_init_idc                                              1 = 0
+[trace_headers @ 0x555777b7f400] 65          slice_qp_delta                                              1 = 0
+[trace_headers @ 0x555777b7f400] 66          disable_deblocking_filter_idc                               1 = 0
+[trace_headers @ 0x555777b7f400] 67          slice_alpha_c0_offset_div2                                  1 = 0
+[trace_headers @ 0x555777b7f400] 68          slice_beta_offset_div2                                      1 = 0
+[trace_headers @ 0x555777b7f400] 69          cabac_alignment_one_bit                                     1 = 1
+[trace_headers @ 0x555777b7f400] 70          cabac_alignment_one_bit                                     1 = 1
+[trace_headers @ 0x555777b7f400] 71          cabac_alignment_one_bit                                     1 = 1
+No more output streams to write to, finishing.
+[out#0/null @ 0x555777b06180] All streams finished
+[out#0/null @ 0x555777b06180] Terminating muxer thread
+[out#0/null @ 0x555777b06180] Output file #0 (pipe:):
+[out#0/null @ 0x555777b06180]   Output stream #0:0 (video): 10 packets muxed (737 bytes); 
+[out#0/null @ 0x555777b06180]   Total: 10 packets (737 bytes) muxed
+[out#0/null @ 0x555777b06180] video:1kB audio:0kB subtitle:0kB other streams:0kB global headers:0kB muxing overhead: unknown
+size=N/A time=00:00:00.90 bitrate=N/A speed= 180x    
+[in#0/mov,mp4,m4a,3gp,3g2,mj2 @ 0x555777b03b80] Input file #0 (/tmp/ivo-cabac-prefix/flat.mp4):
+[in#0/mov,mp4,m4a,3gp,3g2,mj2 @ 0x555777b03b80]   Input stream #0:0 (video): 10 packets read (737 bytes); 
+[in#0/mov,mp4,m4a,3gp,3g2,mj2 @ 0x555777b03b80]   Total: 10 packets (737 bytes) demuxed
+[AVIOContext @ 0x555777b0c380] Statistics: 1635 bytes read, 0 seeks

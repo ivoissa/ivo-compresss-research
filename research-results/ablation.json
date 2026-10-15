@@ -1,0 +1,182 @@
+[
+  {
+    "file": "ljt-testimgint.jpg",
+    "variant": "a",
+    "bytes": 6350,
+    "log": "file,bytes,blocks,dc_jpeg_bytes,var_chain,var_median,cat_chain,cat_left,cat_gradient,cat_median,best_cat\nV61BENCH ljt-testimgint.jpg original=5756 ivo=6350 gain=-10.3197% enc_ms=181.977 dec_ms=46.833 exact=true\n"
+  },
+  {
+    "file": "ljt-testimgint.jpg",
+    "variant": "b",
+    "bytes": 6765,
+    "log": "file,bytes,blocks,dc_jpeg_bytes,var_chain,var_median,cat_chain,cat_left,cat_gradient,cat_median,best_cat\nV61BENCH ljt-testimgint.jpg original=5756 ivo=6765 gain=-17.5295% enc_ms=139.351 dec_ms=40.529 exact=true\n"
+  },
+  {
+    "file": "ljt-testimgint.jpg",
+    "variant": "c",
+    "bytes": 6772,
+    "log": "file,bytes,blocks,dc_jpeg_bytes,var_chain,var_median,cat_chain,cat_left,cat_gradient,cat_median,best_cat\nV61BENCH ljt-testimgint.jpg original=5756 ivo=6772 gain=-17.6511% enc_ms=139.787 dec_ms=45.168 exact=true\n"
+  },
+  {
+    "file": "ljt-testorig.jpg",
+    "variant": "a",
+    "bytes": 6363,
+    "log": "file,bytes,blocks,dc_jpeg_bytes,var_chain,var_median,cat_chain,cat_left,cat_gradient,cat_median,best_cat\nV61BENCH ljt-testorig.jpg original=5770 ivo=6363 gain=-10.2773% enc_ms=100.009 dec_ms=44.101 exact=true\n"
+  },
+  {
+    "file": "ljt-testorig.jpg",
+    "variant": "b",
+    "bytes": 6778,
+    "log": "file,bytes,blocks,dc_jpeg_bytes,var_chain,var_median,cat_chain,cat_left,cat_gradient,cat_median,best_cat\nV61BENCH ljt-testorig.jpg original=5770 ivo=6778 gain=-17.4697% enc_ms=213.883 dec_ms=45.887 exact=true\n"
+  },
+  {
+    "file": "ljt-testorig.jpg",
+    "variant": "c",
+    "bytes": 6783,
+    "log": "file,bytes,blocks,dc_jpeg_bytes,var_chain,var_median,cat_chain,cat_left,cat_gradient,cat_median,best_cat\nV61BENCH ljt-testorig.jpg original=5770 ivo=6783 gain=-17.5563% enc_ms=160.420 dec_ms=42.238 exact=true\n"
+  },
+  {
+    "file": "pillow-exif-72dpi-int.jpg",
+    "variant": "a",
+    "bytes": 67720,
+    "log": "file,bytes,blocks,dc_jpeg_bytes,var_chain,var_median,cat_chain,cat_left,cat_gradient,cat_median,best_cat\nV61BENCH pillow-exif-72dpi-int.jpg original=71056 ivo=67720 gain=4.6949% enc_ms=449.183 dec_ms=203.622 exact=true\n"
+  },
+  {
+    "file": "pillow-exif-72dpi-int.jpg",
+    "variant": "b",
+    "bytes": 70848,
+    "log": "file,bytes,blocks,dc_jpeg_bytes,var_chain,var_median,cat_chain,cat_left,cat_gradient,cat_median,best_cat\nV61BENCH pillow-exif-72dpi-int.jpg original=71056 ivo=70848 gain=0.2927% enc_ms=499.841 dec_ms=202.543 exact=true\n"
+  },
+  {
+    "file": "pillow-exif-72dpi-int.jpg",
+    "variant": "c",
+    "bytes": 70723,
+    "log": "file,bytes,blocks,dc_jpeg_bytes,var_chain,var_median,cat_chain,cat_left,cat_gradient,cat_median,best_cat\nV61BENCH pillow-exif-72dpi-int.jpg original=71056 ivo=70723 gain=0.4686% enc_ms=578.629 dec_ms=218.436 exact=true\n"
+  },
+  {
+    "file": "pillow-flower.jpg",
+    "variant": "a",
+    "bytes": 32814,
+    "log": "file,bytes,blocks,dc_jpeg_bytes,var_chain,var_median,cat_chain,cat_left,cat_gradient,cat_median,best_cat\nV61BENCH pillow-flower.jpg original=32764 ivo=32814 gain=-0.1526% enc_ms=327.406 dec_ms=178.267 exact=true\n"
+  },
+  {
+    "file": "pillow-flower.jpg",
+    "variant": "b",
+    "bytes": 33933,
+    "log": "file,bytes,blocks,dc_jpeg_bytes,var_chain,var_median,cat_chain,cat_left,cat_gradient,cat_median,best_cat\nV61BENCH pillow-flower.jpg original=32764 ivo=33933 gain=-3.5679% enc_ms=366.735 dec_ms=128.367 exact=true\n"
+  },
+  {
+    "file": "pillow-flower.jpg",
+    "variant": "c",
+    "bytes": 33914,
+    "log": "file,bytes,blocks,dc_jpeg_bytes,var_chain,var_median,cat_chain,cat_left,cat_gradient,cat_median,best_cat\nV61BENCH pillow-flower.jpg original=32764 ivo=33914 gain=-3.5099% enc_ms=328.239 dec_ms=187.402 exact=true\n"
+  },
+  {
+    "file": "pillow-flower2.jpg",
+    "variant": "a",
+    "bytes": 75216,
+    "log": "file,bytes,blocks,dc_jpeg_bytes,var_chain,var_median,cat_chain,cat_left,cat_gradient,cat_median,best_cat\nV61BENCH pillow-flower2.jpg original=86491 ivo=75216 gain=13.0360% enc_ms=404.502 dec_ms=262.684 exact=true\n"
+  },
+  {
+    "file": "pillow-flower2.jpg",
+    "variant": "b",
+    "bytes": 80110,
+    "log": "file,bytes,blocks,dc_jpeg_bytes,var_chain,var_median,cat_chain,cat_left,cat_gradient,cat_median,best_cat\nV61BENCH pillow-flower2.jpg original=86491 ivo=80110 gain=7.3776% enc_ms=516.742 dec_ms=209.249 exact=true\n"
+  },
+  {
+    "file": "pillow-flower2.jpg",
+    "variant": "c",
+    "bytes": 80015,
+    "log": "file,bytes,blocks,dc_jpeg_bytes,var_chain,var_median,cat_chain,cat_left,cat_gradient,cat_median,best_cat\nV61BENCH pillow-flower2.jpg original=86491 ivo=80015 gain=7.4875% enc_ms=425.393 dec_ms=233.330 exact=true\n"
+  },
+  {
+    "file": "pillow-hopper.jpg",
+    "variant": "a",
+    "bytes": 6832,
+    "log": "file,bytes,blocks,dc_jpeg_bytes,var_chain,var_median,cat_chain,cat_left,cat_gradient,cat_median,best_cat\nV61BENCH pillow-hopper.jpg original=6412 ivo=6832 gain=-6.5502% enc_ms=124.985 dec_ms=52.183 exact=true\n"
+  },
+  {
+    "file": "pillow-hopper.jpg",
+    "variant": "b",
+    "bytes": 7509,
+    "log": "file,bytes,blocks,dc_jpeg_bytes,var_chain,var_median,cat_chain,cat_left,cat_gradient,cat_median,best_cat\nV61BENCH pillow-hopper.jpg original=6412 ivo=7509 gain=-17.1085% enc_ms=95.864 dec_ms=31.634 exact=true\n"
+  },
+  {
+    "file": "pillow-hopper.jpg",
+    "variant": "c",
+    "bytes": 7516,
+    "log": "file,bytes,blocks,dc_jpeg_bytes,var_chain,var_median,cat_chain,cat_left,cat_gradient,cat_median,best_cat\nV61BENCH pillow-hopper.jpg original=6412 ivo=7516 gain=-17.2177% enc_ms=131.379 dec_ms=41.025 exact=true\n"
+  },
+  {
+    "file": "pillow-hopper_gray.jpg",
+    "variant": "a",
+    "bytes": 5506,
+    "log": "file,bytes,blocks,dc_jpeg_bytes,var_chain,var_median,cat_chain,cat_left,cat_gradient,cat_median,best_cat\nV61BENCH pillow-hopper_gray.jpg original=5353 ivo=5506 gain=-2.8582% enc_ms=123.105 dec_ms=31.198 exact=true\n"
+  },
+  {
+    "file": "pillow-hopper_gray.jpg",
+    "variant": "b",
+    "bytes": 6130,
+    "log": "file,bytes,blocks,dc_jpeg_bytes,var_chain,var_median,cat_chain,cat_left,cat_gradient,cat_median,best_cat\nV61BENCH pillow-hopper_gray.jpg original=5353 ivo=6130 gain=-14.5152% enc_ms=112.542 dec_ms=32.190 exact=true\n"
+  },
+  {
+    "file": "pillow-hopper_gray.jpg",
+    "variant": "c",
+    "bytes": 6128,
+    "log": "file,bytes,blocks,dc_jpeg_bytes,var_chain,var_median,cat_chain,cat_left,cat_gradient,cat_median,best_cat\nV61BENCH pillow-hopper_gray.jpg original=5353 ivo=6128 gain=-14.4779% enc_ms=171.695 dec_ms=54.300 exact=true\n"
+  },
+  {
+    "file": "pillow-pil_sample_cmyk.jpg",
+    "variant": "a",
+    "bytes": 16647,
+    "log": "file,bytes,blocks,dc_jpeg_bytes,var_chain,var_median,cat_chain,cat_left,cat_gradient,cat_median,best_cat\nV61BENCH pillow-pil_sample_cmyk.jpg original=29364 ivo=16647 gain=43.3081% enc_ms=217.984 dec_ms=58.669 exact=true\n"
+  },
+  {
+    "file": "pillow-pil_sample_cmyk.jpg",
+    "variant": "b",
+    "bytes": 17960,
+    "log": "file,bytes,blocks,dc_jpeg_bytes,var_chain,var_median,cat_chain,cat_left,cat_gradient,cat_median,best_cat\nV61BENCH pillow-pil_sample_cmyk.jpg original=29364 ivo=17960 gain=38.8367% enc_ms=228.617 dec_ms=122.216 exact=true\n"
+  },
+  {
+    "file": "pillow-pil_sample_cmyk.jpg",
+    "variant": "c",
+    "bytes": 17949,
+    "log": "file,bytes,blocks,dc_jpeg_bytes,var_chain,var_median,cat_chain,cat_left,cat_gradient,cat_median,best_cat\nV61BENCH pillow-pil_sample_cmyk.jpg original=29364 ivo=17949 gain=38.8741% enc_ms=207.464 dec_ms=61.725 exact=true\n"
+  },
+  {
+    "file": "pillow-pil_sample_rgb.jpg",
+    "variant": "a",
+    "bytes": 17551,
+    "log": "file,bytes,blocks,dc_jpeg_bytes,var_chain,var_median,cat_chain,cat_left,cat_gradient,cat_median,best_cat\nV61BENCH pillow-pil_sample_rgb.jpg original=29342 ivo=17551 gain=40.1847% enc_ms=275.162 dec_ms=80.607 exact=true\n"
+  },
+  {
+    "file": "pillow-pil_sample_rgb.jpg",
+    "variant": "b",
+    "bytes": 18439,
+    "log": "file,bytes,blocks,dc_jpeg_bytes,var_chain,var_median,cat_chain,cat_left,cat_gradient,cat_median,best_cat\nV61BENCH pillow-pil_sample_rgb.jpg original=29342 ivo=18439 gain=37.1583% enc_ms=185.531 dec_ms=65.675 exact=true\n"
+  },
+  {
+    "file": "pillow-pil_sample_rgb.jpg",
+    "variant": "c",
+    "bytes": 18420,
+    "log": "file,bytes,blocks,dc_jpeg_bytes,var_chain,var_median,cat_chain,cat_left,cat_gradient,cat_median,best_cat\nV61BENCH pillow-pil_sample_rgb.jpg original=29342 ivo=18420 gain=37.2231% enc_ms=215.402 dec_ms=92.498 exact=true\n"
+  },
+  {
+    "file": "pillow-rgb.jpg",
+    "variant": "a",
+    "bytes": 15272,
+    "log": "file,bytes,blocks,dc_jpeg_bytes,var_chain,var_median,cat_chain,cat_left,cat_gradient,cat_median,best_cat\nV61BENCH pillow-rgb.jpg original=20230 ivo=15272 gain=24.5082% enc_ms=131.174 dec_ms=53.736 exact=true\n"
+  },
+  {
+    "file": "pillow-rgb.jpg",
+    "variant": "b",
+    "bytes": 15933,
+    "log": "file,bytes,blocks,dc_jpeg_bytes,var_chain,var_median,cat_chain,cat_left,cat_gradient,cat_median,best_cat\nV61BENCH pillow-rgb.jpg original=20230 ivo=15933 gain=21.2407% enc_ms=219.228 dec_ms=51.747 exact=true\n"
+  },
+  {
+    "file": "pillow-rgb.jpg",
+    "variant": "c",
+    "bytes": 15932,
+    "log": "file,bytes,blocks,dc_jpeg_bytes,var_chain,var_median,cat_chain,cat_left,cat_gradient,cat_median,best_cat\nV61BENCH pillow-rgb.jpg original=20230 ivo=15932 gain=21.2457% enc_ms=176.621 dec_ms=33.534 exact=true\n"
+  }
+]

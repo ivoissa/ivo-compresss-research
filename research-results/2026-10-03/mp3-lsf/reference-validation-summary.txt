@@ -1,0 +1,26 @@
+00: PASS frames=4168 declared_bits=30720125 back_sum=1736132
+01: PASS frames=418 declared_bits=3075906 back_sum=168452
+02: reservoir rejected; no mask claimed
+03: PASS frames=342 declared_bits=2517137 back_sum=142093
+04: PASS frames=418 declared_bits=3077637 back_sum=67623
+05: PASS frames=1 declared_bits=1304 back_sum=0
+06: PASS frames=282 declared_bits=922434 back_sum=61278
+07: PASS frames=282 declared_bits=921619 back_sum=56693
+08: PASS frames=281 declared_bits=909715 back_sum=58930
+09: PASS frames=281 declared_bits=909575 back_sum=60779
+10: PASS frames=190 declared_bits=626038 back_sum=37702
+11: PASS frames=120 declared_bits=390820 back_sum=23332
+12: PASS frames=388 declared_bits=922831 back_sum=69487
+13: PASS frames=388 declared_bits=915933 back_sum=71509
+14: PASS frames=386 declared_bits=922041 back_sum=71730
+15: PASS frames=386 declared_bits=921482 back_sum=76159
+16: PASS frames=17 declared_bits=5458 back_sum=2624
+17: PASS frames=142 declared_bits=63024 back_sum=33618
+18: PASS frames=125 declared_bits=370158 back_sum=58087
+19: PASS frames=247 declared_bits=739026 back_sum=117834
+20: PASS frames=369 declared_bits=893172 back_sum=68452
+21: PASS frames=2300 declared_bits=7345966 back_sum=454240
+22: PASS frames=577 declared_bits=1646880 back_sum=271209
+23: PASS frames=577 declared_bits=1590528 back_sum=275336
+24: PASS frames=822 declared_bits=2984325 back_sum=154006
+25: PASS frames=250 declared_bits=998136 back_sum=46373

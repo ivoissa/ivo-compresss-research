@@ -1,0 +1,7 @@
+INPUT /tmp/ivo-minimp3/vectors/performance/noise_meandr.mp3 bytes=401280 sha=423a97ef5b01c8253940d04bf93ee0d9508b77ef17608c69a1b3c09ae8667c0d store=401341
+SIDE_PORTFOLIO direct=9794 transposed=9131 selected=true
+BASE v1=392782 v3=392120 exact=true
+MAIN_SPLIT mode=1 used_raw=384881 unused_raw=515 coded=382004
+RESULT mode=1 ivo=392086 delta_vs_v3=-34 exact=true
+MAIN_SPLIT mode=2 used_raw=384705 unused_raw=692 coded=381920
+RESULT mode=2 ivo=392002 delta_vs_v3=-118 exact=true

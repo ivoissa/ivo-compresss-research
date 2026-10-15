@@ -1,0 +1,535 @@
+[
+  {
+    "name": "MEANDR_PHASE0.mp3",
+    "original": 4001280,
+    "sha256": "55d7dd3b6cbdb82e5eae523e23f155040a13ce0be159140e93de590efdce7b0c",
+    "previous_mp37_ivo": 3875381,
+    "previous_origin": "Portefeuille MP37 mesur\u00e9 le 2026-10-03, m\u00eame SHA-256",
+    "previous_mp38_ivo": 4455935,
+    "previous_best_ivo": 3875381,
+    "candidates": {
+      "0": {
+        "ivo": 3795012,
+        "fresh_decode_validation_ms": 1605,
+        "exact": true,
+        "spectral_golden": true
+      },
+      "1": {
+        "ivo": 3801341,
+        "fresh_decode_validation_ms": 1410,
+        "exact": true,
+        "spectral_golden": true
+      },
+      "2": {
+        "ivo": 3804968,
+        "fresh_decode_validation_ms": 1702,
+        "exact": true,
+        "spectral_golden": true
+      },
+      "3": {
+        "ivo": 3807939,
+        "fresh_decode_validation_ms": 1347,
+        "exact": true,
+        "spectral_golden": true
+      }
+    },
+    "best_scheme": 0,
+    "new_ivo": 3795012,
+    "extra_bytes": 80369,
+    "selected_ivo": 3795012,
+    "gain_vs_original_pct": 5.155050383877158,
+    "independent_spectral_oracle": true
+  },
+  {
+    "name": "MIPSTest.mp3",
+    "original": 328320,
+    "sha256": "197265fa09d1b6777b71269d986055035f3e9e1f4d74e4cbaa0e55034447a9ca",
+    "previous_mp37_ivo": 319383,
+    "previous_origin": "Portefeuille MP37 mesur\u00e9 le 2026-10-03, m\u00eame SHA-256",
+    "previous_mp38_ivo": 367186,
+    "previous_best_ivo": 319383,
+    "candidates": {
+      "0": {
+        "ivo": 314563,
+        "fresh_decode_validation_ms": 112,
+        "exact": true,
+        "spectral_golden": true
+      },
+      "1": {
+        "ivo": 315779,
+        "fresh_decode_validation_ms": 109,
+        "exact": true,
+        "spectral_golden": true
+      },
+      "2": {
+        "ivo": 317414,
+        "fresh_decode_validation_ms": 111,
+        "exact": true,
+        "spectral_golden": true
+      },
+      "3": {
+        "ivo": 316925,
+        "fresh_decode_validation_ms": 105,
+        "exact": true,
+        "spectral_golden": true
+      }
+    },
+    "best_scheme": 0,
+    "new_ivo": 314563,
+    "extra_bytes": 4820,
+    "selected_ivo": 314563,
+    "gain_vs_original_pct": 4.1901193957115,
+    "independent_spectral_oracle": true
+  },
+  {
+    "name": "generated-22050-1.mp3",
+    "original": 16762,
+    "sha256": "9813703e0df7dceb1910175fba04c748bb05aa3dc6d6a9a40cb52617fcec5646",
+    "previous_mp37_ivo": 8415,
+    "previous_origin": "Portefeuille MP37 recalcul\u00e9 pour cet essai",
+    "previous_mp38_ivo": 8974,
+    "previous_best_ivo": 8415,
+    "candidates": {
+      "0": {
+        "ivo": 8677,
+        "fresh_decode_validation_ms": 3,
+        "exact": true,
+        "spectral_golden": true
+      },
+      "1": {
+        "ivo": 8701,
+        "fresh_decode_validation_ms": 2,
+        "exact": true,
+        "spectral_golden": true
+      },
+      "2": {
+        "ivo": 8862,
+        "fresh_decode_validation_ms": 2,
+        "exact": true,
+        "spectral_golden": true
+      },
+      "3": {
+        "ivo": 8749,
+        "fresh_decode_validation_ms": 2,
+        "exact": true,
+        "spectral_golden": true
+      }
+    },
+    "best_scheme": 0,
+    "new_ivo": 8677,
+    "extra_bytes": -262,
+    "selected_ivo": 8415,
+    "gain_vs_original_pct": 49.79716024340771,
+    "independent_spectral_oracle": true
+  },
+  {
+    "name": "generated-22050-2.mp3",
+    "original": 16762,
+    "sha256": "c3f400dc8b3483f22ac3284912274bee16e42b51f103930eb79d85e897198c19",
+    "previous_mp37_ivo": 7178,
+    "previous_origin": "Portefeuille MP37 recalcul\u00e9 pour cet essai",
+    "previous_mp38_ivo": 7914,
+    "previous_best_ivo": 7178,
+    "candidates": {
+      "0": {
+        "ivo": 7680,
+        "fresh_decode_validation_ms": 2,
+        "exact": true,
+        "spectral_golden": true
+      },
+      "1": {
+        "ivo": 7704,
+        "fresh_decode_validation_ms": 2,
+        "exact": true,
+        "spectral_golden": true
+      },
+      "2": {
+        "ivo": 7813,
+        "fresh_decode_validation_ms": 2,
+        "exact": true,
+        "spectral_golden": true
+      },
+      "3": {
+        "ivo": 7752,
+        "fresh_decode_validation_ms": 3,
+        "exact": true,
+        "spectral_golden": true
+      }
+    },
+    "best_scheme": 0,
+    "new_ivo": 7680,
+    "extra_bytes": -502,
+    "selected_ivo": 7178,
+    "gain_vs_original_pct": 57.176947858250806,
+    "independent_spectral_oracle": true
+  },
+  {
+    "name": "generated-44100-1.mp3",
+    "original": 33062,
+    "sha256": "d4f398cbd10b9aee9d760b536f484686cda8782a139aa15c86be7304d6879d3d",
+    "previous_mp37_ivo": 13493,
+    "previous_origin": "Portefeuille MP37 recalcul\u00e9 pour cet essai",
+    "previous_mp38_ivo": 14163,
+    "previous_best_ivo": 13493,
+    "candidates": {
+      "0": {
+        "ivo": 13474,
+        "fresh_decode_validation_ms": 3,
+        "exact": true,
+        "spectral_golden": true
+      },
+      "1": {
+        "ivo": 13498,
+        "fresh_decode_validation_ms": 2,
+        "exact": true,
+        "spectral_golden": true
+      },
+      "2": {
+        "ivo": 13515,
+        "fresh_decode_validation_ms": 2,
+        "exact": true,
+        "spectral_golden": true
+      },
+      "3": {
+        "ivo": 13916,
+        "fresh_decode_validation_ms": 2,
+        "exact": true,
+        "spectral_golden": true
+      }
+    },
+    "best_scheme": 0,
+    "new_ivo": 13474,
+    "extra_bytes": 19,
+    "selected_ivo": 13474,
+    "gain_vs_original_pct": 59.24626459379348,
+    "independent_spectral_oracle": true
+  },
+  {
+    "name": "generated-44100-2.mp3",
+    "original": 33062,
+    "sha256": "855df8a0bf6b3676b44c2e84fd12243bebb06edd256c7052eedc67c9de069184",
+    "previous_mp37_ivo": 12078,
+    "previous_origin": "Portefeuille MP37 recalcul\u00e9 pour cet essai",
+    "previous_mp38_ivo": 12881,
+    "previous_best_ivo": 12078,
+    "candidates": {
+      "0": {
+        "ivo": 12323,
+        "fresh_decode_validation_ms": 2,
+        "exact": true,
+        "spectral_golden": true
+      },
+      "1": {
+        "ivo": 12347,
+        "fresh_decode_validation_ms": 3,
+        "exact": true,
+        "spectral_golden": true
+      },
+      "2": {
+        "ivo": 12406,
+        "fresh_decode_validation_ms": 3,
+        "exact": true,
+        "spectral_golden": true
+      },
+      "3": {
+        "ivo": 12732,
+        "fresh_decode_validation_ms": 3,
+        "exact": true,
+        "spectral_golden": true
+      }
+    },
+    "best_scheme": 0,
+    "new_ivo": 12323,
+    "extra_bytes": -245,
+    "selected_ivo": 12078,
+    "gain_vs_original_pct": 63.46863468634687,
+    "independent_spectral_oracle": true
+  },
+  {
+    "name": "generated-8000-1.mp3",
+    "original": 6741,
+    "sha256": "4ae7e5dc38211876e2492f2ebaea36dd6a42bf38610a93a7e41643a2e63ed169",
+    "previous_mp37_ivo": 6169,
+    "previous_origin": "Portefeuille MP37 recalcul\u00e9 pour cet essai",
+    "previous_mp38_ivo": 6292,
+    "previous_best_ivo": 6169,
+    "candidates": {
+      "0": {
+        "ivo": 6351,
+        "fresh_decode_validation_ms": 1,
+        "exact": true,
+        "spectral_golden": true
+      },
+      "1": {
+        "ivo": 6375,
+        "fresh_decode_validation_ms": 1,
+        "exact": true,
+        "spectral_golden": true
+      },
+      "2": {
+        "ivo": 6592,
+        "fresh_decode_validation_ms": 1,
+        "exact": true,
+        "spectral_golden": true
+      },
+      "3": {
+        "ivo": 6423,
+        "fresh_decode_validation_ms": 1,
+        "exact": true,
+        "spectral_golden": true
+      }
+    },
+    "best_scheme": 0,
+    "new_ivo": 6351,
+    "extra_bytes": -182,
+    "selected_ivo": 6169,
+    "gain_vs_original_pct": 8.485387924640264,
+    "independent_spectral_oracle": true
+  },
+  {
+    "name": "generated-8000-2.mp3",
+    "original": 6741,
+    "sha256": "ee10bdd6713f72be090909b558e47e30c0b003009d5a8a1670537a28c25aa270",
+    "previous_mp37_ivo": 5188,
+    "previous_origin": "Portefeuille MP37 recalcul\u00e9 pour cet essai",
+    "previous_mp38_ivo": 5613,
+    "previous_best_ivo": 5188,
+    "candidates": {
+      "0": {
+        "ivo": 5692,
+        "fresh_decode_validation_ms": 1,
+        "exact": true,
+        "spectral_golden": true
+      },
+      "1": {
+        "ivo": 5716,
+        "fresh_decode_validation_ms": 1,
+        "exact": true,
+        "spectral_golden": true
+      },
+      "2": {
+        "ivo": 5909,
+        "fresh_decode_validation_ms": 1,
+        "exact": true,
+        "spectral_golden": true
+      },
+      "3": {
+        "ivo": 5764,
+        "fresh_decode_validation_ms": 1,
+        "exact": true,
+        "spectral_golden": true
+      }
+    },
+    "best_scheme": 0,
+    "new_ivo": 5692,
+    "extra_bytes": -504,
+    "selected_ivo": 5188,
+    "gain_vs_original_pct": 23.038124907283787,
+    "independent_spectral_oracle": true
+  },
+  {
+    "name": "l3-compl-cut.mp3",
+    "original": 192,
+    "sha256": "9f5b4baaefc5403c2b55ad5a52c8d7e812ba9e25638f8b674a0d01df6008a7c7",
+    "previous_mp37_ivo": 251,
+    "previous_origin": "Portefeuille MP37 mesur\u00e9 le 2026-10-03, m\u00eame SHA-256",
+    "previous_mp38_ivo": 378,
+    "previous_best_ivo": 251,
+    "candidates": {
+      "0": {
+        "ivo": 432,
+        "fresh_decode_validation_ms": 0,
+        "exact": true,
+        "spectral_golden": true
+      },
+      "1": {
+        "ivo": 456,
+        "fresh_decode_validation_ms": 0,
+        "exact": true,
+        "spectral_golden": true
+      },
+      "2": {
+        "ivo": 537,
+        "fresh_decode_validation_ms": 0,
+        "exact": true,
+        "spectral_golden": true
+      },
+      "3": {
+        "ivo": 513,
+        "fresh_decode_validation_ms": 0,
+        "exact": true,
+        "spectral_golden": true
+      }
+    },
+    "best_scheme": 0,
+    "new_ivo": 432,
+    "extra_bytes": -181,
+    "selected_ivo": 251,
+    "gain_vs_original_pct": -30.729166666666675,
+    "independent_spectral_oracle": false
+  },
+  {
+    "name": "l3-test45.bit",
+    "original": 391105,
+    "sha256": "384ccca2d558a3505bb2e7c2860e12aa3b651473ace655cda3a2c8cfb1b2fc53",
+    "previous_mp37_ivo": 343626,
+    "previous_origin": "Portefeuille MP37 mesur\u00e9 le 2026-10-03, m\u00eame SHA-256",
+    "previous_mp38_ivo": 343560,
+    "previous_best_ivo": 343560,
+    "candidates": {
+      "0": {
+        "ivo": 325370,
+        "fresh_decode_validation_ms": 217,
+        "exact": true,
+        "spectral_golden": true
+      },
+      "1": {
+        "ivo": 325829,
+        "fresh_decode_validation_ms": 149,
+        "exact": true,
+        "spectral_golden": true
+      },
+      "2": {
+        "ivo": 330575,
+        "fresh_decode_validation_ms": 159,
+        "exact": true,
+        "spectral_golden": true
+      },
+      "3": {
+        "ivo": 325877,
+        "fresh_decode_validation_ms": 137,
+        "exact": true,
+        "spectral_golden": true
+      }
+    },
+    "best_scheme": 0,
+    "new_ivo": 325370,
+    "extra_bytes": 18190,
+    "selected_ivo": 325370,
+    "gain_vs_original_pct": 16.80750693547769,
+    "independent_spectral_oracle": true
+  },
+  {
+    "name": "l3-test46.bit",
+    "original": 130613,
+    "sha256": "c44f835c6efbfad67359aa327d78f0feaf22c443e191d68f80e6d2fefd6d8af5",
+    "previous_mp37_ivo": 121474,
+    "previous_origin": "Portefeuille MP37 mesur\u00e9 le 2026-10-03, m\u00eame SHA-256",
+    "previous_mp38_ivo": 131405,
+    "previous_best_ivo": 121474,
+    "candidates": {
+      "0": {
+        "ivo": 109287,
+        "fresh_decode_validation_ms": 28,
+        "exact": true,
+        "spectral_golden": true
+      },
+      "1": {
+        "ivo": 122735,
+        "fresh_decode_validation_ms": 35,
+        "exact": true,
+        "spectral_golden": true
+      },
+      "2": {
+        "ivo": 123627,
+        "fresh_decode_validation_ms": 32,
+        "exact": true,
+        "spectral_golden": true
+      },
+      "3": {
+        "ivo": 122783,
+        "fresh_decode_validation_ms": 34,
+        "exact": true,
+        "spectral_golden": true
+      }
+    },
+    "best_scheme": 0,
+    "new_ivo": 109287,
+    "extra_bytes": 12187,
+    "selected_ivo": 109287,
+    "gain_vs_original_pct": 16.32762435592169,
+    "independent_spectral_oracle": true
+  },
+  {
+    "name": "noise_meandr.mp3",
+    "original": 401280,
+    "sha256": "423a97ef5b01c8253940d04bf93ee0d9508b77ef17608c69a1b3c09ae8667c0d",
+    "previous_mp37_ivo": 390162,
+    "previous_origin": "Portefeuille MP37 mesur\u00e9 le 2026-10-03, m\u00eame SHA-256",
+    "previous_mp38_ivo": 454166,
+    "previous_best_ivo": 390162,
+    "candidates": {
+      "0": {
+        "ivo": 392987,
+        "fresh_decode_validation_ms": 144,
+        "exact": true,
+        "spectral_golden": true
+      },
+      "1": {
+        "ivo": 395756,
+        "fresh_decode_validation_ms": 147,
+        "exact": true,
+        "spectral_golden": true
+      },
+      "2": {
+        "ivo": 399908,
+        "fresh_decode_validation_ms": 146,
+        "exact": true,
+        "spectral_golden": true
+      },
+      "3": {
+        "ivo": 398591,
+        "fresh_decode_validation_ms": 136,
+        "exact": true,
+        "spectral_golden": true
+      }
+    },
+    "best_scheme": 0,
+    "new_ivo": 392987,
+    "extra_bytes": -2825,
+    "selected_ivo": 390162,
+    "gain_vs_original_pct": 2.7706339712918693,
+    "independent_spectral_oracle": true
+  },
+  {
+    "name": "Tao",
+    "original": 95634889,
+    "sha256": "c6e361e833559e842390da8541480ce47096baf61b405da64d9ef10188a2f40c",
+    "previous_mp37_ivo": 87297487,
+    "previous_origin": "MP37 mesur\u00e9 le 2026-10-03, m\u00eame SHA-256",
+    "previous_mp38_ivo": 99286987,
+    "previous_best_ivo": 87297487,
+    "candidates": {
+      "0": {
+        "ivo": 86402411,
+        "fresh_decode_validation_ms": 29081,
+        "exact": true,
+        "spectral_golden": true
+      },
+      "1": {
+        "ivo": 86030518,
+        "fresh_decode_validation_ms": 28975,
+        "exact": true,
+        "spectral_golden": true
+      },
+      "2": {
+        "ivo": 83508548,
+        "fresh_decode_validation_ms": 29035,
+        "exact": true,
+        "spectral_golden": true
+      },
+      "3": {
+        "ivo": 86306235,
+        "fresh_decode_validation_ms": 29559,
+        "exact": true,
+        "spectral_golden": true
+      }
+    },
+    "best_scheme": 2,
+    "new_ivo": 83508548,
+    "extra_bytes": 3788939,
+    "selected_ivo": 83508548,
+    "gain_vs_original_pct": 12.679829638323724,
+    "independent_spectral_oracle": true
+  }
+]

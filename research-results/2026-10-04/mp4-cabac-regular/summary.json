@@ -1,0 +1,11 @@
+{
+  "status": "arithmetic_primitives_only",
+  "synthetic_streams": 2000,
+  "decisions": 567128,
+  "regular": 393176,
+  "bypass": 130464,
+  "terminated_streams": 216,
+  "external_codec_validation": false,
+  "new_compression_measurement": false,
+  "previous_best_ivo_bytes": 5414825
+}

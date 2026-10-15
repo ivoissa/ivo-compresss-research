@@ -1,0 +1,7 @@
+upload/01-27667.jpg: 597,558 -> 505,585 bytes (84.61%), engine=JPEG_NEIGHBOUR_RESEARCH
+Engine                         valid   payload       IVO       ms  note
+STORE                          true      597,558   597,615        7  verbatim
+JPEG oracle exact (structure/scans) true      597,442   597,499      861  JPEG exact; segments=12; scans=1; progressive=false; meta=928; entropy=596630; modes=[0, 2, 0]
+JPEG preferred mixed-context profiles 15/16 true      505,528   505,585     6211  Causal AC category/presence; mode=15; exact entropy patch
+Written: oct08/results/AUTO-512m.ivo
+elapsed_s=7.185 max_rss_kib=259384 exit=0

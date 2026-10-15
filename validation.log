@@ -1,0 +1,3 @@
+ALL SELF TESTS OK
+DEFLATE EXACT OK: 1750 reconstructions; 9 malformed/truncated rejected; stored/fixed/dynamic/multiblock covered
+Built target/ivo-0.7.0-SNAPSHOT.jar and target/ivo-research-1.5.0.jar

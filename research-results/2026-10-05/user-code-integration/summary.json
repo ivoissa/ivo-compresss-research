@@ -1,0 +1,22 @@
+{
+  "version": 25,
+  "default_router_changed": false,
+  "opt_in_commands": [
+    "compress-enhanced",
+    "bench-enhanced"
+  ],
+  "trial_input_limit_bytes": 33554432,
+  "metadata_output_limit_bytes": 134217728,
+  "video_max_macroblocks": 16384,
+  "existing_small_archives_exact": 9,
+  "portfolio_comparisons": 3,
+  "fresh_cli_comparisons": 3,
+  "mp3_audit": {
+    "frames": 419,
+    "granules": 1676,
+    "exact": 952,
+    "empty": 724,
+    "exact_prefix_tail_candidates": 0
+  },
+  "new_optimization_gain_measured": false
+}

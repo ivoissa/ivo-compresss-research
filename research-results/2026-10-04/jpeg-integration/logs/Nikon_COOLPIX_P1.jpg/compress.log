@@ -1,0 +1,9 @@
+/tmp/ivo-jpeg-amplitude-heldout/Nikon_COOLPIX_P1.jpg: 7,068 -> 5,969 bytes (84.45%), engine=JPEG_IR
+Engine                         valid   payload       IVO       ms  note
+STORE                          true        7,068     7,131        1  verbatim
+N&C contextuel                 true        6,997     7,060       42  PPM-like sparse contexts, order<=4
+REF + N&C                      true        6,825     6,888       60  REF minMatch=8 then N&C; REF size=5402
+JPEG oracle exact (structure/scans) true        5,906     5,969       56  JPEG exact; segments=12; scans=1; progressive=false; meta=5140; entropy=1928; modes=[0, 2, 0]
+JPEG frozen portfolio (ABC, spatial, directional, similarity) true        6,237     6,300      260  DCT coefficients + exact entropy patch
+JPEG boundary portfolio (physical + presence control) true        5,990     6,053       76  Causal AC category/presence; mode=9; exact entropy patch
+Written: /tmp/ivo-jpeg-integration-results/Nikon_COOLPIX_P1.jpg/automatic.ivo

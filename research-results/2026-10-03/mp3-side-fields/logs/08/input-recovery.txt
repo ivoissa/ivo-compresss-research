@@ -1,0 +1,1 @@
+trials/mp3-side/inputs/08/sample-0.mp3 bytes=121437 sha=b193486b19d5b95682c5add8669c2e830a3ae50c508f476b508bde3393a14c38

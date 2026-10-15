@@ -1,0 +1,1 @@
+trials/mp3-side/inputs/03/MIPSTest.mp3 bytes=328320 sha=197265fa09d1b6777b71269d986055035f3e9e1f4d74e4cbaa0e55034447a9ca

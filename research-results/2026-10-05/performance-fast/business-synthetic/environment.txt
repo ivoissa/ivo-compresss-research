@@ -1,0 +1,9 @@
+source=research-results/2026-10-05/performance-fast/inputs/business-synthetic.json
+sha256=755e242a49a3761a11001cbadb51c126d6b3603cdbeedcb3f7f4f2242f0ae121
+java=17.0.20+8-1-24.04-Ubuntu
+vm=OpenJDK 64-Bit Server VM
+flags=[-Xms64m, -Xmx2g, -XX:+UseG1GC]
+os=Linux amd64
+processors=8
+warmups=1
+repetitions=3

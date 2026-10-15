@@ -1,0 +1,117 @@
+[
+  {
+    "source": "libjxl_flower.png.im_q85_420_progr.jpg",
+    "repo": "libjxl/testdata",
+    "commit": "73695d303670c90e4d506ea89d9901b081385089",
+    "path": "jxl/flower/flower.png.im_q85_420_progr.jpg",
+    "url": "https://raw.githubusercontent.com/libjxl/testdata/73695d303670c90e4d506ea89d9901b081385089/jxl/flower/flower.png.im_q85_420_progr.jpg",
+    "bytes": 522057,
+    "sha256": "376ea09db11fad472ea164e5920c1c31746136b0e9db46bc3d527ee192b855e9",
+    "scene_group": "flower-libjxl",
+    "jpeg_profile": {
+      "frames": [
+        {
+          "marker": "0xc2",
+          "precision": 8,
+          "height": 1512,
+          "width": 2268,
+          "components": 3
+        }
+      ],
+      "scans": 10,
+      "restart_markers": 0
+    }
+  },
+  {
+    "source": "libjxl_flower_small.q85_420_non_interleaved.jpg",
+    "repo": "libjxl/testdata",
+    "commit": "73695d303670c90e4d506ea89d9901b081385089",
+    "path": "jxl/flower/flower_small.q85_420_non_interleaved.jpg",
+    "url": "https://raw.githubusercontent.com/libjxl/testdata/73695d303670c90e4d506ea89d9901b081385089/jxl/flower/flower_small.q85_420_non_interleaved.jpg",
+    "bytes": 50031,
+    "sha256": "9d58a21221df433e4e5d373b3178bb1bb073e810e5fe5988891bf6fbf580c493",
+    "scene_group": "flower-libjxl",
+    "jpeg_profile": {
+      "frames": [
+        {
+          "marker": "0xc0",
+          "precision": 8,
+          "height": 532,
+          "width": 510,
+          "components": 3
+        }
+      ],
+      "scans": 3,
+      "restart_markers": 0
+    }
+  },
+  {
+    "source": "pytorch_dog1.jpg",
+    "repo": "pytorch/vision",
+    "commit": "6da25ff876100d36f23472f5762d5f306c47d735",
+    "path": "gallery/assets/dog1.jpg",
+    "url": "https://raw.githubusercontent.com/pytorch/vision/6da25ff876100d36f23472f5762d5f306c47d735/gallery/assets/dog1.jpg",
+    "bytes": 97422,
+    "sha256": "828986ba0cdd909e3f6029d357938efba67d236350f724224b2e45cf0af0841f",
+    "scene_group": "pytorch_dog1.jpg",
+    "jpeg_profile": {
+      "frames": [
+        {
+          "marker": "0xc2",
+          "precision": 8,
+          "height": 500,
+          "width": 500,
+          "components": 3
+        }
+      ],
+      "scans": 10,
+      "restart_markers": 0
+    }
+  },
+  {
+    "source": "pytorch_dog2.jpg",
+    "repo": "pytorch/vision",
+    "commit": "6da25ff876100d36f23472f5762d5f306c47d735",
+    "path": "gallery/assets/dog2.jpg",
+    "url": "https://raw.githubusercontent.com/pytorch/vision/6da25ff876100d36f23472f5762d5f306c47d735/gallery/assets/dog2.jpg",
+    "bytes": 90796,
+    "sha256": "91c383f13fe7baf1c5306def5f50cc5bb0241e64065c081ad57671d33c503891",
+    "scene_group": "pytorch_dog2.jpg",
+    "jpeg_profile": {
+      "frames": [
+        {
+          "marker": "0xc2",
+          "precision": 8,
+          "height": 500,
+          "width": 500,
+          "components": 3
+        }
+      ],
+      "scans": 10,
+      "restart_markers": 0
+    }
+  },
+  {
+    "source": "pytorch_leaning_tower.jpg",
+    "repo": "pytorch/vision",
+    "commit": "6da25ff876100d36f23472f5762d5f306c47d735",
+    "path": "gallery/assets/leaning_tower.jpg",
+    "url": "https://raw.githubusercontent.com/pytorch/vision/6da25ff876100d36f23472f5762d5f306c47d735/gallery/assets/leaning_tower.jpg",
+    "bytes": 1307589,
+    "sha256": "6c4f164de83969d75acc2dd9231d2793131125f9fcb9034bbb45660e40cd2ffc",
+    "scene_group": "pytorch_leaning_tower.jpg",
+    "jpeg_profile": {
+      "frames": [
+        {
+          "marker": "0xc2",
+          "precision": 8,
+          "height": 2364,
+          "width": 1542,
+          "components": 3
+        }
+      ],
+      "scans": 10,
+      "restart_markers": 0
+    }
+  }
+]

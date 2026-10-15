@@ -1,0 +1,5 @@
+Exception in thread "main" java.lang.IllegalArgumentException: Invalid reservoir interval
+	at io.ivo.mp3.ReservoirTrial.require(ReservoirTrial.java:222)
+	at io.ivo.mp3.ReservoirTrial.usedMask(ReservoirTrial.java:100)
+	at io.ivo.mp3.ReservoirTrial.auditReservoir(ReservoirTrial.java:148)
+	at io.ivo.mp3.ReservoirTrial.main(ReservoirTrial.java:226)

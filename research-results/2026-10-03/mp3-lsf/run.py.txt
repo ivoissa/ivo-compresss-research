@@ -1,0 +1,10 @@
+import pathlib,subprocess,concurrent.futures,json
+root=pathlib.Path('trials/mp3-lsf');files=json.loads(pathlib.Path('trials/mp3-corpus/manifest.json').read_text());(root/'manifest.json').write_text(json.dumps(files,indent=2))
+cp='trials/mp3-lsf/classes:trials/mp3-bounded/classes:ivo-jpeg-frozen-2026-10-03/target/classes'
+def run(item):
+ i,p=item;dest=root/'results'/f'{i:02d}';dest.mkdir(exist_ok=True)
+ r=subprocess.run(['java','-Xmx1024m','-cp',cp,'io.ivo.mp3.CorpusTrial',p,str(dest)],capture_output=True,text=True)
+ (dest/'log.txt').write_text(r.stdout+r.stderr)
+ audit=subprocess.run(['java','-cp',cp,'io.ivo.mp3.ReservoirTrial','--reservoir-audit',p],capture_output=True,text=True);(dest/'audit.txt').write_text(audit.stdout+audit.stderr)
+ print(i,r.returncode,r.stdout[-650:],flush=True)
+with concurrent.futures.ThreadPoolExecutor(max_workers=2) as pool:list(pool.map(run,enumerate(files)))

@@ -1,0 +1,1 @@
+RESERVOIR_AUDIT capacity_bits=945264 declared_bits=922434 back_sum=61278 covered_bits=922434 full_unused_bytes=2738 unused_zero_bytes=291 partial_bytes=247 mpeg1_frames=0 mpeg2_frames=282 mpeg25_frames=0

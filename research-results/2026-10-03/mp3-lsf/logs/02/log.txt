@@ -1,0 +1,5 @@
+INPUT /tmp/ivo-minimp3/vectors/performance/MEANDR90.mp3 bytes=9601 sha=f252e5a6f10ffbef00d80095aa6ffefa231ad7232b8e37aeea7cffd760de0713 store=9656
+SIDE_PORTFOLIO direct=323 transposed=323 selected=false
+BASE v1=9653 v3=9654 exact=true
+UNSUPPORTED mode=1 reason=Invalid reservoir interval
+UNSUPPORTED mode=2 reason=Invalid reservoir interval

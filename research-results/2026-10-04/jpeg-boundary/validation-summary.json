@@ -1,0 +1,13 @@
+{
+  "files": 16,
+  "boundary_candidates": 32,
+  "band_only_controls": 16,
+  "fresh_cli_archives": 72,
+  "legacy_or_v14_regressions": 24,
+  "truncated_rejected": 2,
+  "winners": 7,
+  "previous_v14_bytes": 5412318,
+  "retained_bytes": 5210570,
+  "gain_bytes": 201748,
+  "automatic_compression_enabled": false
+}

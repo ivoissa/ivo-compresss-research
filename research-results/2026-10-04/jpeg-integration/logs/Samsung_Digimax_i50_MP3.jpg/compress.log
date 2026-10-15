@@ -1,0 +1,9 @@
+/tmp/ivo-jpeg-neighbour-inputs/Samsung_Digimax_i50_MP3.jpg: 45,286 -> 43,628 bytes (96.34%), engine=JPEG_IR
+Engine                         valid   payload       IVO       ms  note
+STORE                          true       45,286    45,358        3  verbatim
+N&C contextuel                 true       44,814    44,886      157  PPM-like sparse contexts, order<=4
+REF + N&C                      true       44,280    44,352      128  REF minMatch=8 then N&C; REF size=30028
+JPEG oracle exact (structure/scans) true       43,556    43,628      162  JPEG exact; segments=12; scans=1; progressive=false; meta=43729; entropy=1557; modes=[0, 2, 0]
+JPEG frozen portfolio (ABC, spatial, directional, similarity) true       43,847    43,919      734  DCT coefficients + exact entropy patch
+JPEG boundary portfolio (physical + presence control) true       43,620    43,692      237  Causal AC category/presence; mode=9; exact entropy patch
+Written: /tmp/ivo-jpeg-integration-results/Samsung_Digimax_i50_MP3.jpg/automatic.ivo

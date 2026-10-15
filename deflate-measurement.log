@@ -1,0 +1,7 @@
+Input: 288 bytes
+Engine                         valid   payload       IVO       ms  note
+STORE                          true          288       342        1  verbatim
+N&C contextuel                 true          178       232        6  PPM-like sparse contexts, order<=4
+REF + N&C                      true          185       239        8  REF minMatch=8 then N&C; REF size=119
+DEFLATE IR exact (5 cordes)    true          181       235       25  RFC1951 exact; blocks=1 (stored=0, fixed=0, dynamic=1); five-cord IR=995; modes=[0, 1, 1, 2, 1]
+Winner: NC_CONTEXT -> 232 IVO bytes

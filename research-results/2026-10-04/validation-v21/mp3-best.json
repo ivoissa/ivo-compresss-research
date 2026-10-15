@@ -1,0 +1,82 @@
+[
+  {
+    "name": "google_brooklyn_bridge.mp3",
+    "baseline": 26313,
+    "energy_best": 27511,
+    "scheme": 15,
+    "extra_saved_bytes": 0,
+    "forced_change": 1198
+  },
+  {
+    "name": "librivox_wonderland_ch01.mp3",
+    "baseline": 4971610,
+    "energy_best": 4961589,
+    "scheme": 15,
+    "extra_saved_bytes": 10021,
+    "forced_change": -10021
+  },
+  {
+    "name": "mdn_bassguitar.mp3",
+    "baseline": 472775,
+    "energy_best": 525522,
+    "scheme": 15,
+    "extra_saved_bytes": 0,
+    "forced_change": 52747
+  },
+  {
+    "name": "mdn_clav.mp3",
+    "baseline": 583476,
+    "energy_best": 594308,
+    "scheme": 16,
+    "extra_saved_bytes": 0,
+    "forced_change": 10832
+  },
+  {
+    "name": "mdn_concert-crowd.mp3",
+    "baseline": 183185,
+    "energy_best": 183023,
+    "scheme": 15,
+    "extra_saved_bytes": 162,
+    "forced_change": -162
+  },
+  {
+    "name": "mdn_drums.mp3",
+    "baseline": 607073,
+    "energy_best": 606639,
+    "scheme": 15,
+    "extra_saved_bytes": 434,
+    "forced_change": -434
+  },
+  {
+    "name": "mdn_horns.mp3",
+    "baseline": 564364,
+    "energy_best": 563812,
+    "scheme": 15,
+    "extra_saved_bytes": 552,
+    "forced_change": -552
+  },
+  {
+    "name": "mdn_leadguitar.mp3",
+    "baseline": 585627,
+    "energy_best": 584630,
+    "scheme": 16,
+    "extra_saved_bytes": 997,
+    "forced_change": -997
+  },
+  {
+    "name": "mdn_outfoxing.mp3",
+    "baseline": 1766982,
+    "energy_best": 1760846,
+    "scheme": 16,
+    "extra_saved_bytes": 6136,
+    "forced_change": -6136
+  },
+  {
+    "name": "mdn_viper.mp3",
+    "baseline": 634697,
+    "energy_best": 631121,
+    "scheme": 15,
+    "extra_saved_bytes": 3576,
+    "forced_change": -3576
+  }
+]

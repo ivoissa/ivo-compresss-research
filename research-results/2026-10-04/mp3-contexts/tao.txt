@@ -1,0 +1,320 @@
+CODER file=cord-40.bin raw=7727715 selected=2 candidates=[7727715, 6458548, 6070751, 6071853, -1] total=6070756
+CODER file=cord-41.bin raw=239 selected=1 candidates=[239, 209, 261, -1, 263] total=212
+CODER file=cord-42.bin raw=0 selected=0 candidates=[0, -1, -1, -1, -1] total=2
+CODER file=cord-43.bin raw=0 selected=0 candidates=[0, -1, -1, -1, -1] total=2
+CODER file=cord-44.bin raw=21070101 selected=2 candidates=[21070101, 14294898, 12734070, 12753360, -1] total=12734075
+CODER file=cord-45.bin raw=692 selected=1 candidates=[692, 436, 497, -1, 561] total=439
+CODER file=cord-46.bin raw=0 selected=0 candidates=[0, -1, -1, -1, -1] total=2
+CODER file=cord-47.bin raw=0 selected=0 candidates=[0, -1, -1, -1, -1] total=2
+CODER file=cord-48.bin raw=61610828 selected=2 candidates=[61610828, 30146963, 25825665, 27454908, -1] total=25825670
+CODER file=cord-49.bin raw=2331 selected=2 candidates=[2331, 1019, 900, 993, 1307] total=903
+CODER file=cord-50.bin raw=0 selected=0 candidates=[0, -1, -1, -1, -1] total=2
+CODER file=cord-51.bin raw=0 selected=0 candidates=[0, -1, -1, -1, -1] total=2
+CODER file=cord-52.bin raw=18067324 selected=2 candidates=[18067324, 6387971, 5328872, 6588818, -1] total=5328877
+CODER file=cord-53.bin raw=1103 selected=2 candidates=[1103, 416, 348, 446, 538] total=351
+CODER file=cord-54.bin raw=0 selected=0 candidates=[0, -1, -1, -1, -1] total=2
+CODER file=cord-55.bin raw=0 selected=0 candidates=[0, -1, -1, -1, -1] total=2
+CODER file=cord-56.bin raw=85124 selected=2 candidates=[85124, 23699, 20005, 29872, 25696] total=20009
+CODER file=cord-57.bin raw=0 selected=0 candidates=[0, -1, -1, -1, -1] total=2
+CODER file=cord-58.bin raw=0 selected=0 candidates=[0, -1, -1, -1, -1] total=2
+CODER file=cord-59.bin raw=0 selected=0 candidates=[0, -1, -1, -1, -1] total=2
+CODER file=cord-60.bin raw=128022 selected=2 candidates=[128022, 30837, 25482, 38649, 31101] total=25486
+CODER file=cord-61.bin raw=0 selected=0 candidates=[0, -1, -1, -1, -1] total=2
+CODER file=cord-62.bin raw=0 selected=0 candidates=[0, -1, -1, -1, -1] total=2
+CODER file=cord-63.bin raw=0 selected=0 candidates=[0, -1, -1, -1, -1] total=2
+CODER file=cord-64.bin raw=1171308 selected=2 candidates=[1171308, 244544, 198929, 311493, -1] total=198933
+CODER file=cord-65.bin raw=0 selected=0 candidates=[0, -1, -1, -1, -1] total=2
+CODER file=cord-66.bin raw=0 selected=0 candidates=[0, -1, -1, -1, -1] total=2
+CODER file=cord-67.bin raw=0 selected=0 candidates=[0, -1, -1, -1, -1] total=2
+CODER file=cord-68.bin raw=521244 selected=2 candidates=[521244, 98345, 77371, 137295, -1] total=77375
+CODER file=cord-69.bin raw=0 selected=0 candidates=[0, -1, -1, -1, -1] total=2
+CODER file=cord-70.bin raw=0 selected=0 candidates=[0, -1, -1, -1, -1] total=2
+CODER file=cord-71.bin raw=0 selected=0 candidates=[0, -1, -1, -1, -1] total=2
+RESULT scheme=4 original=95634889 ivo=83510105 exact=true sha=c6e361e833559e842390da8541480ce47096baf61b405da64d9ef10188a2f40c ms=110624
+SPECTRAL Stats[parts=918684, pairs=85717785, quads=7771895, scalefactorBits=34249308, residualBits=0, unusedBits=3963279, bigHash=-3933596068788499615, quadHash=-841840283139987648]
+CODER file=cord-40.bin raw=6637318 selected=2 candidates=[6637318, 5386254, 5154123, 5155005, -1] total=5154128
+CODER file=cord-41.bin raw=1090636 selected=2 candidates=[1090636, 953399, 844870, 845164, -1] total=844874
+CODER file=cord-42.bin raw=0 selected=0 candidates=[0, -1, -1, -1, -1] total=2
+CODER file=cord-43.bin raw=18685511 selected=2 candidates=[18685511, 11737014, 10483625, 10502709, -1] total=10483630
+CODER file=cord-44.bin raw=2385282 selected=2 candidates=[2385282, 2124618, 1981271, 1981713, -1] total=1981276
+CODER file=cord-45.bin raw=0 selected=0 candidates=[0, -1, -1, -1, -1] total=2
+CODER file=cord-46.bin raw=55295958 selected=2 candidates=[55295958, 25261892, 21474049, 23092229, -1] total=21474054
+CODER file=cord-47.bin raw=6317201 selected=2 candidates=[6317201, 4518877, 4120562, 4151456, -1] total=4120567
+CODER file=cord-48.bin raw=0 selected=0 candidates=[0, -1, -1, -1, -1] total=2
+CODER file=cord-49.bin raw=16241172 selected=2 candidates=[16241172, 5412531, 4493513, 5694473, -1] total=4493518
+CODER file=cord-50.bin raw=1827255 selected=2 candidates=[1827255, 928341, 809443, 878277, -1] total=809447
+CODER file=cord-51.bin raw=0 selected=0 candidates=[0, -1, -1, -1, -1] total=2
+CODER file=cord-52.bin raw=64935 selected=2 candidates=[64935, 17710, 14939, 22392, 19643] total=14943
+CODER file=cord-53.bin raw=20189 selected=2 candidates=[20189, 6083, 5279, 7870, 7493] total=5283
+CODER file=cord-54.bin raw=0 selected=0 candidates=[0, -1, -1, -1, -1] total=2
+CODER file=cord-55.bin raw=93299 selected=2 candidates=[93299, 18639, 15064, 24604, 18396] total=15068
+CODER file=cord-56.bin raw=34723 selected=2 candidates=[34723, 12032, 10334, 14197, 14027] total=10338
+CODER file=cord-57.bin raw=0 selected=0 candidates=[0, -1, -1, -1, -1] total=2
+CODER file=cord-58.bin raw=1079816 selected=2 candidates=[1079816, 212962, 172708, 277533, -1] total=172712
+CODER file=cord-59.bin raw=91492 selected=2 candidates=[91492, 30334, 25795, 34292, 30981] total=25799
+CODER file=cord-60.bin raw=0 selected=0 candidates=[0, -1, -1, -1, -1] total=2
+CODER file=cord-61.bin raw=506206 selected=2 candidates=[506206, 94191, 74133, 132484, -1] total=74137
+CODER file=cord-62.bin raw=15038 selected=2 candidates=[15038, 4031, 3205, 5307, 4780] total=3208
+CODER file=cord-63.bin raw=0 selected=0 candidates=[0, -1, -1, -1, -1] total=2
+RESULT scheme=5 original=95634889 ivo=82909977 exact=true sha=c6e361e833559e842390da8541480ce47096baf61b405da64d9ef10188a2f40c ms=110976
+SPECTRAL Stats[parts=918684, pairs=85717785, quads=7771895, scalefactorBits=34249308, residualBits=0, unusedBits=3963279, bigHash=-3933596068788499615, quadHash=-841840283139987648]
+CODER file=cord-40.bin raw=2159487 selected=2 candidates=[2159487, 1917344, 1759612, 1759644, -1] total=1759617
+CODER file=cord-41.bin raw=3128741 selected=2 candidates=[3128741, 2595930, 2475924, 2476508, -1] total=2475929
+CODER file=cord-42.bin raw=2433116 selected=2 candidates=[2433116, 1855535, 1820907, 1821331, -1] total=1820912
+CODER file=cord-43.bin raw=6610 selected=1 candidates=[6610, 4944, 6202, 6210, 6508] total=4947
+CODER file=cord-44.bin raw=5347752 selected=3 candidates=[5347752, 4127624, 3764016, 3763356, -1] total=3763361
+CODER file=cord-45.bin raw=8644045 selected=2 candidates=[8644045, 5725933, 5115068, 5123855, -1] total=5115073
+CODER file=cord-46.bin raw=7059797 selected=2 candidates=[7059797, 4279519, 3797156, 3807252, -1] total=3797161
+CODER file=cord-47.bin raw=19199 selected=2 candidates=[19199, 11711, 11182, 11243, 13371] total=11186
+CODER file=cord-48.bin raw=14020706 selected=2 candidates=[14020706, 8431559, 7437827, 7661153, -1] total=7437832
+CODER file=cord-49.bin raw=24544684 selected=2 candidates=[24544684, 12077595, 10340451, 10959290, -1] total=10340456
+CODER file=cord-50.bin raw=22991527 selected=2 candidates=[22991527, 9372650, 7906148, 8714196, -1] total=7906153
+CODER file=cord-51.bin raw=56242 selected=2 candidates=[56242, 36307, 35771, 36403, 38563] total=35775
+CODER file=cord-52.bin raw=3730756 selected=2 candidates=[3730756, 1697681, 1458514, 1645349, -1] total=1458519
+CODER file=cord-53.bin raw=6625795 selected=2 candidates=[6625795, 2399752, 2008397, 2463778, -1] total=2008402
+CODER file=cord-54.bin raw=7696070 selected=2 candidates=[7696070, 2228150, 1811753, 2470594, -1] total=1811758
+CODER file=cord-55.bin raw=15806 selected=2 candidates=[15806, 7154, 6355, 7522, 8043] total=6358
+CODER file=cord-56.bin raw=57995 selected=2 candidates=[57995, 15206, 12536, 19847, 16913] total=12540
+CODER file=cord-57.bin raw=24904 selected=2 candidates=[24904, 8066, 7165, 9939, 9886] total=7169
+CODER file=cord-58.bin raw=2182 selected=1 candidates=[2182, 708, 723, 975, 988] total=711
+CODER file=cord-59.bin raw=43 selected=2 candidates=[43, 16, 7, -1, 10] total=9
+CODER file=cord-60.bin raw=79615 selected=2 candidates=[79615, 16953, 13764, 22252, 17790] total=13768
+CODER file=cord-61.bin raw=44703 selected=2 candidates=[44703, 13002, 10999, 15853, 14406] total=11003
+CODER file=cord-62.bin raw=3614 selected=2 candidates=[3614, 1076, 1067, 1354, 1433] total=1070
+CODER file=cord-63.bin raw=90 selected=2 candidates=[90, 12, 4, -1, 5] total=6
+CODER file=cord-64.bin raw=933820 selected=2 candidates=[933820, 183930, 148057, 239708, -1] total=148061
+CODER file=cord-65.bin raw=223383 selected=2 candidates=[223383, 53715, 44138, 66485, 48996] total=44142
+CODER file=cord-66.bin raw=13734 selected=1 candidates=[13734, 6119, 6723, 7581, 7527] total=6122
+CODER file=cord-67.bin raw=371 selected=1 candidates=[371, 277, 321, -1, 339] total=280
+CODER file=cord-68.bin raw=431168 selected=2 candidates=[431168, 78751, 61683, 111768, -1] total=61687
+CODER file=cord-69.bin raw=85622 selected=2 candidates=[85622, 18333, 14330, 24862, 17437] total=14334
+CODER file=cord-70.bin raw=4454 selected=2 candidates=[4454, 1387, 1286, 1944, 1699] total=1289
+CODER file=cord-71.bin raw=0 selected=0 candidates=[0, -1, -1, -1, -1] total=2
+RESULT scheme=6 original=95634889 ivo=83302639 exact=true sha=c6e361e833559e842390da8541480ce47096baf61b405da64d9ef10188a2f40c ms=112117
+SPECTRAL Stats[parts=918684, pairs=85717785, quads=7771895, scalefactorBits=34249308, residualBits=0, unusedBits=3963279, bigHash=-3933596068788499615, quadHash=-841840283139987648]
+CODER file=cord-40.bin raw=4228599 selected=2 candidates=[4228599, 3521008, 3357638, 3358061, -1] total=3357643
+CODER file=cord-41.bin raw=1059629 selected=2 candidates=[1059629, 924271, 818642, 818935, -1] total=818646
+CODER file=cord-42.bin raw=2408719 selected=2 candidates=[2408719, 1826302, 1793635, 1794057, -1] total=1793640
+CODER file=cord-43.bin raw=31007 selected=1 candidates=[31007, 27891, 33803, 33817, 35136] total=27895
+CODER file=cord-44.bin raw=0 selected=0 candidates=[0, -1, -1, -1, -1] total=2
+CODER file=cord-45.bin raw=0 selected=0 candidates=[0, -1, -1, -1, -1] total=2
+CODER file=cord-46.bin raw=0 selected=0 candidates=[0, -1, -1, -1, -1] total=2
+CODER file=cord-47.bin raw=0 selected=0 candidates=[0, -1, -1, -1, -1] total=2
+CODER file=cord-48.bin raw=11687053 selected=2 candidates=[11687053, 7519791, 6751994, 6761079, -1] total=6751999
+CODER file=cord-49.bin raw=2304744 selected=2 candidates=[2304744, 2055424, 1916037, 1916476, -1] total=1916042
+CODER file=cord-50.bin raw=6998458 selected=2 candidates=[6998458, 4199266, 3717000, 3727891, -1] total=3717005
+CODER file=cord-51.bin raw=80538 selected=1 candidates=[80538, 68113, 75620, 75640, 79825] total=68117
+CODER file=cord-52.bin raw=0 selected=0 candidates=[0, -1, -1, -1, -1] total=2
+CODER file=cord-53.bin raw=0 selected=0 candidates=[0, -1, -1, -1, -1] total=2
+CODER file=cord-54.bin raw=0 selected=0 candidates=[0, -1, -1, -1, -1] total=2
+CODER file=cord-55.bin raw=0 selected=0 candidates=[0, -1, -1, -1, -1] total=2
+CODER file=cord-56.bin raw=32476510 selected=2 candidates=[32476510, 15966947, 13660455, 14478395, -1] total=13660460
+CODER file=cord-57.bin raw=6088880 selected=2 candidates=[6088880, 4365057, 3982047, 4010931, -1] total=3982052
+CODER file=cord-58.bin raw=22819448 selected=2 candidates=[22819448, 9235200, 7786082, 8594116, -1] total=7786087
+CODER file=cord-59.bin raw=228321 selected=2 candidates=[228321, 152463, 144197, 146426, 154482] total=144201
+CODER file=cord-60.bin raw=0 selected=0 candidates=[0, -1, -1, -1, -1] total=2
+CODER file=cord-61.bin raw=0 selected=0 candidates=[0, -1, -1, -1, -1] total=2
+CODER file=cord-62.bin raw=0 selected=0 candidates=[0, -1, -1, -1, -1] total=2
+CODER file=cord-63.bin raw=0 selected=0 candidates=[0, -1, -1, -1, -1] total=2
+CODER file=cord-64.bin raw=8587032 selected=2 candidates=[8587032, 3179222, 2673045, 3242367, -1] total=2673050
+CODER file=cord-65.bin raw=1769519 selected=2 candidates=[1769519, 903243, 788415, 853176, -1] total=788419
+CODER file=cord-66.bin raw=7654140 selected=2 candidates=[7654140, 2209436, 1795933, 2452496, -1] total=1795938
+CODER file=cord-67.bin raw=57736 selected=2 candidates=[57736, 25071, 21956, 26039, 26891] total=21960
+CODER file=cord-68.bin raw=0 selected=0 candidates=[0, -1, -1, -1, -1] total=2
+CODER file=cord-69.bin raw=0 selected=0 candidates=[0, -1, -1, -1, -1] total=2
+CODER file=cord-70.bin raw=0 selected=0 candidates=[0, -1, -1, -1, -1] total=2
+CODER file=cord-71.bin raw=0 selected=0 candidates=[0, -1, -1, -1, -1] total=2
+CODER file=cord-72.bin raw=62812 selected=2 candidates=[62812, 17083, 14333, 21689, 18964] total=14337
+CODER file=cord-73.bin raw=20087 selected=2 candidates=[20087, 6058, 5257, 7852, 7459] total=5261
+CODER file=cord-74.bin raw=2123 selected=1 candidates=[2123, 685, 700, 924, 953] total=688
+CODER file=cord-75.bin raw=102 selected=2 candidates=[102, 53, 41, -1, 55] total=43
+CODER file=cord-76.bin raw=0 selected=0 candidates=[0, -1, -1, -1, -1] total=2
+CODER file=cord-77.bin raw=0 selected=0 candidates=[0, -1, -1, -1, -1] total=2
+CODER file=cord-78.bin raw=0 selected=0 candidates=[0, -1, -1, -1, -1] total=2
+CODER file=cord-79.bin raw=0 selected=0 candidates=[0, -1, -1, -1, -1] total=2
+CODER file=cord-80.bin raw=89873 selected=2 candidates=[89873, 17659, 14196, 23533, 17458] total=14200
+CODER file=cord-81.bin raw=34445 selected=2 candidates=[34445, 11945, 10253, 14079, 13925] total=10257
+CODER file=cord-82.bin raw=3426 selected=1 candidates=[3426, 981, 984, 1230, 1312] total=984
+CODER file=cord-83.bin raw=278 selected=2 candidates=[278, 125, 113, -1, 154] total=116
+CODER file=cord-84.bin raw=0 selected=0 candidates=[0, -1, -1, -1, -1] total=2
+CODER file=cord-85.bin raw=0 selected=0 candidates=[0, -1, -1, -1, -1] total=2
+CODER file=cord-86.bin raw=0 selected=0 candidates=[0, -1, -1, -1, -1] total=2
+CODER file=cord-87.bin raw=0 selected=0 candidates=[0, -1, -1, -1, -1] total=2
+CODER file=cord-88.bin raw=1066503 selected=2 candidates=[1066503, 206321, 165866, 270152, -1] total=165870
+CODER file=cord-89.bin raw=90700 selected=2 candidates=[90700, 30055, 25543, 33964, 30685] total=25547
+CODER file=cord-90.bin raw=13313 selected=1 candidates=[13313, 6042, 6719, 7508, 7461] total=6045
+CODER file=cord-91.bin raw=792 selected=1 candidates=[792, 325, 327, -1, 434] total=328
+CODER file=cord-92.bin raw=0 selected=0 candidates=[0, -1, -1, -1, -1] total=2
+CODER file=cord-93.bin raw=0 selected=0 candidates=[0, -1, -1, -1, -1] total=2
+CODER file=cord-94.bin raw=0 selected=0 candidates=[0, -1, -1, -1, -1] total=2
+CODER file=cord-95.bin raw=0 selected=0 candidates=[0, -1, -1, -1, -1] total=2
+CODER file=cord-96.bin raw=501952 selected=2 candidates=[501952, 92884, 72857, 130927, -1] total=72861
+CODER file=cord-97.bin raw=14838 selected=2 candidates=[14838, 3969, 3154, 5244, 4724] total=3157
+CODER file=cord-98.bin raw=4254 selected=2 candidates=[4254, 1321, 1227, 1850, 1621] total=1230
+CODER file=cord-99.bin raw=200 selected=2 candidates=[200, 91, 75, -1, 102] total=78
+CODER file=cord-100.bin raw=0 selected=0 candidates=[0, -1, -1, -1, -1] total=2
+CODER file=cord-101.bin raw=0 selected=0 candidates=[0, -1, -1, -1, -1] total=2
+CODER file=cord-102.bin raw=0 selected=0 candidates=[0, -1, -1, -1, -1] total=2
+CODER file=cord-103.bin raw=0 selected=0 candidates=[0, -1, -1, -1, -1] total=2
+RESULT scheme=7 original=95634889 ivo=82851262 exact=true sha=c6e361e833559e842390da8541480ce47096baf61b405da64d9ef10188a2f40c ms=112024
+SPECTRAL Stats[parts=918684, pairs=85717785, quads=7771895, scalefactorBits=34249308, residualBits=0, unusedBits=3963279, bigHash=-3933596068788499615, quadHash=-841840283139987648]
+CACHE magnitude=0:0 identical_raw=true coded=6070756
+CACHE magnitude=0:1 identical_raw=true coded=212
+CACHE magnitude=0:2 identical_raw=true coded=2
+CACHE magnitude=0:3 identical_raw=true coded=2
+CACHE magnitude=0:4 identical_raw=true coded=12734075
+CACHE magnitude=0:5 identical_raw=true coded=439
+CACHE magnitude=0:6 identical_raw=true coded=2
+CACHE magnitude=0:7 identical_raw=true coded=2
+CACHE magnitude=0:8 identical_raw=true coded=25825670
+CACHE magnitude=0:9 identical_raw=true coded=903
+CACHE magnitude=0:10 identical_raw=true coded=2
+CACHE magnitude=0:11 identical_raw=true coded=2
+CACHE magnitude=0:12 identical_raw=true coded=5328877
+CACHE magnitude=0:13 identical_raw=true coded=351
+CACHE magnitude=0:14 identical_raw=true coded=2
+CACHE magnitude=0:15 identical_raw=true coded=2
+CACHE magnitude=0:16 identical_raw=true coded=20009
+CACHE magnitude=0:17 identical_raw=true coded=2
+CACHE magnitude=0:18 identical_raw=true coded=2
+CACHE magnitude=0:19 identical_raw=true coded=2
+CACHE magnitude=0:20 identical_raw=true coded=25486
+CACHE magnitude=0:21 identical_raw=true coded=2
+CACHE magnitude=0:22 identical_raw=true coded=2
+CACHE magnitude=0:23 identical_raw=true coded=2
+CACHE magnitude=0:24 identical_raw=true coded=198933
+CACHE magnitude=0:25 identical_raw=true coded=2
+CACHE magnitude=0:26 identical_raw=true coded=2
+CACHE magnitude=0:27 identical_raw=true coded=2
+CACHE magnitude=0:28 identical_raw=true coded=77375
+CACHE magnitude=0:29 identical_raw=true coded=2
+CACHE magnitude=0:30 identical_raw=true coded=2
+CACHE magnitude=0:31 identical_raw=true coded=2
+RESULT scheme=8 original=95634889 ivo=84555661 exact=true sha=c6e361e833559e842390da8541480ce47096baf61b405da64d9ef10188a2f40c ms=39353
+SPECTRAL Stats[parts=918684, pairs=85717785, quads=7771895, scalefactorBits=34249308, residualBits=0, unusedBits=3963279, bigHash=-3933596068788499615, quadHash=-841840283139987648]
+CACHE magnitude=1:0 identical_raw=true coded=5154128
+CACHE magnitude=1:1 identical_raw=true coded=844874
+CACHE magnitude=1:2 identical_raw=true coded=2
+CACHE magnitude=1:3 identical_raw=true coded=10483630
+CACHE magnitude=1:4 identical_raw=true coded=1981276
+CACHE magnitude=1:5 identical_raw=true coded=2
+CACHE magnitude=1:6 identical_raw=true coded=21474054
+CACHE magnitude=1:7 identical_raw=true coded=4120567
+CACHE magnitude=1:8 identical_raw=true coded=2
+CACHE magnitude=1:9 identical_raw=true coded=4493518
+CACHE magnitude=1:10 identical_raw=true coded=809447
+CACHE magnitude=1:11 identical_raw=true coded=2
+CACHE magnitude=1:12 identical_raw=true coded=14943
+CACHE magnitude=1:13 identical_raw=true coded=5283
+CACHE magnitude=1:14 identical_raw=true coded=2
+CACHE magnitude=1:15 identical_raw=true coded=15068
+CACHE magnitude=1:16 identical_raw=true coded=10338
+CACHE magnitude=1:17 identical_raw=true coded=2
+CACHE magnitude=1:18 identical_raw=true coded=172712
+CACHE magnitude=1:19 identical_raw=true coded=25799
+CACHE magnitude=1:20 identical_raw=true coded=2
+CACHE magnitude=1:21 identical_raw=true coded=74137
+CACHE magnitude=1:22 identical_raw=true coded=3208
+CACHE magnitude=1:23 identical_raw=true coded=2
+RESULT scheme=9 original=95634889 ivo=83955533 exact=true sha=c6e361e833559e842390da8541480ce47096baf61b405da64d9ef10188a2f40c ms=37675
+SPECTRAL Stats[parts=918684, pairs=85717785, quads=7771895, scalefactorBits=34249308, residualBits=0, unusedBits=3963279, bigHash=-3933596068788499615, quadHash=-841840283139987648]
+CACHE magnitude=2:0 identical_raw=true coded=1759617
+CACHE magnitude=2:1 identical_raw=true coded=2475929
+CACHE magnitude=2:2 identical_raw=true coded=1820912
+CACHE magnitude=2:3 identical_raw=true coded=4947
+CACHE magnitude=2:4 identical_raw=true coded=3763361
+CACHE magnitude=2:5 identical_raw=true coded=5115073
+CACHE magnitude=2:6 identical_raw=true coded=3797161
+CACHE magnitude=2:7 identical_raw=true coded=11186
+CACHE magnitude=2:8 identical_raw=true coded=7437832
+CACHE magnitude=2:9 identical_raw=true coded=10340456
+CACHE magnitude=2:10 identical_raw=true coded=7906153
+CACHE magnitude=2:11 identical_raw=true coded=35775
+CACHE magnitude=2:12 identical_raw=true coded=1458519
+CACHE magnitude=2:13 identical_raw=true coded=2008402
+CACHE magnitude=2:14 identical_raw=true coded=1811758
+CACHE magnitude=2:15 identical_raw=true coded=6358
+CACHE magnitude=2:16 identical_raw=true coded=12540
+CACHE magnitude=2:17 identical_raw=true coded=7169
+CACHE magnitude=2:18 identical_raw=true coded=711
+CACHE magnitude=2:19 identical_raw=true coded=9
+CACHE magnitude=2:20 identical_raw=true coded=13768
+CACHE magnitude=2:21 identical_raw=true coded=11003
+CACHE magnitude=2:22 identical_raw=true coded=1070
+CACHE magnitude=2:23 identical_raw=true coded=6
+CACHE magnitude=2:24 identical_raw=true coded=148061
+CACHE magnitude=2:25 identical_raw=true coded=44142
+CACHE magnitude=2:26 identical_raw=true coded=6122
+CACHE magnitude=2:27 identical_raw=true coded=280
+CACHE magnitude=2:28 identical_raw=true coded=61687
+CACHE magnitude=2:29 identical_raw=true coded=14334
+CACHE magnitude=2:30 identical_raw=true coded=1289
+CACHE magnitude=2:31 identical_raw=true coded=2
+RESULT scheme=10 original=95634889 ivo=84348195 exact=true sha=c6e361e833559e842390da8541480ce47096baf61b405da64d9ef10188a2f40c ms=37391
+SPECTRAL Stats[parts=918684, pairs=85717785, quads=7771895, scalefactorBits=34249308, residualBits=0, unusedBits=3963279, bigHash=-3933596068788499615, quadHash=-841840283139987648]
+CACHE magnitude=3:0 identical_raw=true coded=3357643
+CACHE magnitude=3:1 identical_raw=true coded=818646
+CACHE magnitude=3:2 identical_raw=true coded=1793640
+CACHE magnitude=3:3 identical_raw=true coded=27895
+CACHE magnitude=3:4 identical_raw=true coded=2
+CACHE magnitude=3:5 identical_raw=true coded=2
+CACHE magnitude=3:6 identical_raw=true coded=2
+CACHE magnitude=3:7 identical_raw=true coded=2
+CACHE magnitude=3:8 identical_raw=true coded=6751999
+CACHE magnitude=3:9 identical_raw=true coded=1916042
+CACHE magnitude=3:10 identical_raw=true coded=3717005
+CACHE magnitude=3:11 identical_raw=true coded=68117
+CACHE magnitude=3:12 identical_raw=true coded=2
+CACHE magnitude=3:13 identical_raw=true coded=2
+CACHE magnitude=3:14 identical_raw=true coded=2
+CACHE magnitude=3:15 identical_raw=true coded=2
+CACHE magnitude=3:16 identical_raw=true coded=13660460
+CACHE magnitude=3:17 identical_raw=true coded=3982052
+CACHE magnitude=3:18 identical_raw=true coded=7786087
+CACHE magnitude=3:19 identical_raw=true coded=144201
+CACHE magnitude=3:20 identical_raw=true coded=2
+CACHE magnitude=3:21 identical_raw=true coded=2
+CACHE magnitude=3:22 identical_raw=true coded=2
+CACHE magnitude=3:23 identical_raw=true coded=2
+CACHE magnitude=3:24 identical_raw=true coded=2673050
+CACHE magnitude=3:25 identical_raw=true coded=788419
+CACHE magnitude=3:26 identical_raw=true coded=1795938
+CACHE magnitude=3:27 identical_raw=true coded=21960
+CACHE magnitude=3:28 identical_raw=true coded=2
+CACHE magnitude=3:29 identical_raw=true coded=2
+CACHE magnitude=3:30 identical_raw=true coded=2
+CACHE magnitude=3:31 identical_raw=true coded=2
+CACHE magnitude=3:32 identical_raw=true coded=14337
+CACHE magnitude=3:33 identical_raw=true coded=5261
+CACHE magnitude=3:34 identical_raw=true coded=688
+CACHE magnitude=3:35 identical_raw=true coded=43
+CACHE magnitude=3:36 identical_raw=true coded=2
+CACHE magnitude=3:37 identical_raw=true coded=2
+CACHE magnitude=3:38 identical_raw=true coded=2
+CACHE magnitude=3:39 identical_raw=true coded=2
+CACHE magnitude=3:40 identical_raw=true coded=14200
+CACHE magnitude=3:41 identical_raw=true coded=10257
+CACHE magnitude=3:42 identical_raw=true coded=984
+CACHE magnitude=3:43 identical_raw=true coded=116
+CACHE magnitude=3:44 identical_raw=true coded=2
+CACHE magnitude=3:45 identical_raw=true coded=2
+CACHE magnitude=3:46 identical_raw=true coded=2
+CACHE magnitude=3:47 identical_raw=true coded=2
+CACHE magnitude=3:48 identical_raw=true coded=165870
+CACHE magnitude=3:49 identical_raw=true coded=25547
+CACHE magnitude=3:50 identical_raw=true coded=6045
+CACHE magnitude=3:51 identical_raw=true coded=328
+CACHE magnitude=3:52 identical_raw=true coded=2
+CACHE magnitude=3:53 identical_raw=true coded=2
+CACHE magnitude=3:54 identical_raw=true coded=2
+CACHE magnitude=3:55 identical_raw=true coded=2
+CACHE magnitude=3:56 identical_raw=true coded=72861
+CACHE magnitude=3:57 identical_raw=true coded=3157
+CACHE magnitude=3:58 identical_raw=true coded=1230
+CACHE magnitude=3:59 identical_raw=true coded=78
+CACHE magnitude=3:60 identical_raw=true coded=2
+CACHE magnitude=3:61 identical_raw=true coded=2
+CACHE magnitude=3:62 identical_raw=true coded=2
+CACHE magnitude=3:63 identical_raw=true coded=2
+RESULT scheme=11 original=95634889 ivo=83896818 exact=true sha=c6e361e833559e842390da8541480ce47096baf61b405da64d9ef10188a2f40c ms=39070
+SPECTRAL Stats[parts=918684, pairs=85717785, quads=7771895, scalefactorBits=34249308, residualBits=0, unusedBits=3963279, bigHash=-3933596068788499615, quadHash=-841840283139987648]

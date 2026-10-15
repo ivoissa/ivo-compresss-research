@@ -1,0 +1,9 @@
+/tmp/ivo-jpeg-external-inputs/libjxl_flower.png.im_q85_420_progr.jpg: 522,057 -> 522,052 bytes (100.00%), engine=JPEG_IR
+Engine                         valid   payload       IVO       ms  note
+STORE                          true      522,057   522,140        6  verbatim
+N&C contextuel                 true      610,629   610,712      682  PPM-like sparse contexts, order<=4
+REF + N&C                      true      610,675   610,758      747  REF minMatch=8 then N&C; REF size=522097
+JPEG oracle exact (structure/scans) true      521,969   522,052      794  JPEG exact; segments=26; scans=10; progressive=true; meta=727; entropy=521330; modes=[0, 1, 0]
+JPEG frozen portfolio (ABC, spatial, directional, similarity) false           -         -        5  IllegalArgumentException: Progressive JPEG excluded from V0/V1
+JPEG boundary portfolio (physical + presence control) false           -         -        1  IllegalArgumentException: No supported exact JPEG boundary candidate
+Written: /tmp/ivo-jpeg-integration-results/libjxl_flower.png.im_q85_420_progr.jpg/automatic.ivo

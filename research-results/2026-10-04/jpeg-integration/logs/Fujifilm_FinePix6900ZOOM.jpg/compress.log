@@ -1,0 +1,9 @@
+/tmp/ivo-jpeg-amplitude-heldout/Fujifilm_FinePix6900ZOOM.jpg: 4,278 -> 4,242 bytes (99.16%), engine=JPEG_IR
+Engine                         valid   payload       IVO       ms  note
+STORE                          true        4,278     4,349        1  verbatim
+N&C contextuel                 true        4,825     4,896       42  PPM-like sparse contexts, order<=4
+REF + N&C                      true        4,784     4,855       25  REF minMatch=8 then N&C; REF size=3783
+JPEG oracle exact (structure/scans) true        4,171     4,242       38  JPEG exact; segments=12; scans=1; progressive=false; meta=2848; entropy=1430; modes=[0, 1, 0]
+JPEG frozen portfolio (ABC, spatial, directional, similarity) true        4,504     4,575      231  DCT coefficients + exact entropy patch
+JPEG boundary portfolio (physical + presence control) true        4,272     4,343       69  Causal AC category/presence; mode=9; exact entropy patch
+Written: /tmp/ivo-jpeg-integration-results/Fujifilm_FinePix6900ZOOM.jpg/automatic.ivo

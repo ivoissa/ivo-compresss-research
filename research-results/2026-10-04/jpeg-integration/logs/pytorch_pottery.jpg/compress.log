@@ -1,0 +1,9 @@
+/tmp/ivo-jpeg-external-inputs/pytorch_pottery.jpg: 91,964 -> 77,472 bytes (84.24%), engine=JPEG_NEIGHBOUR_RESEARCH
+Engine                         valid   payload       IVO       ms  note
+STORE                          true       91,964    92,028        3  verbatim
+N&C contextuel                 true      121,357   121,421      215  PPM-like sparse contexts, order<=4
+REF + N&C                      true      121,972   122,036      227  REF minMatch=8 then N&C; REF size=91163
+JPEG oracle exact (structure/scans) true       91,954    92,018      164  JPEG exact; segments=10; scans=1; progressive=false; meta=341; entropy=91623; modes=[0, 1, 0]
+JPEG frozen portfolio (ABC, spatial, directional, similarity) true       80,031    80,095     2753  DCT coefficients + exact entropy patch
+JPEG boundary portfolio (physical + presence control) true       77,408    77,472     1166  Causal AC category/presence; mode=9; exact entropy patch
+Written: /tmp/ivo-jpeg-integration-results/pytorch_pottery.jpg/automatic.ivo

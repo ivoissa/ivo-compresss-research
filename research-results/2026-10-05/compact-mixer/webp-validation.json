@@ -1,0 +1,20 @@
+[
+  {
+    "label": "kitten",
+    "archive_identical_current_fast": true,
+    "old_reader_exact": true,
+    "compact_reader_exact": true
+  },
+  {
+    "label": "test",
+    "archive_identical_current_fast": true,
+    "old_reader_exact": true,
+    "compact_reader_exact": true
+  },
+  {
+    "label": "tower",
+    "archive_identical_current_fast": true,
+    "old_reader_exact": true,
+    "compact_reader_exact": true
+  }
+]

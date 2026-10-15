@@ -1,0 +1,9 @@
+/tmp/ivo-jpeg-external-inputs/python-pillow_hopper.jpg: 6,412 -> 6,199 bytes (96.68%), engine=JPEG_NEIGHBOUR_RESEARCH
+Engine                         valid   payload       IVO       ms  note
+STORE                          true        6,412     6,479        1  verbatim
+N&C contextuel                 true        8,918     8,985       34  PPM-like sparse contexts, order<=4
+REF + N&C                      true        8,895     8,962       35  REF minMatch=8 then N&C; REF size=6363
+JPEG oracle exact (structure/scans) true        6,410     6,477       44  JPEG exact; segments=12; scans=1; progressive=false; meta=411; entropy=6001; modes=[0, 1, 0]
+JPEG frozen portfolio (ABC, spatial, directional, similarity) true        6,557     6,624      403  DCT coefficients + exact entropy patch
+JPEG boundary portfolio (physical + presence control) true        6,132     6,199      134  Causal AC category/presence; mode=9; exact entropy patch
+Written: /tmp/ivo-jpeg-integration-results/python-pillow_hopper.jpg/automatic.ivo

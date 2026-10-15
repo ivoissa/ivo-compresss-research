@@ -1,0 +1,37 @@
+{
+  "status": "initial_skipped_prefix_only",
+  "real_video": {
+    "frames": 709,
+    "skip_flags": 910,
+    "skip_ones": 204,
+    "end_of_slice_flags": 204,
+    "terminal_ones": 0,
+    "max_initial_skip_run": 6
+  },
+  "flat_synthetic": {
+    "frames": 10,
+    "skip_flags": 144,
+    "end_of_slice_flags": 144,
+    "terminal_ones": 9,
+    "max_initial_skip_run": 16
+  },
+  "detail_synthetic": {
+    "frames": 12,
+    "skip_flags": 23,
+    "skip_ones": 12,
+    "end_of_slice_flags": 12,
+    "terminal_ones": 0,
+    "max_initial_skip_run": 4
+  },
+  "total_skip_flags": 1077,
+  "total_end_of_slice_flags": 360,
+  "mismatches": 0,
+  "new_compression_measurement": false,
+  "byte_exact_cabac_roundtrip": false,
+  "cabac_init_idc_observed": [
+    0,
+    1
+  ],
+  "cabac_init_idc_2_real_validation": false,
+  "previous_best_ivo_bytes": 5414825
+}

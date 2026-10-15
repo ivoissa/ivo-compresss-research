@@ -1,0 +1,9 @@
+/tmp/ivo-jpeg-external-inputs/pytorch_leaning_tower.jpg: 1,307,589 -> 1,307,295 bytes (99.98%), engine=JPEG_IR
+Engine                         valid   payload       IVO       ms  note
+STORE                          true    1,307,589 1,307,659        7  verbatim
+N&C contextuel                 true    1,468,727 1,468,797     1657  PPM-like sparse contexts, order<=4
+REF + N&C                      true    1,468,414 1,468,484     1830  REF minMatch=8 then N&C; REF size=1307463
+JPEG oracle exact (structure/scans) true    1,307,225 1,307,295     1706  JPEG exact; segments=19; scans=10; progressive=true; meta=1870; entropy=1305719; modes=[0, 2, 0]
+JPEG frozen portfolio (ABC, spatial, directional, similarity) false           -         -        4  IllegalArgumentException: Progressive JPEG excluded from V0/V1
+JPEG boundary portfolio (physical + presence control) false           -         -        1  IllegalArgumentException: No supported exact JPEG boundary candidate
+Written: /tmp/ivo-jpeg-integration-results/pytorch_leaning_tower.jpg/automatic.ivo

@@ -1,0 +1,57 @@
+[
+  {
+    "archive": "/tmp/ivo-jpeg-neighbour-results/Reconyx_HC500_Hyperfire.jpg/neighbour-b2-m0.ivo",
+    "sha256_checked_by_cli": true,
+    "restored_bytes": 425890
+  },
+  {
+    "archive": "/tmp/ivo-jpeg-neighbour-results/Reconyx_HC500_Hyperfire.jpg/neighbour-m0.ivo",
+    "sha256_checked_by_cli": true,
+    "restored_bytes": 425890
+  },
+  {
+    "archive": "/tmp/ivo-jpeg-neighbour-results/Reconyx_HC500_Hyperfire.jpg/neighbour-b2-m1.ivo",
+    "sha256_checked_by_cli": true,
+    "restored_bytes": 425890
+  },
+  {
+    "archive": "/tmp/ivo-jpeg-neighbour-results/Reconyx_HC500_Hyperfire.jpg/neighbour-m1.ivo",
+    "sha256_checked_by_cli": true,
+    "restored_bytes": 425890
+  },
+  {
+    "archive": "/tmp/ivo-jpeg-neighbour-results/Reconyx_HC500_Hyperfire.jpg/neighbour-b1-m1.ivo",
+    "sha256_checked_by_cli": true,
+    "restored_bytes": 425890
+  },
+  {
+    "archive": "/tmp/ivo-jpeg-neighbour-results/Reconyx_HC500_Hyperfire.jpg/neighbour-b1-m0.ivo",
+    "sha256_checked_by_cli": true,
+    "restored_bytes": 425890
+  },
+  {
+    "archive": "/tmp/ivo-jpeg-amplitude-results/Reconyx_HC500_Hyperfire.jpg/neighbour-b2-m5.ivo",
+    "sha256_checked_by_cli": true,
+    "restored_bytes": 425890
+  },
+  {
+    "archive": "/tmp/ivo-jpeg-amplitude-results/Reconyx_HC500_Hyperfire.jpg/neighbour-b2-m6.ivo",
+    "sha256_checked_by_cli": true,
+    "restored_bytes": 425890
+  },
+  {
+    "archive": "recap/ivo-java-complet-2026-10-04/research-results/2026-10-04/mp3-contexts/selected-small-archives/generated-44100-1.mp3.ivo",
+    "sha256_checked_by_cli": true,
+    "restored_bytes": 33062
+  },
+  {
+    "archive": "recap/ivo-java-complet-2026-10-04/research-results/2026-10-04/mp3-spectral-cords/selected-small-archives/generated-44100-1.mp3.ivo",
+    "sha256_checked_by_cli": true,
+    "restored_bytes": 33062
+  },
+  {
+    "archive": "recap/ivo-java-complet-2026-10-04/research-results/2026-10-04/mp3-temporal/new_synthetic-generated-44100-1.mp3/temporal-s12.ivo",
+    "sha256_checked_by_cli": true,
+    "restored_bytes": 33062
+  }
+]

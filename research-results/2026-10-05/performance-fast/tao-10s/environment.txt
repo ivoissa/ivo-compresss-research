@@ -1,0 +1,9 @@
+source=research-results/2026-10-05/user-code-review/small-cases/tao-10s.mp3
+sha256=d7968356ef193ef8ae9ddd93d1b3e27a27819925f858e849d1221cf2dc264b97
+java=17.0.20+8-1-24.04-Ubuntu
+vm=OpenJDK 64-Bit Server VM
+flags=[-Xms64m, -Xmx2g, -XX:+UseG1GC]
+os=Linux amd64
+processors=8
+warmups=1
+repetitions=3

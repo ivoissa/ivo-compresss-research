@@ -1,0 +1,9 @@
+/tmp/ivo-jpeg-amplitude-heldout/Panasonic_DMC-FZ30.jpg: 10,769 -> 8,614 bytes (79.99%), engine=JPEG_IR
+Engine                         valid   payload       IVO       ms  note
+STORE                          true       10,769    10,834        1  verbatim
+N&C contextuel                 true        9,942    10,007       38  PPM-like sparse contexts, order<=4
+REF + N&C                      true        9,568     9,633       50  REF minMatch=8 then N&C; REF size=7676
+JPEG oracle exact (structure/scans) true        8,549     8,614       51  JPEG exact; segments=12; scans=1; progressive=false; meta=8760; entropy=2009; modes=[0, 2, 0]
+JPEG frozen portfolio (ABC, spatial, directional, similarity) true        8,794     8,859      287  DCT coefficients + exact entropy patch
+JPEG boundary portfolio (physical + presence control) true        8,568     8,633       85  Causal AC category/presence; mode=9; exact entropy patch
+Written: /tmp/ivo-jpeg-integration-results/Panasonic_DMC-FZ30.jpg/automatic.ivo

@@ -1,0 +1,2 @@
+RESULT input=mp3-spectral-work/corpus/generated-8000-2.mp3 original=6741 ivo=5613 exact=true sha=ee10bdd6713f72be090909b558e47e30c0b003009d5a8a1670537a28c25aa270 ms=82
+SPECTRAL Stats[parts=62, pairs=3536, quads=1775, scalefactorBits=928, residualBits=0, unusedBits=11148, bigHash=6791413760684242076, quadHash=-9187750346300627965]

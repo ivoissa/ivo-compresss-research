@@ -1,0 +1,9 @@
+/tmp/ivo-jpeg-external-inputs/libjpeg-turbo_monkey12.jpg: 32,831 -> 32,902 bytes (100.22%), engine=STORE
+Engine                         valid   payload       IVO       ms  note
+STORE                          true       32,831    32,902        1  verbatim
+N&C contextuel                 true       48,584    48,655      209  PPM-like sparse contexts, order<=4
+REF + N&C                      true       48,316    48,387      160  REF minMatch=8 then N&C; REF size=32450
+JPEG oracle exact (structure/scans) true       32,874    32,945       98  JPEG exact; segments=12; scans=1; progressive=false; meta=3414; entropy=29417; modes=[0, 0, 0]
+JPEG frozen portfolio (ABC, spatial, directional, similarity) false           -         -        4  IllegalArgumentException: SOF0 missing
+JPEG boundary portfolio (physical + presence control) false           -         -        1  IllegalArgumentException: No supported exact JPEG boundary candidate
+Written: /tmp/ivo-jpeg-integration-results/libjpeg-turbo_monkey12.jpg/automatic.ivo

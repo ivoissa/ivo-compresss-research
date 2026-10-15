@@ -1,0 +1,2 @@
+RESULT input=mp3-spectral-work/corpus/l3-compl-cut.mp3 original=192 ivo=378 exact=true sha=9f5b4baaefc5403c2b55ad5a52c8d7e812ba9e25638f8b674a0d01df6008a7c7 ms=73
+SPECTRAL Stats[parts=2, pairs=91, quads=87, scalefactorBits=63, residualBits=0, unusedBits=64, bigHash=8161455100111065787, quadHash=-1508343438124204571]

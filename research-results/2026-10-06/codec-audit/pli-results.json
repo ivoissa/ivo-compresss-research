@@ -1,0 +1,137 @@
+[
+  {
+    "name": "zero",
+    "mode": 0,
+    "raw": 16384,
+    "zlib_raw": 39,
+    "png": 95,
+    "output": "audit/fixtures/zero mode 0 (vagues seules): brut=16384 code=6 delta=-99.96% GAIN | magnitudes=5 signes=0 | 17 ms\n  roundtrip identical=true\n",
+    "error": ""
+  },
+  {
+    "name": "zero",
+    "mode": 1,
+    "raw": 16384,
+    "zlib_raw": 39,
+    "png": 95,
+    "output": "audit/fixtures/zero mode 1 (pliage S/T (transformation)): brut=16384 code=6 delta=-99.96% GAIN | magnitudes=5 signes=0 | 18 ms\n  roundtrip identical=true\n",
+    "error": ""
+  },
+  {
+    "name": "zero",
+    "mode": 2,
+    "raw": 16384,
+    "zlib_raw": 39,
+    "png": 95,
+    "output": "audit/fixtures/zero mode 2 (vagues + miroir en contexte): brut=16384 code=6 delta=-99.96% GAIN | magnitudes=5 signes=0 | 17 ms\n  roundtrip identical=true\n",
+    "error": ""
+  },
+  {
+    "name": "photo-gray",
+    "mode": 0,
+    "raw": 49152,
+    "zlib_raw": 26936,
+    "png": 21317,
+    "output": "audit/fixtures/photo-gray mode 0 (vagues seules): brut=49152 code=28641 delta=-41.73% GAIN | magnitudes=25932 signes=2708 | 240 ms\n  roundtrip identical=true\n",
+    "error": ""
+  },
+  {
+    "name": "photo-gray",
+    "mode": 1,
+    "raw": 49152,
+    "zlib_raw": 26936,
+    "png": 21317,
+    "output": "audit/fixtures/photo-gray mode 1 (pliage S/T (transformation)): brut=49152 code=26215 delta=-46.67% GAIN | magnitudes=23024 signes=3191 | 193 ms\n  roundtrip identical=true\n",
+    "error": ""
+  },
+  {
+    "name": "photo-gray",
+    "mode": 2,
+    "raw": 49152,
+    "zlib_raw": 26936,
+    "png": 21317,
+    "output": "audit/fixtures/photo-gray mode 2 (vagues + miroir en contexte): brut=49152 code=28652 delta=-41.71% GAIN | magnitudes=25938 signes=2714 | 211 ms\n  roundtrip identical=true\n",
+    "error": ""
+  },
+  {
+    "name": "gradient",
+    "mode": 0,
+    "raw": 16384,
+    "zlib_raw": 895,
+    "png": 463,
+    "output": "audit/fixtures/gradient mode 0 (vagues seules): brut=16384 code=5605 delta=-65.79% GAIN | magnitudes=5515 signes=90 | 79 ms\n  roundtrip identical=true\n",
+    "error": ""
+  },
+  {
+    "name": "gradient",
+    "mode": 1,
+    "raw": 16384,
+    "zlib_raw": 895,
+    "png": 463,
+    "output": "audit/fixtures/gradient mode 1 (pliage S/T (transformation)): brut=16384 code=4040 delta=-75.34% GAIN | magnitudes=3921 signes=119 | 63 ms\n  roundtrip identical=true\n",
+    "error": ""
+  },
+  {
+    "name": "gradient",
+    "mode": 2,
+    "raw": 16384,
+    "zlib_raw": 895,
+    "png": 463,
+    "output": "audit/fixtures/gradient mode 2 (vagues + miroir en contexte): brut=16384 code=5597 delta=-65.84% GAIN | magnitudes=5509 signes=88 | 67 ms\n  roundtrip identical=true\n",
+    "error": ""
+  },
+  {
+    "name": "edge",
+    "mode": 0,
+    "raw": 15875,
+    "zlib_raw": 886,
+    "png": 447,
+    "output": "audit/fixtures/edge mode 0 (vagues seules): brut=15875 code=5643 delta=-64.45% GAIN | magnitudes=5552 signes=90 | 68 ms\n  roundtrip identical=true\n",
+    "error": ""
+  },
+  {
+    "name": "edge",
+    "mode": 1,
+    "raw": 15875,
+    "zlib_raw": 886,
+    "png": 447,
+    "output": "audit/fixtures/edge mode 1 (pliage S/T (transformation)): brut=15875 code=4076 delta=-74.32% GAIN | magnitudes=3952 signes=123 | 59 ms\n  roundtrip identical=true\n",
+    "error": ""
+  },
+  {
+    "name": "edge",
+    "mode": 2,
+    "raw": 15875,
+    "zlib_raw": 886,
+    "png": 447,
+    "output": "audit/fixtures/edge mode 2 (vagues + miroir en contexte): brut=15875 code=5636 delta=-64.50% GAIN | magnitudes=5549 signes=88 | 66 ms\n  roundtrip identical=true\n",
+    "error": ""
+  },
+  {
+    "name": "noise",
+    "mode": 0,
+    "raw": 16384,
+    "zlib_raw": 16395,
+    "png": 16580,
+    "output": "audit/fixtures/noise mode 0 (vagues seules): brut=16384 code=19648 delta=+19.92% PERTE | magnitudes=18021 signes=1626 | 165 ms\n  roundtrip identical=true\n",
+    "error": ""
+  },
+  {
+    "name": "noise",
+    "mode": 1,
+    "raw": 16384,
+    "zlib_raw": 16395,
+    "png": 16580,
+    "output": "audit/fixtures/noise mode 1 (pliage S/T (transformation)): brut=16384 code=19569 delta=+19.44% PERTE | magnitudes=17764 signes=1804 | 165 ms\n  roundtrip identical=true\n",
+    "error": ""
+  },
+  {
+    "name": "noise",
+    "mode": 2,
+    "raw": 16384,
+    "zlib_raw": 16395,
+    "png": 16580,
+    "output": "audit/fixtures/noise mode 2 (vagues + miroir en contexte): brut=16384 code=19654 delta=+19.96% PERTE | magnitudes=18025 signes=1629 | 174 ms\n  roundtrip identical=true\n",
+    "error": ""
+  }
+]

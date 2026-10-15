@@ -1,0 +1,9 @@
+/tmp/ivo-jpeg-neighbour-inputs/hdr_canon_hdr_NO.jpg: 784,371 -> 650,070 bytes (82.88%), engine=JPEG_NEIGHBOUR_RESEARCH
+Engine                         valid   payload       IVO       ms  note
+STORE                          true      784,371   784,436        7  verbatim
+N&C contextuel                 true      886,480   886,545      994  PPM-like sparse contexts, order<=4
+REF + N&C                      true      882,742   882,807     1079  REF minMatch=8 then N&C; REF size=774226
+JPEG oracle exact (structure/scans) true      780,904   780,969     1092  JPEG exact; segments=9; scans=1; progressive=false; meta=21516; entropy=762855; modes=[0, 2, 0]
+JPEG frozen portfolio (ABC, spatial, directional, similarity) true      675,694   675,759    16642  DCT coefficients + exact entropy patch
+JPEG boundary portfolio (physical + presence control) true      650,005   650,070     7560  Causal AC category/presence; mode=9; exact entropy patch
+Written: /tmp/ivo-jpeg-integration-results/hdr_canon_hdr_NO.jpg/automatic.ivo

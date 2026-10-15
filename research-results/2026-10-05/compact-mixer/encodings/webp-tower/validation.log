@@ -1,0 +1,32 @@
+  zero/EOB(nd0): 2244 bytes
+  nd1: 6283 bytes
+  nd2: 4172 bytes
+  nd3-5: 3224 bytes
+  nd6-15: 875 bytes
+  sign: 4983 bytes
+  modes: 1778 bytes
+meta(deflated)=56 payload=23827
+/workspace/scratch/9c62166e5fd0/recap/ivo-java-complet-2026-10-04/research-results/2026-10-05/user-code-review/small-cases/tower.webp: 24,970 -> 23,943 bytes (95.89%), engine=USER_WEBP_RESEARCH
+Engine                         valid   payload       IVO       ms  note
+STORE                          true       24,970    25,025        1  verbatim
+N&C contextuel                 true       37,724    37,779      120  PPM-like sparse contexts, order<=4
+REF + N&C                      true       37,738    37,793       78  REF minMatch=8 then N&C; REF size=24980
+User WEBP frozen-model research true       23,888    23,943      661  frozen profile; exactness checked by Router
+Written: /workspace/scratch/9c62166e5fd0/recap/ivo-java-complet-2026-10-04/research-results/2026-10-05/compact-mixer/encodings/webp-tower/fast.ivo
+  zero/EOB(nd0): 2244 bytes
+  nd1: 6283 bytes
+  nd2: 4172 bytes
+  nd3-5: 3224 bytes
+  nd6-15: 875 bytes
+  sign: 4983 bytes
+  modes: 1778 bytes
+meta(deflated)=56 payload=23827
+/workspace/scratch/9c62166e5fd0/recap/ivo-java-complet-2026-10-04/research-results/2026-10-05/user-code-review/small-cases/tower.webp: 24,970 -> 23,943 bytes (95.89%), engine=USER_WEBP_RESEARCH
+Engine                         valid   payload       IVO       ms  note
+STORE                          true       24,970    25,025        2  verbatim
+N&C contextuel                 true       37,724    37,779      115  PPM-like sparse contexts, order<=4
+REF + N&C                      true       37,738    37,793       72  REF minMatch=8 then N&C; REF size=24980
+User WEBP frozen-model research true       23,888    23,943      607  frozen profile; exactness checked by Router
+Written: /workspace/scratch/9c62166e5fd0/recap/ivo-java-complet-2026-10-04/research-results/2026-10-05/compact-mixer/encodings/webp-tower/compact.ivo
+Restored 24,970 bytes with SHA-256 verification: /tmp/ivo-v29-webp-tower-v28
+Restored 24,970 bytes with SHA-256 verification: /tmp/ivo-v29-webp-tower-compact

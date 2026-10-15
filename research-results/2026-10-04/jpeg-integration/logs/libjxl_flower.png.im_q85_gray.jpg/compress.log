@@ -1,0 +1,9 @@
+/tmp/ivo-jpeg-external-inputs/libjxl_flower.png.im_q85_gray.jpg: 461,331 -> 377,572 bytes (81.84%), engine=JPEG_NEIGHBOUR_RESEARCH
+Engine                         valid   payload       IVO       ms  note
+STORE                          true      461,331   461,409        6  verbatim
+N&C contextuel                 true      544,972   545,050      647  PPM-like sparse contexts, order<=4
+REF + N&C                      true      545,094   545,172      767  REF minMatch=8 then N&C; REF size=461449
+JPEG oracle exact (structure/scans) true      461,366   461,444      787  JPEG exact; segments=8; scans=1; progressive=false; meta=330; entropy=461001; modes=[0, 0, 0]
+JPEG frozen portfolio (ABC, spatial, directional, similarity) true      407,128   407,206     9518  DCT coefficients + exact entropy patch
+JPEG boundary portfolio (physical + presence control) true      377,494   377,572     4750  Causal AC category/presence; mode=9; exact entropy patch
+Written: /tmp/ivo-jpeg-integration-results/libjxl_flower.png.im_q85_gray.jpg/automatic.ivo

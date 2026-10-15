@@ -1,0 +1,21 @@
+RESULT kind=MP4 file=speech-24000.mp4 raw=96330 candidate_payload=87946 candidate_container_size=88007 exact=true baseline_payload=91612 same_payload=false reference_best=91673 winner=USER_MP4_CABAC_RESEARCH new_ms=1358 old_ms=360 error= old_error=
+
+slice fallback: slice type 1
+slice fallback: slice type 1
+slice fallback: cabac mismatch
+slices modeled=11 raw=49 | modeled NAL bytes=11099 header bytes=65 tail bytes=0 | skeleton=35633
+audio frames modeled=94 raw=1 bytes=49598 -> 43302
+model bytes by group: skip=58 mbtype=127 mvd=359 ref=108 intra/chroma/t8=198 cbp=203 qpdelta=186 cbf=597 sig=2173 last=872 abs=3730 bypass=2141 term=0
+meta(deflated)=33834 (raw 35948) payload=10801 audio=43302
+slice fallback: slice type 1
+slice fallback: slice type 1
+slice fallback: cabac mismatch
+slices modeled=11 raw=49 | modeled NAL bytes=11099 header bytes=65 tail bytes=0 | skeleton=85231
+model bytes by group: skip=58 mbtype=127 mvd=359 ref=108 intra/chroma/t8=198 cbp=203 qpdelta=186 cbf=597 sig=2173 last=872 abs=3730 bypass=2141 term=0
+meta(deflated)=80855 (raw 85418) payload=10750
+slice fallback: slice type 1
+slice fallback: slice type 1
+slice fallback: cabac mismatch
+slices modeled=11 raw=49 | modeled NAL bytes=11099 header bytes=65 tail bytes=0 | skeleton=85231
+model bytes by group: skip=58 mbtype=127 mvd=359 ref=108 intra/chroma/t8=198 cbp=203 qpdelta=186 cbf=597 sig=2173 last=872 abs=3730 bypass=2141 term=0
+meta(deflated)=80855 (raw 85418) payload=10750

@@ -1,0 +1,9 @@
+recap/ivo-java-complet-2026-10-04/research-results/2026-10-05/mp4-cabac-residuals/terminal/source.mp4: 2,015 -> 1,490 bytes (73.95%), engine=MP4_V3
+Engine                         valid   payload       IVO       ms  note
+STORE                          true        2,015     2,068        1  verbatim
+N&C contextuel                 true        1,711     1,764       13  PPM-like sparse contexts, order<=4
+REF + N&C                      true        1,779     1,832       17  REF minMatch=8 then N&C; REF size=1836
+MP4 V1 (boîtes + cordes exactes) true        1,445     1,498       33  top-level ISO-BMFF layout + four exact cords
+MP4 V2 (échantillons + cordes exactes) true        1,455     1,508       56  sample map + video/audio/other/gap exact cords
+MP4 V3 (échantillons + NAL exacts) true        1,437     1,490       25  sample map + reversible NAL length/header/payload cords
+Written: /tmp/ivo-user-code-review/automatic-control.ivo

@@ -1,0 +1,11 @@
+SIDE_MODEL predictor=0 field_cords_complete=true
+SIDE_MODEL predictor=1 field_cords_complete=true
+SIDE_MODEL predictor=2 field_cords_complete=true
+SIDE_FIELDS profile=0 previous=3323339 semantic=3274459
+SIDE_FIELDS profile=1 previous=3323339 semantic=3958713
+SIDE_FIELDS profile=2 previous=3323339 semantic=4019425
+SIDE_FIELDS profile=3 previous=3323339 semantic=3274480
+RESULT profile=0 ivo=87538951 exact=true sha=c6e361e833559e842390da8541480ce47096baf61b405da64d9ef10188a2f40c
+RESULT profile=1 ivo=88223205 exact=true sha=c6e361e833559e842390da8541480ce47096baf61b405da64d9ef10188a2f40c
+RESULT profile=2 ivo=88283917 exact=true sha=c6e361e833559e842390da8541480ce47096baf61b405da64d9ef10188a2f40c
+RESULT profile=3 ivo=87538972 exact=true sha=c6e361e833559e842390da8541480ce47096baf61b405da64d9ef10188a2f40c

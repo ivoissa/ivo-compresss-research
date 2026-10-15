@@ -1,0 +1,25 @@
+import pathlib,json,collections
+names=['main_data_begin','private_bits','scfsi','part2_3_length','big_values','global_gain','scalefac_compress','window_switching_flag','block_type','mixed_block_flag','table_select_0','table_select_1','table_select_2','subblock_gain_0','subblock_gain_1','subblock_gain_2','region0_count','region1_count','preflag','scalefac_scale','count1table_select']
+labels={0:'RAW',1:'NC',2:'REF_NC',3:'zlib',4:'REF_CORDS',5:'NC_PROFILE'}
+def var(d,p):
+ v=0;shift=0
+ while True:
+  b=d[p];p+=1;v|=(b&127)<<shift
+  if b<128:return v,p
+  shift+=7
+  if shift>63:raise ValueError('Varint')
+def frame(d,p):
+ n,p=var(d,p);return d[p:p+n],p+n
+root=pathlib.Path('trials/mp3-side');rows=json.loads((root/'measurements.json').read_text());out={};counts=collections.Counter()
+for r in rows:
+ if r['delta']>=0:continue
+ d=(root/'results'/r['index']/f'side-p{r["side_profile"]}.ivo').read_bytes();n,p=var(d,6);l,p=var(d,p);p+=l+32;pay,p=frame(d,p);assert pay[:4]==b'MP35';p=5
+ for i in range(5):cord,p=frame(pay,p)
+ profile=cord[0];p=1;fields=[]
+ for f in range(21):
+  pred=profile
+  if profile==3:pred=cord[p];p+=1
+  c,p=frame(cord,p);fields.append(dict(field=names[f],predictor=pred,coder=labels[c[0]],coded_bytes=len(c)));counts[labels[c[0]]]+=1
+ out[r['index']]=fields
+(root/'selected-cords.json').write_text(json.dumps(out,indent=2));print('Selected winning field coder counts (empty fields included)',dict(counts))
+print('raw fields alone wins',sum(r['side_candidates']['0']<r['best'] for r in rows),'predictor extra bytes',sum(min(r['best'],r['side_candidates']['0'])-r['selected_best'] for r in rows))

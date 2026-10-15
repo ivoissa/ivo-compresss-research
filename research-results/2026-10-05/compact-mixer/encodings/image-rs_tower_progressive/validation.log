@@ -1,0 +1,12 @@
+/workspace/scratch/9c62166e5fd0/recap/ivo-java-complet-2026-10-04/research-results/2026-10-04/validation-v21/jpeg-inputs/image-rs_tower_progressive.jpg: 68,149 -> 59,542 bytes (87.37%), engine=JPEG_SCAN_RESEARCH
+Engine                         valid   payload       IVO       ms  note
+STORE                          true       68,149    68,224        3  verbatim
+N&C contextuel                 true       95,006    95,081      210  PPM-like sparse contexts, order<=4
+REF + N&C                      true       94,767    94,842      149  REF minMatch=8 then N&C; REF size=66421
+JPEG oracle exact (structure/scans) true       68,015    68,090      163  JPEG exact; segments=28; scans=10; progressive=true; meta=10391; entropy=57758; modes=[0, 1, 0]
+JPEG frozen portfolio (ABC, spatial, directional, similarity) false           -         -        5  IllegalArgumentException: Progressive JPEG excluded from V0/V1
+JPEG boundary + mixed-context trials false           -         -        1  IllegalArgumentException: No supported exact JPEG boundary candidate
+JPEG progressive/multiscan syntax research true       59,467    59,542     1950  exact scan syntax; mixed refinement/symbol trials; mode=4
+Written: /workspace/scratch/9c62166e5fd0/recap/ivo-java-complet-2026-10-04/research-results/2026-10-05/compact-mixer/encodings/image-rs_tower_progressive/compact.ivo
+Restored 68,149 bytes with SHA-256 verification: /tmp/ivo-v29-image-rs_tower_progressive-v28
+Restored 68,149 bytes with SHA-256 verification: /tmp/ivo-v29-image-rs_tower_progressive-compact

@@ -1,0 +1,9 @@
+/tmp/ivo-jpeg-neighbour-inputs/mobile_jolla.jpg: 811,904 -> 629,435 bytes (77.53%), engine=JPEG_NEIGHBOUR_RESEARCH
+Engine                         valid   payload       IVO       ms  note
+STORE                          true      811,904   811,965        7  verbatim
+N&C contextuel                 true      927,721   927,782     1078  PPM-like sparse contexts, order<=4
+REF + N&C                      true      925,913   925,974     1009  REF minMatch=8 then N&C; REF size=809563
+JPEG oracle exact (structure/scans) true      809,483   809,544     1061  JPEG exact; segments=8; scans=1; progressive=false; meta=4053; entropy=807851; modes=[0, 2, 0]
+JPEG frozen portfolio (ABC, spatial, directional, similarity) true      681,193   681,254    17765  DCT coefficients + exact entropy patch
+JPEG boundary portfolio (physical + presence control) true      629,374   629,435     8666  Causal AC category/presence; mode=9; exact entropy patch
+Written: /tmp/ivo-jpeg-integration-results/mobile_jolla.jpg/automatic.ivo

@@ -1,0 +1,5 @@
+CSV file,mode,original,baseline,candidate,retained,scans,progressive_scans,blocks,symbols,correction_bits,coefficient_hash,exact
+CSV libjxl_flower.png.im_q85_420_progr.jpg,0,522057,522052,511113,511113,10,10,430544,945246,538358,53f323ee8827b783,true
+CSV libjxl_flower.png.im_q85_420_progr.jpg,1,522057,522052,511309,511309,10,10,430544,945246,538358,53f323ee8827b783,true
+CSV libjxl_flower_small.q85_420_non_interleaved.jpg,0,50031,50116,47031,47031,3,0,6464,73250,0,2e85c65a267ac0b2,true
+CSV libjxl_flower_small.q85_420_non_interleaved.jpg,1,50031,50116,47003,47003,3,0,6464,73250,0,2e85c65a267ac0b2,true
